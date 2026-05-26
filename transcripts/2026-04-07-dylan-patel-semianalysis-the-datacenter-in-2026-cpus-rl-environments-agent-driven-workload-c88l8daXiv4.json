@@ -1,0 +1,3847 @@
+{
+  "metadata": {
+    "date": "2026-04-07",
+    "id": "c88l8daXiv4",
+    "title": "Dylan Patel (SemiAnalysis): The Datacenter in 2026: CPUs, RL Environments & Agent-Driven Workloads",
+    "channel": "Daytona",
+    "duration": "25:04",
+    "url": "https://www.youtube.com/watch?v=c88l8daXiv4",
+    "fetched_at": "2026-05-21T19:28:50.949792+00:00",
+    "source_tool": "uv tool run youtube_transcript_api",
+    "language_preference": [
+      "en"
+    ]
+  },
+  "transcript": [
+    {
+      "text": "everyone I'm happy to have Dylan here.",
+      "start": 10.04,
+      "duration": 4.92
+    },
+    {
+      "text": "The first time I saw one of his",
+      "start": 12.72,
+      "duration": 4.32
+    },
+    {
+      "text": "videos was an interview when he talked",
+      "start": 14.96,
+      "duration": 4.16
+    },
+    {
+      "text": "about all the way up to CPUs to talk",
+      "start": 17.04,
+      "duration": 3.76
+    },
+    {
+      "text": "about like neo clouds and why they have",
+      "start": 19.12,
+      "duration": 3.2
+    },
+    {
+      "text": "the right to exist and that was super",
+      "start": 20.8,
+      "duration": 2.88
+    },
+    {
+      "text": "interesting for me because the theme of",
+      "start": 22.32,
+      "duration": 3.12
+    },
+    {
+      "text": "today is all like what are the new",
+      "start": 23.68,
+      "duration": 3.76
+    },
+    {
+      "text": "infrastructure primitives now that",
+      "start": 25.44,
+      "duration": 3.8
+    },
+    {
+      "text": "agents are here and so you are tricking",
+      "start": 27.44,
+      "duration": 3.76
+    },
+    {
+      "text": "at that really well at that point why",
+      "start": 29.24,
+      "duration": 3.24
+    },
+    {
+      "text": "neo clouds are different from hyper",
+      "start": 31.2,
+      "duration": 3.56
+    },
+    {
+      "text": "scalers and why they should exist. So",
+      "start": 32.48,
+      "duration": 4.4
+    },
+    {
+      "text": "can you share any of that with us?",
+      "start": 34.76,
+      "duration": 3.72
+    },
+    {
+      "text": "Sure. I mean um",
+      "start": 36.88,
+      "duration": 3.12
+    },
+    {
+      "text": "in the age of AI the hyper scalers were",
+      "start": 38.48,
+      "duration": 3.2
+    },
+    {
+      "text": "a little bit slow to move right Google",
+      "start": 40.0,
+      "duration": 3.92
+    },
+    {
+      "text": "Amazon Microsoft bit slow to move into",
+      "start": 41.68,
+      "duration": 5.6
+    },
+    {
+      "text": "AI and so a whole new crop of companies",
+      "start": 43.92,
+      "duration": 6.32
+    },
+    {
+      "text": "popped up and there was a new low bar",
+      "start": 47.28,
+      "duration": 5.2
+    },
+    {
+      "text": "right there's no need for a lot of the",
+      "start": 50.24,
+      "duration": 3.96
+    },
+    {
+      "text": "complex software that Amazon Microsoft",
+      "start": 52.48,
+      "duration": 4.6
+    },
+    {
+      "text": "Google had built up and a lot of this in",
+      "start": 54.2,
+      "duration": 5.16
+    },
+    {
+      "text": "fact slowed down AI right they had",
+      "start": 57.08,
+      "duration": 3.68
+    },
+    {
+      "text": "custom networks that were actually not",
+      "start": 59.36,
+      "duration": 3.28
+    },
+    {
+      "text": "that great for AI they were more focused",
+      "start": 60.76,
+      "duration": 4.28
+    },
+    {
+      "text": "around reliability and storage traffic",
+      "start": 62.64,
+      "duration": 3.84
+    },
+    {
+      "text": "rather than",
+      "start": 65.04,
+      "duration": 2.6
+    },
+    {
+      "text": "you know doing an all reducer across the",
+      "start": 66.48,
+      "duration": 2.68
+    },
+    {
+      "text": "network or something like this so so",
+      "start": 67.64,
+      "duration": 2.56
+    },
+    {
+      "text": "there was a lot of things that these",
+      "start": 69.16,
+      "duration": 3.2
+    },
+    {
+      "text": "large cloud companies these hyper",
+      "start": 70.2,
+      "duration": 4.04
+    },
+    {
+      "text": "scalers had that neo clouds could just",
+      "start": 72.36,
+      "duration": 4.36
+    },
+    {
+      "text": "skip right and and then build focused",
+      "start": 74.24,
+      "duration": 4.44
+    },
+    {
+      "text": "optimized solutions and deliver much",
+      "start": 76.72,
+      "duration": 3.8
+    },
+    {
+      "text": "lower cost because they have much lower",
+      "start": 78.68,
+      "duration": 4.24
+    },
+    {
+      "text": "overhead right there's not 20,000 Google",
+      "start": 80.52,
+      "duration": 5.2
+    },
+    {
+      "text": "PMs sitting in a meeting",
+      "start": 82.92,
+      "duration": 4.64
+    },
+    {
+      "text": "at these neo clouds right although some",
+      "start": 85.72,
+      "duration": 3.36
+    },
+    {
+      "text": "of them have started hiring Google PMs",
+      "start": 87.56,
+      "duration": 4.04
+    },
+    {
+      "text": "and slowed down",
+      "start": 89.08,
+      "duration": 5.44
+    },
+    {
+      "text": "the the the neo clouds they they they",
+      "start": 91.6,
+      "duration": 4.48
+    },
+    {
+      "text": "just moved fast on energy they moved",
+      "start": 94.52,
+      "duration": 4.2
+    },
+    {
+      "text": "fast on bringing up GPU clusters and so",
+      "start": 96.08,
+      "duration": 4.24
+    },
+    {
+      "text": "they were able to carve out a market",
+      "start": 98.72,
+      "duration": 2.52
+    },
+    {
+      "text": "right",
+      "start": 100.32,
+      "duration": 2.24
+    },
+    {
+      "text": "and then you know those are the early",
+      "start": 101.24,
+      "duration": 2.76
+    },
+    {
+      "text": "ones and then since then there have been",
+      "start": 102.56,
+      "duration": 4.12
+    },
+    {
+      "text": "a lot more copycats or followers",
+      "start": 104.0,
+      "duration": 4.24
+    },
+    {
+      "text": "many who haven't succeeded many who are",
+      "start": 106.68,
+      "duration": 4.52
+    },
+    {
+      "text": "succeeding right it really is like a a",
+      "start": 108.24,
+      "duration": 5.24
+    },
+    {
+      "text": "battle of like who's the most competent",
+      "start": 111.2,
+      "duration": 5.0
+    },
+    {
+      "text": "And so are all the cuz there's like I",
+      "start": 113.48,
+      "duration": 3.56
+    },
+    {
+      "text": "think you said there's like an order",
+      "start": 116.2,
+      "duration": 3.0
+    },
+    {
+      "text": "there's like a 200 of these neo clouds",
+      "start": 117.04,
+      "duration": 4.76
+    },
+    {
+      "text": "or give or take right and so are there",
+      "start": 119.2,
+      "duration": 5.08
+    },
+    {
+      "text": "differentiations between them that you",
+      "start": 121.8,
+      "duration": 4.84
+    },
+    {
+      "text": "see like are are some of them just",
+      "start": 124.28,
+      "duration": 4.72
+    },
+    {
+      "text": "copying the the sort of software stack",
+      "start": 126.64,
+      "duration": 3.759
+    },
+    {
+      "text": "that these first ones did or they doing",
+      "start": 129.0,
+      "duration": 3.44
+    },
+    {
+      "text": "something else like anything that you've",
+      "start": 130.399,
+      "duration": 3.401
+    },
+    {
+      "text": "seen that have been successful and less",
+      "start": 132.44,
+      "duration": 3.4
+    },
+    {
+      "text": "successful across these neo clouds? Yeah",
+      "start": 133.8,
+      "duration": 3.36
+    },
+    {
+      "text": "so there's a variety of things that",
+      "start": 135.84,
+      "duration": 2.88
+    },
+    {
+      "text": "separate them right",
+      "start": 137.16,
+      "duration": 2.72
+    },
+    {
+      "text": "so we have something called cluster max",
+      "start": 138.72,
+      "duration": 3.24
+    },
+    {
+      "text": "that ranks all the neo clouds",
+      "start": 139.88,
+      "duration": 4.52
+    },
+    {
+      "text": "but we test for various things such as",
+      "start": 141.96,
+      "duration": 5.0
+    },
+    {
+      "text": "observability reliability networking",
+      "start": 144.4,
+      "duration": 4.0
+    },
+    {
+      "text": "security",
+      "start": 146.96,
+      "duration": 3.04
+    },
+    {
+      "text": "um",
+      "start": 148.4,
+      "duration": 3.32
+    },
+    {
+      "text": "orchestration all these sorts of things",
+      "start": 150.0,
+      "duration": 3.24
+    },
+    {
+      "text": "are different right like does does",
+      "start": 151.72,
+      "duration": 4.16
+    },
+    {
+      "text": "someone test for their GPUs to be",
+      "start": 153.24,
+      "duration": 4.76
+    },
+    {
+      "text": "working properly in when the GPUs are",
+      "start": 155.88,
+      "duration": 4.64
+    },
+    {
+      "text": "idle for a user right that's active",
+      "start": 158.0,
+      "duration": 4.4
+    },
+    {
+      "text": "health check or a passive health check",
+      "start": 160.52,
+      "duration": 3.64
+    },
+    {
+      "text": "hey are the fans spinning at the right",
+      "start": 162.4,
+      "duration": 4.16
+    },
+    {
+      "text": "speed or are the you know is it drawing",
+      "start": 164.16,
+      "duration": 3.6
+    },
+    {
+      "text": "the right power is there something wrong",
+      "start": 166.56,
+      "duration": 2.92
+    },
+    {
+      "text": "with the node is the is the network",
+      "start": 167.76,
+      "duration": 3.32
+    },
+    {
+      "text": "flapping or is anything problem problem",
+      "start": 169.48,
+      "duration": 2.64
+    },
+    {
+      "text": "with the network is the performance",
+      "start": 171.08,
+      "duration": 2.08
+    },
+    {
+      "text": "there right like there's all these sorts",
+      "start": 172.12,
+      "duration": 2.88
+    },
+    {
+      "text": "of checks and tests because GPUs are",
+      "start": 173.16,
+      "duration": 3.44
+    },
+    {
+      "text": "unreliable",
+      "start": 175.0,
+      "duration": 5.24
+    },
+    {
+      "text": "um there's all sorts of stuff around um",
+      "start": 176.6,
+      "duration": 5.04
+    },
+    {
+      "text": "the types of software you run on top of",
+      "start": 180.24,
+      "duration": 3.24
+    },
+    {
+      "text": "the GPU right many people started off",
+      "start": 181.64,
+      "duration": 3.52
+    },
+    {
+      "text": "doing just bare metal right so when you",
+      "start": 183.48,
+      "duration": 3.68
+    },
+    {
+      "text": "go look at like hey Microsoft's first",
+      "start": 185.16,
+      "duration": 3.28
+    },
+    {
+      "text": "contracts with",
+      "start": 187.16,
+      "duration": 2.96
+    },
+    {
+      "text": "Coreweave they were all bare metal right",
+      "start": 188.44,
+      "duration": 3.68
+    },
+    {
+      "text": "you just SSH in and Microsoft would set",
+      "start": 190.12,
+      "duration": 3.44
+    },
+    {
+      "text": "up their own stuff",
+      "start": 192.12,
+      "duration": 3.0
+    },
+    {
+      "text": "but as we've stepped forward there's a",
+      "start": 193.56,
+      "duration": 4.12
+    },
+    {
+      "text": "lot more people want right",
+      "start": 195.12,
+      "duration": 4.16
+    },
+    {
+      "text": "people wanted Slurm installed okay",
+      "start": 197.68,
+      "duration": 3.04
+    },
+    {
+      "text": "that's simple people wanted Kubernetes",
+      "start": 199.28,
+      "duration": 2.76
+    },
+    {
+      "text": "installed that's a little bit more",
+      "start": 200.72,
+      "duration": 2.84
+    },
+    {
+      "text": "difficult but still pretty simple people",
+      "start": 202.04,
+      "duration": 4.32
+    },
+    {
+      "text": "wanted Slurm on Kubernetes installed",
+      "start": 203.56,
+      "duration": 4.4
+    },
+    {
+      "text": "cuz it's easier to push out jobs and",
+      "start": 206.36,
+      "duration": 3.32
+    },
+    {
+      "text": "things like that right and now you're",
+      "start": 207.96,
+      "duration": 2.88
+    },
+    {
+      "text": "starting to see people do things like",
+      "start": 209.68,
+      "duration": 2.8
+    },
+    {
+      "text": "managed ray services and all these",
+      "start": 210.84,
+      "duration": 3.92
+    },
+    {
+      "text": "things for RL",
+      "start": 212.48,
+      "duration": 4.96
+    },
+    {
+      "text": "and so there is a class of neo clouds",
+      "start": 214.76,
+      "duration": 3.88
+    },
+    {
+      "text": "that are building these things and",
+      "start": 217.44,
+      "duration": 2.32
+    },
+    {
+      "text": "there's a class of neo clouds that are",
+      "start": 218.64,
+      "duration": 2.24
+    },
+    {
+      "text": "like I don't care about that I'm just",
+      "start": 219.76,
+      "duration": 2.92
+    },
+    {
+      "text": "going to build GPUs and rent them out at",
+      "start": 220.88,
+      "duration": 3.52
+    },
+    {
+      "text": "bare metal",
+      "start": 222.68,
+      "duration": 3.16
+    },
+    {
+      "text": "and and there is a difference in cost",
+      "start": 224.4,
+      "duration": 4.36
+    },
+    {
+      "text": "right like the the clouds that have",
+      "start": 225.84,
+      "duration": 4.44
+    },
+    {
+      "text": "the good software also tend to charge",
+      "start": 228.76,
+      "duration": 4.4
+    },
+    {
+      "text": "more and and sort of returns back to the",
+      "start": 230.28,
+      "duration": 4.64
+    },
+    {
+      "text": "old school model where Google Microsoft",
+      "start": 233.16,
+      "duration": 3.48
+    },
+    {
+      "text": "Amazon had good software and they",
+      "start": 234.92,
+      "duration": 2.72
+    },
+    {
+      "text": "charged",
+      "start": 236.64,
+      "duration": 2.44
+    },
+    {
+      "text": "right",
+      "start": 237.64,
+      "duration": 3.32
+    },
+    {
+      "text": "and so you know and and you see a lot of",
+      "start": 239.08,
+      "duration": 3.4
+    },
+    {
+      "text": "these cloud companies start trying to",
+      "start": 240.96,
+      "duration": 3.52
+    },
+    {
+      "text": "launch inference services",
+      "start": 242.48,
+      "duration": 4.72
+    },
+    {
+      "text": "and all these other things yeah",
+      "start": 244.48,
+      "duration": 4.92
+    },
+    {
+      "text": "So like that similarly in that vein I'll",
+      "start": 247.2,
+      "duration": 5.6
+    },
+    {
+      "text": "just get to the CPU ones where",
+      "start": 249.4,
+      "duration": 4.68
+    },
+    {
+      "text": "historically we have customers that ask",
+      "start": 252.8,
+      "duration": 2.72
+    },
+    {
+      "text": "for this with like open cloud that",
+      "start": 254.08,
+      "duration": 3.12
+    },
+    {
+      "text": "happened so that there's a bunch of",
+      "start": 255.52,
+      "duration": 3.439
+    },
+    {
+      "text": "people that are like oh I need my",
+      "start": 257.2,
+      "duration": 3.759
+    },
+    {
+      "text": "sandbox or CPU box running for a very",
+      "start": 258.959,
+      "duration": 5.161
+    },
+    {
+      "text": "very long time can you give me like a $5",
+      "start": 260.959,
+      "duration": 5.281
+    },
+    {
+      "text": "Hetzner type you know offering and I'm",
+      "start": 264.12,
+      "duration": 4.64
+    },
+    {
+      "text": "like well no because like that is a bare",
+      "start": 266.24,
+      "duration": 5.04
+    },
+    {
+      "text": "metal machine that has no incurs very",
+      "start": 268.76,
+      "duration": 3.96
+    },
+    {
+      "text": "little cost",
+      "start": 271.28,
+      "duration": 2.56
+    },
+    {
+      "text": "but when you have something that's",
+      "start": 272.72,
+      "duration": 3.28
+    },
+    {
+      "text": "larger software offering then there is",
+      "start": 273.84,
+      "duration": 3.52
+    },
+    {
+      "text": "more cost so it's hard to to compete",
+      "start": 276.0,
+      "duration": 2.6
+    },
+    {
+      "text": "with that so I would assume also on the",
+      "start": 277.36,
+      "duration": 2.4
+    },
+    {
+      "text": "neo clouds that like the ones that are",
+      "start": 278.6,
+      "duration": 3.32
+    },
+    {
+      "text": "bare metal as you mentioned have a lower",
+      "start": 279.76,
+      "duration": 4.76
+    },
+    {
+      "text": "cost of sale than the the software ones",
+      "start": 281.92,
+      "duration": 3.76
+    },
+    {
+      "text": "um",
+      "start": 284.52,
+      "duration": 3.6
+    },
+    {
+      "text": "that moving just I was just curious",
+      "start": 285.68,
+      "duration": 4.48
+    },
+    {
+      "text": "about that like why the right to exist",
+      "start": 288.12,
+      "duration": 4.04
+    },
+    {
+      "text": "they had because it's sort of",
+      "start": 290.16,
+      "duration": 4.32
+    },
+    {
+      "text": "analogized with what we do",
+      "start": 292.16,
+      "duration": 3.76
+    },
+    {
+      "text": "but the real question is you brought",
+      "start": 294.48,
+      "duration": 3.08
+    },
+    {
+      "text": "this up which is directionally what",
+      "start": 295.92,
+      "duration": 3.6
+    },
+    {
+      "text": "we're thinking about is that CPUs are",
+      "start": 297.56,
+      "duration": 3.88
+    },
+    {
+      "text": "the new bottleneck like every investor",
+      "start": 299.52,
+      "duration": 3.32
+    },
+    {
+      "text": "partner everyone that I talked to",
+      "start": 301.44,
+      "duration": 3.84
+    },
+    {
+      "text": "historically was just like GPU GPU GPU",
+      "start": 302.84,
+      "duration": 4.24
+    },
+    {
+      "text": "and now you had this big report about",
+      "start": 305.28,
+      "duration": 4.68
+    },
+    {
+      "text": "like CPUs and I'm like okay yes thank",
+      "start": 307.08,
+      "duration": 4.76
+    },
+    {
+      "text": "you and so you reported like this year",
+      "start": 309.96,
+      "duration": 3.96
+    },
+    {
+      "text": "will be a bottleneck so just give us a",
+      "start": 311.84,
+      "duration": 4.12
+    },
+    {
+      "text": "high level TLDR why is CPU now",
+      "start": 313.92,
+      "duration": 3.76
+    },
+    {
+      "text": "bottleneck and what do you see? Yeah I",
+      "start": 315.96,
+      "duration": 4.0
+    },
+    {
+      "text": "mean for the first few years of AI CPU",
+      "start": 317.68,
+      "duration": 4.48
+    },
+    {
+      "text": "was a real big lagger right",
+      "start": 319.96,
+      "duration": 4.36
+    },
+    {
+      "text": "sure you used it for some storage used",
+      "start": 322.16,
+      "duration": 3.96
+    },
+    {
+      "text": "it for some checkpointing used it for",
+      "start": 324.32,
+      "duration": 2.92
+    },
+    {
+      "text": "pre-processing your data and",
+      "start": 326.12,
+      "duration": 3.68
+    },
+    {
+      "text": "pre-training but it was pretty light and",
+      "start": 327.24,
+      "duration": 4.12
+    },
+    {
+      "text": "then inference was also like the models",
+      "start": 329.8,
+      "duration": 3.56
+    },
+    {
+      "text": "just weren't good enough to be agentic",
+      "start": 331.36,
+      "duration": 3.8
+    },
+    {
+      "text": "you couldn't you know go step by step by",
+      "start": 333.36,
+      "duration": 3.12
+    },
+    {
+      "text": "step so there was no there was no",
+      "start": 335.16,
+      "duration": 2.96
+    },
+    {
+      "text": "capability for a model to go and do",
+      "start": 336.48,
+      "duration": 4.2
+    },
+    {
+      "text": "actions and string them together so then",
+      "start": 338.12,
+      "duration": 3.88
+    },
+    {
+      "text": "it wasn't really it was like it was like",
+      "start": 340.68,
+      "duration": 2.44
+    },
+    {
+      "text": "you would send a string and it send a",
+      "start": 342.0,
+      "duration": 2.8
+    },
+    {
+      "text": "string back right simple inference and",
+      "start": 343.12,
+      "duration": 3.96
+    },
+    {
+      "text": "so there was not much need for",
+      "start": 344.8,
+      "duration": 5.36
+    },
+    {
+      "text": "CPUs but then over the last",
+      "start": 347.08,
+      "duration": 4.96
+    },
+    {
+      "text": "few years or last couple years it's not",
+      "start": 350.16,
+      "duration": 4.76
+    },
+    {
+      "text": "even like last couple years right",
+      "start": 352.04,
+      "duration": 5.16
+    },
+    {
+      "text": "you know Q star open I had that and they",
+      "start": 354.92,
+      "duration": 4.32
+    },
+    {
+      "text": "had all that drama but then finally 01",
+      "start": 357.2,
+      "duration": 4.08
+    },
+    {
+      "text": "preview launched I want to say like 15",
+      "start": 359.24,
+      "duration": 3.8
+    },
+    {
+      "text": "16 months ago",
+      "start": 361.28,
+      "duration": 2.92
+    },
+    {
+      "text": "feels like much longer ago",
+      "start": 363.04,
+      "duration": 3.96
+    },
+    {
+      "text": ">> a long time ago Yeah ages yeah but 01",
+      "start": 364.2,
+      "duration": 4.56
+    },
+    {
+      "text": "was the first model sort of there and",
+      "start": 367.0,
+      "duration": 4.08
+    },
+    {
+      "text": "and we we sort of had a entire flood of",
+      "start": 368.76,
+      "duration": 4.52
+    },
+    {
+      "text": "models right like before people would do",
+      "start": 371.08,
+      "duration": 5.72
+    },
+    {
+      "text": "simple things like check the output of",
+      "start": 373.28,
+      "duration": 5.8
+    },
+    {
+      "text": "the model with regex or something simple",
+      "start": 376.8,
+      "duration": 3.88
+    },
+    {
+      "text": "just to see if it was doing structured",
+      "start": 379.08,
+      "duration": 3.4
+    },
+    {
+      "text": "properly doing structured outputs you",
+      "start": 380.68,
+      "duration": 2.76
+    },
+    {
+      "text": "know for function calling and things",
+      "start": 382.48,
+      "duration": 2.76
+    },
+    {
+      "text": "like this right but as we've stepped",
+      "start": 383.44,
+      "duration": 4.12
+    },
+    {
+      "text": "forward the the",
+      "start": 385.24,
+      "duration": 3.76
+    },
+    {
+      "text": "the checks on the model are much much",
+      "start": 387.56,
+      "duration": 3.68
+    },
+    {
+      "text": "larger integrated fully into training",
+      "start": 389.0,
+      "duration": 3.8
+    },
+    {
+      "text": "right with reinforcement learning right",
+      "start": 391.24,
+      "duration": 3.0
+    },
+    {
+      "text": "instead of just doing regex you're doing",
+      "start": 392.8,
+      "duration": 2.6
+    },
+    {
+      "text": "like various classifiers instead of",
+      "start": 394.24,
+      "duration": 3.28
+    },
+    {
+      "text": "doing classifiers you're doing like code",
+      "start": 395.4,
+      "duration": 3.76
+    },
+    {
+      "text": "unit test and compilation instead of",
+      "start": 397.52,
+      "duration": 3.8
+    },
+    {
+      "text": "doing that you're running",
+      "start": 399.16,
+      "duration": 3.36
+    },
+    {
+      "text": "you know agentic flows where it's",
+      "start": 401.32,
+      "duration": 3.68
+    },
+    {
+      "text": "actually calling databases and stuff",
+      "start": 402.52,
+      "duration": 4.48
+    },
+    {
+      "text": "or you're interfacing with some",
+      "start": 405.0,
+      "duration": 3.64
+    },
+    {
+      "text": "environment that is heavy on CPU like a",
+      "start": 407.0,
+      "duration": 3.76
+    },
+    {
+      "text": "physics simulation or or biology",
+      "start": 408.64,
+      "duration": 3.48
+    },
+    {
+      "text": "simulation",
+      "start": 410.76,
+      "duration": 2.92
+    },
+    {
+      "text": "you just kept stepping into more and",
+      "start": 412.12,
+      "duration": 4.44
+    },
+    {
+      "text": "more complicated things where the model",
+      "start": 413.68,
+      "duration": 4.84
+    },
+    {
+      "text": "outputs to checks it right this",
+      "start": 416.56,
+      "duration": 2.96
+    },
+    {
+      "text": "environment reinforcement learning",
+      "start": 418.52,
+      "duration": 2.44
+    },
+    {
+      "text": "environment and then goes back and",
+      "start": 419.52,
+      "duration": 3.0
+    },
+    {
+      "text": "trains on it and and this loop has",
+      "start": 420.96,
+      "duration": 3.2
+    },
+    {
+      "text": "gotten tighter and tighter and tighter",
+      "start": 422.52,
+      "duration": 3.36
+    },
+    {
+      "text": "over the last couple years and then more",
+      "start": 424.16,
+      "duration": 3.76
+    },
+    {
+      "text": "recently over the let's call it really",
+      "start": 425.88,
+      "duration": 6.36
+    },
+    {
+      "text": "the last 6 months you know code agent",
+      "start": 427.92,
+      "duration": 7.12
+    },
+    {
+      "text": "revenue has gone from a couple billion",
+      "start": 432.24,
+      "duration": 5.12
+    },
+    {
+      "text": "to north of 10 billion in like a very",
+      "start": 435.04,
+      "duration": 4.16
+    },
+    {
+      "text": "short amount of time",
+      "start": 437.36,
+      "duration": 4.28
+    },
+    {
+      "text": "and and these the horizon of these has",
+      "start": 439.2,
+      "duration": 4.36
+    },
+    {
+      "text": "also increased dramatically right like",
+      "start": 441.64,
+      "duration": 4.8
+    },
+    {
+      "text": "54 codex can work for like 67 hours and",
+      "start": 443.56,
+      "duration": 5.24
+    },
+    {
+      "text": "it's like fine right",
+      "start": 446.44,
+      "duration": 6.08
+    },
+    {
+      "text": "and so you know it's it's in that time",
+      "start": 448.8,
+      "duration": 6.6
+    },
+    {
+      "text": "frame it's doing all sorts of calls to",
+      "start": 452.52,
+      "duration": 4.96
+    },
+    {
+      "text": "databases it's doing calls to you know",
+      "start": 455.4,
+      "duration": 3.96
+    },
+    {
+      "text": "at least we we use a lot of cron servers",
+      "start": 457.48,
+      "duration": 3.0
+    },
+    {
+      "text": "but you know like whatever whatever it",
+      "start": 459.36,
+      "duration": 2.8
+    },
+    {
+      "text": "is right there's anything and everything",
+      "start": 460.48,
+      "duration": 4.2
+    },
+    {
+      "text": "it can go ping check it out scrape and",
+      "start": 462.16,
+      "duration": 4.52
+    },
+    {
+      "text": "just work agentically on its own",
+      "start": 464.68,
+      "duration": 3.8
+    },
+    {
+      "text": "and that's also requiring a lot of CPUs",
+      "start": 466.68,
+      "duration": 3.8
+    },
+    {
+      "text": "so over the last 6 months that's",
+      "start": 468.48,
+      "duration": 3.6
+    },
+    {
+      "text": "ballooned as well in addition to the",
+      "start": 470.48,
+      "duration": 2.88
+    },
+    {
+      "text": "reinforcement learning training loop",
+      "start": 472.08,
+      "duration": 3.12
+    },
+    {
+      "text": "getting tighter and tighter and so over",
+      "start": 473.36,
+      "duration": 4.48
+    },
+    {
+      "text": "the last 6 months we've seen um",
+      "start": 475.2,
+      "duration": 5.96
+    },
+    {
+      "text": "the entire cloud market run out of CPUs",
+      "start": 477.84,
+      "duration": 4.88
+    },
+    {
+      "text": "right",
+      "start": 481.16,
+      "duration": 2.92
+    },
+    {
+      "text": "I don't know if you folks have",
+      "start": 482.72,
+      "duration": 2.88
+    },
+    {
+      "text": "interacted with GitHub a lot recently",
+      "start": 484.08,
+      "duration": 3.28
+    },
+    {
+      "text": "but it's really unstable",
+      "start": 485.6,
+      "duration": 2.64
+    },
+    {
+      "text": ">> I think you're the third person to",
+      "start": 487.36,
+      "duration": 3.04
+    },
+    {
+      "text": "mention that today Okay",
+      "start": 488.24,
+      "duration": 3.6
+    },
+    {
+      "text": ">> Yeah Yeah yeah so we've we've been we've",
+      "start": 490.4,
+      "duration": 3.0
+    },
+    {
+      "text": "been like checking GitHub's like stats",
+      "start": 491.84,
+      "duration": 4.12
+    },
+    {
+      "text": "on like how often is it down how often",
+      "start": 493.4,
+      "duration": 3.92
+    },
+    {
+      "text": "does it fail to commit like you know",
+      "start": 495.96,
+      "duration": 3.4
+    },
+    {
+      "text": "whatever right it's it's terrible and",
+      "start": 497.32,
+      "duration": 3.28
+    },
+    {
+      "text": "that's because Microsoft sold all their",
+      "start": 499.36,
+      "duration": 3.72
+    },
+    {
+      "text": "CPUs that they had spare to other people",
+      "start": 500.6,
+      "duration": 3.56
+    },
+    {
+      "text": "right",
+      "start": 503.08,
+      "duration": 3.44
+    },
+    {
+      "text": "either internal use for their lab but",
+      "start": 504.16,
+      "duration": 4.2
+    },
+    {
+      "text": "you know not really more so like",
+      "start": 506.52,
+      "duration": 3.08
+    },
+    {
+      "text": "external labs they signed deals with",
+      "start": 508.36,
+      "duration": 3.44
+    },
+    {
+      "text": "Anthropic and OpenAI",
+      "start": 509.6,
+      "duration": 4.119
+    },
+    {
+      "text": "and so they just have like no CPUs left",
+      "start": 511.8,
+      "duration": 3.16
+    },
+    {
+      "text": "right",
+      "start": 513.719,
+      "duration": 3.281
+    },
+    {
+      "text": "and we've seen you know the same at many",
+      "start": 514.96,
+      "duration": 3.8
+    },
+    {
+      "text": "other",
+      "start": 517.0,
+      "duration": 3.24
+    },
+    {
+      "text": "firms right so whereas before you'd have",
+      "start": 518.76,
+      "duration": 3.48
+    },
+    {
+      "text": "like you know have many GPU servers per",
+      "start": 520.24,
+      "duration": 3.679
+    },
+    {
+      "text": "CPU server",
+      "start": 522.24,
+      "duration": 3.16
+    },
+    {
+      "text": "and so you'd be like you know 100",
+      "start": 523.919,
+      "duration": 3.041
+    },
+    {
+      "text": "megawatts of GPUs would be served by",
+      "start": 525.4,
+      "duration": 3.76
+    },
+    {
+      "text": "even like 1 megawatt or less of CPUs",
+      "start": 526.96,
+      "duration": 4.28
+    },
+    {
+      "text": "nowadays the ratio is like getting much",
+      "start": 529.16,
+      "duration": 5.32
+    },
+    {
+      "text": "much closer both for RL training and and",
+      "start": 531.24,
+      "duration": 5.56
+    },
+    {
+      "text": "for inference agentic inference so then",
+      "start": 534.48,
+      "duration": 5.0
+    },
+    {
+      "text": "you you've just seen everyone run out of",
+      "start": 536.8,
+      "duration": 6.16
+    },
+    {
+      "text": "CPUs Amazon's volumes on CPUs",
+      "start": 539.48,
+      "duration": 4.76
+    },
+    {
+      "text": "of CPU servers they're installing have",
+      "start": 542.96,
+      "duration": 3.36
+    },
+    {
+      "text": "3x year on year right from this year",
+      "start": 544.24,
+      "duration": 3.52
+    },
+    {
+      "text": "versus last year",
+      "start": 546.32,
+      "duration": 3.56
+    },
+    {
+      "text": "and so that there's just no capacity",
+      "start": 547.76,
+      "duration": 4.12
+    },
+    {
+      "text": "anywhere and that's causing a lot of",
+      "start": 549.88,
+      "duration": 3.4
+    },
+    {
+      "text": "instability",
+      "start": 551.88,
+      "duration": 2.88
+    },
+    {
+      "text": "not just in GitHub but probably other",
+      "start": 553.28,
+      "duration": 3.96
+    },
+    {
+      "text": "places too I mean a lot of",
+      "start": 554.76,
+      "duration": 3.76
+    },
+    {
+      "text": "infrastructure today we talked about",
+      "start": 557.24,
+      "duration": 3.16
+    },
+    {
+      "text": "this like every day it's normal to see",
+      "start": 558.52,
+      "duration": 4.6
+    },
+    {
+      "text": "that some infra provider be it GitHub or",
+      "start": 560.4,
+      "duration": 4.84
+    },
+    {
+      "text": "being like an actual not to name like",
+      "start": 563.12,
+      "duration": 4.44
+    },
+    {
+      "text": "they go down like it's become quite a",
+      "start": 565.24,
+      "duration": 4.28
+    },
+    {
+      "text": "constant thing and so could be lack of",
+      "start": 567.56,
+      "duration": 4.2
+    },
+    {
+      "text": "CPUs but also scale of the workloads and",
+      "start": 569.52,
+      "duration": 3.0
+    },
+    {
+      "text": "what not so",
+      "start": 571.76,
+      "duration": 2.72
+    },
+    {
+      "text": ">> that everyone's infra code is vibe coded",
+      "start": 572.52,
+      "duration": 3.36
+    },
+    {
+      "text": "Yeah it could be that everyone's infra",
+      "start": 574.48,
+      "duration": 3.64
+    },
+    {
+      "text": "code is vibe coded yeah could that be as",
+      "start": 575.88,
+      "duration": 3.44
+    },
+    {
+      "text": "well I don't think it's all but there",
+      "start": 578.12,
+      "duration": 3.6
+    },
+    {
+      "text": "could be there could be parts of that",
+      "start": 579.32,
+      "duration": 4.96
+    },
+    {
+      "text": "that is there and so what I see which is",
+      "start": 581.72,
+      "duration": 5.84
+    },
+    {
+      "text": "interesting as well as the number of CPU",
+      "start": 584.28,
+      "duration": 5.12
+    },
+    {
+      "text": "workloads or the number of that are",
+      "start": 587.56,
+      "duration": 3.44
+    },
+    {
+      "text": "running on us so Daytona has basically",
+      "start": 589.4,
+      "duration": 3.52
+    },
+    {
+      "text": "three use cases so it's like code and",
+      "start": 591.0,
+      "duration": 3.6
+    },
+    {
+      "text": "command execution so if you like a",
+      "start": 592.92,
+      "duration": 3.32
+    },
+    {
+      "text": "a cloud code type of thing needs to run",
+      "start": 594.6,
+      "duration": 2.72
+    },
+    {
+      "text": "on a",
+      "start": 596.24,
+      "duration": 3.28
+    },
+    {
+      "text": "We have computer use case cases which we",
+      "start": 597.32,
+      "duration": 4.08
+    },
+    {
+      "text": "see actually",
+      "start": 599.52,
+      "duration": 3.76
+    },
+    {
+      "text": "growing really fast. We've now launched",
+      "start": 601.4,
+      "duration": 4.28
+    },
+    {
+      "text": "today we announced our Windows sandbox",
+      "start": 603.28,
+      "duration": 3.76
+    },
+    {
+      "text": "which runs on a CPU. So if you need an",
+      "start": 605.68,
+      "duration": 3.6
+    },
+    {
+      "text": "agent to do like on legacy software",
+      "start": 607.04,
+      "duration": 4.12
+    },
+    {
+      "text": "which is like all finance, all support,",
+      "start": 609.28,
+      "duration": 4.36
+    },
+    {
+      "text": "all um that's all there. But I'll also",
+      "start": 611.16,
+      "duration": 3.72
+    },
+    {
+      "text": "to your point like reinforcement",
+      "start": 613.64,
+      "duration": 2.76
+    },
+    {
+      "text": "learning, we have a bunch of people that",
+      "start": 614.88,
+      "duration": 3.96
+    },
+    {
+      "text": "usually use like Kubernetes. Now they",
+      "start": 616.4,
+      "duration": 3.8
+    },
+    {
+      "text": "would use us. But the interesting thing",
+      "start": 618.84,
+      "duration": 4.12
+    },
+    {
+      "text": "is the the size and scale of these loads",
+      "start": 620.2,
+      "duration": 4.24
+    },
+    {
+      "text": "are insanely large and they're growing",
+      "start": 622.96,
+      "duration": 2.92
+    },
+    {
+      "text": "insanely large. And we're like the",
+      "start": 624.44,
+      "duration": 4.96
+    },
+    {
+      "text": "smallest cloud in the world. So my",
+      "start": 625.88,
+      "duration": 5.32
+    },
+    {
+      "text": "interest to what in the question is like",
+      "start": 629.4,
+      "duration": 4.56
+    },
+    {
+      "text": "if we as a very very small company have",
+      "start": 631.2,
+      "duration": 3.96
+    },
+    {
+      "text": "this much, what does that do at the",
+      "start": 633.96,
+      "duration": 3.52
+    },
+    {
+      "text": "large scale, right? Like so um and we've",
+      "start": 635.16,
+      "duration": 4.16
+    },
+    {
+      "text": "had I'm curious if you have any insight",
+      "start": 637.48,
+      "duration": 4.44
+    },
+    {
+      "text": "on this, but just just RL let alone the",
+      "start": 639.32,
+      "duration": 3.88
+    },
+    {
+      "text": "long running agents which are on their",
+      "start": 641.92,
+      "duration": 3.8
+    },
+    {
+      "text": "own, we we see customers coming in. One",
+      "start": 643.2,
+      "duration": 4.24
+    },
+    {
+      "text": "of them ran a million one single",
+      "start": 645.72,
+      "duration": 3.4
+    },
+    {
+      "text": "customer yesterday in the span of 6",
+      "start": 647.44,
+      "duration": 3.08
+    },
+    {
+      "text": "hours. Like 1 million of these CPU",
+      "start": 649.12,
+      "duration": 3.16
+    },
+    {
+      "text": "workloads. So that's one customer. And",
+      "start": 650.52,
+      "duration": 2.84
+    },
+    {
+      "text": "so like how many of these customers are",
+      "start": 652.28,
+      "duration": 2.48
+    },
+    {
+      "text": "doing RL? They're going to need this. I",
+      "start": 653.36,
+      "duration": 2.4
+    },
+    {
+      "text": "I don't know if you have any insights on",
+      "start": 654.76,
+      "duration": 2.8
+    },
+    {
+      "text": "this, but I'm just curious.",
+      "start": 655.76,
+      "duration": 3.44
+    },
+    {
+      "text": "Um I mean I mean there there there there",
+      "start": 657.56,
+      "duration": 3.44
+    },
+    {
+      "text": "are some pretty uh",
+      "start": 659.2,
+      "duration": 3.52
+    },
+    {
+      "text": "shocking metrics. Like a million VCPUs",
+      "start": 661.0,
+      "duration": 3.36
+    },
+    {
+      "text": "sounds insane.",
+      "start": 662.72,
+      "duration": 3.84
+    },
+    {
+      "text": "Um but there some of the some of the",
+      "start": 664.36,
+      "duration": 3.479
+    },
+    {
+      "text": "scale of the workloads and contracts",
+      "start": 666.56,
+      "duration": 3.52
+    },
+    {
+      "text": "people are signing are are even like",
+      "start": 667.839,
+      "duration": 4.241
+    },
+    {
+      "text": "more ridiculous than that, right?",
+      "start": 670.08,
+      "duration": 3.48
+    },
+    {
+      "text": "Um I'm sure that's because we're really",
+      "start": 672.08,
+      "duration": 2.08
+    },
+    {
+      "text": "small. That's what I",
+      "start": 673.56,
+      "duration": 2.8
+    },
+    {
+      "text": ">> Yeah, yeah. So so I guess I guess like",
+      "start": 674.16,
+      "duration": 3.679
+    },
+    {
+      "text": "when you look at like again like when",
+      "start": 676.36,
+      "duration": 2.68
+    },
+    {
+      "text": "you look at like the Anthropic at Open",
+      "start": 677.839,
+      "duration": 2.761
+    },
+    {
+      "text": "AI of the world, they have they have",
+      "start": 679.04,
+      "duration": 3.92
+    },
+    {
+      "text": "fully just eaten the entire capacity of",
+      "start": 680.6,
+      "duration": 4.36
+    },
+    {
+      "text": "multiple clouds, right? A lot of the",
+      "start": 682.96,
+      "duration": 4.44
+    },
+    {
+      "text": "impetus for the recent Amazon and Open",
+      "start": 684.96,
+      "duration": 4.76
+    },
+    {
+      "text": "AI deal was yes, Open AI wanted money,",
+      "start": 687.4,
+      "duration": 3.96
+    },
+    {
+      "text": "yes, they needed compute, but they also",
+      "start": 689.72,
+      "duration": 3.4
+    },
+    {
+      "text": "just like went to Amazon and were like",
+      "start": 691.36,
+      "duration": 2.72
+    },
+    {
+      "text": "give us your CPU.",
+      "start": 693.12,
+      "duration": 4.96
+    },
+    {
+      "text": ">> CPUs, yeah. Right? Um and and before",
+      "start": 694.08,
+      "duration": 6.12
+    },
+    {
+      "text": "Open AI's stack was pretty much only on",
+      "start": 698.08,
+      "duration": 4.36
+    },
+    {
+      "text": "x86 CPUs, but Amazon had tons of ARM",
+      "start": 700.2,
+      "duration": 3.4
+    },
+    {
+      "text": "CPUs and so they ported the whole thing,",
+      "start": 702.44,
+      "duration": 2.92
+    },
+    {
+      "text": "right? It's like anywhere I'll I'll port",
+      "start": 703.6,
+      "duration": 4.28
+    },
+    {
+      "text": "my code base to get uh access, right? To",
+      "start": 705.36,
+      "duration": 4.4
+    },
+    {
+      "text": "access to CPUs. And so this is like the",
+      "start": 707.88,
+      "duration": 3.48
+    },
+    {
+      "text": "the level of like and it's not that",
+      "start": 709.76,
+      "duration": 3.4
+    },
+    {
+      "text": "difficult to port port from x86 to ARM,",
+      "start": 711.36,
+      "duration": 3.2
+    },
+    {
+      "text": "but you know, like there's there's very",
+      "start": 713.16,
+      "duration": 2.92
+    },
+    {
+      "text": "few dependencies that aren't working",
+      "start": 714.56,
+      "duration": 5.52
+    },
+    {
+      "text": "now, but um this is the level of like",
+      "start": 716.08,
+      "duration": 5.64
+    },
+    {
+      "text": "um engineering people are willing to go",
+      "start": 720.08,
+      "duration": 3.68
+    },
+    {
+      "text": "to, right? Cuz usually devs are too lazy",
+      "start": 721.72,
+      "duration": 3.52
+    },
+    {
+      "text": "to do anything",
+      "start": 723.76,
+      "duration": 2.56
+    },
+    {
+      "text": "um and they'll just go get capacity",
+      "start": 725.24,
+      "duration": 2.48
+    },
+    {
+      "text": "elsewhere, but there isn't capacity",
+      "start": 726.32,
+      "duration": 2.84
+    },
+    {
+      "text": "anywhere else.",
+      "start": 727.72,
+      "duration": 2.8
+    },
+    {
+      "text": "Yeah, so I mean that's interesting like",
+      "start": 729.16,
+      "duration": 3.16
+    },
+    {
+      "text": "we're all x86. That's all we have. We",
+      "start": 730.52,
+      "duration": 3.56
+    },
+    {
+      "text": "don't have our our ARM at the moment.",
+      "start": 732.32,
+      "duration": 3.519
+    },
+    {
+      "text": "But then like there's those two which I",
+      "start": 734.08,
+      "duration": 4.2
+    },
+    {
+      "text": "know, but also like Nvidia has their",
+      "start": 735.839,
+      "duration": 3.921
+    },
+    {
+      "text": "like CPU, other people building out",
+      "start": 738.28,
+      "duration": 3.48
+    },
+    {
+      "text": "their CPUs. There's also differences",
+      "start": 739.76,
+      "duration": 3.48
+    },
+    {
+      "text": "between these CPUs. Are there just going",
+      "start": 741.76,
+      "duration": 2.52
+    },
+    {
+      "text": "to be like these general purpose CPUs?",
+      "start": 743.24,
+      "duration": 2.64
+    },
+    {
+      "text": "There's also like you probably know more",
+      "start": 744.28,
+      "duration": 2.76
+    },
+    {
+      "text": "about this than I do. I'm just like",
+      "start": 745.88,
+      "duration": 2.8
+    },
+    {
+      "text": "super curious.",
+      "start": 747.04,
+      "duration": 3.72
+    },
+    {
+      "text": "Um on the types of CPUs? Like now",
+      "start": 748.68,
+      "duration": 3.24
+    },
+    {
+      "text": "there's so many there used to be just",
+      "start": 750.76,
+      "duration": 3.28
+    },
+    {
+      "text": "like x86 and ARM. That was it like for",
+      "start": 751.92,
+      "duration": 3.2
+    },
+    {
+      "text": "the most part. Now there's different",
+      "start": 754.04,
+      "duration": 3.44
+    },
+    {
+      "text": "types of CPUs. Is it just because",
+      "start": 755.12,
+      "duration": 4.12
+    },
+    {
+      "text": "everyone's run out or are they like",
+      "start": 757.48,
+      "duration": 3.32
+    },
+    {
+      "text": "better at some things than others? Are",
+      "start": 759.24,
+      "duration": 2.96
+    },
+    {
+      "text": "there anything",
+      "start": 760.8,
+      "duration": 4.72
+    },
+    {
+      "text": "I mean usually what happens like",
+      "start": 762.2,
+      "duration": 4.92
+    },
+    {
+      "text": "when there's a gold rush is the person",
+      "start": 765.52,
+      "duration": 3.08
+    },
+    {
+      "text": "with a broken pickaxe can also sell",
+      "start": 767.12,
+      "duration": 4.76
+    },
+    {
+      "text": "their pickaxes. Yeah, yeah. Um but like",
+      "start": 768.6,
+      "duration": 4.76
+    },
+    {
+      "text": "yeah, I mean this the CPU market is like",
+      "start": 771.88,
+      "duration": 4.0
+    },
+    {
+      "text": "quite dynamic, right?",
+      "start": 773.36,
+      "duration": 3.88
+    },
+    {
+      "text": "Um you know, it it was mostly Intel AMD.",
+      "start": 775.88,
+      "duration": 2.8
+    },
+    {
+      "text": "I assume you mostly use Intel and AMD",
+      "start": 777.24,
+      "duration": 2.92
+    },
+    {
+      "text": "CPUs.",
+      "start": 778.68,
+      "duration": 2.92
+    },
+    {
+      "text": "Um",
+      "start": 780.16,
+      "duration": 2.72
+    },
+    {
+      "text": "Both of them have said they're like",
+      "start": 781.6,
+      "duration": 3.04
+    },
+    {
+      "text": "fully sold out. They've sent price",
+      "start": 782.88,
+      "duration": 4.04
+    },
+    {
+      "text": "increase notices to their customers. Um",
+      "start": 784.64,
+      "duration": 3.199
+    },
+    {
+      "text": "so they're not even competing with each",
+      "start": 786.92,
+      "duration": 2.32
+    },
+    {
+      "text": "other anymore. They're just like how",
+      "start": 787.839,
+      "duration": 3.601
+    },
+    {
+      "text": "many can I make and sell? Um",
+      "start": 789.24,
+      "duration": 4.56
+    },
+    {
+      "text": "and likewise like Amazon had their",
+      "start": 791.44,
+      "duration": 4.16
+    },
+    {
+      "text": "Graviton CPUs. They've had what? Five,",
+      "start": 793.8,
+      "duration": 3.88
+    },
+    {
+      "text": "six generations now.",
+      "start": 795.6,
+      "duration": 2.76
+    },
+    {
+      "text": "Um",
+      "start": 797.68,
+      "duration": 3.04
+    },
+    {
+      "text": "And Nvidia has their Vera CPU. Right.",
+      "start": 798.36,
+      "duration": 3.68
+    },
+    {
+      "text": "And Nvidia has their Grace and Vera",
+      "start": 800.72,
+      "duration": 2.68
+    },
+    {
+      "text": "CPUs.",
+      "start": 802.04,
+      "duration": 1.96
+    },
+    {
+      "text": "Um",
+      "start": 803.4,
+      "duration": 2.56
+    },
+    {
+      "text": "and no one really deployed Grace",
+      "start": 804.0,
+      "duration": 3.56
+    },
+    {
+      "text": "standalone CPU boxes. There was like a",
+      "start": 805.96,
+      "duration": 3.76
+    },
+    {
+      "text": "couple small deployments that Nvidia",
+      "start": 807.56,
+      "duration": 3.64
+    },
+    {
+      "text": "Nvidia did for PR with people, but in",
+      "start": 809.72,
+      "duration": 2.76
+    },
+    {
+      "text": "reality there's like very few like",
+      "start": 811.2,
+      "duration": 2.8
+    },
+    {
+      "text": "standalone CPU deployments that Nvidia",
+      "start": 812.48,
+      "duration": 4.04
+    },
+    {
+      "text": "was able to do. Okay. Um but now well,",
+      "start": 814.0,
+      "duration": 4.16
+    },
+    {
+      "text": "just they're just not as good, right?",
+      "start": 816.52,
+      "duration": 3.04
+    },
+    {
+      "text": ">> Okay. Um but now as we step forward,",
+      "start": 818.16,
+      "duration": 3.4
+    },
+    {
+      "text": "maybe their CPU got better.",
+      "start": 819.56,
+      "duration": 3.44
+    },
+    {
+      "text": "Um maybe they're bundling better, but",
+      "start": 821.56,
+      "duration": 3.16
+    },
+    {
+      "text": "also just because they have capacity.",
+      "start": 823.0,
+      "duration": 2.96
+    },
+    {
+      "text": ">> Because no one else has them. Yeah,",
+      "start": 824.72,
+      "duration": 2.44
+    },
+    {
+      "text": "they're they're they're able to get a",
+      "start": 825.96,
+      "duration": 4.12
+    },
+    {
+      "text": "lot more contracts on their uh Vera CPUs",
+      "start": 827.16,
+      "duration": 4.52
+    },
+    {
+      "text": "uh that are going to deploy sort of",
+      "start": 830.08,
+      "duration": 3.56
+    },
+    {
+      "text": "later this year, early next year time",
+      "start": 831.68,
+      "duration": 3.72
+    },
+    {
+      "text": "frame um is when they start deploying.",
+      "start": 833.64,
+      "duration": 3.64
+    },
+    {
+      "text": "So it's sort of like a very",
+      "start": 835.4,
+      "duration": 3.12
+    },
+    {
+      "text": "um dynamic market. And then and then",
+      "start": 837.28,
+      "duration": 3.12
+    },
+    {
+      "text": "you've got like Microsoft and Google are",
+      "start": 838.52,
+      "duration": 3.16
+    },
+    {
+      "text": "starting to deploy their CPUs in",
+      "start": 840.4,
+      "duration": 3.12
+    },
+    {
+      "text": "volumes. Um",
+      "start": 841.68,
+      "duration": 3.64
+    },
+    {
+      "text": "ARM is going to launch a CPU in like a",
+      "start": 843.52,
+      "duration": 3.16
+    },
+    {
+      "text": "few weeks",
+      "start": 845.32,
+      "duration": 2.6
+    },
+    {
+      "text": "uh that Meta is going to adopt and a few",
+      "start": 846.68,
+      "duration": 3.44
+    },
+    {
+      "text": "others are going to adopt um like",
+      "start": 847.92,
+      "duration": 3.28
+    },
+    {
+      "text": "Cloudflare. And so there's going to be a",
+      "start": 850.12,
+      "duration": 2.68
+    },
+    {
+      "text": "lot more proliferation like ARM",
+      "start": 851.2,
+      "duration": 3.16
+    },
+    {
+      "text": "standalone rather than like ARM",
+      "start": 852.8,
+      "duration": 3.2
+    },
+    {
+      "text": "licensing the IP to someone. So there's",
+      "start": 854.36,
+      "duration": 3.719
+    },
+    {
+      "text": "a lot more um diversification in the",
+      "start": 856.0,
+      "duration": 4.64
+    },
+    {
+      "text": "market um which which happens when",
+      "start": 858.079,
+      "duration": 5.081
+    },
+    {
+      "text": "there's a gold rush, right? And then",
+      "start": 860.64,
+      "duration": 4.36
+    },
+    {
+      "text": "we'll see what actually is the best",
+      "start": 863.16,
+      "duration": 4.16
+    },
+    {
+      "text": "quality and is left standing as the sort",
+      "start": 865.0,
+      "duration": 5.2
+    },
+    {
+      "text": "of supply demand gap get closes. Yeah.",
+      "start": 867.32,
+      "duration": 3.88
+    },
+    {
+      "text": "But it seems that supply and demand will",
+      "start": 870.2,
+      "duration": 3.04
+    },
+    {
+      "text": "still grow like at least what I see like",
+      "start": 871.2,
+      "duration": 4.56
+    },
+    {
+      "text": "one the RL and it it seems like RL is",
+      "start": 873.24,
+      "duration": 4.28
+    },
+    {
+      "text": "mostly done, you know, they do post",
+      "start": 875.76,
+      "duration": 4.4
+    },
+    {
+      "text": "trading on RL, but we have now vendors",
+      "start": 877.52,
+      "duration": 4.96
+    },
+    {
+      "text": "and companies that are pitching and",
+      "start": 880.16,
+      "duration": 4.32
+    },
+    {
+      "text": "creating services that do RL in real",
+      "start": 882.48,
+      "duration": 4.2
+    },
+    {
+      "text": "time. And since you have like some",
+      "start": 884.48,
+      "duration": 4.4
+    },
+    {
+      "text": "agents you have some SAS that's an",
+      "start": 886.68,
+      "duration": 4.2
+    },
+    {
+      "text": "agentic in the background and then it",
+      "start": 888.88,
+      "duration": 3.959
+    },
+    {
+      "text": "will do RL at the end of the day",
+      "start": 890.88,
+      "duration": 4.72
+    },
+    {
+      "text": "basically to like learn against what it",
+      "start": 892.839,
+      "duration": 5.081
+    },
+    {
+      "text": "has done. And so that grows. But also",
+      "start": 895.6,
+      "duration": 5.12
+    },
+    {
+      "text": "these long running agents, if they the",
+      "start": 897.92,
+      "duration": 4.96
+    },
+    {
+      "text": "way it seems to be working directionally",
+      "start": 900.72,
+      "duration": 3.52
+    },
+    {
+      "text": "is if the agents can work longer and",
+      "start": 902.88,
+      "duration": 3.16
+    },
+    {
+      "text": "solve for more things, you can",
+      "start": 904.24,
+      "duration": 3.64
+    },
+    {
+      "text": "essentially ask them to do more and they",
+      "start": 906.04,
+      "duration": 3.039
+    },
+    {
+      "text": "will spin up more and more of these",
+      "start": 907.88,
+      "duration": 3.28
+    },
+    {
+      "text": "agents which means more and more CPU",
+      "start": 909.079,
+      "duration": 5.041
+    },
+    {
+      "text": "boxes. So do you see that like from your",
+      "start": 911.16,
+      "duration": 5.08
+    },
+    {
+      "text": "purview do you like I understand market",
+      "start": 914.12,
+      "duration": 3.68
+    },
+    {
+      "text": "dynamics and that'll probably converge",
+      "start": 916.24,
+      "duration": 3.24
+    },
+    {
+      "text": "at some point, but I feel it's getting",
+      "start": 917.8,
+      "duration": 4.32
+    },
+    {
+      "text": "wider before it's shrinking the need for",
+      "start": 919.48,
+      "duration": 4.599
+    },
+    {
+      "text": "that. Yeah, I mean it it it's that's",
+      "start": 922.12,
+      "duration": 3.8
+    },
+    {
+      "text": "totally the case because initially all",
+      "start": 924.079,
+      "duration": 4.201
+    },
+    {
+      "text": "the RL was like, let's do math proofs.",
+      "start": 925.92,
+      "duration": 3.48
+    },
+    {
+      "text": "And I was like, okay, math proofs are",
+      "start": 928.28,
+      "duration": 4.08
+    },
+    {
+      "text": "really low on resources. And also the",
+      "start": 929.4,
+      "duration": 4.76
+    },
+    {
+      "text": "model, right? The generator will",
+      "start": 932.36,
+      "duration": 4.12
+    },
+    {
+      "text": "generate tons of output and then it'll",
+      "start": 934.16,
+      "duration": 3.84
+    },
+    {
+      "text": "send the correct answer or what it",
+      "start": 936.48,
+      "duration": 3.4
+    },
+    {
+      "text": "thinks is the correct answer to the",
+      "start": 938.0,
+      "duration": 3.52
+    },
+    {
+      "text": "server and then the server will verify",
+      "start": 939.88,
+      "duration": 4.0
+    },
+    {
+      "text": "it. Um but as we've moved forward,",
+      "start": 941.52,
+      "duration": 3.92
+    },
+    {
+      "text": "right? Like it's it's not just that.",
+      "start": 943.88,
+      "duration": 4.28
+    },
+    {
+      "text": "It's like, oh actually the model is",
+      "start": 945.44,
+      "duration": 4.8
+    },
+    {
+      "text": "committing many times or it's like",
+      "start": 948.16,
+      "duration": 3.24
+    },
+    {
+      "text": "trying to compile many times or it's",
+      "start": 950.24,
+      "duration": 2.8
+    },
+    {
+      "text": "trying to do unit tests throughout its",
+      "start": 951.4,
+      "duration": 3.92
+    },
+    {
+      "text": "agentic process. Okay, now that's that's",
+      "start": 953.04,
+      "duration": 3.88
+    },
+    {
+      "text": "increasing the frequency in which the",
+      "start": 955.32,
+      "duration": 3.88
+    },
+    {
+      "text": "generator, I eat the model, is sending",
+      "start": 956.92,
+      "duration": 4.8
+    },
+    {
+      "text": "to the verifier. Um and that loop gets",
+      "start": 959.2,
+      "duration": 4.0
+    },
+    {
+      "text": "tighter and tighter and tighter. And as",
+      "start": 961.72,
+      "duration": 3.64
+    },
+    {
+      "text": "we as we continue to move to more",
+      "start": 963.2,
+      "duration": 3.879
+    },
+    {
+      "text": "complex RL, it's like the model will",
+      "start": 965.36,
+      "duration": 2.92
+    },
+    {
+      "text": "actually",
+      "start": 967.079,
+      "duration": 2.921
+    },
+    {
+      "text": "uh be verifying its output constantly,",
+      "start": 968.28,
+      "duration": 3.64
+    },
+    {
+      "text": "right? Like if you imagine",
+      "start": 970.0,
+      "duration": 3.64
+    },
+    {
+      "text": "um let's say models that are training",
+      "start": 971.92,
+      "duration": 3.48
+    },
+    {
+      "text": "over the next year or two is is let's",
+      "start": 973.64,
+      "duration": 3.36
+    },
+    {
+      "text": "say a robot model that's verifying and",
+      "start": 975.4,
+      "duration": 3.52
+    },
+    {
+      "text": "that's that's in in a like a world",
+      "start": 977.0,
+      "duration": 5.24
+    },
+    {
+      "text": "model, right? So uh VLM is is navigating",
+      "start": 978.92,
+      "duration": 4.44
+    },
+    {
+      "text": "across the world trying to pick up",
+      "start": 982.24,
+      "duration": 3.44
+    },
+    {
+      "text": "things, put them down. Every single",
+      "start": 983.36,
+      "duration": 3.92
+    },
+    {
+      "text": "action needs to be verified against the",
+      "start": 985.68,
+      "duration": 3.6
+    },
+    {
+      "text": "physics model that is sitting on some",
+      "start": 987.28,
+      "duration": 4.64
+    },
+    {
+      "text": "CPUs. And so that's that's insanely way",
+      "start": 989.28,
+      "duration": 6.52
+    },
+    {
+      "text": "more CPUs than you need for say doing",
+      "start": 991.92,
+      "duration": 5.8
+    },
+    {
+      "text": "unit tests or running a math proof,",
+      "start": 995.8,
+      "duration": 3.64
+    },
+    {
+      "text": "right? And when we look at like 01,",
+      "start": 997.72,
+      "duration": 2.96
+    },
+    {
+      "text": "that's like all it could do was math,",
+      "start": 999.44,
+      "duration": 3.32
+    },
+    {
+      "text": "right? Um and as we look at like you",
+      "start": 1000.68,
+      "duration": 3.64
+    },
+    {
+      "text": "know, sort of",
+      "start": 1002.76,
+      "duration": 5.4
+    },
+    {
+      "text": "uh GVD 5.4 or Opus 46, like it's okay",
+      "start": 1004.32,
+      "duration": 5.32
+    },
+    {
+      "text": "agentic software, but like as we move",
+      "start": 1008.16,
+      "duration": 3.919
+    },
+    {
+      "text": "forward to the next stage of, you know,",
+      "start": 1009.64,
+      "duration": 3.68
+    },
+    {
+      "text": "whatever's coming, it's going to be",
+      "start": 1012.079,
+      "duration": 4.161
+    },
+    {
+      "text": "models that can understand, oh, I need",
+      "start": 1013.32,
+      "duration": 5.12
+    },
+    {
+      "text": "to tie my shoe and like when I tie it,",
+      "start": 1016.24,
+      "duration": 3.92
+    },
+    {
+      "text": "what's the strength strength, yeah. like",
+      "start": 1018.44,
+      "duration": 2.72
+    },
+    {
+      "text": "what's the tensile strength? All these",
+      "start": 1020.16,
+      "duration": 2.799
+    },
+    {
+      "text": "things like as to the the has to be",
+      "start": 1021.16,
+      "duration": 3.16
+    },
+    {
+      "text": "calculated cuz the verifier is just",
+      "start": 1022.959,
+      "duration": 2.921
+    },
+    {
+      "text": "generating, you know, what's the next",
+      "start": 1024.32,
+      "duration": 3.84
+    },
+    {
+      "text": "step. Um but every step needs to be",
+      "start": 1025.88,
+      "duration": 4.4
+    },
+    {
+      "text": "checked way more often and the intensity",
+      "start": 1028.16,
+      "duration": 3.799
+    },
+    {
+      "text": "of that calculation for checking the",
+      "start": 1030.28,
+      "duration": 2.799
+    },
+    {
+      "text": "step it goes up a time.",
+      "start": 1031.959,
+      "duration": 3.321
+    },
+    {
+      "text": ">> Yeah. But there's also another thing and",
+      "start": 1033.079,
+      "duration": 3.641
+    },
+    {
+      "text": "you probably know better than I is like",
+      "start": 1035.28,
+      "duration": 3.44
+    },
+    {
+      "text": "the the",
+      "start": 1036.72,
+      "duration": 4.68
+    },
+    {
+      "text": "the level of the the the strength of the",
+      "start": 1038.72,
+      "duration": 5.719
+    },
+    {
+      "text": "GPUs can handle in parallel a certain",
+      "start": 1041.4,
+      "duration": 5.92
+    },
+    {
+      "text": "amount of CPUs boxes. And so as we get",
+      "start": 1044.439,
+      "duration": 5.561
+    },
+    {
+      "text": "next generations of GPUs, I feel that",
+      "start": 1047.32,
+      "duration": 4.6
+    },
+    {
+      "text": "they will be able to spin up",
+      "start": 1050.0,
+      "duration": 4.52
+    },
+    {
+      "text": "manage or work on more CPUs than they do",
+      "start": 1051.92,
+      "duration": 5.64
+    },
+    {
+      "text": "now which is another stressor on CPUs",
+      "start": 1054.52,
+      "duration": 4.36
+    },
+    {
+      "text": "now.",
+      "start": 1057.56,
+      "duration": 2.48
+    },
+    {
+      "text": "Yeah, I mean that's that's certainly the",
+      "start": 1058.88,
+      "duration": 3.28
+    },
+    {
+      "text": "case, right? GPU Well, GPUs are also",
+      "start": 1060.04,
+      "duration": 3.96
+    },
+    {
+      "text": "just like getting way higher power,",
+      "start": 1062.16,
+      "duration": 4.28
+    },
+    {
+      "text": "right? So one GPU will equal many many",
+      "start": 1064.0,
+      "duration": 3.64
+    },
+    {
+      "text": "more CPUs",
+      "start": 1066.44,
+      "duration": 2.68
+    },
+    {
+      "text": "over time, right?",
+      "start": 1067.64,
+      "duration": 3.16
+    },
+    {
+      "text": "Um and GPUs are getting more expensive",
+      "start": 1069.12,
+      "duration": 4.28
+    },
+    {
+      "text": "gen on gen on gen, whereas VCPUs are",
+      "start": 1070.8,
+      "duration": 5.8
+    },
+    {
+      "text": "flat, slightly down. Yeah. Um and so",
+      "start": 1073.4,
+      "duration": 5.4
+    },
+    {
+      "text": "certainly it's a different scale, right?",
+      "start": 1076.6,
+      "duration": 4.48
+    },
+    {
+      "text": "Like one Blackwell versus one Rubin,",
+      "start": 1078.8,
+      "duration": 5.32
+    },
+    {
+      "text": "performance is up X. Price is also up X.",
+      "start": 1081.08,
+      "duration": 6.44
+    },
+    {
+      "text": "Um whereas, you know, you may buy last",
+      "start": 1084.12,
+      "duration": 4.96
+    },
+    {
+      "text": "generation CPU, new generation CPU and",
+      "start": 1087.52,
+      "duration": 4.52
+    },
+    {
+      "text": "there's 192 VCPUs in this gen and last",
+      "start": 1089.08,
+      "duration": 4.44
+    },
+    {
+      "text": "gen was like 96, right? So now you've",
+      "start": 1092.04,
+      "duration": 3.76
+    },
+    {
+      "text": "got way more CPUs, but the the price",
+      "start": 1093.52,
+      "duration": 4.44
+    },
+    {
+      "text": "increase is equivalent to what you got",
+      "start": 1095.8,
+      "duration": 3.64
+    },
+    {
+      "text": "in additional VCPUs. So it's like sort",
+      "start": 1097.96,
+      "duration": 4.44
+    },
+    {
+      "text": "of yeah, the the ratio will grow in the",
+      "start": 1099.44,
+      "duration": 4.92
+    },
+    {
+      "text": "favor of VCPUs, but the cost will be",
+      "start": 1102.4,
+      "duration": 3.16
+    },
+    {
+      "text": "sort of",
+      "start": 1104.36,
+      "duration": 3.2
+    },
+    {
+      "text": "also probably in the direction of CPUs,",
+      "start": 1105.56,
+      "duration": 4.08
+    },
+    {
+      "text": "but not sure how much. Yeah. And and",
+      "start": 1107.56,
+      "duration": 3.32
+    },
+    {
+      "text": "also",
+      "start": 1109.64,
+      "duration": 2.84
+    },
+    {
+      "text": "the other stressor on that and we've",
+      "start": 1110.88,
+      "duration": 3.56
+    },
+    {
+      "text": "seen this with with larger customers",
+      "start": 1112.48,
+      "duration": 3.52
+    },
+    {
+      "text": "when they have like",
+      "start": 1114.44,
+      "duration": 3.04
+    },
+    {
+      "text": "they don't they have like a time",
+      "start": 1116.0,
+      "duration": 3.12
+    },
+    {
+      "text": "allotment for GPUs and they don't want",
+      "start": 1117.48,
+      "duration": 3.76
+    },
+    {
+      "text": "their GPUs to be idle. So they rather",
+      "start": 1119.12,
+      "duration": 3.32
+    },
+    {
+      "text": "pay",
+      "start": 1121.24,
+      "duration": 4.52
+    },
+    {
+      "text": "uh for warm pool running CPUs so that",
+      "start": 1122.44,
+      "duration": 5.36
+    },
+    {
+      "text": "whenever tasks come from the GPU, the",
+      "start": 1125.76,
+      "duration": 3.32
+    },
+    {
+      "text": "CPUs are they're hot. They're",
+      "start": 1127.8,
+      "duration": 3.28
+    },
+    {
+      "text": "essentially working, right? So they'll",
+      "start": 1129.08,
+      "duration": 4.48
+    },
+    {
+      "text": "we we I say we cuz we do mostly CPUs are",
+      "start": 1131.08,
+      "duration": 4.2
+    },
+    {
+      "text": "certainly the cheap resource. I don't",
+      "start": 1133.56,
+      "duration": 3.0
+    },
+    {
+      "text": "know if we're cheap, but cheap resource",
+      "start": 1135.28,
+      "duration": 4.0
+    },
+    {
+      "text": "for this. And so that spends more GPUs",
+      "start": 1136.56,
+      "duration": 5.0
+    },
+    {
+      "text": "actually just because the cost of having",
+      "start": 1139.28,
+      "duration": 5.52
+    },
+    {
+      "text": "an idle GPU is to is way more expensive,",
+      "start": 1141.56,
+      "duration": 4.64
+    },
+    {
+      "text": "right? Yeah, it's actually like a really",
+      "start": 1144.8,
+      "duration": 2.56
+    },
+    {
+      "text": "interesting point, right? The business",
+      "start": 1146.2,
+      "duration": 3.28
+    },
+    {
+      "text": "model is like no one does I mean sure,",
+      "start": 1147.36,
+      "duration": 4.6
+    },
+    {
+      "text": "there's on demand GPUs, but like Lambda",
+      "start": 1149.48,
+      "duration": 5.32
+    },
+    {
+      "text": "has like 50,000 plus GPUs and only 4,000",
+      "start": 1151.96,
+      "duration": 4.959
+    },
+    {
+      "text": "of them are on demand, right? And",
+      "start": 1154.8,
+      "duration": 3.6
+    },
+    {
+      "text": "they're always sold out. So like no one",
+      "start": 1156.919,
+      "duration": 3.881
+    },
+    {
+      "text": "really has on demand GPUs. Everyone's",
+      "start": 1158.4,
+      "duration": 4.92
+    },
+    {
+      "text": "signing at minimum like long-term, you",
+      "start": 1160.8,
+      "duration": 3.96
+    },
+    {
+      "text": "know, multi-month contracts, but in most",
+      "start": 1163.32,
+      "duration": 4.56
+    },
+    {
+      "text": "cases multi-year contracts. Um",
+      "start": 1164.76,
+      "duration": 4.68
+    },
+    {
+      "text": "and so like",
+      "start": 1167.88,
+      "duration": 3.32
+    },
+    {
+      "text": "CPUs have been used to like you can spin",
+      "start": 1169.44,
+      "duration": 3.28
+    },
+    {
+      "text": "them up and down, right? That's",
+      "start": 1171.2,
+      "duration": 3.76
+    },
+    {
+      "text": "why everyone moved to the cloud, right?",
+      "start": 1172.72,
+      "duration": 3.84
+    },
+    {
+      "text": "Um but with these RL workloads, it's",
+      "start": 1174.96,
+      "duration": 2.84
+    },
+    {
+      "text": "like, okay,",
+      "start": 1176.56,
+      "duration": 3.4
+    },
+    {
+      "text": "the GPU generate the generator, the",
+      "start": 1177.8,
+      "duration": 3.6
+    },
+    {
+      "text": "model running on a GPU generated a bunch",
+      "start": 1179.96,
+      "duration": 4.12
+    },
+    {
+      "text": "of stuff. It sends it to the verifier.",
+      "start": 1181.4,
+      "duration": 4.279
+    },
+    {
+      "text": "If the verifier is not ready and waiting",
+      "start": 1184.08,
+      "duration": 2.68
+    },
+    {
+      "text": ">> Then it's idle. Then it's waiting.",
+      "start": 1185.679,
+      "duration": 2.081
+    },
+    {
+      "text": ">> Right. Like the GPU is just sitting",
+      "start": 1186.76,
+      "duration": 2.12
+    },
+    {
+      "text": "there. So it's like, okay, well, I've",
+      "start": 1187.76,
+      "duration": 3.96
+    },
+    {
+      "text": "already paid for this. Yes.",
+      "start": 1188.88,
+      "duration": 5.16
+    },
+    {
+      "text": "So if you can't get your instantaneous",
+      "start": 1191.72,
+      "duration": 3.84
+    },
+    {
+      "text": "you know",
+      "start": 1194.04,
+      "duration": 3.52
+    },
+    {
+      "text": "you know resources spun up on the CPU",
+      "start": 1195.56,
+      "duration": 3.56
+    },
+    {
+      "text": "side and in fact you should do it",
+      "start": 1197.56,
+      "duration": 3.32
+    },
+    {
+      "text": "preemptively so it's not like loading",
+      "start": 1199.12,
+      "duration": 4.2
+    },
+    {
+      "text": "you know the the simulator that you or",
+      "start": 1200.88,
+      "duration": 5.08
+    },
+    {
+      "text": "the generation the environment right you",
+      "start": 1203.32,
+      "duration": 3.88
+    },
+    {
+      "text": "you're wasting money so yeah like that",
+      "start": 1205.96,
+      "duration": 2.56
+    },
+    {
+      "text": "that makes a lot of sense. And not only",
+      "start": 1207.2,
+      "duration": 3.04
+    },
+    {
+      "text": "that then you have that running and then",
+      "start": 1208.52,
+      "duration": 2.72
+    },
+    {
+      "text": "as soon as those are running you're",
+      "start": 1210.24,
+      "duration": 2.52
+    },
+    {
+      "text": "spinning up another warm pool of these",
+      "start": 1211.24,
+      "duration": 4.04
+    },
+    {
+      "text": "so that every new iteration of them are",
+      "start": 1212.76,
+      "duration": 4.36
+    },
+    {
+      "text": "are continually growing. So what does",
+      "start": 1215.28,
+      "duration": 4.28
+    },
+    {
+      "text": "that mean generally? So we skipped over",
+      "start": 1217.12,
+      "duration": 3.28
+    },
+    {
+      "text": "RAM",
+      "start": 1219.56,
+      "duration": 2.28
+    },
+    {
+      "text": "memory we didn't talk about that where",
+      "start": 1220.4,
+      "duration": 3.24
+    },
+    {
+      "text": "it's like GPU was a bottleneck RAM",
+      "start": 1221.84,
+      "duration": 4.44
+    },
+    {
+      "text": "memory was a bottleneck and now CPUs. So",
+      "start": 1223.64,
+      "duration": 5.08
+    },
+    {
+      "text": "just very closer to home for most people",
+      "start": 1226.28,
+      "duration": 4.36
+    },
+    {
+      "text": "is that like it's very hard to buy a PC",
+      "start": 1228.72,
+      "duration": 3.52
+    },
+    {
+      "text": "today because it's like super expensive",
+      "start": 1230.64,
+      "duration": 3.04
+    },
+    {
+      "text": "is is that happening to the CPUs because",
+      "start": 1232.24,
+      "duration": 3.08
+    },
+    {
+      "text": "we just mentioned that they're like",
+      "start": 1233.68,
+      "duration": 3.48
+    },
+    {
+      "text": "they're fairly inexpensive and flat does",
+      "start": 1235.32,
+      "duration": 4.48
+    },
+    {
+      "text": "the market pressure now demand sort of",
+      "start": 1237.16,
+      "duration": 4.84
+    },
+    {
+      "text": "that these prices now increase?",
+      "start": 1239.8,
+      "duration": 4.16
+    },
+    {
+      "text": "Yeah I mean it's it's pretty much the",
+      "start": 1242.0,
+      "duration": 4.64
+    },
+    {
+      "text": "case for all like",
+      "start": 1243.96,
+      "duration": 4.88
+    },
+    {
+      "text": "PCs laptops building a PC that it's hard",
+      "start": 1246.64,
+      "duration": 3.72
+    },
+    {
+      "text": "to get",
+      "start": 1248.84,
+      "duration": 3.4
+    },
+    {
+      "text": "you know Apple is pretty sold out of",
+      "start": 1250.36,
+      "duration": 4.6
+    },
+    {
+      "text": "like Mac minis for example.",
+      "start": 1252.24,
+      "duration": 4.2
+    },
+    {
+      "text": "We we bought a bunch of Mac minis",
+      "start": 1254.96,
+      "duration": 3.52
+    },
+    {
+      "text": "because people are switching from you",
+      "start": 1256.44,
+      "duration": 3.48
+    },
+    {
+      "text": "know people who used a bunch of Excel",
+      "start": 1258.48,
+      "duration": 3.0
+    },
+    {
+      "text": "and like Windows are like okay I want to",
+      "start": 1259.92,
+      "duration": 3.56
+    },
+    {
+      "text": "use clock code and OS X is obviously a",
+      "start": 1261.48,
+      "duration": 4.84
+    },
+    {
+      "text": "better um",
+      "start": 1263.48,
+      "duration": 4.88
+    },
+    {
+      "text": "dev environment right so we just bought",
+      "start": 1266.32,
+      "duration": 3.32
+    },
+    {
+      "text": "a bunch of Mac minis and people are",
+      "start": 1268.36,
+      "duration": 3.72
+    },
+    {
+      "text": "deploying them and using them",
+      "start": 1269.64,
+      "duration": 3.84
+    },
+    {
+      "text": "and and sort of I think similar has",
+      "start": 1272.08,
+      "duration": 3.04
+    },
+    {
+      "text": "happened across the space and then data",
+      "start": 1273.48,
+      "duration": 3.76
+    },
+    {
+      "text": "centers are way more of an inelastic",
+      "start": 1275.12,
+      "duration": 5.32
+    },
+    {
+      "text": "buyer of resources and so that's also",
+      "start": 1277.24,
+      "duration": 4.84
+    },
+    {
+      "text": "caused prices to go up right so like",
+      "start": 1280.44,
+      "duration": 3.8
+    },
+    {
+      "text": "GPUs always were expensive and video's",
+      "start": 1282.08,
+      "duration": 4.4
+    },
+    {
+      "text": "margins have always been you know 70%",
+      "start": 1284.24,
+      "duration": 4.64
+    },
+    {
+      "text": "plus CPUs the margins were not that high",
+      "start": 1286.48,
+      "duration": 3.68
+    },
+    {
+      "text": "but they're creeping up because Intel",
+      "start": 1288.88,
+      "duration": 3.4
+    },
+    {
+      "text": "and AMD are raising prices",
+      "start": 1290.16,
+      "duration": 4.56
+    },
+    {
+      "text": "and they're tight memory has like 4x in",
+      "start": 1292.28,
+      "duration": 5.24
+    },
+    {
+      "text": "price over the last like year and it's",
+      "start": 1294.72,
+      "duration": 4.76
+    },
+    {
+      "text": "going to continue to go up",
+      "start": 1297.52,
+      "duration": 3.64
+    },
+    {
+      "text": "and then now storage SSD right so it's",
+      "start": 1299.48,
+      "duration": 4.6
+    },
+    {
+      "text": "like all of the resources are SSDs are",
+      "start": 1301.16,
+      "duration": 4.8
+    },
+    {
+      "text": "also up like three four x in price and",
+      "start": 1304.08,
+      "duration": 3.32
+    },
+    {
+      "text": "going to keep going up at least another",
+      "start": 1305.96,
+      "duration": 3.76
+    },
+    {
+      "text": "like 60% not as much as DRAM but up a",
+      "start": 1307.4,
+      "duration": 5.0
+    },
+    {
+      "text": "lot and so between these like",
+      "start": 1309.72,
+      "duration": 4.68
+    },
+    {
+      "text": "four like these things right it's like",
+      "start": 1312.4,
+      "duration": 5.48
+    },
+    {
+      "text": "well the CPU capacity for Intel and AMD",
+      "start": 1314.4,
+      "duration": 5.279
+    },
+    {
+      "text": "is somewhat fungible between and",
+      "start": 1317.88,
+      "duration": 3.0
+    },
+    {
+      "text": "substrate and all these things somewhat",
+      "start": 1319.679,
+      "duration": 4.561
+    },
+    {
+      "text": "fungible between PCs and and",
+      "start": 1320.88,
+      "duration": 4.72
+    },
+    {
+      "text": "data centers",
+      "start": 1324.24,
+      "duration": 3.64
+    },
+    {
+      "text": "RAM and storage are very fungible and so",
+      "start": 1325.6,
+      "duration": 4.0
+    },
+    {
+      "text": "you've ended up with this like conundrum",
+      "start": 1327.88,
+      "duration": 4.48
+    },
+    {
+      "text": "that like look screw the screw the like",
+      "start": 1329.6,
+      "duration": 5.2
+    },
+    {
+      "text": "normally humans screw the humans yeah",
+      "start": 1332.36,
+      "duration": 3.96
+    },
+    {
+      "text": "you have to buy a Mac Mac mini now",
+      "start": 1334.8,
+      "duration": 2.879
+    },
+    {
+      "text": "otherwise you'll never escape the",
+      "start": 1336.32,
+      "duration": 3.44
+    },
+    {
+      "text": "permanent underclass is like the thought",
+      "start": 1337.679,
+      "duration": 3.841
+    },
+    {
+      "text": "process.",
+      "start": 1339.76,
+      "duration": 3.68
+    },
+    {
+      "text": "And one last note before we're close to",
+      "start": 1341.52,
+      "duration": 3.76
+    },
+    {
+      "text": "the end but one thing not financial",
+      "start": 1343.44,
+      "duration": 3.92
+    },
+    {
+      "text": "advice like Intel was in a very bad spot",
+      "start": 1345.28,
+      "duration": 4.48
+    },
+    {
+      "text": "like quite like recently. Still are.",
+      "start": 1347.36,
+      "duration": 5.36
+    },
+    {
+      "text": "Yeah but does this pull them out? Um I",
+      "start": 1349.76,
+      "duration": 4.16
+    },
+    {
+      "text": "mean",
+      "start": 1352.72,
+      "duration": 3.36
+    },
+    {
+      "text": "they'll do better but like",
+      "start": 1353.92,
+      "duration": 4.12
+    },
+    {
+      "text": "it's not like it's like a long-term like",
+      "start": 1356.08,
+      "duration": 4.52
+    },
+    {
+      "text": "you know oh the company's saved right?",
+      "start": 1358.04,
+      "duration": 4.72
+    },
+    {
+      "text": "Company's valued on like future cash",
+      "start": 1360.6,
+      "duration": 4.88
+    },
+    {
+      "text": "flows but like and also like some",
+      "start": 1362.76,
+      "duration": 4.36
+    },
+    {
+      "text": "potentiality they get like Apple or",
+      "start": 1365.48,
+      "duration": 3.12
+    },
+    {
+      "text": "someone else as a customer and this is",
+      "start": 1367.12,
+      "duration": 2.84
+    },
+    {
+      "text": "actually like the funnier thing is it's",
+      "start": 1368.6,
+      "duration": 3.36
+    },
+    {
+      "text": "not because CPU demand is so high Intel",
+      "start": 1369.96,
+      "duration": 3.44
+    },
+    {
+      "text": "have some short-term profits from that",
+      "start": 1371.96,
+      "duration": 3.4
+    },
+    {
+      "text": "but you know others will catch up AMD",
+      "start": 1373.4,
+      "duration": 3.52
+    },
+    {
+      "text": "and Amazon and others will catch up on",
+      "start": 1375.36,
+      "duration": 3.12
+    },
+    {
+      "text": "capacity that they have. More",
+      "start": 1376.92,
+      "duration": 3.88
+    },
+    {
+      "text": "importantly is that AI is buying all the",
+      "start": 1378.48,
+      "duration": 4.96
+    },
+    {
+      "text": "capacity on 3 nanometer",
+      "start": 1380.8,
+      "duration": 5.96
+    },
+    {
+      "text": "and 2 nanometer in a couple years that",
+      "start": 1383.44,
+      "duration": 4.52
+    },
+    {
+      "text": "you know people are having to turn to",
+      "start": 1386.76,
+      "duration": 2.48
+    },
+    {
+      "text": "other directions right like one of the",
+      "start": 1387.96,
+      "duration": 3.4
+    },
+    {
+      "text": "like you know people make all these like",
+      "start": 1389.24,
+      "duration": 4.24
+    },
+    {
+      "text": "nonsense reasons up why Nvidia acquired",
+      "start": 1391.36,
+      "duration": 5.2
+    },
+    {
+      "text": "Groq part of it was because they want to",
+      "start": 1393.48,
+      "duration": 4.72
+    },
+    {
+      "text": "have really fast inference but like part",
+      "start": 1396.56,
+      "duration": 3.88
+    },
+    {
+      "text": "of it is that Groq is manufactured on",
+      "start": 1398.2,
+      "duration": 4.479
+    },
+    {
+      "text": "Samsung right?",
+      "start": 1400.44,
+      "duration": 3.76
+    },
+    {
+      "text": "Because there's no 3 nanometer capacity",
+      "start": 1402.679,
+      "duration": 3.201
+    },
+    {
+      "text": "for them at TSMC they need a chip",
+      "start": 1404.2,
+      "duration": 4.28
+    },
+    {
+      "text": "somewhere else and if you just if AI is",
+      "start": 1405.88,
+      "duration": 4.48
+    },
+    {
+      "text": "as crazy as like we believe it is and",
+      "start": 1408.48,
+      "duration": 3.44
+    },
+    {
+      "text": "demand is as crazy as we believe it is",
+      "start": 1410.36,
+      "duration": 2.8
+    },
+    {
+      "text": "it's going to be even crazier next year",
+      "start": 1411.92,
+      "duration": 3.68
+    },
+    {
+      "text": "and so like just make any decent chip",
+      "start": 1413.16,
+      "duration": 3.96
+    },
+    {
+      "text": "and it'll sell right is like sort of the",
+      "start": 1415.6,
+      "duration": 3.24
+    },
+    {
+      "text": "philosophy there. Obviously there's a",
+      "start": 1417.12,
+      "duration": 2.84
+    },
+    {
+      "text": "lot more they're doing there on the",
+      "start": 1418.84,
+      "duration": 3.0
+    },
+    {
+      "text": "architecture and stuff but same applies",
+      "start": 1419.96,
+      "duration": 3.64
+    },
+    {
+      "text": "to like Apple is getting squeezed out",
+      "start": 1421.84,
+      "duration": 4.12
+    },
+    {
+      "text": "right like TSMC told them hey like get",
+      "start": 1423.6,
+      "duration": 4.12
+    },
+    {
+      "text": "off of 3 nanometer move to 2 nanometer",
+      "start": 1425.96,
+      "duration": 2.719
+    },
+    {
+      "text": "faster",
+      "start": 1427.72,
+      "duration": 2.16
+    },
+    {
+      "text": "right?",
+      "start": 1428.679,
+      "duration": 3.041
+    },
+    {
+      "text": "Because all the AI chips are on 3",
+      "start": 1429.88,
+      "duration": 3.56
+    },
+    {
+      "text": "nanometer and it takes time right small",
+      "start": 1431.72,
+      "duration": 3.52
+    },
+    {
+      "text": "mobile chips are easier to make than big",
+      "start": 1433.44,
+      "duration": 3.84
+    },
+    {
+      "text": "AI chips so all the AI chips are moving",
+      "start": 1435.24,
+      "duration": 5.96
+    },
+    {
+      "text": "to 3 nanometer now right? MI350",
+      "start": 1437.28,
+      "duration": 6.72
+    },
+    {
+      "text": "from late last year from AMD or Tranium",
+      "start": 1441.2,
+      "duration": 6.24
+    },
+    {
+      "text": "3 and TPUV7 from late last year or slash",
+      "start": 1444.0,
+      "duration": 6.24
+    },
+    {
+      "text": "early this year from Amazon and Google",
+      "start": 1447.44,
+      "duration": 5.72
+    },
+    {
+      "text": "or you know Nvidia is launching Rubin",
+      "start": 1450.24,
+      "duration": 7.68
+    },
+    {
+      "text": "next week right? That's that's also",
+      "start": 1453.16,
+      "duration": 6.56
+    },
+    {
+      "text": "so all these things are 3 nanometer and",
+      "start": 1457.92,
+      "duration": 3.32
+    },
+    {
+      "text": "and they're just telling Apple to get",
+      "start": 1459.72,
+      "duration": 3.16
+    },
+    {
+      "text": "off. They're telling Qualcomm and",
+      "start": 1461.24,
+      "duration": 2.96
+    },
+    {
+      "text": "MediaTek to get off and all three of",
+      "start": 1462.88,
+      "duration": 3.08
+    },
+    {
+      "text": "these companies are like oh maybe we",
+      "start": 1464.2,
+      "duration": 3.56
+    },
+    {
+      "text": "should use Intel because they're not",
+      "start": 1465.96,
+      "duration": 3.24
+    },
+    {
+      "text": "telling us to get off because they don't",
+      "start": 1467.76,
+      "duration": 4.04
+    },
+    {
+      "text": "they can't manufacture AI chips.",
+      "start": 1469.2,
+      "duration": 4.479
+    },
+    {
+      "text": "Yeah so so it's it's pretty it's pretty",
+      "start": 1471.8,
+      "duration": 3.36
+    },
+    {
+      "text": "tough for everyone.",
+      "start": 1473.679,
+      "duration": 4.081
+    },
+    {
+      "text": "Um I have like a bunch of questions I'd",
+      "start": 1475.16,
+      "duration": 4.68
+    },
+    {
+      "text": "love to ask you we're like we have 20",
+      "start": 1477.76,
+      "duration": 3.76
+    },
+    {
+      "text": "seconds left so the next question I ask",
+      "start": 1479.84,
+      "duration": 2.52
+    },
+    {
+      "text": "you",
+      "start": 1481.52,
+      "duration": 2.4
+    },
+    {
+      "text": "is probably going to go off so with that",
+      "start": 1482.36,
+      "duration": 4.08
+    },
+    {
+      "text": "I'll just like keep us on time and",
+      "start": 1483.92,
+      "duration": 4.12
+    },
+    {
+      "text": "appreciate so much for coming and",
+      "start": 1486.44,
+      "duration": 3.239
+    },
+    {
+      "text": "talking to us. Thank you so much.",
+      "start": 1488.04,
+      "duration": 3.88
+    },
+    {
+      "text": ">> you.",
+      "start": 1489.679,
+      "duration": 2.241
+    }
+  ]
+}

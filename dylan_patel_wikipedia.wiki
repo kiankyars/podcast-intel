@@ -1,0 +1,101 @@
+{{subst:submit}}
+{{Short description|American semiconductor analyst and entrepreneur (born 1996)}}
+{{Use mdy dates|date=May 2026}}
+
+{{Infobox person
+| name               = Dylan Patel
+| image              =
+| alt                =
+| caption            =
+| birth_date         = {{Birth year and age|1996}}
+| birth_place        = United States
+| nationality        = American
+| other_names        =
+| occupation         = {{hlist|Semiconductor analyst|entrepreneur|founder and CEO of [[SemiAnalysis]]}}
+| years_active       = 2020–present
+| known_for          = Founding [[SemiAnalysis]]; reporting on the AI semiconductor supply chain
+| website            = {{URL|semianalysis.com}}
+}}
+
+'''Dylan Patel''' (born 1996) is an American semiconductor analyst and entrepreneur. He is the founder, chief executive officer, and chief analyst of '''[[SemiAnalysis]]''', a research and consulting firm focused on the semiconductor industry, artificial intelligence (AI) hardware, and the data-center supply chain.<ref name="semianalysis-bio">{{cite web |url=https://semianalysis.com/dylan-patel/ |title=Dylan Patel: Founder, CEO, and Chief Analyst |publisher=SemiAnalysis |access-date=May 3, 2026}}</ref><ref name="information-sway">{{cite news |last=Brown |first=Abram |title=How Dylan Patel and SemiAnalysis Grabbed Sway in Silicon Valley |url=https://www.theinformation.com/articles/dylan-patel-semianalysis-grabbed-sway-silicon-valley |work=[[The Information (website)|The Information]] |date=April 2026 |access-date=May 3, 2026}}</ref>
+
+Patel founded SemiAnalysis in 2020 as a one-person Substack newsletter and has since grown it into a research firm whose customers include hyperscale cloud providers, semiconductor companies, hedge funds, and government agencies. The firm projected over US$100&nbsp;million in revenue for 2026, up from approximately $20&nbsp;million in 2025.<ref name="information-100m">{{cite news |title=Dylan Patel's SemiAnalysis Projects Over $100 Million In 2026 Revenue |url=https://www.theinformation.com/briefings/dylan-patels-semianalysis-projects-100-million-2026-revenue |work=The Information |date=April 2026 |access-date=May 3, 2026}}</ref><ref name="biggo">{{cite news |title=29-Year-Old Founder Builds AI Research Empire SemiAnalysis, Surpasses $100M in Annual Revenue, Courts Meetings with Jensen Huang and Lisa Su |url=https://finance.biggo.com/news/KPbYnp0BvthpMgHBApty |work=BigGo Finance |date=April 2026 |access-date=May 3, 2026}}</ref> He is widely cited in the technology and financial press for analysis of [[Nvidia]], [[Taiwan Semiconductor Manufacturing Company|TSMC]], [[ASML Holding|ASML]], the [[Hyperscale computing|hyperscalers]], and Chinese AI development, and was the publisher of the leaked 2023 Google internal memo "We Have No Moat, And Neither Does OpenAI" and of an influential 2023 reverse-engineering of [[GPT-4]]'s architecture.<ref name="willison-moat">{{cite web |last=Willison |first=Simon |title=Leaked Google document: "We Have No Moat, And Neither Does OpenAI" |url=https://simonwillison.net/2023/May/4/no-moat/ |date=May 4, 2023 |access-date=May 3, 2026}}</ref><ref name="decoder-gpt4">{{cite news |title=GPT-4 architecture, datasets, costs and more leaked |url=https://the-decoder.com/gpt-4-architecture-datasets-costs-and-more-leaked/ |work=The Decoder |date=July 11, 2023 |access-date=May 3, 2026}}</ref>
+
+== Early life ==
+
+Patel was born in 1996 to immigrant parents from [[Gujarat]], India, and grew up in [[Cairo, Georgia]], a small town in the southwestern part of the state.<ref name="yesterday-podcast">{{cite podcast |url=https://yesterdayy.substack.com/p/dylan-patellost-in-life-to-founding |title=Dylan Patel – Lost in Life to Founding SemiAnalysis |website=Yesterday Podcast |date=August 15, 2025 |access-date=May 3, 2026}}</ref> His maternal grandfather had immigrated to [[Grants Pass, Oregon]], where he operated a 24-room motel; his father's family settled in the [[Los Angeles]] area, where his father worked at a motel and a [[Subway (restaurant)|Subway]]. The two families were introduced through the Gujarati-American "[[Patel motel]]" community, and after marrying his parents bought a foreclosed motel in rural Georgia using money pooled from members of their caste association.<ref name="yesterday-podcast" />
+
+The family lived in the motel until Patel was about ten years old, and as a teenager he often worked the motel's overnight shift.<ref name="yesterday-podcast" /> He has described being one of very few Indian-American children in his town and attended a regional school approximately 20 miles from home from sixth grade onward.<ref name="yesterday-podcast" />
+
+According to Patel, his interest in computer hardware began when an [[Xbox (console)|Xbox]] he received for his eighth birthday developed the [[Red Ring of Death]]; he repaired it himself by shorting its temperature sensor after researching the problem on hardware forums. By his early teens he was a moderator on enthusiast forums covering [[Android (operating system)|Android]], [[Nvidia]], [[Intel]], and [[AMD]] hardware, and had built a tool to detect [[Astroturfing|astroturfed]] pro-[[Samsung]] posts.<ref name="yesterday-podcast" /><ref name="a16z-2025">{{cite podcast |url=https://www.a16z.news/p/dylan-patel-on-the-ai-chip-race-nvidia |title=Dylan Patel on the AI Chip Race – NVIDIA, Intel & the US Government vs. China |website=a16z |date=September 22, 2025 |access-date=May 3, 2026}}</ref>
+
+== Education ==
+
+Patel attended the [[University of Georgia]], where he earned undergraduate degrees in information systems and risk management & insurance, along with a certificate in legal studies. He has said he selected those programs because they had the highest job-placement rates at the school, and that he completed his degrees a semester early.<ref name="biggo" /><ref name="yesterday-podcast" /> He has stated publicly that he was rejected from [[Massachusetts Institute of Technology]] and [[Stanford University]] before enrolling at Georgia.<ref name="biggo" />
+
+== Career ==
+
+=== Early career ===
+
+After graduating, Patel took a job in [[Minnesota]] at an insurance brokerage that structured and resold risk for insurance companies, working first in actuarial-style modeling and later in structuring.<ref name="yesterday-podcast" /> While employed there he began publishing anonymous online analyses of the semiconductor supply chain, building on a long-standing interest in chip-equipment makers, [[NAND flash memory|NAND]] and memory manufacturers, and the [[Foundry model|foundry]] business.<ref name="yesterday-podcast" />
+
+=== SemiAnalysis ===
+
+Patel founded SemiAnalysis in 2020, posting his first essay under the SemiAnalysis brand on his 24th birthday in May 2021.<ref name="dylan-x-anniversary">{{cite web |url=https://x.com/dylan522p/status/1925731919364309364 |title=5 years ago on May 22nd, my 24th birthday, I posted my first blog on SemiAnalysis |last=Patel |first=Dylan |website=X (formerly Twitter) |date=May 22, 2025 |access-date=May 3, 2026}}</ref> What began as an anonymous blog evolved into a paid newsletter and consulting practice as readers, including hedge-fund analysts and corporate strategists, asked to commission deeper work.<ref name="yesterday-podcast" /><ref name="information-sway" /> Patel hired the firm's first employee at the end of 2022.<ref name="yesterday-podcast" />
+
+By 2025 SemiAnalysis had grown to roughly 26 employees in countries including the United States, Singapore, Taiwan, France, Germany, and Canada, with about $20&nbsp;million in annual revenue.<ref name="yesterday-podcast" /> By 2026 the firm reported approximately 85 employees across 11 countries and projected over $100&nbsp;million in annual revenue.<ref name="biggo" /><ref name="information-100m" /> Its newsletter, published on [[Substack]], passed 250,000 subscribers and was repeatedly ranked the leading technology publication on the platform; paid annual subscriptions were priced at US$500.<ref name="information-100m" /><ref name="information-sway" />
+
+The bulk of SemiAnalysis's revenue comes not from newsletter subscriptions but from selling proprietary data sets and consulting on them. The firm uses [[Satellite imagery|satellite imagery]], regulatory and permit filings, and machine-learning–assisted scraping to track every announced and under-construction AI data center worldwide, and sells the resulting data sets to investors and operators.<ref name="iltb-2025">{{cite podcast |url=https://www.youtube.com/watch?v=kAIVualeQjM |title=Inside the Trillion-Dollar AI Buildout |website=Invest Like the Best |date=September 30, 2025 |access-date=May 3, 2026}}</ref><ref name="information-sway" /> SemiAnalysis also operates two industry benchmarks, ''ClusterMax'' and ''InferenceMax'', for AI accelerators and inference systems.<ref name="information-sway" />
+
+=== Notable reports ===
+
+In May 2023 SemiAnalysis published an internal Google document titled "We Have No Moat, And Neither Does OpenAI", attributed to a Google researcher and arguing that open-source AI was outpacing both companies' large proprietary models. The publication was widely covered as a watershed moment in the public debate over open-source AI.<ref name="willison-moat" /><ref name="lwn-moat">{{cite news |title=Google "We Have No Moat, And Neither Does OpenAI" (SemiAnalysis) |url=https://lwn.net/Articles/930939/ |work=LWN.net |date=May 4, 2023 |access-date=May 3, 2026}}</ref>
+
+In July 2023, Patel and co-author Gerald Wong published "GPT-4 Architecture, Infrastructure, Training Dataset, Costs, Vision, MoE", which described OpenAI's [[GPT-4]] as a [[Mixture of experts|mixture-of-experts]] model with approximately 1.8 trillion parameters across 16 experts, and detailed estimated training infrastructure and costs. The piece was widely cited in subsequent reporting on GPT-4.<ref name="decoder-gpt4" /><ref name="hn-gpt4">{{cite web |title=GPT-4 Architecture |url=https://news.ycombinator.com/item?id=36674905 |website=[[Hacker News]] |access-date=May 3, 2026}}</ref>
+
+In early 2025, SemiAnalysis published "DeepSeek Debates", a multi-part analysis arguing that the Chinese AI laboratory [[DeepSeek]] had access to roughly 50,000 [[Hopper architecture|Hopper-class]] [[Graphics processing unit|GPUs]] and had spent in the order of US$1.3&nbsp;billion on infrastructure—figures higher than the company had publicly suggested. The analysis was widely covered and influenced U.S. policy debate over chip [[export controls]].<ref name="deepseek-debates">{{cite web |url=https://newsletter.semianalysis.com/p/deepseek-debates |title=DeepSeek Debates: Chinese Leadership On Cost, True Training Cost, Closed Model Margin Impacts |publisher=SemiAnalysis |access-date=May 3, 2026}}</ref>
+
+SemiAnalysis has also published widely cited analyses of [[Microsoft]]'s AI strategy and data-center capital expenditure, of the [[Stargate LLC|OpenAI Stargate]] joint venture, and of [[Huawei]]'s domestic chip supply chain.<ref>{{cite web |url=https://newsletter.semianalysis.com/p/microsofts-ai-strategy-deconstructed |title=Microsoft's AI Strategy Deconstructed – from Energy to Tokens |publisher=SemiAnalysis |access-date=May 3, 2026}}</ref><ref>{{cite web |url=https://newsletter.semianalysis.com/p/openai-stargate-joint-venture-demystified |title=OpenAI Stargate Joint Venture Demystified |publisher=SemiAnalysis |access-date=May 3, 2026}}</ref>
+
+=== Media presence ===
+
+Patel is a frequent commentator on the semiconductor and AI industries in business and technology media, including appearances on [[CNBC]], the ''[[Dwarkesh Patel|Dwarkesh Podcast]]'', ''[[Latent Space (podcast)|Latent Space]]'', ''Invest Like the Best'', and a16z's podcast.<ref name="cnbc-2026">{{cite news |title=Nvidia CEO laying the foundation for regular enterprises to deploy AI: SemiAnalysis CEO Dylan Patel |url=https://www.cnbc.com/video/2026/03/16/nvidia-ceo-laying-the-foundation-for-regular-enterprises-to-deploy-ai-semianalysis-ceo-dylan-patel.html |work=CNBC |date=March 16, 2026 |access-date=May 3, 2026}}</ref><ref name="dwarkesh-2026">{{cite podcast |url=https://www.dwarkesh.com/p/dylan-patel |title=Dylan Patel – The single biggest bottleneck to scaling AI compute |website=Dwarkesh Podcast |date=March 13, 2026 |access-date=May 3, 2026}}</ref><ref name="latent-2026">{{cite podcast |url=https://www.latent.space/p/dylanpatel-cooking |title=Dylan Patel of SemiAnalysis on the $200B AI CapEx, Chip Wars, and Why Google Might Have No Profits in 2027 |website=Latent Space |date=February 26, 2026 |access-date=May 3, 2026}}</ref> The Information has described SemiAnalysis as one of "Silicon Valley's most influential voices on AI and chips."<ref name="information-sway" />
+
+=== Investing ===
+
+Outside SemiAnalysis, Patel is an [[angel investor]] in approximately 20 technology startups, with reported investments including [[Thinking Machines Lab]] and the [[Networking hardware|networking-silicon]] company [[Enfabrica]].<ref name="biggo" />
+
+== Litigation ==
+
+In March 2026, SemiAnalysis sued a former employee, Wei Zhou, in the [[Superior Court of California|Superior Court of California, San Francisco County]], alleging breach of contract, [[Trade secret#United States|trade secret]] [[Trade secret#Misappropriation|misappropriation]], and defamation; Zhou filed a separate suit alleging [[wrongful termination|wrongful dismissal]] and claiming that SemiAnalysis had pressed him to embed [[material non-public information]] obtained through Patel's personal investments into paid client research, which he says he refused.<ref>{{cite news |title=SemiAnalysis sues former employee over misconduct, trade secret claims |url=https://startupnews.fyi/2026/04/05/semianalysis-sues-former-employee-over-misconduct-trade-secret-claims/ |work=Startup News |date=April 5, 2026 |access-date=May 3, 2026}}</ref><ref>{{cite news |title=SemiAnalysis faces 2 lawsuits over data use and trade secrets |url=https://www.edgen.tech/news/post/semianalysis-faces-2-lawsuits-over-data-use-and-trade-secrets |work=Edgen |date=April 2026 |access-date=May 3, 2026}}</ref> The litigation was ongoing as of {{Date|2026-05-03}}.
+
+== Personal life ==
+
+Patel has lived in [[San Francisco]] since 2025, having previously spent extended periods of [[digital nomad]] travel through the United States, [[Latin America]], [[Japan]], and elsewhere following a 2020 period he has described as personally and professionally adrift.<ref name="yesterday-podcast" /><ref name="iltb-2025" /> He is unrelated to the journalist [[Dwarkesh Patel]], with whom he has been interviewed.<ref name="dwarkesh-2026" />
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+* {{Official|https://semianalysis.com}}
+* [https://newsletter.semianalysis.com SemiAnalysis newsletter on Substack]
+* {{X-twitter|dylan522p}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Patel, Dylan}}
+[[Category:1996 births]]
+[[Category:Living people]]
+[[Category:American businesspeople]]
+[[Category:American chief executives]]
+[[Category:American technology writers]]
+[[Category:American technology company founders]]
+[[Category:American people of Gujarati descent]]
+[[Category:American Hindus]]
+[[Category:Businesspeople from Georgia (U.S. state)]]
+[[Category:Businesspeople from San Francisco]]
+[[Category:People from Cairo, Georgia]]
+[[Category:Semiconductor industry people]]
+[[Category:Substack writers]]
+[[Category:University of Georgia alumni]]
+[[Category:Writers about technology]]

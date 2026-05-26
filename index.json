@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-05-21T19:28:51.011756+00:00",
+  "selection_rule": "Original 2026 YouTube podcast/interview/conversation episodes featuring Dylan Patel, plus supplemental 2025 a16z and Yesterday Podcast episodes requested by the user; clips, reuploads, summaries, and short TV/event excerpts were skipped.",
+  "source_discovery": [
+    "yt-dlp metadata searches for Dylan Patel and Dylan Patel SemiAnalysis podcast",
+    "web search cross-checks for Dwarkesh, Daytona, TBPN, and podcast index pages"
+  ],
+  "transcript_source": "uv tool run youtube_transcript_api, publisher transcript pages, or audio transcription where captions were unavailable",
+  "videos": [
+    {
+      "date": "2026-04-17",
+      "id": "Eda9A_oWOlo",
+      "title": "Ep. 009 - Using Open Source Data To Drive Investment Decisions (ChipBook)",
+      "channel": "SemiAnalysis Weekly",
+      "duration": "53:22",
+      "url": "https://www.youtube.com/watch?v=Eda9A_oWOlo",
+      "json": "transcripts/2026-04-17-ep-009-using-open-source-data-to-drive-investment-decisions-chipbook-Eda9A_oWOlo.json",
+      "markdown": "transcripts/2026-04-17-ep-009-using-open-source-data-to-drive-investment-decisions-chipbook-Eda9A_oWOlo.md",
+      "segments": 1726
+    },
+    {
+      "date": "2026-01-15",
+      "id": "QHueG_5DvSw",
+      "title": "Dylan Patel: Is the \"Low Hanging Fruit\" in AI Gone?",
+      "channel": "SAIL Media",
+      "duration": "14:01",
+      "url": "https://www.youtube.com/watch?v=QHueG_5DvSw",
+      "json": "transcripts/2026-01-15-dylan-patel-is-the-low-hanging-fruit-in-ai-gone-QHueG_5DvSw.json",
+      "markdown": "transcripts/2026-01-15-dylan-patel-is-the-low-hanging-fruit-in-ai-gone-QHueG_5DvSw.md",
+      "segments": 478
+    },
+    {
+      "date": "2026-02-03",
+      "id": "EvBddHMCFNk",
+      "title": "FULL INTERVIEW: Dylan Patel Says We're Still Underestimating AI",
+      "channel": "TBPN",
+      "duration": "43:42",
+      "url": "https://www.youtube.com/watch?v=EvBddHMCFNk",
+      "json": "transcripts/2026-02-03-full-interview-dylan-patel-says-we-re-still-underestimating-ai-EvBddHMCFNk.json",
+      "markdown": "transcripts/2026-02-03-full-interview-dylan-patel-says-we-re-still-underestimating-ai-EvBddHMCFNk.md",
+      "segments": 1477
+    },
+    {
+      "date": "2026-02-05",
+      "id": "DqBMzuzxZog",
+      "title": "Dylan Patel: NVIDIA's New Moat & Why China is \"Semiconductor Pilled\"",
+      "channel": "The MAD Podcast with Matt Turck",
+      "duration": "1:16:51",
+      "url": "https://www.youtube.com/watch?v=DqBMzuzxZog",
+      "json": "transcripts/2026-02-05-dylan-patel-nvidia-s-new-moat-why-china-is-semiconductor-pilled-DqBMzuzxZog.json",
+      "markdown": "transcripts/2026-02-05-dylan-patel-nvidia-s-new-moat-why-china-is-semiconductor-pilled-DqBMzuzxZog.md",
+      "segments": 2546
+    },
+    {
+      "date": "2026-02-26",
+      "id": "UwnqWAYOjPU",
+      "title": "Dylan Patel Explains the AI War While Cooking | In-Context Cooking",
+      "channel": "Latent Space",
+      "duration": "55:12",
+      "url": "https://www.youtube.com/watch?v=UwnqWAYOjPU",
+      "json": "transcripts/2026-02-26-dylan-patel-explains-the-ai-war-while-cooking-in-context-cooking-UwnqWAYOjPU.json",
+      "markdown": "transcripts/2026-02-26-dylan-patel-explains-the-ai-war-while-cooking-in-context-cooking-UwnqWAYOjPU.md",
+      "segments": 1699
+    },
+    {
+      "date": "2026-03-09",
+      "id": "E5B0cS6XRkg",
+      "title": "Dylan Patel: AI in War, Jobs are Cooked, Chinese Hacking, Microsoft Cope, and Super Intelligence",
+      "channel": "Matthew Berman",
+      "duration": "1:29:32",
+      "url": "https://www.youtube.com/watch?v=E5B0cS6XRkg",
+      "json": "transcripts/2026-03-09-dylan-patel-ai-in-war-jobs-are-cooked-chinese-hacking-microsoft-cope-and-super-intelligenc-E5B0cS6XRkg.json",
+      "markdown": "transcripts/2026-03-09-dylan-patel-ai-in-war-jobs-are-cooked-chinese-hacking-microsoft-cope-and-super-intelligenc-E5B0cS6XRkg.md",
+      "segments": 2782
+    },
+    {
+      "date": "2026-03-13",
+      "id": "mDG_Hx3BSUE",
+      "title": "Dylan Patel - The single biggest bottleneck to scaling AI compute",
+      "channel": "Dwarkesh Patel",
+      "duration": "2:30:44",
+      "url": "https://www.youtube.com/watch?v=mDG_Hx3BSUE",
+      "json": "transcripts/2026-03-13-dylan-patel-the-single-biggest-bottleneck-to-scaling-ai-compute-mDG_Hx3BSUE.json",
+      "markdown": "transcripts/2026-03-13-dylan-patel-the-single-biggest-bottleneck-to-scaling-ai-compute-mDG_Hx3BSUE.md",
+      "segments": 1706
+    },
+    {
+      "date": "2026-04-07",
+      "id": "c88l8daXiv4",
+      "title": "Dylan Patel (SemiAnalysis): The Datacenter in 2026: CPUs, RL Environments & Agent-Driven Workloads",
+      "channel": "Daytona",
+      "duration": "25:04",
+      "url": "https://www.youtube.com/watch?v=c88l8daXiv4",
+      "json": "transcripts/2026-04-07-dylan-patel-semianalysis-the-datacenter-in-2026-cpus-rl-environments-agent-driven-workload-c88l8daXiv4.json",
+      "markdown": "transcripts/2026-04-07-dylan-patel-semianalysis-the-datacenter-in-2026-cpus-rl-environments-agent-driven-workload-c88l8daXiv4.md",
+      "segments": 766
+    },
+    {
+      "date": "2026-04-20",
+      "id": "zrMYIhmuXEo",
+      "title": "Hardware-software codesign, with Clive Chan, Dylan Patel and Reiner Pope",
+      "channel": "MatX",
+      "duration": "30:58",
+      "url": "https://www.youtube.com/watch?v=zrMYIhmuXEo",
+      "json": "transcripts/2026-04-20-hardware-software-codesign-with-clive-chan-dylan-patel-and-reiner-pope-zrMYIhmuXEo.json",
+      "markdown": "transcripts/2026-04-20-hardware-software-codesign-with-clive-chan-dylan-patel-and-reiner-pope-zrMYIhmuXEo.md",
+      "segments": 882
+    },
+    {
+      "date": "2026-04-23",
+      "id": "LF3aUIM57uw",
+      "title": "The Supply and Demand of AI Tokens | Dylan Patel Interview",
+      "channel": "Invest Like The Best",
+      "duration": "45:33",
+      "url": "https://www.youtube.com/watch?v=LF3aUIM57uw",
+      "json": "transcripts/2026-04-23-the-supply-and-demand-of-ai-tokens-dylan-patel-interview-LF3aUIM57uw.json",
+      "markdown": "transcripts/2026-04-23-the-supply-and-demand-of-ai-tokens-dylan-patel-interview-LF3aUIM57uw.md",
+      "segments": 1425
+    },
+    {
+      "date": "2026-05-06",
+      "id": "semianalysis-weekly-ep011-2026-05-06",
+      "title": "Ep. 011 - GPT 5.5 vs Claude 4.7: OpenAI's Comeback From the Brink (Tokenomics)",
+      "channel": "SemiAnalysis Weekly",
+      "duration": "45:06",
+      "note": "Supplemental May 2026 SemiAnalysis Weekly episode requested by user; public transcript unavailable, so this transcript was generated from episode audio.",
+      "source_url": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--011---GPT-5-5-vs-Claude-4-7-OpenAIs-Comeback-From-the-Brink-Tokenomics--Jordan-Nanos--Dylan-Patel--Doug-OLaughlin--Max-Kan-e3iuqlr",
+      "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/119548027/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-5%2F423557178-44100-2-f70a26217ac4b.mp3",
+      "source_tool": "MLX Whisper large-v3-turbo audio transcription from downloaded episode audio",
+      "url": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--011---GPT-5-5-vs-Claude-4-7-OpenAIs-Comeback-From-the-Brink-Tokenomics--Jordan-Nanos--Dylan-Patel--Doug-OLaughlin--Max-Kan-e3iuqlr",
+      "json": "transcripts/2026-05-06-ep-011-gpt-5-5-vs-claude-4-7-openai-s-comeback-from-the-brink-tokenomics-semianalysis-weekly-ep011-2026-05-06.json",
+      "markdown": "transcripts/2026-05-06-ep-011-gpt-5-5-vs-claude-4-7-openai-s-comeback-from-the-brink-tokenomics-semianalysis-weekly-ep011-2026-05-06.md",
+      "segments": 884
+    },
+    {
+      "date": "2025-09-22",
+      "id": "vvlE8-MzxyA",
+      "title": "Dylan Patel on the AI Chip Race - NVIDIA, Intel & the US Government vs. China",
+      "channel": "a16z",
+      "duration": "1:38:58",
+      "note": "Supplemental non-2026 episode added for the Nvidia/hyperscaler cash-flow discussion.",
+      "source_url": "https://www.a16z.news/p/dylan-patel-on-the-ai-chip-race-nvidia",
+      "source_tool": "a16z transcript page",
+      "url": "https://www.a16z.news/p/dylan-patel-on-the-ai-chip-race-nvidia",
+      "json": "transcripts/2025-09-22-dylan-patel-on-the-ai-chip-race-nvidia-intel-the-us-government-vs-china-vvlE8-MzxyA.json",
+      "markdown": "transcripts/2025-09-22-dylan-patel-on-the-ai-chip-race-nvidia-intel-the-us-government-vs-china-vvlE8-MzxyA.md",
+      "segments": 683
+    },
+    {
+      "date": "2025-09-30",
+      "id": "kAIVualeQjM",
+      "title": "Inside the Trillion-Dollar AI Buildout | Dylan Patel Interview",
+      "channel": "Invest Like The Best",
+      "duration": "2:02:22",
+      "note": "Supplemental non-2026 episode requested by user.",
+      "url": "https://www.youtube.com/watch?v=kAIVualeQjM",
+      "json": "transcripts/2025-09-30-inside-the-trillion-dollar-ai-buildout-dylan-patel-interview-kAIVualeQjM.json",
+      "markdown": "transcripts/2025-09-30-inside-the-trillion-dollar-ai-buildout-dylan-patel-interview-kAIVualeQjM.md",
+      "segments": 4144
+    },
+    {
+      "date": "2025-08-15",
+      "id": "TIGZdRqi7Ec",
+      "title": "Dylan Patel | Lost in Life to Founding SemiAnalysis",
+      "channel": "Yesterday Podcast",
+      "duration": "1:34:57",
+      "note": "Supplemental non-2026 episode requested by user; public YouTube captions and Apple/RSS transcripts were unavailable, so this transcript was generated from episode audio.",
+      "source_url": "https://yesterdayy.substack.com/p/dylan-patellost-in-life-to-founding",
+      "youtube_url": "https://www.youtube.com/watch?v=TIGZdRqi7Ec",
+      "source_tool": "OpenAI whisper-1 audio transcription from downloaded episode audio",
+      "url": "https://yesterdayy.substack.com/p/dylan-patellost-in-life-to-founding",
+      "json": "transcripts/2025-08-15-dylan-patel-lost-in-life-to-founding-semianalysis-TIGZdRqi7Ec.json",
+      "markdown": "transcripts/2025-08-15-dylan-patel-lost-in-life-to-founding-semianalysis-TIGZdRqi7Ec.md",
+      "segments": 2012
+    }
+  ],
+  "skipped_candidates": [
+    {
+      "id": "HHmGbwA9dBY",
+      "reason": "short event excerpt, not a podcast/interview episode",
+      "title": "ClusterMax, InferenceMax & the Token Efficiency Race | Dylan Patel at Aria Networks Launch"
+    },
+    {
+      "id": "LgMW96b6Ieg",
+      "reason": "short CNBC TV segment, not a podcast episode",
+      "title": "Nvidia CEO laying the foundation for regular enterprises to deploy AI: SemiAnalysis CEO Dylan Patel"
+    },
+    {
+      "id": "1WIZNbmIOJw",
+      "reason": "clip from Dwarkesh episode already included",
+      "title": "How an H100 is worth more today than it was three years ago - Dylan Patel"
+    },
+    {
+      "id": "_fUsvXs2mMA",
+      "reason": "reupload of Invest Like The Best episode already included",
+      "title": "The Supply and Demand of AI Tokens | Dylan Patel Interview"
+    },
+    {
+      "id": "ON0ORL8BirQ",
+      "reason": "summary of a 2025 Lex Fridman episode, not a 2026 original Dylan Patel podcast",
+      "title": "Lex Fridman Podcast Summary: Dylan Patel & Nathan Lambert on the AI Arms Race"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,4440 @@
+{
+  "metadata": {
+    "date": "2026-05-06",
+    "id": "semianalysis-weekly-ep011-2026-05-06",
+    "title": "Ep. 011 - GPT 5.5 vs Claude 4.7: OpenAI's Comeback From the Brink (Tokenomics)",
+    "channel": "SemiAnalysis Weekly",
+    "duration": "45:06",
+    "note": "Supplemental May 2026 SemiAnalysis Weekly episode requested by user; public transcript unavailable, so this transcript was generated from episode audio.",
+    "source_url": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--011---GPT-5-5-vs-Claude-4-7-OpenAIs-Comeback-From-the-Brink-Tokenomics--Jordan-Nanos--Dylan-Patel--Doug-OLaughlin--Max-Kan-e3iuqlr",
+    "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/119548027/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-5%2F423557178-44100-2-f70a26217ac4b.mp3",
+    "source_tool": "MLX Whisper large-v3-turbo audio transcription from downloaded episode audio",
+    "url": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--011---GPT-5-5-vs-Claude-4-7-OpenAIs-Comeback-From-the-Brink-Tokenomics--Jordan-Nanos--Dylan-Patel--Doug-OLaughlin--Max-Kan-e3iuqlr",
+    "fetched_at": "2026-05-21T19:28:50.965610+00:00",
+    "language_preference": [
+      "en"
+    ]
+  },
+  "transcript": [
+    {
+      "text": "Hello, everyone. Welcome back to SemiAnalysis Weekly. We've got a big show this week. We've got some heavy hitters. Doug, Max, anybody else out there? Oh, yeah, of course, that's Dylan Patel calling in nicely in a nice setup office with his headphones on and a SemiAnalysis logo water bottle.",
+      "start": 0.0,
+      "duration": 22.84
+    },
+    {
+      "text": "So, yeah, we're going to talk about Claude Code, which is one of the only things we talk about on this podcast now. We're going to talk about GPT 5.5, possibly, DeepSeek, and yeah, just get into it.",
+      "start": 22.84,
+      "duration": 13.28
+    },
+    {
+      "text": "It's crazy. Today is May 5th.",
+      "start": 36.78,
+      "duration": 3.06
+    },
+    {
+      "text": "Yeah.",
+      "start": 39.84,
+      "duration": 0.22
+    },
+    {
+      "text": "GPT 5.5.",
+      "start": 40.28,
+      "duration": 1.02
+    },
+    {
+      "text": "It's Max's birthday.",
+      "start": 42.88,
+      "duration": 1.28
+    },
+    {
+      "text": "Happy birthday, Max. Max debuted on the SemiAnalysis newsletter last week with his first lead author article, let's say, the coding assistant breakdown.",
+      "start": 44.16,
+      "duration": 12.02
+    },
+    {
+      "text": "The funniest thing is he was like, he's like telling, he's asking like Doug and Michelle, like, hey, like, you know, am I going to be approved on my work trial? It's like, bro, obviously, like, what are you talking about? Also, also Max is now a full-time employee at SemiAnalysis, not on a work trial.",
+      "start": 56.38,
+      "duration": 14.34
+    },
+    {
+      "text": "Happy to be here. It's really exciting.",
+      "start": 70.96,
+      "duration": 2.14
+    },
+    {
+      "text": "Welcome to the team. Okay. So, let's run through this article. Basically, when we pushed it out or when we were prepping to write it, it was effectively just going to be a review of 5.5 Pro and, or just 5.5, whatever the new, I think we assumed it was going to be called 5.5 when we were doing some testing of the-",
+      "start": 74.16,
+      "duration": 23.68
+    },
+    {
+      "text": "Potato patata. It's a spud, right? Potato patata.",
+      "start": 97.84,
+      "duration": 3.52
+    },
+    {
+      "text": "Yeah, we're calling it spud.",
+      "start": 101.88,
+      "duration": 1.04
+    },
+    {
+      "text": "Tomato, tomato.",
+      "start": 102.92,
+      "duration": 0.84
+    },
+    {
+      "text": "I tried some different checkpoints, but the, I guess the basis for the article was like, just going to be a review of that model.",
+      "start": 105.94,
+      "duration": 7.4
+    },
+    {
+      "text": "And then quickly, Claude released, Anthropic released Claude Opus 4.7, which was a big change of some, you know, pretty interesting features that we covered in the article.",
+      "start": 113.46,
+      "duration": 9.82
+    },
+    {
+      "text": "And then we also got DeepSeq v4, the, whatever, four, five, possibly six months delayed release from DeepSeq. And so it became this article just about all, all the latest releases.",
+      "start": 123.28,
+      "duration": 12.76
+    },
+    {
+      "text": "So Max, maybe you could give us like a quick summary. What was your high level takeaway? And then we can dig into the details of, of the changes for these models.",
+      "start": 136.04,
+      "duration": 7.72
+    },
+    {
+      "text": "Yeah, happy to.",
+      "start": 143.76,
+      "duration": 0.84
+    },
+    {
+      "text": "I said the TLDR is that things were looking really dire for OpenAI for a while. You know, start of the year, Anthropic was quickly encroaching in terms of revenue.",
+      "start": 144.6,
+      "duration": 12.82
+    },
+    {
+      "text": "I think the information leaked like 19 billion ARR for Anthropic versus just like 24 for OpenAI. Anthropic then sort of quickly surpassed them.",
+      "start": 157.42,
+      "duration": 9.88
+    },
+    {
+      "text": "Even with all the sort of accounting discrepancies related to like derecognized net or gross from the hyperscalers aside, I think it's pretty clear they surpassed them on a life-to-life basis.",
+      "start": 167.54,
+      "duration": 10.64
+    },
+    {
+      "text": "And like early to mid-April. This is primarily because Opus 4.5 was just a real step change in coding and overall agentic abilities.",
+      "start": 178.18,
+      "duration": 10.86
+    },
+    {
+      "text": "And so from like late November up until end of March, early April, everyone was basically just spamming like Opus 4.5, 4.6 for all their workloads.",
+      "start": 189.78,
+      "duration": 9.8
+    },
+    {
+      "text": "OpenAI tried to fire back with PPT 5.4, but that thing was honestly just an embarrassment.",
+      "start": 201.02,
+      "duration": 5.38
+    },
+    {
+      "text": "Like in the modern release card, they didn't even compare it to the Opus models, just to the past like OpenAI models.",
+      "start": 206.4,
+      "duration": 5.72
+    },
+    {
+      "text": "So that kind of tells you all you didn't know.",
+      "start": 212.7,
+      "duration": 1.66
+    },
+    {
+      "text": "But then finally with 5.5, they're like, they're back on the frontier.",
+      "start": 214.96,
+      "duration": 3.82
+    },
+    {
+      "text": "Opus was re-included in the modern release card.",
+      "start": 219.84,
+      "duration": 2.8
+    },
+    {
+      "text": "I wouldn't say it's like definitively better than 4.6 or 4.7, despite what the Twitter propaganda machine was trying to push on release date.",
+      "start": 223.78,
+      "duration": 9.46
+    },
+    {
+      "text": "But I think it's definitely like in the conversation.",
+      "start": 233.24,
+      "duration": 3.1
+    },
+    {
+      "text": "I'm happy to use it and sort of allow Opus 4.5 to come back in the game.",
+      "start": 237.34,
+      "duration": 5.08
+    },
+    {
+      "text": "You know, things were looking dire, but now I think they got shot again.",
+      "start": 242.64,
+      "duration": 3.18
+    },
+    {
+      "text": "Doug, what are you using daily driver?",
+      "start": 246.04,
+      "duration": 1.74
+    },
+    {
+      "text": "Are you using both or just one right now?",
+      "start": 247.98,
+      "duration": 2.18
+    },
+    {
+      "text": "I have tried so many times to use codex, but the usage limits are, they raw dog me every day.",
+      "start": 250.7,
+      "duration": 5.38
+    },
+    {
+      "text": "Wait, what do you mean? You use the API, bro?",
+      "start": 256.52,
+      "duration": 1.94
+    },
+    {
+      "text": "I use the API.",
+      "start": 258.68,
+      "duration": 0.86
+    },
+    {
+      "text": "Don't get me started.",
+      "start": 259.88,
+      "duration": 0.64
+    },
+    {
+      "text": "How do you get usage of it?",
+      "start": 260.52,
+      "duration": 1.02
+    },
+    {
+      "text": "How do you get usage of it?",
+      "start": 262.2,
+      "duration": 0.82
+    },
+    {
+      "text": "I don't know, bro.",
+      "start": 263.22,
+      "duration": 0.66
+    },
+    {
+      "text": "And then after it takes me longer than 15 minutes.",
+      "start": 264.06,
+      "duration": 2.02
+    },
+    {
+      "text": "Just go bitch in the OpenAI Slack.",
+      "start": 266.1,
+      "duration": 0.84
+    },
+    {
+      "text": "Just go bitch in the OpenAI Slack.",
+      "start": 267.12,
+      "duration": 0.74
+    },
+    {
+      "text": "I have.",
+      "start": 267.86,
+      "duration": 0.22
+    },
+    {
+      "text": "I literally, dude.",
+      "start": 268.48,
+      "duration": 0.84
+    },
+    {
+      "text": "Okay, so but then after it takes me longer than 15 minutes.",
+      "start": 270.14,
+      "duration": 2.0
+    },
+    {
+      "text": "For what it's worth, we're trying to get you started.",
+      "start": 272.48,
+      "duration": 1.68
+    },
+    {
+      "text": "It takes me longer than 15 minutes.",
+      "start": 274.74,
+      "duration": 1.56
+    },
+    {
+      "text": "I don't try essentially to go actually fix it.",
+      "start": 276.48,
+      "duration": 2.58
+    },
+    {
+      "text": "X-High seems really expensive and blows out the context window.",
+      "start": 279.42,
+      "duration": 2.9
+    },
+    {
+      "text": "But I mean, in my impression, it's like, you know, it's very neck and neck.",
+      "start": 282.76,
+      "duration": 3.74
+    },
+    {
+      "text": "They're pretty replaceable to me.",
+      "start": 286.5,
+      "duration": 2.86
+    },
+    {
+      "text": "The thing that I really want is someone to give me fast mode and high uptime.",
+      "start": 289.36,
+      "duration": 4.14
+    },
+    {
+      "text": "And that's, you know, no one is high uptime.",
+      "start": 293.9,
+      "duration": 2.54
+    },
+    {
+      "text": "Wasn't there, isn't OpenAI's fast mode like fake news?",
+      "start": 296.6,
+      "duration": 2.52
+    },
+    {
+      "text": "Yeah, it's pretty fake.",
+      "start": 299.36,
+      "duration": 0.86
+    },
+    {
+      "text": "Well, they like reduce the reasoning depth and it's not that fast.",
+      "start": 301.06,
+      "duration": 2.88
+    },
+    {
+      "text": "Opus fast mode is not that fast anymore either.",
+      "start": 304.48,
+      "duration": 2.24
+    },
+    {
+      "text": "It's not even two times faster.",
+      "start": 307.04,
+      "duration": 1.3
+    },
+    {
+      "text": "Sounds like we need more compute.",
+      "start": 309.26,
+      "duration": 1.2
+    },
+    {
+      "text": "It started out at 2.5 times faster.",
+      "start": 310.64,
+      "duration": 2.26
+    },
+    {
+      "text": "Now it's less than two times faster.",
+      "start": 312.98,
+      "duration": 1.16
+    },
+    {
+      "text": "But OpenAI has like three versions of fast mode.",
+      "start": 314.14,
+      "duration": 3.14
+    },
+    {
+      "text": "They have priority mode, fast mode, and the 5.3 codex Spark.",
+      "start": 317.36,
+      "duration": 4.02
+    },
+    {
+      "text": "5.3 codex Spark is definitely fake.",
+      "start": 321.82,
+      "duration": 2.58
+    },
+    {
+      "text": "That's just a different model.",
+      "start": 324.5,
+      "duration": 1.04
+    },
+    {
+      "text": "But then fast mode, I feel like, is comparable to Opus fast mode.",
+      "start": 326.22,
+      "duration": 3.98
+    },
+    {
+      "text": "You guys don't think it's actually faster or much faster.",
+      "start": 330.46,
+      "duration": 2.84
+    },
+    {
+      "text": "I've been using it in codex and it feels pretty slow.",
+      "start": 333.3,
+      "duration": 3.06
+    },
+    {
+      "text": "I don't even notice it like really being faster than with fast mode turned off.",
+      "start": 336.52,
+      "duration": 3.76
+    },
+    {
+      "text": "That's what you were showing me, Jordan, the other day is like the distribution of like what's the peak tokens per second?",
+      "start": 340.36,
+      "duration": 5.22
+    },
+    {
+      "text": "What's the median?",
+      "start": 345.58,
+      "duration": 0.64
+    },
+    {
+      "text": "What's the trough?",
+      "start": 346.4,
+      "duration": 1.74
+    },
+    {
+      "text": "I thought you showed me.",
+      "start": 349.6,
+      "duration": 0.7
+    },
+    {
+      "text": "Maybe it was someone else.",
+      "start": 350.42,
+      "duration": 0.84
+    },
+    {
+      "text": "But that like OpenAI's priority mode doesn't like actually make it's not always faster.",
+      "start": 351.52,
+      "duration": 4.96
+    },
+    {
+      "text": "It can be faster, though.",
+      "start": 356.58,
+      "duration": 0.94
+    },
+    {
+      "text": "Yeah, so priority mode is like guaranteed execution in an SLA, but not faster interactivity for people who have like, you know, they need stuff done on the API and they'll pay a premium for that.",
+      "start": 357.52,
+      "duration": 12.34
+    },
+    {
+      "text": "But it's a small premium.",
+      "start": 369.98,
+      "duration": 0.76
+    },
+    {
+      "text": "It's like two times.",
+      "start": 370.86,
+      "duration": 0.62
+    },
+    {
+      "text": "I think what I was showing you was the data that we have on 4.6 fast versus 4.6 base, which is it started out at, let's say, around 90 tokens per second per user on fast mode and around 35 or 40 for base.",
+      "start": 371.48,
+      "duration": 16.24
+    },
+    {
+      "text": "It's still 35 or 40 for base, but it's now at like 70 tokens per second fast mode consistently.",
+      "start": 388.02,
+      "duration": 4.88
+    },
+    {
+      "text": "So it's like not even two times faster for six times the price.",
+      "start": 393.22,
+      "duration": 3.68
+    },
+    {
+      "text": "The guys internally are like, I mean, Max, you made this point in the article, like, or we made this point in the article, I guess.",
+      "start": 396.9,
+      "duration": 8.5
+    },
+    {
+      "text": "This is like the first time where any of the engineers at SemiAnalysis have made the trade of wanting fast over higher quality tokens.",
+      "start": 407.08,
+      "duration": 7.26
+    },
+    {
+      "text": "And I'm not sure what drives that.",
+      "start": 414.74,
+      "duration": 2.32
+    },
+    {
+      "text": "Definitely people want fast mode, definitely feels faster.",
+      "start": 417.38,
+      "duration": 2.02
+    },
+    {
+      "text": "But maybe the big thing is that 4.7 is just not meaningfully better quality than 4.6 for people.",
+      "start": 419.4,
+      "duration": 7.18
+    },
+    {
+      "text": "Today.",
+      "start": 426.9,
+      "duration": 0.54
+    },
+    {
+      "text": "Yeah, I was actually thinking about this earlier today.",
+      "start": 427.76,
+      "duration": 2.0
+    },
+    {
+      "text": "If you kind of treat in the context of the open eye, Cerebrus Steel Eye, because if you assume that like Opus 4.5 with just this, like it passed some key threshold and intelligence slash model capability, such that a lot of your sort of day to day tasks are now just like one shot up all by the models.",
+      "start": 430.92,
+      "duration": 18.82
+    },
+    {
+      "text": "Like you don't really have to supervise them at all.",
+      "start": 449.74,
+      "duration": 1.62
+    },
+    {
+      "text": "You're not even looking at the outputs.",
+      "start": 451.36,
+      "duration": 1.44
+    },
+    {
+      "text": "Maybe it's just the case that like, even if you can never run anything larger than, let's say, like one or 20 billion parameters on Cerebrus.",
+      "start": 452.98,
+      "duration": 8.44
+    },
+    {
+      "text": "Well, you're going to have GPT 5.5 level intelligence in that form factor in probably like less than a year.",
+      "start": 461.84,
+      "duration": 5.68
+    },
+    {
+      "text": "And it might just be that we've actually like passed the inflection point where the majority of people do not need frontier level intelligence, like for the day to day workload.",
+      "start": 467.52,
+      "duration": 10.42
+    },
+    {
+      "text": "And this is probably like doubly true if the models keep getting more expensive.",
+      "start": 477.94,
+      "duration": 4.56
+    },
+    {
+      "text": "Like originally, I thought same analysis, like maybe there's a chance where we'd be able to afford Mythos fast.",
+      "start": 483.42,
+      "duration": 4.64
+    },
+    {
+      "text": "I think it's probably just not true anymore.",
+      "start": 488.72,
+      "duration": 1.42
+    },
+    {
+      "text": "A lot of people have already been priced out of the models.",
+      "start": 490.36,
+      "duration": 3.02
+    },
+    {
+      "text": "I think we're on the cost of getting priced out.",
+      "start": 493.58,
+      "duration": 2.62
+    },
+    {
+      "text": "I don't think we can, right?",
+      "start": 497.04,
+      "duration": 1.98
+    },
+    {
+      "text": "Because like Mythos is what?",
+      "start": 499.18,
+      "duration": 1.94
+    },
+    {
+      "text": "Six or seven.",
+      "start": 502.04,
+      "duration": 0.8
+    },
+    {
+      "text": "It's 25, 150, I think.",
+      "start": 502.84,
+      "duration": 1.84
+    },
+    {
+      "text": "25, 150 or 25, 125.",
+      "start": 504.8,
+      "duration": 1.5
+    },
+    {
+      "text": "25, one of the two.",
+      "start": 506.3,
+      "duration": 0.66
+    },
+    {
+      "text": "Versus 5, 15, right?",
+      "start": 506.98,
+      "duration": 1.26
+    },
+    {
+      "text": "5, 25 for Opus.",
+      "start": 509.12,
+      "duration": 1.56
+    },
+    {
+      "text": "5, 25.",
+      "start": 510.78,
+      "duration": 0.36
+    },
+    {
+      "text": "It's 5x.",
+      "start": 511.24,
+      "duration": 0.02
+    },
+    {
+      "text": "So it's five times more expensive.",
+      "start": 511.26,
+      "duration": 1.44
+    },
+    {
+      "text": "And then fast mode 6x on top of that.",
+      "start": 513.26,
+      "duration": 2.28
+    },
+    {
+      "text": "If we were to take our current token spend, I can justify that.",
+      "start": 516.58,
+      "duration": 2.76
+    },
+    {
+      "text": "But if you were to even double it, I'd be like, oh, fuck.",
+      "start": 519.64,
+      "duration": 1.98
+    },
+    {
+      "text": "Maybe we got to turn off fast mode, guys.",
+      "start": 521.74,
+      "duration": 1.82
+    },
+    {
+      "text": "At this point, at this point.",
+      "start": 524.88,
+      "duration": 1.34
+    },
+    {
+      "text": "Like it is like margins, you know, like matter.",
+      "start": 526.64,
+      "duration": 3.92
+    },
+    {
+      "text": "Do you think there's a possibility that we could define something so important",
+      "start": 530.96,
+      "duration": 4.26
+    },
+    {
+      "text": "in semi-analysis research in the future that we would want to pay the premium",
+      "start": 535.22,
+      "duration": 4.28
+    },
+    {
+      "text": "just for one project or one task?",
+      "start": 539.5,
+      "duration": 2.12
+    },
+    {
+      "text": "I think the flip side is Mythos is more token efficient.",
+      "start": 541.88,
+      "duration": 3.48
+    },
+    {
+      "text": "Mythos fast mode is probably cheaper than like 4.6 fast mode for most tasks.",
+      "start": 545.7,
+      "duration": 4.26
+    },
+    {
+      "text": "I just imagine.",
+      "start": 550.56,
+      "duration": 0.68
+    },
+    {
+      "text": "At least that's the case with like Codex versus 5.4 versus 5.5.",
+      "start": 552.24,
+      "duration": 3.52
+    },
+    {
+      "text": "You know, even if they make the model more expensive, you know,",
+      "start": 555.76,
+      "duration": 4.46
+    },
+    {
+      "text": "that's like not a huge jump in price for the model.",
+      "start": 560.24,
+      "duration": 2.46
+    },
+    {
+      "text": "I don't expect new models to be like more expensive to do the same task.",
+      "start": 563.1,
+      "duration": 3.34
+    },
+    {
+      "text": "It's the problem of cost is like you're going to do new tasks.",
+      "start": 566.92,
+      "duration": 2.22
+    },
+    {
+      "text": "Yeah.",
+      "start": 569.44,
+      "duration": 0.12
+    },
+    {
+      "text": "They call that Jevons, dude.",
+      "start": 570.12,
+      "duration": 1.3
+    },
+    {
+      "text": "Yeah.",
+      "start": 572.32,
+      "duration": 0.36
+    },
+    {
+      "text": "We're going to be coming up with new stuff to do with these models",
+      "start": 572.72,
+      "duration": 6.58
+    },
+    {
+      "text": "based on the work that we do in the next few months with the models.",
+      "start": 579.3,
+      "duration": 3.18
+    },
+    {
+      "text": "We'll come up with new things, new tasks that are harder and more complex",
+      "start": 582.48,
+      "duration": 3.82
+    },
+    {
+      "text": "and need to use the bigger models for them.",
+      "start": 586.3,
+      "duration": 2.52
+    },
+    {
+      "text": "At least that's the problem, right?",
+      "start": 588.9,
+      "duration": 1.54
+    },
+    {
+      "text": "But I feel like right now, at least like I don't even think about",
+      "start": 591.4,
+      "duration": 3.32
+    },
+    {
+      "text": "is this task like worthy for me to spend tokens on?",
+      "start": 594.72,
+      "duration": 2.82
+    },
+    {
+      "text": "I just like spend the tokens.",
+      "start": 598.1,
+      "duration": 1.12
+    },
+    {
+      "text": "But if the models get much more expensive,",
+      "start": 600.06,
+      "duration": 1.86
+    },
+    {
+      "text": "you might have to think carefully like is this task really worth",
+      "start": 602.92,
+      "duration": 3.78
+    },
+    {
+      "text": "Mythos fast token pricing, you know?",
+      "start": 606.7,
+      "duration": 2.02
+    },
+    {
+      "text": "I think that'd be really sad honestly when it happens.",
+      "start": 609.2,
+      "duration": 2.06
+    },
+    {
+      "text": "The question, what is the trade-off?",
+      "start": 611.26,
+      "duration": 1.82
+    },
+    {
+      "text": "Because I have a personal anecdote where it's more expensive to burn tokens",
+      "start": 613.2,
+      "duration": 3.3
+    },
+    {
+      "text": "than to do it.",
+      "start": 616.5,
+      "duration": 1.54
+    },
+    {
+      "text": "What are your examples of the cost is not worth it?",
+      "start": 618.18,
+      "duration": 3.4
+    },
+    {
+      "text": "Like there are times where I was just setting up like some benchmark",
+      "start": 622.18,
+      "duration": 3.6
+    },
+    {
+      "text": "on a digital OS and drop with it.",
+      "start": 625.78,
+      "duration": 1.52
+    },
+    {
+      "text": "And I was using Opus 4.6 fast and that was like $400 or something.",
+      "start": 628.04,
+      "duration": 4.9
+    },
+    {
+      "text": "And I was like, I don't know if it's worth $400, you know?",
+      "start": 633.48,
+      "duration": 3.42
+    },
+    {
+      "text": "That wasn't worth 10 minutes of your time.",
+      "start": 637.0,
+      "duration": 1.78
+    },
+    {
+      "text": "Yeah.",
+      "start": 638.78,
+      "duration": 0.24
+    },
+    {
+      "text": "Yeah.",
+      "start": 640.72,
+      "duration": 0.4
+    },
+    {
+      "text": "Jordan, what's yours?",
+      "start": 642.12,
+      "duration": 0.82
+    },
+    {
+      "text": "Yeah, I think stuff where you can very clearly do it from a script or writing.",
+      "start": 644.02,
+      "duration": 8.8
+    },
+    {
+      "text": "Like writing docs, maybe the first pass with the model is good,",
+      "start": 653.16,
+      "duration": 4.28
+    },
+    {
+      "text": "but editing stuff is just annoying to use the model sometimes",
+      "start": 657.56,
+      "duration": 3.2
+    },
+    {
+      "text": "instead of doing it yourself because it might screw it up",
+      "start": 660.76,
+      "duration": 2.02
+    },
+    {
+      "text": "or might, you know, edit the wrong thing.",
+      "start": 662.78,
+      "duration": 1.96
+    },
+    {
+      "text": "That's a quality versus cost conversation.",
+      "start": 664.74,
+      "duration": 2.0
+    },
+    {
+      "text": "What's this like?",
+      "start": 666.86,
+      "duration": 0.56
+    },
+    {
+      "text": "Wow, this is just a complete waste of tokens.",
+      "start": 667.54,
+      "duration": 2.08
+    },
+    {
+      "text": "Like the tokens in were two times more expensive.",
+      "start": 670.12,
+      "duration": 2.48
+    },
+    {
+      "text": "I don't think I've had that experience yet, to be honest.",
+      "start": 672.96,
+      "duration": 1.96
+    },
+    {
+      "text": "I had somebody give mine.",
+      "start": 676.66,
+      "duration": 0.88
+    },
+    {
+      "text": "Yeah, what's yours?",
+      "start": 678.24,
+      "duration": 0.52
+    },
+    {
+      "text": "Yeah.",
+      "start": 678.92,
+      "duration": 0.12
+    },
+    {
+      "text": "Okay, so scraping large data sets, at some point, there's a diminishing return.",
+      "start": 679.04,
+      "duration": 6.16
+    },
+    {
+      "text": "You're like, hey, give me 10,000 employees from this company.",
+      "start": 685.42,
+      "duration": 3.1
+    },
+    {
+      "text": "And you're like, great, I'm going to have a search API, various whatever, blah, blah, blah.",
+      "start": 688.76,
+      "duration": 5.34
+    },
+    {
+      "text": "Like I'll do a lot of variation to figure out a profile about every person who's worked at this company.",
+      "start": 694.38,
+      "duration": 5.32
+    },
+    {
+      "text": "And then you like actually run the cost and there's like a data enhancement API.",
+      "start": 699.7,
+      "duration": 4.44
+    },
+    {
+      "text": "And like the data enhancement API is like literally one tenth of the cost.",
+      "start": 704.78,
+      "duration": 2.58
+    },
+    {
+      "text": "You're like, oh, shit.",
+      "start": 707.46,
+      "duration": 0.76
+    },
+    {
+      "text": "Like I think I burnt $800 in tokens to do what would take maybe $55 to $100 token of API calls.",
+      "start": 708.58,
+      "duration": 8.18
+    },
+    {
+      "text": "And one is like, okay, it's probably slop.",
+      "start": 717.3,
+      "duration": 2.16
+    },
+    {
+      "text": "But the other one is, in theory, verified by another slop cannon.",
+      "start": 719.5,
+      "duration": 3.24
+    },
+    {
+      "text": "And so like, I just, I think there's some value,",
+      "start": 723.16,
+      "duration": 2.84
+    },
+    {
+      "text": "like, and that's like probably one of the most interesting places where the replacement cost of the tokens versus the actual information.",
+      "start": 726.0,
+      "duration": 5.86
+    },
+    {
+      "text": "You know, it's still a lot cheaper to just like essentially serve data via an API.",
+      "start": 732.72,
+      "duration": 4.8
+    },
+    {
+      "text": "But like that cost, like the pressure on the top will move that down, if that makes sense.",
+      "start": 737.82,
+      "duration": 4.32
+    },
+    {
+      "text": "Like just scraping the entire internet is just not token efficient at all.",
+      "start": 742.6,
+      "duration": 3.44
+    },
+    {
+      "text": "So, yeah, that's a good example where I just tried to boil the ocean using AI.",
+      "start": 746.56,
+      "duration": 4.06
+    },
+    {
+      "text": "And I've been really curious about like, there's going to be a trade-off where the, like, you know,",
+      "start": 750.94,
+      "duration": 4.72
+    },
+    {
+      "text": "it's just not worth this much intelligence.",
+      "start": 755.66,
+      "duration": 2.34
+    },
+    {
+      "text": "You know, like making me coffee.",
+      "start": 758.42,
+      "duration": 1.26
+    },
+    {
+      "text": "It's like the Rick and Morty game.",
+      "start": 759.94,
+      "duration": 0.96
+    },
+    {
+      "text": "It's like, what's your purpose?",
+      "start": 760.96,
+      "duration": 0.68
+    },
+    {
+      "text": "Like pass me the butter.",
+      "start": 761.76,
+      "duration": 0.74
+    },
+    {
+      "text": "Like, this is, this is a waste, man.",
+      "start": 762.7,
+      "duration": 2.06
+    },
+    {
+      "text": "Like, we've got to find a better, a better token efficiency.",
+      "start": 764.86,
+      "duration": 3.3
+    },
+    {
+      "text": "Yeah.",
+      "start": 769.04,
+      "duration": 0.1
+    },
+    {
+      "text": "You can actually hire some people for cheaper to do some menial tasks than you can with tokens.",
+      "start": 769.34,
+      "duration": 3.96
+    },
+    {
+      "text": "But some of the analysis that we've done recently is like,",
+      "start": 773.42,
+      "duration": 2.66
+    },
+    {
+      "text": "it kind of goes the opposite way so often that you just get used to tokens being the cheaper approach",
+      "start": 776.26,
+      "duration": 6.7
+    },
+    {
+      "text": "or the faster approach in so many cases that you don't even consider the alternative.",
+      "start": 782.96,
+      "duration": 3.98
+    },
+    {
+      "text": "In aggregate it is, for sure.",
+      "start": 787.66,
+      "duration": 1.2
+    },
+    {
+      "text": "No way.",
+      "start": 789.1,
+      "duration": 0.52
+    },
+    {
+      "text": "So what's the, what's the takeaway, Dylan?",
+      "start": 789.86,
+      "duration": 1.62
+    },
+    {
+      "text": "Is, is OpenAI also back at this point?",
+      "start": 791.86,
+      "duration": 2.82
+    },
+    {
+      "text": "You think they're going to?",
+      "start": 795.18,
+      "duration": 1.02
+    },
+    {
+      "text": "I don't know, man.",
+      "start": 796.2,
+      "duration": 0.56
+    },
+    {
+      "text": "New release in two weeks.",
+      "start": 796.8,
+      "duration": 1.66
+    },
+    {
+      "text": "New release in two weeks.",
+      "start": 798.56,
+      "duration": 0.98
+    },
+    {
+      "text": "Everyone's releasing in two weeks.",
+      "start": 800.12,
+      "duration": 1.34
+    },
+    {
+      "text": "Google, OpenAI, maybe Anthropic.",
+      "start": 802.08,
+      "duration": 2.68
+    },
+    {
+      "text": "I don't know about Anthropic, but Google and OpenAI definitely releasing in two weeks.",
+      "start": 804.86,
+      "duration": 3.46
+    },
+    {
+      "text": "So.",
+      "start": 808.32,
+      "duration": 1.0
+    },
+    {
+      "text": "What are they releasing?",
+      "start": 810.9,
+      "duration": 0.94
+    },
+    {
+      "text": "New pre-trains?",
+      "start": 812.06,
+      "duration": 0.62
+    },
+    {
+      "text": "More RL?",
+      "start": 812.86,
+      "duration": 0.6
+    },
+    {
+      "text": "Same base model?",
+      "start": 814.36,
+      "duration": 0.7
+    },
+    {
+      "text": "More everything.",
+      "start": 815.18,
+      "duration": 0.32
+    },
+    {
+      "text": "More, more, more continued pre-training because the spud,",
+      "start": 816.24,
+      "duration": 3.36
+    },
+    {
+      "text": "they kind of like didn't finish the pre-training and just released it.",
+      "start": 819.72,
+      "duration": 2.76
+    },
+    {
+      "text": "So finish the pre-training, do more RL, drop model.",
+      "start": 824.28,
+      "duration": 4.06
+    },
+    {
+      "text": "Google mostly just going to be like multimodal swap.",
+      "start": 829.86,
+      "duration": 2.14
+    },
+    {
+      "text": "We'll see.",
+      "start": 832.24,
+      "duration": 0.26
+    },
+    {
+      "text": "I guess my question is like, like the narrative is that, you know,",
+      "start": 832.84,
+      "duration": 3.34
+    },
+    {
+      "text": "for even the normies who don't use fast mode,",
+      "start": 836.18,
+      "duration": 2.1
+    },
+    {
+      "text": "that 4.7 is worse than 4.6.",
+      "start": 838.32,
+      "duration": 2.22
+    },
+    {
+      "text": "Do you guys agree with this or no?",
+      "start": 840.88,
+      "duration": 1.12
+    },
+    {
+      "text": "I think the instruction following has gone objectively worse.",
+      "start": 842.08,
+      "duration": 2.74
+    },
+    {
+      "text": "I think it keeps missing ClaudeMD instructions or you pull a skill and you're like,",
+      "start": 845.06,
+      "duration": 5.2
+    },
+    {
+      "text": "dude, you didn't do exactly what was laid out in the skill.",
+      "start": 850.32,
+      "duration": 2.24
+    },
+    {
+      "text": "That seems to be a consistent problem.",
+      "start": 852.86,
+      "duration": 3.68
+    },
+    {
+      "text": "I don't know.",
+      "start": 857.14,
+      "duration": 0.68
+    },
+    {
+      "text": "I feel like it's a compute problem more than anything else.",
+      "start": 857.9,
+      "duration": 2.32
+    },
+    {
+      "text": "It still has the like, we've done a lot for today, you know,",
+      "start": 860.44,
+      "duration": 3.4
+    },
+    {
+      "text": "go enjoy your weekend.",
+      "start": 863.84,
+      "duration": 1.26
+    },
+    {
+      "text": "I was like, it's fucking Monday.",
+      "start": 865.26,
+      "duration": 1.18
+    },
+    {
+      "text": "Like, get back to work.",
+      "start": 866.86,
+      "duration": 1.04
+    },
+    {
+      "text": "Um, I annoys me so much.",
+      "start": 868.32,
+      "duration": 1.64
+    },
+    {
+      "text": "It tries to like enforce me to like stop working.",
+      "start": 870.0,
+      "duration": 3.88
+    },
+    {
+      "text": "And I'm like, oh, clearly usage issue.",
+      "start": 873.88,
+      "duration": 1.82
+    },
+    {
+      "text": "Um, but I think, I think the 4.6 golden age when it wasn't quantitized in the beginning,",
+      "start": 876.24,
+      "duration": 4.98
+    },
+    {
+      "text": "that's when it was, those were the days.",
+      "start": 881.22,
+      "duration": 1.92
+    },
+    {
+      "text": "Okay.",
+      "start": 883.14,
+      "duration": 0.32
+    },
+    {
+      "text": "Fast mode 4.6 pre, pre the nerf.",
+      "start": 883.56,
+      "duration": 2.82
+    },
+    {
+      "text": "Oh, but I, I just think that there's this,",
+      "start": 886.58,
+      "duration": 2.18
+    },
+    {
+      "text": "this maturity of the models as they become more inference optimized and more people use them,",
+      "start": 888.98,
+      "duration": 5.16
+    },
+    {
+      "text": "that it becomes a worse experience as you 10 or a hundred X the users.",
+      "start": 894.14,
+      "duration": 4.08
+    },
+    {
+      "text": "And I think that that's happened.",
+      "start": 898.7,
+      "duration": 1.0
+    },
+    {
+      "text": "Uh, yeah, I just think 4.7 is fine.",
+      "start": 900.28,
+      "duration": 1.64
+    },
+    {
+      "text": "I think 4.6, 4.7 is probably the same.",
+      "start": 902.06,
+      "duration": 1.9
+    },
+    {
+      "text": "Uh, it's just that it's, oh my God, I saw that.",
+      "start": 904.46,
+      "duration": 2.44
+    },
+    {
+      "text": "Um, it's, it's kind of the same level of experience.",
+      "start": 906.98,
+      "duration": 2.52
+    },
+    {
+      "text": "Yeah.",
+      "start": 909.78,
+      "duration": 0.32
+    },
+    {
+      "text": "It's just too many users, bro.",
+      "start": 910.1,
+      "duration": 1.16
+    },
+    {
+      "text": "I need a NIMBY.",
+      "start": 911.5,
+      "duration": 0.94
+    },
+    {
+      "text": "I need a NIMBY AI.",
+      "start": 912.54,
+      "duration": 0.82
+    },
+    {
+      "text": "I need a NIMBY frontier model where no one else uses it except for, you know, except for me.",
+      "start": 913.48,
+      "duration": 4.96
+    },
+    {
+      "text": "So I can use it to get it at a higher, a higher rate.",
+      "start": 918.58,
+      "duration": 3.5
+    },
+    {
+      "text": "Um, I mean, that's the appeal of codecs, uh, right now, I think, is that in theory,",
+      "start": 922.54,
+      "duration": 3.94
+    },
+    {
+      "text": "you should be able to have higher rates, but.",
+      "start": 926.48,
+      "duration": 2.04
+    },
+    {
+      "text": "Can we, can we talk benchmarks?",
+      "start": 928.98,
+      "duration": 1.48
+    },
+    {
+      "text": "Like Max, when, when you saw the 4.7 release, for example,",
+      "start": 930.8,
+      "duration": 3.84
+    },
+    {
+      "text": "and we reviewed some of the benchmark scores,",
+      "start": 934.64,
+      "duration": 1.56
+    },
+    {
+      "text": "it was better on most, not better on all.",
+      "start": 936.2,
+      "duration": 3.78
+    },
+    {
+      "text": "And it led us to talk about like where benchmarks are useful and where they're not.",
+      "start": 940.34,
+      "duration": 5.52
+    },
+    {
+      "text": "So Doug's given the vibes, like obviously individual experience can be different across people",
+      "start": 946.4,
+      "duration": 6.12
+    },
+    {
+      "text": "and it just drives their preferences.",
+      "start": 952.52,
+      "duration": 1.1
+    },
+    {
+      "text": "But like there should be some objective way to say 4.7 is better or is not better than 4.6.",
+      "start": 953.62,
+      "duration": 6.18
+    },
+    {
+      "text": "Um, honestly, benchmarks obviously try to be that objective measure.",
+      "start": 960.74,
+      "duration": 4.22
+    },
+    {
+      "text": "I think they just like no longer are today.",
+      "start": 964.96,
+      "duration": 3.6
+    },
+    {
+      "text": "I would say benchmarks, it's like you need to be close to, uh, the frontier performance",
+      "start": 968.8,
+      "duration": 6.38
+    },
+    {
+      "text": "in order to have a shot at being like the true best model.",
+      "start": 975.18,
+      "duration": 2.74
+    },
+    {
+      "text": "Uh, but being like number one on the benchmark rate theme does not necessarily imply",
+      "start": 978.34,
+      "duration": 4.6
+    },
+    {
+      "text": "that you actually are the best model.",
+      "start": 982.94,
+      "duration": 1.46
+    },
+    {
+      "text": "And so I would say like, uh, benchmarks today are most useful as sort of just like a vibe check",
+      "start": 984.5,
+      "duration": 4.9
+    },
+    {
+      "text": "to make sure that the model's not total trash.",
+      "start": 989.4,
+      "duration": 1.9
+    },
+    {
+      "text": "Um, we kind of talked about this in the newsletter article, but it's, it's surprising to me sort",
+      "start": 991.3,
+      "duration": 5.94
+    },
+    {
+      "text": "of how few people actually look into the details of the benchmarks to understand how unrepresentative",
+      "start": 997.24,
+      "duration": 6.9
+    },
+    {
+      "text": "they are of like real, uh, like LLM use cases.",
+      "start": 1004.14,
+      "duration": 3.58
+    },
+    {
+      "text": "I think a lot of people just hear a name like humanity's last exam and they assume like, oh",
+      "start": 1007.72,
+      "duration": 5.8
+    },
+    {
+      "text": "my God, you know, if early, if a model can solve humanity's last exam, that implies that",
+      "start": 1013.52,
+      "duration": 4.98
+    },
+    {
+      "text": "it's, it's like smarter than all of humanity, right?",
+      "start": 1018.5,
+      "duration": 2.24
+    },
+    {
+      "text": "We've like passed AGI or something.",
+      "start": 1020.74,
+      "duration": 1.88
+    },
+    {
+      "text": "Um, in reality, you just like, you look at the individual questions and they're just the",
+      "start": 1023.14,
+      "duration": 4.66
+    },
+    {
+      "text": "most like esoteric multiple choice questions you've ever seen.",
+      "start": 1027.8,
+      "duration": 4.34
+    },
+    {
+      "text": "Uh, they're not at all representative of anything you've like ever asked an LLM to do.",
+      "start": 1032.14,
+      "duration": 4.16
+    },
+    {
+      "text": "Uh, it's very intentionally multiple choice to make a verification easy, even though like,",
+      "start": 1036.8,
+      "duration": 6.06
+    },
+    {
+      "text": "obviously when you, when you like use a LLM in real life, it's, it's open-ended.",
+      "start": 1043.64,
+      "duration": 3.88
+    },
+    {
+      "text": "Um, and this like even applies to benchmarks that on the surface you might think would be better",
+      "start": 1048.22,
+      "duration": 6.34
+    },
+    {
+      "text": "like sweet bench too, where it's like, oh, you know, coding is this verifiable task.",
+      "start": 1054.56,
+      "duration": 3.66
+    },
+    {
+      "text": "Surely you can just come up with some coding problem for the model and then write some like",
+      "start": 1058.22,
+      "duration": 3.84
+    },
+    {
+      "text": "tests and verify if it's successful or not.",
+      "start": 1062.06,
+      "duration": 2.38
+    },
+    {
+      "text": "Um, but then you dig into the details and it's like, oh, it's, it's actually really hard to",
+      "start": 1064.82,
+      "duration": 4.54
+    },
+    {
+      "text": "write a coding problem that is both naturally worded, uh, yet still like perfectly unambiguous",
+      "start": 1069.36,
+      "duration": 7.0
+    },
+    {
+      "text": "with exactly one correct solution.",
+      "start": 1076.36,
+      "duration": 1.48
+    },
+    {
+      "text": "Um, and the sweet bench problems, uh, at least for the original version, they, they do not at",
+      "start": 1078.36,
+      "duration": 4.82
+    },
+    {
+      "text": "all like fit those criteria.",
+      "start": 1083.18,
+      "duration": 1.34
+    },
+    {
+      "text": "Uh, they just scrape GitHub issues.",
+      "start": 1085.08,
+      "duration": 1.88
+    },
+    {
+      "text": "And for all the developers listening know that like GitHub issue descriptions are not meant",
+      "start": 1086.96,
+      "duration": 5.64
+    },
+    {
+      "text": "to be like well-scoped tasks, uh, that you just copy paste and give a model.",
+      "start": 1092.6,
+      "duration": 4.26
+    },
+    {
+      "text": "Uh, similarly for the verifiers, like they, they often include lots of unit tasks that are",
+      "start": 1097.22,
+      "duration": 5.78
+    },
+    {
+      "text": "scoped, like particular implementation details, uh, going as far to like ask the AI to output",
+      "start": 1103.0,
+      "duration": 5.32
+    },
+    {
+      "text": "a specific like 20 word error message.",
+      "start": 1108.32,
+      "duration": 3.06
+    },
+    {
+      "text": "That's not at all mentioned in the task description.",
+      "start": 1111.48,
+      "duration": 2.1
+    },
+    {
+      "text": "Um, and obviously like later versions of sweet bench tried to solve these issues, but, uh,",
+      "start": 1114.3,
+      "duration": 4.76
+    },
+    {
+      "text": "it's still not perfect.",
+      "start": 1119.28,
+      "duration": 0.9
+    },
+    {
+      "text": "I think really just underscores a lot of the issues with benchmarks.",
+      "start": 1120.18,
+      "duration": 2.32
+    },
+    {
+      "text": "Makes sense.",
+      "start": 1122.96,
+      "duration": 0.2
+    },
+    {
+      "text": "So let's, uh, let's talk about 4.7 specifically.",
+      "start": 1123.26,
+      "duration": 2.72
+    },
+    {
+      "text": "Like there was a few things that improved, um, or changed, let's say, uh, in terms of like",
+      "start": 1125.98,
+      "duration": 7.3
+    },
+    {
+      "text": "features as opposed to just the benchmark itself.",
+      "start": 1133.28,
+      "duration": 2.78
+    },
+    {
+      "text": "And I think you, you made the point in the article that like the, the people don't necessarily",
+      "start": 1136.06,
+      "duration": 5.1
+    },
+    {
+      "text": "care as much about the quality of the model anymore.",
+      "start": 1141.16,
+      "duration": 2.7
+    },
+    {
+      "text": "It's the model plus the harness, which is the product that should be tested as opposed",
+      "start": 1143.86,
+      "duration": 5.0
+    },
+    {
+      "text": "to the model on a generic, you know, bash only harness or something like that.",
+      "start": 1148.86,
+      "duration": 5.12
+    },
+    {
+      "text": "Harness meaning, uh, Claude code is the thing you're testing, not Opus 4.7.",
+      "start": 1154.6,
+      "duration": 6.42
+    },
+    {
+      "text": "Uh, so it's Claude code versus codex.",
+      "start": 1161.3,
+      "duration": 1.78
+    },
+    {
+      "text": "It's not Opus versus GPT.",
+      "start": 1163.08,
+      "duration": 1.64
+    },
+    {
+      "text": "Um, so to that end, like during the release for 4.7, uh, they announced a, uh, extra high",
+      "start": 1165.24,
+      "duration": 9.48
+    },
+    {
+      "text": "reasoning effort option that slots between high and max.",
+      "start": 1174.72,
+      "duration": 2.48
+    },
+    {
+      "text": "They announced high resolution image support, which people can use to, um, like use for",
+      "start": 1177.2,
+      "duration": 5.96
+    },
+    {
+      "text": "screenshots and styling and front end applications.",
+      "start": 1183.16,
+      "duration": 2.24
+    },
+    {
+      "text": "Um, they're omitting thinking content by default.",
+      "start": 1186.04,
+      "duration": 2.7
+    },
+    {
+      "text": "So people won't see when the model's thinking, um, they're, they've got this task budget concepts",
+      "start": 1188.74,
+      "duration": 6.2
+    },
+    {
+      "text": "that you can tell the model how much it should think or work before it can actually like run",
+      "start": 1194.94,
+      "duration": 4.4
+    },
+    {
+      "text": "out of context in the context window.",
+      "start": 1199.34,
+      "duration": 1.68
+    },
+    {
+      "text": "And then maybe most importantly, they updated their tokenizer.",
+      "start": 1201.02,
+      "duration": 3.06
+    },
+    {
+      "text": "So it, it potentially costing people 35% more for the exact same output from the model as",
+      "start": 1204.3,
+      "duration": 5.66
+    },
+    {
+      "text": "a previous model, just because they're counting tokens differently.",
+      "start": 1209.96,
+      "duration": 2.76
+    },
+    {
+      "text": "And they're, you know, using it now that of course, like implies that there's, uh, there's,",
+      "start": 1212.72,
+      "duration": 5.52
+    },
+    {
+      "text": "there's something, um, sorry, I'm just laughing at Dylan right now.",
+      "start": 1218.34,
+      "duration": 4.56
+    },
+    {
+      "text": "I literally put him to sleep with that monologue.",
+      "start": 1222.9,
+      "duration": 7.0
+    },
+    {
+      "text": "Holy shit.",
+      "start": 1229.9,
+      "duration": 0.96
+    },
+    {
+      "text": "Oh my God.",
+      "start": 1232.86,
+      "duration": 3.46
+    },
+    {
+      "text": "Okay.",
+      "start": 1236.68,
+      "duration": 0.34
+    },
+    {
+      "text": "Well, man, come on.",
+      "start": 1237.16,
+      "duration": 2.26
+    },
+    {
+      "text": "Hold me over.",
+      "start": 1239.56,
+      "duration": 0.44
+    },
+    {
+      "text": "Well, what are you talking about, man?",
+      "start": 1241.52,
+      "duration": 1.72
+    },
+    {
+      "text": "Tokenizer.",
+      "start": 1244.94,
+      "duration": 0.44
+    },
+    {
+      "text": "The tokenizer is so boring.",
+      "start": 1247.96,
+      "duration": 1.76
+    },
+    {
+      "text": "Then it puts Dylan to sleep.",
+      "start": 1249.86,
+      "duration": 1.16
+    },
+    {
+      "text": "That's the takeaway.",
+      "start": 1251.16,
+      "duration": 0.72
+    },
+    {
+      "text": "It's not like the pod was like compelling or great at this point, but it is now I'm compelled.",
+      "start": 1251.88,
+      "duration": 8.16
+    },
+    {
+      "text": "Now we can talk about all the shit we want.",
+      "start": 1260.8,
+      "duration": 1.84
+    },
+    {
+      "text": "The tokenizer.",
+      "start": 1263.54,
+      "duration": 1.1
+    },
+    {
+      "text": "What's the Michelangelo painting or sculpture where the guy is like, um,",
+      "start": 1266.18,
+      "duration": 5.56
+    },
+    {
+      "text": "Oh, the thinker.",
+      "start": 1272.3,
+      "duration": 0.84
+    },
+    {
+      "text": "Yeah.",
+      "start": 1273.62,
+      "duration": 0.22
+    },
+    {
+      "text": "He's back.",
+      "start": 1273.98,
+      "duration": 0.92
+    },
+    {
+      "text": "He's back.",
+      "start": 1275.4,
+      "duration": 0.56
+    },
+    {
+      "text": "Could you actually not hear us through your headphones?",
+      "start": 1275.96,
+      "duration": 2.24
+    },
+    {
+      "text": "I mean, he's been, he's been asleep.",
+      "start": 1278.66,
+      "duration": 2.98
+    },
+    {
+      "text": "I was just thinking, man.",
+      "start": 1281.64,
+      "duration": 2.38
+    },
+    {
+      "text": "You've been gone for a few hours.",
+      "start": 1284.62,
+      "duration": 1.62
+    },
+    {
+      "text": "Call me, call me, call me GPT 5.5 X high.",
+      "start": 1286.24,
+      "duration": 2.9
+    },
+    {
+      "text": "I was just thinking right now.",
+      "start": 1289.8,
+      "duration": 0.88
+    },
+    {
+      "text": "Okay.",
+      "start": 1291.06,
+      "duration": 0.1
+    },
+    {
+      "text": "Tokenizer, Opus 4.7, Opus 4.6.",
+      "start": 1291.34,
+      "duration": 2.56
+    },
+    {
+      "text": "We've been dancing around the fact that GPT 5.5 is fine.",
+      "start": 1293.9,
+      "duration": 3.02
+    },
+    {
+      "text": "Not goaded.",
+      "start": 1297.42,
+      "duration": 0.66
+    },
+    {
+      "text": "Definitely good enough.",
+      "start": 1298.32,
+      "duration": 1.04
+    },
+    {
+      "text": "Lots of capacity.",
+      "start": 1299.56,
+      "duration": 0.9
+    },
+    {
+      "text": "They'll catch up on the margin.",
+      "start": 1300.72,
+      "duration": 1.2
+    },
+    {
+      "text": "Sounds good.",
+      "start": 1302.24,
+      "duration": 0.56
+    },
+    {
+      "text": "Great.",
+      "start": 1303.06,
+      "duration": 0.28
+    },
+    {
+      "text": "Anything else?",
+      "start": 1303.76,
+      "duration": 0.58
+    },
+    {
+      "text": "Benchmarks suck.",
+      "start": 1304.56,
+      "duration": 0.66
+    },
+    {
+      "text": "That's a really good thing.",
+      "start": 1305.34,
+      "duration": 0.98
+    },
+    {
+      "text": "Anything else?",
+      "start": 1307.34,
+      "duration": 0.34
+    },
+    {
+      "text": "What's the tokenizer thing?",
+      "start": 1307.68,
+      "duration": 0.6
+    },
+    {
+      "text": "What's the tokenizer difference?",
+      "start": 1308.54,
+      "duration": 0.82
+    },
+    {
+      "text": "They changed tokenizer between 4.6 and 4.7.",
+      "start": 1309.88,
+      "duration": 2.58
+    },
+    {
+      "text": "The exact same output could have 35% more tokens with the new one.",
+      "start": 1312.46,
+      "duration": 5.36
+    },
+    {
+      "text": "Oh, they made the tokenizer, they made the vocab smaller.",
+      "start": 1317.84,
+      "duration": 1.78
+    },
+    {
+      "text": "They made the vocab bigger for 4.7 compared to 4.6.",
+      "start": 1320.46,
+      "duration": 3.68
+    },
+    {
+      "text": "There's 35% more tokens in the tokenizer, like more vocab.",
+      "start": 1324.36,
+      "duration": 4.04
+    },
+    {
+      "text": "So wouldn't that make the average output smaller?",
+      "start": 1329.52,
+      "duration": 1.86
+    },
+    {
+      "text": "No, it doesn't have to be smaller.",
+      "start": 1332.38,
+      "duration": 0.2
+    },
+    {
+      "text": "Because you can represent longer, you can represent longer things with fewer tokens?",
+      "start": 1332.58,
+      "duration": 3.64
+    },
+    {
+      "text": "No, more tokens.",
+      "start": 1337.16,
+      "duration": 1.18
+    },
+    {
+      "text": "Well, sorry.",
+      "start": 1338.58,
+      "duration": 0.34
+    },
+    {
+      "text": "Each token is more granular.",
+      "start": 1339.04,
+      "duration": 1.36
+    },
+    {
+      "text": "If you had 20, if you wanted to make English with only 28 tokens, then you would have to do every letter.",
+      "start": 1340.4,
+      "duration": 7.14
+    },
+    {
+      "text": "But if you wanted to do English with 500 tokens, sure, you'd have every letter, but then you'd also have like of and the as tokens.",
+      "start": 1347.96,
+      "duration": 6.0
+    },
+    {
+      "text": "Wouldn't it make the output smaller with fewer tokens?",
+      "start": 1354.54,
+      "duration": 2.74
+    },
+    {
+      "text": "This is a good take.",
+      "start": 1357.98,
+      "duration": 1.1
+    },
+    {
+      "text": "In practice, no.",
+      "start": 1359.94,
+      "duration": 1.32
+    },
+    {
+      "text": "But conceptually, yeah, you could train the model with full words as tokens.",
+      "start": 1361.26,
+      "duration": 9.3
+    },
+    {
+      "text": "But I think what people have seen is that the model currently is less token efficient with a larger vocab.",
+      "start": 1370.9,
+      "duration": 6.62
+    },
+    {
+      "text": "Oh, interesting.",
+      "start": 1379.48,
+      "duration": 0.62
+    },
+    {
+      "text": "But that's a good point.",
+      "start": 1380.8,
+      "duration": 1.02
+    },
+    {
+      "text": "Yeah.",
+      "start": 1382.06,
+      "duration": 0.14
+    },
+    {
+      "text": "Man, the guy came back in with a heater here.",
+      "start": 1383.1,
+      "duration": 1.76
+    },
+    {
+      "text": "So, yeah.",
+      "start": 1384.86,
+      "duration": 0.66
+    },
+    {
+      "text": "Wow.",
+      "start": 1386.6,
+      "duration": 0.36
+    },
+    {
+      "text": "He was thinking all this time.",
+      "start": 1387.8,
+      "duration": 1.82
+    },
+    {
+      "text": "Okay.",
+      "start": 1393.82,
+      "duration": 0.44
+    },
+    {
+      "text": "Yeah.",
+      "start": 1394.74,
+      "duration": 0.22
+    },
+    {
+      "text": "Well, the whole concept of being more token efficient is that you can solve total tasks with less tokens because the more granular breakup of the tokens or the larger breakup in the token size or just having a larger vocabulary would mean that you would have more information represented.",
+      "start": 1395.18,
+      "duration": 18.66
+    },
+    {
+      "text": "in latent space.",
+      "start": 1413.84,
+      "duration": 1.5
+    },
+    {
+      "text": "Like the concept of semi-analysis might be a token instead of semi-and analysis, right?",
+      "start": 1416.38,
+      "duration": 6.66
+    },
+    {
+      "text": "Yeah.",
+      "start": 1423.7,
+      "duration": 0.12
+    },
+    {
+      "text": "But then, yeah, it creates more context, right?",
+      "start": 1423.96,
+      "duration": 1.82
+    },
+    {
+      "text": "Versus maybe even four tokens in semi-analysis.",
+      "start": 1425.84,
+      "duration": 2.58
+    },
+    {
+      "text": "I get it, right?",
+      "start": 1428.56,
+      "duration": 0.94
+    },
+    {
+      "text": "Like there's choices.",
+      "start": 1429.6,
+      "duration": 1.88
+    },
+    {
+      "text": "It's richer information.",
+      "start": 1431.5,
+      "duration": 1.44
+    },
+    {
+      "text": "Like the embedding for semi-analysis might be close to the embedding for Dillon in the latent space, right?",
+      "start": 1433.14,
+      "duration": 6.78
+    },
+    {
+      "text": "Yeah, that makes sense.",
+      "start": 1440.26,
+      "duration": 0.84
+    },
+    {
+      "text": "Which is, you know, the embedding for semi or the embedding for analysis is probably not close to it.",
+      "start": 1441.1,
+      "duration": 6.36
+    },
+    {
+      "text": "So, whatever.",
+      "start": 1448.12,
+      "duration": 0.68
+    },
+    {
+      "text": "It's probably like, I think it's unclear whether this is significantly improving performance because everybody still thinks it's a toss-up between 4.7 and 4.6 of what's better.",
+      "start": 1448.98,
+      "duration": 12.16
+    },
+    {
+      "text": "But then I also think it's a toss-up about whether this is more token efficient or worse.",
+      "start": 1461.14,
+      "duration": 7.28
+    },
+    {
+      "text": "Because it seems like people are saying, if it's not a significantly better model, then why are we doing this new tokenizer thing?",
+      "start": 1468.42,
+      "duration": 6.28
+    },
+    {
+      "text": "So, maybe it's just an early checkpoint.",
+      "start": 1475.02,
+      "duration": 1.38
+    },
+    {
+      "text": "They got to do more RL and improve 4.7 and then have a 4.8 drop that really improves things.",
+      "start": 1476.56,
+      "duration": 5.34
+    },
+    {
+      "text": "I don't think Anthropic really does half-baked models.",
+      "start": 1481.9,
+      "duration": 2.28
+    },
+    {
+      "text": "Like OpenAI clearly does.",
+      "start": 1485.58,
+      "duration": 1.08
+    },
+    {
+      "text": "Like 5.3 codex is like RL only on code.",
+      "start": 1487.12,
+      "duration": 3.18
+    },
+    {
+      "text": "Is this the most half-baked of any model?",
+      "start": 1490.9,
+      "duration": 2.62
+    },
+    {
+      "text": "Previously, we've seen Sonnet before Opus, right?",
+      "start": 1493.94,
+      "duration": 2.6
+    },
+    {
+      "text": "4.5 Sonnet, then 4.5 Opus, 4.6, then, right?",
+      "start": 1496.86,
+      "duration": 3.26
+    },
+    {
+      "text": "This is the first new one of just Opus.",
+      "start": 1500.66,
+      "duration": 3.12
+    },
+    {
+      "text": "It's because Opus 4.7 is actually Sonnet, dude.",
+      "start": 1504.38,
+      "duration": 3.16
+    },
+    {
+      "text": "Are you not a truther?",
+      "start": 1507.96,
+      "duration": 0.68
+    },
+    {
+      "text": "Yeah, yeah.",
+      "start": 1508.8,
+      "duration": 0.12
+    },
+    {
+      "text": "And then Opus 4.7 is mythos.",
+      "start": 1508.96,
+      "duration": 2.2
+    },
+    {
+      "text": "There you go.",
+      "start": 1511.56,
+      "duration": 0.68
+    },
+    {
+      "text": "Yeah, there you go.",
+      "start": 1512.76,
+      "duration": 0.72
+    },
+    {
+      "text": "This is truther, bro.",
+      "start": 1513.66,
+      "duration": 1.96
+    },
+    {
+      "text": "It's time for truthers, bro.",
+      "start": 1516.04,
+      "duration": 2.16
+    },
+    {
+      "text": "Opus 4.6 is actually Sonnet all along.",
+      "start": 1518.36,
+      "duration": 2.08
+    },
+    {
+      "text": "Does everyone know?",
+      "start": 1521.12,
+      "duration": 0.64
+    },
+    {
+      "text": "Do you not remember that?",
+      "start": 1521.94,
+      "duration": 0.86
+    },
+    {
+      "text": "Like, that was like a big model spell.",
+      "start": 1523.0,
+      "duration": 1.42
+    },
+    {
+      "text": "Yeah, removing the mask.",
+      "start": 1524.42,
+      "duration": 0.72
+    },
+    {
+      "text": "Yeah, yeah.",
+      "start": 1525.26,
+      "duration": 0.28
+    },
+    {
+      "text": "Exactly.",
+      "start": 1525.72,
+      "duration": 0.42
+    },
+    {
+      "text": "Yeah, yeah.",
+      "start": 1526.64,
+      "duration": 0.36
+    },
+    {
+      "text": "This model spell is small.",
+      "start": 1527.22,
+      "duration": 1.14
+    },
+    {
+      "text": "Actually, I wanted to maybe actually pull this back to the DeepSeq portion of the article",
+      "start": 1529.14,
+      "duration": 4.9
+    },
+    {
+      "text": "because I don't think we talked about DeepSeq.",
+      "start": 1534.04,
+      "duration": 1.44
+    },
+    {
+      "text": "Yeah, the DeepSeq version of the article.",
+      "start": 1536.06,
+      "duration": 1.76
+    },
+    {
+      "text": "We didn't talk about DeepSeq in depth, but I think we have a lot more internal takes than",
+      "start": 1538.06,
+      "duration": 3.76
+    },
+    {
+      "text": "what we put in the article.",
+      "start": 1541.82,
+      "duration": 0.96
+    },
+    {
+      "text": "And I guess my question is, do you think the gap between open source and China and the",
+      "start": 1543.58,
+      "duration": 4.5
+    },
+    {
+      "text": "United States is now widening again?",
+      "start": 1548.08,
+      "duration": 1.94
+    },
+    {
+      "text": "Because it feels like it is now.",
+      "start": 1550.02,
+      "duration": 1.22
+    },
+    {
+      "text": "And it's because of compute constraints.",
+      "start": 1551.94,
+      "duration": 1.76
+    },
+    {
+      "text": "I would like to have some takes on that.",
+      "start": 1554.02,
+      "duration": 2.26
+    },
+    {
+      "text": "Just my take is the take.",
+      "start": 1556.48,
+      "duration": 1.48
+    },
+    {
+      "text": "Yeah, I'll give a quick one.",
+      "start": 1558.36,
+      "duration": 3.68
+    },
+    {
+      "text": "I think one thing that's been overlooked with DeepSeq is the fact that this is a 1 million",
+      "start": 1562.38,
+      "duration": 4.56
+    },
+    {
+      "text": "token context window model, which many of the leading open source models that perform",
+      "start": 1566.94,
+      "duration": 6.48
+    },
+    {
+      "text": "great on benchmarks that people use for coding don't have million token context.",
+      "start": 1573.42,
+      "duration": 3.36
+    },
+    {
+      "text": "And then I think that the reasoning in visual space paper that they posted and then took down",
+      "start": 1577.96,
+      "duration": 6.14
+    },
+    {
+      "text": "as a Git repo makes me think that they're going to release a multimodal version of this as well,",
+      "start": 1584.1,
+      "duration": 4.5
+    },
+    {
+      "text": "or that they're like in the process of developing it.",
+      "start": 1588.6,
+      "duration": 2.54
+    },
+    {
+      "text": "And there's going to be new waits for that.",
+      "start": 1591.2,
+      "duration": 1.14
+    },
+    {
+      "text": "Both of those things are, I think are fascinating for making China caught up on a product basis.",
+      "start": 1592.68,
+      "duration": 6.66
+    },
+    {
+      "text": "If we're comparing cloud code to codex to DeepSeq in open code or DeepSeq in some other harness,",
+      "start": 1599.34,
+      "duration": 7.2
+    },
+    {
+      "text": "it'll be able to support all the same features in addition to being pretty good at like all the",
+      "start": 1606.76,
+      "duration": 4.28
+    },
+    {
+      "text": "other stuff.",
+      "start": 1611.04,
+      "duration": 0.48
+    },
+    {
+      "text": "With that said, at the time of the first DeepSeq release, I used it all the time for random",
+      "start": 1611.74,
+      "duration": 6.56
+    },
+    {
+      "text": "stuff.",
+      "start": 1618.3,
+      "duration": 0.34
+    },
+    {
+      "text": "And I don't use this one for anything really.",
+      "start": 1618.64,
+      "duration": 2.4
+    },
+    {
+      "text": "So.",
+      "start": 1621.48,
+      "duration": 0.18
+    },
+    {
+      "text": "Isn't Kimi 2.6 better anyways?",
+      "start": 1622.72,
+      "duration": 1.88
+    },
+    {
+      "text": "Yeah.",
+      "start": 1624.92,
+      "duration": 0.26
+    },
+    {
+      "text": "And I don't use that either.",
+      "start": 1625.28,
+      "duration": 0.92
+    },
+    {
+      "text": "Yeah.",
+      "start": 1626.92,
+      "duration": 0.2
+    },
+    {
+      "text": "No, I'm just saying like, it wasn't like, you know, DeepSeq, I mean, the DeepSeq moment",
+      "start": 1627.34,
+      "duration": 3.48
+    },
+    {
+      "text": "was that it was like so cooked and it was like from the ether.",
+      "start": 1630.82,
+      "duration": 2.5
+    },
+    {
+      "text": "Right.",
+      "start": 1633.62,
+      "duration": 0.36
+    },
+    {
+      "text": "Or it cooks so hard rather.",
+      "start": 1634.84,
+      "duration": 1.68
+    },
+    {
+      "text": "And it's from the ether, not cooked.",
+      "start": 1636.68,
+      "duration": 1.66
+    },
+    {
+      "text": "Right.",
+      "start": 1638.54,
+      "duration": 0.16
+    },
+    {
+      "text": "But this round, it's like, it comes out, it's just state of the art or it's state of the",
+      "start": 1638.76,
+      "duration": 4.68
+    },
+    {
+      "text": "open source art, if it makes sense.",
+      "start": 1643.44,
+      "duration": 1.6
+    },
+    {
+      "text": "It's not exactly better than Kimi 2.6.",
+      "start": 1645.1,
+      "duration": 1.82
+    },
+    {
+      "text": "I think the other drops in it clearly is just inference optimization.",
+      "start": 1646.92,
+      "duration": 3.18
+    },
+    {
+      "text": "Right.",
+      "start": 1650.58,
+      "duration": 0.12
+    },
+    {
+      "text": "They talked about the Ascend, the Ascend kernel being partially able to inference it, which",
+      "start": 1650.92,
+      "duration": 5.38
+    },
+    {
+      "text": "would like really, really unlock more compute for China for the first time.",
+      "start": 1656.3,
+      "duration": 3.56
+    },
+    {
+      "text": "And then also, if you look at the weight size, it looks very like conveniently, it looks like",
+      "start": 1660.3,
+      "duration": 5.46
+    },
+    {
+      "text": "it can, like, I feel like the China, the soft max for China is effectively the size of",
+      "start": 1665.76,
+      "duration": 7.9
+    },
+    {
+      "text": "H200 8X pod.",
+      "start": 1673.66,
+      "duration": 2.22
+    },
+    {
+      "text": "Like all the models that you're looking at essentially are able to be inferenced within",
+      "start": 1675.88,
+      "duration": 4.18
+    },
+    {
+      "text": "that memory domain space.",
+      "start": 1680.06,
+      "duration": 1.36
+    },
+    {
+      "text": "And there's nothing bigger that is served in state of the art.",
+      "start": 1681.78,
+      "duration": 2.6
+    },
+    {
+      "text": "And like, clearly that seems to be like, that's the cap, right?",
+      "start": 1684.88,
+      "duration": 3.12
+    },
+    {
+      "text": "Maybe they can do that, but they won't release it on, you know, there'd be 200 pods to the",
+      "start": 1688.56,
+      "duration": 4.5
+    },
+    {
+      "text": "public.",
+      "start": 1693.06,
+      "duration": 0.86
+    },
+    {
+      "text": "But it just, it just clearly feels like they are starting to hit some kind of wall.",
+      "start": 1694.28,
+      "duration": 4.44
+    },
+    {
+      "text": "Agree or disagree.",
+      "start": 1699.26,
+      "duration": 0.84
+    },
+    {
+      "text": "Do you think that will like keep or cap the Chinese progress because they can't inference",
+      "start": 1700.34,
+      "duration": 4.3
+    },
+    {
+      "text": "this at all?",
+      "start": 1704.64,
+      "duration": 0.54
+    },
+    {
+      "text": "I'd like to hear some hot takes here.",
+      "start": 1705.64,
+      "duration": 1.64
+    },
+    {
+      "text": "Okay.",
+      "start": 1710.48,
+      "duration": 0.4
+    },
+    {
+      "text": "I think.",
+      "start": 1711.32,
+      "duration": 0.3
+    },
+    {
+      "text": "What the hell is that, Jordan?",
+      "start": 1711.86,
+      "duration": 1.06
+    },
+    {
+      "text": "You're like.",
+      "start": 1713.06,
+      "duration": 0.14
+    },
+    {
+      "text": "He's getting hot.",
+      "start": 1715.86,
+      "duration": 0.88
+    },
+    {
+      "text": "He's getting hot and sweaty over deep-handed, bro.",
+      "start": 1716.82,
+      "duration": 2.2
+    },
+    {
+      "text": "He's getting hot and sweaty over deep-handed.",
+      "start": 1719.52,
+      "duration": 1.66
+    },
+    {
+      "text": "Deep-seeks and engineering release.",
+      "start": 1721.18,
+      "duration": 1.24
+    },
+    {
+      "text": "It's fascinating.",
+      "start": 1722.52,
+      "duration": 0.54
+    },
+    {
+      "text": "All the new attention variants and the compression on the KB cache is fascinating stuff.",
+      "start": 1723.06,
+      "duration": 5.96
+    },
+    {
+      "text": "They do so good on the infrastructure stuff.",
+      "start": 1729.16,
+      "duration": 1.82
+    },
+    {
+      "text": "I think that the, again, the fact that Kimmy's 256k context and Deep-seeks 1 million is like",
+      "start": 1731.28,
+      "duration": 8.32
+    },
+    {
+      "text": "a significant difference for long horizon egenic cats.",
+      "start": 1739.6,
+      "duration": 2.74
+    },
+    {
+      "text": "Is it, is it, isn't like the context from 256k to 1 million dog shit anyways, even on",
+      "start": 1742.34,
+      "duration": 5.28
+    },
+    {
+      "text": "like Opus?",
+      "start": 1747.62,
+      "duration": 0.5
+    },
+    {
+      "text": "Yes.",
+      "start": 1748.34,
+      "duration": 0.24
+    },
+    {
+      "text": "That's garbage.",
+      "start": 1748.84,
+      "duration": 0.78
+    },
+    {
+      "text": "I mean, it's okay.",
+      "start": 1750.12,
+      "duration": 0.74
+    },
+    {
+      "text": "It's not, it's not okay.",
+      "start": 1750.94,
+      "duration": 1.08
+    },
+    {
+      "text": "So it's not like true garbage.",
+      "start": 1752.06,
+      "duration": 1.72
+    },
+    {
+      "text": "It's probably a step off of the state of the art, like in theory.",
+      "start": 1754.0,
+      "duration": 3.1
+    },
+    {
+      "text": "But the problem is you don't want to just be clearing your context.",
+      "start": 1757.22,
+      "duration": 2.14
+    },
+    {
+      "text": "Like if you're doing a big task, like seeing the whole context window is really nice.",
+      "start": 1759.5,
+      "duration": 3.44
+    },
+    {
+      "text": "Compaction sucks.",
+      "start": 1763.14,
+      "duration": 0.74
+    },
+    {
+      "text": "Compaction blows.",
+      "start": 1764.38,
+      "duration": 0.62
+    },
+    {
+      "text": "To not be able to use a million token context on this stuff sucks.",
+      "start": 1765.0,
+      "duration": 2.96
+    },
+    {
+      "text": "It's better to clear.",
+      "start": 1768.08,
+      "duration": 0.74
+    },
+    {
+      "text": "It's better to clear, actually.",
+      "start": 1768.94,
+      "duration": 0.96
+    },
+    {
+      "text": "That's my hot take.",
+      "start": 1770.1,
+      "duration": 0.6
+    },
+    {
+      "text": "I would rather just start over.",
+      "start": 1770.7,
+      "duration": 1.14
+    },
+    {
+      "text": "I would literally be like, make a summary of what we've done, copy paste that and just",
+      "start": 1772.04,
+      "duration": 3.4
+    },
+    {
+      "text": "start over.",
+      "start": 1775.44,
+      "duration": 0.42
+    },
+    {
+      "text": "Like fuck the task.",
+      "start": 1776.02,
+      "duration": 0.44
+    },
+    {
+      "text": "No, that's what Deep-seek saw in their 3.2 paper is that it's better to, for their benchmarks,",
+      "start": 1776.46,
+      "duration": 5.94
+    },
+    {
+      "text": "which I think are probably bad, but they published this, is that if you go beyond the context window",
+      "start": 1782.6,
+      "duration": 6.7
+    },
+    {
+      "text": "for a given task, it's better performance on the tasks they were testing on to completely",
+      "start": 1789.3,
+      "duration": 4.62
+    },
+    {
+      "text": "clear the context, not even make a summary.",
+      "start": 1793.92,
+      "duration": 2.28
+    },
+    {
+      "text": "Isn't making a summary like just what compaction is underneath the hood?",
+      "start": 1796.66,
+      "duration": 3.36
+    },
+    {
+      "text": "So to be clear, when I say make a summary, I say I want literally like, okay, yeah, you",
+      "start": 1800.7,
+      "duration": 3.78
+    },
+    {
+      "text": "can do the entire context window versus like what the last thing I was doing.",
+      "start": 1804.48,
+      "duration": 3.68
+    },
+    {
+      "text": "I'm trying like, you know, I'm trying to memorize.",
+      "start": 1808.58,
+      "duration": 1.62
+    },
+    {
+      "text": "I was like, dude, I'm not going to read the million context of slop.",
+      "start": 1810.56,
+      "duration": 2.5
+    },
+    {
+      "text": "It's like, okay, what was I doing here?",
+      "start": 1813.14,
+      "duration": 2.02
+    },
+    {
+      "text": "Read this.",
+      "start": 1815.24,
+      "duration": 0.42
+    },
+    {
+      "text": "And then I like, well, control C, like a very small part.",
+      "start": 1815.7,
+      "duration": 2.22
+    },
+    {
+      "text": "So I'm not even, I'm not summarizing the entire thing.",
+      "start": 1818.16,
+      "duration": 2.2
+    },
+    {
+      "text": "I'm just doing the task.",
+      "start": 1820.36,
+      "duration": 1.04
+    },
+    {
+      "text": "I'm like passing off tasks.",
+      "start": 1821.82,
+      "duration": 2.32
+    },
+    {
+      "text": "Yeah.",
+      "start": 1824.38,
+      "duration": 0.06
+    },
+    {
+      "text": "There's different ways to do compaction, but compaction, I believe is different than summarization",
+      "start": 1824.7,
+      "duration": 4.32
+    },
+    {
+      "text": "because compaction is, is removing the thinking traces initially.",
+      "start": 1829.02,
+      "duration": 4.12
+    },
+    {
+      "text": "It's not actually having the model write its own summary of the full context.",
+      "start": 1833.34,
+      "duration": 4.2
+    },
+    {
+      "text": "I thought they're literally just taking your entire context and being like, yo, please summarize",
+      "start": 1837.74,
+      "duration": 3.76
+    },
+    {
+      "text": "this.",
+      "start": 1841.5,
+      "duration": 0.32
+    },
+    {
+      "text": "That is an approach and they've done multiple of them.",
+      "start": 1842.02,
+      "duration": 3.9
+    },
+    {
+      "text": "But the, I've got, I've got a hot take.",
+      "start": 1845.92,
+      "duration": 2.78
+    },
+    {
+      "text": "I've got a hot take.",
+      "start": 1848.82,
+      "duration": 0.68
+    },
+    {
+      "text": "Anthropic with Cloud Code, they, they did well with the CLI.",
+      "start": 1851.16,
+      "duration": 3.5
+    },
+    {
+      "text": "And so they just kept making the CLI experience amazing.",
+      "start": 1854.76,
+      "duration": 2.52
+    },
+    {
+      "text": "But the CLI experience is not the end all be all of agent orchestration.",
+      "start": 1857.64,
+      "duration": 3.56
+    },
+    {
+      "text": "And therefore they've really cooked themselves into sort of like an innovator's dilemma, but",
+      "start": 1861.48,
+      "duration": 4.62
+    },
+    {
+      "text": "they keep making the CLI better.",
+      "start": 1866.1,
+      "duration": 1.22
+    },
+    {
+      "text": "But open AI, they have the, they have the true vision of where, what the true agent orchestration",
+      "start": 1867.46,
+      "duration": 3.98
+    },
+    {
+      "text": "platform of the future is, where you'll be able to integrate voice and you'll be able",
+      "start": 1871.44,
+      "duration": 3.58
+    },
+    {
+      "text": "to integrate, you know, multimodality and you'll be able to integrate all these other things",
+      "start": 1875.02,
+      "duration": 3.92
+    },
+    {
+      "text": "into the app.",
+      "start": 1878.94,
+      "duration": 0.66
+    },
+    {
+      "text": "And the app is so much better than the CLI.",
+      "start": 1879.7,
+      "duration": 2.1
+    },
+    {
+      "text": "And the real point where you should develop and, and, and users should be using it in the",
+      "start": 1882.24,
+      "duration": 4.88
+    },
+    {
+      "text": "use case should be on the app, not on the CLI.",
+      "start": 1887.12,
+      "duration": 2.68
+    },
+    {
+      "text": "Because the CLI is a dead end and it's a foregone relic of H126 and H225.",
+      "start": 1889.8,
+      "duration": 7.84
+    },
+    {
+      "text": "Do you mean the, the, the app forever?",
+      "start": 1897.64,
+      "duration": 3.7
+    },
+    {
+      "text": "Or do you mean their device?",
+      "start": 1901.56,
+      "duration": 1.22
+    },
+    {
+      "text": "Cause they're, they're talking about releasing a consumer device next year.",
+      "start": 1902.8,
+      "duration": 4.08
+    },
+    {
+      "text": "No, no, no, no, no, no, no, no, no.",
+      "start": 1907.08,
+      "duration": 1.14
+    },
+    {
+      "text": "Like the laptop app, the codex app.",
+      "start": 1908.22,
+      "duration": 3.98
+    },
+    {
+      "text": "I have a question.",
+      "start": 1912.36,
+      "duration": 0.78
+    },
+    {
+      "text": "Then why does the codex app suck?",
+      "start": 1913.24,
+      "duration": 1.38
+    },
+    {
+      "text": "So, so, so like, look, I think, Dylan, I think you had to do the great leap forward.",
+      "start": 1917.24,
+      "duration": 5.56
+    },
+    {
+      "text": "Okay.",
+      "start": 1922.8,
+      "duration": 0.28
+    },
+    {
+      "text": "Dylan, in my opinion, I think you are thinking too small because in the perfect true maxi",
+      "start": 1923.42,
+      "duration": 6.54
+    },
+    {
+      "text": "world, the operating system doesn't need to exist.",
+      "start": 1929.96,
+      "duration": 3.08
+    },
+    {
+      "text": "You will just get a piece of hardware.",
+      "start": 1933.24,
+      "duration": 1.88
+    },
+    {
+      "text": "You will plug in your, your, your thing.",
+      "start": 1935.4,
+      "duration": 2.16
+    },
+    {
+      "text": "It will pull up the terminal and you will connect your cloud API and it will build the",
+      "start": 1937.56,
+      "duration": 4.7
+    },
+    {
+      "text": "OS for you.",
+      "start": 1942.26,
+      "duration": 0.7
+    },
+    {
+      "text": "Like thinking.",
+      "start": 1943.56,
+      "duration": 0.32
+    },
+    {
+      "text": "So, so, so codex app, they're at, they're adding generative UI stuff too, which is pretty",
+      "start": 1944.1,
+      "duration": 4.18
+    },
+    {
+      "text": "interesting.",
+      "start": 1948.28,
+      "duration": 0.3
+    },
+    {
+      "text": "Things.",
+      "start": 1948.58,
+      "duration": 0.16
+    },
+    {
+      "text": "I'm just saying, I think, I think if you're a code, if you're coding purists, generative",
+      "start": 1949.38,
+      "duration": 4.7
+    },
+    {
+      "text": "UI is downstream of CLI.",
+      "start": 1954.08,
+      "duration": 1.8
+    },
+    {
+      "text": "I think I, I, I am a CLI.",
+      "start": 1957.02,
+      "duration": 2.08
+    },
+    {
+      "text": "I do.",
+      "start": 1959.14,
+      "duration": 0.34
+    },
+    {
+      "text": "I don't know.",
+      "start": 1959.56,
+      "duration": 0.32
+    },
+    {
+      "text": "This is just a slow, this is a slot preference thing.",
+      "start": 1959.98,
+      "duration": 2.1
+    },
+    {
+      "text": "I just love the CLI.",
+      "start": 1962.16,
+      "duration": 0.9
+    },
+    {
+      "text": "Like, like codex, the, the cloud code usage is clearly just a CLI wrapper and you can tell.",
+      "start": 1963.22,
+      "duration": 6.68
+    },
+    {
+      "text": "And then codex is, codex CLI is clearly just an app wrapper.",
+      "start": 1970.06,
+      "duration": 4.78
+    },
+    {
+      "text": "Like, I feel like they forced it over.",
+      "start": 1975.12,
+      "duration": 1.92
+    },
+    {
+      "text": "I think there are two opinion, opinions in the future.",
+      "start": 1977.04,
+      "duration": 2.36
+    },
+    {
+      "text": "Who knows who went out in the very long run.",
+      "start": 1979.7,
+      "duration": 1.94
+    },
+    {
+      "text": "I'm going to, I'm going to definitely like keep it open for competition.",
+      "start": 1981.74,
+      "duration": 2.54
+    },
+    {
+      "text": "But at this beautiful moment, a true maxi's vision in dream is, uh, it's all downstream",
+      "start": 1984.98,
+      "duration": 5.44
+    },
+    {
+      "text": "of the CLI.",
+      "start": 1990.42,
+      "duration": 0.58
+    },
+    {
+      "text": "It's just tokens.",
+      "start": 1991.06,
+      "duration": 0.52
+    },
+    {
+      "text": "It's the most efficient version of everything.",
+      "start": 1991.72,
+      "duration": 1.5
+    },
+    {
+      "text": "Got an Elon max.",
+      "start": 1993.98,
+      "duration": 1.12
+    },
+    {
+      "text": "Okay.",
+      "start": 1995.42,
+      "duration": 0.18
+    },
+    {
+      "text": "All you need is just an API and then inputs.",
+      "start": 1995.74,
+      "duration": 2.38
+    },
+    {
+      "text": "That's it.",
+      "start": 1998.26,
+      "duration": 0.22
+    },
+    {
+      "text": "Your app and your, all that stuff.",
+      "start": 1998.94,
+      "duration": 1.44
+    },
+    {
+      "text": "That's all, that's all obfuscation.",
+      "start": 2000.42,
+      "duration": 1.56
+    },
+    {
+      "text": "Mythos would know better than, than, uh, than open AI.",
+      "start": 2002.24,
+      "duration": 2.44
+    },
+    {
+      "text": "Who are we little brains to know what, what UI we want?",
+      "start": 2004.68,
+      "duration": 3.24
+    },
+    {
+      "text": "No, dude.",
+      "start": 2008.4,
+      "duration": 0.5
+    },
+    {
+      "text": "It's CLI all the way down.",
+      "start": 2009.38,
+      "duration": 1.5
+    },
+    {
+      "text": "Pure maxi vision.",
+      "start": 2011.94,
+      "duration": 0.92
+    },
+    {
+      "text": "I'm a VS code plugin guy.",
+      "start": 2013.12,
+      "duration": 1.44
+    },
+    {
+      "text": "I literally tested this yesterday.",
+      "start": 2014.64,
+      "duration": 1.42
+    },
+    {
+      "text": "I was bothering Max who told me to go away about using ghosty for the CLI stuff.",
+      "start": 2016.06,
+      "duration": 5.06
+    },
+    {
+      "text": "It just doesn't work.",
+      "start": 2021.18,
+      "duration": 0.8
+    },
+    {
+      "text": "Well, no, I still think having like today, having six ghosty terminals open, like cloud",
+      "start": 2022.14,
+      "duration": 4.9
+    },
+    {
+      "text": "code CLI is a superior experience to having like six different chats going in the codex app.",
+      "start": 2027.04,
+      "duration": 4.68
+    },
+    {
+      "text": "For sure.",
+      "start": 2031.72,
+      "duration": 0.68
+    },
+    {
+      "text": "I just, I feel more productive.",
+      "start": 2032.5,
+      "duration": 1.42
+    },
+    {
+      "text": "Yeah.",
+      "start": 2034.62,
+      "duration": 0.12
+    },
+    {
+      "text": "I'm, I'm comparing to the VS code plugin, six different windows in VS code also with a file",
+      "start": 2034.8,
+      "duration": 4.58
+    },
+    {
+      "text": "browser on the left side.",
+      "start": 2039.38,
+      "duration": 1.18
+    },
+    {
+      "text": "So I can, you know, write.",
+      "start": 2040.56,
+      "duration": 1.76
+    },
+    {
+      "text": "Well, I think the difference is that like, you're still writing real code and you kind",
+      "start": 2042.32,
+      "duration": 3.48
+    },
+    {
+      "text": "of care about like the output, whereas I just don't even look at it.",
+      "start": 2045.8,
+      "duration": 3.0
+    },
+    {
+      "text": "You know, I just, I'm not looking at the code.",
+      "start": 2049.48,
+      "duration": 1.88
+    },
+    {
+      "text": "I'm not looking at the code.",
+      "start": 2051.76,
+      "duration": 1.02
+    },
+    {
+      "text": "I'm making, I'm copying in images or like Excel files or, um, don't you accuse me of reading",
+      "start": 2052.82,
+      "duration": 7.12
+    },
+    {
+      "text": "the code.",
+      "start": 2059.94,
+      "duration": 0.44
+    },
+    {
+      "text": "I'm sorry.",
+      "start": 2061.72,
+      "duration": 0.92
+    },
+    {
+      "text": "Fucking up, Hudson.",
+      "start": 2062.86,
+      "duration": 0.9
+    },
+    {
+      "text": "My favorite, my favorite is, uh, I mean, I actually agree.",
+      "start": 2064.5,
+      "duration": 3.28
+    },
+    {
+      "text": "I actually agree that the, the API CLI, whatever is the new compiler.",
+      "start": 2068.02,
+      "duration": 3.9
+    },
+    {
+      "text": "No one is reading the compiler.",
+      "start": 2072.32,
+      "duration": 1.1
+    },
+    {
+      "text": "No one cares.",
+      "start": 2074.16,
+      "duration": 0.54
+    },
+    {
+      "text": "They don't, you know, they don't need to touch.",
+      "start": 2075.3,
+      "duration": 1.4
+    },
+    {
+      "text": "They don't need to touch.",
+      "start": 2077.14,
+      "duration": 0.56
+    },
+    {
+      "text": "This is, um, this will be true in the future, but it is currently for any code you actually",
+      "start": 2078.04,
+      "duration": 5.0
+    },
+    {
+      "text": "care about.",
+      "start": 2083.04,
+      "duration": 0.6
+    },
+    {
+      "text": "This is currently not true.",
+      "start": 2083.78,
+      "duration": 1.4
+    },
+    {
+      "text": "It is currently still producing a bunch of stuff that is bad and should be fixed with",
+      "start": 2085.18,
+      "duration": 5.6
+    },
+    {
+      "text": "coaxing to tell the model to fix it.",
+      "start": 2090.78,
+      "duration": 2.68
+    },
+    {
+      "text": "I don't, I'm not saying I type code anymore, but I do read some code.",
+      "start": 2093.62,
+      "duration": 4.4
+    },
+    {
+      "text": "One of my, one of my group chats, uh, I was reading it this morning and it's, it's like",
+      "start": 2098.02,
+      "duration": 4.68
+    },
+    {
+      "text": "a group chat, like with all the most cracked kernel programmers in the world.",
+      "start": 2102.7,
+      "duration": 3.26
+    },
+    {
+      "text": "And it turns out what they do, what they've found is the best work list.",
+      "start": 2106.22,
+      "duration": 3.38
+    },
+    {
+      "text": "Because they're my boys, bro.",
+      "start": 2110.16,
+      "duration": 1.44
+    },
+    {
+      "text": "You look, look, Max, come on.",
+      "start": 2112.22,
+      "duration": 1.16
+    },
+    {
+      "text": "I'm a, I'm a, I'm a, I'm a master networker.",
+      "start": 2113.44,
+      "duration": 1.98
+    },
+    {
+      "text": "Okay.",
+      "start": 2115.48,
+      "duration": 0.16
+    },
+    {
+      "text": "Um, so, so anyways, um, I think it was true now.",
+      "start": 2115.64,
+      "duration": 4.98
+    },
+    {
+      "text": "True now.",
+      "start": 2120.7,
+      "duration": 0.26
+    },
+    {
+      "text": "It's like, yeah, dude, codex is like so dumb, but I always just have it created and then",
+      "start": 2121.04,
+      "duration": 4.46
+    },
+    {
+      "text": "it works and it's smarter, but the code is slop and then I have Opus rewrite it, but you",
+      "start": 2125.5,
+      "duration": 4.74
+    },
+    {
+      "text": "can't go the other way around.",
+      "start": 2130.24,
+      "duration": 0.88
+    },
+    {
+      "text": "You can't have Opus write the thing and then have codex fix this, fix it.",
+      "start": 2131.48,
+      "duration": 3.48
+    },
+    {
+      "text": "You know, it's funny.",
+      "start": 2135.16,
+      "duration": 0.3
+    },
+    {
+      "text": "Really?",
+      "start": 2135.68,
+      "duration": 0.26
+    },
+    {
+      "text": "I go the other way around.",
+      "start": 2136.16,
+      "duration": 0.76
+    },
+    {
+      "text": "Everyone else at the firm prefers the other way around.",
+      "start": 2137.86,
+      "duration": 2.38
+    },
+    {
+      "text": "The entire firm's preference is the other way around actually.",
+      "start": 2140.74,
+      "duration": 2.2
+    },
+    {
+      "text": "Yeah, but we're not writing fucking kernels, right?",
+      "start": 2143.06,
+      "duration": 1.7
+    },
+    {
+      "text": "We're not writing fucking tree now kernels.",
+      "start": 2144.76,
+      "duration": 1.78
+    },
+    {
+      "text": "That's probably fair.",
+      "start": 2146.72,
+      "duration": 0.68
+    },
+    {
+      "text": "We're doing benchmarks of kernels, but yeah, uh, we wrote some kernels.",
+      "start": 2147.54,
+      "duration": 4.2
+    },
+    {
+      "text": "Oh, come on.",
+      "start": 2151.88,
+      "duration": 0.34
+    },
+    {
+      "text": "Yeah, they're not tree now kernels.",
+      "start": 2152.3,
+      "duration": 1.08
+    },
+    {
+      "text": "No, they're not tree now kernels.",
+      "start": 2154.12,
+      "duration": 1.22
+    },
+    {
+      "text": "They're just, uh, GPU mode kernel competition.",
+      "start": 2155.54,
+      "duration": 2.56
+    },
+    {
+      "text": "Because apparently like, if you like, if you like talk about like niche and micro architecture",
+      "start": 2158.1,
+      "duration": 3.56
+    },
+    {
+      "text": "details, Claude will um and ah and waffle on about like shit instead of actually just",
+      "start": 2161.66,
+      "duration": 4.64
+    },
+    {
+      "text": "doing it.",
+      "start": 2166.3,
+      "duration": 0.44
+    },
+    {
+      "text": "Whereas if you describe it to codex, it'll just try and implement it all and then it'll be",
+      "start": 2167.0,
+      "duration": 3.92
+    },
+    {
+      "text": "slop.",
+      "start": 2170.92,
+      "duration": 0.3
+    },
+    {
+      "text": "But then you tell Opus to fix it.",
+      "start": 2171.32,
+      "duration": 2.08
+    },
+    {
+      "text": "Opus will um and ah, it'll just fix it.",
+      "start": 2173.4,
+      "duration": 1.72
+    },
+    {
+      "text": "Yeah.",
+      "start": 2175.76,
+      "duration": 0.12
+    },
+    {
+      "text": "And Doug, this is the context window stuff, which is like when you were pumping in so",
+      "start": 2176.02,
+      "duration": 4.68
+    },
+    {
+      "text": "many docs about the ISA of a given GPU to write a kernel or something like you need performance",
+      "start": 2180.7,
+      "duration": 8.32
+    },
+    {
+      "text": "at a million context.",
+      "start": 2189.02,
+      "duration": 0.98
+    },
+    {
+      "text": "Like you just run out of space on the smaller stuff.",
+      "start": 2190.18,
+      "duration": 2.46
+    },
+    {
+      "text": "Um, so I don't know.",
+      "start": 2193.34,
+      "duration": 1.36
+    },
+    {
+      "text": "Do you want to go back to DeepSeek and any, any hot takes on DeepSeek, Dylan?",
+      "start": 2194.7,
+      "duration": 4.2
+    },
+    {
+      "text": "Why didn't it crash the market this time if KV cash is reduced by 90%?",
+      "start": 2199.52,
+      "duration": 3.9
+    },
+    {
+      "text": "Dude, you know, it's been a while since I've been in Asia, but every time I go to Asia,",
+      "start": 2203.62,
+      "duration": 3.68
+    },
+    {
+      "text": "they reference some fucking new paper that reduces KV cash every fucking time for the",
+      "start": 2207.3,
+      "duration": 4.32
+    },
+    {
+      "text": "last three years.",
+      "start": 2211.62,
+      "duration": 0.68
+    },
+    {
+      "text": "Some paper that reduces KV cash and no researcher in America has even heard of this paper.",
+      "start": 2212.74,
+      "duration": 4.8
+    },
+    {
+      "text": "It's the fucking best thing ever.",
+      "start": 2217.76,
+      "duration": 1.62
+    },
+    {
+      "text": "Um, DeepSeek and TurboQuant were the like most precipitous ones that popped up the most",
+      "start": 2219.38,
+      "duration": 5.9
+    },
+    {
+      "text": "and, uh, TurboQuant was obviously fake news.",
+      "start": 2225.28,
+      "duration": 2.54
+    },
+    {
+      "text": "Um, but yeah, I think it's, I think it's very funny.",
+      "start": 2228.6,
+      "duration": 2.42
+    },
+    {
+      "text": "Um, I don't know.",
+      "start": 2231.84,
+      "duration": 1.14
+    },
+    {
+      "text": "I don't know.",
+      "start": 2233.16,
+      "duration": 0.4
+    },
+    {
+      "text": "I guess like they're tired of being rugged.",
+      "start": 2233.66,
+      "duration": 1.58
+    },
+    {
+      "text": "Um, I have a, okay.",
+      "start": 2235.56,
+      "duration": 1.4
+    },
+    {
+      "text": "Well, cause look, I think the real, yeah, I think that's fair.",
+      "start": 2237.12,
+      "duration": 2.36
+    },
+    {
+      "text": "It just doesn't matter.",
+      "start": 2239.54,
+      "duration": 0.52
+    },
+    {
+      "text": "Jevons is working, uh, clearly with the price of the GPU going up.",
+      "start": 2240.16,
+      "duration": 2.92
+    },
+    {
+      "text": "Like that's all you got to know.",
+      "start": 2243.08,
+      "duration": 1.4
+    },
+    {
+      "text": "Now, if we're going to talk about real fake news, let's talk about sub queue.",
+      "start": 2244.62,
+      "duration": 3.22
+    },
+    {
+      "text": "Cause let's do some, I mean, we're not going to write an article about it.",
+      "start": 2247.84,
+      "duration": 3.16
+    },
+    {
+      "text": "We're not going to write a post about it.",
+      "start": 2251.12,
+      "duration": 1.88
+    },
+    {
+      "text": "This is free, free alpha.",
+      "start": 2253.24,
+      "duration": 1.4
+    },
+    {
+      "text": "Did anyone else read the sub queue thing today?",
+      "start": 2254.78,
+      "duration": 1.92
+    },
+    {
+      "text": "It's pretty sus.",
+      "start": 2257.12,
+      "duration": 0.96
+    },
+    {
+      "text": "It's actually extremely ultra mega sus.",
+      "start": 2258.76,
+      "duration": 2.36
+    },
+    {
+      "text": "Yeah.",
+      "start": 2261.42,
+      "duration": 0.18
+    },
+    {
+      "text": "Um, it seems, yeah, it seems like people are, uh, launching their startup, right?",
+      "start": 2262.02,
+      "duration": 7.08
+    },
+    {
+      "text": "You know, they're going to get, I honestly, they should close funding and then they'd be",
+      "start": 2269.24,
+      "duration": 4.36
+    },
+    {
+      "text": "like, wow, it was just opus with 10, 10, uh, context windows stapled together.",
+      "start": 2273.6,
+      "duration": 4.72
+    },
+    {
+      "text": "I mean, you think the market is hot enough for them to close like, uh, you know, 200 at",
+      "start": 2278.9,
+      "duration": 5.02
+    },
+    {
+      "text": "1 billion round the next month or something.",
+      "start": 2283.92,
+      "duration": 2.5
+    },
+    {
+      "text": "If they did, I don't think it'd be 200.",
+      "start": 2286.5,
+      "duration": 1.7
+    },
+    {
+      "text": "I don't think it'd be 200, but I think they could do 50 at a bill, a trail.",
+      "start": 2288.32,
+      "duration": 3.4
+    },
+    {
+      "text": "What?",
+      "start": 2293.32,
+      "duration": 0.32
+    },
+    {
+      "text": "Sorry, bill.",
+      "start": 2294.04,
+      "duration": 0.5
+    },
+    {
+      "text": "No, are you familiar with what we're even talking about?",
+      "start": 2294.96,
+      "duration": 4.44
+    },
+    {
+      "text": "Dylan?",
+      "start": 2299.4,
+      "duration": 0.2
+    },
+    {
+      "text": "No, sorry.",
+      "start": 2300.12,
+      "duration": 0.38
+    },
+    {
+      "text": "I just thought you guys were talking about Anthropic.",
+      "start": 2300.56,
+      "duration": 1.42
+    },
+    {
+      "text": "No, we're not talking about Anthropic.",
+      "start": 2302.28,
+      "duration": 1.16
+    },
+    {
+      "text": "He's talking about model sparsity.",
+      "start": 2303.58,
+      "duration": 1.66
+    },
+    {
+      "text": "I'm talking, I'm talking about like the worst.",
+      "start": 2305.38,
+      "duration": 1.82
+    },
+    {
+      "text": "Did you not?",
+      "start": 2307.62,
+      "duration": 0.42
+    },
+    {
+      "text": "It's like this fake news Twitter thing today called sub queue.",
+      "start": 2308.14,
+      "duration": 2.74
+    },
+    {
+      "text": "Oh, yeah, yeah, yeah, yeah, yeah.",
+      "start": 2311.0,
+      "duration": 2.04
+    },
+    {
+      "text": "Yeah, yeah.",
+      "start": 2313.04,
+      "duration": 0.48
+    },
+    {
+      "text": "Dude, don't worry.",
+      "start": 2313.64,
+      "duration": 0.58
+    },
+    {
+      "text": "Don't, don't worry.",
+      "start": 2314.74,
+      "duration": 0.58
+    },
+    {
+      "text": "Don't worry.",
+      "start": 2315.38,
+      "duration": 0.32
+    },
+    {
+      "text": "We, we requested for API access.",
+      "start": 2315.82,
+      "duration": 1.82
+    },
+    {
+      "text": "We, we, we made sure to use our semi-analysis email to, you know, improve dogs.",
+      "start": 2318.04,
+      "duration": 3.28
+    },
+    {
+      "text": "Yeah, we're like, please give us this API for this very real model, bro.",
+      "start": 2321.32,
+      "duration": 3.5
+    },
+    {
+      "text": "Who knows?",
+      "start": 2325.32,
+      "duration": 0.5
+    },
+    {
+      "text": "Maybe it's a state space model.",
+      "start": 2325.9,
+      "duration": 0.92
+    },
+    {
+      "text": "Maybe it's a, maybe Mamba cooks.",
+      "start": 2326.96,
+      "duration": 1.32
+    },
+    {
+      "text": "No, it's not SSM.",
+      "start": 2328.28,
+      "duration": 1.14
+    },
+    {
+      "text": "I don't think it's SSM.",
+      "start": 2329.66,
+      "duration": 0.94
+    },
+    {
+      "text": "I, I think it's, I don't know.",
+      "start": 2330.92,
+      "duration": 1.48
+    },
+    {
+      "text": "It's just really funny because, because, okay, we're talking about like the deep seek people",
+      "start": 2332.48,
+      "duration": 2.9
+    },
+    {
+      "text": "freaking out.",
+      "start": 2335.38,
+      "duration": 0.8
+    },
+    {
+      "text": "If this was real, like stock, memory stock should be down, like whatever, a quadrillion",
+      "start": 2336.38,
+      "duration": 5.02
+    },
+    {
+      "text": "percent today.",
+      "start": 2341.4,
+      "duration": 0.62
+    },
+    {
+      "text": "But obviously it's not real because if you look at the found, like, no offense, maybe the",
+      "start": 2342.1,
+      "duration": 4.2
+    },
+    {
+      "text": "founder is super legit, but you like, look at these guys and you're like, yeah, man,",
+      "start": 2346.3,
+      "duration": 2.88
+    },
+    {
+      "text": "I just don't think these guys are going to be the guys to crack the single hardest",
+      "start": 2349.18,
+      "duration": 3.76
+    },
+    {
+      "text": "problem in all of it.",
+      "start": 2352.94,
+      "duration": 0.86
+    },
+    {
+      "text": "So, okay.",
+      "start": 2353.8,
+      "duration": 2.4
+    },
+    {
+      "text": "Maybe one thing that this reminded me of was the fact that Llama 4 Scout or Maverick, I",
+      "start": 2356.2,
+      "duration": 6.64
+    },
+    {
+      "text": "think Scout, the smallest one, was released with a 10 million token context window or announced",
+      "start": 2362.84,
+      "duration": 5.56
+    },
+    {
+      "text": "with it, but not supporting it officially in the released weights or something.",
+      "start": 2368.4,
+      "duration": 4.68
+    },
+    {
+      "text": "And I'm just, I'm just really surprised that we haven't seen anybody with, you know, effectively",
+      "start": 2373.08,
+      "duration": 6.18
+    },
+    {
+      "text": "unlimited compute budget, give it a go for a more expensive model with a larger context",
+      "start": 2379.26,
+      "duration": 5.92
+    },
+    {
+      "text": "window.",
+      "start": 2385.18,
+      "duration": 0.36
+    },
+    {
+      "text": "Like, where are you going to get the data, right?",
+      "start": 2386.44,
+      "duration": 2.24
+    },
+    {
+      "text": "Like you pre, most people pre-train with like 16K context or four, you know, something like",
+      "start": 2388.74,
+      "duration": 5.08
+    },
+    {
+      "text": "that, 32K context.",
+      "start": 2393.82,
+      "duration": 1.18
+    },
+    {
+      "text": "And then they post-train it so that they can add and hack in the rest of the context.",
+      "start": 2395.16,
+      "duration": 3.28
+    },
+    {
+      "text": "But it's like, what data do I have?",
+      "start": 2398.44,
+      "duration": 1.88
+    },
+    {
+      "text": "That's why my 250K to one mil context is trash anyways, is because there's no data on this",
+      "start": 2400.32,
+      "duration": 3.84
+    },
+    {
+      "text": "stuff.",
+      "start": 2404.16,
+      "duration": 0.26
+    },
+    {
+      "text": "And so the model doesn't generalize the context really well.",
+      "start": 2405.2,
+      "duration": 2.46
+    },
+    {
+      "text": "And then if you stick it to 10 million, it's like, what fucking data do I have from that",
+      "start": 2407.68,
+      "duration": 3.44
+    },
+    {
+      "text": "is useful for the next token generation that exists from 1 million context to 10 million",
+      "start": 2411.12,
+      "duration": 4.6
+    },
+    {
+      "text": "context?",
+      "start": 2415.72,
+      "duration": 0.36
+    },
+    {
+      "text": "It's so little.",
+      "start": 2416.16,
+      "duration": 0.62
+    },
+    {
+      "text": "Yeah.",
+      "start": 2417.28,
+      "duration": 0.08
+    },
+    {
+      "text": "I mean, it makes sense.",
+      "start": 2417.78,
+      "duration": 1.06
+    },
+    {
+      "text": "Possibly synthetic stuff.",
+      "start": 2419.1,
+      "duration": 1.48
+    },
+    {
+      "text": "Possibly.",
+      "start": 2420.9,
+      "duration": 0.32
+    },
+    {
+      "text": "I mean, why'd they do it in the first place?",
+      "start": 2423.34,
+      "duration": 1.62
+    },
+    {
+      "text": "Like, it seems obvious that people would be working on it.",
+      "start": 2424.96,
+      "duration": 2.64
+    },
+    {
+      "text": "We haven't even seen anybody announce 2 million.",
+      "start": 2427.66,
+      "duration": 2.32
+    },
+    {
+      "text": "So there's some argument.",
+      "start": 2430.52,
+      "duration": 1.3
+    },
+    {
+      "text": "Google serves 2 million.",
+      "start": 2432.22,
+      "duration": 0.46
+    },
+    {
+      "text": "Google serves 2 million on 3.1 Pro?",
+      "start": 2432.86,
+      "duration": 1.68
+    },
+    {
+      "text": "They did on 2.5, 2 million.",
+      "start": 2434.84,
+      "duration": 2.0
+    },
+    {
+      "text": "Well, maybe that's the answer.",
+      "start": 2437.04,
+      "duration": 1.42
+    },
+    {
+      "text": "That's the answer to me.",
+      "start": 2439.0,
+      "duration": 0.98
+    },
+    {
+      "text": "It's 1 million today.",
+      "start": 2439.98,
+      "duration": 0.82
+    },
+    {
+      "text": "It's 1 million today?",
+      "start": 2441.54,
+      "duration": 0.96
+    },
+    {
+      "text": "On 3.1 Pro.",
+      "start": 2443.22,
+      "duration": 1.02
+    },
+    {
+      "text": "One of their announcements, they announced 10 million.",
+      "start": 2444.5,
+      "duration": 1.68
+    },
+    {
+      "text": "They started at 1 and then they updated it to 2 at some point.",
+      "start": 2446.28,
+      "duration": 3.36
+    },
+    {
+      "text": "One of the models.",
+      "start": 2450.22,
+      "duration": 0.56
+    },
+    {
+      "text": "Makes sense.",
+      "start": 2451.0,
+      "duration": 0.48
+    },
+    {
+      "text": "Yeah.",
+      "start": 2451.56,
+      "duration": 0.16
+    },
+    {
+      "text": "I mean, they've got a big scale up domain.",
+      "start": 2451.72,
+      "duration": 2.98
+    },
+    {
+      "text": "Why not give it a go with the TPUs?",
+      "start": 2455.12,
+      "duration": 1.64
+    },
+    {
+      "text": "Yeah.",
+      "start": 2457.7,
+      "duration": 0.32
+    },
+    {
+      "text": "Maybe another thing that was a little bit missed in the article.",
+      "start": 2458.28,
+      "duration": 4.54
+    },
+    {
+      "text": "And you kind of talked about when you brought up DeepSeq.",
+      "start": 2463.42,
+      "duration": 1.72
+    },
+    {
+      "text": "Max, I want your take on this.",
+      "start": 2465.72,
+      "duration": 1.12
+    },
+    {
+      "text": "Because Doug asked the bait question about, is China catching up or are they still behind?",
+      "start": 2467.4,
+      "duration": 6.76
+    },
+    {
+      "text": "And kind of depends on how you look at it.",
+      "start": 2474.3,
+      "duration": 1.46
+    },
+    {
+      "text": "But I was bugging you the other day.",
+      "start": 2475.78,
+      "duration": 1.46
+    },
+    {
+      "text": "Like, is DeepSeq or Kimi currently ahead or behind Meta?",
+      "start": 2477.24,
+      "duration": 6.18
+    },
+    {
+      "text": "And are they ahead or behind Grok slash Cursor slash SpaceX XAI?",
+      "start": 2484.24,
+      "duration": 5.0
+    },
+    {
+      "text": "I would say that today, they're probably ahead of all those companies.",
+      "start": 2489.38,
+      "duration": 4.62
+    },
+    {
+      "text": "But the thing that really matters is, like, slope from here.",
+      "start": 2494.0,
+      "duration": 3.34
+    },
+    {
+      "text": "This is a pretty basic take at this point.",
+      "start": 2498.12,
+      "duration": 1.76
+    },
+    {
+      "text": "But I do think, like, the amount of compute you have is actually just one of the key inputs to how good your mall is going to be.",
+      "start": 2499.96,
+      "duration": 7.88
+    },
+    {
+      "text": "And obviously, Meta is, like, signing all these monster deals.",
+      "start": 2507.94,
+      "duration": 2.32
+    },
+    {
+      "text": "It seems like they've overcome the overhang of, like, having to fire and then rehire their entire AI team.",
+      "start": 2510.26,
+      "duration": 7.84
+    },
+    {
+      "text": "And they're, like, you know, in the process of making some good malls now.",
+      "start": 2518.22,
+      "duration": 3.82
+    },
+    {
+      "text": "So I would expect Meta to pull away from all the Chinese guys.",
+      "start": 2523.06,
+      "duration": 5.66
+    },
+    {
+      "text": "If not, so I could have this year, like, first half of 27.",
+      "start": 2529.58,
+      "duration": 2.68
+    },
+    {
+      "text": "And Meta's not distilling.",
+      "start": 2533.02,
+      "duration": 1.06
+    },
+    {
+      "text": "I thought they were.",
+      "start": 2534.28,
+      "duration": 0.68
+    },
+    {
+      "text": "I don't think they're distilling from Anthropic.",
+      "start": 2535.2,
+      "duration": 2.94
+    },
+    {
+      "text": "I thought everyone's.",
+      "start": 2538.14,
+      "duration": 1.56
+    },
+    {
+      "text": "I thought they were distilling from the Chinese guys.",
+      "start": 2539.7,
+      "duration": 2.2
+    },
+    {
+      "text": "They were just running to open source.",
+      "start": 2542.12,
+      "duration": 1.12
+    },
+    {
+      "text": "I mean, that's what Mistral does.",
+      "start": 2544.14,
+      "duration": 1.44
+    },
+    {
+      "text": "They don't distill from Anthropic.",
+      "start": 2545.66,
+      "duration": 0.96
+    },
+    {
+      "text": "They distill from the Chinese guys.",
+      "start": 2546.72,
+      "duration": 0.98
+    },
+    {
+      "text": "That's fair.",
+      "start": 2547.74,
+      "duration": 0.38
+    },
+    {
+      "text": "Why are we talking about the leading French frontier model company, Mistral?",
+      "start": 2549.28,
+      "duration": 4.96
+    },
+    {
+      "text": "Dude, you know their revenue is, like, fucking really strong.",
+      "start": 2554.3,
+      "duration": 1.98
+    },
+    {
+      "text": "Yeah, I do, actually.",
+      "start": 2556.96,
+      "duration": 0.68
+    },
+    {
+      "text": "You know what they've broed down on?",
+      "start": 2557.74,
+      "duration": 1.46
+    },
+    {
+      "text": "Also, dude, the bottles.",
+      "start": 2559.26,
+      "duration": 1.28
+    },
+    {
+      "text": "Because they're a Neopod.",
+      "start": 2560.64,
+      "duration": 0.62
+    },
+    {
+      "text": "You pick up the bottle on the bike.",
+      "start": 2561.96,
+      "duration": 1.58
+    },
+    {
+      "text": "Every frontier model is in a company.",
+      "start": 2565.0,
+      "duration": 3.12
+    },
+    {
+      "text": "They don't find a Neocloud.",
+      "start": 2568.14,
+      "duration": 1.16
+    },
+    {
+      "text": "No, yeah, they're trying to become a Neocloud.",
+      "start": 2569.94,
+      "duration": 1.78
+    },
+    {
+      "text": "Or I believe they're doing fine things.",
+      "start": 2572.16,
+      "duration": 1.32
+    },
+    {
+      "text": "Cerebrus is becoming a Neocloud.",
+      "start": 2574.2,
+      "duration": 1.4
+    },
+    {
+      "text": "NVIDIA is launching Neoclouds.",
+      "start": 2577.78,
+      "duration": 1.78
+    },
+    {
+      "text": "The ultimate business model for any company in the world is to become a Neocloud.",
+      "start": 2579.7,
+      "duration": 3.66
+    },
+    {
+      "text": "Semi-analysis will become a Neocloud.",
+      "start": 2583.78,
+      "duration": 3.66
+    },
+    {
+      "text": "And then we will be ClusterMax Platinum.",
+      "start": 2587.44,
+      "duration": 4.84
+    },
+    {
+      "text": "Diamond.",
+      "start": 2593.8,
+      "duration": 0.36
+    },
+    {
+      "text": "No, dude, we gotta introduce a new tier.",
+      "start": 2594.16,
+      "duration": 1.44
+    },
+    {
+      "text": "Yeah, diamond.",
+      "start": 2595.7,
+      "duration": 0.52
+    },
+    {
+      "text": "Tungstick.",
+      "start": 2596.62,
+      "duration": 0.44
+    },
+    {
+      "text": "Yeah.",
+      "start": 2599.8,
+      "duration": 0.4
+    },
+    {
+      "text": "Yeah, yeah.",
+      "start": 2600.74,
+      "duration": 0.62
+    },
+    {
+      "text": "Semi-analysis.",
+      "start": 2601.54,
+      "duration": 0.82
+    },
+    {
+      "text": "Lithium.",
+      "start": 2603.8,
+      "duration": 0.44
+    },
+    {
+      "text": "I don't know.",
+      "start": 2604.7,
+      "duration": 0.34
+    },
+    {
+      "text": "Germanium?",
+      "start": 2605.14,
+      "duration": 0.56
+    },
+    {
+      "text": "I don't know.",
+      "start": 2605.84,
+      "duration": 0.32
+    },
+    {
+      "text": "I'm just making up shit.",
+      "start": 2606.2,
+      "duration": 0.84
+    },
+    {
+      "text": "What's the worst?",
+      "start": 2607.22,
+      "duration": 0.46
+    },
+    {
+      "text": "What's your favorite?",
+      "start": 2607.96,
+      "duration": 0.7
+    },
+    {
+      "text": "What's your favorite semiconductor, Doug?",
+      "start": 2609.02,
+      "duration": 1.42
+    },
+    {
+      "text": "We should make the tiers semiconducting materials only.",
+      "start": 2610.76,
+      "duration": 2.9
+    },
+    {
+      "text": "Oh, yeah?",
+      "start": 2614.2,
+      "duration": 0.36
+    },
+    {
+      "text": "You like semiconductors?",
+      "start": 2614.66,
+      "duration": 0.78
+    },
+    {
+      "text": "Name all of them.",
+      "start": 2615.84,
+      "duration": 0.56
+    },
+    {
+      "text": "Name them all.",
+      "start": 2616.4,
+      "duration": 0.54
+    },
+    {
+      "text": "Yeah.",
+      "start": 2617.24,
+      "duration": 0.18
+    },
+    {
+      "text": "Name your top five.",
+      "start": 2618.54,
+      "duration": 1.14
+    },
+    {
+      "text": "We should be rhodium.",
+      "start": 2620.14,
+      "duration": 1.16
+    },
+    {
+      "text": "Rhodium.",
+      "start": 2622.42,
+      "duration": 0.4
+    },
+    {
+      "text": "The rarest and most expensive precious metal.",
+      "start": 2623.78,
+      "duration": 2.06
+    },
+    {
+      "text": "Vanadium?",
+      "start": 2626.14,
+      "duration": 0.32
+    },
+    {
+      "text": "All right, Blaise.",
+      "start": 2626.78,
+      "duration": 0.48
+    },
+    {
+      "text": "This is getting off track.",
+      "start": 2627.26,
+      "duration": 1.0
+    },
+    {
+      "text": "We gotta get out of here.",
+      "start": 2628.38,
+      "duration": 1.08
+    },
+    {
+      "text": "Yeah, okay.",
+      "start": 2629.88,
+      "duration": 0.54
+    },
+    {
+      "text": "Any other hard-taking takes?",
+      "start": 2631.1,
+      "duration": 2.54
+    },
+    {
+      "text": "No, I think the hot takes have run out.",
+      "start": 2633.64,
+      "duration": 3.66
+    },
+    {
+      "text": "Claude Code was the inflection point in February of 2026.",
+      "start": 2637.46,
+      "duration": 4.54
+    },
+    {
+      "text": "Doug, your victory lap today in May is complete.",
+      "start": 2642.18,
+      "duration": 4.56
+    },
+    {
+      "text": "Appreciate all the hot takes today on, yeah, Claude versus...",
+      "start": 2647.86,
+      "duration": 4.78
+    },
+    {
+      "text": "I hope it's not the next inflection point.",
+      "start": 2653.5,
+      "duration": 2.36
+    },
+    {
+      "text": "I hope it's more exciting than that.",
+      "start": 2656.08,
+      "duration": 1.22
+    },
+    {
+      "text": "And for anybody who didn't enjoy the format today and would prefer a different one,",
+      "start": 2658.36,
+      "duration": 3.46
+    },
+    {
+      "text": "I just want to shout out one of our listeners, Anna, who said you should do a format like this,",
+      "start": 2661.82,
+      "duration": 5.22
+    },
+    {
+      "text": "which we did today.",
+      "start": 2667.32,
+      "duration": 0.78
+    },
+    {
+      "text": "So you can give the feedback there or to us in the comments if you want us to do something different.",
+      "start": 2668.8,
+      "duration": 4.52
+    },
+    {
+      "text": "We're judging.",
+      "start": 2673.92,
+      "duration": 1.56
+    },
+    {
+      "text": "We're like back and forth between whether we do weekly news or review of the newsletter article we did,",
+      "start": 2675.84,
+      "duration": 4.94
+    },
+    {
+      "text": "you know, the last week or two weeks ago or something like that.",
+      "start": 2681.14,
+      "duration": 2.48
+    },
+    {
+      "text": "So anyway, feedback's appreciated if people are listening and making it all the way through this one.",
+      "start": 2683.62,
+      "duration": 4.96
+    },
+    {
+      "text": "ROHF.",
+      "start": 2689.9,
+      "duration": 0.4
+    },
+    {
+      "text": "That's really appreciated.",
+      "start": 2690.48,
+      "duration": 0.94
+    },
+    {
+      "text": "I bet it better than Dylan.",
+      "start": 2691.82,
+      "duration": 1.26
+    }
+  ]
+}
