@@ -12,15 +12,10 @@ def load_config(path: Path) -> AppConfig:
     run = RunConfig(
         lookback_days=int(run_raw["lookback_days"]),
         max_episodes=int(run_raw["max_episodes"]),
-        max_audio_hours=float(run_raw["max_audio_hours"]),
+        max_total_hours=float(run_raw["max_total_hours"]),
         min_relevance_score=int(run_raw["min_relevance_score"]),
-        transcribe_missing=bool(run_raw["transcribe_missing"]),
-        keep_audio=bool(run_raw["keep_audio"]),
         request_timeout_seconds=int(run_raw["request_timeout_seconds"]),
         max_transcript_chars=int(run_raw["max_transcript_chars"]),
-        analysis_provider=str(run_raw["analysis_provider"]),
-        codex_model=str(run_raw.get("codex_model", "")),
-        whisper_model=str(run_raw["whisper_model"]),
     )
     feeds = tuple(
         FeedConfig(
@@ -44,4 +39,3 @@ def load_config(path: Path) -> AppConfig:
     if not categories:
         raise ValueError("config.toml must define [categories]")
     return AppConfig(run=run, feeds=feeds, keywords=keywords, categories=categories)
-

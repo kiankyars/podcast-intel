@@ -11,12 +11,11 @@ The system deliberately has a small number of moving parts:
 1. RSS discovers episodes from a curated feed list.
 2. Metadata filtering avoids expensive transcription on broad shows.
 3. Transcripts are acquired in this order:
-   - Podcasting 2.0 `podcast:transcript`
+   - `podcast:transcript` links in RSS
    - transcript embedded in RSS or linked from the episode page
    - YouTube captions through `yt-dlp`
-   - local MLX Whisper transcription on Apple Silicon
-4. `codex exec` analyzes each episode in a read-only temporary sandbox using a
-   strict JSON schema.
+4. The Codex automation reads each generated request and writes structured
+   analysis JSON.
 5. The pipeline writes:
    - `digests/YYYY-MM-DD.md`: daily retained signals
    - `topics/*.md`: cumulative category logs
@@ -30,15 +29,18 @@ No database, web service, queue, or cloud account is required.
 ```bash
 ./scripts/daily.sh
 
-PYTHONPATH=src python3 -m podcast_intel discover --lookback 7
-PYTHONPATH=src python3 -m podcast_intel run --lookback 7 --max-episodes 2
-PYTHONPATH=src python3 -m podcast_intel doctor
-PYTHONPATH=src python3 -m podcast_intel retry <episode-id>
-PYTHONPATH=src python3 -m unittest discover -s tests
+uv run podcast-intel discover --lookback 7
+uv run podcast-intel audit-transcripts --lookback 14
+uv run podcast-intel prepare --lookback 7 --max-episodes 2
+uv run podcast-intel finalize
+uv run podcast-intel doctor
+uv run podcast-intel retry <episode-id>
+uv run python -m unittest discover -s tests
 ```
 
-Use `--feed <id>` to constrain discovery or a run to one configured feed. Use
-`--no-transcribe` to stop after publisher transcripts and YouTube captions.
+Use `--feed <id>` to constrain discovery or preparation to one configured feed.
+Use `audit-transcripts` to check whether recent selected episodes have
+transcripts or captions.
 
 ## Configuration
 
@@ -51,32 +53,27 @@ Use `--feed <id>` to constrain discovery or a run to one configured feed. Use
 The default lookback is fourteen days and the first run does not backfill a show's
 full history.
 
-## Optional Local Transcription
+## Transcript Sources
 
-Publisher transcripts and captions cover many episodes. Install the Apple
-Silicon fallback only when needed:
-
-```bash
-uv sync --extra asr
-```
-
-The first MLX transcription downloads the configured Whisper model. Audio is
-deleted after successful transcription unless `keep_audio = true`.
+`podcast:transcript` is an RSS tag used by podcast publishers to attach a
+transcript URL to an episode. The audit command checks this plus embedded
+transcripts, episode-page transcript links, and YouTube captions. If none exist,
+the episode is reported as missing a transcript instead of running local ASR.
 
 ## Scheduling
 
 Use the project-scoped Codex app automation in [AUTOMATION.md](AUTOMATION.md).
-The Codex app is the scheduler; `scripts/daily.sh` remains the stable,
-manually-testable entry point.
+The Codex app is the scheduler and the analyst. `scripts/daily.sh` only
+discovers episodes, fetches transcripts, and writes analysis requests. The
+automation writes the JSON analyses and then runs `finalize`.
 
-The automation needs network access. The inner `codex exec` analysis process is
-separately constrained to a read-only empty temporary directory, and podcast
-content is explicitly treated as untrusted data.
+The automation needs network access so the preparation step can fetch feeds,
+episode pages, and captions.
 
 ## Operating Notes
 
 - A transcript is saved before analysis. Failed analysis resumes without
-  downloading or transcribing the episode again.
+  downloading the transcript again.
 - Low-relevance episodes are recorded as processed but omitted from topic logs.
 - Feed and episode failures appear in the digest and command output.
 - Review the first several daily outputs and tune `profile.md`; editorial

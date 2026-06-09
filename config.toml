@@ -1,15 +1,10 @@
 [run]
 lookback_days = 14
 max_episodes = 8
-max_audio_hours = 8.0
+max_total_hours = 8.0
 min_relevance_score = 3
-transcribe_missing = true
-keep_audio = false
 request_timeout_seconds = 60
 max_transcript_chars = 260000
-analysis_provider = "codex"
-codex_model = ""
-whisper_model = "mlx-community/whisper-large-v3-turbo"
 
 [selection]
 keywords = [

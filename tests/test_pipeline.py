@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from podcast_intel.cli import run_pipeline
+from podcast_intel.cli import finalize_pipeline, prepare_pipeline
 from podcast_intel.feeds import metadata_matches, parse_feed
 from podcast_intel.models import FeedConfig, Transcript
 from podcast_intel.transcripts import extract_transcript_section, normalize_transcript
@@ -92,15 +92,10 @@ class PipelineTests(unittest.TestCase):
 [run]
 lookback_days = 30
 max_episodes = 3
-max_audio_hours = 8.0
+max_total_hours = 8.0
 min_relevance_score = 3
-transcribe_missing = false
-keep_audio = false
 request_timeout_seconds = 10
 max_transcript_chars = 100000
-analysis_provider = "codex"
-codex_model = ""
-whisper_model = "unused"
 
 [selection]
 keywords = ["openai"]
@@ -126,32 +121,34 @@ priority = 7
                     source_url="https://example.com/transcript",
                 )
 
-            def fake_analysis(**kwargs):
-                return {
-                    "relevance_score": 4,
-                    "summary": "The guest described a concrete inference design change.",
-                    "why_it_matters": "It changes expected serving cost.",
-                    "signals": [
-                        {
-                            "category": "semiconductors_compute",
-                            "claim": "The serving architecture changed.",
-                            "evidence": "The guest tied the change to lower memory traffic.",
-                            "timestamp": "00:01",
-                            "confidence": "high",
-                            "kind": "observation",
-                        }
-                    ],
-                    "entities": ["OpenAI"],
-                    "changed_views": [],
-                    "follow_ups": ["Check measured serving cost."],
-                    "skip_reason": "",
-                }
-
-            result = run_pipeline(
+            prepared = prepare_pipeline(
                 root=root,
-                analyzer=fake_analysis,
                 transcript_acquirer=fake_transcript,
             )
+            self.assertEqual(prepared.selected, 1)
+            pending = json.loads((root / "data" / "pending_analysis.json").read_text())
+            analysis = {
+                "relevance_score": 4,
+                "summary": "The guest described a concrete inference design change.",
+                "why_it_matters": "It changes expected serving cost.",
+                "signals": [
+                    {
+                        "category": "semiconductors_compute",
+                        "claim": "The serving architecture changed.",
+                        "evidence": "The guest tied the change to lower memory traffic.",
+                        "timestamp": "00:01",
+                        "confidence": "high",
+                        "kind": "observation",
+                    }
+                ],
+                "entities": ["OpenAI"],
+                "changed_views": [],
+                "follow_ups": ["Check measured serving cost."],
+                "skip_reason": "",
+            }
+            Path(pending[0]["analysis_path"]).write_text(json.dumps(analysis), encoding="utf-8")
+
+            result = finalize_pipeline(root=root)
             self.assertEqual(result.relevant, 1)
             self.assertTrue(Path(result.digest_path).exists())
             topic = root / "topics" / "semiconductors_compute.md"

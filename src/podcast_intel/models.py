@@ -19,15 +19,10 @@ class FeedConfig:
 class RunConfig:
     lookback_days: int
     max_episodes: int
-    max_audio_hours: float
+    max_total_hours: float
     min_relevance_score: int
-    transcribe_missing: bool
-    keep_audio: bool
     request_timeout_seconds: int
     max_transcript_chars: int
-    analysis_provider: str
-    codex_model: str
-    whisper_model: str
 
 
 @dataclass(frozen=True)
@@ -77,4 +72,3 @@ class RunResult:
     failed_feeds: list[str] = field(default_factory=list)
     failed_episodes: list[str] = field(default_factory=list)
     digest_path: str = ""
-

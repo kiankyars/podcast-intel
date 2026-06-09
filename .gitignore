@@ -4,6 +4,7 @@ __pycache__/
 *.pyc
 
 data/state.json
+data/pending_analysis.json
 data/cache/
 data/tmp/
 episodes/*
@@ -14,4 +15,3 @@ topics/*
 !topics/.gitkeep
 logs/*
 !logs/.gitkeep
-

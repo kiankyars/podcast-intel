@@ -5,21 +5,16 @@ import re
 import shutil
 import subprocess
 import tempfile
-import urllib.request
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
-from urllib.parse import unquote, urlparse
+from urllib.parse import unquote
 
-from .feeds import USER_AGENT, fetch_text, parse_html
+from .feeds import fetch_text, parse_html
 from .models import Episode, Transcript
 
 
 class TranscriptUnavailable(RuntimeError):
-    pass
-
-
-class TranscriberUnavailable(RuntimeError):
     pass
 
 
@@ -278,79 +273,10 @@ def _youtube_search_url(episode: Episode) -> str:
     return url if score >= 0.85 else ""
 
 
-def _audio_suffix(url: str) -> str:
-    suffix = Path(urlparse(url).path).suffix.casefold()
-    if suffix in {".mp3", ".m4a", ".mp4", ".wav", ".ogg", ".opus"}:
-        return suffix
-    return ".mp3"
-
-
-def _download_audio(url: str, path: Path, timeout: int) -> None:
-    request = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept-Encoding": "identity",
-        },
-    )
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        with path.open("wb") as destination:
-            shutil.copyfileobj(response, destination, length=1024 * 1024)
-
-
-def _transcribe_audio(
-    episode: Episode,
-    cache_dir: Path,
-    model: str,
-    timeout: int,
-    keep_audio: bool,
-) -> Transcript:
-    try:
-        import mlx_whisper  # type: ignore[import-not-found]
-    except ImportError as error:
-        raise TranscriberUnavailable(
-            "mlx-whisper is not installed; run `uv sync --extra asr`"
-        ) from error
-
-    if not episode.audio_url:
-        raise TranscriptUnavailable("episode has no audio enclosure")
-    cache_dir.mkdir(parents=True, exist_ok=True)
-    audio_path = cache_dir / f"{episode.id}{_audio_suffix(episode.audio_url)}"
-    if not audio_path.exists():
-        _download_audio(episode.audio_url, audio_path, timeout)
-    try:
-        result = mlx_whisper.transcribe(
-            str(audio_path),
-            path_or_hf_repo=model,
-            word_timestamps=False,
-            verbose=False,
-        )
-        lines: list[str] = []
-        for segment in result.get("segments", []):
-            text = " ".join(str(segment.get("text", "")).split())
-            if text:
-                lines.append(f"[{timestamp(segment.get('start', 0))}] {text}")
-        text = "\n".join(lines) or str(result.get("text", "")).strip()
-        if not looks_like_transcript(text, direct=True):
-            raise TranscriptUnavailable("local transcription returned too little text")
-        return Transcript(
-            text=text,
-            source="local_mlx_whisper",
-            source_url=episode.audio_url,
-        )
-    finally:
-        if not keep_audio:
-            audio_path.unlink(missing_ok=True)
-
-
 def acquire_transcript(
     episode: Episode,
     *,
     timeout: int,
-    transcribe_missing: bool,
-    cache_dir: Path,
-    whisper_model: str,
-    keep_audio: bool,
 ) -> Transcript:
     for candidate in sorted(episode.transcript_urls, key=_transcript_url_priority):
         transcript = _fetch_transcript_url(candidate["url"], timeout)
@@ -409,12 +335,4 @@ def acquire_transcript(
         if transcript:
             return transcript
 
-    if transcribe_missing:
-        return _transcribe_audio(
-            episode,
-            cache_dir,
-            whisper_model,
-            timeout,
-            keep_audio,
-        )
     raise TranscriptUnavailable("no publisher transcript or YouTube captions found")
