@@ -1,0 +1,20 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Microsoft",
+    "Satya Nadella",
+    "GitHub",
+    "Copilot",
+    "Work IQ",
+    "Azure"
+  ],
+  "follow_ups": [
+    "Use the retained No Priors analysis for this crossover's substantive findings.",
+    "Consider adding duplicate-detection before pending analysis generation."
+  ],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "Duplicate of the No Priors Satya Nadella crossover already analyzed in this run.",
+  "summary": "This is the same Satya Nadella crossover interview already retained from the No Priors feed in this run. The Latent Space request has cleaner formatting, but retaining both would duplicate the same Microsoft strategy signals in the daily digest.",
+  "why_it_matters": "The content is relevant, but it is duplicate material for this run; the retained No Priors analysis captures the private-eval, Work IQ, Copilot pricing, and Azure-capacity signals."
+}

@@ -1,0 +1,47 @@
+{
+  "changed_views": [
+    "Compiler verification may become an agent-assisted security workflow sooner than many AI infrastructure teams expect."
+  ],
+  "entities": [
+    "Justin Lebar",
+    "NVIDIA",
+    "PTXAS",
+    "LLVM",
+    "AMD",
+    "x86"
+  ],
+  "follow_ups": [
+    "Refresh the transcript: cached captions are for an unrelated SemiAnalysis silicon-shortage discussion.",
+    "Read the linked SemiAnalysis article before using these claims as high-confidence evidence."
+  ],
+  "relevance_score": 3,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Lebar reportedly found critical compiler miscompiles with about $10,000 of LLM-assisted effort.",
+      "confidence": "medium",
+      "evidence": "The episode description says he spent $10,000 in an afternoon and combined traditional fuzzing with LLM-assisted bug finding across multiple compiler backends.",
+      "kind": "observation",
+      "timestamp": "00:00"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "The episode frames ML and GPU compiler backends as less-tested surfaces with latent high-severity bugs.",
+      "confidence": "medium",
+      "evidence": "The description contrasts mature CPU environments with less-tested ML compilers and says the discussion covers NVIDIA PTXAS and LLVM's AMD GPU backend.",
+      "kind": "inference",
+      "timestamp": "02:48"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "One x86 finding reportedly split an atomic operation into two non-atomic operations.",
+      "confidence": "medium",
+      "evidence": "The metadata calls this a high-severity x86 bug, implying a correctness or security failure in a primitive that software relies on for synchronization.",
+      "kind": "observation",
+      "timestamp": "04:13"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "The available episode metadata describes Justin Lebar using fuzzing plus LLM-assisted review to find critical miscompiles in NVIDIA PTXAS, LLVM AMD GPU, and x86 compiler backends. The cached transcript appears unrelated, so this analysis is conservative and relies on the description rather than transcript evidence.",
+  "why_it_matters": "If accurate, low-cost discovery of severe compiler correctness bugs in GPU and CPU backends is directly relevant to AI infrastructure reliability, security, and the usefulness of agents for deep systems verification."
+}

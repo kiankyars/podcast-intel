@@ -1,0 +1,66 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/200613353/da820d19eca949d5e111f641ab5e378d.mp3",
+  "description_html": "<p>Economics of AGI episode w <a target=\"_blank\" href=\"https://www.aleximas.com/\">Alex Imas</a> and <a target=\"_blank\" href=\"https://philiptrammell.com/\">Phil Trammell</a>.</p><p>There\u2019s a bunch of important questions about how we deal with AI that only economics can answer.</p><p>What is the optimal way to tax and redistribute the wealth that will be generated? How should countries not in the AI supply chain index into the gains? Is there any world where inequality doesn\u2019t explode?</p><p>It might seem like these questions have obvious answers, but the first thing economics teaches you is that your intuitions can often be entirely wrong.</p><p>It was very helpful to chat through these things with Alex and Phil.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/Jj-kBHzUohs\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/alex-imas-phil-trammell\">transcript</a>.</p><p><strong>Sponsors</strong></p><p><a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a> invests heavily in turning smart people into exceptional researchers and engineers. In addition to their apprenticeship model, Jane Street runs lectures and bootcamps in their in-office classrooms -- managers clear their teams\u2019 schedules to encourage attendance. If you\u2019d like to work at a place that takes learning this seriously, Jane Street is hiring. Check out their open roles at <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">janestreet.com/dwarkesh</a></p><p><a target=\"_blank\" href=\"https://gemini.google\">Google\u2019s Gemini Omni</a> has incredible video editing capabilities -- you can upload a video and have Omni change the background, adjust lighting, or add specific elements. But Omni is also a preview of how future frontier models will be trained -- fully multimodal on both input and output. You can try it yourself in the Gemini app at <a target=\"_blank\" href=\"https://gemini.google\">gemini.google</a> or in Flow at <a target=\"_blank\" href=\"https://flow.google\">flow.google</a></p><p><a target=\"_blank\" href=\"https://cursor.com/dwarkesh\">Cursor</a> used targeted RL with textual feedback to help train their Composer 2.5 model. One of their researchers, Sasha Rush, gave me an impromptu blackboard lecture to explain how this form of on-policy self-distillation works -- I posted the full thing on X. If you want to try Composer 2.5, go to <a target=\"_blank\" href=\"https://cursor.com/dwarkesh\">cursor.com/dwarkesh</a></p><p>Timestamps</p><p>(00:00:00) \u2013 Will capital share increase?</p><p>(00:19:36) \u2013 Messy Middle scenario</p><p>(00:25:57) \u2013 How to tax and redistribute AI wealth</p><p>(00:30:02) \u2013 Why demand collapse is unlikely</p><p>(00:39:26) \u2013 Human employees would be hard to integrate into the machine economy</p><p>(00:43:08) \u2013 What if some humans (or AIs) value wealth accumulation intrinsically?</p><p>(01:01:28) \u2013 What should developing countries do?</p> <br/><br/>Get full access to Dwarkesh Podcast at <a href=\"https://www.dwarkesh.com/subscribe?utm_medium=podcast&#38;utm_campaign=CTA_4\">www.dwarkesh.com/subscribe</a>",
+  "description_text": "Economics of AGI episode w Alex Imas and Phil Trammell .\n\nThere\u2019s a bunch of important questions about how we deal with AI that only economics can answer.\n\nWhat is the optimal way to tax and redistribute the wealth that will be generated? How should countries not in the AI supply chain index into the gains? Is there any world where inequality doesn\u2019t explode?\n\nIt might seem like these questions have obvious answers, but the first thing economics teaches you is that your intuitions can often be entirely wrong.\n\nIt was very helpful to chat through these things with Alex and Phil.\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\nJane Street invests heavily in turning smart people into exceptional researchers and engineers. In addition to their apprenticeship model, Jane Street runs lectures and bootcamps in their in-office classrooms -- managers clear their teams\u2019 schedules to encourage attendance. If you\u2019d like to work at a place that takes learning this seriously, Jane Street is hiring. Check out their open roles at janestreet.com/dwarkesh\n\nGoogle\u2019s Gemini Omni has incredible video editing capabilities -- you can upload a video and have Omni change the background, adjust lighting, or add specific elements. But Omni is also a preview of how future frontier models will be trained -- fully multimodal on both input and output. You can try it yourself in the Gemini app at gemini.google or in Flow at flow.google\n\nCursor used targeted RL with textual feedback to help train their Composer 2.5 model. One of their researchers, Sasha Rush, gave me an impromptu blackboard lecture to explain how this form of on-policy self-distillation works -- I posted the full thing on X. If you want to try Composer 2.5, go to cursor.com/dwarkesh\n\nTimestamps\n\n(00:00:00) \u2013 Will capital share increase?\n\n(00:19:36) \u2013 Messy Middle scenario\n\n(00:25:57) \u2013 How to tax and redistribute AI wealth\n\n(00:30:02) \u2013 Why demand collapse is unlikely\n\n(00:39:26) \u2013 Human employees would be hard to integrate into the machine economy\n\n(00:43:08) \u2013 What if some humans (or AIs) value wealth accumulation intrinsically?\n\n(01:01:28) \u2013 What should developing countries do?\n\nGet full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+  "duration_seconds": 4568,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "4aad641f1dcb3066c5d8",
+  "link": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+  "published": "2026-06-04T16:14:49+00:00",
+  "title": "Alex Imas and Phil Trammell \u2013 What remains scarce after AGI?",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "Alex Imas",
+      "url": "https://www.aleximas.com/"
+    },
+    {
+      "text": "Phil Trammell",
+      "url": "https://philiptrammell.com/"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/Jj-kBHzUohs"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "Google\u2019s Gemini Omni",
+      "url": "https://gemini.google"
+    },
+    {
+      "text": "gemini.google",
+      "url": "https://gemini.google"
+    },
+    {
+      "text": "flow.google",
+      "url": "https://flow.google"
+    },
+    {
+      "text": "Cursor",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "cursor.com/dwarkesh",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "www.dwarkesh.com/subscribe",
+      "url": "https://www.dwarkesh.com/subscribe?utm_medium=podcast&utm_campaign=CTA_4"
+    }
+  ]
+}

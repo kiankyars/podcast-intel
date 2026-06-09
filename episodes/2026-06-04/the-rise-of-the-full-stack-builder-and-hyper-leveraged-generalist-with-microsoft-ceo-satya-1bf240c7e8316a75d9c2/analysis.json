@@ -1,0 +1,58 @@
+{
+  "changed_views": [
+    "Microsoft's enterprise moat is increasingly a context-and-harness strategy, not just an OpenAI distribution strategy.",
+    "Agent pricing pressure is already concrete enough to force Copilot packaging changes."
+  ],
+  "entities": [
+    "Microsoft",
+    "Satya Nadella",
+    "GitHub",
+    "Copilot",
+    "Work IQ",
+    "Azure",
+    "Foundry",
+    "LinkedIn"
+  ],
+  "follow_ups": [
+    "Watch whether Work IQ and Foundry IQ become default context layers for enterprise agents.",
+    "Track GitHub Copilot pricing and usage disclosures for evidence of agent-driven consumption growth."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Nadella says private evals may become a company's most important AI IP.",
+      "confidence": "high",
+      "evidence": "He argues companies should own evals, traces, tools, and context so they can hill-climb with one model and switch to another without losing control.",
+      "kind": "opinion",
+      "timestamp": "00:11:00"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Microsoft is repositioning M365 Work IQ as an enterprise context database for agents.",
+      "confidence": "high",
+      "evidence": "Nadella says Work IQ can connect meetings, email, Teams, documents, and GitHub repos so an agent can derive code-change plans from design-meeting transcripts.",
+      "kind": "observation",
+      "timestamp": "00:18:00"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "GitHub Copilot's business model needs consumption metering because agent usage broke the original per-user assumption.",
+      "confidence": "high",
+      "evidence": "Nadella says Copilot was priced for interactive completion and tasks, not thousands of all-day agents, so per-user subscriptions now need a consumption meter.",
+      "kind": "observation",
+      "timestamp": "00:20:00"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Nadella says Microsoft built more Azure capacity in 15 months than in its first 15 years.",
+      "confidence": "high",
+      "evidence": "He uses Azure networking as an example of teams reconceptualizing work around an agentic system called Miles and asking for tokens rather than headcount.",
+      "kind": "observation",
+      "timestamp": "00:29:00"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Satya Nadella lays out Microsoft's AI platform thesis: companies need private evals, open multimodel harnesses, rich context layers, and agent traces that can compound into company-specific intelligence. He also gives concrete deployment details: Work IQ turns Microsoft 365 into an enterprise context database, Copilot pricing needs consumption meters because agent use is much heavier than completion, and Azure operations are already shifting from headcount requests to token requests.",
+  "why_it_matters": "This is a first-party description of how Microsoft wants to capture AI value: not by one model alone, but by owning enterprise context, harnesses, developer workflows, agent runtime, and cloud infrastructure around long-running agents."
+}

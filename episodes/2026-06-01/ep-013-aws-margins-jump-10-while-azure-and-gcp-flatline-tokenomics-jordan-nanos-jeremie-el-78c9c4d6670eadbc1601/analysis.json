@@ -1,0 +1,48 @@
+{
+  "changed_views": [
+    "Hyperscaler AI margin upside may come from token-routing platforms and model distribution, not merely owning scarce GPUs."
+  ],
+  "entities": [
+    "AWS",
+    "Amazon Bedrock",
+    "Anthropic",
+    "Claude",
+    "Microsoft Azure",
+    "Google Cloud",
+    "SpaceX"
+  ],
+  "follow_ups": [
+    "Refresh the transcript: cached captions are for a separate SemiAnalysis silicon-shortage discussion.",
+    "Check AWS, Azure, and Google Cloud segment margins against public earnings before relying on the 10-point claim."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "companies_capital_allocation",
+      "claim": "SemiAnalysis attributes AWS's 10-point margin jump to Claude usage routed through Bedrock.",
+      "confidence": "medium",
+      "evidence": "The description says AWS operating margins rose while Azure and Google Cloud stayed flat, with Anthropic usage through Bedrock identified as the driver.",
+      "kind": "observation",
+      "timestamp": "02:33"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "The episode argues stabilized token-as-a-service margins are structurally richer than GPU-as-a-service.",
+      "confidence": "medium",
+      "evidence": "The metadata contrasts Bedrock's token platform economics with asset-heavy GPU service models and says AWS has a workload-mix advantage.",
+      "kind": "inference",
+      "timestamp": "06:32"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "SemiAnalysis frames 300-plus neo clouds as fragmenting the traditional cloud moat.",
+      "confidence": "medium",
+      "evidence": "The description says the crew discusses a 300-plus neo-cloud backdrop while forecasting AWS's sustainable returns from workload mix.",
+      "kind": "forecast",
+      "timestamp": "03:33"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "The episode metadata says SemiAnalysis attributes a 10-point AWS operating-margin jump to Anthropic Claude usage flowing through Bedrock, while Azure and Google Cloud margins stayed flat. The cached transcript is unrelated, so this analysis treats the metadata as directional rather than transcript-verified.",
+  "why_it_matters": "If the SemiAnalysis framing is right, hyperscaler AI economics may hinge less on raw GPU rental and more on token-as-a-service routing, workload mix, and first-party model partnerships."
+}

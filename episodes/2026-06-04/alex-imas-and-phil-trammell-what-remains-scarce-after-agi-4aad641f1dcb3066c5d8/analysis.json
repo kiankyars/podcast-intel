@@ -1,0 +1,57 @@
+{
+  "changed_views": [
+    "A near-term AI recession from demand collapse is less plausible if displaced income is reinvested into high-return compute, fabs, and data centers.",
+    "The key distributional question may be whether ordinary citizens and poorer countries can own the right AI-linked assets before returns concentrate."
+  ],
+  "entities": [
+    "Alex Imas",
+    "Phil Trammell",
+    "Google DeepMind",
+    "Epoch",
+    "Anthropic",
+    "SK Hynix",
+    "OpenAI"
+  ],
+  "follow_ups": [
+    "Track Yale Budget Lab and similar datasets for junior developer and exposed-sector labor-market signals.",
+    "Watch whether frontier labs commoditize like electricity suppliers or retain social-media-like platform rents."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Imas argues there is not yet strong evidence of an economy-wide white-collar AI bloodbath.",
+      "confidence": "medium",
+      "evidence": "He says recent broad labor-market analysis requires squinting to see AI effects, with only below-trend junior developer hiring and possible stronger demand for senior developers.",
+      "kind": "observation",
+      "timestamp": "00:30:02"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "The guests treat unsaturated compute demand as the central variable behind rising capital share.",
+      "confidence": "medium",
+      "evidence": "They discuss H100 rental prices rising despite better technology, using that as evidence that smarter models can raise the opportunity cost of compute.",
+      "kind": "inference",
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Trammell says developing countries should prioritize indexing AI returns, not only retraining.",
+      "confidence": "medium",
+      "evidence": "He recommends trying to index the AI economy given possible speed of takeoff, while still preserving retraining value in slower or messy-middle scenarios.",
+      "kind": "opinion",
+      "timestamp": "01:01:28"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Imas and Trammell frame universal basic capital as attractive but hard because the right AI assets may be private or concentrated.",
+      "confidence": "medium",
+      "evidence": "They contrast negative income tax, UBI, and broad ownership, then note that missing Anthropic, SK Hynix, or similar concentrated winners could leave citizens poorly indexed.",
+      "kind": "inference",
+      "timestamp": "00:25:57"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Alex Imas and Phil Trammell use economic models to pressure-test what remains scarce after AGI, focusing on labor share, relational goods, demand elasticity, redistribution, indexing AI returns, and developing-country exposure. Their strongest claims are that current AI labor-displacement evidence is weak, a broad demand-collapse recession requires implausible assumptions, and indexing ownership of the AI economy may matter more than retraining alone.",
+  "why_it_matters": "The episode gives a useful framework for AI investment and policy: the distribution of gains depends less on generic automation rhetoric and more on demand elasticity, capital access, private-company concentration, and whether AI becomes electricity-like infrastructure or platform-like rent capture."
+}
