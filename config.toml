@@ -1,0 +1,133 @@
+[run]
+lookback_days = 14
+max_episodes = 8
+max_audio_hours = 8.0
+min_relevance_score = 3
+transcribe_missing = true
+keep_audio = false
+request_timeout_seconds = 60
+max_transcript_chars = 260000
+analysis_provider = "codex"
+codex_model = ""
+whisper_model = "mlx-community/whisper-large-v3-turbo"
+
+[selection]
+keywords = [
+  "ai",
+  "agent",
+  "alex karp",
+  "amazon",
+  "anthropic",
+  "artificial intelligence",
+  "brad gerstner",
+  "broadcom",
+  "cerebras",
+  "chip",
+  "claude",
+  "compute",
+  "cursor",
+  "data center",
+  "deepmind",
+  "dario amodei",
+  "daniel roberts",
+  "dan roberts",
+  "gemini",
+  "gpu",
+  "groq",
+  "frontier",
+  "inference",
+  "jensen huang",
+  "meta",
+  "microsoft",
+  "model",
+  "nvidia",
+  "openai",
+  "palantir",
+  "sam altman",
+  "semiconductor",
+  "satya nadella",
+  "thinking machines",
+  "training",
+  "tsmc",
+  "xai",
+]
+
+[categories]
+frontier_labs_models = "Frontier labs, model capabilities, training methods, scaling, and model economics."
+agents_developer_tools = "Agents, coding systems, developer tools, evals, harnesses, and real-world deployments."
+semiconductors_compute = "GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and architecture."
+infrastructure_energy = "Data centers, power, cooling, networking, capital expenditure, and physical constraints."
+applications_business_models = "AI products, adoption, pricing, distribution, labor effects, and application-layer economics."
+companies_capital_allocation = "Company strategy, unit economics, incentives, compensation, financing, and investment implications."
+policy_geopolitics_security = "Export controls, national competition, regulation, defense, safety, and security."
+
+[[feeds]]
+id = "dwarkesh"
+name = "Dwarkesh Podcast"
+url = "https://apple.dwarkesh-podcast.workers.dev/feed.rss"
+mode = "all"
+priority = 10
+
+[[feeds]]
+id = "latent-space"
+name = "Latent Space"
+url = "https://api.substack.com/feed/podcast/1084089.rss"
+mode = "all"
+priority = 9
+
+[[feeds]]
+id = "no-priors"
+name = "No Priors"
+url = "https://feeds.megaphone.fm/nopriors"
+mode = "all"
+priority = 9
+
+[[feeds]]
+id = "mad-podcast"
+name = "The MAD Podcast with Matt Turck"
+url = "https://anchor.fm/s/f2ee4948/podcast/rss"
+mode = "all"
+priority = 9
+
+[[feeds]]
+id = "semianalysis-weekly"
+name = "SemiAnalysis Weekly"
+url = "https://anchor.fm/s/10fbee758/podcast/rss"
+mode = "all"
+priority = 10
+
+[[feeds]]
+id = "cognitive-revolution"
+name = "The Cognitive Revolution"
+url = "https://feeds.megaphone.fm/RINTP3108857801"
+mode = "all"
+priority = 8
+
+[[feeds]]
+id = "bg2"
+name = "BG2Pod"
+url = "https://anchor.fm/s/f06c2370/podcast/rss"
+mode = "all"
+priority = 8
+
+[[feeds]]
+id = "invest-like-the-best"
+name = "Invest Like the Best"
+url = "https://feeds.megaphone.fm/CLS2859450455"
+mode = "filtered"
+priority = 7
+
+[[feeds]]
+id = "tbpn"
+name = "TBPN"
+url = "https://feeds.transistor.fm/technology-brother"
+mode = "title_filtered"
+priority = 6
+exclude_title_patterns = ["Diet TBPN", "Replay"]
+
+[[feeds]]
+id = "lennys-podcast"
+name = "Lenny's Podcast"
+url = "https://api.substack.com/feed/podcast/10845.rss"
+mode = "filtered"
+priority = 5

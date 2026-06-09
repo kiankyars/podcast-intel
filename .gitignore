@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+data/state.json
+data/cache/
+data/tmp/
+episodes/*
+!episodes/.gitkeep
+digests/*
+!digests/.gitkeep
+topics/*
+!topics/.gitkeep
+logs/*
+!logs/.gitkeep
+

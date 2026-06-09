@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "relevance_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "summary": {
+      "type": "string"
+    },
+    "why_it_matters": {
+      "type": "string"
+    },
+    "signals": {
+      "type": "array",
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "frontier_labs_models",
+              "agents_developer_tools",
+              "semiconductors_compute",
+              "infrastructure_energy",
+              "applications_business_models",
+              "companies_capital_allocation",
+              "policy_geopolitics_security"
+            ]
+          },
+          "claim": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "timestamp": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "kind": {
+            "type": "string",
+            "enum": ["observation", "inference", "forecast", "opinion"]
+          }
+        },
+        "required": [
+          "category",
+          "claim",
+          "evidence",
+          "timestamp",
+          "confidence",
+          "kind"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "changed_views": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "follow_ups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "skip_reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "relevance_score",
+    "summary",
+    "why_it_matters",
+    "signals",
+    "entities",
+    "changed_views",
+    "follow_ups",
+    "skip_reason"
+  ],
+  "additionalProperties": false
+}
+
