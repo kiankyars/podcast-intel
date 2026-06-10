@@ -1,0 +1,66 @@
+{
+  "changed_views": [
+    "Bio-AI scaling may be limited more by new biological measurement methods than by model architecture alone.",
+    "Biohub is positioning open-source biological world models as public scientific infrastructure rather than a venture-backed drug-discovery product."
+  ],
+  "entities": [
+    "Biohub",
+    "Chan Zuckerberg Initiative",
+    "Mark Zuckerberg",
+    "Priscilla Chan",
+    "Alex Rives",
+    "ESMFold2",
+    "Human Cell Atlas",
+    "CellxGene"
+  ],
+  "follow_ups": [
+    "Track whether ESMFold2-generated binders reproduce outside Biohub labs.",
+    "Watch for Biohub virtual-cell releases that connect proteomic, genetic, transcriptomic, and phenotype layers."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "frontier_labs_models",
+      "claim": "Zuckerberg says biology AI needs frontier biology because key training data does not yet exist.",
+      "confidence": "high",
+      "evidence": "He says the initiative must invent imaging, cellular-engineering, and inflammation-measurement methods to create new datasets, unlike language models that can draw heavily from internet text.",
+      "kind": "opinion",
+      "timestamp": "05:05"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Biohub is using a nonprofit, open-source structure because the work needs a 10-15 year horizon and field-wide participation.",
+      "confidence": "high",
+      "evidence": "Zuckerberg argues that open sourcing the models gets tools into more scientists' hands faster, while Chan says neutrality helps rally academia and biotech around the long-tail disease problem.",
+      "kind": "observation",
+      "timestamp": "17:24"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Rives says ESMFold2 folded 1.1 billion proteins and produced therapeutic-relevant binders from digital search.",
+      "confidence": "high",
+      "evidence": "He describes a general protein biology model that predicts structures, searches protein space, designs single-chain antibodies, and found nanomolar binders after testing 96 synthesized proteins.",
+      "kind": "observation",
+      "timestamp": "29:03"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Biohub is already seeing ESMFold2 connected to agentic systems for automated biological design.",
+      "confidence": "medium",
+      "evidence": "Rives says users started integrating the release with agentic systems to automate design workflows, linking frontier AI, biological world models, and automated experimentation.",
+      "kind": "observation",
+      "timestamp": "46:19"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Biohub's next target is a virtual cell that generalizes across unseen interventions.",
+      "confidence": "high",
+      "evidence": "Rives says the virtual cell should connect proteomic, genetic, transcriptomic, and phenotype layers well enough to answer questions about new interventions outside the training distribution.",
+      "kind": "forecast",
+      "timestamp": "47:25"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Biohub's leaders describe a $500 million virtual biology effort that couples frontier AI with new wet-lab measurement systems, then releases the resulting tools as open science. The most concrete update is ESMFold2: Rives says the model folded 1.1 billion proteins, hit state-of-the-art structure benchmarks, and generated nanomolar binders from a small lab validation cycle.",
+  "why_it_matters": "The episode frames biological AI as a data-generation and institutional-design problem, not just a model-scaling problem. If Biohub's open-source protein and cell world models work, they could become shared infrastructure for drug discovery and synthetic biology rather than proprietary biotech point products."
+}

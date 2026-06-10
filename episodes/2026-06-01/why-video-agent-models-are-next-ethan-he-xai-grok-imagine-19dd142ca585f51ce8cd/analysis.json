@@ -1,0 +1,82 @@
+{
+  "changed_views": [
+    "Near-term video generation progress may come more from LLM planning and tool use than from isolated diffusion-model improvements.",
+    "Video-agent economics could be materially more expensive than one-shot video generation because production quality requires iterative variation and editing."
+  ],
+  "entities": [
+    "xAI",
+    "Grok Imagine",
+    "Ethan He",
+    "NVIDIA",
+    "Cosmos",
+    "Gemini Omni",
+    "GPT Image",
+    "FFmpeg"
+  ],
+  "follow_ups": [
+    "Watch whether Grok Imagine Agent or comparable systems reach ad-quality production workflows by late 2026.",
+    "Track whether frontier labs converge on separate LLM-plus-diffusion tool systems or jointly trained omni models."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "frontier_labs_models",
+      "claim": "He says a small xAI team built Grok Imagine 0.9 from no video infra, data, or model in three months.",
+      "confidence": "high",
+      "evidence": "He attributes the speed to prior Cosmos experience, a small high-talent team, strong data and inference foundations, heavy compute, and high iteration rate.",
+      "kind": "observation",
+      "timestamp": "00:02:30"
+    },
+    {
+      "category": "semiconductors_compute",
+      "claim": "He says coding-model improvements are making compute the bottleneck for model iteration again.",
+      "confidence": "high",
+      "evidence": "He argues ideas that previously took weeks to implement can now be built in hours, so teams need enough compute to immediately test many more model and data experiments.",
+      "kind": "inference",
+      "timestamp": "00:07:05"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "He says video models usually start from image models because video has too few dense language-video pairs.",
+      "confidence": "high",
+      "evidence": "He explains that internet videos lack reliable captions, so labs generate synthetic descriptions, train image models first for denser language grounding, then bootstrap video models from them.",
+      "kind": "observation",
+      "timestamp": "00:10:28"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "He says temporal compression trades off context length against real-time interactivity.",
+      "confidence": "high",
+      "evidence": "He describes 8x8x4 VAE compression that saves context by compressing four temporal frames into one token, while frame-by-frame compression is more responsive but about four times larger.",
+      "kind": "observation",
+      "timestamp": "00:20:52"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "He says video agents turn LLMs into planners that call diffusion, editing, and deterministic media tools.",
+      "confidence": "high",
+      "evidence": "He says prompt rewriting has become agentic, with language models fetching context, planning layouts, calling generative models or FFmpeg, and iteratively refining longer videos.",
+      "kind": "inference",
+      "timestamp": "01:20:34"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "He predicts video agents become a major category by the end of 2026 if they reach production-grade ad quality.",
+      "confidence": "medium",
+      "evidence": "He says enterprise budgets expand once video agents can produce distributable ads, even though agents cost more because they generate many variations through iterative workflows.",
+      "kind": "forecast",
+      "timestamp": "01:29:37"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "He says the current bottleneck for video models is increasingly the language-model and agent side.",
+      "confidence": "high",
+      "evidence": "After leaving xAI, he says he wants to work on LLMs because most video-model gains now come from language intelligence rather than diffusion technology alone.",
+      "kind": "opinion",
+      "timestamp": "01:33:33"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Ethan He gives a technical account of frontier video generation from NVIDIA Cosmos to xAI Grok Imagine, with unusually concrete details on synthetic captions, VAEs, temporal compression, iteration speed, and why image models bootstrap video models. His main thesis is that video generation is becoming a video-agent problem: LLMs plan, rewrite prompts, call diffusion and editing tools, and iterate toward production-quality media.",
+  "why_it_matters": "This changes the competitive lens for generative media. The winner may not simply be the lab with the best standalone video diffusion model, but the lab or product that combines strong language reasoning, cheap iteration, media tools, and workflow integration into an agentic creative system."
+}

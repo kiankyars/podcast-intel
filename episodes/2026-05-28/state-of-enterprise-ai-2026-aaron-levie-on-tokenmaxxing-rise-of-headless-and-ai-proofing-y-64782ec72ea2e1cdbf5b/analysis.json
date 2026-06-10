@@ -1,0 +1,84 @@
+{
+  "changed_views": [
+    "Enterprise AI spend is escaping the IT budget and becoming a line-of-business compute allocation problem.",
+    "Per-seat SaaS pricing is unlikely to survive unchanged when agents become high-volume headless users of enterprise data."
+  ],
+  "entities": [
+    "Aaron Levie",
+    "Box",
+    "OpenAI",
+    "Anthropic",
+    "Codex",
+    "Cursor",
+    "Salesforce",
+    "Workday",
+    "Microsoft Copilot",
+    "AWS Marketplace"
+  ],
+  "follow_ups": [
+    "Track whether enterprise SaaS vendors disclose agent or consumption pricing separate from seats.",
+    "Watch for tooling that measures ROI per token across line-of-business budgets."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Levie says token budgeting is now one of the hottest enterprise AI issues because agent economics broke $20-seat assumptions.",
+      "confidence": "high",
+      "evidence": "He says larger contexts, bigger models, and better agents mean one task can consume about $1,000 of compute, which cannot fit into chatbot or Copilot-style seat pricing.",
+      "kind": "observation",
+      "timestamp": "09:55"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Levie says frontier-token prices are not falling like normal compute because the industry compressed a decade of rollout into roughly 12-18 months.",
+      "confidence": "high",
+      "evidence": "He argues bigger models, hardware scarcity, capacity constraints, and lab/provider pricing power have delayed the usual scale-driven cost declines.",
+      "kind": "inference",
+      "timestamp": "11:34"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Levie says AI spend will move from IT budgets into line-of-business budgets.",
+      "confidence": "high",
+      "evidence": "He says IT is usually only about 3-7% of corporate revenue, so productivity-driving AI compute will move into marketing, sales, manufacturing, and other operating budgets that lack FinOps tooling.",
+      "kind": "forecast",
+      "timestamp": "13:37"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Levie expects enterprises to use a mosaic of models rather than route every task to the frontier model.",
+      "confidence": "high",
+      "evidence": "He says tasks that become reliable can be peeled off to cheaper models, while coding, life sciences, contracts, and financial planning may still justify top-tier models.",
+      "kind": "forecast",
+      "timestamp": "18:33"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Levie says access control is a core reason knowledge-work agents diffuse more slowly than coding agents.",
+      "confidence": "high",
+      "evidence": "He says coding agents can often consume the needed codebase, while enterprise agents either lack access, overreach into data they should not use, or create data-leakage blast radius across vendors.",
+      "kind": "observation",
+      "timestamp": "25:53"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Levie says headless software will create dual seat and consumption models for enterprise SaaS.",
+      "confidence": "high",
+      "evidence": "He predicts agents will hit systems far more than humans do, so software vendors will keep seats for human users but charge consumption for agentic access beyond allocation.",
+      "kind": "forecast",
+      "timestamp": "43:43"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Levie remains bullish on vertical AI apps because workflows, data integration, and change management are too specific for labs to own alone.",
+      "confidence": "high",
+      "evidence": "He says applied vendors still matter where products compress model output, context, implementation, and user workflow into something knowledge workers can use without managing skills files or prompts.",
+      "kind": "opinion",
+      "timestamp": "01:07:11"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Aaron Levie gives a dense enterprise-AI readout: token spend has become a top CIO issue, single-task agent runs can reach roughly $1,000, AI spend is moving from IT to business-unit budgets, and enterprises will use multiple models rather than one frontier default. He also argues headless agent access will force SaaS vendors toward dual seat-plus-consumption pricing.",
+  "why_it_matters": "This is a concrete operating model for enterprise AI adoption. The bottlenecks are no longer generic enthusiasm; they are budget ownership, model routing, access control, FinOps for tokens, SaaS pricing, and the implementation layer between frontier labs and real workflows."
+}

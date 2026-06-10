@@ -1,0 +1,74 @@
+{
+  "changed_views": [
+    "Karp is explicitly positioning Palantir's ontology and deployed workflow taste as the scarce layer above commoditizing model intelligence.",
+    "The political and regulatory risk around powerful AI companies may be central to Palantir's own risk framing, not a side concern."
+  ],
+  "entities": [
+    "Palantir",
+    "Alex Karp",
+    "AIPCon",
+    "xAI",
+    "LLMs",
+    "Ukraine",
+    "Israel",
+    "Department of War"
+  ],
+  "follow_ups": [
+    "Track Palantir customer language around token waste versus measurable workflow outcomes.",
+    "Watch whether AI regulation or nationalization rhetoric becomes more concrete in US policy debates."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Karp says enterprises increasingly know AI is real but are frustrated that raw token use is not producing value.",
+      "confidence": "medium",
+      "evidence": "He says the market moved from asking whether AI is real to realizing it is real but often not working, with companies tired of employees spending money tokenmaxxing without solving business problems.",
+      "kind": "opinion",
+      "timestamp": ""
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Karp argues Palantir's scarce advantage is taste in choosing valuable problems, not generic model access.",
+      "confidence": "high",
+      "evidence": "He says tokenmaxxing, deployed code, ontology, and AI politics all reduce to the ability to distinguish valuable business problems from plausible but useless work.",
+      "kind": "opinion",
+      "timestamp": ""
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Karp says frontier AI companies are charismatic with investors but not with enterprise buyers.",
+      "confidence": "medium",
+      "evidence": "He claims Palantir has a secret enterprise selling advantage because labs can impress capital markets while still struggling with enterprise credibility and buyer trust.",
+      "kind": "opinion",
+      "timestamp": ""
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Karp says Palantir's deployed code and ontology take years to reproduce even if LLM code appears similar.",
+      "confidence": "medium",
+      "evidence": "He argues Palantir primitives encode real-world enterprise and defense workflows, while lookalike LLM-generated code lacks the deep organizational structures and ontology built into deployments.",
+      "kind": "opinion",
+      "timestamp": ""
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Karp says AI companies face nationalization or regulation by policymakers who do not understand the technology.",
+      "confidence": "medium",
+      "evidence": "He says he has warned for months that nationalization is possible and that regulation will come first from people who misunderstand the economics and dislike the industry.",
+      "kind": "forecast",
+      "timestamp": ""
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Karp says future enterprises will rely on smart executives plus creative operators with taste throughout the stack.",
+      "confidence": "medium",
+      "evidence": "He contrasts traditional technical staffing with operational users, including vocationally trained people using Palantir products, and says taste must exist in product, deployment, and team casting.",
+      "kind": "opinion",
+      "timestamp": ""
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Alex Karp gives a characteristically blunt Palantir thesis: enterprises are tired of tokenmaxxing, model intelligence is becoming more commoditized, and the scarce layer is taste plus ontology embedded in real workflows. The transcript is messy and lacks usable timestamps, but the core first-party signal is clear: Palantir wants to be judged by deployed enterprise outcomes rather than raw AI consumption.",
+  "why_it_matters": "The episode captures how Palantir is positioning itself against both frontier labs and generic enterprise AI vendors. Karp's framing is that durable value comes from problem selection, workflow ontology, deployment credibility, and political navigation, not just better LLMs."
+}

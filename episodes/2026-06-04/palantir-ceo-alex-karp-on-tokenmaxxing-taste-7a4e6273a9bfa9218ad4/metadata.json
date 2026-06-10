@@ -1,0 +1,43 @@
+{
+  "audio_url": "https://media.transistor.fm/14a1df49/9c068248.mp3",
+  "description_html": "<p>This is our full conversation with Alex Karp, recorded live at AIPCon 10.</p><p>We discuss why he believes taste is the most important competitive advantage in the age of AI, how enterprises are struggling to turn AI hype into real business value, why \"tokenmaxxing\" and AI overuse can distract companies from solving meaningful problems, and the growing risk of AI regulation and nationalization.</p><p>Sign up for TBPN\u2019s daily newsletter at TBPN.com</p><p>Follow TBPN:<br>https://TBPN.com<br>https://x.com/tbpn<br>https://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231<br>https://podcasts.apple.com/us/podcast/technology-brothers/id1772360235<br>https://www.youtube.com/@TBPNLive</p>",
+  "description_text": "This is our full conversation with Alex Karp, recorded live at AIPCon 10.\n\nWe discuss why he believes taste is the most important competitive advantage in the age of AI, how enterprises are struggling to turn AI hype into real business value, why \"tokenmaxxing\" and AI overuse can distract companies from solving meaningful problems, and the growing risk of AI regulation and nationalization.\n\nSign up for TBPN\u2019s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/technology-brothers/id1772360235\nhttps://www.youtube.com/@TBPNLive",
+  "duration_seconds": 1412,
+  "feed_id": "tbpn",
+  "feed_name": "TBPN",
+  "feed_priority": 6,
+  "id": "7a4e6273a9bfa9218ad4",
+  "link": "https://share.transistor.fm/s/14a1df49",
+  "published": "2026-06-04T22:45:53+00:00",
+  "title": "Palantir CEO Alex Karp on Tokenmaxxing & Taste",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://share.transistor.fm/s/14a1df49/transcription.txt",
+  "transcript_urls": [
+    {
+      "rel": "captions",
+      "type": "text/vtt",
+      "url": "https://share.transistor.fm/s/14a1df49/transcription.vtt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/x-subrip",
+      "url": "https://share.transistor.fm/s/14a1df49/transcription.srt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/json",
+      "url": "https://share.transistor.fm/s/14a1df49/transcription.json"
+    },
+    {
+      "rel": "",
+      "type": "text/plain",
+      "url": "https://share.transistor.fm/s/14a1df49/transcription.txt"
+    },
+    {
+      "rel": "",
+      "type": "text/html",
+      "url": "https://share.transistor.fm/s/14a1df49/transcription"
+    }
+  ],
+  "web_links": []
+}

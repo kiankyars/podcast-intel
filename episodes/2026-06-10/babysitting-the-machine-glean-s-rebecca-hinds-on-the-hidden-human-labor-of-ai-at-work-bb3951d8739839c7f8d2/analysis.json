@@ -1,0 +1,83 @@
+{
+  "changed_views": [
+    "Reported individual AI productivity gains may overstate organizational gains because hidden integration labor and AI slop consume much of the benefit.",
+    "Enterprise context graphs are becoming not just search infrastructure but a management layer for task allocation, staffing, and AI governance."
+  ],
+  "entities": [
+    "Glean",
+    "Rebecca Hinds",
+    "Work AI Institute",
+    "Work AI Index 2026",
+    "Pangram Labs",
+    "OpenAI",
+    "Anthropic",
+    "Google Gemini",
+    "Microsoft 365 Copilot"
+  ],
+  "follow_ups": [
+    "Read the Work AI Index 2026 methodology and compare survey claims with Glean telemetry.",
+    "Track whether enterprise graph vendors publish evidence of team-level performance gains, not just individual productivity."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Hinds says the Work AI Index found a large gap between individual AI use and organizational performance.",
+      "confidence": "high",
+      "evidence": "The report surveyed 6,000 digital workers; 87% use AI, 73% say it makes them more productive, and workers report about 13 hours saved weekly, but only 13% say their organization performs significantly better.",
+      "kind": "observation",
+      "timestamp": "00:00"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Hinds says botsitting consumes roughly half of reported AI time savings.",
+      "confidence": "high",
+      "evidence": "She says workers spend 6.4 hours per week feeding context, reviewing outputs, debugging, and cleaning up AI work, with context feeding and debugging driving the highest exhaustion.",
+      "kind": "observation",
+      "timestamp": "25:37"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Hinds says 36% of AI sessions fail and require restart or significant rework.",
+      "confidence": "high",
+      "evidence": "She says failed sessions turn potential time savings into bot-sitting labor, especially when tools lack authoritative enterprise context.",
+      "kind": "observation",
+      "timestamp": "28:41"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Hinds says 69% of workers admit delivering AI-generated work they cannot defend.",
+      "confidence": "high",
+      "evidence": "The discussion defines this as botshitting: passing along polished AI work without ownership, explanation, or quality confidence.",
+      "kind": "observation",
+      "timestamp": "53:14"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Hinds says an enterprise graph can dynamically decide what should be human, human-in-loop, or fully automated.",
+      "confidence": "high",
+      "evidence": "She says a graph spanning mission, goals, projects, tasks, people, documents, and technology can classify customer interactions and recommend staffing based on skills, goals, career ambitions, and bandwidth.",
+      "kind": "forecast",
+      "timestamp": "47:15"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Hinds says the most effective organizations measure AI outcomes broadly and share that data with employees.",
+      "confidence": "high",
+      "evidence": "She says the 13% of organizations reporting significant gains measure more than productivity and disproportionately put the data in employees' hands, improving transparency.",
+      "kind": "observation",
+      "timestamp": "52:00"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Hinds expects smaller teams, fewer managers, and rebundled roles as AI reduces coordination tax.",
+      "confidence": "medium",
+      "evidence": "She says executives are blowing AI budgets, future platforms will route tasks across models by cost and complexity, and one healthcare organization found 70% task overlap across roles.",
+      "kind": "forecast",
+      "timestamp": "01:27:46"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Rebecca Hinds summarizes Glean's Work AI Index 2026, built from a 6,000-worker survey plus Glean telemetry, and argues that enterprise AI adoption has a productivity paradox: high individual usage and reported time savings, but weak organization-level performance gains. The mechanisms are botsitting, failed AI sessions, botshitting, missing context, and incentives that reward individual output rather than collective value.",
+  "why_it_matters": "This is one of the more quantitative enterprise AI adoption readouts. It supports the thesis that context layers, measurement, incentives, and org design may matter as much as model capability for turning AI tools into business performance."
+}
