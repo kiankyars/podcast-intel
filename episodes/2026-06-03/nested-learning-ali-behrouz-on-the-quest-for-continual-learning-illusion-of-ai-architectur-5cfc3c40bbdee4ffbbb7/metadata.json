@@ -1,0 +1,17 @@
+{
+  "audio_url": "https://pdst.fm/e/mgln.ai/e/1113/pscrb.fm/rss/p/traffic.megaphone.fm/RINTP3112817439.mp3",
+  "description_html": "Ali Behrouz, grad student at Cornell and Google researcher, discusses his potentially transformative work on new architectures for continual learning in AI. His paper \"Nested Learning,\" praised by Jeff Dean as a possible paradigm shift, enables models to adapt to new context while preserving core knowledge by updating different layers at different frequencies, inspired by human memory systems. The conversation also covers his latest work on AI \"sleep\" for memory consolidation, why he sees all deep learning as associative memory, and the profound implications of continual learning for privacy, alignment, and the path to AGI.\n\nMercury: The fintech trusted by ambitious companies and individuals to run their finances, with virtual cards, spending limits, merchant/category locks, and AI-friendly tools like API keys, MCP, and CLI. Check out Mercury at mercury.com\n\n\n\nSponsor:\n\nClaude: \n\nClaude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr",
+  "description_text": "Ali Behrouz, grad student at Cornell and Google researcher, discusses his potentially transformative work on new architectures for continual learning in AI. His paper \"Nested Learning,\" praised by Jeff Dean as a possible paradigm shift, enables models to adapt to new context while preserving core knowledge by updating different layers at different frequencies, inspired by human memory systems. The conversation also covers his latest work on AI \"sleep\" for memory consolidation, why he sees all deep learning as associative memory, and the profound implications of continual learning for privacy, alignment, and the path to AGI. Mercury: The fintech trusted by ambitious companies and individuals to run their finances, with virtual cards, spending limits, merchant/category locks, and AI-friendly tools like API keys, MCP, and CLI. Check out Mercury at mercury.com Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr",
+  "duration_seconds": 10803,
+  "feed_id": "cognitive-revolution",
+  "feed_name": "The Cognitive Revolution",
+  "feed_priority": 8,
+  "id": "5cfc3c40bbdee4ffbbb7",
+  "link": "https://www.cognitiverevolution.ai/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectures/",
+  "published": "2026-06-03T22:50:11+00:00",
+  "title": "Nested Learning: Ali Behrouz on the Quest for Continual Learning & Illusion of AI Architectures",
+  "transcript_source": "episode_page_transcript",
+  "transcript_source_url": "https://www.cognitiverevolution.ai/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectures/",
+  "transcript_urls": [],
+  "web_links": []
+}

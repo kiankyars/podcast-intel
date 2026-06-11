@@ -1,0 +1,19 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Nathan Labenz",
+    "Daniel Miessler",
+    "PAI",
+    "Claude Code",
+    "Fireflies"
+  ],
+  "follow_ups": [
+    "Retry transcript acquisition for this episode before using it in the digest.",
+    "If a valid transcript is recovered, inspect claims about the 1 GB personal history database and autonomous AI employees."
+  ],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "The episode metadata is potentially relevant, but the request transcript contains a Fireflies marketing page rather than the podcast conversation. No reliable episode-level claims were retained.",
+  "summary": "The metadata says this episode should cover Nathan Labenz's personal AI infrastructure, including Claude Code over a large personal-history database and autonomous AI employees. The provided transcript is unrelated marketing copy for Fireflies, so the item is not reliable enough for retained intelligence.",
+  "why_it_matters": "A valid transcript could be useful for personal-agent architecture and security practices, but the current source would risk hallucinating claims from metadata alone."
+}
