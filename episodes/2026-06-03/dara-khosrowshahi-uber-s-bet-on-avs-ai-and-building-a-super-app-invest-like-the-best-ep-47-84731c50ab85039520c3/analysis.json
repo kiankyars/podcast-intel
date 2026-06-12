@@ -1,0 +1,18 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Dara Khosrowshahi",
+    "Uber",
+    "Waymo",
+    "Colossus"
+  ],
+  "follow_ups": [
+    "Retry transcript acquisition or use a logged-in Colossus transcript before retaining claims about Uber's AV strategy, AI adoption mandate, or capital allocation.",
+    "If a valid transcript is recovered, inspect Dara's comments on AV demand aggregation, physical AI, $10 billion free cash flow, and super-app expansion."
+  ],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "The episode description is potentially useful, but the transcript is only a Colossus login/paywall shell and does not include the actual conversation. No reliable first-party claims were retained.",
+  "summary": "The metadata says Dara Khosrowshahi discusses Uber's autonomous-vehicle demand aggregation role, AI adoption, physical AI, super-app strategy, and capital allocation. The request file does not contain a usable transcript.",
+  "why_it_matters": "A valid transcript could change views on whether Uber captures AV economics as a demand aggregator, but the current source is insufficient for retained intelligence."
+}

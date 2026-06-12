@@ -1,0 +1,95 @@
+{
+  "changed_views": [
+    "Palantir's AI pitch is not just model orchestration; it is positioning ontology, Apollo, and forward-deployed taste as the missing enterprise scaffold around LLMs.",
+    "Enterprise AI cost control is becoming a production-log and architecture problem, with Palantir claiming customers can cut token spend materially in days.",
+    "AI governance risk is widening beyond model-release approval into biosynthesis screening, nationalization risk, and public-program data access."
+  ],
+  "entities": [
+    "Palantir",
+    "Alex Karp",
+    "AIPCon",
+    "AIG",
+    "Peter Zaffino",
+    "Everest",
+    "Chad Wahlquist",
+    "Foundry",
+    "Apollo",
+    "Evolve",
+    "USDA",
+    "Sam Berry",
+    "SNAP",
+    "Dennis Hassabis",
+    "Sam Altman",
+    "Dario Amodei",
+    "Alex Wang",
+    "Twist Bioscience",
+    "Emerald Cloud Lab"
+  ],
+  "follow_ups": [
+    "Track Palantir Evolve customer evidence beyond the stated two-day, 60% token-cost reduction claim.",
+    "Compare AIG's four-day Everest ontology build with other large-enterprise Palantir deployments for repeatability.",
+    "Watch whether mandatory nucleic-acid synthesis screening becomes legislation or remains voluntary industry governance."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "TBPN says major AI and biotech leaders are backing mandatory nucleic-acid synthesis screening and recordkeeping because AI increases biosecurity risk.",
+      "confidence": "medium",
+      "evidence": "The hosts describe an open letter signed by Dennis Hassabis, Sam Altman, Dario Amodei, Alex Wang, and others, and say current industry screening covers roughly 80% of capacity through voluntary, self-reported arrangements.",
+      "kind": "observation",
+      "timestamp": "00:00"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Karp says LLMs enhance specialized enterprise workflows but do not replace the knowledge stores, taste, and on-prem execution needed to solve them.",
+      "confidence": "high",
+      "evidence": "He contrasts generic report-writing with underwriting, oil-and-gas drilling, supply chains, classified work, and security patching, arguing that the valuable work requires precise ongoing processes and deployment choices.",
+      "kind": "opinion",
+      "timestamp": "23:57"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Karp warns that AI companies risk nationalization or poorly informed regulation if they do not address public trust and adversary-risk arguments directly.",
+      "confidence": "high",
+      "evidence": "He says he has warned AI-company leaders for months that nationalization momentum is real, and that industry cannot rely on lobbyists or assume America would never regulate or nationalize critical AI infrastructure.",
+      "kind": "forecast",
+      "timestamp": "23:57"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "AIG's Peter Zaffino says Palantir changed the cadence of complex insurance analytics from static aggregation toward 90-day iteration and daily decisions.",
+      "confidence": "high",
+      "evidence": "Zaffino says AIG needed more data, better data, and shorter cycle time for underwriting; the Palantir relationship is organized around 90-day goals with engineers embedded alongside AIG teams.",
+      "kind": "observation",
+      "timestamp": "48:04"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Zaffino says AIG and Palantir built an ontology of the $2 billion-premium Everest portfolio on top of AIG's ontology in four days.",
+      "confidence": "high",
+      "evidence": "He says AIG had already built a full ontology of its business, then used Palantir to model an acquisition portfolio quickly without relying primarily on centralized data repositories.",
+      "kind": "observation",
+      "timestamp": "48:04"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Palantir's Chad Wahlquist says enterprise agents need ontology-based world models and feedback loops rather than model calls alone.",
+      "confidence": "high",
+      "evidence": "He says LLMs do not naturally have a world model of operations, so Palantir models business processes in ontology, runs multiple agents against each other, and stores explicit and implicit user feedback so agents improve against real workflows.",
+      "kind": "observation",
+      "timestamp": "01:01:35"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Wahlquist says Palantir's Evolve tool can cut production token costs by analyzing logs and swapping model, prompt, architecture, or ontology choices.",
+      "confidence": "high",
+      "evidence": "He says Evolve inspects production model behavior and architecture, can route work to older or cached models, and helped some customers eliminate 60% of token cost in two days by rearchitecting, model selection, and prompt tuning.",
+      "kind": "observation",
+      "timestamp": "01:01:35"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "This AIPCon episode gives a detailed Palantir-centered view of enterprise AI: Karp argues that LLMs need taste, knowledge stores, and on-prem deployment around them; AIG describes real-time underwriting and a four-day acquisition ontology build; Wahlquist explains ontology-based agent feedback loops and Evolve-driven token-cost reduction; and the opening segment flags AI biosecurity governance moving toward mandatory synthesis screening.",
+  "why_it_matters": "The episode supplies concrete deployment mechanics from Palantir and AIG, not just AI adoption rhetoric. It also connects enterprise AI architecture to policy risk, cost control, and regulated data access, which are likely to matter for buyers, labs, and infrastructure vendors."
+}

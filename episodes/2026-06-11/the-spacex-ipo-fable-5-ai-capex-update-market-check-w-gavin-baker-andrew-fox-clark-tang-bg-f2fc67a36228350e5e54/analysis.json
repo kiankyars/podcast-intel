@@ -1,0 +1,27 @@
+{
+  "changed_views": [],
+  "entities": [
+    "SpaceX",
+    "xAI",
+    "Starship",
+    "Starlink",
+    "Cursor",
+    "Fable 5",
+    "Mythos",
+    "NVIDIA",
+    "ASICs",
+    "Gavin Baker",
+    "Andrew Fox",
+    "Clark Tang",
+    "Brad Gerstner"
+  ],
+  "follow_ups": [
+    "Retry transcript acquisition for this BG2 episode before using SpaceX, xAI, or Fable 5 claims in the digest.",
+    "If a valid transcript is recovered, inspect the stated orbital-compute economics, xAI customer deals, Cursor acquisition implications, and capex math."
+  ],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "The episode metadata is highly relevant, but the transcript body is from an unrelated Bill Gurley/All-In discussion about telecom regulation and energy, not the BG2 SpaceX/xAI/Fable conversation. No episode-level claims were retained.",
+  "summary": "The metadata says this BG2 episode should cover SpaceX IPO framing, Starship and Starlink revenue levers, xAI compute economics, Cursor's effect on xAI models, orbital data centers, Fable 5, Mythos, frontier-vs-open-source revenue capture, and AI capex. The provided transcript does not match the episode.",
+  "why_it_matters": "A valid transcript would likely be a high-signal source on SpaceX becoming an AI infrastructure platform and on current frontier-model economics, but the current source would require metadata-only inference."
+}
