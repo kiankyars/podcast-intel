@@ -1,0 +1,94 @@
+{
+  "changed_views": [
+    "Fable's first-week deployment looks less like unrestricted frontier access and more like a gated preview where production, security, ML, and sensitive-data tasks can be blocked or downgraded.",
+    "The live RSI discussion is shifting from generic model capability to whether models can automate research judgment, post-training, and alignment theory before current monitoring methods fail.",
+    "Enterprise-agent cost structure may hinge on context architecture: pre-cached, redundant context systems can be dramatically cheaper than repeated just-in-time deep research."
+  ],
+  "entities": [
+    "Anthropic",
+    "Fable",
+    "Opus 4.8",
+    "Mythos",
+    "Julius",
+    "Rahul Sonwalkar",
+    "Shlok Khemani",
+    "Thoughtful",
+    "Karina Wen",
+    "prinz",
+    "Sequent",
+    "Geoffrey Irving",
+    "Daniel Murfet",
+    "Goodfire",
+    "Tom McGrath",
+    "Lovelace AI",
+    "Andrew Moore",
+    "Andon Labs"
+  ],
+  "follow_ups": [
+    "Track whether Anthropic changes Fable's refusal and downgrade behavior for production, ML, finance, and data workflows over the next few weeks.",
+    "Compare Thoughtful's post-training result with other small-model training benchmarks to see whether Fable's improvement generalizes beyond the frog task.",
+    "Watch Sequent and Goodfire for concrete outputs: formal definitions, scalable oversight theory, and training-data debugging tools that labs actually adopt."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Prakash says Fable often refused or silently downgraded when asked to touch production systems, suggesting early access is gated around operationally sensitive workflows.",
+      "confidence": "high",
+      "evidence": "He says Fable repeatedly dropped to Opus 4.8 when asked to work with production databases, security keys, or direct production review, and he interprets this as a constrained research-style release whose gates may loosen over weeks.",
+      "kind": "observation",
+      "timestamp": "03:16"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Rahul Sonwalkar says Julius sees API-level Fable failures for advanced coding or safety-triggering data tasks, but without the Claude-app fallback behavior.",
+      "confidence": "high",
+      "evidence": "He reports failures on tasks like training models and on borderline personal-data lead prospecting, while noting that Julius API calls appear to fail rather than falling back to Opus.",
+      "kind": "observation",
+      "timestamp": "07:05"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Shlok Khemani says Fable showed unusually high agency on a vague 3D-world task by independently sourcing satellite imagery, NASA elevation data, and pixel-derived vegetation placement.",
+      "confidence": "medium",
+      "evidence": "Khemani says Fable rebuilt Yosemite as a navigable world by choosing data sources and implementation details that exceeded the original vague instruction, including adding trees and snow based on image analysis.",
+      "kind": "observation",
+      "timestamp": "08:37"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Labenz says Fable produced a more than 10x improvement when training small specialist models on a puzzle task, making post-training automation a concrete near-term capability to watch.",
+      "confidence": "medium",
+      "evidence": "He describes Thoughtful's frog-game setup where earlier big models failed to improve small models much, but Fable substantially increased small-model task performance.",
+      "kind": "observation",
+      "timestamp": "10:53"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Prinz argues Anthropic's own Fable/Mythos materials show strong engineering acceleration but not yet research judgment, making true research automation the key RSI warning sign.",
+      "confidence": "medium",
+      "evidence": "He points to Anthropic's distinction between engineering execution and research judgment, and says the claimed biology example appears more like a useful engineering result than a novel-research breakthrough.",
+      "kind": "inference",
+      "timestamp": "14:05"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Geoffrey Irving and Daniel Murfet frame Sequent around a short, uncertain RSI timeline and a gap between current empirical alignment and formal guarantees.",
+      "confidence": "medium",
+      "evidence": "Irving gives a modal two-to-three-year superintelligence timeline, says labs are focusing on acceleration tasks, and Murfet argues alignment lacks the precise definitions that make automated math-style progress straightforward.",
+      "kind": "forecast",
+      "timestamp": "33:50"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Andrew Moore's Lovelace thesis is that serious enterprise AI should pre-cache context and rely on redundant data streams, reducing query-time compute by more than 100x while improving recall.",
+      "confidence": "high",
+      "evidence": "Moore says Lovelace can show comparable results to deep-research models at less than 1% of compute cost by moving work to ingestion time, then stresses redundant information streams for high-recall decisions.",
+      "kind": "observation",
+      "timestamp": "1:03:56"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "This Cognitive Revolution highlights episode is a dense update on Fable's first week in real workflows, Anthropic's safety gating, early signs of model-driven post-training, and the state of alignment theory. The most important thread is that frontier capability is moving into long-running agentic work while the control story still leans on gates, monitoring, character training, and theory work that participants say is not yet adequate.",
+  "why_it_matters": "The episode connects operational deployment facts, model economics, recursive-self-improvement timelines, and safety mechanisms in one current snapshot. Several claims come from practitioners testing Fable, alignment researchers launching Sequent, Julius, Goodfire, and Lovelace operators describing concrete deployment bottlenecks."
+}
