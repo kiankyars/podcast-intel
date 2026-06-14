@@ -1,0 +1,21 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Mark Pincus",
+    "Zynga",
+    "Lenny's Podcast",
+    "Bolt.new",
+    "Reddit",
+    "Niantic",
+    "Pokemon Go"
+  ],
+  "follow_ups": [
+    "Refresh the transcript source for this episode and rerun analysis if the full conversation becomes available.",
+    "If a full transcript is recovered, inspect the sections on AI as a failure machine and distribution in the age of AI."
+  ],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "Transcript acquisition returned only show notes and a paid-subscriber shell, so retained claims would be metadata-derived rather than transcript-supported.",
+  "summary": "The available source is a Substack metadata and paywall shell for Mark Pincus's Lenny's Podcast episode, not a usable episode transcript.",
+  "why_it_matters": "The episode may contain useful consumer-product and AI-era distribution material, but the current source text does not support transcript-grounded intelligence claims."
+}
