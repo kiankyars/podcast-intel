@@ -1,0 +1,18 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Clay",
+    "Kareem Amin",
+    "Invest Like the Best",
+    "Colossus"
+  ],
+  "follow_ups": [
+    "Retry transcript acquisition from a non-paywalled source before using this episode in the digest.",
+    "If the full transcript is recovered, inspect Clay's AI workflow, go-to-market, pricing, and company-building claims."
+  ],
+  "relevance_score": 1,
+  "signals": [],
+  "skip_reason": "The supplied transcript is a paywall/login shell with only intro copy and site boilerplate. It does not contain the substantive Kareem Amin conversation, so retaining claims would require metadata-only inference.",
+  "summary": "The episode is likely relevant because it features Clay CEO Kareem Amin and says Clay is valued above $4 billion, but the available transcript stops at the introduction and then shows account creation, login, contact, and subscription text.",
+  "why_it_matters": "Clay is a relevant AI-enabled sales and data workflow company, but this source does not provide enough first-party detail to change a company, product, or investment view."
+}
