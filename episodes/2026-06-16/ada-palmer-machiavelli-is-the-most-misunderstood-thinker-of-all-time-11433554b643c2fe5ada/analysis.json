@@ -1,0 +1,46 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Ada Palmer",
+    "Dwarkesh Patel",
+    "Machiavelli",
+    "Cursor",
+    "Crusoe",
+    "Substack",
+    "Department of Defense Intelligence"
+  ],
+  "follow_ups": [
+    "Treat the Cursor and Crusoe claims as sponsor-copy leads only; verify through independent customer references or company materials before using them in an investment view.",
+    "Watch for future Dwarkesh episodes with substantive AI, compute, or company interviews rather than historical interviews with incidental sponsor claims."
+  ],
+  "relevance_score": 2,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Dwarkesh says his team uses Cursor for operational work beyond coding.",
+      "confidence": "low",
+      "evidence": "In a sponsor read, he says Cursor recovered a corrupted podcast video by using metadata to find a reference file and realign audio, and that his team now uses Cursor for everyday tasks.",
+      "kind": "observation",
+      "timestamp": ""
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Crusoe's sponsor copy frames AI data-center delivery as modular factory production.",
+      "confidence": "low",
+      "evidence": "The read says Crusoe assembles Spark units with power, cooling, and fire suppression, manufactures some components in-house to avoid lead-time bottlenecks, and can run units from sources including solar and used EV batteries.",
+      "kind": "observation",
+      "timestamp": ""
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Dwarkesh suggests AI may revive high-quality audience-of-one writing, while Palmer says bespoke written work never disappeared.",
+      "confidence": "medium",
+      "evidence": "In the discussion of The Prince as proprietary knowledge, Dwarkesh notes that many words he reads are generated specifically for him by AI; Palmer compares this with email and narrow government research reports.",
+      "kind": "opinion",
+      "timestamp": "01:15:57"
+    }
+  ],
+  "skip_reason": "The episode is primarily a historical and political-theory interview. The only AI or infrastructure material is sponsor copy and a brief analogy about personalized AI text, so retaining it would overweight promotional and incidental content.",
+  "summary": "This Dwarkesh episode is a substantive historical interview about Machiavelli, Renaissance statecraft, patronage, censorship, copyright, and political legitimacy. The AI-relevant material is limited to sponsor reads for Cursor and Crusoe plus a short analogy about AI enabling audience-of-one writing.",
+  "why_it_matters": "The episode does not materially change an AI, compute, company, or investment view. It provides weak context on Cursor's non-coding usage and Crusoe's modular data-center positioning, but those claims are promotional and not developed in the interview."
+}
