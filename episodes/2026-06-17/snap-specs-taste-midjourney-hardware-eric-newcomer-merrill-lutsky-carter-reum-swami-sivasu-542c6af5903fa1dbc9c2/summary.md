@@ -1,0 +1,32 @@
+# Snap Specs, Taste, Midjourney Hardware | Eric Newcomer, Merrill Lutsky, Carter Reum, Swami Sivasubramanian, Thomas Suarez, Mark Gurman, Ryan Daniels, Isaiah Granet
+
+- Podcast: TBPN
+- Published: 2026-06-17
+- Source: https://share.transistor.fm/s/e959c3d4
+- Relevance: 5/5
+
+The June 17 TBPN episode contains several concrete AI market signals across agentic coding infrastructure, AWS enterprise agent adoption, consumer AI distribution through Apple, legal-agent benchmarks, and high-stakes voice AI. The strongest points come from first-party guests at Graphite/Cursor, AWS, Crosby, and the voice AI startup, plus Mark Gurman's reporting on Apple's Siri reboot.
+
+**Why it matters:** The episode is a useful cross-section of where AI is moving from demos into production constraints: Git infrastructure must handle agent-scale throughput, AWS says Bedrock usage is accelerating sharply, enterprises are beginning to measure token spend by VP and model, and vertical AI companies are building benchmarks and go-to-market motions around domains where generic chatbots are not enough.
+
+## Signals
+
+- **Merrill Lutsky says Graphite/Cursor's Origin is Git infrastructure designed from first principles for agentic coding scale.** [01:05:19] _agents_developer_tools; observation; high confidence._ He says existing software-development infrastructure assumed humans wrote every line, while Origin is meant to handle hundreds of agents in parallel, persist agent traces after PR creation, and support review comments, CI fixes, merge conflicts, and eventually more self-driving PRs.
+- **Lutsky says agentic software teams are already creating throughput that conventional developer infrastructure was not built for.** [01:05:19] _agents_developer_tools; observation; high confidence._ He says some teams now produce thousands of pushes per hour instead of tens or hundreds, and that Origin internal simulations handled 80 clones and 22 pushes per second with no downtime.
+- **AWS VP Swami Sivasubramanian says Bedrock's Q1 request rate exceeded all prior years combined.** [01:36:46] _agents_developer_tools; observation; high confidence._ He says AWS's multi-model Bedrock strategy is seeing production acceleration, with Q1 workload request rate greater than the combined total from all previous years.
+- **Sivasubramanian says enterprise agents are moving beyond coding into cross-tool productivity, security, crew planning, sales planning, and manual-work reduction.** [01:36:46] _applications_business_models; observation; high confidence._ He describes Qlik Autonomous Agent connecting context across tools with governance, Continuum as always-on security, Southwest building crew-planning agents on AgentCore, and GoDaddy using agents to reduce roughly 15,000 hours of manual work.
+- **Sivasubramanian says Amazon is beginning to manage AI adoption through per-organization spend visibility and ROI rather than blanket token minimization.** [01:36:46] _companies_capital_allocation; observation; medium confidence._ He says internal Amazon usage is broken down by VP and cost, Bedrock integrates with Cost Explorer at per-user, per-model, and per-organization levels, and some frontier teams see 10x-20x productivity from roughly $2,000-$3,000 per month of keynote-credit token spend.
+- **Crosby CEO Ryan Daniels says current frontier models remain weak at multi-turn legal negotiation despite reasonable benchmark scores.** [02:39:22] _agents_developer_tools; observation; high confidence._ He says Crosby's new open-source benchmark compares model performance against groups of real lawyers, with GPT 5.5 at 50.5, Gemini 3.5 Flash at 45.1, Opus 4.8 at 44.4, and Fable 5 at 47.3 in limited testing; he says models often accept terms to keep a deal moving instead of protecting the client.
+- **Isaiah Granet says his voice AI company is pursuing high-stakes call-center work with proprietary models rather than OpenAI.** [02:46:53] _applications_business_models; observation; high confidence._ He says the company raised $50M, has 350,000 self-serve users, targets hospitals, airlines, banks, and eventually 911 calls, handles 45-minute remote patient monitoring calls, and views the harder part of U.S. call-center spend as a $250B annual market.
+
+## Changed Views Or Tensions
+
+- Agentic coding infrastructure may need to be rebuilt around persistent agent traces and push throughput rather than simply wrapping existing Git workflows.
+- AWS's enterprise AI adoption appears to be moving from proof-of-concept demos to measurable production workloads faster than generic enterprise skepticism implies.
+- Vertical AI benchmarks are exposing judgment failures that are not visible in first-draft or single-turn task evaluations.
+
+## Follow-Ups
+
+- Track Origin adoption after Cursor integration and whether production customers report push-throughput or CI-review bottleneck relief.
+- Compare AWS's Bedrock request-rate claim with future AWS AI revenue and capacity disclosures.
+- Review Crosby's benchmark repository and methodology to see whether legal-agent scores improve with domain-specific harnesses or post-training.
