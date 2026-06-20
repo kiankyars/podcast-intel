@@ -1,0 +1,35 @@
+# Dean Ball, on Joining OpenAI: New Power Centers, Frontier AI Policy, & Main Character Energy
+
+- Podcast: The Cognitive Revolution
+- Published: 2026-06-20
+- Source: https://www.cognitiverevolution.ai/dean-ball-on-joining-openai-new-power-centers-frontier-ai-policy-main-character-energy/
+- Relevance: 4/5
+
+Dean Ball announces and explains his new OpenAI Strategic Futures role, framing frontier labs as new political-economic institutions that need internal governance norms, private verification, and technically informed policy work. The episode is high-signal on OpenAI's policy posture, internal deployment risk, RSI planning, US government leverage, Anthropic-government tensions, and the emerging too-big-to-fail profile of AI infrastructure.
+
+**Why it matters:** This is a first-party account from a policy operator joining OpenAI at a moment when frontier model deployment, inter-lab coordination, and lab-government bargaining are becoming material to company strategy and national AI policy. The strongest signals are about where OpenAI may build policy capacity, which governance problems Ball sees as under-addressed, and how private labs may try to preserve room to operate as government dependence on AI rises.
+
+## Signals
+
+- **Ball says OpenAI's Strategic Futures team is meant to be a technically embedded policy function, distinct from Global Affairs' lobbying and reactive public-policy work.** [1:01:06] _policy_geopolitics_security; observation; high confidence._ He describes a boutique team that will look six to 12 months ahead, work with technical staff on where capabilities are going, and help shape both current and future OpenAI policy positions.
+- **Ball argues the biggest governance decisions may move to internal deployments of unreleased frontier models, where current regulatory triggers are weak.** [1:04:32] _frontier_labs_models; opinion; high confidence._ He says government regulation is mechanically triggered by public release, while many important calls about new models, recursive self-improvement, and supervision will happen before public deployment.
+- **Ball favors advance RSI contingency planning, including defined triggers and a possible FTC no-action letter to permit narrowly scoped inter-lab coordination.** [1:15:54] _policy_geopolitics_security; opinion; high confidence._ He says even a 10% to 20% chance of discontinuous RSI warrants planning for what labs would do, when to involve government, and how safety coordination could avoid antitrust treatment if carefully scoped.
+- **Ball estimates America's AI Action Plan is roughly 30% to 40% implemented, with some implementation happening in classified channels and near-term energy interconnection changes expected.** [11:56] _policy_geopolitics_security; observation; medium confidence._ He cites classified national-security implementation, an action-plan reference to emergency data-center commandeering, expected FERC changes for large-load grid connections, stronger-than-expected military AI adoption, and nuclear progress.
+- **Ball says the Anthropic supply-chain-risk fight is still active but uneven: Department of War contracts are winding down while other government use may continue.** [21:40] _policy_geopolitics_security; observation; medium confidence._ He says Anthropic's case remains in litigation, could plausibly reach the Supreme Court by summer 2027, Department of War use is being reduced, and NSA/other agency use appears to continue under separate understandings.
+- **Ball views frontier AI as already approaching an implicit government-backstop regime because AI infrastructure now finances nationally important supply-chain and energy IP.** [1:46:19] _infrastructure_energy; inference; medium confidence._ He points to interlocking lab, VC, semiconductor, energy, SMR, fusion, battery, cooling, and water-treatment commitments, and says a modest growth slowdown could trigger balance-sheet stress that becomes a public-interest problem.
+- **Ball says labs' leverage against government pressure comes from national-security utility, researcher constituencies, and broad diffusion across the economy.** [1:51:35] _policy_geopolitics_security; opinion; medium confidence._ He argues AI unlocks large US intelligence data overhangs, researchers can credibly constrain lab executives, and broad adoption by banks, universities, and industry creates more political resistance to confiscatory government control.
+
+## Changed Views Or Tensions
+
+- OpenAI's frontier-policy capacity may become more technically embedded and forward-looking rather than only a conventional lobbying or government-affairs function.
+- Internal deployment governance is a more important regulatory gap than public model release alone if frontier labs increasingly use unreleased models for RSI and internal work.
+- The AI industry's implicit public backstop may emerge from infrastructure and national-security dependence even without any explicit bailout strategy.
+- Broad diffusion of frontier capabilities may be a strategic check against government monopolization, not just an adoption or revenue goal.
+
+## Follow-Ups
+
+- Track OpenAI Strategic Futures hiring, publications, and whether its work changes OpenAI policy positions before crises hit.
+- Watch for FTC or other antitrust guidance that would permit narrowly scoped lab coordination around RSI or dangerous capability triggers.
+- Monitor the Anthropic supply-chain-risk litigation and any Department of War versus NSA split in Anthropic usage.
+- Track state and federal movement on independent verification organizations, especially California SB 53, New York RAISE, Illinois SB 315, Connecticut, Virginia, and Ohio proposals.
+- Pressure-test the too-big-to-fail thesis against lab balance sheets, compute commitments, and energy/supply-chain financing.
