@@ -1,0 +1,66 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/201226747/9fbb1159224a2e3b7046f2aba1bcef16.mp3",
+  "description_html": "<p><strong>Fiona Fung</strong> leads the teams behind Claude Code and Cowork at Anthropic (overseeing Boris Cherny and the entire engineering and PM team). Before Anthropic, she spent 11 years at Microsoft building Visual Studio and TypeScript and then moved to Meta, where she started Facebook Marketplace (now generating over $100 billion in GMV annually), worked on Meta\u2019s first smart glasses and AR glasses, and led infrastructure, growth, integrity, and safety teams at Instagram. She\u2019s been an engineer for over 25 years and has a unique perspective on how the role of building software is changing.</p><p></p><p><strong>In our in-depth conversation, we discuss:</strong></p><p>1. What she\u2019s learned about running a team that\u2019s shipping 8x more code than before</p><p>2. Which roles AI will transform next</p><p>3. Specific ways her team uses AI</p><p>4. How Claude \u201croutines\u201d have changed how she operates as a manager</p><p>5. The context-switching problem no one has solved yet</p><p>6. The biggest unsolved problem in AI</p><p>7. What keeps her up at night</p><p>\u2014</p><p><strong>Brought to you by:</strong></p><p><a target=\"_blank\" href=\"https://workos.com/lenny\"><strong>WorkOS</strong></a>\u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: <a target=\"_blank\" href=\"https://workos.com/lenny\">https://workos.com/lenny</a></p><p><a target=\"_blank\" href=\"https://mercury.com/command?utm_source=lennys&#38;utm_medium=sponsored_newsletter&#38;utm_campaign=26q3_brand_campaign\"><strong>Mercury</strong></a>\u2014Radically different banking, now with Command: <a target=\"_blank\" href=\"https://mercury.com/\">https://mercury.com/</a></p><p>\u2014</p><p><strong>Where to find Fiona Fung:</strong></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"http://linkedin.com/in/fionafung\">linkedin.com/in/fionafung</a></p><p>\u2014</p><p><strong>Where to find Lenny:</strong></p><p>\u2022 Newsletter: <a target=\"_blank\" href=\"https://www.lennysnewsletter.com\">https://www.lennysnewsletter.com</a></p><p>\u2022 X: <a target=\"_blank\" href=\"https://twitter.com/lennysan\">https://twitter.com/lennysan</a></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"https://www.linkedin.com/in/lennyrachitsky/\">https://www.linkedin.com/in/lennyrachitsky/</a></p><p>\u2014</p><p><strong>In this episode, we cover:</strong></p><p>(00:00) Introduction to Fiona Fung</p><p>(02:31) How the engineering role has transformed over 25 years</p><p>(09:28) What an AI-pilled software team looks like in 2026</p><p>(12:26) Using Claude to manage and review team output</p><p>(14:40) The evolution of code review and verification</p><p>(16:55) Who to hire: creative builders and deep systems experts</p><p>(18:18) The shift to ambitious thinking</p><p>(19:40) The growth mindset required to thrive in AI-native teams</p><p>(25:52) Helping small businesses adopt AI tools</p><p>(31:46) How Anthropic spots latent demand and builds for it</p><p>(35:08) The next frontier: asynchronous work with AI routines</p><p>(38:06) Agency and accountability in AI-native teams</p><p>(39:40) The vibe shift from token-maxing to ROI measurement</p><p>(44:24) The \u201cbad vs. sad\u201d quality framework</p><p>(49:34) Why all managers start as ICs at Anthropic</p><p>(55:24) Preventing skill atrophy</p><p>(58:43) Managing context switching with 20 AI agents running</p><p>(1:00:08) How PM and data science roles are transforming</p><p>(1:03:40) The importance of dogfooding and using your own product</p><p>(1:08:36) Outstanding questions</p><p>(1:12:48) The future of engineering jobs and education</p><p>(1:17:59) What keeps Fiona up at night: team culture at scale</p><p>(1:22:53) From six-month roadmaps to JIT (just-in-time) monthly planning</p><p>(1:27:03) Lightning round</p><p>\u2014</p><p><strong>References: </strong><a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering\">https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering</a></p><p>\u2014</p><p>Production and marketing by <a target=\"_blank\" href=\"https://penname.co/\">https://penname.co/</a>. For inquiries about sponsoring the podcast, email <a target=\"_blank\" href=\"mailto:podcast@lennyrachitsky.com\">podcast@lennyrachitsky.com</a>.</p><p>\u2014</p><p><em>Lenny may be an investor in the companies discussed.</em></p> <br/><br/>To hear more, visit <a href=\"https://www.lennysnewsletter.com?utm_medium=podcast&#38;utm_campaign=show-notes-no-free-preview-language\">www.lennysnewsletter.com</a>",
+  "description_text": "Fiona Fung leads the teams behind Claude Code and Cowork at Anthropic (overseeing Boris Cherny and the entire engineering and PM team). Before Anthropic, she spent 11 years at Microsoft building Visual Studio and TypeScript and then moved to Meta, where she started Facebook Marketplace (now generating over $100 billion in GMV annually), worked on Meta\u2019s first smart glasses and AR glasses, and led infrastructure, growth, integrity, and safety teams at Instagram. She\u2019s been an engineer for over 25 years and has a unique perspective on how the role of building software is changing.\n\nIn our in-depth conversation, we discuss:\n\n1. What she\u2019s learned about running a team that\u2019s shipping 8x more code than before\n\n2. Which roles AI will transform next\n\n3. Specific ways her team uses AI\n\n4. How Claude \u201croutines\u201d have changed how she operates as a manager\n\n5. The context-switching problem no one has solved yet\n\n6. The biggest unsolved problem in AI\n\n7. What keeps her up at night\n\n\u2014\n\nBrought to you by:\n\nWorkOS \u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny\n\nMercury \u2014Radically different banking, now with Command: https://mercury.com/\n\n\u2014\n\nWhere to find Fiona Fung:\n\n\u2022 LinkedIn: linkedin.com/in/fionafung\n\n\u2014\n\nWhere to find Lenny:\n\n\u2022 Newsletter: https://www.lennysnewsletter.com\n\n\u2022 X: https://twitter.com/lennysan\n\n\u2022 LinkedIn: https://www.linkedin.com/in/lennyrachitsky/\n\n\u2014\n\nIn this episode, we cover:\n\n(00:00) Introduction to Fiona Fung\n\n(02:31) How the engineering role has transformed over 25 years\n\n(09:28) What an AI-pilled software team looks like in 2026\n\n(12:26) Using Claude to manage and review team output\n\n(14:40) The evolution of code review and verification\n\n(16:55) Who to hire: creative builders and deep systems experts\n\n(18:18) The shift to ambitious thinking\n\n(19:40) The growth mindset required to thrive in AI-native teams\n\n(25:52) Helping small businesses adopt AI tools\n\n(31:46) How Anthropic spots latent demand and builds for it\n\n(35:08) The next frontier: asynchronous work with AI routines\n\n(38:06) Agency and accountability in AI-native teams\n\n(39:40) The vibe shift from token-maxing to ROI measurement\n\n(44:24) The \u201cbad vs. sad\u201d quality framework\n\n(49:34) Why all managers start as ICs at Anthropic\n\n(55:24) Preventing skill atrophy\n\n(58:43) Managing context switching with 20 AI agents running\n\n(1:00:08) How PM and data science roles are transforming\n\n(1:03:40) The importance of dogfooding and using your own product\n\n(1:08:36) Outstanding questions\n\n(1:12:48) The future of engineering jobs and education\n\n(1:17:59) What keeps Fiona up at night: team culture at scale\n\n(1:22:53) From six-month roadmaps to JIT (just-in-time) monthly planning\n\n(1:27:03) Lightning round\n\n\u2014\n\nReferences: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering\n\n\u2014\n\nProduction and marketing by https://penname.co/ . For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com .\n\n\u2014\n\nLenny may be an investor in the companies discussed.\n\nTo hear more, visit www.lennysnewsletter.com",
+  "duration_seconds": 5925,
+  "feed_id": "lennys-podcast",
+  "feed_name": "Lenny's Podcast",
+  "feed_priority": 5,
+  "id": "a18c11e4c6f8d808e927",
+  "link": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
+  "published": "2026-06-21T12:31:43+00:00",
+  "title": "Building the most AI-pilled engineering team in the world | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
+  "transcript_source": "episode_page_transcript",
+  "transcript_source_url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "WorkOS",
+      "url": "https://workos.com/lenny"
+    },
+    {
+      "text": "https://workos.com/lenny",
+      "url": "https://workos.com/lenny"
+    },
+    {
+      "text": "Mercury",
+      "url": "https://mercury.com/command?utm_source=lennys&utm_medium=sponsored_newsletter&utm_campaign=26q3_brand_campaign"
+    },
+    {
+      "text": "https://mercury.com/",
+      "url": "https://mercury.com/"
+    },
+    {
+      "text": "linkedin.com/in/fionafung",
+      "url": "http://linkedin.com/in/fionafung"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com"
+    },
+    {
+      "text": "https://twitter.com/lennysan",
+      "url": "https://twitter.com/lennysan"
+    },
+    {
+      "text": "https://www.linkedin.com/in/lennyrachitsky/",
+      "url": "https://www.linkedin.com/in/lennyrachitsky/"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
+      "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering"
+    },
+    {
+      "text": "https://penname.co/",
+      "url": "https://penname.co/"
+    },
+    {
+      "text": "podcast@lennyrachitsky.com",
+      "url": "mailto:podcast@lennyrachitsky.com"
+    },
+    {
+      "text": "www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com?utm_medium=podcast&utm_campaign=show-notes-no-free-preview-language"
+    }
+  ]
+}

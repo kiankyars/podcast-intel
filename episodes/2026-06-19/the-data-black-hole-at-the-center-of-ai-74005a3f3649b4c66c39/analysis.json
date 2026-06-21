@@ -1,0 +1,89 @@
+{
+  "changed_views": [
+    "Open-model catch-up may be evidence that frontier progress is heavily distillable through data rather than mostly locked in hidden training tricks.",
+    "Expert-label and verifier infrastructure may be a more important strategic bottleneck than generic pretraining corpus size alone.",
+    "Robotics and self-driving deployment limits may reflect sample-efficiency gaps more than just hardware or embodiment problems.",
+    "White-collar automation can be economically attractive even while training remains wildly inefficient by human standards."
+  ],
+  "entities": [
+    "Dwarkesh Patel",
+    "Epoch",
+    "Mercor",
+    "Surge",
+    "Chinchilla",
+    "GRPO",
+    "Waymo",
+    "Tesla",
+    "Unitree G1",
+    "GitHub",
+    "Mercury"
+  ],
+  "follow_ups": [
+    "Track revenue and hiring trends at expert-data providers such as Mercor and Surge.",
+    "Compare future open-model lag estimates against API distillation access and post-training data availability.",
+    "Watch whether robotics foundation models show genuine sample-efficiency improvements or mainly benefit from larger demo datasets.",
+    "Pressure-test the claim that parameter scaling alone cannot materially reduce data requirements under newer scaling-law estimates."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "frontier_labs_models",
+      "claim": "Patel argues that the main recent driver of AI progress is more and better data, with RL functioning as synthetic data generation against verifiers.",
+      "confidence": "high",
+      "evidence": "He describes RL as spending compute to find correct rollouts and then training the model to predict those rollouts, while still needing expert human trajectories in each skill domain.",
+      "kind": "opinion",
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Patel says the frontier data supply chain is already a billion-dollar market and could become a deca-billion-dollar market.",
+      "confidence": "medium",
+      "evidence": "He points to Mercor and Surge job categories for Word specialists, legal experts, consultants, rubrics, and chain-of-thought explanations as evidence of highly bespoke expert-label demand.",
+      "kind": "forecast",
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Patel infers from Epoch's reported four-month open-model lag that frontier progress is more data-driven than dependent on secret hyperparameters or micro-optimizations.",
+      "confidence": "medium",
+      "evidence": "He argues open models can catch up quickly because data can be distilled from public APIs, whereas hidden training tricks would be harder for laggards to recover.",
+      "kind": "inference",
+      "timestamp": "00:00:00"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Patel estimates a near million-fold gap between human language exposure and frontier-model training data.",
+      "confidence": "medium",
+      "evidence": "He compares roughly 200 million human language tokens by adulthood with frontier models trained on tens to hundreds of trillions of tokens.",
+      "kind": "observation",
+      "timestamp": "00:03:11"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Patel uses robotics and self-driving to argue that current AI systems remain far less sample-efficient than humans in physical domains.",
+      "confidence": "medium",
+      "evidence": "He contrasts humans learning robot teleoperation within hours and driving with about 20 hours of practice against robotics demos and Waymo/Tesla data needs that are orders of magnitude larger.",
+      "kind": "inference",
+      "timestamp": "00:03:11"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Patel argues that current scaling laws cannot close the human-versus-model sample-efficiency gap by simply adding parameters.",
+      "confidence": "medium",
+      "evidence": "Using Chinchilla-style terms, he says even infinite parameters would reduce data needs by only about 10x at equal loss, far short of a thousands-to-millions-fold human advantage.",
+      "kind": "inference",
+      "timestamp": "00:03:11"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Patel says labs can still profitably automate common white-collar tasks without human-level sample efficiency because training costs amortize across billions of sessions.",
+      "confidence": "medium",
+      "evidence": "He argues RL and SFT can bring common analyst, accounting, and software tasks into distribution, while AI training can consume gigawatts and then reuse the learned behavior at massive scale.",
+      "kind": "opinion",
+      "timestamp": "00:08:46"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Dwarkesh Patel argues that recent AI progress is driven less by improved sample efficiency than by a widening data distribution: expert human trajectories, verifier-backed RL rollouts, and enough compute to turn bespoke tasks into training data. The essay is high-signal because it reframes model progress, open-model catch-up, robotics limits, and white-collar automation economics around data hunger rather than architecture or small training tricks.",
+  "why_it_matters": "If the binding constraint is task-specific data rather than model architecture, then the strategic value shifts toward expert-label supply chains, verifiers, APIs that leak frontier behavior, and jobs that can be brought into distribution. The sample-efficiency gap also tempers claims that current scaling alone will unlock human-like general learning."
+}
