@@ -1,0 +1,22 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Vlad Barbalat",
+    "Liberty Mutual Investments",
+    "Invest Like the Best",
+    "Colossus",
+    "Ramp",
+    "Vanta",
+    "WorkOS",
+    "Rogo",
+    "Ridgeline"
+  ],
+  "follow_ups": [
+    "Reprocess if a full transcript or caption source becomes available for the AI investing segment around 00:43:48."
+  ],
+  "relevance_score": 1,
+  "signals": [],
+  "skip_reason": "The request transcript is a Colossus login/paywall shell, and the visible AI material is limited to sponsor copy plus a timestamp label rather than analyzable episode content.",
+  "summary": "The available request source for this Invest Like the Best episode is not a usable transcript. It contains the episode intro, sponsor copy, timestamps, and a Colossus login prompt for the full transcript, but not the actual discussion of AI's impact on investing.",
+  "why_it_matters": "The episode may contain investment-relevant AI discussion, but the provided source does not expose enough evidence to extract reliable claims. The only AI-adjacent material visible is sponsor copy and a timestamp heading, which is below the evidence standard for the intelligence product."
+}
