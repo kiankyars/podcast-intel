@@ -1,0 +1,60 @@
+{
+  "changed_views": [
+    "AI-for-science progress should be segmented by how much the field can be searched with consistency checks versus how much it needs new experimental evidence.",
+    "Opaque formal proof is not the only plausible AI math future; the same systems may also produce compressed, human-usable explanations."
+  ],
+  "entities": [
+    "Adam Brown",
+    "Google DeepMind",
+    "BlueShift",
+    "Dwarkesh Patel",
+    "large language models",
+    "Terry Tao",
+    "Lean",
+    "unit distance conjecture",
+    "Erdos problems",
+    "string theory"
+  ],
+  "follow_ups": [
+    "Track Google DeepMind BlueShift outputs for concrete evidence of AI-assisted theoretical physics or math discovery.",
+    "Watch whether new AI math results are accompanied by human-interpretable ideas or only formal certificates."
+  ],
+  "relevance_score": 3,
+  "signals": [
+    {
+      "category": "frontier_labs_models",
+      "claim": "AI science systems may be most useful when sparse empirical constraints leave only a small theory tree to search.",
+      "confidence": "medium",
+      "evidence": "Brown says general relativity was unusually discoverable from little empirical input; many LLMs could explore finite branches such as equivalence principle variants, but this works only when consistency and known limits narrow the space.",
+      "kind": "opinion",
+      "timestamp": "01:29:33"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Fields with many internally consistent theories will still need experiments to prune AI-generated candidates.",
+      "confidence": "medium",
+      "evidence": "Brown contrasts string theory's hope that consistency uniquely selects a gravity theory with condensed matter, where experiments are often needed to choose among many possible theories.",
+      "kind": "inference",
+      "timestamp": "01:29:33"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Brown is more optimistic that LLM proof systems will also become strong explainers, not just opaque proof generators.",
+      "confidence": "medium",
+      "evidence": "He cites recent AI math examples where the machine-produced idea was human-interpretable and then reused by mathematicians, arguing against the default 'billion-line Lean' pessimism.",
+      "kind": "opinion",
+      "timestamp": "01:29:33"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "LLMs' patience may be a genuine research advantage on conjectures humans avoid because they look low-probability.",
+      "confidence": "medium",
+      "evidence": "Brown says models can keep pushing at paths that humans would treat as wasted effort, using the unit distance conjecture as an example where willingness to attack a presumed-true conjecture mattered.",
+      "kind": "inference",
+      "timestamp": "01:29:33"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Mostly a general-relativity lecture, but the final section has useful signal on where AI science systems may and may not help: parallel LLMs look more promising when the theory search tree is small, consistency checks are strong, and human interpretation remains possible.",
+  "why_it_matters": "The discussion is a concrete scientist's view on AI-assisted theoretical discovery. It argues that parallel model search is not a universal substitute for experiments, but could be powerful in constrained theory spaces and in translating hard proofs into human-comprehensible ideas."
+}

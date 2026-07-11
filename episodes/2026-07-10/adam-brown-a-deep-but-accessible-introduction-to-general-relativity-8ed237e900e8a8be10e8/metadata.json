@@ -1,0 +1,54 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/206445844/59f976809738bf5ad158b7617346dda3.mp3",
+  "description_html": "<p>Adam Brown is back!</p><p>General relativity is said to be the most beautiful idea the human mind has ever produced. Most of us will never get to fully appreciate its elegance by taking the 20-lecture graduate course Adam taught on it at Stanford. But in this episode, Adam distills the key idea at its heart so clearly and compellingly that even I could keep up lol.</p><p>At the core of general relativity, Einstein is trying to figure out the principle behind a particular coincidence: that the mass that resists acceleration and the mass that gravity pulls on just happen to be exactly the same. Adam then leads us through the path of insight which Einstein called his \u201chappiest thought.\u201d</p><p>Then Adam lectures on black holes. First, by showing how even under special relativity you could create a perpetual motion machine if black holes weren\u2019t truly black. And then, by explaining why the observations of an infalling observer and a distant bystander to the black hole would be so radically different</p><p>Adam leads Blueshift, the team at Google DeepMind cracking science and reasoning, which gave us the opportunity to discuss at the very end how close we are to AIs that could rediscover general relativity from scratch. Stay till the close for some philosophy of science.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/QbdbAhaJoCQ\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/adam-brown-gr\">transcript</a>.</p><p><strong>Sponsors</strong></p><p>* <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a> has traders from all sorts of different backgrounds. For example, I recently got to speak with Jed Thompson, a trader who started his career in particle physics. Jed told me how the habits he built as a physicist (like never running a calculation without first having a good guess at the answer) helped him build good trading intuition. So no matter what field you\u2019re working in right now, your experience may be more applicable than you think. Check out open positions at<a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\"> janestreet.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://crusoe.ai/dwarkesh\">Crusoe</a> gave me early access to their new serverless fine-tuning product, so I decided to try fine-tuning a Dwarkesh-style question generator. Crusoe made this really easy: I just turned my interview transcripts into training data and then kicked off a run \u2013 I never had to touch infra or tweak hyperparameters. After training was done, I ran a blind eval with my team: they preferred the fine-tuned model\u2019s proposed questions over my own suggestions about 30% of the time. Serverless fine-tuning goes live next week. Learn more at<a target=\"_blank\" href=\"https://crusoe.ai/dwarkesh\"> crusoe.ai/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://cursor.com/dwarkesh\">Cursor</a>\u2019s iOS app lets me kick off real work no matter where I am. For example, recently I was at dinner with friends when I had an idea about how to investigate the past few years of progress in sample efficiency. I pulled out the Cursor app, dumped my thoughts into a voice note, and 15 minutes later, Cursor had cloned the relevant repo, done the necessary analysis, and written up its findings. And now I\u2019m expanding that work into a full write-up. Without the Cursor app, the idea would\u2019ve floated away. Check out the app now at<a target=\"_blank\" href=\"https://cursor.com/dwarkesh\"> cursor.com/dwarkesh</a></p><p>Timestamps</p><p>(00:00:00) \u2013 The coincidence that led Einstein to general relativity</p><p>(00:16:42) \u2013 Gravity is a consequence of curved spacetime, not a force</p><p>(00:31:46) \u2013 Why black holes prevent unlimited energy extraction</p><p>(00:47:12) \u2013 Black holes are the ultimate power plants</p><p>(01:13:50) \u2013 What falling into a black hole would actually feel like</p><p>(01:18:51) \u2013 The three ways we know black holes are real</p><p>(01:24:21) \u2013 The first time we saw gravity bend light</p><p>(01:29:33) \u2013 How far can AI get without experimental evidence?</p> <br/><br/>Get full access to Dwarkesh Podcast at <a href=\"https://www.dwarkesh.com/subscribe?utm_medium=podcast&#38;utm_campaign=CTA_4\">www.dwarkesh.com/subscribe</a>",
+  "description_text": "Adam Brown is back!\n\nGeneral relativity is said to be the most beautiful idea the human mind has ever produced. Most of us will never get to fully appreciate its elegance by taking the 20-lecture graduate course Adam taught on it at Stanford. But in this episode, Adam distills the key idea at its heart so clearly and compellingly that even I could keep up lol.\n\nAt the core of general relativity, Einstein is trying to figure out the principle behind a particular coincidence: that the mass that resists acceleration and the mass that gravity pulls on just happen to be exactly the same. Adam then leads us through the path of insight which Einstein called his \u201chappiest thought.\u201d\n\nThen Adam lectures on black holes. First, by showing how even under special relativity you could create a perpetual motion machine if black holes weren\u2019t truly black. And then, by explaining why the observations of an infalling observer and a distant bystander to the black hole would be so radically different\n\nAdam leads Blueshift, the team at Google DeepMind cracking science and reasoning, which gave us the opportunity to discuss at the very end how close we are to AIs that could rediscover general relativity from scratch. Stay till the close for some philosophy of science.\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\n* Jane Street has traders from all sorts of different backgrounds. For example, I recently got to speak with Jed Thompson, a trader who started his career in particle physics. Jed told me how the habits he built as a physicist (like never running a calculation without first having a good guess at the answer) helped him build good trading intuition. So no matter what field you\u2019re working in right now, your experience may be more applicable than you think. Check out open positions at janestreet.com/dwarkesh\n\n* Crusoe gave me early access to their new serverless fine-tuning product, so I decided to try fine-tuning a Dwarkesh-style question generator. Crusoe made this really easy: I just turned my interview transcripts into training data and then kicked off a run \u2013 I never had to touch infra or tweak hyperparameters. After training was done, I ran a blind eval with my team: they preferred the fine-tuned model\u2019s proposed questions over my own suggestions about 30% of the time. Serverless fine-tuning goes live next week. Learn more at crusoe.ai/dwarkesh\n\n* Cursor \u2019s iOS app lets me kick off real work no matter where I am. For example, recently I was at dinner with friends when I had an idea about how to investigate the past few years of progress in sample efficiency. I pulled out the Cursor app, dumped my thoughts into a voice note, and 15 minutes later, Cursor had cloned the relevant repo, done the necessary analysis, and written up its findings. And now I\u2019m expanding that work into a full write-up. Without the Cursor app, the idea would\u2019ve floated away. Check out the app now at cursor.com/dwarkesh\n\nTimestamps\n\n(00:00:00) \u2013 The coincidence that led Einstein to general relativity\n\n(00:16:42) \u2013 Gravity is a consequence of curved spacetime, not a force\n\n(00:31:46) \u2013 Why black holes prevent unlimited energy extraction\n\n(00:47:12) \u2013 Black holes are the ultimate power plants\n\n(01:13:50) \u2013 What falling into a black hole would actually feel like\n\n(01:18:51) \u2013 The three ways we know black holes are real\n\n(01:24:21) \u2013 The first time we saw gravity bend light\n\n(01:29:33) \u2013 How far can AI get without experimental evidence?\n\nGet full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+  "duration_seconds": 5904,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "8ed237e900e8a8be10e8",
+  "link": "https://www.dwarkesh.com/p/adam-brown-gr",
+  "published": "2026-07-10T16:23:56+00:00",
+  "title": "Adam Brown \u2013 A deep but accessible introduction to general relativity",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/adam-brown-gr",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/QbdbAhaJoCQ"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/adam-brown-gr"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "Crusoe",
+      "url": "https://crusoe.ai/dwarkesh"
+    },
+    {
+      "text": "crusoe.ai/dwarkesh",
+      "url": "https://crusoe.ai/dwarkesh"
+    },
+    {
+      "text": "Cursor",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "cursor.com/dwarkesh",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "www.dwarkesh.com/subscribe",
+      "url": "https://www.dwarkesh.com/subscribe?utm_medium=podcast&utm_campaign=CTA_4"
+    }
+  ]
+}

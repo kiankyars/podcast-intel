@@ -1,0 +1,21 @@
+{
+  "changed_views": [
+    "The episode should not be scored from its title or show notes alone when the transcript body appears to belong to a different episode."
+  ],
+  "entities": [
+    "SemiAnalysis Weekly",
+    "DeepSeek V4",
+    "Huawei Ascend",
+    "InferenceX",
+    "TSMC",
+    "AI silicon shortage"
+  ],
+  "follow_ups": [
+    "Fetch the correct DeepSeek V4/Huawei transcript or captions and re-analyze from that source."
+  ],
+  "relevance_score": 1,
+  "signals": [],
+  "skip_reason": "Transcript/source mismatch: the request metadata names DeepSeek V4 and Huawei Ascend, but the transcript body discusses the AI silicon shortage and CPO rather than the listed episode.",
+  "summary": "The metadata describes DeepSeek V4 and Huawei Ascend NPU performance, but the transcript body does not contain that discussion. It instead appears to duplicate the same SemiAnalysis AI silicon shortage/CPO transcript present in another pending item.",
+  "why_it_matters": "DeepSeek V4, Huawei Ascend, KV cache compression, sparse attention, and runtime support are high-signal topics, but the request source does not provide transcript evidence for them."
+}

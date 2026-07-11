@@ -1,0 +1,21 @@
+{
+  "changed_views": [
+    "This request should be treated as a source-quality issue rather than a datacenter-capacity finding."
+  ],
+  "entities": [
+    "SemiAnalysis Weekly",
+    "TSMC",
+    "Nvidia",
+    "AI silicon shortage",
+    "CPO",
+    "data centers"
+  ],
+  "follow_ups": [
+    "Re-run or manually fetch the correct transcript for the data-center capacity episode before analyzing the 40GW behind-the-meter and delay claims."
+  ],
+  "relevance_score": 1,
+  "signals": [],
+  "skip_reason": "Transcript/source mismatch: metadata and description are about the 2026 data-center capacity cancellation claim, but the available transcript body discusses a separate AI silicon shortage/CPO episode.",
+  "summary": "The metadata describes a SemiAnalysis data-center delay episode, but the transcript body appears to be a different SemiAnalysis discussion about the AI silicon shortage, TSMC capacity, memory shortages, and CPO.",
+  "why_it_matters": "The requested source does not substantiate the episode title's claims about canceled or delayed 2026 data-center capacity. Retaining it would risk attributing the wrong transcript to the wrong episode."
+}

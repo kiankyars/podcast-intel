@@ -1,0 +1,58 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/204275916/5f3632cca68272c292349f10debc3573.mp3",
+  "description_html": "<p>Always so much fun to chat with <a target=\"_blank\" href=\"https://www.youtube.com/c/3blue1brown\">Grant</a>.</p><p>AI has been making much faster progress in math than in other fields. As a result, mathematics is showing us, very concretely, what AI progress in other fields will look like. Even within mathematics, there\u2019s a jagged landscape. What does it look like?</p><p>What is the nature of the most important conceptual breakthroughs in the history of mathematics, and how different are they from what AIs are currently able to do?</p><p>Does AI (on net) increase or decrease human understanding of the field?</p><p>How big is the overhang from having AIs systematically try to connect ideas already in the literature?</p><p>And what advice does Grant have for aspiring mathematicians, coders, and other students who are passionate about fields that are being most transformed upon by AI?</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/TfyPshgMbug\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/grant-sanderson-2\">transcript</a>.</p><p><strong>Sponsors</strong></p><p>* <a target=\"_blank\" href=\"https://ai.studio/live\">Gemini 3.5 Live Translate</a> is what I wished I\u2019d had on my last trip to China. It detects more than 70 languages and translates them in near real-time\u2026 and it preserves your original pacing and intonation. If you\u2019re building an app that needs live translation, you should check out Gemini 3.5 Live Translate. Get started at <a target=\"_blank\" href=\"https://ai.studio/live\">ai.studio/live</a></p><p>* <a target=\"_blank\" href=\"https://cursor.com/dwarkesh\">Cursor</a>\u2019s harness lets me use models for a huge range of tasks at the podcast. For example, Cursor cuts out the ads from each episode I produce so I can post them on Bilibili. It also helps me prep for interviews \u2014 I have a repo full of books and papers that Cursor sorts through to find the exact right file for any given question. Try Cursor yourself at <a target=\"_blank\" href=\"https://cursor.com/dwarkesh\">cursor.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a> sponsors 3Blue1Brown, so Grant has gotten to spend a lot of time with various Jane Streeters. He actually just recorded an interview with a few of them, so when we sat down for this episode, he told me about some of the things he learned, like how Jane Street keeps their role definitions fuzzy to make sure their people keep learning and growing. Go check out Grant\u2019s full interview at <a target=\"_blank\" href=\"https://3b1b.co/janestreet\">3b1b.co/janestreet</a></p><p>Timestamps</p><p>(00:00:00) \u2013 AI is discovering new proofs. Is that AGI?</p><p>(00:11:32) \u2013 The verification loop on conceptual breakthroughs can be a century long</p><p>(00:26:12) \u2013 Will we understand an AI proof of the Riemann hypothesis?</p><p>(00:38:08) \u2013 Can AI find the hidden bridges between fields?</p><p>(00:53:48) \u2013 Why real-world tasks don\u2019t fit into RL environments</p><p>(01:07:07) \u2013 Good writing requires theory of mind that AI still lacks</p><p>(01:16:02) \u2013 Why learning will still depend on human curation</p> <br/><br/>Get full access to Dwarkesh Podcast at <a href=\"https://www.dwarkesh.com/subscribe?utm_medium=podcast&#38;utm_campaign=CTA_4\">www.dwarkesh.com/subscribe</a>",
+  "description_text": "Always so much fun to chat with Grant .\n\nAI has been making much faster progress in math than in other fields. As a result, mathematics is showing us, very concretely, what AI progress in other fields will look like. Even within mathematics, there\u2019s a jagged landscape. What does it look like?\n\nWhat is the nature of the most important conceptual breakthroughs in the history of mathematics, and how different are they from what AIs are currently able to do?\n\nDoes AI (on net) increase or decrease human understanding of the field?\n\nHow big is the overhang from having AIs systematically try to connect ideas already in the literature?\n\nAnd what advice does Grant have for aspiring mathematicians, coders, and other students who are passionate about fields that are being most transformed upon by AI?\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\n* Gemini 3.5 Live Translate is what I wished I\u2019d had on my last trip to China. It detects more than 70 languages and translates them in near real-time\u2026 and it preserves your original pacing and intonation. If you\u2019re building an app that needs live translation, you should check out Gemini 3.5 Live Translate. Get started at ai.studio/live\n\n* Cursor \u2019s harness lets me use models for a huge range of tasks at the podcast. For example, Cursor cuts out the ads from each episode I produce so I can post them on Bilibili. It also helps me prep for interviews \u2014 I have a repo full of books and papers that Cursor sorts through to find the exact right file for any given question. Try Cursor yourself at cursor.com/dwarkesh\n\n* Jane Street sponsors 3Blue1Brown, so Grant has gotten to spend a lot of time with various Jane Streeters. He actually just recorded an interview with a few of them, so when we sat down for this episode, he told me about some of the things he learned, like how Jane Street keeps their role definitions fuzzy to make sure their people keep learning and growing. Go check out Grant\u2019s full interview at 3b1b.co/janestreet\n\nTimestamps\n\n(00:00:00) \u2013 AI is discovering new proofs. Is that AGI?\n\n(00:11:32) \u2013 The verification loop on conceptual breakthroughs can be a century long\n\n(00:26:12) \u2013 Will we understand an AI proof of the Riemann hypothesis?\n\n(00:38:08) \u2013 Can AI find the hidden bridges between fields?\n\n(00:53:48) \u2013 Why real-world tasks don\u2019t fit into RL environments\n\n(01:07:07) \u2013 Good writing requires theory of mind that AI still lacks\n\n(01:16:02) \u2013 Why learning will still depend on human curation\n\nGet full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+  "duration_seconds": 5619,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "1f2bbe97370e0d5e4c89",
+  "link": "https://www.dwarkesh.com/p/grant-sanderson-2",
+  "published": "2026-06-30T15:53:19+00:00",
+  "title": "Grant Sanderson \u2013 AI and the future of math",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/grant-sanderson-2",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "Grant",
+      "url": "https://www.youtube.com/c/3blue1brown"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/TfyPshgMbug"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/grant-sanderson-2"
+    },
+    {
+      "text": "Gemini 3.5 Live Translate",
+      "url": "https://ai.studio/live"
+    },
+    {
+      "text": "ai.studio/live",
+      "url": "https://ai.studio/live"
+    },
+    {
+      "text": "Cursor",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "cursor.com/dwarkesh",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "3b1b.co/janestreet",
+      "url": "https://3b1b.co/janestreet"
+    },
+    {
+      "text": "www.dwarkesh.com/subscribe",
+      "url": "https://www.dwarkesh.com/subscribe?utm_medium=podcast&utm_campaign=CTA_4"
+    }
+  ]
+}
