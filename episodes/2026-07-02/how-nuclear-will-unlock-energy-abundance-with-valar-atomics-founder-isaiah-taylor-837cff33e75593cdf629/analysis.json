@@ -1,0 +1,82 @@
+{
+  "changed_views": [
+    "Valar's strongest claim is not merely advanced-reactor design, but speed through DOE testing authority plus willingness to internalize nuclear supply-chain bottlenecks.",
+    "AI data-center nuclear demand may favor companies that can build power first and bring load to the site, rather than waiting for bespoke hyperscaler procurement."
+  ],
+  "entities": [
+    "Valar Atomics",
+    "Isaiah Taylor",
+    "NVIDIA",
+    "Blackwell",
+    "Department of Energy",
+    "Nuclear Regulatory Commission",
+    "EO14301"
+  ],
+  "follow_ups": [
+    "Verify EO14301 details and whether Valar was one of the three reactors counted by the administration.",
+    "Track whether Valar's next reactor tick rate moves from seven months toward the claimed shorter windows.",
+    "Check whether the Blackwell-powered demo was independently measured or primarily promotional."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Isaiah Taylor says Valar used the DOE testing pathway, revived by EO14301, to break the nuclear data/regulatory chicken-and-egg problem.",
+      "confidence": "high",
+      "evidence": "He contrasts NRC commercial deployment review with DOE testing authority and says the reactor behind them went critical under an order calling for three advanced reactors on US soil by July 4.",
+      "kind": "observation",
+      "timestamp": "07:17"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Taylor says Valar is already running a live 100 kW reactor and collecting empirical data, not just producing simulation-backed paper reactors.",
+      "confidence": "high",
+      "evidence": "He says the company is making 100 kW and splitting about 10^17 atoms per second in the reactor while recording operational data.",
+      "kind": "observation",
+      "timestamp": "10:37"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Valar frames nuclear economics as a manufacturing tick-rate problem rather than a fuel-cost problem.",
+      "confidence": "medium",
+      "evidence": "Taylor says first atom split took 2 years and 4 months, the next reactor took about 7 months, and the target is eventually new reactors turning on every few minutes because uranium fuel is already cheap.",
+      "kind": "forecast",
+      "timestamp": "24:36"
+    },
+    {
+      "category": "semiconductors_compute",
+      "claim": "Valar demonstrated AI-compute power coupling by running an NVIDIA Blackwell system directly from its reactor.",
+      "confidence": "high",
+      "evidence": "Taylor says Valar connected a Blackwell chip to the nuclear reactor and hosted a reactor-powered website that tracked uranium atoms split per page view.",
+      "kind": "observation",
+      "timestamp": "35:01"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Valar's verticalization thesis is backed by a concrete control-system cost/time example.",
+      "confidence": "medium",
+      "evidence": "Taylor says a reactor protection system was quoted at about $5 million and 2.5 years, while Valar built its own in six weeks for about $400,000.",
+      "kind": "observation",
+      "timestamp": "44:57"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Taylor argues venture equity is the right financing path for early nuclear because the remaining risk is execution, not physics.",
+      "confidence": "medium",
+      "evidence": "He says Valar can build reactors on its equity balance sheet, reach a fifth reactor while competitors seek project finance, and only then unlock debt/project financing.",
+      "kind": "opinion",
+      "timestamp": "48:22"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Valar's gigasite strategy assumes cheap power with land and fiber will pull data-center load to the power source.",
+      "confidence": "medium",
+      "evidence": "Taylor says Valar can put a gigawatt on the ground on its own timing, then asks whether a data center will come if there is power, land, and fiber; his answer is yes.",
+      "kind": "forecast",
+      "timestamp": "51:43"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Valar Atomics argues it has moved nuclear from paper design to hardware iteration: a DOE-authorized live reactor, a nuclear-powered Blackwell demo, aggressive verticalization, and a gigasite strategy aimed at AI-scale power buyers.",
+  "why_it_matters": "If Valar's execution claims hold, nuclear for AI data centers may be less a 2031-2032 procurement story and more a venture-backed manufacturing/tick-rate race. The episode gives concrete evidence for the company's theory of advantage rather than generic nuclear optimism."
+}
