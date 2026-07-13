@@ -1,0 +1,16 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Jeremy Giffon",
+    "Invest Like the Best",
+    "Colossus"
+  ],
+  "follow_ups": [
+    "Revisit the episode if a publisher transcript or caption source becomes available."
+  ],
+  "relevance_score": 0,
+  "signals": [],
+  "skip_reason": "The request source is a paywall shell: it ends after the host's opening question and provides no substantive guest response or linked transcript evidence.",
+  "summary": "The supplied source contains the episode introduction and opening question, then a Colossus login wall rather than Jeremy Giffon's answers or the full conversation.",
+  "why_it_matters": "There is not enough transcript evidence to assess the episode's investment, company, or AI claims without inferring from metadata and chapter titles."
+}
