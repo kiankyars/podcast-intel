@@ -1,0 +1,35 @@
+# Meta Releases Muse 1.1, GPT-5.6 Sol Reactions, New Robot Hand Alert | Eric Seufert, Bernt Børnich, Josh Lindgren, Jeffrey Morgan, Thibault Sottiaux, Sean Frank
+
+- Podcast: TBPN
+- Published: 2026-07-09
+- Source: https://share.transistor.fm/s/5676e6f2
+- Relevance: 5/5
+
+A dense set of product and company disclosures: OpenAI said GPT-5.6 Soul autonomously post-trained 5.6 Luna over a multi-day run and described eight-agent orchestration, a threefold computer-use speedup, and a roughly 750-token-per-second Cerebras path; 1X detailed human-mimetic hardware as a robotics data strategy; Ollama explained how its new financing will support enterprise hosting; and Eric Seufert laid out Meta's proprietary-data advantage in AI-generated ads.
+
+**Why it matters:** The episode connects frontier capability to deployable systems and economics. OpenAI is moving long-running model-training work into the agent loop while differentiating on orchestration, interaction speed, and cost control; 1X treats embodiment as part of the training-data strategy; Ollama is investing in the compliance layer needed to commercialize open models; and Meta may extract more value from AI through its ad-performance feedback loop than through a standalone model API.
+
+## Signals
+
+- **OpenAI says GPT-5.6 Soul autonomously post-trained the 5.6 Luna model from a concise prompt in a run that lasted multiple days.** [02:01] _frontier_labs_models; observation; medium confidence._ The hosts relay the claim from OpenAI's launch livestream, and product leader Thibault Sottiaux later says the Luna post-training prompt was short while the resulting work continued for many days.
+- **OpenAI product leader Thibault Sottiaux says GPT-5.6 Soul Ultra turns multi-agent test-time scaling into a product using eight agents that collaborate and communicate on extended tasks.** [01:39:32] _agents_developer_tools; observation; high confidence._ Sottiaux describes eight agents working together to finish work faster, calls this another way to scale test-time compute, and says some Soul tasks can run for days.
+- **Sottiaux says GPT-5.6 Soul's computer-use path is about three times faster than GPT-5.5 and attributes the gain to both dedicated platform work and compounding improvements in visual accuracy and token efficiency.** [01:39:32] _agents_developer_tools; observation; high confidence._ He says OpenAI has a team doing bespoke Windows, Mac, mobile, and phone-use work; fewer visual mistakes reduce retries while lower token use cuts latency and cost.
+- **Sottiaux says a Cerebras-served version of GPT-5.6 Soul reaches roughly 750 tokens per second, about an order of magnitude faster than the default API and product path, at a higher cost.** [01:39:32] _semiconductors_compute; observation; high confidence._ He frames the Cerebras deployment as a situational speed tier alongside medium, high, and multi-day Ultra modes, explicitly noting that the performance premium comes at a cost.
+- **Eric Seufert argues that Meta's proprietary conversion feedback gives it an unusually defensible path to generate ad creative optimized for commercial outcomes rather than merely producing more variations.** [29:24] _applications_business_models; inference; medium confidence._ Seufert says Meta receives return-on-ad-spend signals through CAPI and Pixel and can train its image foundation model and custom evaluations on performance data that third-party creative tools do not have at comparable volume.
+- **Ollama CEO Jeff Morgan says the company raised $65 million after reaching nine million developers with a 14-person team and will use the capital to expand enterprise support and secure US- and Europe-hosted open-model compute.** [01:29:05] _companies_capital_allocation; observation; high confidence._ Morgan reports thousands of teams requesting a Teams plan, says enterprise deployments require monitoring, logging, data protection, and regional hosting, and identifies hiring plus compliant compute as the main investments.
+- **1X CEO Bernt Børnich says NEO's hand is engineered to reproduce human compliance so policies learned from human video can transfer more directly to the robot.** [55:53] _agents_developer_tools; observation; medium confidence._ Børnich describes in-house motors, tendons, sensors, and electronics, plus nonlinear finger compliance and bidirectional force, as the mechanism for making the robot interact with the world like a human.
+
+## Changed Views Or Tensions
+
+- Autonomous multi-day model-training work is now being presented as a concrete frontier-agent use case, not merely a research aspiration.
+- Meta's ad-focused image model may justify AI capital spending more directly than a standalone API because proprietary conversion data can close the creative-performance loop.
+- For humanoid robotics, hardware morphology is also a data strategy: matching human compliance may determine how much internet video can transfer into useful robot behavior.
+- Frontier-agent differentiation is moving beyond raw model quality toward orchestrated parallelism, computer-use latency, and explicit performance-versus-cost tiers.
+
+## Follow-Ups
+
+- Request technical details and independent evaluation of Soul's autonomous Luna post-training run, including the objective, human interventions, compute, and resulting model lift.
+- Look for Meta disclosures quantifying the share of ads generated by its image model and measured lift versus conventional creative.
+- Seek independent benchmarks for NEO's claimed human-video policy transfer and nonlinear hand compliance.
+- Benchmark Soul Ultra's eight-agent mode against a single-agent baseline on completion rate, wall-clock time, token use, and cost.
+- Track availability and pricing for the roughly 750-token-per-second Cerebras tier, and Ollama's conversion of Teams demand into enterprise revenue.

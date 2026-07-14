@@ -1,0 +1,19 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Etched",
+    "Gavin Uberti",
+    "Rob Wachen",
+    "NVIDIA",
+    "TSMC"
+  ],
+  "follow_ups": [
+    "Obtain an accessible publisher transcript or caption source before assessing Etched's architecture, performance, demand, financing, or production claims.",
+    "If a substantive transcript is recovered, verify who states the $1 billion demand and $800 million financing figures and capture the surrounding evidence and timestamps."
+  ],
+  "relevance_score": 1,
+  "signals": [],
+  "skip_reason": "The supplied source is a Colossus paywall/login shell with only the publisher's promotional introduction and chapter headings. It contains no substantive interview transcript, and no linked transcript or caption source is recorded, so retaining episode claims would require metadata-only inference.",
+  "summary": "The publisher introduction says Etched has taped out a working inference chip, has more than $1 billion of customer demand, and has raised $800 million, but the saved source contains no interview transcript beyond that introduction and a login wall.",
+  "why_it_matters": "Etched is potentially important to AI inference economics and accelerator competition, but the available source provides no substantive first-party discussion, architecture detail, customer evidence, or attributable claims that could support a changed technical or investment view."
+}
