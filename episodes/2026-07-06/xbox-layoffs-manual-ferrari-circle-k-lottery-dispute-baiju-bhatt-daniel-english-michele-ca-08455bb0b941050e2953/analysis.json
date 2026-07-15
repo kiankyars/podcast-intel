@@ -1,0 +1,89 @@
+{
+  "changed_views": [
+    "A credible orbital-compute challenger may need to own both launch and payload architecture because external launch capacity is not assured.",
+    "AI density can make urban office or exchange-building reuse materially more viable than older data-center rules of thumb suggest.",
+    "Goal-driven agent loops may expand the application layer quickly, but deterministic software should remain economically important wherever inference volume is high.",
+    "If the cited CEO email is accurate, Xbox's restructuring is primarily a response to poor operating economics and organizational complexity, not AI-driven labor productivity."
+  ],
+  "entities": [
+    "Cowboy Space Corporation",
+    "Baiju Bhatt",
+    "SpaceX",
+    "Legacy Investments",
+    "Daniel English",
+    "Chicago Board Options Exchange",
+    "Replit",
+    "Michele Catasta",
+    "Xbox",
+    "Microsoft",
+    "Ashish Sharma"
+  ],
+  "follow_ups": [
+    "Track Cowboy Space's promised launch-architecture unveiling for vehicle size, engine choice, reusability milestones, orbital-compute capacity, and launch timing.",
+    "Verify Legacy's Chicago and Minneapolis conversion claims, including power availability, financing, tenant commitments, and delivery dates.",
+    "Watch Replit's next three months of releases for custom-agent creation, measurable verification loops, pricing, and evidence of production adoption.",
+    "Retrieve Ashish Sharma's original Xbox email and verify the layoff count, margin comparison, loss figure, management layers, and studio spinout scope."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Baiju Bhatt says Cowboy Space is vertically integrating launch vehicles with orbital data centers and expects first-party compute payloads, not third-party launches, to provide most of the business's substance and revenue.",
+      "confidence": "high",
+      "evidence": "Bhatt says optimizing the rocket and data-center architecture as one system is the path to cost-competitive space compute, while dependence on external launch capacity would leave the company exposed because SpaceX may consume much of its own capacity.",
+      "kind": "observation",
+      "timestamp": "01:05:31"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Daniel English says AI-era density lets Legacy Investments target 50 megawatts in roughly 40,000 square feet of a converted Chicago exchange building, versus about 4 megawatts in the same footprint in 2010.",
+      "confidence": "high",
+      "evidence": "English says power, fiber, and latency now dominate site selection; he describes 30 megawatts as small today, compared with 5 megawatts as a good facility and 30 megawatts as peak scale around 2010.",
+      "kind": "observation",
+      "timestamp": "01:31:17"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Michele Catasta says Replit's near-term product direction is to let nontechnical users create customized agents that pursue goals end to end, replacing some tasks now handled by standalone apps.",
+      "confidence": "medium",
+      "evidence": "Catasta says Replit will push strongly toward user-built agents over the next three months and predicts users will interact with fewer apps as autonomous agents become more capable.",
+      "kind": "forecast",
+      "timestamp": "01:49:05"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Catasta says Replit is designing agent harnesses around measurable verification loops rather than detailed prompting.",
+      "confidence": "high",
+      "evidence": "He says models can already work for roughly four hours and describes giving an agent a 5% conversion-improvement goal, letting it alter copy, images, or pricing, and measuring repeatedly until the criterion is met.",
+      "kind": "observation",
+      "timestamp": "01:49:05"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "English says current data-center developments require roughly $500 million to $10 billion and that Legacy commits speculative capital before securing a tenant.",
+      "confidence": "high",
+      "evidence": "He says hyperscalers, neoclouds, game companies, and other cloud users compete for the same limited space, while developers must start land and infrastructure work early enough to deliver capacity when tenants need it.",
+      "kind": "observation",
+      "timestamp": "01:31:17"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Catasta says deterministic software retains a material cost advantage over fully agentic execution at high usage volumes.",
+      "confidence": "high",
+      "evidence": "He says frontier-model tokens remain expensive, so Replit-built internal tools used by hundreds of thousands of employees tend to preserve deterministic paths instead of invoking frontier models for most work.",
+      "kind": "observation",
+      "timestamp": "01:49:05"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "TBPN's hosts report that an email from newly appointed Xbox CEO Ashish Sharma calls for 3,200 layoffs by the end of 2027 and describes severe operating inefficiency.",
+      "confidence": "medium",
+      "evidence": "The hosts attribute to Sharma's email an immediate 1,600 layoffs, margins three to ten times below competitors, as many as 14 management layers, a typical loss of 64 cents per dollar invested, and plans to spin out several acquired studios.",
+      "kind": "observation",
+      "timestamp": "03:58"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "This TBPN episode contains unusually concrete first-party disclosures about Cowboy Space's vertically integrated orbital-compute strategy, Legacy Investments' AI data-center economics, and Replit's shift from app generation toward goal-driven agents. It also includes a consequential but second-hand account of an Xbox restructuring email, so those figures should be verified against the original post.",
+  "why_it_matters": "The interviews expose three investment-relevant bottlenecks and strategy choices: launch capacity is pushing a space-compute startup into full-stack ownership, power and fiber are making dense urban reuse viable for AI infrastructure, and token costs still limit how quickly autonomous agents can displace deterministic software. The reported Xbox metrics, if confirmed, would indicate deep operating and capital-allocation problems rather than an AI-productivity layoff story."
+}

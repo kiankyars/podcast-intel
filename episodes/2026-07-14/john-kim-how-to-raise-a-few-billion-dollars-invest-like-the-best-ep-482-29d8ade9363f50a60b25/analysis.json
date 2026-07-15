@@ -1,0 +1,12 @@
+{
+  "changed_views": [],
+  "entities": [],
+  "follow_ups": [
+    "Obtain an authenticated transcript or another authorized transcript source before analyzing this episode."
+  ],
+  "relevance_score": 0,
+  "signals": [],
+  "skip_reason": "The source is a Colossus login shell with no accessible transcript or linked captions, so the episode description and section headings are insufficient for evidence-grounded analysis.",
+  "summary": "The supplied source exposes only the episode introduction and a Colossus login prompt, not the interview transcript.",
+  "why_it_matters": "Without the underlying conversation, no substantive claim can be assessed or included in the intelligence digest with grounded evidence."
+}
