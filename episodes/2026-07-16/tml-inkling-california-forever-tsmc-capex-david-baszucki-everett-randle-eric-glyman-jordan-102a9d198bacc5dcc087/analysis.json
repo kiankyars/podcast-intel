@@ -1,0 +1,23 @@
+{
+  "changed_views": [],
+  "entities": [
+    "TBPN",
+    "TSMC",
+    "Benchmark",
+    "Ramp",
+    "Senra Systems",
+    "Roblox",
+    "David Baszucki",
+    "Everett Randle",
+    "Eric Glyman",
+    "Jordan Black"
+  ],
+  "follow_ups": [
+    "Retrieve the actual episode audio, YouTube captions, or a complete publisher transcript before analyzing the TSMC capex discussion and guest interviews."
+  ],
+  "relevance_score": 1,
+  "signals": [],
+  "skip_reason": "The supplied transcript is only a publisher-page shell with chapter headings and guest descriptions; it contains no dialogue or evidentiary claims.",
+  "summary": "The saved source is a Transistor episode-page shell containing chapter labels, guest biographies, sponsor links, and show boilerplate, but no speaker dialogue or substantive transcript. It names potentially relevant topics including TSMC capital expenditure and guests from Benchmark, Ramp, Senra Systems, and Roblox, yet provides no claims or evidence that can be analyzed responsibly.",
+  "why_it_matters": "The episode may contain useful first-party company and investment intelligence, but the available text cannot support any conclusions. Treating chapter titles or promotional guest descriptions as episode claims would create false attribution."
+}

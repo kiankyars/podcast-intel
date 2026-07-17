@@ -1,0 +1,22 @@
+{
+  "changed_views": [
+    "This request should be treated as a transcript/source mismatch rather than evidence about the Kirin 9030 or SMIC N+3."
+  ],
+  "entities": [
+    "SemiAnalysis Weekly",
+    "STEEL Lab",
+    "Huawei Kirin 9030",
+    "SMIC N+3",
+    "TSMC",
+    "AI silicon shortage",
+    "CPO"
+  ],
+  "follow_ups": [
+    "Fetch the correct STEEL Lab transcript or captions and re-analyze the package-to-transistor teardown claims from that source."
+  ],
+  "relevance_score": 1,
+  "signals": [],
+  "skip_reason": "Transcript/source mismatch: metadata and description are about the STEEL Lab teardown of Huawei's Kirin 9030 and SMIC N+3, but the available transcript body discusses a separate AI silicon shortage, TSMC capacity, memory, and CPO episode with different guests.",
+  "summary": "The metadata describes a STEEL Lab teardown of Huawei's Kirin 9030 and SMIC N+3, but the transcript body is a different SemiAnalysis Weekly episode about the AI silicon shortage, TSMC capacity, memory constraints, and competing CPO approaches.",
+  "why_it_matters": "The available source does not substantiate the requested episode's claims about SMIC scaling, SRAM density, teardown methods, the Kirin NPU, backside power, or GAA. Retaining those claims would attribute metadata from one episode to an unrelated transcript."
+}

@@ -1,0 +1,33 @@
+# How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)
+
+- Podcast: Lenny's Podcast
+- Published: 2026-07-12
+- Source: https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about
+- Relevance: 4/5
+
+Noam Segal and Lenny Rachitsky discuss their second annual, roughly 6,000-person cross-functional survey of tech workers. Respondents report broad AI-enabled capability gains, but the workforce is split by how AI has changed professional identity, burnout is rising, career optimism is falling, and many workers say faster output is coming with weaker quality or judgment and ever-higher expectations. These are self-reported sentiments, not objective labor-market or productivity measurements, and the episode does not establish representative sampling or causality.
+
+**Why it matters:** For AI vendors and employers, adoption is not translating cleanly into labor substitution or better work: the nearer-term company risk may be an expectations spiral that erodes quality, retention, and the junior-talent pipeline. Manager quality appears to be the strongest actionable organizational variable. Treat the findings as directional because recruitment and weighting details are not given in the episode and most relationships are correlational.
+
+## Signals
+
+- **Segal and Rachitsky report that AI's dominant perceived career threat is workload inflation, not direct replacement.** [00:53:19] _applications_business_models; observation; medium confidence._ In their survey, 51% worried about doing more for the same pay, 46% about an unsustainable pace, and 41% about declining work quality, versus 22% about losing a job to AI; reported task replacement and layoff worry were essentially uncorrelated at r=+0.05.
+- **The survey reports broad perceived AI performance gains, but respondents often describe them as throughput rather than higher-quality work and warn of judgment atrophy.** [00:48:40] _applications_business_models; observation; medium confidence._ 82% said AI made them at least moderately better at their job and 49.4% said very much or extremely better; open responses emphasized more and faster output rather than better output, alongside weaker focus and judgment.
+- **AI-related professional identity was the survey's strongest reported predictor of career optimism and willingness to recommend a field.** [00:12:19] _companies_capital_allocation; observation; medium confidence._ 49.0% felt amplified, 27.4% redefined, 13.9% destabilized, and 5.0% diminished; the authors report standardized beta values of +0.39 for optimism and +0.60 for field recommendation, with an amplified-to-diminished optimism gap of about d=1.55, roughly three times the founder effect.
+- **The survey indicates a sharp one-year deterioration in tech-worker sustainability even while most respondents still enjoy the work.** [00:20:25] _companies_capital_allocation; observation; medium confidence._ Significant burnout rose from 44.7% in 2025 to 55.7% in 2026, while career optimism fell from 54.8% to 48.7%; 79.3% still reported at least moderate job enjoyment.
+- **Tech workers' willingness to recommend their own career path is deeply negative, particularly among individual contributors.** [00:31:26] _companies_capital_allocation; observation; medium confidence._ 53% would steer newcomers away, yielding an overall NPS of -39; senior and staff individual contributors were at -49 versus VPs at -23 and founders at -5, despite many incumbents saying they enjoy their current work.
+- **Manager quality remains the strongest reported organizational lever on burnout and enjoyment.** [01:13:02] _companies_capital_allocation; observation; medium confidence._ Workers with extremely effective managers reported roughly 65% higher job enjoyment and dramatically lower burnout than those with ineffective managers, but only 25.5% rated their manager highly effective while 36.5% rated theirs ineffective.
+- **Founders and small-company workers remain relatively happier, but even the best-performing segments show material strain.** [01:07:25] _companies_capital_allocation; observation; medium confidence._ Founders were 71% optimistic yet 47% at least moderately burned out, with founder NPS at -5; even 1-to-10-person firms had 42% burnout and role-recommendation NPS of -28. The authors note survivor bias among current founders.
+
+## Changed Views Or Tensions
+
+- AI's near-term labor impact may be less about direct replacement than about ratcheting output expectations and exhausting workers.
+- Reported AI productivity should not be read as higher-quality output; respondents distinguish speed and volume from quality and judgment.
+- AI identity and sentiment may be more predictive of worker well-being than role or company characteristics, though this survey cannot establish causality.
+- Junior-talent pipeline risk may emerge before incumbent attrition because many current workers enjoy their jobs while discouraging newcomers from following them.
+
+## Follow-Ups
+
+- Obtain the full questionnaire, recruitment method, demographic and role distribution, weighting scheme, and per-question response counts before generalizing to the full tech workforce.
+- Compare the self-reports with objective measures of hours, output, review quality, defects, compensation, attrition, and junior hiring.
+- Track whether workload-inflation fears predict later burnout, departures, or reduced product quality, segmented by role, seniority, and company size.
