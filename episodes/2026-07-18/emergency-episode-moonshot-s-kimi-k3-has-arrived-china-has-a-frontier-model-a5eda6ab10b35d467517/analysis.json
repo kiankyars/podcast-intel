@@ -1,0 +1,16 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Moonshot AI",
+    "Kimi K3",
+    "SemiAnalysis"
+  ],
+  "follow_ups": [
+    "Acquire and transcribe the audio associated with the Kimi K3 episode URL, then verify that the opening and chapter timestamps match the episode description before reanalysis."
+  ],
+  "relevance_score": 0,
+  "signals": [],
+  "skip_reason": "Source mismatch: the attached transcript is an unrelated SemiAnalysis Weekly episode about the AI silicon shortage and optical interconnects, not the Kimi K3 episode described by the metadata.",
+  "summary": "The supplied transcript does not match the Kimi K3 episode. It is a roughly 57-minute SemiAnalysis Weekly discussion of the AI silicon shortage, TSMC capacity, GTC/OFC, and optical interconnects, whereas the episode metadata describes a roughly 29-minute Kimi K3 discussion. No Kimi claims can be analyzed reliably from this source.",
+  "why_it_matters": "Filtering this item prevents unrelated semiconductor claims from being attributed to Moonshot AI or Kimi K3 and entering the digest under false episode metadata."
+}

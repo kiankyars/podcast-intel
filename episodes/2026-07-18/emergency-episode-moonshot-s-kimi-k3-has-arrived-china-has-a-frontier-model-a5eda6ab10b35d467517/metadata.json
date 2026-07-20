@@ -1,0 +1,17 @@
+{
+  "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/122984746/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-18%2F428162276-44100-2-455860dce05be.mp3",
+  "description_html": "<p>A year ago, the big three was OpenAI, Anthropic, and Google. Things have changed.Moonshot's Kimi K3 sits above Gemini on every composite benchmark, and it's open source in 10 days.New episode: what K3 reveals about frontier margins, model sizes, and who's actually still in the game. </p><p><br /></p><p>00:00 Intro</p><p>00:11 Is Kimi K3 the Third Best Model?</p><p>04:04 Why Delay the Weights?</p><p>05:30 2.8T Parameters and Serving Constraints</p><p>06:48 Frontier Margins and the 3x Price Hike</p><p>11:10 New Architecture, What Comes Next</p><p>14:09 Will Open Source Catch Closed?</p><p>19:51 Built for Chinese Accelerators</p><p>22:57 The Harness Is the Product</p><p>28:49 We're Still Early</p>",
+  "description_text": "A year ago, the big three was OpenAI, Anthropic, and Google. Things have changed.Moonshot's Kimi K3 sits above Gemini on every composite benchmark, and it's open source in 10 days.New episode: what K3 reveals about frontier margins, model sizes, and who's actually still in the game.\n\n00:00 Intro\n\n00:11 Is Kimi K3 the Third Best Model?\n\n04:04 Why Delay the Weights?\n\n05:30 2.8T Parameters and Serving Constraints\n\n06:48 Frontier Margins and the 3x Price Hike\n\n11:10 New Architecture, What Comes Next\n\n14:09 Will Open Source Catch Closed?\n\n19:51 Built for Chinese Accelerators\n\n22:57 The Harness Is the Product\n\n28:49 We're Still Early",
+  "duration_seconds": 1903,
+  "feed_id": "semianalysis-weekly",
+  "feed_name": "SemiAnalysis Weekly",
+  "feed_priority": 10,
+  "id": "a5eda6ab10b35d467517",
+  "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Emergency-Episode-Moonshots-Kimi-K3-has-Arrived--China-has-a-Frontier-Model-e3m7mra",
+  "published": "2026-07-18T01:08:14+00:00",
+  "title": "[Emergency Episode] Moonshot\u2019s Kimi K3 has Arrived! China has a Frontier Model",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
+  "transcript_urls": [],
+  "web_links": []
+}

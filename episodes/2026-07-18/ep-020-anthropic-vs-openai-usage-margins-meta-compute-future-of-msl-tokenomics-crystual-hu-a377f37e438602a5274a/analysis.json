@@ -1,0 +1,21 @@
+{
+  "changed_views": [
+    "This request should be treated as a transcript/source mismatch rather than evidence about Anthropic and OpenAI token economics or Meta's compute strategy."
+  ],
+  "entities": [
+    "SemiAnalysis Weekly",
+    "Anthropic",
+    "OpenAI",
+    "Meta",
+    "TSMC",
+    "Nvidia"
+  ],
+  "follow_ups": [
+    "Fetch the correct Tokenomics episode transcript or captions and re-analyze the API-revenue mix, power-user spend, subscription break-even math, Anthropic margins, Meta compute commitments, and MSL claims from that source."
+  ],
+  "relevance_score": 1,
+  "signals": [],
+  "skip_reason": "Transcript/source mismatch: metadata and description are about a Tokenomics episode with Crystal Huang, Max Kan, Joey Brookhart, and Jordan Nanos, but the transcript opens with Jordan Nanos, Dylan, Ivan, and Traven discussing the great AI silicon shortage and runs through TSMC capacity, memory, GTC/OFC, and CPO.",
+  "summary": "The metadata describes a tokenomics discussion about Anthropic versus OpenAI usage, margins, Meta compute, and reinforcement-learning scaling, but the transcript body is a different SemiAnalysis Weekly episode about the AI silicon shortage, wafer-fab capacity, memory, networking, and competing optical-interconnect approaches.",
+  "why_it_matters": "The available transcript does not substantiate the requested episode's claims about coding's share of lab API revenue, token-budgeting policy, Anthropic subscription economics and margins, Meta's neocloud backstop, or MSL task economics. Treating the metadata description as transcript evidence would misattribute claims from an unavailable episode."
+}
