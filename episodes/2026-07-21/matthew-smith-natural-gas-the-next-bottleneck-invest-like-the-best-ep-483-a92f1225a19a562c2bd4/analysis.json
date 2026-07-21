@@ -1,0 +1,10 @@
+{
+  "changed_views": [],
+  "entities": [],
+  "follow_ups": [],
+  "relevance_score": 0,
+  "signals": [],
+  "skip_reason": "Filtered because the provided transcript is a Colossus login/paywall shell containing only the host's introduction. The actual interview is unavailable, so retaining claims from the title, description, or chapter headings would be unsupported.",
+  "summary": "The supplied source is not a usable episode transcript. It contains only the host's introductory framing followed by a Colossus login wall; no interview dialogue from Matthew Smith is available for analysis.",
+  "why_it_matters": "The episode metadata previews potentially consequential claims about AI data-center gas demand, LNG exports, storage depletion, and energy prices, but the underlying conversation is unavailable. Those claims cannot be assessed, attributed in context, or supported with transcript evidence from this source."
+}

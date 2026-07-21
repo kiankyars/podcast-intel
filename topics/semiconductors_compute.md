@@ -1,0 +1,114 @@
+# Semiconductors Compute
+
+GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and architecture.
+
+<!-- episode:7b6b53d4dff291d5953c -->
+## 2026-06-03 - [🔬Scaling Past Informal AI - Carina Hong, Axiom Math](https://www.latent.space/p/axiom)
+
+- **The episode identifies hardware verification as a likely killer app for Axiom's verified-generation stack.** [43:57] The show notes explicitly call out hardware verification and critical systems as areas where formal proof demand grows with system complexity.
+
+<!-- episode:19dd142ca585f51ce8cd -->
+## 2026-06-01 - [Why Video Agent models are next — Ethan He, xAI Grok Imagine](https://www.latent.space/p/video-agents)
+
+- **He says coding-model improvements are making compute the bottleneck for model iteration again.** [00:07:05] He argues ideas that previously took weeks to implement can now be built in hours, so teams need enough compute to immediately test many more model and data experiments.
+
+<!-- episode:172f188e9414764b980f -->
+## 2026-06-11 - [Bezos AI Play, Future of Airports, CAA Fund | David Reger, Mike Wior, Ariel Cohen, Jeff Tatarchuk, Matt Joseph, Ade Ajao, Jeremy Fraenkel](https://share.transistor.fm/s/7b97840c)
+
+- **TensorWave's Jeff Tatarchuk says AMD's constraint is closing the software and ecosystem gap, not proving the chips can work for AI inference.** [01:37:06] He says early customers tried AMD because NVIDIA supply was constrained, AMD hardware initially got ahead of software, Databricks showed NVIDIA-to-AMD could work out of the box for important use cases, and CUDA's moat is really the developer ecosystem and libraries.
+
+<!-- episode:91720efd7d609c680ef9 -->
+## 2026-06-09 - [Siri AI, Fable 5 Launch, Rivian CEO Joins | RJ Scaringe, Chris Miller, Evan Beard, Nick Fleisher, Chris Matarese, Alex Heath, Rob Schroder Jr.](https://share.transistor.fm/s/e343af3e)
+
+- **Chris Miller says AI has doubled semiconductor spend as a share of GDP over four years, with further growth gated by manufacturing capacity more than end demand.** [01:04:32] Miller says semiconductor spend was flat as a GDP share for two decades, roughly doubled in the last four years due to AI, and now faces TSMC and broader manufacturing-capacity constraints.
+- **Miller says the AI chip supply chain is underbuilt because TSMC, advanced-packaging suppliers, materials vendors, and ASML all face bullwhip incentives to be more conservative than Silicon Valley wants.** [01:04:32] He says single-company choke points appear deeper in the supply chain, skepticism increases the farther suppliers are from end AI demand, and TSMC's decision to delay high-NA lithography purchases creates a medium-term ASML challenge.
+
+<!-- episode:bd4abdfdd12e2dd63579 -->
+## 2026-06-15 - [Ep. 015 - DG Matrix Explains 800V DC vs Legacy AC Distribution (Datacenter, Energy) | Jordan Nanos, Jeremie Eliahou Ontiveros, Nicolas Bontigui, Haroon Inam](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--015---DG-Matrix-Explains-800V-DC-vs-Legacy-AC-Distribution-Datacenter--Energy--Jordan-Nanos--Jeremie-Eliahou-Ontiveros--Nicolas-Bontigui--Haroon-Inam-e3kqvco)
+
+- **The SemiAnalysis speakers argue that AI accelerator demand is overwhelming TSMC N3 capacity.** [10:24] They model AI rising from 9% of 3 nm wafer demand in 2025 to about 60% in 2026 and 85-90% in 2027 as Rubin, MI400, TPU v7/v8, and Trainium ramp.
+- **Shravan says TSMC capex increases will not provide near-term relief.** [04:39] He cites TSMC moving from roughly $30 billion in recent annual capex to a $52-54 billion guide, expects closer to $70 billion in 2027, and says new capacity still takes 12-24 months.
+- **The speakers say consumer-device weakness is not a large enough release valve for accelerator supply.** [16:21] Their modeling says reallocating 5% of 2026 N3 smartphone wafers yields only slightly above 100,000 Rubin GPUs or 300,000 TPU v7s; even 25% reallocation yields about 700,000 Rubin GPUs and 1.5 million TPU v7s.
+- **The speakers frame HBM tightness as structural through at least the second half of 2027.** [17:26] They say HBM consumes about 3x the wafer capacity per bit of commodity DRAM, HBM4/4E can rise to 4x, and some vendors struggle to meet NVIDIA's requested 11 Gbps pin speeds.
+- **Dan says NVIDIA's CPO path appears to start with scale-out and inter-rack expansion rather than the originally expected scale-up-first path.** [40:21] He says CPO can remove pluggable optics and DSP energy, scale beyond copper's 2 meter reach, and that NVIDIA announcements such as NVO 576 and NVO 1152 connect racks with scale-up CPO.
+
+<!-- episode:7f12967d6d478b19c616 -->
+## 2026-06-18 - [Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan]()
+
+- **Tan argues agentic AI and inference are increasing CPU importance relative to the training-era CPU/GPU mix.** [05:28] He says AI model developers told him CPUs are useful for reinforcement learning and agent orchestration, and he sees the CPU-to-GPU ratio moving from about 1:8 in training toward roughly 1:4 or 1:5.
+- **Tan says Intel is collaborating weekly with Elon Musk's Terafab team to help accelerate production using Intel technology and process capabilities.** [08:06] He says he and Musk share the view that semiconductor infrastructure has not caught up with AI growth, and that Intel is working with Musk's team on capacity, productivity, and efficiency.
+- **Tan points to advanced packaging and new substrate/material choices as major bottlenecks after leading-edge process work.** [16:16] He says packaging is becoming a bottleneck, highlights Intel's next-generation packaging effort, and says he is looking at glass, artificial diamond, gallium nitride, silicon carbide, and indium phosphide related investments.
+- **Tan concedes Intel is far behind TSMC in foundry trust and performance, but expects the opportunity to become visible around 2030-2032.** [37:37] He says Intel must improve IP, yield, defect density, and cycle time before customers trust it with wafers, while describing PC client, edge, physical AI, and agentic AI as areas where Intel can still compete.
+
+<!-- episode:83a81550380d0d9c9981 -->
+## 2026-06-18 - [The Neocloud Boom: State of AI Compute 2026 | Stephen Balaban](https://podcasters.spotify.com/pod/show/firstmark/episodes/The-Neocloud-Boom-State-of-AI-Compute-2026--Stephen-Balaban-e3kut0h)
+
+- **Balaban frames Nvidia's moat as the deep software and networking stack, not just CUDA or chip price.** [25:33] Lambda has deployed Nvidia chips from V100s through B-series systems, and Balaban highlights cuDNN kernel optimization plus NCCL topology-aware networking as hard for alternative silicon entrants to match.
+- **Balaban says 2023 H100s now lease at higher rates than at original deployment and argues GPU economic useful life exceeds common depreciation assumptions.** [40:30] He says Lambda's H100s deployed in 2023 lease at higher rates today, disputes three- to five-year discard assumptions, and notes usable life can exceed the roughly six-year accounting depreciation schedule.
+
+<!-- episode:8d9fef4d070751773d4a -->
+## 2026-06-18 - [The Professor of Outputmaxxing — Anjney Midha, AMP](https://www.latent.space/p/anj)
+
+- **Midha says MatX's non-Nvidia accelerator strategy benefits from adopting Nvidia's reference data-center architecture instead of competing across the whole stack.** [00:29:51] He says MatX chose an Nvidia-compatible footprint so its chips can plug into sites planned for Nvidia racks, letting the startup focus on logic-die and systems co-design while piggybacking on the existing deployment standard.
+
+<!-- episode:f293f09dc3502ac2d969 -->
+## 2026-06-18 - [Midjourney Medical, AI Talent Wars 2.0, Jake Paul Joins | Derek Thompson, Rene Haas, Robert Slaughter, Rob Reid, Thais Castello Branco, David Senra, Jake Paul & Geoffrey Woo](https://share.transistor.fm/s/6eb6780f)
+
+- **Arm CEO Rene Haas says agentic AI demand has changed Arm from a pure IP royalty beneficiary into a direct supply-constrained chip-product participant.** [01:00:57] Haas says Arm's AGI CPU launched at the end of March has huge demand, claims 2x performance at the same power as competing parts, and says agents spawn workloads where CPUs do substantial work.
+- **Haas says AI is already helping Arm chip design mainly through verification, bug triage, and some bug fixing rather than one-click tapeout.** [01:00:57] He says chip design still depends on hard power, frequency, area, and validation constraints, but AI can automatically prioritize weekend verification failures and sometimes fix issues that engineers previously triaged manually.
+
+<!-- episode:780e4321f53f8b9011ff -->
+## 2026-07-08 - [Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO](https://www.latent.space/p/modal2026)
+
+- **Elastic inference and RL rollouts have extremely bursty compute shapes that traditional Kubernetes was not built for.** [00:11:27] Bubna says Modal customers need rapid regional scaling from roughly 1000 to 1500 GPUs, GPU snapshotting to reduce torch.compile cold starts, and sometimes 100000 sandboxes for RL rollouts.
+- **Agent and post-training infrastructure is becoming a memory-movement and networking problem, not just a GPU rental problem.** [00:26:40] The discussion covers sidecars, private IPv6, eBPF controls, RDMA, and about 3 Tbps internal networking; Bubna says moving KV cache and weights between training and inference GPUs has many systems degrees of freedom.
+
+<!-- episode:3a32f702d444a89ffbb1 -->
+## 2026-07-02 - [Inside Nemotron & NVIDIA’s AI Lab | Bryan Catanzaro](https://podcasters.spotify.com/pod/show/firstmark/episodes/Inside-Nemotron--NVIDIAs-AI-Lab--Bryan-Catanzaro-e3li7o6)
+
+- **Catanzaro says Nemotron's first job is to help NVIDIA design future accelerated-computing systems in a post-Moore-law world.** [22:19] He says NVIDIA has to deeply understand AI to co-design systems and software, and that specialization now requires understanding rather than simple transistor shrinkage.
+- **Nemotron Ultra and Super were pretrained in NVFP4, which Catanzaro frames as an energy and throughput answer to hard compute and power limits.** [35:42] He says FP4 pretraining required invention because training can diverge, but Blackwell Ultra has higher throughput on these formats and much lower memory/energy movement costs.
+- **Catanzaro says Blackwell NVL72 was built around MoE inference because dynamic token routing requires fast, low-latency GPU-to-GPU memory access.** [42:31] He says NVL72 lets up to 72 GPUs read and write each other's memory so experts can be partitioned across GPUs while tokens route dynamically through layers.
+- **Nemotron's latent MoE compresses routed vectors to reduce NVLink communication and claims four times as many experts for the same inference cost.** [46:00] Catanzaro says latent MoE down-projects token vectors before network transfer, uncompresses them later, saves bandwidth, and expands the expert library at fixed cost.
+
+<!-- episode:837cff33e75593cdf629 -->
+## 2026-07-02 - [How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor]()
+
+- **Valar demonstrated AI-compute power coupling by running an NVIDIA Blackwell system directly from its reactor.** [35:01] Taylor says Valar connected a Blackwell chip to the nuclear reactor and hosted a reactor-powered website that tracked uranium atoms split per page view.
+
+<!-- episode:37a3e5ce40dc6af73462 -->
+## 2026-07-09 - [AI:AM Highlights: Exploring the J-Space, AI Superforecasters, SambaNova's Chips, & LTX Video Gen](https://www.cognitiverevolution.ai/ai-am-highlights-exploring-the-j-space-ai-superforecasters-sambanova-s-chips-ltx-video-gen/)
+
+- **SambaNova co-founder Kunle Olukotun says inference is primarily a memory-bandwidth and data-movement problem, and claims its RDU architecture can raise resource utilization from the 10% to 20% he attributes to GPUs toward 70% to 80%, enabling a 5x to 10x improvement.** [1:37:37; 1:47:32; 1:50:31] He describes fusing decode into one looping kernel, retaining intermediates in SRAM, and overlapping cross-chip communication with compute instead of repeatedly crossing the HBM boundary; he also says SN50 can scale to 32,000 chips and use wider tensor parallelism than the four-to-eight-chip range he attributes to GPUs.
+
+<!-- episode:c752e1f0326372f9c412 -->
+## 2026-07-04 - [Intelligence on the Edge: Liquid AI's Ramin Hasani on the Search for Device-Native Foundation Models](https://www.cognitiverevolution.ai/intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-device-native-foundation-models/)
+
+- **Hasani said Liquid works with AMD and Qualcomm against their silicon roadmaps, using architecture search to inform future ASIC support and to build foundation-model computation graphs tailored to their processors.** [1:04:05] He described joint work that uses expected hardware constraints to reduce inference cost and identify model operators the next device generation should support.
+- **Hasani argued that device-chip vendors will increasingly need to own an efficient foundation-model layer because software-model co-design can offset disadvantages in memory or processor bandwidth and become the basis for application distribution.** [1:16:32] He pointed to Nvidia's Nemotron effort as the model and argued that an optimized default intelligence layer could differentiate otherwise similar PC and device hardware.
+
+<!-- episode:3cb0cb256e144a024dd6 -->
+## 2026-07-09 - [Meta Releases Muse 1.1, GPT-5.6 Sol Reactions, New Robot Hand Alert | Eric Seufert, Bernt Børnich, Josh Lindgren, Jeffrey Morgan, Thibault Sottiaux, Sean Frank](https://share.transistor.fm/s/5676e6f2)
+
+- **Sottiaux says a Cerebras-served version of GPT-5.6 Soul reaches roughly 750 tokens per second, about an order of magnitude faster than the default API and product path, at a higher cost.** [01:39:32] He frames the Cerebras deployment as a situational speed tier alongside medium, high, and multi-day Ultra modes, explicitly noting that the performance premium comes at a cost.
+
+<!-- episode:80069c98a38295124c20 -->
+## 2026-07-13 - [Apple vs OpenAI, Paramount Threatens to Leave CA, Mark Gurman Joins | Alexis Ohanian, Morgan Housel, Nico Christie & Michael Jarman](https://share.transistor.fm/s/39ef732a)
+
+- **Gurman says memory costs have raised Apple's cost to build each upcoming iPhone by $150 to $200 and forecasts a September retail price increase of roughly the same amount to protect margins.** [01:47:34] He attributes the higher bill of materials to the memory shortage and argues Apple's Vision Pro pricing behavior shows the company is unwilling to absorb the hit to gross margin.
+
+<!-- episode:84e9b288a1a32728cee6 -->
+## 2026-07-16 - [🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences](https://www.latent.space/p/the-lab-of-the-future-should-feel)
+
+- **Lila reports that its reinforcement-learning training runs achieve only about 5% mean FLOP utilization, making utilization a major scaling constraint.** The show notes identify roughly 5% mean FLOP utilization as one of the bottlenecks the guests would remove immediately.
+
+<!-- episode:10e21a6cc7fada9b845d -->
+## 2026-07-16 - [OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti](https://podcasters.spotify.com/pod/show/firstmark/episodes/OpenAIs-Compute-Chief-We-Cant-Build-Fast-Enough--Sachin-Katti-e3m587t)
+
+- **OpenAI taped out its Jalapeño custom accelerator in about nine months by combining an experienced former-TPU team, Broadcom's ASIC execution, foreknowledge of future model workloads, and AI-assisted design iteration.** [34:29] Katti calls nine months the fastest design-to-tapeout cycle he has seen and says workload visibility short-circuited design choices while AI accelerated optimization experiments; the chip targets tokens per watt.
+- **OpenAI's MRC networking protocol is designed to keep 100,000-GPU training clusters running through frequent network-component failures by spraying traffic across multiple paths.** [36:27] Katti says failures cannot be exhaustively enumerated at that scale, so MRC masks them from training jobs by maintaining alternate routes between chips.
+
+<!-- episode:2e34a2048d878e763162 -->
+## 2026-07-20 - [The AI Cold War, Odyssey Rips, Tyler Cowen Joins | Danny Yeung, Connor Love, Kahlil Lalji, Tarek Mansour, Tony Zhao](https://share.transistor.fm/s/898ba371)
+
+- **Kalshi has launched an early GPU forward curve intended to turn compute-price expectations into a hedgeable market.** [02:00:06] CEO Tarek Mansour says Kalshi lists weekly GPU-price markets for the next four weeks and monthly markets thereafter using an index that aggregates transaction prices. He says the initial H200 curve is roughly flat, which he interprets as model and hardware innovation keeping pace with consumption, while acknowledging that the underlying benchmark is still being standardized.
