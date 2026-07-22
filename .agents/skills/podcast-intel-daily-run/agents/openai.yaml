@@ -1,0 +1,4 @@
+interface:
+  display_name: "Podcast Intel Daily Run"
+  short_description: "Run and publish the daily podcast digest"
+  default_prompt: "Use $podcast-intel-daily-run to complete and publish the daily podcast intelligence workflow."
