@@ -28,6 +28,7 @@ No database, web service, queue, or cloud account is required.
 
 ```bash
 ./scripts/daily.sh
+./scripts/publish.sh
 
 uv run podcast-intel discover --lookback 7
 uv run podcast-intel audit-transcripts --lookback 14
@@ -63,9 +64,16 @@ the episode is reported as missing a transcript instead of running local ASR.
 ## Scheduling
 
 Use the project-scoped Codex app automation in [AUTOMATION.md](AUTOMATION.md).
-The Codex app is the scheduler and the analyst. `scripts/daily.sh` only
-discovers episodes, fetches transcripts, and writes analysis requests. The
-automation writes the JSON analyses and then runs `finalize`.
+The Codex app is the scheduler and the general-purpose analyst. The complete
+runbook lives in [AGENTS.md](AGENTS.md), leaving the external automation prompt
+intentionally small. `scripts/daily.sh` discovers episodes, fetches transcripts,
+and writes analysis requests; Codex writes the JSON analyses and runs
+`finalize`.
+
+Every terminal run then calls `scripts/publish.sh`. The publisher creates at
+most one no-change commit per day, stages only durable intelligence artifacts,
+and pushes `main`. Raw transcripts, requests, manifests, caches, and logs stay
+local.
 
 The automation needs network access so the preparation step can fetch feeds,
 episode pages, and captions.
