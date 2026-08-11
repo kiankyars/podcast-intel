@@ -1,0 +1,84 @@
+{
+  "changed_views": [
+    "Compute scarcity may shape frontier-lab headcount and internal capital allocation as much as it shapes training scale.",
+    "Scarce token budgets may protect incumbent SaaS by making in-house replication uneconomic, contrary to blanket claims that AI will eliminate SaaS.",
+    "AI safety rules should be evaluated for asymmetric effects on incumbent internal research versus external challengers, not only for direct compliance cost."
+  ],
+  "entities": [
+    "Sarah Guo",
+    "Elad Gil",
+    "OpenAI",
+    "Anthropic",
+    "Cursor",
+    "Cognition",
+    "Harvey"
+  ],
+  "follow_ups": [
+    "Verify which frontier labs have tightened researcher hiring because of per-researcher compute budgets and seek support for the claimed 80% concentration of results.",
+    "Compare the forecast of easier venture financing with current fund distributions, fundraising, deployment pace, and late-stage valuation data.",
+    "Track whether proposed AI safety rules permit incumbent internal research while restricting comparable external deployment or open-model work.",
+    "Test the return-on-invested-tokens thesis against actual enterprise AI budgeting and build-versus-buy decisions."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Elad Gil argues that investors are conflating addressable market with the speed required to create another trillion-dollar company; in his framework, that valuation generally requires a single company to reach roughly $50 billion to $100 billion of revenue with good margins.",
+      "confidence": "medium",
+      "evidence": "Gil contrasts many plausible $5 billion to $10 billion revenue businesses with the much smaller set capable of building $50 billion to $100 billion revenue streams, and says physical-goods companies face additional footprint and scaling-time constraints.",
+      "kind": "opinion",
+      "timestamp": "06:24"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Gil forecasts that venture financing and private-company valuations will rise further over the next one to two years as large AI outcomes recycle capital into bigger funds seeking the next perceived trillion-dollar opportunity.",
+      "confidence": "medium",
+      "evidence": "He reasons that recent rapid value creation is returning substantial venture capital, expanding fund sizes and increasing pressure to deploy into companies marketed as future trillion-dollar winners, including some that will not justify the valuations.",
+      "kind": "forecast",
+      "timestamp": "14:04"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Sarah Guo views automation of training code and data pipelines as a credible extension of progress in coding and math, but sees data acquisition in less-verifiable domains and physical compute availability as more plausible limits on rapid recursive self-improvement.",
+      "confidence": "medium",
+      "evidence": "Guo contrasts the plausible step from coding to training-pipeline work with the harder problem of gathering useful data outside verifiable domains, and notes that researchers have repeatedly believed an 18-month RSI inflection was near during the past five years.",
+      "kind": "inference",
+      "timestamp": "19:08"
+    },
+    {
+      "category": "semiconductors_compute",
+      "claim": "Gil argues that physical compute scarcity currently reinforces an oligopoly by capping each major lab's rate of progress and keeping competitors closer than they would be with unconstrained compute.",
+      "confidence": "medium",
+      "evidence": "He says compute is effectively prorated across the large labs, imposing similar ceilings on progress until the physical constraint lifts.",
+      "kind": "inference",
+      "timestamp": "20:00"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Gil reports that some labs have tightened researcher hiring because the binding cost is the compute budget attached to each researcher rather than salary, with token allocation increasingly concentrated among the highest-return researchers.",
+      "confidence": "medium",
+      "evidence": "He says a few dozen researchers can drive roughly 80% of results at a lab, that some labs now hire only above a very high bar, and that the scarce resource is the compute associated with each additional person.",
+      "kind": "observation",
+      "timestamp": "22:02"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Gil expects enterprises to ration AI compute toward core-product and margin-lift projects rather than spend scarce tokens recreating inexpensive SaaS, which he argues weakens the blanket 'death of SaaS' thesis.",
+      "confidence": "medium",
+      "evidence": "He compares token budgets with historically scarce engineering resources and says organizations are moving from broad AI experimentation toward measured spend, open-source substitution, and project-level return on invested tokens.",
+      "kind": "forecast",
+      "timestamp": "22:58"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Gil argues that safety regulation could become a frontier-lab moat if it constrains external model use while incumbent labs continue advancing internally.",
+      "confidence": "low",
+      "evidence": "He analogizes to regulatory capture in pharmaceuticals and reasons that, when one calendar year represents several years of normal technical progress, an incumbent allowed to keep improving internally can accumulate a large lead over constrained challengers.",
+      "kind": "inference",
+      "timestamp": "34:42"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Sarah Guo and Elad Gil give an investor-oriented assessment of AI company formation, frontier-lab constraints, and regulation. The highest-signal material is their thesis that scarce compute is creating both an oligopoly among labs and a new internal token-allocation discipline that affects researcher hiring, enterprise software, and competitive moats. Their market-size and financing arguments are directional judgments rather than independently verified facts.",
+  "why_it_matters": "The discussion connects physical compute constraints to lab organization and application-layer economics, not just model training. It also suggests that venture valuations can keep rising even if realized trillion-dollar outcomes remain rare, creating a widening gap between financing availability and expected terminal value."
+}

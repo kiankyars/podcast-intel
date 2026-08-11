@@ -205,3 +205,19 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 
 - **Patel says current alignment techniques are poorly matched to models whose weights keep changing during deployment.** He highlights unresolved risks including jailbreak susceptibility, persona drift, and users injecting backdoors or malicious tendencies into a model that consolidates learning across sessions.
 - **Patel predicts continual learning would turn a frontier-model lead into a deployment-data flywheel.** His mechanism is that the best model attracts more difficult real-world work and feedback, incorporates that experience, improves further, and then attracts still more valuable usage.
+
+<!-- episode:5ab5d5451ae57abad1ef -->
+## 2026-08-10 - [Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses](https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/)
+
+- **DeepSeek is Lindy's default driver because of its cost advantage, but Crivello says it is more behaviorally spiky, often needs extra turns, and remains roughly three to six months behind the leading US models.** [1:19:22–1:28:55] He characterizes DeepSeek Flash as approximately Sonnet 4.6-level and about 100x cheaper for many tasks, says all of Lindy currently defaults to DeepSeek, and notes that extra turns erode some of the nominal savings.
+
+<!-- episode:6c0ee0f6b696c2f3fd90 -->
+## 2026-08-03 - [The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten](https://www.latent.space/p/inference-eng)
+
+- **Baseten says it added vision to GLM-5.2 by freezing both the Kimi vision encoder and GLM language model and training only a small projector between them, avoiding changes to the base text model.** [00:15:27] The team trained the projector on image question-answer pairs rather than captions alone, skipped the encoder for text-only requests, and reported about 56% on MMLU-Pro for the experimental multimodal model.
+
+<!-- episode:ae4a0a34d8b74065dcc9 -->
+## 2026-08-06 - [Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad]()
+
+- **Sarah Guo views automation of training code and data pipelines as a credible extension of progress in coding and math, but sees data acquisition in less-verifiable domains and physical compute availability as more plausible limits on rapid recursive self-improvement.** [19:08] Guo contrasts the plausible step from coding to training-pipeline work with the harder problem of gathering useful data outside verifiable domains, and notes that researchers have repeatedly believed an 18-month RSI inflection was near during the past five years.
+- **Gil reports that some labs have tightened researcher hiring because the binding cost is the compute budget attached to each researcher rather than salary, with token allocation increasingly concentrated among the highest-return researchers.** [22:02] He says a few dozen researchers can drive roughly 80% of results at a lab, that some labs now hire only above a very high bar, and that the scarce resource is the compute associated with each additional person.

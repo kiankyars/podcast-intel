@@ -256,3 +256,33 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 ## 2026-08-06 - [How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis](https://podcasters.spotify.com/pod/show/firstmark/episodes/How-to-Build-Long-Horizon-AI-Agents--Mitch-Troyanovsky--Basis-e3n1s78)
 
 - **Basis and Braintrust have open-sourced a flexible behavior-spec standard and example judge, but Troyanovsky says full production coverage is currently uneconomic because each complete trajectory requires an expensive judge run.** [54:56] The repository provides Markdown examples and an example judge intended for observability platforms; he says better trajectory labeling and selective routing are needed before judges can inspect every production run.
+
+<!-- episode:28518f58ac1a89962451 -->
+## 2026-07-30 - [The Biggest AI Deployment Nobody Talks About | Samsara CEO Sanjit Biswas](https://podcasters.spotify.com/pod/show/firstmark/episodes/The-Biggest-AI-Deployment-Nobody-Talks-About--Samsara-CEO-Sanjit-Biswas-e3mn7h1)
+
+- **Biswas says Samsara processes 25 trillion GPS, video, and integration data points across millions of vehicles and frontline workers, and the company believes its system helped prevent about 380,000 road accidents in the prior year.** [08:46] He presents the data volume and user footprint as current platform scale, then attributes the crash figure to Samsara's own impact estimate rather than an independent study.
+- **Biswas argues that Samsara's defensibility comes from operational data unavailable on the public internet, an installed hardware/software base, and field change management; he says its fleet traverses 99% of U.S. roads daily, usually multiple times.** [28:28] He describes cross-customer benefits including road-risk warnings, pothole detection and monitoring, and a mesh of millions of vehicles plus tens of millions of phones that relays Bluetooth asset-tag signals.
+- **Biswas says dash cameras are used primarily to exonerate drivers and that Home Depot reduced auto claims by about 65%, framing worker buy-in as a function of visible benefits, positive reinforcement, and transparent data use.** [46:44] He explains that video can resolve disputed incidents, recognize defensive driving, and protect workers from false claims; he cites Home Depot's reported claims reduction as an organizational outcome.
+- **Biswas expects autonomous commercial trucking to diffuse more slowly than robotaxis and suggests the long tail of specialized field-service and construction vehicles may take 10 to 20 years to automate.** [55:11] He says long-haul point-to-point trucking is only a minority of commercial-vehicle activity, while most vehicles perform messy on-site work using specialized equipment that current autonomy handles poorly.
+
+<!-- episode:5ab5d5451ae57abad1ef -->
+## 2026-08-10 - [Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses](https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/)
+
+- **Lindy Teammate is currently operating at negative gross margin even with an 85% cache rate, making cache integrity a first-order business constraint.** [26:05] Crivello says the more complex teammate workload pushed the company back into negative gross margins; he estimates that a cache-rate decline from 85% to 65% nearly doubles serving cost.
+
+<!-- episode:6c0ee0f6b696c2f3fd90 -->
+## 2026-08-03 - [The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten](https://www.latent.space/p/inference-eng)
+
+- **Baseten says customers commonly use pay-per-token endpoints to test open models, then move sticky, high-volume workloads to dedicated deployments for lower cost, reliability, and traffic-specific optimization.** [00:03:18] Taha says renting capacity is often cheaper at millions of tokens per hour and permits a custom speculative decoder; Kiely adds that dedicated deployments isolate users from other customers' benchmarking traffic and allow workload-specific batching, precision, and parallelism.
+
+<!-- episode:ae4a0a34d8b74065dcc9 -->
+## 2026-08-06 - [Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad]()
+
+- **Gil expects enterprises to ration AI compute toward core-product and margin-lift projects rather than spend scarce tokens recreating inexpensive SaaS, which he argues weakens the blanket 'death of SaaS' thesis.** [22:58] He compares token budgets with historically scarce engineering resources and says organizations are moving from broad AI experimentation toward measured spend, open-source substitution, and project-level return on invested tokens.
+
+<!-- episode:fdccc88bd9342ede8dc4 -->
+## 2026-07-31 - [Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak]()
+
+- **Tokmak reports that more than 70% of Netic's customers are now 'AI first,' meaning their own customers' first interaction with the business occurs through Netic agents rather than the agents being used only for overflow.** [06:09] She says many customers initially adopted Netic for excess call volume but that more than 70% have since made the agents the default first point of contact.
+- **Tokmak forecasts that robotics will remain far behind software agents in home and essential services because real buildings, repair tasks, and customer situations are too heterogeneous for near-term standardization.** [11:02] She points to nonstandard buildings, limited robotic dexterity, varied fasteners and confined spaces, faults hidden behind walls, and the human reassurance required during emergencies as persistent barriers.
+- **Tokmak reports that a large essential-services enterprise signed a roughly $500,000 contract in 14 days, which she presents as evidence that ostensibly slow industries will adopt quickly when value is concrete.** [24:15] She describes the buyer as a large, value-focused enterprise and gives the contract size and end-to-end sales-cycle length without naming the customer or contract terms.

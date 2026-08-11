@@ -94,3 +94,8 @@ Data centers, power, cooling, networking, capital expenditure, and physical cons
 ## 2026-08-03 - [Why smarter AI models could drive up compute prices 10x](https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video)
 
 - **Patel says the secure, large-scale compute tranche frontier labs need is already priced well above headline spot markets.** He cites reports that Google pays SpaceX $900 million per month for 110,000 blended GB200 and GB300 GPUs, about twice spot pricing, while spot itself had risen more than 40% from its February trough.
+
+<!-- episode:28518f58ac1a89962451 -->
+## 2026-07-30 - [The Biggest AI Deployment Nobody Talks About | Samsara CEO Sanjit Biswas](https://podcasters.spotify.com/pod/show/firstmark/episodes/The-Biggest-AI-Deployment-Nobody-Talks-About--Samsara-CEO-Sanjit-Biswas-e3mn7h1)
+
+- **Biswas relays that one large energy utility expects to triple the power it delivers over the next five years after building its existing capacity over 125 years, and attributes 90% of the new demand to data centers.** [57:23] He says the figures came from a utility field visit the prior week and uses them to illustrate customers' inability to build grid infrastructure fast enough; the utility and capacity baseline are not identified.

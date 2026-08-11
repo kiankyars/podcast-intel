@@ -206,3 +206,20 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 ## 2026-08-06 - [How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis](https://podcasters.spotify.com/pod/show/firstmark/episodes/How-to-Build-Long-Horizon-AI-Agents--Mitch-Troyanovsky--Basis-e3n1s78)
 
 - **Troyanovsky expects model progress to absorb most current context-engineering harness work in more than two but fewer than five years, and therefore regards workflow ownership, customer embedding, and market share as durable moats rather than proprietary RL techniques.** [01:17:18] He says Basis cannot wait for the models to catch up, but explicitly describes its technical lead as a temporary opening to become deeply embedded in accounting-firm workflows before behavior specification becomes native model capability.
+
+<!-- episode:5ab5d5451ae57abad1ef -->
+## 2026-08-10 - [Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses](https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/)
+
+- **Crivello reports that Lindy's weekly pull-request count and lines per pull request each tripled in three months while headcount stayed flat, and expects internal inference spend to exceed payroll within three to six months.** [55:43–1:00:34] He attributes the output increase to agents writing and reviewing code and optimizing systems such as CI; payroll still exceeds internal inference spend, but he says the two are now within striking distance.
+
+<!-- episode:ae4a0a34d8b74065dcc9 -->
+## 2026-08-06 - [Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad]()
+
+- **Elad Gil argues that investors are conflating addressable market with the speed required to create another trillion-dollar company; in his framework, that valuation generally requires a single company to reach roughly $50 billion to $100 billion of revenue with good margins.** [06:24] Gil contrasts many plausible $5 billion to $10 billion revenue businesses with the much smaller set capable of building $50 billion to $100 billion revenue streams, and says physical-goods companies face additional footprint and scaling-time constraints.
+- **Gil forecasts that venture financing and private-company valuations will rise further over the next one to two years as large AI outcomes recycle capital into bigger funds seeking the next perceived trillion-dollar opportunity.** [14:04] He reasons that recent rapid value creation is returning substantial venture capital, expanding fund sizes and increasing pressure to deploy into companies marketed as future trillion-dollar winners, including some that will not justify the valuations.
+
+<!-- episode:fdccc88bd9342ede8dc4 -->
+## 2026-07-31 - [Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak]()
+
+- **Tokmak chose a scalable product company over an AI roll-up because she believes software built inside an acquired operator remains captive to those assets, while a shared intelligence layer can compound across many independent service businesses.** [09:21] She says roll-up economics depend heavily on M&A and constrain product deployment to purchased companies, whereas Netic is intended to run the non-labor operations of many businesses across industries.
+- **Tokmak says private-equity AI diligence is shifting from short demos and deterministic-software expectations toward live deployments and sustained ROI, and reports that Netic's AI-handled interactions have generated more than $600 million for customers.** [27:49] She says private-equity firms are adding AI operating partners or engineers and that Netic demonstrates live customer deployments; the $600 million figure is company-reported and lacks a stated period, cohort, or definition of incremental revenue.

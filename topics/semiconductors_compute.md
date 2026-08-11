@@ -122,3 +122,16 @@ GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and 
 ## 2026-08-07 - [8 Predictions for the Era of Continual Learning](https://www.dwarkesh.com/p/era-of-continual-learning)
 
 - **Patel argues that full-weight personalization could make continual-learning inference far more economical for large organizations than for individuals.** His back-of-the-envelope estimate puts DeepSeek V3's efficient sparse-model batch above 2,400 concurrent sequences and suggests batch-one personalized serving could incur a compute-efficiency penalty exceeding 100x.
+
+<!-- episode:6c0ee0f6b696c2f3fd90 -->
+## 2026-08-03 - [The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten](https://www.latent.space/p/inference-eng)
+
+- **Ali Taha says Baseten found that quantizing more GLM-5.2 layers could preserve better fidelity than a less-quantized alternative when layer-level errors were selected to cancel, while yielding about 20% more throughput.** [00:29:27] Baseten's method selected low-precision layers using predicted error cancellation and compared the resulting logit distribution with the full-precision model using KL divergence; Taha says the result had more layers in NVFP4 and better fidelity than another provider's quant.
+- **Philip Kiely estimates that inference software alone can improve performance roughly 2–4x on normalized hardware, while an aggressively tuned stack can approach 10x versus a naive deployment.** [00:34:44] He decomposes the stack into roughly 30–40% gains for each precision step from 16 to 8 and 8 to 4 bits, about 2x from a speculator, about 2x from prefill/decode disaggregation at sufficient scale, and additional double-digit runtime gains; he frames 4–6x as more common than 10x.
+- **Taha says identical model weights can exhibit repeated-token collapse on one inference engine or cluster but not another because kernel synchronization bugs and interconnect timing expose hardware-dependent races.** [00:22:30] Baseten observed GLM-family looping that disappeared after changing the TensorRT-LLM image or switching between SGLang and vLLM; a slower inter-node KV-cache path on one cluster could expose a race that another cluster did not.
+- **Kiely says a roughly 2.8-trillion-parameter Kimi model occupies about 1.4 TB at NVFP4 and needs GB300-class memory to fit on one eight-GPU node, before reserving space for KV cache.** [01:10:09] He calculates half a byte per parameter and cites 288 GB per GB300 GPU; long context then competes with weights for VRAM, making KV-cache offloading increasingly important for models at this scale.
+
+<!-- episode:ae4a0a34d8b74065dcc9 -->
+## 2026-08-06 - [Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad]()
+
+- **Gil argues that physical compute scarcity currently reinforces an oligopoly by capping each major lab's rate of progress and keeping competitors closer than they would be with unconstrained compute.** [20:00] He says compute is effectively prorated across the large labs, imposing similar ceilings on progress until the physical constraint lifts.

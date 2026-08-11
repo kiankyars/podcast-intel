@@ -175,3 +175,13 @@ Export controls, national competition, regulation, defense, safety, and security
 ## 2026-08-07 - [8 Predictions for the Era of Continual Learning](https://www.dwarkesh.com/p/era-of-continual-learning)
 
 - **Patel argues that continual weight updates would make one-time predeployment safety evaluations obsolete and favors recurring monthly or quarterly risk inspections instead.** He reasons that a base model updated daily from millions of work sessions would erase the clean training-versus-deployment boundary assumed by static certification regimes.
+
+<!-- episode:5ab5d5451ae57abad1ef -->
+## 2026-08-10 - [Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses](https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/)
+
+- **Crivello supports excluding unsanitized Chinese frontier models from the US on competition, censorship, and security grounds, but is open to audited fine-tuning and insurance requirements instead of an unconditional ban.** [1:40:57–1:55:47] After arguing for a sweeping ban, he accepts a framework in which a new AI regulator would test whether Chinese models had been sufficiently fine-tuned and sanitized, with risk-priced insurance as another possible control.
+
+<!-- episode:ae4a0a34d8b74065dcc9 -->
+## 2026-08-06 - [Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad]()
+
+- **Gil argues that safety regulation could become a frontier-lab moat if it constrains external model use while incumbent labs continue advancing internally.** [34:42] He analogizes to regulatory capture in pharmaceuticals and reasons that, when one calendar year represents several years of normal technical progress, an incumbent allowed to keep improving internally can accumulate a large lead over constrained challengers.

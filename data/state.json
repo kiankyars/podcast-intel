@@ -6,7 +6,7 @@
     },
     "019e588f28f4013791e2": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.101513+00:00"
+      "updated_at": "2026-08-11T16:03:05.722397+00:00"
     },
     "01c3d87bcabde7e7204a": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-15/freedom-250-recap-with-bo-nickal-the-hand-anthropic-was-dealt-fox-buys-roku-bo-nickal-gavi-01c3d87bcabde7e7204a/analysis.json",
@@ -27,7 +27,7 @@
     },
     "080e5785176cc51d3078": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.099126+00:00"
+      "updated_at": "2026-08-11T16:03:05.719568+00:00"
     },
     "08455bb0b941050e2953": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-06/xbox-layoffs-manual-ferrari-circle-k-lottery-dispute-baiju-bhatt-daniel-english-michele-ca-08455bb0b941050e2953/analysis.json",
@@ -82,7 +82,7 @@
     },
     "0c08f7d3f44a3d0bc881": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.098728+00:00"
+      "updated_at": "2026-08-11T16:03:05.719180+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -312,6 +312,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-16T16:01:30.586612+00:00"
     },
+    "28518f58ac1a89962451": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-30/the-biggest-ai-deployment-nobody-talks-about-samsara-ceo-sanjit-biswas-28518f58ac1a89962451/analysis.json",
+      "error": "",
+      "feed_id": "mad-podcast",
+      "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/The-Biggest-AI-Deployment-Nobody-Talks-About--Samsara-CEO-Sanjit-Biswas-e3mn7h1",
+      "published": "2026-07-30T11:30:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-07-30/the-biggest-ai-deployment-nobody-talks-about-samsara-ceo-sanjit-biswas-28518f58ac1a89962451/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-30/the-biggest-ai-deployment-nobody-talks-about-samsara-ceo-sanjit-biswas-28518f58ac1a89962451/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-30/the-biggest-ai-deployment-nobody-talks-about-samsara-ceo-sanjit-biswas-28518f58ac1a89962451/summary.md",
+      "title": "The Biggest AI Deployment Nobody Talks About | Samsara CEO Sanjit Biswas",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-30/the-biggest-ai-deployment-nobody-talks-about-samsara-ceo-sanjit-biswas-28518f58ac1a89962451/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=3FHsGiONOGw",
+      "updated_at": "2026-08-11T16:08:37.879652+00:00"
+    },
     "291d24155d9da4c8116a": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-13/ai-in-the-am-week-2-highlights-june-2026-291d24155d9da4c8116a/analysis.json",
       "error": "",
@@ -352,7 +369,7 @@
     },
     "2c2a4562f490a0d99d35": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.099809+00:00"
+      "updated_at": "2026-08-11T16:03:05.720499+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -485,6 +502,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.121223+00:00"
     },
+    "3e32b191c658552aa61f": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T16:03:05.717983+00:00"
+    },
     "3e57bc020699e12f7810": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-09T16:02:23.566935+00:00"
@@ -541,7 +562,7 @@
     },
     "4dd695488cecd51af249": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.101844+00:00"
+      "updated_at": "2026-08-11T16:03:05.722937+00:00"
     },
     "5407316ae797ccc74c42": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-04/alex-karp-live-from-aipcon-10-alex-karp-peter-zaffino-chad-wahlquist-sam-berry-5407316ae797ccc74c42/analysis.json",
@@ -615,13 +636,30 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.104149+00:00"
     },
+    "5ab5d5451ae57abad1ef": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-h-5ab5d5451ae57abad1ef/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/",
+      "published": "2026-08-10T18:02:50+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-h-5ab5d5451ae57abad1ef/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-h-5ab5d5451ae57abad1ef/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-h-5ab5d5451ae57abad1ef/summary.md",
+      "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-h-5ab5d5451ae57abad1ef/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/",
+      "updated_at": "2026-08-11T16:08:37.881963+00:00"
+    },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.106807+00:00"
     },
     "5c9079babc96f680ea68": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.097382+00:00"
+      "updated_at": "2026-08-11T16:03:05.718766+00:00"
     },
     "5cfc3c40bbdee4ffbbb7": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-03/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectur-5cfc3c40bbdee4ffbbb7/analysis.json",
@@ -758,13 +796,30 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-08-11T00:32:30.110344+00:00"
     },
+    "6c0ee0f6b696c2f3fd90": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/the-inference-engineering-masterclass-philip-kiely-ali-taha-baseten-6c0ee0f6b696c2f3fd90/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/inference-eng",
+      "published": "2026-08-03T21:44:03+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/the-inference-engineering-masterclass-philip-kiely-ali-taha-baseten-6c0ee0f6b696c2f3fd90/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/the-inference-engineering-masterclass-philip-kiely-ali-taha-baseten-6c0ee0f6b696c2f3fd90/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/the-inference-engineering-masterclass-philip-kiely-ali-taha-baseten-6c0ee0f6b696c2f3fd90/summary.md",
+      "title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/the-inference-engineering-masterclass-philip-kiely-ali-taha-baseten-6c0ee0f6b696c2f3fd90/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/inference-eng",
+      "updated_at": "2026-08-11T16:08:37.884637+00:00"
+    },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.105473+00:00"
     },
     "73944182fcc47ce6f950": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.100796+00:00"
+      "updated_at": "2026-08-11T16:03:05.721582+00:00"
     },
     "74005a3f3649b4c66c39": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-19/the-data-black-hole-at-the-center-of-ai-74005a3f3649b4c66c39/analysis.json",
@@ -1035,11 +1090,11 @@
     },
     "8539dfe2360731b556b3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.100476+00:00"
+      "updated_at": "2026-08-11T16:03:05.721205+00:00"
     },
     "8889ec11851c90fa1eeb": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.100146+00:00"
+      "updated_at": "2026-08-11T16:03:05.720855+00:00"
     },
     "8b05ac6e5eb0a316d785": {
       "status": "metadata_skipped",
@@ -1282,7 +1337,24 @@
     },
     "acf76b632857e6bd388c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.102171+00:00"
+      "updated_at": "2026-08-11T16:03:05.723287+00:00"
+    },
+    "ae4a0a34d8b74065dcc9": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-regulatory-capture-wi-ae4a0a34d8b74065dcc9/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "",
+      "published": "2026-08-06T10:00:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-regulatory-capture-wi-ae4a0a34d8b74065dcc9/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-regulatory-capture-wi-ae4a0a34d8b74065dcc9/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-regulatory-capture-wi-ae4a0a34d8b74065dcc9/summary.md",
+      "title": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-regulatory-capture-wi-ae4a0a34d8b74065dcc9/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=6l8oAO_LBx4",
+      "updated_at": "2026-08-11T16:08:37.887094+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -1463,7 +1535,7 @@
     },
     "cbdc147dbc5c8789a2ac": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.099476+00:00"
+      "updated_at": "2026-08-11T16:03:05.719927+00:00"
     },
     "cd323cc4cc94a7625667": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-23/vlad-barbalat-investing-120-billion-in-permanent-capital-invest-like-the-best-ep-479-cd323cc4cc94a7625667/analysis.json",
@@ -1522,7 +1594,7 @@
     },
     "cf64acb4fbc06b110da8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.101162+00:00"
+      "updated_at": "2026-08-11T16:03:05.722004+00:00"
     },
     "d101b0207adc80019ab2": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-01/ep-017-deepseek-v4-and-huawei-ascend-npu-performance-inferencex-kimbo-chen-cam-quilici-bry-d101b0207adc80019ab2/analysis.json",
@@ -1564,7 +1636,7 @@
     },
     "d2fce60180d7428cf10d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.102494+00:00"
+      "updated_at": "2026-08-11T16:03:05.723655+00:00"
     },
     "d496c678af05e528a106": {
       "status": "metadata_skipped",
@@ -1661,7 +1733,7 @@
     },
     "ec118b74c0bbd0b3d16f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T00:26:14.102827+00:00"
+      "updated_at": "2026-08-11T16:03:05.724008+00:00"
     },
     "ec7e8956082eebfdc188": {
       "status": "metadata_skipped",
@@ -1670,7 +1742,7 @@
     "ee29121bdffa1dcd1bf8": {
       "error": "The MAD Podcast with Matt Turck / Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-07-21T16:01:36.287410+00:00"
+      "updated_at": "2026-08-11T16:03:24.686509+00:00"
     },
     "ee719fdce27e5d88ecd4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-01/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-s-ee719fdce27e5d88ecd4/analysis.json",
@@ -1776,6 +1848,23 @@
     "fa57f5ab7508f94c688c": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-09T16:02:23.566544+00:00"
+    },
+    "fdccc88bd9342ede8dc4": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "",
+      "published": "2026-07-31T10:00:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/summary.md",
+      "title": "Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=wWbX3NL6_Uo",
+      "updated_at": "2026-08-11T16:08:37.889250+00:00"
     }
   },
   "version": 1
