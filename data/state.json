@@ -4,6 +4,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-12T16:01:43.476135+00:00"
     },
+    "019e588f28f4013791e2": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.101513+00:00"
+    },
     "01c3d87bcabde7e7204a": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-15/freedom-250-recap-with-bo-nickal-the-hand-anthropic-was-dealt-fox-buys-roku-bo-nickal-gavi-01c3d87bcabde7e7204a/analysis.json",
       "error": "",
@@ -20,6 +24,10 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/07ad1b46/transcription.txt",
       "updated_at": "2026-06-16T16:05:15.800076+00:00"
+    },
+    "080e5785176cc51d3078": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.099126+00:00"
     },
     "08455bb0b941050e2953": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-06/xbox-layoffs-manual-ferrari-circle-k-lottery-dispute-baiju-bhatt-daniel-english-michele-ca-08455bb0b941050e2953/analysis.json",
@@ -54,6 +62,27 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/b5f0e80c/transcription.txt",
       "updated_at": "2026-06-11T16:06:42.800826+00:00"
+    },
+    "0a353092bee29557d746": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/why-smarter-ai-models-could-drive-up-compute-prices-10x-0a353092bee29557d746/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
+      "published": "2026-08-03T17:32:13+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/why-smarter-ai-models-could-drive-up-compute-prices-10x-0a353092bee29557d746/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/why-smarter-ai-models-could-drive-up-compute-prices-10x-0a353092bee29557d746/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/why-smarter-ai-models-could-drive-up-compute-prices-10x-0a353092bee29557d746/summary.md",
+      "title": "Why smarter AI models could drive up compute prices 10x",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-03/why-smarter-ai-models-could-drive-up-compute-prices-10x-0a353092bee29557d746/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
+      "updated_at": "2026-08-11T00:32:30.106326+00:00"
+    },
+    "0c08f7d3f44a3d0bc881": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.098728+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -182,6 +211,10 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=RQE8OS392dU",
       "updated_at": "2026-06-09T16:09:24.212185+00:00"
     },
+    "1d4e2365010b0f38a1de": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.103165+00:00"
+    },
     "1d78bac7c0e4b69f2d88": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-04/ep-14-finding-miscompiles-for-fun-not-profit-ai-infrastructure-justin-lebar-jordan-nanos-1d78bac7c0e4b69f2d88/analysis.json",
       "error": "",
@@ -198,6 +231,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-06-09T16:09:24.214987+00:00"
+    },
+    "1e1c346d9bae1a20c6ab": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/openai-s-model-hacked-us-hugging-face-s-thomas-wolf-1e1c346d9bae1a20c6ab/analysis.json",
+      "error": "",
+      "feed_id": "mad-podcast",
+      "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/OpenAIs-Model-Hacked-Us---Hugging-Faces-Thomas-Wolf-e3n45t4",
+      "published": "2026-08-07T18:38:32+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/openai-s-model-hacked-us-hugging-face-s-thomas-wolf-1e1c346d9bae1a20c6ab/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/openai-s-model-hacked-us-hugging-face-s-thomas-wolf-1e1c346d9bae1a20c6ab/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/openai-s-model-hacked-us-hugging-face-s-thomas-wolf-1e1c346d9bae1a20c6ab/summary.md",
+      "title": "\u201cOpenAI\u2019s Model Hacked Us\u201d - Hugging Face\u2019s Thomas Wolf",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/openai-s-model-hacked-us-hugging-face-s-thomas-wolf-1e1c346d9bae1a20c6ab/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=FU9A481E2W8",
+      "updated_at": "2026-08-11T00:32:30.108372+00:00"
     },
     "1e821c61cd9b816f8fec": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-10/biohub-the-future-of-biology-is-open-source-with-co-founders-mark-zuckerberg-priscilla-cha-1e821c61cd9b816f8fec/analysis.json",
@@ -233,13 +283,30 @@
       "transcript_source_url": "https://www.dwarkesh.com/p/grant-sanderson-2",
       "updated_at": "2026-07-11T07:40:56.294859+00:00"
     },
+    "1fff1a12a5aac7cb62f7": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-23/ep-021-the-ai-project-trinity-capital-offtake-data-center-datacenter-energy-dan-nishball-j-1fff1a12a5aac7cb62f7/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--021---The-AI-Project-Trinity-Capital--Offtake--Data-Center-Datacenter--Energy--Dan-Nishball--Jordan-Nanos--Zane-Fong--Kang-Wen-Cheang-e3mf98h",
+      "published": "2026-07-23T22:00:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-07-23/ep-021-the-ai-project-trinity-capital-offtake-data-center-datacenter-energy-dan-nishball-j-1fff1a12a5aac7cb62f7/transcript.txt",
+      "relevance_score": 0,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-23/ep-021-the-ai-project-trinity-capital-offtake-data-center-datacenter-energy-dan-nishball-j-1fff1a12a5aac7cb62f7/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-23/ep-021-the-ai-project-trinity-capital-offtake-data-center-datacenter-energy-dan-nishball-j-1fff1a12a5aac7cb62f7/summary.md",
+      "title": "Ep. 021 - The AI Project Trinity: Capital, Offtake, Data Center (Datacenter, Energy) | Dan Nishball, Jordan Nanos, Zane Fong, Kang Wen Cheang",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-23/ep-021-the-ai-project-trinity-capital-offtake-data-center-datacenter-energy-dan-nishball-j-1fff1a12a5aac7cb62f7/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
+      "updated_at": "2026-08-11T00:32:30.109351+00:00"
+    },
     "2171d22d662de2032bb4": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-22T15:00:45.146989+00:00"
     },
     "27bbb91c13fabb93dab9": {
       "status": "metadata_skipped",
-      "updated_at": "2026-07-21T16:01:33.095179+00:00"
+      "updated_at": "2026-08-11T00:26:14.106121+00:00"
     },
     "284118f7acc31f335c77": {
       "status": "metadata_skipped",
@@ -278,6 +345,14 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://colossus.com/episode/how-to-raise-a-few-billion-dollars/",
       "updated_at": "2026-07-15T19:29:17.932856+00:00"
+    },
+    "2a8b7a221853b0a80885": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.104816+00:00"
+    },
+    "2c2a4562f490a0d99d35": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.099809+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -464,6 +539,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.121875+00:00"
     },
+    "4dd695488cecd51af249": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.101844+00:00"
+    },
     "5407316ae797ccc74c42": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-04/alex-karp-live-from-aipcon-10-alex-karp-peter-zaffino-chad-wahlquist-sam-berry-5407316ae797ccc74c42/analysis.json",
       "error": "",
@@ -532,9 +611,17 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native-engineering/",
       "updated_at": "2026-07-13T09:23:36.151494+00:00"
     },
+    "574e5e2140b54af3a13e": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.104149+00:00"
+    },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-07-21T16:01:33.095975+00:00"
+      "updated_at": "2026-08-11T00:26:14.106807+00:00"
+    },
+    "5c9079babc96f680ea68": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.097382+00:00"
     },
     "5cfc3c40bbdee4ffbbb7": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-03/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectur-5cfc3c40bbdee4ffbbb7/analysis.json",
@@ -591,6 +678,10 @@
       "transcript_source_url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
       "updated_at": "2026-07-17T09:58:20.004379+00:00"
     },
+    "6403032f762611327866": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.103825+00:00"
+    },
     "64782ec72ea2e1cdbf5b": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-05-28/state-of-enterprise-ai-2026-aaron-levie-on-tokenmaxxing-rise-of-headless-and-ai-proofing-y-64782ec72ea2e1cdbf5b/analysis.json",
       "error": "",
@@ -631,7 +722,7 @@
     },
     "690ea092c6cda715494c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-07-21T16:01:33.094766+00:00"
+      "updated_at": "2026-08-11T00:26:14.105796+00:00"
     },
     "6a1dc2cc8ea8423a8728": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-08/ben-thompson-explains-the-xbox-disaster-6a1dc2cc8ea8423a8728/analysis.json",
@@ -650,9 +741,30 @@
       "transcript_source_url": "https://share.transistor.fm/s/d9234efb/transcription.txt",
       "updated_at": "2026-07-11T07:40:56.297797+00:00"
     },
+    "6aa71eeef3f1396798d4": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ep-023-everyone-leaves-google-elon-forecasts-1t-arr-reflecting-on-gpt-5-building-personali-6aa71eeef3f1396798d4/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--023---Everyone-Leaves-Google--Elon-Forecasts-1T-ARR--Reflecting-On-GPT-5--Building-Personalized-Software-Roundtable--Jon-Y--Doug-OLaughlin--Jordan-Nanos-e3n42p8",
+      "published": "2026-08-07T22:00:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ep-023-everyone-leaves-google-elon-forecasts-1t-arr-reflecting-on-gpt-5-building-personali-6aa71eeef3f1396798d4/transcript.txt",
+      "relevance_score": 0,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ep-023-everyone-leaves-google-elon-forecasts-1t-arr-reflecting-on-gpt-5-building-personali-6aa71eeef3f1396798d4/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ep-023-everyone-leaves-google-elon-forecasts-1t-arr-reflecting-on-gpt-5-building-personali-6aa71eeef3f1396798d4/summary.md",
+      "title": "Ep. 023 - Everyone Leaves Google, Elon Forecasts 1T ARR, Reflecting On GPT-5, Building Personalized Software (Roundtable) | Jon Y, Doug O'Laughlin, Jordan Nanos",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ep-023-everyone-leaves-google-elon-forecasts-1t-arr-reflecting-on-gpt-5-building-personali-6aa71eeef3f1396798d4/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
+      "updated_at": "2026-08-11T00:32:30.110344+00:00"
+    },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
-      "updated_at": "2026-07-21T16:01:33.094260+00:00"
+      "updated_at": "2026-08-11T00:26:14.105473+00:00"
+    },
+    "73944182fcc47ce6f950": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.100796+00:00"
     },
     "74005a3f3649b4c66c39": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-19/the-data-black-hole-at-the-center-of-ai-74005a3f3649b4c66c39/analysis.json",
@@ -836,6 +948,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/39ef732a/transcription.txt",
       "updated_at": "2026-07-14T08:05:02.750458+00:00"
     },
+    "8145e71dcf409bda4286": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--024---SpaceXs-10GW-Plan-Drives-300B-ARR-by-2027-Datacenter--Energy--Reyk-Knuhtsen--Jeremie-Eliahou-Ontiveros--Jordan-Nanos-e3n5srq",
+      "published": "2026-08-09T14:00:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/transcript.txt",
+      "relevance_score": 0,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/summary.md",
+      "title": "Ep. 024 - SpaceX's 10GW Plan Drives $300B ARR by 2027 (Datacenter, Energy) | Reyk Knuhtsen, Jeremie Eliahou Ontiveros, Jordan Nanos",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
+      "updated_at": "2026-08-11T00:32:30.111845+00:00"
+    },
     "837cff33e75593cdf629": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-02/how-nuclear-will-unlock-energy-abundance-with-valar-atomics-founder-isaiah-taylor-837cff33e75593cdf629/analysis.json",
       "error": "",
@@ -904,9 +1033,17 @@
       "transcript_source_url": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
       "updated_at": "2026-07-17T09:58:20.007078+00:00"
     },
+    "8539dfe2360731b556b3": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.100476+00:00"
+    },
+    "8889ec11851c90fa1eeb": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.100146+00:00"
+    },
     "8b05ac6e5eb0a316d785": {
       "status": "metadata_skipped",
-      "updated_at": "2026-07-21T16:01:33.092150+00:00"
+      "updated_at": "2026-08-11T00:26:14.105146+00:00"
     },
     "8bcfdf9db794a95c49e0": {
       "status": "metadata_skipped",
@@ -984,6 +1121,10 @@
       "transcript_source_url": "https://share.transistor.fm/s/e343af3e/transcription.txt",
       "updated_at": "2026-06-13T21:21:46.219903+00:00"
     },
+    "923d8b3f6ddc10477ed0": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.104478+00:00"
+    },
     "97fc858a8ee892504e58": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-09/ep-018-stop-saying-half-of-2026-us-datacenter-capacity-is-canceled-datacenter-energy-jerem-97fc858a8ee892504e58/analysis.json",
       "error": "",
@@ -1001,6 +1142,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-07-11T07:40:56.306966+00:00"
     },
+    "9a0cf4921142d3474545": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/era-of-continual-learning",
+      "published": "2026-08-07T17:17:40+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/summary.md",
+      "title": "8 Predictions for the Era of Continual Learning",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.dwarkesh.com/p/era-of-continual-learning",
+      "updated_at": "2026-08-11T00:32:30.113958+00:00"
+    },
     "a18c11e4c6f8d808e927": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-21/building-the-most-ai-pilled-engineering-team-in-the-world-fiona-fung-manager-of-the-claude-a18c11e4c6f8d808e927/analysis.json",
       "error": "",
@@ -1017,6 +1175,10 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
       "updated_at": "2026-06-21T15:50:40.949876+00:00"
+    },
+    "a1fa97f8e5a4ac29894b": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.103492+00:00"
     },
     "a2c0cde3ebd3d530c6ff": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-04/reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs-a2c0cde3ebd3d530c6ff/analysis.json",
@@ -1079,7 +1241,7 @@
     },
     "a76ba54f9400b5fcb583": {
       "status": "metadata_skipped",
-      "updated_at": "2026-07-21T16:01:33.095582+00:00"
+      "updated_at": "2026-08-11T00:26:14.106451+00:00"
     },
     "a8258499a51dd97972cd": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-04/openai-s-dan-roberts-why-ai-can-now-make-discoveries-a8258499a51dd97972cd/analysis.json",
@@ -1117,6 +1279,10 @@
     "aa6db6dbedd14ba69a21": {
       "status": "metadata_skipped",
       "updated_at": "2026-07-21T16:01:33.097192+00:00"
+    },
+    "acf76b632857e6bd388c": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.102171+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -1244,6 +1410,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/e066c7b5/transcription.txt",
       "updated_at": "2026-06-13T21:21:46.221714+00:00"
     },
+    "c652c75ffd98ddab73d6": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-29/ep-022-market-drawdown-historic-bubbles-funding-the-buildout-ai-politics-doug-is-back-c652c75ffd98ddab73d6/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--022---Market-Drawdown--Historic-Bubbles--Funding-The-Buildout--AI-Politics-Doug-is-Back-e3mngbv",
+      "published": "2026-07-29T20:59:20+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-07-29/ep-022-market-drawdown-historic-bubbles-funding-the-buildout-ai-politics-doug-is-back-c652c75ffd98ddab73d6/transcript.txt",
+      "relevance_score": 0,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-29/ep-022-market-drawdown-historic-bubbles-funding-the-buildout-ai-politics-doug-is-back-c652c75ffd98ddab73d6/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-29/ep-022-market-drawdown-historic-bubbles-funding-the-buildout-ai-politics-doug-is-back-c652c75ffd98ddab73d6/summary.md",
+      "title": "Ep. 022 - Market Drawdown, Historic Bubbles, Funding The Buildout, AI Politics (Doug is Back)",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-29/ep-022-market-drawdown-historic-bubbles-funding-the-buildout-ai-politics-doug-is-back-c652c75ffd98ddab73d6/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
+      "updated_at": "2026-08-11T00:32:30.115032+00:00"
+    },
     "c752e1f0326372f9c412": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-04/intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-device-native-foundati-c752e1f0326372f9c412/analysis.json",
       "error": "",
@@ -1277,6 +1460,10 @@
       "transcript_source": "rss_embedded_transcript",
       "transcript_source_url": "https://www.latent.space/p/satya-2026",
       "updated_at": "2026-06-09T16:09:24.221142+00:00"
+    },
+    "cbdc147dbc5c8789a2ac": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.099476+00:00"
     },
     "cd323cc4cc94a7625667": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-23/vlad-barbalat-investing-120-billion-in-permanent-capital-invest-like-the-best-ep-479-cd323cc4cc94a7625667/analysis.json",
@@ -1333,6 +1520,10 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/dean-ball-on-joining-openai-new-power-centers-frontier-ai-policy-main-character-energy/",
       "updated_at": "2026-06-20T17:49:23.071302+00:00"
     },
+    "cf64acb4fbc06b110da8": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.101162+00:00"
+    },
     "d101b0207adc80019ab2": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-01/ep-017-deepseek-v4-and-huawei-ascend-npu-performance-inferencex-kimbo-chen-cam-quilici-bry-d101b0207adc80019ab2/analysis.json",
       "error": "",
@@ -1350,9 +1541,30 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-07-11T07:40:56.308367+00:00"
     },
+    "d10d0841d82b71676fb6": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/how-to-build-long-horizon-ai-agents-mitch-troyanovsky-basis-d10d0841d82b71676fb6/analysis.json",
+      "error": "",
+      "feed_id": "mad-podcast",
+      "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/How-to-Build-Long-Horizon-AI-Agents--Mitch-Troyanovsky--Basis-e3n1s78",
+      "published": "2026-08-06T11:30:01+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/how-to-build-long-horizon-ai-agents-mitch-troyanovsky-basis-d10d0841d82b71676fb6/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/how-to-build-long-horizon-ai-agents-mitch-troyanovsky-basis-d10d0841d82b71676fb6/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/how-to-build-long-horizon-ai-agents-mitch-troyanovsky-basis-d10d0841d82b71676fb6/summary.md",
+      "title": "How to Build Long-Horizon AI Agents \u2014 Mitch Troyanovsky, Basis",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/how-to-build-long-horizon-ai-agents-mitch-troyanovsky-basis-d10d0841d82b71676fb6/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=54pwkcp48Lg",
+      "updated_at": "2026-08-11T00:32:30.116771+00:00"
+    },
     "d128c93af3329aa47c6a": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.120828+00:00"
+    },
+    "d2fce60180d7428cf10d": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.102494+00:00"
     },
     "d496c678af05e528a106": {
       "status": "metadata_skipped",
@@ -1446,6 +1658,10 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.cognitiverevolution.ai/alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p-doom-is-down-to-5/",
       "updated_at": "2026-07-12T12:38:23.927507+00:00"
+    },
+    "ec118b74c0bbd0b3d16f": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-11T00:26:14.102827+00:00"
     },
     "ec7e8956082eebfdc188": {
       "status": "metadata_skipped",

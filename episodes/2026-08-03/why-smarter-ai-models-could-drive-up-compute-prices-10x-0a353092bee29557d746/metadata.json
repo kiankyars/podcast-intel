@@ -1,0 +1,38 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/209664458/8c9917a2fbb3712135ff3b9d5736d797.mp3",
+  "description_html": "<p>This is a video recording of a post I wrote last week. If you want to read the original you can check it out <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive\">here</a>.</p><p>Thanks to <a target=\"_blank\" href=\"https://mercury.com/command\">Mercury</a> for sponsoring this video. <a target=\"_blank\" href=\"https://mercury.com/command\">Mercury\u2019s</a> built-in AI, Command, helps me close my books and saves me a bunch of time. At the end of each month, Command categorizes my transactions and provides its rationale for every choice: I just review, fix anything that\u2019s off, and approve... and then Mercury syncs everything to QuickBooks. Get started at <a target=\"_blank\" href=\"https://mercury.com/command\">mercury.com/command</a></p> <br/><br/>Get full access to Dwarkesh Podcast at <a href=\"https://www.dwarkesh.com/subscribe?utm_medium=podcast&#38;utm_campaign=CTA_4\">www.dwarkesh.com/subscribe</a>",
+  "description_text": "This is a video recording of a post I wrote last week. If you want to read the original you can check it out here .\n\nThanks to Mercury for sponsoring this video. Mercury\u2019s built-in AI, Command, helps me close my books and saves me a bunch of time. At the end of each month, Command categorizes my transactions and provides its rationale for every choice: I just review, fix anything that\u2019s off, and approve... and then Mercury syncs everything to QuickBooks. Get started at mercury.com/command\n\nGet full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+  "duration_seconds": 678,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "0a353092bee29557d746",
+  "link": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
+  "published": "2026-08-03T17:32:13+00:00",
+  "title": "Why smarter AI models could drive up compute prices 10x",
+  "transcript_source": "episode_page_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "here",
+      "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive"
+    },
+    {
+      "text": "Mercury",
+      "url": "https://mercury.com/command"
+    },
+    {
+      "text": "Mercury\u2019s",
+      "url": "https://mercury.com/command"
+    },
+    {
+      "text": "mercury.com/command",
+      "url": "https://mercury.com/command"
+    },
+    {
+      "text": "www.dwarkesh.com/subscribe",
+      "url": "https://www.dwarkesh.com/subscribe?utm_medium=podcast&utm_campaign=CTA_4"
+    }
+  ]
+}

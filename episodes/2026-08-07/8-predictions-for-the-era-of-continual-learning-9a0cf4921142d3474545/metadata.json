@@ -1,0 +1,26 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/210233020/686ae8afcbedeb0c29bb1f3d5ff3ce2e.mp3",
+  "description_html": "<p>Read the essay <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/era-of-continual-learning\">here</a>.</p> <br/><br/>Get full access to Dwarkesh Podcast at <a href=\"https://www.dwarkesh.com/subscribe?utm_medium=podcast&#38;utm_campaign=CTA_4\">www.dwarkesh.com/subscribe</a>",
+  "description_text": "Read the essay here .\n\nGet full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+  "duration_seconds": 517,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "9a0cf4921142d3474545",
+  "link": "https://www.dwarkesh.com/p/era-of-continual-learning",
+  "published": "2026-08-07T17:17:40+00:00",
+  "title": "8 Predictions for the Era of Continual Learning",
+  "transcript_source": "episode_page_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/era-of-continual-learning",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "here",
+      "url": "https://www.dwarkesh.com/p/era-of-continual-learning"
+    },
+    {
+      "text": "www.dwarkesh.com/subscribe",
+      "url": "https://www.dwarkesh.com/subscribe?utm_medium=podcast&utm_campaign=CTA_4"
+    }
+  ]
+}

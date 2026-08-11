@@ -1,0 +1,12 @@
+{
+  "changed_views": [],
+  "entities": [],
+  "follow_ups": [
+    "Obtain and verify a transcript whose title, guests, and discussion match episode 6aa71eeef3f1396798d4 before retrying analysis."
+  ],
+  "relevance_score": 0,
+  "signals": [],
+  "skip_reason": "The supplied transcript does not match the episode metadata: it introduces Dylan Nischbal, Ivan, and Shravan and discusses the great AI silicon shortage rather than Google departures, GPT-5, or personalized software.",
+  "summary": "No episode-specific analysis is possible because the supplied transcript is for a different SemiAnalysis Weekly episode about an AI silicon shortage, not the Google departures and personalized-software roundtable described by this item's metadata.",
+  "why_it_matters": "Using the mismatched transcript would misattribute other guests' claims to this episode and create false intelligence; a transcript that matches the episode metadata is required."
+}

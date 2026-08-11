@@ -1,0 +1,12 @@
+{
+  "changed_views": [],
+  "entities": [],
+  "follow_ups": [
+    "Re-ingest a transcript that matches episode c652c75ffd98ddab73d6, then rerun analysis."
+  ],
+  "relevance_score": 0,
+  "signals": [],
+  "skip_reason": "The supplied transcript does not match the episode metadata: it opens as an episode about the great AI silicon shortage and closes on fabs, silicon shortages, and optical-interconnect standards, while the listed episode is about a market drawdown, historic bubbles, funding, and AI politics.",
+  "summary": "No episode analysis is possible from the supplied evidence because the transcript is for a different SemiAnalysis Weekly episode about an AI silicon shortage and optical interconnects, not the listed market-drawdown episode.",
+  "why_it_matters": "Excluding the mismatched transcript prevents semiconductor supply-chain claims from being falsely attributed to this episode and contaminating the intelligence digest."
+}

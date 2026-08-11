@@ -112,3 +112,13 @@ GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and 
 ## 2026-07-20 - [The AI Cold War, Odyssey Rips, Tyler Cowen Joins | Danny Yeung, Connor Love, Kahlil Lalji, Tarek Mansour, Tony Zhao](https://share.transistor.fm/s/898ba371)
 
 - **Kalshi has launched an early GPU forward curve intended to turn compute-price expectations into a hedgeable market.** [02:00:06] CEO Tarek Mansour says Kalshi lists weekly GPU-price markets for the next four weeks and monthly markets thereafter using an index that aggregates transaction prices. He says the initial H200 curve is roughly flat, which he interprets as model and hardware innovation keeping pace with consumption, while acknowledging that the underlying benchmark is still being standardized.
+
+<!-- episode:0a353092bee29557d746 -->
+## 2026-08-03 - [Why smarter AI models could drive up compute prices 10x](https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video)
+
+- **Patel argues that annual AI-compute supply growth near 3x has limited room to accelerate and that leading-edge wafer reallocation will soon saturate.** He decomposes growth into about 1.4x from Moore's Law, 1.2x from new fabs constrained by EUV-tool supply through at least 2030, and 1.8x from reallocating leading-edge wafers; he expects AI's N3 share to rise from 60% to 86% by end-2027.
+
+<!-- episode:9a0cf4921142d3474545 -->
+## 2026-08-07 - [8 Predictions for the Era of Continual Learning](https://www.dwarkesh.com/p/era-of-continual-learning)
+
+- **Patel argues that full-weight personalization could make continual-learning inference far more economical for large organizations than for individuals.** His back-of-the-envelope estimate puts DeepSeek V3's efficient sparse-model batch above 2,400 concurrent sequences and suggests batch-one personalized serving could incur a compute-efficiency penalty exceeding 100x.

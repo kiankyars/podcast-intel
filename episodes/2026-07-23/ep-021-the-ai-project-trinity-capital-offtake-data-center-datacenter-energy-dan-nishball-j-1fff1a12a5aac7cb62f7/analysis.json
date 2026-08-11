@@ -1,0 +1,12 @@
+{
+  "changed_views": [],
+  "entities": [],
+  "follow_ups": [
+    "Re-ingest a transcript that matches episode 1fff1a12a5aac7cb62f7, then rerun analysis."
+  ],
+  "relevance_score": 0,
+  "signals": [],
+  "skip_reason": "The supplied transcript does not match the episode metadata: it opens as an episode about the great AI silicon shortage and closes on fabs, silicon shortages, and optical-interconnect standards, while the listed episode is about AI infrastructure capital, offtake agreements, debt financing, and data centers.",
+  "summary": "No episode analysis is possible from the supplied evidence because the transcript is for a different SemiAnalysis Weekly episode about an AI silicon shortage and optical interconnects, not the listed AI Project Trinity financing episode.",
+  "why_it_matters": "Excluding the mismatched transcript prevents semiconductor supply-chain claims from being falsely attributed to this episode and contaminating the intelligence digest."
+}

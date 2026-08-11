@@ -190,3 +190,19 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 ## 2026-07-20 - [The AI Cold War, Odyssey Rips, Tyler Cowen Joins | Danny Yeung, Connor Love, Kahlil Lalji, Tarek Mansour, Tony Zhao](https://share.transistor.fm/s/898ba371)
 
 - **Prenetics CEO Danny Yeung says IM8 reached $200 million of ARR within eighteen months and is financing continued acquisition through an unusually large retention-underwritten facility.** [01:31:26] Yeung says IM8 reached $100 million of ARR in eleven months and $200 million in eighteen, while General Catalyst committed up to $1 billion and funds about 70 cents of each marketing dollar; repayment comes from gross profit over roughly two to three months, with an approximately 3.5% charge when payback is under three months. He also says Prenetics owns 100% of IM8 and holds about $140 million in cash.
+
+<!-- episode:0a353092bee29557d746 -->
+## 2026-08-03 - [Why smarter AI models could drive up compute prices 10x](https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video)
+
+- **Patel argues that sustaining Anthropic's reported 10x annual revenue growth against roughly 3x annual lab-compute growth would require some combination of higher margins, more expensive compute, and a larger inference share.** He estimates Anthropic could end the year at $100-150 billion of revenue and notes that another 10x would imply $1 trillion the following year, explicitly presenting this as a capability-dependent scenario rather than a base-case fact.
+- **Patel predicts high compute prices would amplify the advantage of the most capable and compute-efficient frontier models.** At a hypothetical $20 per H100-hour, he argues that weaker models would waste costly tokens, allowing the best model to charge a larger premium and making it harder for revenue-free entrants to acquire compute and catch up.
+
+<!-- episode:9a0cf4921142d3474545 -->
+## 2026-08-07 - [8 Predictions for the Era of Continual Learning](https://www.dwarkesh.com/p/era-of-continual-learning)
+
+- **Patel expects labs to release their strongest models earlier because an internal-only period would forfeit valuable deployment learning.** He cites Anthropic using Mythos internally from February before a June public release and argues that a four-month gap would become a competitive learning disadvantage.
+
+<!-- episode:d10d0841d82b71676fb6 -->
+## 2026-08-06 - [How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis](https://podcasters.spotify.com/pod/show/firstmark/episodes/How-to-Build-Long-Horizon-AI-Agents--Mitch-Troyanovsky--Basis-e3n1s78)
+
+- **Troyanovsky expects model progress to absorb most current context-engineering harness work in more than two but fewer than five years, and therefore regards workflow ownership, customer embedding, and market share as durable moats rather than proprietary RL techniques.** [01:17:18] He says Basis cannot wait for the models to catch up, but explicitly describes its technical lead as a temporary opening to become deeply embedded in accounting-firm workflows before behavior specification becomes native model capability.

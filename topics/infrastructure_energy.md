@@ -89,3 +89,8 @@ Data centers, power, cooling, networking, capital expenditure, and physical cons
 ## 2026-07-16 - [🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences](https://www.latent.space/p/the-lab-of-the-future-should-feel)
 
 - **Lila is designing its lab as data-center-like infrastructure: instruments are graph nodes, automated transport acts as an interconnect, and experiments are dispatched through a queue, while humans remain below the API boundary when automation is uneconomic.** The source maps instruments, magnetic plate transport, and orchestration to nodes, a PCI-like bus, and a Slurm-style scheduler, emphasizing flexibility over maximum fixed-workflow throughput.
+
+<!-- episode:0a353092bee29557d746 -->
+## 2026-08-03 - [Why smarter AI models could drive up compute prices 10x](https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video)
+
+- **Patel says the secure, large-scale compute tranche frontier labs need is already priced well above headline spot markets.** He cites reports that Google pays SpaceX $900 million per month for 110,000 blended GB200 and GB300 GPUs, about twice spot pricing, while spot itself had risen more than 40% from its February trough.

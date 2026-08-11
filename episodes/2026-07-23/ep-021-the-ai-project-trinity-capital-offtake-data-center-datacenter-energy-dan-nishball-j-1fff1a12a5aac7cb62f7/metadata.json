@@ -1,0 +1,17 @@
+{
+  "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/123232977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-24%2F428563379-44100-2-1e21ebcb49a6c.mp3",
+  "description_html": "<p>AI and datacenter CapEx hits $11 trillion cumulatively from 2024 to 2029, and $7.1 trillion of that needs funding, roughly 75% debt financed. Dan Nishball (@dnishball), Zane Fong (linkedin.com/in/zanefongzq), and Kang Wen Cheang (linkedin.com/in/cheangkangwen) sit with Jordan Nanos (@JordanNanos) to break down the AI project Trinity: capital, offtake, and data centers. </p><p>Today only one deal reliably clears the lending bar, a five-year offtake from an investment-grade hyperscaler. Everything else struggles to finance.The crew explains how NVIDIA backstops are structured, how lenders price GPU loans against them, and what NVIDIA actually does with GPUs it takes back. AI debt financing is on track to become the second-largest US asset-backed market behind the $13 trillion mortgage market. Subscribe for weekly analysis on semiconductors and AI infrastructure.</p><p><br></p><p>References: https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes</p><p>CHAPTERS:</p><p>00:00 Intro|</p><p>01:23 The $11T Funding Problem</p><p>09:12 Startups Can&#39;t Get GPUs</p><p>11:32 How the Backstop Works</p><p>20:26 The Central Bank of AI</p><p>21:35 The Bullseye</p><p>26:23 CoreWeave Credit Spreads</p><p>36:58 APAC Examples</p><p>42:41 ClusterMax</p><p>48:58 Training vs Inference</p>",
+  "description_text": "AI and datacenter CapEx hits $11 trillion cumulatively from 2024 to 2029, and $7.1 trillion of that needs funding, roughly 75% debt financed. Dan Nishball (@dnishball), Zane Fong (linkedin.com/in/zanefongzq), and Kang Wen Cheang (linkedin.com/in/cheangkangwen) sit with Jordan Nanos (@JordanNanos) to break down the AI project Trinity: capital, offtake, and data centers.\n\nToday only one deal reliably clears the lending bar, a five-year offtake from an investment-grade hyperscaler. Everything else struggles to finance.The crew explains how NVIDIA backstops are structured, how lenders price GPU loans against them, and what NVIDIA actually does with GPUs it takes back. AI debt financing is on track to become the second-largest US asset-backed market behind the $13 trillion mortgage market. Subscribe for weekly analysis on semiconductors and AI infrastructure.\n\nReferences: https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes\n\nCHAPTERS:\n\n00:00 Intro|\n\n01:23 The $11T Funding Problem\n\n09:12 Startups Can't Get GPUs\n\n11:32 How the Backstop Works\n\n20:26 The Central Bank of AI\n\n21:35 The Bullseye\n\n26:23 CoreWeave Credit Spreads\n\n36:58 APAC Examples\n\n42:41 ClusterMax\n\n48:58 Training vs Inference",
+  "duration_seconds": 3160,
+  "feed_id": "semianalysis-weekly",
+  "feed_name": "SemiAnalysis Weekly",
+  "feed_priority": 10,
+  "id": "1fff1a12a5aac7cb62f7",
+  "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--021---The-AI-Project-Trinity-Capital--Offtake--Data-Center-Datacenter--Energy--Dan-Nishball--Jordan-Nanos--Zane-Fong--Kang-Wen-Cheang-e3mf98h",
+  "published": "2026-07-23T22:00:00+00:00",
+  "title": "Ep. 021 - The AI Project Trinity: Capital, Offtake, Data Center (Datacenter, Energy) | Dan Nishball, Jordan Nanos, Zane Fong, Kang Wen Cheang",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
+  "transcript_urls": [],
+  "web_links": []
+}

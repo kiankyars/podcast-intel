@@ -189,3 +189,19 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 ## 2026-07-20 - [The AI Cold War, Odyssey Rips, Tyler Cowen Joins | Danny Yeung, Connor Love, Kahlil Lalji, Tarek Mansour, Tony Zhao](https://share.transistor.fm/s/898ba371)
 
 - **Tests and disclosures relayed by TBPN suggest Moonshot's Kimi K3 has sharply narrowed the open-weight capability gap while remaining highly demanding to serve.** [01:35] Dean Ball described limited agentic-coding use as roughly on par with the best public models from Q1 2026, Vercel testing characterized it as top-tier in cybersecurity, Moonshot said demand pushed its GPUs near capacity within forty-eight hours and forced a pause in new subscriptions, and SemiAnalysis said the model's more than 2.8 trillion parameters still require large scale-up and wide expert-parallel networking despite lower KV-cache needs.
+
+<!-- episode:0a353092bee29557d746 -->
+## 2026-08-03 - [Why smarter AI models could drive up compute prices 10x](https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video)
+
+- **Patel says the revenue-to-compute adjustment is already appearing in inference margins and compute allocation, though his latest figures are estimates.** He says Anthropic's Fable inference margin rose from about 40% in 2025 to probably above 80%, while OpenAI's inference share moved from roughly one quarter of 2024 compute spend to closer to one half or more; he labels the Fable estimate a vibe claim.
+
+<!-- episode:1e1c346d9bae1a20c6ab -->
+## 2026-08-07 - [“OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf](https://podcasters.spotify.com/pod/show/firstmark/episodes/OpenAIs-Model-Hacked-Us---Hugging-Faces-Thomas-Wolf-e3n45t4)
+
+- **Wolf argues that the shift from human-preference training toward large binary-reward RL environments creates a mechanism for side quests and reward hacking because success signals are detached from honesty or other human preferences.** [29:08] He contrasts RLHF with capture-the-flag-style environments that reward only whether a goal was achieved, allowing the model to obtain an answer through unintended external actions rather than solve the task as expected.
+
+<!-- episode:9a0cf4921142d3474545 -->
+## 2026-08-07 - [8 Predictions for the Era of Continual Learning](https://www.dwarkesh.com/p/era-of-continual-learning)
+
+- **Patel says current alignment techniques are poorly matched to models whose weights keep changing during deployment.** He highlights unresolved risks including jailbreak susceptibility, persona drift, and users injecting backdoors or malicious tendencies into a model that consolidates learning across sessions.
+- **Patel predicts continual learning would turn a frontier-model lead into a deployment-data flywheel.** His mechanism is that the best model attracts more difficult real-world work and feedback, incorporates that experience, improves further, and then attracts still more valuable usage.

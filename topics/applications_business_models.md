@@ -234,3 +234,25 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 - **Sunday Robotics CEO Tony Zhao says scaled pretraining produced a laundry policy that combines 99.1% reliability with one-demonstration generalization.** [02:20:12] Zhao reports 785 autonomous folding attempts across diverse garments and says the policy transfers to unseen garments, beds, and deployment settings; after one demonstration it can apply a new folding method to an unseen shirt, with user-configurable behavior targeted for late 2026 or early 2027. He cautions that robotics success rates are meaningful only when the task scope and test-time adaptation budget are defined.
 - **Netflix says generative-AI workflows have already been used on roughly 300 titles in 2026, mainly in post-production.** [44:19] The hosts read Netflix's disclosure that creative partners are using the tools across concept, previsualization, post, and delivery; they cite seventeen minutes of AI-enhanced footage in The American Experiment that co-CEO Ted Sarandos said would not have been financially feasible through traditional production methods.
 - **Natural CEO Kahlil Lalji expects the default agent-payments platform to be determined within roughly twelve months and says most primitives for autonomous software purchasing are already live.** [01:51:57] Lalji says agents can hold balances, pay or request funds, and transfer money today, with remaining account-creation and purchase capabilities targeted for the end of Q3. After announcing a $30 million Series A, he frames the opportunity as a combined bank, payment processor, and network rather than a narrow Stripe competitor.
+
+<!-- episode:0a353092bee29557d746 -->
+## 2026-08-03 - [Why smarter AI models could drive up compute prices 10x](https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video)
+
+- **Patel forecasts that a human-level software engineer running on an H100-equivalent could support compute rent above $250,000 per year, roughly 15x current spot pricing.** He maps current software-engineer compensation onto one accelerator and argues that specialization and innovation could preserve high marginal labor value despite a large supply of AI workers, while acknowledging the shock may break that analogy.
+- **Patel expects sharply higher compute prices to displace low-value AI applications even as high-value labor substitution remains economical.** He uses short-form video generation as an example of demand that could be priced out once scarce accelerators can instead perform work valued near top human labor, while conceding that markets may find ways to economize the scarce input.
+
+<!-- episode:1e1c346d9bae1a20c6ab -->
+## 2026-08-07 - [“OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf](https://podcasters.spotify.com/pod/show/firstmark/episodes/OpenAIs-Model-Hacked-Us---Hugging-Faces-Thomas-Wolf-e3n45t4)
+
+- **Wolf says enterprises are increasingly routing work across model tiers to control token spending, using frontier models selectively and cheaper open models for simpler subtasks.** [33:47] He describes companies backing away from the idea of token spending equal to payroll, cites routed multi-model agent stacks, and says open-model inference providers are showing steep revenue growth as adoption expands.
+
+<!-- episode:9a0cf4921142d3474545 -->
+## 2026-08-07 - [8 Predictions for the Era of Continual Learning](https://www.dwarkesh.com/p/era-of-continual-learning)
+
+- **Patel predicts organization-specific continual learning would create substantial switching costs and give leading model providers a durable margin moat.** He compares changing providers after months of accumulated organizational learning to firing an experienced employee and retraining a new one from scratch.
+- **Patel expects labs to use pricing and model access to obtain rights to learn from economically valuable enterprise sessions.** He suggests providers could subsidize customers that permit training while withholding their best models from enterprises that refuse, although merging user-specific weight forks remains technically harder.
+
+<!-- episode:d10d0841d82b71676fb6 -->
+## 2026-08-06 - [How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis](https://podcasters.spotify.com/pod/show/firstmark/episodes/How-to-Build-Long-Horizon-AI-Agents--Mitch-Troyanovsky--Basis-e3n1s78)
+
+- **Basis and Braintrust have open-sourced a flexible behavior-spec standard and example judge, but Troyanovsky says full production coverage is currently uneconomic because each complete trajectory requires an expensive judge run.** [54:56] The repository provides Markdown examples and an example judge intended for observability platforms; he says better trajectory labeling and selective routing are needed before judges can inspect every production run.

@@ -1,0 +1,34 @@
+# How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis
+
+- Podcast: The MAD Podcast with Matt Turck
+- Published: 2026-08-06
+- Source: https://podcasters.spotify.com/pod/show/firstmark/episodes/How-to-Build-Long-Horizon-AI-Agents--Mitch-Troyanovsky--Basis-e3n1s78
+- Relevance: 5/5
+
+Basis co-founder Mitch Troyanovsky explains why long-horizon agents outside coding remain difficult: real workflows lack cheap runtime verification, clean ground truth, abundant training artifacts, and short feedback loops. Basis addresses this with process supervision: compact Markdown behavior specifications, trajectory-level judge agents, primary-source requirements, and carefully maintained context treated as runtime training data. Its tax workflows can span 20-plus human hours, 500-1,000 documents, and thousands of inference steps, making outcome-only evals too sparse to establish production reliability. Troyanovsky expects today's context-engineering harnesses to be absorbed by models in roughly two to five years, so he sees durable application-company value in distribution, workflow ownership, and deep customer embedding rather than proprietary agent tricks.
+
+**Why it matters:** This is a concrete architecture for deploying agents in consequential, weakly verifiable domains and a useful counterweight to benchmark-based claims of autonomy. It shifts the bottleneck from raw model intelligence to signal design, context quality, process observability, and organizational integration. For investors, the founder's explicit expectation that model improvements will commoditize much of the harness clarifies why near-term technical lead must be converted quickly into workflow and market-position moats.
+
+## Signals
+
+- **Troyanovsky argues that coding agents advanced first because code supplies cheap, local runtime feedback, while verifiable training rewards alone do not teach architecture, taste, or other subjective engineering quality.** [23:10] _agents_developer_tools; inference; high confidence._ An agent can immediately compile code and run tests inside its environment, but passing every test does not prove that the database, file boundaries, or application architecture are good.
+- **Basis's complex tax workflows can require 20-plus hours of human work, 500-1,000 source documents, and thousands of inference steps, creating sparse and delayed feedback that cannot be scaled like synthetic math or coding data.** [30:46] _agents_developer_tools; observation; high confidence._ Troyanovsky describes returns that require mapping hundreds of documents, research, large workbooks, multiple subagents, and sometimes parallel expert attempts, while privacy limits access to real completed returns.
+- **Troyanovsky says 100 passing outcome evals do not establish production reliability for a multi-thousand-step agent; process evidence such as consulting primary tax sources is necessary even when the final answer is correct.** [33:29] _agents_developer_tools; opinion; high confidence._ He compares outcome-only assurance to accepting software solely because tests pass and says an accounting firm should reject an agent that repeatedly gets the right answer from Wikipedia rather than authoritative tax code.
+- **Basis encodes desired cross-trajectory behavior in self-contained Markdown specifications that align product and domain experts, then uses an agentic judge to inspect whether the triggering condition occurred and whether the agent behaved correctly.** [37:39] _agents_developer_tools; observation; high confidence._ Accountants and applied ML researchers jointly author behaviors; the judge may need a trajectory map and subagent attribution across up to seven layers, making evaluation more expensive than a conventional scalar grader.
+- **Troyanovsky frames context as runtime training data and says Basis currently uses behavior-derived signals to improve context, tools, and the harness rather than update model weights.** [43:00] _agents_developer_tools; inference; high confidence._ Because inference-time context is orders of magnitude smaller than post-training data, he argues it can be curated for very high quality and improved with far less signal than formal reinforcement learning requires.
+- **Basis and Braintrust have open-sourced a flexible behavior-spec standard and example judge, but Troyanovsky says full production coverage is currently uneconomic because each complete trajectory requires an expensive judge run.** [54:56] _applications_business_models; observation; high confidence._ The repository provides Markdown examples and an example judge intended for observability platforms; he says better trajectory labeling and selective routing are needed before judges can inspect every production run.
+- **Troyanovsky expects model progress to absorb most current context-engineering harness work in more than two but fewer than five years, and therefore regards workflow ownership, customer embedding, and market share as durable moats rather than proprietary RL techniques.** [01:17:18] _companies_capital_allocation; forecast; medium confidence._ He says Basis cannot wait for the models to catch up, but explicitly describes its technical lead as a temporary opening to become deeply embedded in accounting-firm workflows before behavior specification becomes native model capability.
+
+## Changed Views Or Tensions
+
+- For consequential agents, outcome accuracy is insufficient evidence of reliability; source provenance and trajectory-level process adherence belong in the acceptance criteria.
+- Treat instructions, skills, and organizational context as performance-critical runtime training data with code-like ownership and canonical-source discipline.
+- A long-horizon agent's competitive advantage is likely temporary unless it is converted into customer workflow control, distribution, and operational embedding.
+- Judge cost and trajectory legibility are first-order scaling constraints for process supervision, not minor observability details.
+
+## Follow-Ups
+
+- Inspect the Basis-Braintrust behavior-spec repository and test whether its judge format cleanly represents provenance, rendering, and full-coverage requirements in existing agent workflows.
+- Ask Basis for production metrics that separate completed returns, human review time, correction rates, and behavior-judge failures across return complexity bands.
+- Track the cost per judged trajectory and whether labeling or map-based routing makes continuous production supervision economical.
+- Revisit the two-to-five-year harness-compression forecast as frontier models gain native long-horizon memory, process constraints, and self-improvement.
