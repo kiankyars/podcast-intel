@@ -1,0 +1,4427 @@
+{
+  "metadata": {
+    "date": "2026-04-20",
+    "id": "zrMYIhmuXEo",
+    "title": "Hardware-software codesign, with Clive Chan, Dylan Patel and Reiner Pope",
+    "channel": "MatX",
+    "duration": "30:58",
+    "url": "https://www.youtube.com/watch?v=zrMYIhmuXEo",
+    "fetched_at": "2026-05-21T19:28:50.953524+00:00",
+    "source_tool": "uv tool run youtube_transcript_api",
+    "language_preference": [
+      "en"
+    ]
+  },
+  "transcript": [
+    {
+      "text": "I'm I'm here with Clive and Riner. You",
+      "start": 0.0,
+      "duration": 2.96
+    },
+    {
+      "text": "two have both come over to my house",
+      "start": 1.68,
+      "duration": 3.119
+    },
+    {
+      "text": "often to talk about chips and hardware",
+      "start": 2.96,
+      "duration": 3.839
+    },
+    {
+      "text": "software codees, but for some reason",
+      "start": 4.799,
+      "duration": 3.521
+    },
+    {
+      "text": "James Hills decided to stick a camera in",
+      "start": 6.799,
+      "duration": 4.081
+    },
+    {
+      "text": "her face this time. Uh introduce",
+      "start": 8.32,
+      "duration": 3.92
+    },
+    {
+      "text": "yourselves.",
+      "start": 10.88,
+      "duration": 4.32
+    },
+    {
+      "text": ">> Yeah, I I'm Riner. I um I'm CEO at",
+      "start": 12.24,
+      "duration": 6.0
+    },
+    {
+      "text": "Maddox. Uh we we make chips for uh large",
+      "start": 15.2,
+      "duration": 4.72
+    },
+    {
+      "text": "language models. Um and then before",
+      "start": 18.24,
+      "duration": 4.48
+    },
+    {
+      "text": "that, I was doing um inference stack",
+      "start": 19.92,
+      "duration": 5.119
+    },
+    {
+      "text": "optimization at Google for for all.",
+      "start": 22.72,
+      "duration": 4.559
+    },
+    {
+      "text": ">> Yeah, it's great to be here. Uh I'm a",
+      "start": 25.039,
+      "duration": 3.681
+    },
+    {
+      "text": "guy on X that likes to talk about",
+      "start": 27.279,
+      "duration": 3.361
+    },
+    {
+      "text": "hardware and software code design.",
+      "start": 28.72,
+      "duration": 3.839
+    },
+    {
+      "text": ">> Yeah. So I think I think like one of the",
+      "start": 30.64,
+      "duration": 3.28
+    },
+    {
+      "text": "things you two have taught me a lot",
+      "start": 32.559,
+      "duration": 2.881
+    },
+    {
+      "text": "about is just this this whole hardware",
+      "start": 33.92,
+      "duration": 3.28
+    },
+    {
+      "text": "software design code space, right? So",
+      "start": 35.44,
+      "duration": 3.92
+    },
+    {
+      "text": "Riner, you wrote the Palm paper um and I",
+      "start": 37.2,
+      "duration": 3.6
+    },
+    {
+      "text": "thought that was the best paper of like",
+      "start": 39.36,
+      "duration": 3.6
+    },
+    {
+      "text": "23, maybe 22, I don't know when it came",
+      "start": 40.8,
+      "duration": 2.56
+    },
+    {
+      "text": "out, but",
+      "start": 42.96,
+      "duration": 1.68
+    },
+    {
+      "text": ">> we had to stop publishing after that.",
+      "start": 43.36,
+      "duration": 2.96
+    },
+    {
+      "text": ">> Yeah, that was the last paper that",
+      "start": 44.64,
+      "duration": 3.36
+    },
+    {
+      "text": "Google published that was like valuable.",
+      "start": 46.32,
+      "duration": 2.0
+    },
+    {
+      "text": ">> Yeah.",
+      "start": 48.0,
+      "duration": 3.2
+    },
+    {
+      "text": ">> In infra. Um",
+      "start": 48.32,
+      "duration": 4.079
+    },
+    {
+      "text": ">> Yeah. And I thought that was super",
+      "start": 51.2,
+      "duration": 2.8
+    },
+    {
+      "text": "interesting. And then and then Clive you",
+      "start": 52.399,
+      "duration": 3.201
+    },
+    {
+      "text": "you you know you worked on a number of",
+      "start": 54.0,
+      "duration": 4.0
+    },
+    {
+      "text": "really interesting things. Um and you're",
+      "start": 55.6,
+      "duration": 3.759
+    },
+    {
+      "text": "co-designing for a completely different",
+      "start": 58.0,
+      "duration": 2.719
+    },
+    {
+      "text": "space before.",
+      "start": 59.359,
+      "duration": 1.68
+    },
+    {
+      "text": ">> Yeah.",
+      "start": 60.719,
+      "duration": 2.801
+    },
+    {
+      "text": ">> Um what does what does code mean?",
+      "start": 61.039,
+      "duration": 6.001
+    },
+    {
+      "text": ">> So code design is when we can uh not",
+      "start": 63.52,
+      "duration": 7.36
+    },
+    {
+      "text": "only make the software better or the",
+      "start": 67.04,
+      "duration": 6.72
+    },
+    {
+      "text": "hardware better in isolation given just",
+      "start": 70.88,
+      "duration": 6.0
+    },
+    {
+      "text": "like a fixed workload or a fixed piece",
+      "start": 73.76,
+      "duration": 5.28
+    },
+    {
+      "text": "of hardware. uh we want to make both",
+      "start": 76.88,
+      "duration": 5.599
+    },
+    {
+      "text": "better and so we might want to uh change",
+      "start": 79.04,
+      "duration": 6.0
+    },
+    {
+      "text": "the hardware in a way that makes some",
+      "start": 82.479,
+      "duration": 5.361
+    },
+    {
+      "text": "sacrifices today that will beep rewards",
+      "start": 85.04,
+      "duration": 5.04
+    },
+    {
+      "text": "in the future once we can design for",
+      "start": 87.84,
+      "duration": 4.639
+    },
+    {
+      "text": "that future hardware. The thing that",
+      "start": 90.08,
+      "duration": 5.12
+    },
+    {
+      "text": "always confuses me is like uh when",
+      "start": 92.479,
+      "duration": 6.241
+    },
+    {
+      "text": "you're doing code design um what exactly",
+      "start": 95.2,
+      "duration": 4.8
+    },
+    {
+      "text": "are you doing right like you know like",
+      "start": 98.72,
+      "duration": 2.8
+    },
+    {
+      "text": "it's like oh are you just changing the",
+      "start": 100.0,
+      "duration": 3.92
+    },
+    {
+      "text": "shapes of the map moles or like are you",
+      "start": 101.52,
+      "duration": 4.08
+    },
+    {
+      "text": "like what what what kind of",
+      "start": 103.92,
+      "duration": 4.239
+    },
+    {
+      "text": "optimizations even exist in this space I",
+      "start": 105.6,
+      "duration": 5.12
+    },
+    {
+      "text": "mean I think like first thing is like",
+      "start": 108.159,
+      "duration": 4.401
+    },
+    {
+      "text": "the sacrifice is is the key point right",
+      "start": 110.72,
+      "duration": 4.56
+    },
+    {
+      "text": "like uh what is a typical ML research",
+      "start": 112.56,
+      "duration": 4.96
+    },
+    {
+      "text": "paper it's uh I've made some change to",
+      "start": 115.28,
+      "duration": 4.32
+    },
+    {
+      "text": "my model architecture um and therefore",
+      "start": 117.52,
+      "duration": 3.36
+    },
+    {
+      "text": "all the metrics look better as a result",
+      "start": 119.6,
+      "duration": 3.119
+    },
+    {
+      "text": "like that's the architecture thing. Um",
+      "start": 120.88,
+      "duration": 3.36
+    },
+    {
+      "text": "you can do that without code design.",
+      "start": 122.719,
+      "duration": 3.44
+    },
+    {
+      "text": "That is just ML research. It becomes",
+      "start": 124.24,
+      "duration": 4.159
+    },
+    {
+      "text": "code design when you say um actually",
+      "start": 126.159,
+      "duration": 3.921
+    },
+    {
+      "text": "some of these metrics are getting worse.",
+      "start": 128.399,
+      "duration": 4.161
+    },
+    {
+      "text": "Um but that's because these are metrics",
+      "start": 130.08,
+      "duration": 4.08
+    },
+    {
+      "text": "run on the current generation Nvidia",
+      "start": 132.56,
+      "duration": 5.84
+    },
+    {
+      "text": "GPU. Um and so uh maybe I should look at",
+      "start": 134.16,
+      "duration": 6.0
+    },
+    {
+      "text": "a slightly more generalized metric like",
+      "start": 138.4,
+      "duration": 4.559
+    },
+    {
+      "text": "what is the um the gate count of this of",
+      "start": 140.16,
+      "duration": 4.88
+    },
+    {
+      "text": "this architecture or what is the uh",
+      "start": 142.959,
+      "duration": 3.681
+    },
+    {
+      "text": "energy cost of this architecture? What's",
+      "start": 145.04,
+      "duration": 4.08
+    },
+    {
+      "text": "the intelligence per pickle um of this",
+      "start": 146.64,
+      "duration": 4.8
+    },
+    {
+      "text": "thing? Um",
+      "start": 149.12,
+      "duration": 3.68
+    },
+    {
+      "text": "and then so if you look at that more",
+      "start": 151.44,
+      "duration": 4.0
+    },
+    {
+      "text": "generalized um metric I think uh that",
+      "start": 152.8,
+      "duration": 4.079
+    },
+    {
+      "text": "sort of starts to approach giving you",
+      "start": 155.44,
+      "duration": 2.799
+    },
+    {
+      "text": "the flexibility to make all of the",
+      "start": 156.879,
+      "duration": 2.481
+    },
+    {
+      "text": "changes across the stack rather than",
+      "start": 158.239,
+      "duration": 2.561
+    },
+    {
+      "text": "just localized to the current generation",
+      "start": 159.36,
+      "duration": 4.56
+    },
+    {
+      "text": "of GPUs. So I think like very simple",
+      "start": 160.8,
+      "duration": 6.88
+    },
+    {
+      "text": "things are uh to take a case study like",
+      "start": 163.92,
+      "duration": 5.12
+    },
+    {
+      "text": "if you look at the difference between a",
+      "start": 167.68,
+      "duration": 4.24
+    },
+    {
+      "text": "swish activation function um evaluating",
+      "start": 169.04,
+      "duration": 5.76
+    },
+    {
+      "text": "uh swish requires um evaluating some",
+      "start": 171.92,
+      "duration": 5.84
+    },
+    {
+      "text": "exponential functions those require um",
+      "start": 174.8,
+      "duration": 4.48
+    },
+    {
+      "text": "function lookup tables polinomial",
+      "start": 177.76,
+      "duration": 3.199
+    },
+    {
+      "text": "approximations um there's a lot of",
+      "start": 179.28,
+      "duration": 3.28
+    },
+    {
+      "text": "multipliers in them uh can be quite",
+      "start": 180.959,
+      "duration": 4.0
+    },
+    {
+      "text": "energy intensive at the other extreme is",
+      "start": 182.56,
+      "duration": 4.399
+    },
+    {
+      "text": "to say relu is kind of the simplest uh",
+      "start": 184.959,
+      "duration": 4.401
+    },
+    {
+      "text": "activation function at all compared to",
+      "start": 186.959,
+      "duration": 4.241
+    },
+    {
+      "text": "uh greater than zero is extremely simple",
+      "start": 189.36,
+      "duration": 5.36
+    },
+    {
+      "text": "to weight um and so maybe it's cheaper",
+      "start": 191.2,
+      "duration": 5.84
+    },
+    {
+      "text": "in hardware to do uh to use relu rather",
+      "start": 194.72,
+      "duration": 4.879
+    },
+    {
+      "text": "than swish um but maybe it's worse in in",
+      "start": 197.04,
+      "duration": 4.88
+    },
+    {
+      "text": "model quality and then now your question",
+      "start": 199.599,
+      "duration": 4.321
+    },
+    {
+      "text": "is which one should I use um I want to",
+      "start": 201.92,
+      "duration": 5.44
+    },
+    {
+      "text": "do that on the basis of me um uh energy",
+      "start": 203.92,
+      "duration": 5.36
+    },
+    {
+      "text": "cost rather than rather than what one's",
+      "start": 207.36,
+      "duration": 4.0
+    },
+    {
+      "text": "faster on GPU the the example I'd love",
+      "start": 209.28,
+      "duration": 5.28
+    },
+    {
+      "text": "to give is uh you can always make your",
+      "start": 211.36,
+      "duration": 5.92
+    },
+    {
+      "text": "systolic array or tensor core wider uh",
+      "start": 214.56,
+      "duration": 5.679
+    },
+    {
+      "text": "in order to get more arithmetic into one",
+      "start": 217.28,
+      "duration": 6.319
+    },
+    {
+      "text": "place Um, but a lot of models are just",
+      "start": 220.239,
+      "duration": 6.56
+    },
+    {
+      "text": "not that wide. So if you increase the",
+      "start": 223.599,
+      "duration": 4.64
+    },
+    {
+      "text": "the size of the tensor corn, you're not",
+      "start": 226.799,
+      "duration": 3.681
+    },
+    {
+      "text": "going to get any faster execution of",
+      "start": 228.239,
+      "duration": 5.28
+    },
+    {
+      "text": "that model. But if you tell the ML",
+      "start": 230.48,
+      "duration": 4.72
+    },
+    {
+      "text": "researchers,",
+      "start": 233.519,
+      "duration": 3.521
+    },
+    {
+      "text": "make the model wider. I know it's like",
+      "start": 235.2,
+      "duration": 4.72
+    },
+    {
+      "text": "not completely efficient for ML, but in",
+      "start": 237.04,
+      "duration": 4.559
+    },
+    {
+      "text": "net once you also account for the",
+      "start": 239.92,
+      "duration": 3.76
+    },
+    {
+      "text": "hardware efficiency gains, it will be",
+      "start": 241.599,
+      "duration": 2.401
+    },
+    {
+      "text": "better.",
+      "start": 243.68,
+      "duration": 2.16
+    },
+    {
+      "text": ">> I mean, why not massively wide like one",
+      "start": 244.0,
+      "duration": 3.599
+    },
+    {
+      "text": "layer uh 10 million wide or something",
+      "start": 245.84,
+      "duration": 3.679
+    },
+    {
+      "text": "like that? Well, if if you can build a",
+      "start": 247.599,
+      "duration": 6.161
+    },
+    {
+      "text": "10 million wide uh tensor core that can",
+      "start": 249.519,
+      "duration": 9.44
+    },
+    {
+      "text": "run at the same power as a uh 128 wide",
+      "start": 253.76,
+      "duration": 7.28
+    },
+    {
+      "text": "tensor core, like obviously that's",
+      "start": 258.959,
+      "duration": 5.121
+    },
+    {
+      "text": "that's the right choice to make, but",
+      "start": 261.04,
+      "duration": 5.04
+    },
+    {
+      "text": "obviously that's not possible. So, so a",
+      "start": 264.08,
+      "duration": 3.6
+    },
+    {
+      "text": "bit of a philosophical question, right?",
+      "start": 266.08,
+      "duration": 4.0
+    },
+    {
+      "text": "You see papers like um let's say deepse",
+      "start": 267.68,
+      "duration": 4.64
+    },
+    {
+      "text": "v3 their attention mechanism was the",
+      "start": 270.08,
+      "duration": 4.0
+    },
+    {
+      "text": "first one at least of a public paper",
+      "start": 272.32,
+      "duration": 3.52
+    },
+    {
+      "text": "where the arithmetic intensity was",
+      "start": 274.08,
+      "duration": 3.6
+    },
+    {
+      "text": "equivalent to that of hopper right in",
+      "start": 275.84,
+      "duration": 3.12
+    },
+    {
+      "text": "terms of how many memory how much memory",
+      "start": 277.68,
+      "duration": 2.88
+    },
+    {
+      "text": "bandwidth versus compute for the",
+      "start": 278.96,
+      "duration": 4.0
+    },
+    {
+      "text": "attention mechanism um you look at",
+      "start": 280.56,
+      "duration": 3.919
+    },
+    {
+      "text": "certain papers from other Chinese labs",
+      "start": 282.96,
+      "duration": 3.44
+    },
+    {
+      "text": "where they're like uh I think I think",
+      "start": 284.479,
+      "duration": 3.601
+    },
+    {
+      "text": "like gen on genen I don't remember which",
+      "start": 286.4,
+      "duration": 2.96
+    },
+    {
+      "text": "lab it was it might have been Alibaba it",
+      "start": 288.08,
+      "duration": 2.64
+    },
+    {
+      "text": "might have been someone else but genon",
+      "start": 289.36,
+      "duration": 3.2
+    },
+    {
+      "text": "the architecture was like very similar",
+      "start": 290.72,
+      "duration": 3.44
+    },
+    {
+      "text": "except they went from like 100 layers to",
+      "start": 292.56,
+      "duration": 3.199
+    },
+    {
+      "text": "like 70 layers and that just made",
+      "start": 294.16,
+      "duration": 4.479
+    },
+    {
+      "text": "inference like 20% % faster, right? Um,",
+      "start": 295.759,
+      "duration": 4.241
+    },
+    {
+      "text": "are these co-designes because they're",
+      "start": 298.639,
+      "duration": 2.801
+    },
+    {
+      "text": "not really influencing the hardware.",
+      "start": 300.0,
+      "duration": 2.56
+    },
+    {
+      "text": "They're kind of looking at the hardware",
+      "start": 301.44,
+      "duration": 2.8
+    },
+    {
+      "text": "and the confines that it has and and",
+      "start": 302.56,
+      "duration": 3.359
+    },
+    {
+      "text": "then making their model fit that",
+      "start": 304.24,
+      "duration": 3.76
+    },
+    {
+      "text": "hardware really well. Um,",
+      "start": 305.919,
+      "duration": 4.081
+    },
+    {
+      "text": ">> I think a lot of people call a lot of",
+      "start": 308.0,
+      "duration": 4.639
+    },
+    {
+      "text": "things codeesign. Uh, but in",
+      "start": 310.0,
+      "duration": 5.28
+    },
+    {
+      "text": ">> no true Scotsman is this.",
+      "start": 312.639,
+      "duration": 4.56
+    },
+    {
+      "text": "Yeah, I think in our in both of our",
+      "start": 315.28,
+      "duration": 5.919
+    },
+    {
+      "text": "narrow views, uh codeesign means that um",
+      "start": 317.199,
+      "duration": 6.641
+    },
+    {
+      "text": "instead of designing your model",
+      "start": 321.199,
+      "duration": 3.84
+    },
+    {
+      "text": "specifically for the hardware",
+      "start": 323.84,
+      "duration": 3.52
+    },
+    {
+      "text": "capabilities like Deepseek has done very",
+      "start": 325.039,
+      "duration": 7.361
+    },
+    {
+      "text": "well, uh or designing your hardware for",
+      "start": 327.36,
+      "duration": 7.279
+    },
+    {
+      "text": "uh models, which Nvidia has done very",
+      "start": 332.4,
+      "duration": 4.639
+    },
+    {
+      "text": "well, you're looking at both at the same",
+      "start": 334.639,
+      "duration": 4.56
+    },
+    {
+      "text": "time and you're trading things off where",
+      "start": 337.039,
+      "duration": 3.921
+    },
+    {
+      "text": "you might actually make a sacrifice on",
+      "start": 339.199,
+      "duration": 4.0
+    },
+    {
+      "text": "model quality in order in order to get",
+      "start": 340.96,
+      "duration": 3.36
+    },
+    {
+      "text": "much more efficient hardware",
+      "start": 343.199,
+      "duration": 3.44
+    },
+    {
+      "text": "utilization. or the other way around",
+      "start": 344.32,
+      "duration": 4.56
+    },
+    {
+      "text": "such that end to end you're doing",
+      "start": 346.639,
+      "duration": 2.801
+    },
+    {
+      "text": "better.",
+      "start": 348.88,
+      "duration": 2.56
+    },
+    {
+      "text": ">> It it seems to be and maybe just from",
+      "start": 349.44,
+      "duration": 5.039
+    },
+    {
+      "text": "the definition of it uh you get hardware",
+      "start": 351.44,
+      "duration": 5.52
+    },
+    {
+      "text": "companies that do code design um pure",
+      "start": 354.479,
+      "duration": 4.881
+    },
+    {
+      "text": "model companies maybe less so or you",
+      "start": 356.96,
+      "duration": 3.44
+    },
+    {
+      "text": "know what's your read on that?",
+      "start": 359.36,
+      "duration": 3.52
+    },
+    {
+      "text": ">> I mean you know a public example is",
+      "start": 360.4,
+      "duration": 4.72
+    },
+    {
+      "text": "Trevor's eye he posted a tweet uh",
+      "start": 362.88,
+      "duration": 4.08
+    },
+    {
+      "text": "screenshotting an image of an email and",
+      "start": 365.12,
+      "duration": 4.32
+    },
+    {
+      "text": "that email was like hey here's what we",
+      "start": 366.96,
+      "duration": 5.04
+    },
+    {
+      "text": "want for hover next to Nvidia. Yeah. Um",
+      "start": 369.44,
+      "duration": 4.72
+    },
+    {
+      "text": "and Nvidia did implement many of these",
+      "start": 372.0,
+      "duration": 4.56
+    },
+    {
+      "text": "things. Um I don't know what amount but",
+      "start": 374.16,
+      "duration": 4.319
+    },
+    {
+      "text": "they did implement some of these things",
+      "start": 376.56,
+      "duration": 5.6
+    },
+    {
+      "text": "and then they released GPT 5.3 codeex um",
+      "start": 378.479,
+      "duration": 5.361
+    },
+    {
+      "text": "X high. Is there are there more are",
+      "start": 382.16,
+      "duration": 4.8
+    },
+    {
+      "text": "there more words after? Is it just any",
+      "start": 383.84,
+      "duration": 3.76
+    },
+    {
+      "text": "of the numbers?",
+      "start": 386.96,
+      "duration": 2.4
+    },
+    {
+      "text": ">> Yeah. Um anyways, you know, they",
+      "start": 387.6,
+      "duration": 2.879
+    },
+    {
+      "text": "released this model and they say it's",
+      "start": 389.36,
+      "duration": 3.04
+    },
+    {
+      "text": "co-designed with black belt. Is that is",
+      "start": 390.479,
+      "duration": 4.081
+    },
+    {
+      "text": "that an example of a model lab",
+      "start": 392.4,
+      "duration": 3.68
+    },
+    {
+      "text": ">> with someone else's external hardware?",
+      "start": 394.56,
+      "duration": 2.72
+    },
+    {
+      "text": "Yeah, seems like",
+      "start": 396.08,
+      "duration": 1.92
+    },
+    {
+      "text": ">> Yeah.",
+      "start": 397.28,
+      "duration": 3.52
+    },
+    {
+      "text": ">> Um I think I think you do often kind of",
+      "start": 398.0,
+      "duration": 4.8
+    },
+    {
+      "text": "get these ping-pong relationships where",
+      "start": 400.8,
+      "duration": 3.76
+    },
+    {
+      "text": "you get feedback from from the model",
+      "start": 402.8,
+      "duration": 2.8
+    },
+    {
+      "text": "designers and then the hardware",
+      "start": 404.56,
+      "duration": 2.24
+    },
+    {
+      "text": "designers implement it and then the",
+      "start": 405.6,
+      "duration": 2.719
+    },
+    {
+      "text": "hardware comes back and then the model",
+      "start": 406.8,
+      "duration": 3.04
+    },
+    {
+      "text": "designers get to take a look at it and",
+      "start": 408.319,
+      "duration": 3.201
+    },
+    {
+      "text": "then feedback kind of ping pongs back",
+      "start": 409.84,
+      "duration": 5.6
+    },
+    {
+      "text": "and forth. Uh but uh maybe the larger",
+      "start": 411.52,
+      "duration": 5.44
+    },
+    {
+      "text": "ambition there is that we can look at",
+      "start": 415.44,
+      "duration": 3.44
+    },
+    {
+      "text": "both at the same time. How do how do you",
+      "start": 416.96,
+      "duration": 3.519
+    },
+    {
+      "text": "do that when the ML researchers don't",
+      "start": 418.88,
+      "duration": 2.4
+    },
+    {
+      "text": "even know what they're going to work on",
+      "start": 420.479,
+      "duration": 3.521
+    },
+    {
+      "text": "in like six to nine months and you're",
+      "start": 421.28,
+      "duration": 4.88
+    },
+    {
+      "text": "like hardware time cycles like I just",
+      "start": 424.0,
+      "duration": 4.16
+    },
+    {
+      "text": "the one I just mentioned is three years.",
+      "start": 426.16,
+      "duration": 4.96
+    },
+    {
+      "text": ">> Yeah. I mean I would say like hardware",
+      "start": 428.16,
+      "duration": 5.039
+    },
+    {
+      "text": "designers kind of have to have to",
+      "start": 431.12,
+      "duration": 3.44
+    },
+    {
+      "text": "predict where the model researchers are",
+      "start": 433.199,
+      "duration": 4.161
+    },
+    {
+      "text": "going and like maybe take a um kind of",
+      "start": 434.56,
+      "duration": 4.16
+    },
+    {
+      "text": "squint on what their model researchers",
+      "start": 437.36,
+      "duration": 4.08
+    },
+    {
+      "text": "are doing. Like I I think there's like",
+      "start": 438.72,
+      "duration": 4.319
+    },
+    {
+      "text": "it's possible to look at trends for",
+      "start": 441.44,
+      "duration": 3.599
+    },
+    {
+      "text": "sure. recent trends, for example, seem",
+      "start": 443.039,
+      "duration": 4.72
+    },
+    {
+      "text": "to have been um hey look, Nvidia has a",
+      "start": 445.039,
+      "duration": 5.761
+    },
+    {
+      "text": "whole b bunch of um control resources on",
+      "start": 447.759,
+      "duration": 4.56
+    },
+    {
+      "text": "all of their ends. Maybe we can figure",
+      "start": 450.8,
+      "duration": 2.959
+    },
+    {
+      "text": "out interesting ways to use them and do",
+      "start": 452.319,
+      "duration": 3.921
+    },
+    {
+      "text": "something more dynamic. So like you can",
+      "start": 453.759,
+      "duration": 4.241
+    },
+    {
+      "text": "you can see people how they're",
+      "start": 456.24,
+      "duration": 3.44
+    },
+    {
+      "text": "responding to trends. I think longterm",
+      "start": 458.0,
+      "duration": 3.12
+    },
+    {
+      "text": "you can predict the model is going to be",
+      "start": 459.68,
+      "duration": 3.12
+    },
+    {
+      "text": "exactly this shake. That's hard to do.",
+      "start": 461.12,
+      "duration": 3.6
+    },
+    {
+      "text": "Um but we're going to use more of the",
+      "start": 462.8,
+      "duration": 3.2
+    },
+    {
+      "text": "resources that are available and less of",
+      "start": 464.72,
+      "duration": 2.56
+    },
+    {
+      "text": "the ones that aren't is is a pretty",
+      "start": 466.0,
+      "duration": 2.319
+    },
+    {
+      "text": "straightforward thing to predict. I",
+      "start": 467.28,
+      "duration": 1.84
+    },
+    {
+      "text": "would say",
+      "start": 468.319,
+      "duration": 2.0
+    },
+    {
+      "text": ">> one of the things I've heard from",
+      "start": 469.12,
+      "duration": 4.799
+    },
+    {
+      "text": "researchers and um is sort of some of",
+      "start": 470.319,
+      "duration": 4.961
+    },
+    {
+      "text": "these chips that seem quite well",
+      "start": 473.919,
+      "duration": 4.481
+    },
+    {
+      "text": "co-designed right uh they actually hate",
+      "start": 475.28,
+      "duration": 7.52
+    },
+    {
+      "text": "um so an example is like uh TPUv6e",
+      "start": 478.4,
+      "duration": 7.519
+    },
+    {
+      "text": "uh trillium I think is the public name",
+      "start": 482.8,
+      "duration": 5.04
+    },
+    {
+      "text": "uh ghost light is the name that everyone",
+      "start": 485.919,
+      "duration": 5.441
+    },
+    {
+      "text": "actually knows um but anyways it's very",
+      "start": 487.84,
+      "duration": 4.96
+    },
+    {
+      "text": "common for people from deep mind to be",
+      "start": 491.36,
+      "duration": 3.119
+    },
+    {
+      "text": "like oh this this chip is really weird",
+      "start": 492.8,
+      "duration": 3.839
+    },
+    {
+      "text": "because it's got like a terra oh sorry a",
+      "start": 494.479,
+      "duration": 5.12
+    },
+    {
+      "text": "pedaflop of compute and like 32 gigs of",
+      "start": 496.639,
+      "duration": 5.361
+    },
+    {
+      "text": "HPM. It's like quite a weird shape",
+      "start": 499.599,
+      "duration": 4.16
+    },
+    {
+      "text": "relative to the other chips at the time,",
+      "start": 502.0,
+      "duration": 4.4
+    },
+    {
+      "text": "right? It's got like 1/4 the HPM or",
+      "start": 503.759,
+      "duration": 4.88
+    },
+    {
+      "text": "something like that of a of a hopper and",
+      "start": 506.4,
+      "duration": 3.68
+    },
+    {
+      "text": "only half the flops. And if you look at",
+      "start": 508.639,
+      "duration": 3.441
+    },
+    {
+      "text": "real utilizable flops, it's it's like",
+      "start": 510.08,
+      "duration": 4.0
+    },
+    {
+      "text": "the same, right? It's it's quite a weird",
+      "start": 512.08,
+      "duration": 4.0
+    },
+    {
+      "text": "chip. It makes sense in in many",
+      "start": 514.08,
+      "duration": 3.759
+    },
+    {
+      "text": "contexts, but I guess a lot of",
+      "start": 516.08,
+      "duration": 4.079
+    },
+    {
+      "text": "researchers hate it because it confines",
+      "start": 517.839,
+      "duration": 3.841
+    },
+    {
+      "text": "where they can do the research. Is there",
+      "start": 520.159,
+      "duration": 4.0
+    },
+    {
+      "text": "a way code design can go wrong? I mean,",
+      "start": 521.68,
+      "duration": 4.0
+    },
+    {
+      "text": "I kind of think you want to make a chip",
+      "start": 524.159,
+      "duration": 3.36
+    },
+    {
+      "text": "that people do hate to some extent.",
+      "start": 525.68,
+      "duration": 5.279
+    },
+    {
+      "text": "Like, uh there there's",
+      "start": 527.519,
+      "duration": 5.44
+    },
+    {
+      "text": "people don't hate a chip if it's if it's",
+      "start": 530.959,
+      "duration": 5.361
+    },
+    {
+      "text": "got a very wide um basin uh of of",
+      "start": 532.959,
+      "duration": 4.801
+    },
+    {
+      "text": "operating points where it can work in",
+      "start": 536.32,
+      "duration": 3.36
+    },
+    {
+      "text": "well. Um and I think that actually means",
+      "start": 537.76,
+      "duration": 3.84
+    },
+    {
+      "text": "you've left some resources on the table.",
+      "start": 539.68,
+      "duration": 5.2
+    },
+    {
+      "text": "So, uh the like really you're looking",
+      "start": 541.6,
+      "duration": 5.76
+    },
+    {
+      "text": "for like you would like your model to",
+      "start": 544.88,
+      "duration": 4.0
+    },
+    {
+      "text": "use all of the resources at 100%",
+      "start": 547.36,
+      "duration": 5.84
+    },
+    {
+      "text": "efficiency um or 100% utilization. Um",
+      "start": 548.88,
+      "duration": 6.8
+    },
+    {
+      "text": "uh but if you can do that and sort of",
+      "start": 553.2,
+      "duration": 4.4
+    },
+    {
+      "text": "leave some slack around then maybe you",
+      "start": 555.68,
+      "duration": 3.2
+    },
+    {
+      "text": "could have typed something often that is",
+      "start": 557.6,
+      "duration": 2.56
+    },
+    {
+      "text": "make a memory smaller because your batch",
+      "start": 558.88,
+      "duration": 3.12
+    },
+    {
+      "text": "size were too large or or if you have",
+      "start": 560.16,
+      "duration": 3.119
+    },
+    {
+      "text": "multiple different ways to lay out a",
+      "start": 562.0,
+      "duration": 3.92
+    },
+    {
+      "text": "model on on the chip then um then",
+      "start": 563.279,
+      "duration": 4.24
+    },
+    {
+      "text": "probably there would have been one that",
+      "start": 565.92,
+      "duration": 2.72
+    },
+    {
+      "text": "was most efficient and the fact you",
+      "start": 567.519,
+      "duration": 3.041
+    },
+    {
+      "text": "could do other ones um is a missed",
+      "start": 568.64,
+      "duration": 5.6
+    },
+    {
+      "text": "opportunity. So, I mean, like I think",
+      "start": 570.56,
+      "duration": 5.68
+    },
+    {
+      "text": "it's a little glib to say that uh you",
+      "start": 574.24,
+      "duration": 4.0
+    },
+    {
+      "text": "want your users to hate you, but uh but",
+      "start": 576.24,
+      "duration": 3.2
+    },
+    {
+      "text": "to some extent they should work pretty",
+      "start": 578.24,
+      "duration": 2.88
+    },
+    {
+      "text": "hard to actually uh get the most out of",
+      "start": 579.44,
+      "duration": 3.76
+    },
+    {
+      "text": "the hardware. I mentioned like sort of",
+      "start": 581.12,
+      "duration": 4.719
+    },
+    {
+      "text": "one that's from perhaps your history. Uh",
+      "start": 583.2,
+      "duration": 4.079
+    },
+    {
+      "text": "maybe one that's also from perhaps your",
+      "start": 585.839,
+      "duration": 4.321
+    },
+    {
+      "text": "history is like, you know, the the dojo",
+      "start": 587.279,
+      "duration": 5.761
+    },
+    {
+      "text": "trips chips. RIP, right? Um sat sad",
+      "start": 590.16,
+      "duration": 4.799
+    },
+    {
+      "text": "they're uh cancelled and restarted.",
+      "start": 593.04,
+      "duration": 5.12
+    },
+    {
+      "text": "Maybe I heard restarted. Um",
+      "start": 594.959,
+      "duration": 5.201
+    },
+    {
+      "text": ">> they they are also like really weird,",
+      "start": 598.16,
+      "duration": 4.96
+    },
+    {
+      "text": "right? in terms of like um you know I",
+      "start": 600.16,
+      "duration": 4.32
+    },
+    {
+      "text": "guess it comes back to my question of",
+      "start": 603.12,
+      "duration": 3.76
+    },
+    {
+      "text": "like do people hate this right is is you",
+      "start": 604.48,
+      "duration": 3.52
+    },
+    {
+      "text": "know they're really really good at",
+      "start": 606.88,
+      "duration": 3.44
+    },
+    {
+      "text": "convolutional neuronet networks um",
+      "start": 608.0,
+      "duration": 3.68
+    },
+    {
+      "text": "there's like some really interesting",
+      "start": 610.32,
+      "duration": 3.04
+    },
+    {
+      "text": "data locality stuff but then like you",
+      "start": 611.68,
+      "duration": 3.2
+    },
+    {
+      "text": "have no memory bandwidth right like it's",
+      "start": 613.36,
+      "duration": 3.039
+    },
+    {
+      "text": "pretty bad um",
+      "start": 614.88,
+      "duration": 3.28
+    },
+    {
+      "text": ">> I mean one of the one of the interesting",
+      "start": 616.399,
+      "duration": 4.081
+    },
+    {
+      "text": "constraints of chips is that they are",
+      "start": 618.16,
+      "duration": 5.76
+    },
+    {
+      "text": "two-dimensional and you do actually have",
+      "start": 620.48,
+      "duration": 6.24
+    },
+    {
+      "text": "to confront this fact pretty actively",
+      "start": 623.92,
+      "duration": 5.76
+    },
+    {
+      "text": "when you're designing an ML chip um and",
+      "start": 626.72,
+      "duration": 5.44
+    },
+    {
+      "text": "that's why architectures like systolic",
+      "start": 629.68,
+      "duration": 4.56
+    },
+    {
+      "text": "arrays exist that are very naturally",
+      "start": 632.16,
+      "duration": 4.48
+    },
+    {
+      "text": "suited to a two-dimensional architecture",
+      "start": 634.24,
+      "duration": 5.2
+    },
+    {
+      "text": "whereas you also see architectures",
+      "start": 636.64,
+      "duration": 4.96
+    },
+    {
+      "text": "um many architectures that have like an",
+      "start": 639.44,
+      "duration": 6.399
+    },
+    {
+      "text": "L2 L1 cache that is that wants to be",
+      "start": 641.6,
+      "duration": 5.6
+    },
+    {
+      "text": "connected to all the different",
+      "start": 645.839,
+      "duration": 2.881
+    },
+    {
+      "text": "processors that are on the chip and",
+      "start": 647.2,
+      "duration": 4.8
+    },
+    {
+      "text": "that's maybe less suited to uh embedding",
+      "start": 648.72,
+      "duration": 4.96
+    },
+    {
+      "text": "into 2D",
+      "start": 652.0,
+      "duration": 4.72
+    },
+    {
+      "text": ">> I guess but but in some way right like",
+      "start": 653.68,
+      "duration": 5.04
+    },
+    {
+      "text": "you know Tesla's a huge buyer of GPUs",
+      "start": 656.72,
+      "duration": 4.239
+    },
+    {
+      "text": "right um they continue every you know",
+      "start": 658.72,
+      "duration": 3.52
+    },
+    {
+      "text": "six months or so announce a big deal",
+      "start": 660.959,
+      "duration": 3.041
+    },
+    {
+      "text": "with Nvidia. Um, of course they have",
+      "start": 662.24,
+      "duration": 4.64
+    },
+    {
+      "text": "their dojo chips. Um, sort of going back",
+      "start": 664.0,
+      "duration": 4.0
+    },
+    {
+      "text": "to the whole point of like you've",
+      "start": 666.88,
+      "duration": 4.56
+    },
+    {
+      "text": "constrained the user a lot, right? Um,",
+      "start": 668.0,
+      "duration": 5.04
+    },
+    {
+      "text": "maybe Dojo is not good at certain kinds",
+      "start": 671.44,
+      "duration": 4.079
+    },
+    {
+      "text": "of model architectures, right? uh is",
+      "start": 673.04,
+      "duration": 4.88
+    },
+    {
+      "text": "does that slow down? Is there is there a",
+      "start": 675.519,
+      "duration": 3.681
+    },
+    {
+      "text": "point where you co-design too much and",
+      "start": 677.92,
+      "duration": 3.28
+    },
+    {
+      "text": "now all of a sudden like you know you've",
+      "start": 679.2,
+      "duration": 5.44
+    },
+    {
+      "text": "left no flexibility on the table and you",
+      "start": 681.2,
+      "duration": 5.759
+    },
+    {
+      "text": "know you you've got you burned you know",
+      "start": 684.64,
+      "duration": 4.319
+    },
+    {
+      "text": "the architecture into the silicon and",
+      "start": 686.959,
+      "duration": 3.681
+    },
+    {
+      "text": "like you end up with like something that",
+      "start": 688.959,
+      "duration": 4.241
+    },
+    {
+      "text": "no one can use for modern stuff because",
+      "start": 690.64,
+      "duration": 5.04
+    },
+    {
+      "text": "ML research is moving way faster in",
+      "start": 693.2,
+      "duration": 3.92
+    },
+    {
+      "text": "different directions. Yeah, that's a",
+      "start": 695.68,
+      "duration": 4.08
+    },
+    {
+      "text": "challenge is that you have to as a",
+      "start": 697.12,
+      "duration": 3.839
+    },
+    {
+      "text": "hardware designer kind of predict the",
+      "start": 699.76,
+      "duration": 3.84
+    },
+    {
+      "text": "future and uh you don't know where the",
+      "start": 700.959,
+      "duration": 5.281
+    },
+    {
+      "text": "future is going to lead. Um I think the",
+      "start": 703.6,
+      "duration": 6.08
+    },
+    {
+      "text": "most reliable way to think about this is",
+      "start": 706.24,
+      "duration": 5.599
+    },
+    {
+      "text": "um just like when you're doing ML",
+      "start": 709.68,
+      "duration": 3.839
+    },
+    {
+      "text": "research, you are thinking about scaling",
+      "start": 711.839,
+      "duration": 4.0
+    },
+    {
+      "text": "loss and you're thinking about what is",
+      "start": 713.519,
+      "duration": 3.921
+    },
+    {
+      "text": "the",
+      "start": 715.839,
+      "duration": 3.361
+    },
+    {
+      "text": "how do I measure the direction that",
+      "start": 717.44,
+      "duration": 3.76
+    },
+    {
+      "text": "things are going so that I can launch a",
+      "start": 719.2,
+      "duration": 4.4
+    },
+    {
+      "text": "big run and then now we're thinking",
+      "start": 721.2,
+      "duration": 4.079
+    },
+    {
+      "text": "about it in terms of what is the",
+      "start": 723.6,
+      "duration": 3.359
+    },
+    {
+      "text": "direction things are going so that I can",
+      "start": 725.279,
+      "duration": 4.161
+    },
+    {
+      "text": "design a chip for where the models will",
+      "start": 726.959,
+      "duration": 2.801
+    },
+    {
+      "text": "be.",
+      "start": 729.44,
+      "duration": 1.68
+    },
+    {
+      "text": ">> And then the other thing you said is 2D",
+      "start": 729.76,
+      "duration": 3.68
+    },
+    {
+      "text": "which makes sense on a chip level. Racks",
+      "start": 731.12,
+      "duration": 3.6
+    },
+    {
+      "text": "are threedimensional though. So there's",
+      "start": 733.44,
+      "duration": 2.32
+    },
+    {
+      "text": "there's a point where that struck,",
+      "start": 734.72,
+      "duration": 1.359
+    },
+    {
+      "text": "right?",
+      "start": 735.76,
+      "duration": 0.879
+    },
+    {
+      "text": ">> That's true.",
+      "start": 736.079,
+      "duration": 1.041
+    },
+    {
+      "text": ">> Yeah,",
+      "start": 736.639,
+      "duration": 1.76
+    },
+    {
+      "text": ">> you can definitely come with some very",
+      "start": 737.12,
+      "duration": 2.959
+    },
+    {
+      "text": "interesting network topologies in in",
+      "start": 738.399,
+      "duration": 4.56
+    },
+    {
+      "text": "these racks. Uh there's the there's the",
+      "start": 740.079,
+      "duration": 9.041
+    },
+    {
+      "text": "Taurus for TPU famously. Uh there's um",
+      "start": 742.959,
+      "duration": 10.32
+    },
+    {
+      "text": "Nvidia has a I guess you would call it a",
+      "start": 749.12,
+      "duration": 6.0
+    },
+    {
+      "text": "flattened butterfly. Isn't it just",
+      "start": 753.279,
+      "duration": 3.36
+    },
+    {
+      "text": "switched old all?",
+      "start": 755.12,
+      "duration": 3.12
+    },
+    {
+      "text": ">> Yeah.",
+      "start": 756.639,
+      "duration": 2.961
+    },
+    {
+      "text": "All sorts of fancy names for the same",
+      "start": 758.24,
+      "duration": 4.32
+    },
+    {
+      "text": "thing. Um, what else is next generation",
+      "start": 759.6,
+      "duration": 5.44
+    },
+    {
+      "text": "TPUs have dragon flies.",
+      "start": 762.56,
+      "duration": 3.2
+    },
+    {
+      "text": ">> That's interesting.",
+      "start": 765.04,
+      "duration": 2.56
+    },
+    {
+      "text": ">> The traniums,",
+      "start": 765.76,
+      "duration": 3.199
+    },
+    {
+      "text": "I don't know what the hell you'd call",
+      "start": 767.6,
+      "duration": 3.6
+    },
+    {
+      "text": "their architecture. It's like sort of a",
+      "start": 768.959,
+      "duration": 4.241
+    },
+    {
+      "text": "Taurus. Now they've added switches, but",
+      "start": 771.2,
+      "duration": 3.6
+    },
+    {
+      "text": "there's like switches in different trays",
+      "start": 773.2,
+      "duration": 5.04
+    },
+    {
+      "text": "and like you can do all kind of, but",
+      "start": 774.8,
+      "duration": 6.479
+    },
+    {
+      "text": "like there's multiple. It's weird. Um,",
+      "start": 778.24,
+      "duration": 4.8
+    },
+    {
+      "text": "it makes sense. It makes sense though",
+      "start": 781.279,
+      "duration": 3.521
+    },
+    {
+      "text": "once you once you train an apple model.",
+      "start": 783.04,
+      "duration": 4.4
+    },
+    {
+      "text": "Yeah. Yeah, I guess I guess how does one",
+      "start": 784.8,
+      "duration": 4.4
+    },
+    {
+      "text": "like do you view it as just a spectrum",
+      "start": 787.44,
+      "duration": 3.28
+    },
+    {
+      "text": "of like I'm overoptimizing for a problem",
+      "start": 789.2,
+      "duration": 3.439
+    },
+    {
+      "text": "or not or how much of this is like the",
+      "start": 790.72,
+      "duration": 5.28
+    },
+    {
+      "text": "art of just like you know oh I think",
+      "start": 792.639,
+      "duration": 4.561
+    },
+    {
+      "text": "models will be there.",
+      "start": 796.0,
+      "duration": 2.88
+    },
+    {
+      "text": ">> I mean I would say part of it is just",
+      "start": 797.2,
+      "duration": 4.24
+    },
+    {
+      "text": "you're providing the raw materials. Um",
+      "start": 798.88,
+      "duration": 4.32
+    },
+    {
+      "text": "you have to figure out like I mean",
+      "start": 801.44,
+      "duration": 3.36
+    },
+    {
+      "text": "there's sort of a whole spectrum of",
+      "start": 803.2,
+      "duration": 2.879
+    },
+    {
+      "text": "where you can provide those raw",
+      "start": 804.8,
+      "duration": 3.839
+    },
+    {
+      "text": "materials. If you provide um ingredients",
+      "start": 806.079,
+      "duration": 4.88
+    },
+    {
+      "text": "that are too small like individual gates",
+      "start": 808.639,
+      "duration": 4.32
+    },
+    {
+      "text": "that's what an FPGA is. It's 10x less",
+      "start": 810.959,
+      "duration": 4.0
+    },
+    {
+      "text": "efficient than an XA. So don't do that.",
+      "start": 812.959,
+      "duration": 5.521
+    },
+    {
+      "text": "Um make the unit the grain size bigger.",
+      "start": 814.959,
+      "duration": 6.721
+    },
+    {
+      "text": "Um like systolic array as the grain",
+      "start": 818.48,
+      "duration": 4.799
+    },
+    {
+      "text": "size. Uh that's really pretty efficient",
+      "start": 821.68,
+      "duration": 4.32
+    },
+    {
+      "text": "at that point. Um uh and so pick the",
+      "start": 823.279,
+      "duration": 4.961
+    },
+    {
+      "text": "grain size appropriately. Um think about",
+      "start": 826.0,
+      "duration": 4.32
+    },
+    {
+      "text": "which fusions should be in place and are",
+      "start": 828.24,
+      "duration": 4.32
+    },
+    {
+      "text": "naturally there. So maybe some",
+      "start": 830.32,
+      "duration": 3.759
+    },
+    {
+      "text": "operations always get fused together and",
+      "start": 832.56,
+      "duration": 2.88
+    },
+    {
+      "text": "so you can have them as a bigger grain",
+      "start": 834.079,
+      "duration": 3.681
+    },
+    {
+      "text": "size. Um and then just try and expose",
+      "start": 835.44,
+      "duration": 4.56
+    },
+    {
+      "text": "those things uh with as little overhead",
+      "start": 837.76,
+      "duration": 5.28
+    },
+    {
+      "text": "as possible. Um, so I mean that's sort",
+      "start": 840.0,
+      "duration": 5.279
+    },
+    {
+      "text": "of just like a hardware ccentric",
+      "start": 843.04,
+      "duration": 3.68
+    },
+    {
+      "text": "approach to it. It's not really saying",
+      "start": 845.279,
+      "duration": 3.36
+    },
+    {
+      "text": "necessarily what are the models wanting",
+      "start": 846.72,
+      "duration": 3.28
+    },
+    {
+      "text": "and predicting what the models are, but",
+      "start": 848.639,
+      "duration": 3.44
+    },
+    {
+      "text": "it's just like the you can bound your",
+      "start": 850.0,
+      "duration": 4.079
+    },
+    {
+      "text": "downside by doing that. Like I'm giving",
+      "start": 852.079,
+      "duration": 3.601
+    },
+    {
+      "text": "you all the things. Maybe I don't give",
+      "start": 854.079,
+      "duration": 2.641
+    },
+    {
+      "text": "you as much of the things that I think",
+      "start": 855.68,
+      "duration": 2.32
+    },
+    {
+      "text": "you don't need, but mostly I'm giving",
+      "start": 856.72,
+      "duration": 2.88
+    },
+    {
+      "text": "you the raw materials to work with. So I",
+      "start": 858.0,
+      "duration": 4.72
+    },
+    {
+      "text": "think that's a pretty safe hedge. Um",
+      "start": 859.6,
+      "duration": 5.359
+    },
+    {
+      "text": "what you can do better than by taking it",
+      "start": 862.72,
+      "duration": 3.919
+    },
+    {
+      "text": "into account what you know about models",
+      "start": 864.959,
+      "duration": 5.601
+    },
+    {
+      "text": "is say well actually um so sure we know",
+      "start": 866.639,
+      "duration": 5.2
+    },
+    {
+      "text": "that multiply and add should always be",
+      "start": 870.56,
+      "duration": 3.36
+    },
+    {
+      "text": "fused together into fuse multiply add uh",
+      "start": 871.839,
+      "duration": 4.641
+    },
+    {
+      "text": "but maybe I also know something about um",
+      "start": 873.92,
+      "duration": 4.24
+    },
+    {
+      "text": "attention computations and I can take",
+      "start": 876.48,
+      "duration": 3.12
+    },
+    {
+      "text": "advantage of the fact that there's",
+      "start": 878.16,
+      "duration": 2.72
+    },
+    {
+      "text": "always a softmax there I can do",
+      "start": 879.6,
+      "duration": 2.64
+    },
+    {
+      "text": "something special for that and so on and",
+      "start": 880.88,
+      "duration": 4.56
+    },
+    {
+      "text": "so uh there's sort of a one angle on",
+      "start": 882.24,
+      "duration": 5.68
+    },
+    {
+      "text": "this is just say um bound your regret on",
+      "start": 885.44,
+      "duration": 4.959
+    },
+    {
+      "text": "on the hardware design uh with as much",
+      "start": 887.92,
+      "duration": 3.68
+    },
+    {
+      "text": "information as you're willing to use",
+      "start": 890.399,
+      "duration": 2.641
+    },
+    {
+      "text": "about generally what I know about",
+      "start": 891.6,
+      "duration": 1.76
+    },
+    {
+      "text": "models.",
+      "start": 893.04,
+      "duration": 4.0
+    },
+    {
+      "text": ">> Well, one of the areas where uh code",
+      "start": 893.36,
+      "duration": 6.64
+    },
+    {
+      "text": "design is is a little bit contentious is",
+      "start": 897.04,
+      "duration": 6.56
+    },
+    {
+      "text": "um the claim that uh you can specialize",
+      "start": 900.0,
+      "duration": 5.44
+    },
+    {
+      "text": "a lot for transformers",
+      "start": 903.6,
+      "duration": 4.64
+    },
+    {
+      "text": ">> and maybe even burn in the architecture",
+      "start": 905.44,
+      "duration": 5.92
+    },
+    {
+      "text": "in some sense. Um",
+      "start": 908.24,
+      "duration": 4.959
+    },
+    {
+      "text": "what do you think of that of the of the",
+      "start": 911.36,
+      "duration": 5.52
+    },
+    {
+      "text": "claim that you can get 3x 10x gains from",
+      "start": 913.199,
+      "duration": 4.961
+    },
+    {
+      "text": "specializes specifically for",
+      "start": 916.88,
+      "duration": 3.04
+    },
+    {
+      "text": "transformers? Pick the grains that",
+      "start": 918.16,
+      "duration": 4.239
+    },
+    {
+      "text": "you're working on. Um",
+      "start": 919.92,
+      "duration": 5.279
+    },
+    {
+      "text": "large matrix metifies is a very clear",
+      "start": 922.399,
+      "duration": 5.68
+    },
+    {
+      "text": "one. Um like grain size continues to",
+      "start": 925.199,
+      "duration": 4.561
+    },
+    {
+      "text": "give you returns. It they diminish for",
+      "start": 928.079,
+      "duration": 5.44
+    },
+    {
+      "text": "sure but um uh",
+      "start": 929.76,
+      "duration": 5.12
+    },
+    {
+      "text": "if you have lower precision matrix",
+      "start": 933.519,
+      "duration": 2.88
+    },
+    {
+      "text": "multiplies they diminished like they",
+      "start": 934.88,
+      "duration": 4.16
+    },
+    {
+      "text": "have diminished less than than if it uh",
+      "start": 936.399,
+      "duration": 5.281
+    },
+    {
+      "text": "like just your the uh denominator is",
+      "start": 939.04,
+      "duration": 4.32
+    },
+    {
+      "text": "larger or is smaller and so the the",
+      "start": 941.68,
+      "duration": 4.88
+    },
+    {
+      "text": "numerator becomes more important. Um",
+      "start": 943.36,
+      "duration": 5.52
+    },
+    {
+      "text": "uh and so I mean like what approach we",
+      "start": 946.56,
+      "duration": 5.68
+    },
+    {
+      "text": "take for example is just to say um major",
+      "start": 948.88,
+      "duration": 5.759
+    },
+    {
+      "text": "multiply and uh and some stuff in",
+      "start": 952.24,
+      "duration": 3.599
+    },
+    {
+      "text": "attention is is the place of",
+      "start": 954.639,
+      "duration": 3.44
+    },
+    {
+      "text": "specialization. Um but like don't take",
+      "start": 955.839,
+      "duration": 3.841
+    },
+    {
+      "text": "it all architecture to to appropriate",
+      "start": 958.079,
+      "duration": 2.721
+    },
+    {
+      "text": "size pieces.",
+      "start": 959.68,
+      "duration": 3.36
+    },
+    {
+      "text": ">> In uh you know Ilia's words right we're",
+      "start": 960.8,
+      "duration": 6.0
+    },
+    {
+      "text": "in the age of research. Um you know",
+      "start": 963.04,
+      "duration": 5.359
+    },
+    {
+      "text": "people are trying all sorts of crazy",
+      "start": 966.8,
+      "duration": 4.399
+    },
+    {
+      "text": "stuff. Um and I feel like two three",
+      "start": 968.399,
+      "duration": 4.641
+    },
+    {
+      "text": "years ago if you saw something that",
+      "start": 971.199,
+      "duration": 3.76
+    },
+    {
+      "text": "wasn't a transformer at least personally",
+      "start": 973.04,
+      "duration": 5.12
+    },
+    {
+      "text": "I ignored it. Um but now I see some of",
+      "start": 974.959,
+      "duration": 4.641
+    },
+    {
+      "text": "this like weird stuff and I'm like oh",
+      "start": 978.16,
+      "duration": 3.599
+    },
+    {
+      "text": "this is interesting. I still don't put",
+      "start": 979.6,
+      "duration": 3.84
+    },
+    {
+      "text": "much time into it but like I look at",
+      "start": 981.759,
+      "duration": 4.0
+    },
+    {
+      "text": "least look at it. Um, and if that's the",
+      "start": 983.44,
+      "duration": 3.839
+    },
+    {
+      "text": "case, right, you know, you know, as we",
+      "start": 985.759,
+      "duration": 4.401
+    },
+    {
+      "text": "move beyond transformers or at least you",
+      "start": 987.279,
+      "duration": 4.641
+    },
+    {
+      "text": "should have some as an as an AI lab,",
+      "start": 990.16,
+      "duration": 4.4
+    },
+    {
+      "text": "right, if you're an openthropic GDM, you",
+      "start": 991.92,
+      "duration": 4.0
+    },
+    {
+      "text": "should at least have some portion of",
+      "start": 994.56,
+      "duration": 5.92
+    },
+    {
+      "text": "your compute into highly flexible uh,",
+      "start": 995.92,
+      "duration": 7.279
+    },
+    {
+      "text": "compute, right? So, so as an example, um",
+      "start": 1000.48,
+      "duration": 4.56
+    },
+    {
+      "text": "TPUs aren't the best at like fine",
+      "start": 1003.199,
+      "duration": 5.041
+    },
+    {
+      "text": "grained like routing and dynamicism and",
+      "start": 1005.04,
+      "duration": 5.28
+    },
+    {
+      "text": "um the programming model at least is",
+      "start": 1008.24,
+      "duration": 3.76
+    },
+    {
+      "text": "pretty painful to do that especially if",
+      "start": 1010.32,
+      "duration": 3.439
+    },
+    {
+      "text": "you're just doing research and not like",
+      "start": 1012.0,
+      "duration": 3.839
+    },
+    {
+      "text": "doing real training or inference, right?",
+      "start": 1013.759,
+      "duration": 3.921
+    },
+    {
+      "text": "And so you see that with like you know",
+      "start": 1015.839,
+      "duration": 3.841
+    },
+    {
+      "text": "doing dynamic stuff with palace and",
+      "start": 1017.68,
+      "duration": 3.599
+    },
+    {
+      "text": "jacks and XLA is just a pain in the",
+      "start": 1019.68,
+      "duration": 4.639
+    },
+    {
+      "text": "butt. Um and on the other hand like GPUs",
+      "start": 1021.279,
+      "duration": 4.081
+    },
+    {
+      "text": "because they have all these small cores",
+      "start": 1024.319,
+      "duration": 3.12
+    },
+    {
+      "text": "are actually much better at this. Um and",
+      "start": 1025.36,
+      "duration": 4.079
+    },
+    {
+      "text": "so Google still has some GPUs for deep",
+      "start": 1027.439,
+      "duration": 4.48
+    },
+    {
+      "text": "mind. Uh, do you think that's like a",
+      "start": 1029.439,
+      "duration": 4.64
+    },
+    {
+      "text": "long-term state where every lab should",
+      "start": 1031.919,
+      "duration": 4.4
+    },
+    {
+      "text": "have at least some budget of like, hey,",
+      "start": 1034.079,
+      "duration": 3.84
+    },
+    {
+      "text": "screw it, let's let's do some like weird",
+      "start": 1036.319,
+      "duration": 3.281
+    },
+    {
+      "text": "wacko [ __ ] on the CPUs, too, right?",
+      "start": 1037.919,
+      "duration": 2.561
+    },
+    {
+      "text": "Like,",
+      "start": 1039.6,
+      "duration": 3.439
+    },
+    {
+      "text": ">> I mean, it depends on how much room",
+      "start": 1040.48,
+      "duration": 4.719
+    },
+    {
+      "text": "there is to to optimize. Uh, on the one",
+      "start": 1043.039,
+      "duration": 4.961
+    },
+    {
+      "text": "hand, you can argue that uh transformers",
+      "start": 1045.199,
+      "duration": 5.681
+    },
+    {
+      "text": "are kind of a they're sufficiently",
+      "start": 1048.0,
+      "duration": 5.28
+    },
+    {
+      "text": "general architecture that they're within",
+      "start": 1050.88,
+      "duration": 4.64
+    },
+    {
+      "text": "a small constant factor of whatever",
+      "start": 1053.28,
+      "duration": 3.519
+    },
+    {
+      "text": "possible thing you could possibly think",
+      "start": 1055.52,
+      "duration": 4.72
+    },
+    {
+      "text": "of. Um, or we could go the other way and",
+      "start": 1056.799,
+      "duration": 6.721
+    },
+    {
+      "text": "be like, well, the brain has neurons and",
+      "start": 1060.24,
+      "duration": 4.799
+    },
+    {
+      "text": "something something about the amount of",
+      "start": 1063.52,
+      "duration": 2.88
+    },
+    {
+      "text": "energy it takes to do something in a",
+      "start": 1065.039,
+      "duration": 4.961
+    },
+    {
+      "text": "neuron. Um, therefore, there's thousandx",
+      "start": 1066.4,
+      "duration": 4.8
+    },
+    {
+      "text": "gains if we just change the",
+      "start": 1070.0,
+      "duration": 3.36
+    },
+    {
+      "text": "architecture. And",
+      "start": 1071.2,
+      "duration": 3.68
+    },
+    {
+      "text": ">> this is this is what R's company are",
+      "start": 1073.36,
+      "duration": 3.199
+    },
+    {
+      "text": "doing, right? He's like he's like doing",
+      "start": 1074.88,
+      "duration": 3.2
+    },
+    {
+      "text": "code design from models all the way down",
+      "start": 1076.559,
+      "duration": 3.761
+    },
+    {
+      "text": "to hardware, but he's doing like crazy",
+      "start": 1078.08,
+      "duration": 3.28
+    },
+    {
+      "text": "analog [ __ ]",
+      "start": 1080.32,
+      "duration": 2.479
+    },
+    {
+      "text": ">> right? So if you're in a world where you",
+      "start": 1081.36,
+      "duration": 2.559
+    },
+    {
+      "text": "think that things are going to happen",
+      "start": 1082.799,
+      "duration": 3.601
+    },
+    {
+      "text": "like that, you should absolutely be",
+      "start": 1083.919,
+      "duration": 4.081
+    },
+    {
+      "text": "looking at all this future model",
+      "start": 1086.4,
+      "duration": 3.12
+    },
+    {
+      "text": "research and really focusing on that.",
+      "start": 1088.0,
+      "duration": 3.28
+    },
+    {
+      "text": "And if you're thinking that things are",
+      "start": 1089.52,
+      "duration": 3.44
+    },
+    {
+      "text": "going to be more stable from now on,",
+      "start": 1091.28,
+      "duration": 4.399
+    },
+    {
+      "text": "let's just focus on increasing the grain",
+      "start": 1092.96,
+      "duration": 6.24
+    },
+    {
+      "text": "size, uh making sure that we can really",
+      "start": 1095.679,
+      "duration": 5.441
+    },
+    {
+      "text": "run what we think is important",
+      "start": 1099.2,
+      "duration": 4.32
+    },
+    {
+      "text": "efficiently and not focus so much on",
+      "start": 1101.12,
+      "duration": 5.76
+    },
+    {
+      "text": "these like I don't know 1.2x 1.5x gains",
+      "start": 1103.52,
+      "duration": 4.56
+    },
+    {
+      "text": "where we could get more from the",
+      "start": 1106.88,
+      "duration": 3.6
+    },
+    {
+      "text": "hardware. And I don't know which one",
+      "start": 1108.08,
+      "duration": 4.08
+    },
+    {
+      "text": "we're in.",
+      "start": 1110.48,
+      "duration": 4.48
+    },
+    {
+      "text": ">> I mean, you said Ilia. I",
+      "start": 1112.16,
+      "duration": 4.16
+    },
+    {
+      "text": "I don't know what's on his mind, but",
+      "start": 1114.96,
+      "duration": 2.88
+    },
+    {
+      "text": "what it sounds like is on his mind is",
+      "start": 1116.32,
+      "duration": 2.8
+    },
+    {
+      "text": "not necessarily at all model",
+      "start": 1117.84,
+      "duration": 3.6
+    },
+    {
+      "text": "architecture. There's a lot you can do",
+      "start": 1119.12,
+      "duration": 5.28
+    },
+    {
+      "text": "loss function um training data and so",
+      "start": 1121.44,
+      "duration": 6.0
+    },
+    {
+      "text": "on. Um or or even just like take a",
+      "start": 1124.4,
+      "duration": 4.24
+    },
+    {
+      "text": "transformer layer and then who knows",
+      "start": 1127.44,
+      "duration": 3.52
+    },
+    {
+      "text": "alternate it with something else or uh",
+      "start": 1128.64,
+      "duration": 3.68
+    },
+    {
+      "text": "all of these things which are available",
+      "start": 1130.96,
+      "duration": 5.76
+    },
+    {
+      "text": "within the um the world of um",
+      "start": 1132.32,
+      "duration": 5.68
+    },
+    {
+      "text": "architectures that have like",
+      "start": 1136.72,
+      "duration": 3.52
+    },
+    {
+      "text": "substantially be had some of the first",
+      "start": 1138.0,
+      "duration": 5.12
+    },
+    {
+      "text": "of transformers down at least. Um uh I",
+      "start": 1140.24,
+      "duration": 3.92
+    },
+    {
+      "text": "think it's funny by the way you said you",
+      "start": 1143.12,
+      "duration": 2.16
+    },
+    {
+      "text": "don't know what I was thinking. I think",
+      "start": 1144.16,
+      "duration": 1.84
+    },
+    {
+      "text": "no one does.",
+      "start": 1145.28,
+      "duration": 1.68
+    },
+    {
+      "text": ">> Yeah. Right.",
+      "start": 1146.0,
+      "duration": 2.16
+    },
+    {
+      "text": ">> Yeah.",
+      "start": 1146.96,
+      "duration": 2.4
+    },
+    {
+      "text": ">> If you know if you look at the like",
+      "start": 1148.16,
+      "duration": 2.8
+    },
+    {
+      "text": "Yeah, of course he does. Um and and his",
+      "start": 1149.36,
+      "duration": 2.8
+    },
+    {
+      "text": "people do but I think they're very close",
+      "start": 1150.96,
+      "duration": 2.88
+    },
+    {
+      "text": "lips. to the point where like, you know,",
+      "start": 1152.16,
+      "duration": 3.68
+    },
+    {
+      "text": "SF gossip is usually at least somewhat",
+      "start": 1153.84,
+      "duration": 3.6
+    },
+    {
+      "text": "okay about people and companies and",
+      "start": 1155.84,
+      "duration": 2.8
+    },
+    {
+      "text": "things that are happening, but then",
+      "start": 1157.44,
+      "duration": 2.96
+    },
+    {
+      "text": "like, you know, I've heard all the way",
+      "start": 1158.64,
+      "duration": 3.12
+    },
+    {
+      "text": "from like they're making cyber weapons",
+      "start": 1160.4,
+      "duration": 2.88
+    },
+    {
+      "text": "to like they're just trading financial",
+      "start": 1161.76,
+      "duration": 2.96
+    },
+    {
+      "text": "markets. And",
+      "start": 1163.28,
+      "duration": 2.48
+    },
+    {
+      "text": ">> who knows,",
+      "start": 1164.72,
+      "duration": 2.4
+    },
+    {
+      "text": ">> they're doing everything in between. Who",
+      "start": 1165.76,
+      "duration": 2.64
+    },
+    {
+      "text": "knows? Yeah.",
+      "start": 1167.12,
+      "duration": 4.799
+    },
+    {
+      "text": ">> Ilia is uh sees very far for sure. But",
+      "start": 1168.4,
+      "duration": 6.399
+    },
+    {
+      "text": "uh like ultimately comes down to",
+      "start": 1171.919,
+      "duration": 5.361
+    },
+    {
+      "text": "whatever he ends up shipping.",
+      "start": 1174.799,
+      "duration": 4.721
+    },
+    {
+      "text": ">> Okay. So So like let's let's take take",
+      "start": 1177.28,
+      "duration": 4.88
+    },
+    {
+      "text": "yourselves back to like 2022. was it",
+      "start": 1179.52,
+      "duration": 4.0
+    },
+    {
+      "text": "when he was starting to write internally",
+      "start": 1182.16,
+      "duration": 4.96
+    },
+    {
+      "text": "at OpenAI about reasoning, right? Um",
+      "start": 1183.52,
+      "duration": 5.279
+    },
+    {
+      "text": "which eventually became strawberry and",
+      "start": 1187.12,
+      "duration": 4.16
+    },
+    {
+      "text": "all these other things, right? Um you",
+      "start": 1188.799,
+      "duration": 4.641
+    },
+    {
+      "text": "know, he he tried many many different",
+      "start": 1191.28,
+      "duration": 4.399
+    },
+    {
+      "text": "things in this direction and finally I",
+      "start": 1193.44,
+      "duration": 4.08
+    },
+    {
+      "text": "think it was Yakob figured it out. I'm",
+      "start": 1195.679,
+      "duration": 4.24
+    },
+    {
+      "text": "not sure if it was him or not. Um, sorry",
+      "start": 1197.52,
+      "duration": 4.159
+    },
+    {
+      "text": "if it was someone else, but you know,",
+      "start": 1199.919,
+      "duration": 4.88
+    },
+    {
+      "text": "they they figured out like some form of,",
+      "start": 1201.679,
+      "duration": 5.441
+    },
+    {
+      "text": "you know, test time scaling, you know,",
+      "start": 1204.799,
+      "duration": 5.12
+    },
+    {
+      "text": "verifiable rewards, you know, this whole",
+      "start": 1207.12,
+      "duration": 5.76
+    },
+    {
+      "text": "RL pipeline that has now been sort of",
+      "start": 1209.919,
+      "duration": 5.441
+    },
+    {
+      "text": "giving us crazy gains over the last It's",
+      "start": 1212.88,
+      "duration": 3.84
+    },
+    {
+      "text": "actually only been 14 months, by the",
+      "start": 1215.36,
+      "duration": 1.76
+    },
+    {
+      "text": "way,",
+      "start": 1216.72,
+      "duration": 0.8
+    },
+    {
+      "text": ">> really",
+      "start": 1217.12,
+      "duration": 2.72
+    },
+    {
+      "text": ">> since the first reasoning model.",
+      "start": 1217.52,
+      "duration": 3.519
+    },
+    {
+      "text": ">> Wow.",
+      "start": 1219.84,
+      "duration": 2.8
+    },
+    {
+      "text": ">> Anyways, uh, it's only been like 14",
+      "start": 1221.039,
+      "duration": 2.961
+    },
+    {
+      "text": "months.",
+      "start": 1222.64,
+      "duration": 4.64
+    },
+    {
+      "text": "Is there something like",
+      "start": 1224.0,
+      "duration": 5.2
+    },
+    {
+      "text": "you know you know like if if if",
+      "start": 1227.28,
+      "duration": 3.759
+    },
+    {
+      "text": "codeesign is like oh well if you go back",
+      "start": 1229.2,
+      "duration": 3.04
+    },
+    {
+      "text": "to 2022 everyone was thinking",
+      "start": 1231.039,
+      "duration": 2.801
+    },
+    {
+      "text": "pre-training era you know just keep",
+      "start": 1232.24,
+      "duration": 3.2
+    },
+    {
+      "text": "scaling pre-training and now you're like",
+      "start": 1233.84,
+      "duration": 3.44
+    },
+    {
+      "text": "wait actually Ilia was saying in 2022",
+      "start": 1235.44,
+      "duration": 3.28
+    },
+    {
+      "text": "it's not pre-training actually we need",
+      "start": 1237.28,
+      "duration": 3.84
+    },
+    {
+      "text": "to we need to codeesign for sampling um",
+      "start": 1238.72,
+      "duration": 4.8
+    },
+    {
+      "text": "what what would do you think like what",
+      "start": 1241.12,
+      "duration": 3.6
+    },
+    {
+      "text": "do you think about codeesign there and",
+      "start": 1243.52,
+      "duration": 2.48
+    },
+    {
+      "text": "like what what are your thoughts of like",
+      "start": 1244.72,
+      "duration": 3.199
+    },
+    {
+      "text": "hey um what would you have done",
+      "start": 1246.0,
+      "duration": 4.08
+    },
+    {
+      "text": "differently if you're like an Nvidia or",
+      "start": 1247.919,
+      "duration": 4.401
+    },
+    {
+      "text": "someone else and in 2022 you decided",
+      "start": 1250.08,
+      "duration": 2.719
+    },
+    {
+      "text": "this",
+      "start": 1252.32,
+      "duration": 1.92
+    },
+    {
+      "text": ">> yeah I I think that the challenge there",
+      "start": 1252.799,
+      "duration": 3.521
+    },
+    {
+      "text": "is that you can always have these",
+      "start": 1254.24,
+      "duration": 5.84
+    },
+    {
+      "text": "paradigm shifts where suddenly sampling",
+      "start": 1256.32,
+      "duration": 6.64
+    },
+    {
+      "text": "becomes so much more important to",
+      "start": 1260.08,
+      "duration": 4.16
+    },
+    {
+      "text": "increasing the intelligence of the",
+      "start": 1262.96,
+      "duration": 3.52
+    },
+    {
+      "text": "model. So you're no longer doing as much",
+      "start": 1264.24,
+      "duration": 4.96
+    },
+    {
+      "text": "pre-training. You're now doing all of",
+      "start": 1266.48,
+      "duration": 5.679
+    },
+    {
+      "text": "these uh these decode passes where your",
+      "start": 1269.2,
+      "duration": 5.04
+    },
+    {
+      "text": "arithmetic intensity is very low. You",
+      "start": 1272.159,
+      "duration": 4.0
+    },
+    {
+      "text": "need a ton of memory bandwidth. Suddenly",
+      "start": 1274.24,
+      "duration": 3.76
+    },
+    {
+      "text": "everything's changed for the hardware.",
+      "start": 1276.159,
+      "duration": 5.121
+    },
+    {
+      "text": "Um, and",
+      "start": 1278.0,
+      "duration": 5.2
+    },
+    {
+      "text": "you can't really predict that as a",
+      "start": 1281.28,
+      "duration": 2.56
+    },
+    {
+      "text": "hardware person.",
+      "start": 1283.2,
+      "duration": 2.16
+    },
+    {
+      "text": ">> Wait, so if OpenA II made the chip in",
+      "start": 1283.84,
+      "duration": 3.12
+    },
+    {
+      "text": "2022 when everyone was pre-training",
+      "start": 1285.36,
+      "duration": 3.439
+    },
+    {
+      "text": "field and only Ilia was like, let's",
+      "start": 1286.96,
+      "duration": 3.839
+    },
+    {
+      "text": "sample a reasoning, then the chip would",
+      "start": 1288.799,
+      "duration": 4.161
+    },
+    {
+      "text": "be in the wrong direction, right?",
+      "start": 1290.799,
+      "duration": 3.921
+    },
+    {
+      "text": ">> You got to come in with with some amount",
+      "start": 1292.96,
+      "duration": 5.12
+    },
+    {
+      "text": "of flexibility as to as to where you",
+      "start": 1294.72,
+      "duration": 4.8
+    },
+    {
+      "text": "think things are going to go. And like",
+      "start": 1298.08,
+      "duration": 3.44
+    },
+    {
+      "text": "at the time like Ilia was the only",
+      "start": 1299.52,
+      "duration": 3.68
+    },
+    {
+      "text": "person who thought this eventually it",
+      "start": 1301.52,
+      "duration": 3.519
+    },
+    {
+      "text": "was two people, three people and then",
+      "start": 1303.2,
+      "duration": 3.28
+    },
+    {
+      "text": "eventually suddenly the whole company",
+      "start": 1305.039,
+      "duration": 3.441
+    },
+    {
+      "text": "and the whole industry I think the labs",
+      "start": 1306.48,
+      "duration": 4.0
+    },
+    {
+      "text": "have to hedge in this way like and I",
+      "start": 1308.48,
+      "duration": 3.04
+    },
+    {
+      "text": "mean they have to hedge across different",
+      "start": 1310.48,
+      "duration": 3.76
+    },
+    {
+      "text": "hardways. Um as a result I think sort of",
+      "start": 1311.52,
+      "duration": 4.72
+    },
+    {
+      "text": "the incentives for hardware vendors are",
+      "start": 1314.24,
+      "duration": 4.88
+    },
+    {
+      "text": "maybe different in that um and and it",
+      "start": 1316.24,
+      "duration": 5.84
+    },
+    {
+      "text": "really depends whether you're invid",
+      "start": 1319.12,
+      "duration": 4.72
+    },
+    {
+      "text": "product like your next generation Nvidia",
+      "start": 1322.08,
+      "duration": 3.52
+    },
+    {
+      "text": "product has to sell. Um well no but",
+      "start": 1323.84,
+      "duration": 2.959
+    },
+    {
+      "text": "they're making three products now right",
+      "start": 1325.6,
+      "duration": 2.24
+    },
+    {
+      "text": "they're doing the they're doing the",
+      "start": 1326.799,
+      "duration": 2.561
+    },
+    {
+      "text": "mainline they're doing the CPX right",
+      "start": 1327.84,
+      "duration": 3.199
+    },
+    {
+      "text": "higher arithmetic intensity they're",
+      "start": 1329.36,
+      "duration": 3.12
+    },
+    {
+      "text": "doing the like the Grock stuff right",
+      "start": 1331.039,
+      "duration": 3.281
+    },
+    {
+      "text": "with it's like a you know they're doing",
+      "start": 1332.48,
+      "duration": 4.079
+    },
+    {
+      "text": "with 3D RAM instead of like SRAMM but",
+      "start": 1334.32,
+      "duration": 4.239
+    },
+    {
+      "text": "like you know",
+      "start": 1336.559,
+      "duration": 3.041
+    },
+    {
+      "text": ">> they're making different bets",
+      "start": 1338.559,
+      "duration": 2.401
+    },
+    {
+      "text": ">> there's yeah there's some amount of that",
+      "start": 1339.6,
+      "duration": 2.8
+    },
+    {
+      "text": "so if you can make multiple products",
+      "start": 1340.96,
+      "duration": 3.599
+    },
+    {
+      "text": "that's another way to hedge for sure um",
+      "start": 1342.4,
+      "duration": 3.759
+    },
+    {
+      "text": "most companies that aren't Nvidia or",
+      "start": 1344.559,
+      "duration": 4.641
+    },
+    {
+      "text": "maybe Google um",
+      "start": 1346.159,
+      "duration": 5.121
+    },
+    {
+      "text": "can't spin off multiple products",
+      "start": 1349.2,
+      "duration": 3.839
+    },
+    {
+      "text": "simultaneously so I mean I think the",
+      "start": 1351.28,
+      "duration": 3.759
+    },
+    {
+      "text": "right thing like for for companies that",
+      "start": 1353.039,
+      "duration": 3.52
+    },
+    {
+      "text": "are making that choice is just like make",
+      "start": 1355.039,
+      "duration": 3.841
+    },
+    {
+      "text": "the best guess and try. Um I think like",
+      "start": 1356.559,
+      "duration": 5.36
+    },
+    {
+      "text": "if your best guess is like as making",
+      "start": 1358.88,
+      "duration": 4.88
+    },
+    {
+      "text": "hardware trying to hedge across all all",
+      "start": 1361.919,
+      "duration": 4.161
+    },
+    {
+      "text": "possible scenarios um you just don't",
+      "start": 1363.76,
+      "duration": 4.56
+    },
+    {
+      "text": "win. Um like you don't win any in any of",
+      "start": 1366.08,
+      "duration": 5.44
+    },
+    {
+      "text": "the scenarios. Um you totally can as a",
+      "start": 1368.32,
+      "duration": 4.8
+    },
+    {
+      "text": "lab because you can wait and see and and",
+      "start": 1371.52,
+      "duration": 3.36
+    },
+    {
+      "text": "decide which one to buy. But but as a as",
+      "start": 1373.12,
+      "duration": 3.439
+    },
+    {
+      "text": "a hardware vendi you have to make some",
+      "start": 1374.88,
+      "duration": 4.08
+    },
+    {
+      "text": "some some effort for sure. So, so I",
+      "start": 1376.559,
+      "duration": 3.761
+    },
+    {
+      "text": "guess I guess I'm curious of your two",
+      "start": 1378.96,
+      "duration": 3.68
+    },
+    {
+      "text": "perspectives, right? Like, you know,",
+      "start": 1380.32,
+      "duration": 4.08
+    },
+    {
+      "text": "Ferubus Grock, they were working on",
+      "start": 1382.64,
+      "duration": 4.32
+    },
+    {
+      "text": "something that and and they were not",
+      "start": 1384.4,
+      "duration": 4.159
+    },
+    {
+      "text": "focused on the low latency sampling",
+      "start": 1386.96,
+      "duration": 4.4
+    },
+    {
+      "text": "regime, I don't think. Um, yeah, I think",
+      "start": 1388.559,
+      "duration": 3.12
+    },
+    {
+      "text": "some",
+      "start": 1391.36,
+      "duration": 1.679
+    },
+    {
+      "text": ">> it seems like they kind of fell into",
+      "start": 1391.679,
+      "duration": 3.12
+    },
+    {
+      "text": "that accidentally where they were,",
+      "start": 1393.039,
+      "duration": 3.281
+    },
+    {
+      "text": ">> but it's now a codeesign point that",
+      "start": 1394.799,
+      "duration": 2.561
+    },
+    {
+      "text": "actually makes a ton of sense.",
+      "start": 1396.32,
+      "duration": 3.2
+    },
+    {
+      "text": ">> Exactly. Exactly. They it it worked out",
+      "start": 1397.36,
+      "duration": 3.76
+    },
+    {
+      "text": "so well because they were working on",
+      "start": 1399.52,
+      "duration": 4.159
+    },
+    {
+      "text": "these confets that were very small and",
+      "start": 1401.12,
+      "duration": 4.88
+    },
+    {
+      "text": "could fit entirely on",
+      "start": 1403.679,
+      "duration": 4.161
+    },
+    {
+      "text": ">> the other picture I heard is it's LSTMs",
+      "start": 1406.0,
+      "duration": 3.84
+    },
+    {
+      "text": "that were also like very uh",
+      "start": 1407.84,
+      "duration": 5.12
+    },
+    {
+      "text": ">> very small very very uh sequential.",
+      "start": 1409.84,
+      "duration": 3.52
+    },
+    {
+      "text": ">> Yeah.",
+      "start": 1412.96,
+      "duration": 1.92
+    },
+    {
+      "text": ">> Yeah. And so so you can fit that all",
+      "start": 1413.36,
+      "duration": 3.6
+    },
+    {
+      "text": "into one tile. Same thing for for for",
+      "start": 1414.88,
+      "duration": 5.679
+    },
+    {
+      "text": "Dojo as well. Uh and then suddenly LLMs",
+      "start": 1416.96,
+      "duration": 5.28
+    },
+    {
+      "text": "come along. It actually turns out you do",
+      "start": 1420.559,
+      "duration": 5.201
+    },
+    {
+      "text": "need to be able to have like terabytes",
+      "start": 1422.24,
+      "duration": 7.76
+    },
+    {
+      "text": "of parameters. Now uh and that's a very",
+      "start": 1425.76,
+      "duration": 6.88
+    },
+    {
+      "text": "different regime. But in this specific",
+      "start": 1430.0,
+      "duration": 5.6
+    },
+    {
+      "text": "market where you really really care",
+      "start": 1432.64,
+      "duration": 5.12
+    },
+    {
+      "text": "about low latency above all else like",
+      "start": 1435.6,
+      "duration": 6.48
+    },
+    {
+      "text": "encoding uh like in quite a few um these",
+      "start": 1437.76,
+      "duration": 6.08
+    },
+    {
+      "text": "like thinking models or just just take",
+      "start": 1442.08,
+      "duration": 4.8
+    },
+    {
+      "text": "too long. Um this actually really",
+      "start": 1443.84,
+      "duration": 4.4
+    },
+    {
+      "text": "matters and this is a really good niche",
+      "start": 1446.88,
+      "duration": 3.76
+    },
+    {
+      "text": "for them to be in. So I mean my take at",
+      "start": 1448.24,
+      "duration": 5.2
+    },
+    {
+      "text": "least on on on the low latency thing is",
+      "start": 1450.64,
+      "duration": 5.12
+    },
+    {
+      "text": "uh I mean if you look at what that means",
+      "start": 1453.44,
+      "duration": 5.359
+    },
+    {
+      "text": "you are um I mean you want low latency",
+      "start": 1455.76,
+      "duration": 5.039
+    },
+    {
+      "text": "for sure uh and SRAMM is really the only",
+      "start": 1458.799,
+      "duration": 3.921
+    },
+    {
+      "text": "only strategy to get there. Maybe the 3D",
+      "start": 1460.799,
+      "duration": 4.641
+    },
+    {
+      "text": "stack HD RAM is is um there's an",
+      "start": 1462.72,
+      "duration": 3.76
+    },
+    {
+      "text": "approach that will get you close to",
+      "start": 1465.44,
+      "duration": 2.64
+    },
+    {
+      "text": "that. Um it's it's interesting for other",
+      "start": 1466.48,
+      "duration": 4.0
+    },
+    {
+      "text": "reasons like KV cache. Um but then what",
+      "start": 1468.08,
+      "duration": 3.76
+    },
+    {
+      "text": "do you do with all of that compute? Like",
+      "start": 1470.48,
+      "duration": 2.559
+    },
+    {
+      "text": "you've made a you've made a product that",
+      "start": 1471.84,
+      "duration": 2.4
+    },
+    {
+      "text": "has a lot of compute because of the",
+      "start": 1473.039,
+      "duration": 2.961
+    },
+    {
+      "text": "other use cases for prefill and training",
+      "start": 1474.24,
+      "duration": 5.12
+    },
+    {
+      "text": "and so on. Um, and I mean if you look at",
+      "start": 1476.0,
+      "duration": 6.24
+    },
+    {
+      "text": "lab pricing, it kind of looks like the",
+      "start": 1479.36,
+      "duration": 4.48
+    },
+    {
+      "text": "fact just the fact that pre-filled",
+      "start": 1482.24,
+      "duration": 2.799
+    },
+    {
+      "text": "tokens are, I don't know, five times",
+      "start": 1483.84,
+      "duration": 3.839
+    },
+    {
+      "text": "cheaper than decode tokens says",
+      "start": 1485.039,
+      "duration": 4.561
+    },
+    {
+      "text": "something about what utilization or",
+      "start": 1487.679,
+      "duration": 4.081
+    },
+    {
+      "text": "efficiency is in prepole versus decode.",
+      "start": 1489.6,
+      "duration": 4.0
+    },
+    {
+      "text": "That probably means that during decode",
+      "start": 1491.76,
+      "duration": 2.96
+    },
+    {
+      "text": "you have a whole bunch of compute",
+      "start": 1493.6,
+      "duration": 4.4
+    },
+    {
+      "text": "sitting idle. I think like the biggest",
+      "start": 1494.72,
+      "duration": 5.12
+    },
+    {
+      "text": "uh research agenda for taking advantage",
+      "start": 1498.0,
+      "duration": 3.84
+    },
+    {
+      "text": "of that is to say hey can I take a model",
+      "start": 1499.84,
+      "duration": 6.16
+    },
+    {
+      "text": "and uh make uh the um the MLP much",
+      "start": 1501.84,
+      "duration": 6.4
+    },
+    {
+      "text": "bigger and somehow use those spare flops",
+      "start": 1506.0,
+      "duration": 4.72
+    },
+    {
+      "text": "like 80% of your flops are sitting idle",
+      "start": 1508.24,
+      "duration": 3.679
+    },
+    {
+      "text": "do anything at all it must be better",
+      "start": 1510.72,
+      "duration": 2.72
+    },
+    {
+      "text": "than doing nothing and and and take",
+      "start": 1511.919,
+      "duration": 4.401
+    },
+    {
+      "text": "advantage of that um",
+      "start": 1513.44,
+      "duration": 4.56
+    },
+    {
+      "text": "I mean simplest thing to do is just",
+      "start": 1516.32,
+      "duration": 3.52
+    },
+    {
+      "text": "crank up the MLB size by a factor five",
+      "start": 1518.0,
+      "duration": 3.52
+    },
+    {
+      "text": "and and take advantage of that",
+      "start": 1519.84,
+      "duration": 4.079
+    },
+    {
+      "text": ">> we're at an age where you see a lot of",
+      "start": 1521.52,
+      "duration": 5.36
+    },
+    {
+      "text": "disagregation right um people were doing",
+      "start": 1523.919,
+      "duration": 4.64
+    },
+    {
+      "text": "uh disagregation of pre-fill and decode.",
+      "start": 1526.88,
+      "duration": 2.72
+    },
+    {
+      "text": "Initially they were doing on the same",
+      "start": 1528.559,
+      "duration": 2.801
+    },
+    {
+      "text": "chips um doing things like chunk",
+      "start": 1529.6,
+      "duration": 3.04
+    },
+    {
+      "text": "pre-fill as well. Anything to anything",
+      "start": 1531.36,
+      "duration": 3.04
+    },
+    {
+      "text": "to sort of like get utilization up",
+      "start": 1532.64,
+      "duration": 3.2
+    },
+    {
+      "text": "higher uh then they started doing",
+      "start": 1534.4,
+      "duration": 2.8
+    },
+    {
+      "text": "disagregated pre-filled decode on",
+      "start": 1535.84,
+      "duration": 4.079
+    },
+    {
+      "text": "different kinds of chips, right? Um at",
+      "start": 1537.2,
+      "duration": 4.16
+    },
+    {
+      "text": "least that's what's Nvidia's pitch",
+      "start": 1539.919,
+      "duration": 4.0
+    },
+    {
+      "text": "today. Um and then there's sort of like",
+      "start": 1541.36,
+      "duration": 4.559
+    },
+    {
+      "text": "we we you know we've at least built our",
+      "start": 1543.919,
+      "duration": 4.401
+    },
+    {
+      "text": "own shitty simulator which is internally",
+      "start": 1545.919,
+      "duration": 3.76
+    },
+    {
+      "text": "which probably worse than yours and",
+      "start": 1548.32,
+      "duration": 4.0
+    },
+    {
+      "text": "worse than yours. Um but at least it's",
+      "start": 1549.679,
+      "duration": 4.721
+    },
+    {
+      "text": "like given us some ideas on like hey",
+      "start": 1552.32,
+      "duration": 3.52
+    },
+    {
+      "text": "actually you would want to you may want",
+      "start": 1554.4,
+      "duration": 3.6
+    },
+    {
+      "text": "to disagregate the MLP from the",
+      "start": 1555.84,
+      "duration": 4.56
+    },
+    {
+      "text": "attention even right and MLP you could",
+      "start": 1558.0,
+      "duration": 4.88
+    },
+    {
+      "text": "have the weights in let's say SRAMM or",
+      "start": 1560.4,
+      "duration": 4.159
+    },
+    {
+      "text": "3D RAM and the attention you want",
+      "start": 1562.88,
+      "duration": 3.039
+    },
+    {
+      "text": "through HPM and this is something that",
+      "start": 1564.559,
+      "duration": 3.681
+    },
+    {
+      "text": "we've also like sort of like I guess",
+      "start": 1565.919,
+      "duration": 4.64
+    },
+    {
+      "text": ">> what where do do you see this wave",
+      "start": 1568.24,
+      "duration": 3.52
+    },
+    {
+      "text": "because you're both you know you're",
+      "start": 1570.559,
+      "duration": 3.521
+    },
+    {
+      "text": "making one chip right like at least my",
+      "start": 1571.76,
+      "duration": 4.159
+    },
+    {
+      "text": "understanding is you're making one chip",
+      "start": 1574.08,
+      "duration": 3.199
+    },
+    {
+      "text": "um there's a wave of like different",
+      "start": 1575.919,
+      "duration": 4.161
+    },
+    {
+      "text": "optimization points for pre-fill decode",
+      "start": 1577.279,
+      "duration": 5.52
+    },
+    {
+      "text": "um you know s if in a sampling heavy",
+      "start": 1580.08,
+      "duration": 4.079
+    },
+    {
+      "text": "regime versus in a regime where you're",
+      "start": 1582.799,
+      "duration": 3.441
+    },
+    {
+      "text": "doing a lot of backwards passes. Um",
+      "start": 1584.159,
+      "duration": 4.961
+    },
+    {
+      "text": ">> yeah I I think I think it's really cool",
+      "start": 1586.24,
+      "duration": 6.24
+    },
+    {
+      "text": "to think about decoupling uh where for",
+      "start": 1589.12,
+      "duration": 8.0
+    },
+    {
+      "text": "example sparse uh sparsees where you",
+      "start": 1592.48,
+      "duration": 6.559
+    },
+    {
+      "text": "suddenly are decoupling your the amount",
+      "start": 1597.12,
+      "duration": 5.52
+    },
+    {
+      "text": "of math you have to do and the amount of",
+      "start": 1599.039,
+      "duration": 5.921
+    },
+    {
+      "text": "a kind of effective model capacity for",
+      "start": 1602.64,
+      "duration": 5.519
+    },
+    {
+      "text": "knowledge. Um, and this really affects",
+      "start": 1604.96,
+      "duration": 4.88
+    },
+    {
+      "text": "the hardware in a lot of ways because",
+      "start": 1608.159,
+      "duration": 3.601
+    },
+    {
+      "text": "now you're not you're not tied together",
+      "start": 1609.84,
+      "duration": 4.64
+    },
+    {
+      "text": "like that anymore. Now you can have much",
+      "start": 1611.76,
+      "duration": 4.32
+    },
+    {
+      "text": "less arithmetic intensity for the same",
+      "start": 1614.48,
+      "duration": 4.079
+    },
+    {
+      "text": "amount of HBM uh same amount of HPM",
+      "start": 1616.08,
+      "duration": 5.36
+    },
+    {
+      "text": "bandwidth uh for reading the parameters.",
+      "start": 1618.559,
+      "duration": 5.36
+    },
+    {
+      "text": "And so decoupling the attention in the",
+      "start": 1621.44,
+      "duration": 4.8
+    },
+    {
+      "text": "the MLP is very interesting because",
+      "start": 1623.919,
+      "duration": 5.36
+    },
+    {
+      "text": "these are very different operations.",
+      "start": 1626.24,
+      "duration": 5.039
+    },
+    {
+      "text": "uh and if you do put these on different",
+      "start": 1629.279,
+      "duration": 5.121
+    },
+    {
+      "text": "devices uh maybe even like totally",
+      "start": 1631.279,
+      "duration": 5.28
+    },
+    {
+      "text": "different memory technologies even uh",
+      "start": 1634.4,
+      "duration": 4.639
+    },
+    {
+      "text": "like you're suggesting I think you can",
+      "start": 1636.559,
+      "duration": 6.081
+    },
+    {
+      "text": "have a lot of wins. Uh it is maybe a",
+      "start": 1639.039,
+      "duration": 4.961
+    },
+    {
+      "text": "little bit scary from the software",
+      "start": 1642.64,
+      "duration": 3.68
+    },
+    {
+      "text": "perspective. Uh now you have to",
+      "start": 1644.0,
+      "duration": 3.44
+    },
+    {
+      "text": "coordinate two different types of",
+      "start": 1646.32,
+      "duration": 3.92
+    },
+    {
+      "text": "devices. Um who knows what's going to",
+      "start": 1647.44,
+      "duration": 5.28
+    },
+    {
+      "text": "happen there. some of the like the the",
+      "start": 1650.24,
+      "duration": 4.16
+    },
+    {
+      "text": "thing that makes it scary is you have to",
+      "start": 1652.72,
+      "duration": 5.68
+    },
+    {
+      "text": "decide um somewhat arriori of uh how",
+      "start": 1654.4,
+      "duration": 5.2
+    },
+    {
+      "text": "many resources go on this side and how",
+      "start": 1658.4,
+      "duration": 2.639
+    },
+    {
+      "text": "many res results has gone that side.",
+      "start": 1659.6,
+      "duration": 5.12
+    },
+    {
+      "text": "That's true. Um and so uh that ends up",
+      "start": 1661.039,
+      "duration": 5.281
+    },
+    {
+      "text": "baking in this is going to be my ratio",
+      "start": 1664.72,
+      "duration": 4.0
+    },
+    {
+      "text": "of attention to MLB or toe or something",
+      "start": 1666.32,
+      "duration": 5.52
+    },
+    {
+      "text": "like that. Um and I mean we make those",
+      "start": 1668.72,
+      "duration": 4.4
+    },
+    {
+      "text": "decisions all the time. We pick on",
+      "start": 1671.84,
+      "duration": 2.719
+    },
+    {
+      "text": "resource balances between memories and",
+      "start": 1673.12,
+      "duration": 4.32
+    },
+    {
+      "text": "and and compute and so on. Um this is",
+      "start": 1674.559,
+      "duration": 4.72
+    },
+    {
+      "text": "one more of them. Um, and it's sort of",
+      "start": 1677.44,
+      "duration": 4.08
+    },
+    {
+      "text": "like uh I'm sort of doubling all the",
+      "start": 1679.279,
+      "duration": 3.361
+    },
+    {
+      "text": "decisions I make. I make all the",
+      "start": 1681.52,
+      "duration": 2.24
+    },
+    {
+      "text": "decisions on the left and then I make",
+      "start": 1682.64,
+      "duration": 3.44
+    },
+    {
+      "text": "all the decisions on the right to some",
+      "start": 1683.76,
+      "duration": 3.6
+    },
+    {
+      "text": "and and then I guess the other thing",
+      "start": 1686.08,
+      "duration": 3.12
+    },
+    {
+      "text": "that you can get like if the the",
+      "start": 1687.36,
+      "duration": 4.0
+    },
+    {
+      "text": "trade-off is it also removes your",
+      "start": 1689.2,
+      "duration": 5.76
+    },
+    {
+      "text": "ability to steal um dynamically uh like",
+      "start": 1691.36,
+      "duration": 6.88
+    },
+    {
+      "text": "uh uh steal resources between attention",
+      "start": 1694.96,
+      "duration": 7.36
+    },
+    {
+      "text": "and and and and Emily. So uh a classic",
+      "start": 1698.24,
+      "duration": 7.52
+    },
+    {
+      "text": "thing is to um be fetching always be",
+      "start": 1702.32,
+      "duration": 5.92
+    },
+    {
+      "text": "fetching KBs from HBM. um even while",
+      "start": 1705.76,
+      "duration": 6.639
+    },
+    {
+      "text": "you're running um uh and and then use a",
+      "start": 1708.24,
+      "duration": 5.52
+    },
+    {
+      "text": "little bit of the HPM bandwidth of het",
+      "start": 1712.399,
+      "duration": 2.64
+    },
+    {
+      "text": "weight or something up like that as",
+      "start": 1713.76,
+      "duration": 3.84
+    },
+    {
+      "text": "well. Um and so uh sliding away that",
+      "start": 1715.039,
+      "duration": 4.321
+    },
+    {
+      "text": "that that divider is is something you",
+      "start": 1717.6,
+      "duration": 2.72
+    },
+    {
+      "text": "can do on a single chip and it's",
+      "start": 1719.36,
+      "duration": 2.72
+    },
+    {
+      "text": "difficult to do on multiple chips. As",
+      "start": 1720.32,
+      "duration": 3.359
+    },
+    {
+      "text": "the workloads become more expensive for",
+      "start": 1722.08,
+      "duration": 5.44
+    },
+    {
+      "text": "sure like the um just find every little",
+      "start": 1723.679,
+      "duration": 5.441
+    },
+    {
+      "text": "part and make the the best thing you can",
+      "start": 1727.52,
+      "duration": 2.639
+    },
+    {
+      "text": "for those little parts seems like a",
+      "start": 1729.12,
+      "duration": 2.799
+    },
+    {
+      "text": "long-term trap. It's just like when is",
+      "start": 1730.159,
+      "duration": 3.76
+    },
+    {
+      "text": "the right time is is the question. So,",
+      "start": 1731.919,
+      "duration": 4.48
+    },
+    {
+      "text": "one of my pet peeves in quantization",
+      "start": 1733.919,
+      "duration": 5.76
+    },
+    {
+      "text": "papers is that uh they come out with a",
+      "start": 1736.399,
+      "duration": 7.441
+    },
+    {
+      "text": "claim that says we're 97% as accurate as",
+      "start": 1739.679,
+      "duration": 6.0
+    },
+    {
+      "text": "uh as the full thing. And turns out if",
+      "start": 1743.84,
+      "duration": 3.6
+    },
+    {
+      "text": "you look into the numbers actually this",
+      "start": 1745.679,
+      "duration": 3.761
+    },
+    {
+      "text": "is like downgrading a 70 billion model",
+      "start": 1747.44,
+      "duration": 4.56
+    },
+    {
+      "text": "to an 8 billion model. Um how do you",
+      "start": 1749.44,
+      "duration": 3.2
+    },
+    {
+      "text": "think about this?",
+      "start": 1752.0,
+      "duration": 2.08
+    },
+    {
+      "text": ">> Yeah. What what does accurate even mean?",
+      "start": 1752.64,
+      "duration": 3.36
+    },
+    {
+      "text": "Right? like you take perplexity and it's",
+      "start": 1754.08,
+      "duration": 5.36
+    },
+    {
+      "text": "like one over 97% of complexity or",
+      "start": 1756.0,
+      "duration": 4.08
+    },
+    {
+      "text": "enough",
+      "start": 1759.44,
+      "duration": 4.32
+    },
+    {
+      "text": ">> or like 97% uh MMLU score or something",
+      "start": 1760.08,
+      "duration": 5.199
+    },
+    {
+      "text": "like that. Yeah, I",
+      "start": 1763.76,
+      "duration": 4.48
+    },
+    {
+      "text": ">> it's it's 97% of the MMO score once you",
+      "start": 1765.279,
+      "duration": 5.52
+    },
+    {
+      "text": "did post quantization training, you",
+      "start": 1768.24,
+      "duration": 4.319
+    },
+    {
+      "text": "know, that's usually what they do",
+      "start": 1770.799,
+      "duration": 4.0
+    },
+    {
+      "text": ">> like you see these companies advertising",
+      "start": 1772.559,
+      "duration": 4.321
+    },
+    {
+      "text": "like these.1%",
+      "start": 1774.799,
+      "duration": 4.961
+    },
+    {
+      "text": "differences on these uh on these emails.",
+      "start": 1776.88,
+      "duration": 5.12
+    },
+    {
+      "text": "So I mean the problem behind this right",
+      "start": 1779.76,
+      "duration": 6.24
+    },
+    {
+      "text": "is the um exponential or logarithmic",
+      "start": 1782.0,
+      "duration": 5.76
+    },
+    {
+      "text": "relationship between amount of compute",
+      "start": 1786.0,
+      "duration": 3.679
+    },
+    {
+      "text": "and and like complexity improvement or",
+      "start": 1787.76,
+      "duration": 5.519
+    },
+    {
+      "text": "something like that. Uh so",
+      "start": 1789.679,
+      "duration": 4.88
+    },
+    {
+      "text": "so that's what gives you all of this",
+      "start": 1793.279,
+      "duration": 3.921
+    },
+    {
+      "text": "sensitivity to those small things. Um",
+      "start": 1794.559,
+      "duration": 4.24
+    },
+    {
+      "text": "why not just hit the same quality with",
+      "start": 1797.2,
+      "duration": 2.88
+    },
+    {
+      "text": "model parameters? That seems a much",
+      "start": 1798.799,
+      "duration": 4.161
+    },
+    {
+      "text": "fairer weight. So um I think that it",
+      "start": 1800.08,
+      "duration": 4.8
+    },
+    {
+      "text": "should be the standard for how how you",
+      "start": 1802.96,
+      "duration": 4.8
+    },
+    {
+      "text": "do these things. we in general we find",
+      "start": 1804.88,
+      "duration": 4.48
+    },
+    {
+      "text": "that we need to increase the model size",
+      "start": 1807.76,
+      "duration": 3.76
+    },
+    {
+      "text": "by 40% in order to hit the same quality",
+      "start": 1809.36,
+      "duration": 5.12
+    },
+    {
+      "text": "level and a better paper would be 35%",
+      "start": 1811.52,
+      "duration": 5.68
+    },
+    {
+      "text": "instead of 45% then yeah makes sense",
+      "start": 1814.48,
+      "duration": 4.96
+    },
+    {
+      "text": "that the way I like to frame it is",
+      "start": 1817.2,
+      "duration": 6.0
+    },
+    {
+      "text": "perplexity per pjle where if you are the",
+      "start": 1819.44,
+      "duration": 7.2
+    },
+    {
+      "text": "same perplexity how many pigles how much",
+      "start": 1823.2,
+      "duration": 5.04
+    },
+    {
+      "text": "energy did you take to generate this",
+      "start": 1826.64,
+      "duration": 2.32
+    },
+    {
+      "text": "token",
+      "start": 1828.24,
+      "duration": 2.96
+    },
+    {
+      "text": ">> per page so if I have twice as many",
+      "start": 1828.96,
+      "duration": 4.079
+    },
+    {
+      "text": "pigles I get twiceity",
+      "start": 1831.2,
+      "duration": 4.16
+    },
+    {
+      "text": ">> that's not literally division It's a",
+      "start": 1833.039,
+      "duration": 3.921
+    },
+    {
+      "text": "there's a prito there. Okay.",
+      "start": 1835.36,
+      "duration": 3.36
+    },
+    {
+      "text": ">> What isn't your license plate? Can you",
+      "start": 1836.96,
+      "duration": 3.199
+    },
+    {
+      "text": "tell us your license plate?",
+      "start": 1838.72,
+      "duration": 2.72
+    },
+    {
+      "text": ">> It's exlop.",
+      "start": 1840.159,
+      "duration": 2.721
+    },
+    {
+      "text": ">> It's ex flop. Oh, I thought it was",
+      "start": 1841.44,
+      "duration": 3.2
+    },
+    {
+      "text": "intelligence per page or something like",
+      "start": 1842.88,
+      "duration": 2.64
+    },
+    {
+      "text": "this.",
+      "start": 1844.64,
+      "duration": 5.6
+    },
+    {
+      "text": ">> PJ P R O P. Pikachu's per OP is open.",
+      "start": 1845.52,
+      "duration": 9.44
+    },
+    {
+      "text": ">> It is open. Oh, wow. PJ per pit too",
+      "start": 1850.24,
+      "duration": 5.84
+    },
+    {
+      "text": "would be pretty good, but that that's",
+      "start": 1854.96,
+      "duration": 3.68
+    },
+    {
+      "text": "too many letters.",
+      "start": 1856.08,
+      "duration": 2.56
+    }
+  ]
+}

@@ -1,0 +1,2407 @@
+{
+  "metadata": {
+    "date": "2026-01-15",
+    "id": "QHueG_5DvSw",
+    "title": "Dylan Patel: Is the \"Low Hanging Fruit\" in AI Gone?",
+    "channel": "SAIL Media",
+    "duration": "14:01",
+    "url": "https://www.youtube.com/watch?v=QHueG_5DvSw",
+    "fetched_at": "2026-05-21T19:28:50.888287+00:00",
+    "source_tool": "uv tool run youtube_transcript_api",
+    "language_preference": [
+      "en"
+    ]
+  },
+  "transcript": [
+    {
+      "text": "Welcome to our booth. I remembered this",
+      "start": 3.2,
+      "duration": 4.88
+    },
+    {
+      "text": "morning that I am the name for sale. So",
+      "start": 5.52,
+      "duration": 4.24
+    },
+    {
+      "text": "I am also on this and you're",
+      "start": 8.08,
+      "duration": 3.599
+    },
+    {
+      "text": "representing semi analysis and lambda is",
+      "start": 9.76,
+      "duration": 4.16
+    },
+    {
+      "text": "our amorphous bank. Bank of lambda.",
+      "start": 11.679,
+      "duration": 4.16
+    },
+    {
+      "text": "Thank you. Thank thank you lambda. We",
+      "start": 13.92,
+      "duration": 4.16
+    },
+    {
+      "text": "appreciate it. Um what are you excited",
+      "start": 15.839,
+      "duration": 4.721
+    },
+    {
+      "text": "about this year? Try to recount what you",
+      "start": 18.08,
+      "duration": 5.199
+    },
+    {
+      "text": "were feeling last year at nerds and how",
+      "start": 20.56,
+      "duration": 3.6
+    },
+    {
+      "text": "different that is.",
+      "start": 23.279,
+      "duration": 2.721
+    },
+    {
+      "text": ">> So nerves comprises of like two things,",
+      "start": 24.16,
+      "duration": 4.4
+    },
+    {
+      "text": "right? One is like one is like parties",
+      "start": 26.0,
+      "duration": 4.56
+    },
+    {
+      "text": "which which are actually more fun than",
+      "start": 28.56,
+      "duration": 3.28
+    },
+    {
+      "text": "you would expect. I think people are",
+      "start": 30.56,
+      "duration": 3.12
+    },
+    {
+      "text": "like, \"Oh, AI researcher parties. It's",
+      "start": 31.84,
+      "duration": 3.44
+    },
+    {
+      "text": "it's much better than San Francisco AI",
+      "start": 33.68,
+      "duration": 2.8
+    },
+    {
+      "text": "researcher parties.\" Then the other side",
+      "start": 35.28,
+      "duration": 3.04
+    },
+    {
+      "text": "of things is just like walking around",
+      "start": 36.48,
+      "duration": 3.919
+    },
+    {
+      "text": "poster sessions. And so last year in",
+      "start": 38.32,
+      "duration": 3.919
+    },
+    {
+      "text": "Vancouver, the main thing I was doing, I",
+      "start": 40.399,
+      "duration": 3.281
+    },
+    {
+      "text": "was just walking around looking for",
+      "start": 42.239,
+      "duration": 4.721
+    },
+    {
+      "text": "people with verifiable RL, anything RL",
+      "start": 43.68,
+      "duration": 5.44
+    },
+    {
+      "text": "and anything verifiable. Right? Like I",
+      "start": 46.96,
+      "duration": 4.32
+    },
+    {
+      "text": "remember the first ner I went to it was",
+      "start": 49.12,
+      "duration": 4.4
+    },
+    {
+      "text": "like 21 or 22 and I was like I would",
+      "start": 51.28,
+      "duration": 4.0
+    },
+    {
+      "text": "walk around I'd stop at only posters",
+      "start": 53.52,
+      "duration": 3.519
+    },
+    {
+      "text": "that said the word transformer like and",
+      "start": 55.28,
+      "duration": 3.2
+    },
+    {
+      "text": "anything that didn't say transformer I",
+      "start": 57.039,
+      "duration": 2.881
+    },
+    {
+      "text": "just didn't read it. Um and then like",
+      "start": 58.48,
+      "duration": 2.719
+    },
+    {
+      "text": "you know that's evolved and last year",
+      "start": 59.92,
+      "duration": 2.639
+    },
+    {
+      "text": "like you know obviously I stopped at a",
+      "start": 61.199,
+      "duration": 2.561
+    },
+    {
+      "text": "lot of random posters as I've learned",
+      "start": 62.559,
+      "duration": 3.281
+    },
+    {
+      "text": "more but last year was the first time I",
+      "start": 63.76,
+      "duration": 4.08
+    },
+    {
+      "text": "like stopped at a bunch of like RL stuff",
+      "start": 65.84,
+      "duration": 4.16
+    },
+    {
+      "text": "and verifiable you know test time you",
+      "start": 67.84,
+      "duration": 3.92
+    },
+    {
+      "text": "know sort of scaling stuff that you know",
+      "start": 70.0,
+      "duration": 3.28
+    },
+    {
+      "text": "verifiable RL stuff all that kind of",
+      "start": 71.76,
+      "duration": 2.88
+    },
+    {
+      "text": "stuff. This year I have no clue what to",
+      "start": 73.28,
+      "duration": 1.839
+    },
+    {
+      "text": "stop at.",
+      "start": 74.64,
+      "duration": 1.839
+    },
+    {
+      "text": ">> I know it's like what do we do now?",
+      "start": 75.119,
+      "duration": 2.881
+    },
+    {
+      "text": "There's gonna be so much RL stuff, it's",
+      "start": 76.479,
+      "duration": 3.121
+    },
+    {
+      "text": "like a wave. It's hard to know. And I",
+      "start": 78.0,
+      "duration": 3.2
+    },
+    {
+      "text": "feel like last year's RL stuff was still",
+      "start": 79.6,
+      "duration": 2.96
+    },
+    {
+      "text": "like the early things. I would guess",
+      "start": 81.2,
+      "duration": 3.599
+    },
+    {
+      "text": "though maybe like Vine PO was at Nerv or",
+      "start": 82.56,
+      "duration": 3.68
+    },
+    {
+      "text": "something. There was like a couple early",
+      "start": 84.799,
+      "duration": 4.481
+    },
+    {
+      "text": "things last year that were relevant and",
+      "start": 86.24,
+      "duration": 5.28
+    },
+    {
+      "text": "um like the star work from Stanford.",
+      "start": 89.28,
+      "duration": 4.32
+    },
+    {
+      "text": ">> Well, the the the whole reason to stop",
+      "start": 91.52,
+      "duration": 4.0
+    },
+    {
+      "text": "at the posters is not like that's the",
+      "start": 93.6,
+      "duration": 3.519
+    },
+    {
+      "text": "poster you want to talk about. It's this",
+      "start": 95.52,
+      "duration": 2.959
+    },
+    {
+      "text": "is what they worked on six months ago.",
+      "start": 97.119,
+      "duration": 1.921
+    },
+    {
+      "text": ">> Yeah. So",
+      "start": 98.479,
+      "duration": 1.841
+    },
+    {
+      "text": ">> So what did you work on then and what",
+      "start": 99.04,
+      "duration": 3.6
+    },
+    {
+      "text": "what are you working on now? is like,",
+      "start": 100.32,
+      "duration": 3.439
+    },
+    {
+      "text": "you know, that's the interesting thing",
+      "start": 102.64,
+      "duration": 2.799
+    },
+    {
+      "text": "to talk to them about because they're",
+      "start": 103.759,
+      "duration": 3.68
+    },
+    {
+      "text": "obviously on top of their field, whether",
+      "start": 105.439,
+      "duration": 3.841
+    },
+    {
+      "text": "it's like, you know, RL or, you know,",
+      "start": 107.439,
+      "duration": 3.441
+    },
+    {
+      "text": "whatever whatever they're doing, they're",
+      "start": 109.28,
+      "duration": 3.04
+    },
+    {
+      "text": "on top of it. So, like, it's it's more",
+      "start": 110.88,
+      "duration": 3.199
+    },
+    {
+      "text": "about like ga, you know, stopping at a",
+      "start": 112.32,
+      "duration": 3.68
+    },
+    {
+      "text": "poster with interesting keywords and",
+      "start": 114.079,
+      "duration": 3.36
+    },
+    {
+      "text": "then not talking about the poster at",
+      "start": 116.0,
+      "duration": 1.92
+    },
+    {
+      "text": "all.",
+      "start": 117.439,
+      "duration": 2.401
+    },
+    {
+      "text": ">> Yeah. I mean, it's good meta for people",
+      "start": 117.92,
+      "duration": 3.28
+    },
+    {
+      "text": "to have out there. It's like it's the",
+      "start": 119.84,
+      "duration": 2.16
+    },
+    {
+      "text": "way that you can",
+      "start": 121.2,
+      "duration": 2.239
+    },
+    {
+      "text": ">> Wait, am I giving away too much alpha?",
+      "start": 122.0,
+      "duration": 3.119
+    },
+    {
+      "text": ">> No, there's so many posters. It's so",
+      "start": 123.439,
+      "duration": 3.201
+    },
+    {
+      "text": "overwhelming. It's just like it's the",
+      "start": 125.119,
+      "duration": 3.36
+    },
+    {
+      "text": "nice way to figure out how to corner",
+      "start": 126.64,
+      "duration": 3.2
+    },
+    {
+      "text": "people. It's like it's not too hard to",
+      "start": 128.479,
+      "duration": 4.321
+    },
+    {
+      "text": "figure out where I am on a few occasions",
+      "start": 129.84,
+      "duration": 4.8
+    },
+    {
+      "text": "giving talks or whatever like okay I'm",
+      "start": 132.8,
+      "duration": 4.32
+    },
+    {
+      "text": "I'm screwed afterwards for 30 minutes.",
+      "start": 134.64,
+      "duration": 4.239
+    },
+    {
+      "text": "Back to the research thing where we",
+      "start": 137.12,
+      "duration": 3.199
+    },
+    {
+      "text": "don't know what to look at is actually",
+      "start": 138.879,
+      "duration": 3.681
+    },
+    {
+      "text": "somewhat interesting cuz I feel like the",
+      "start": 140.319,
+      "duration": 4.241
+    },
+    {
+      "text": "path of progress has been so obvious for",
+      "start": 142.56,
+      "duration": 3.759
+    },
+    {
+      "text": "a while and like academics could do",
+      "start": 144.56,
+      "duration": 3.52
+    },
+    {
+      "text": "stuff but it's like we are in the age of",
+      "start": 146.319,
+      "duration": 3.601
+    },
+    {
+      "text": "research. I know it's like is this maybe",
+      "start": 148.08,
+      "duration": 3.44
+    },
+    {
+      "text": "a little bit true? Is that kind of",
+      "start": 149.92,
+      "duration": 3.92
+    },
+    {
+      "text": "bearish for AI if it's like or is it",
+      "start": 151.52,
+      "duration": 4.24
+    },
+    {
+      "text": "good for AI that is just like",
+      "start": 153.84,
+      "duration": 2.72
+    },
+    {
+      "text": ">> it's it's interesting",
+      "start": 155.76,
+      "duration": 2.64
+    },
+    {
+      "text": ">> everything is like you know like there's",
+      "start": 156.56,
+      "duration": 4.16
+    },
+    {
+      "text": "no incremental thing that takes up the",
+      "start": 158.4,
+      "duration": 4.16
+    },
+    {
+      "text": "majority of the head space anymore I",
+      "start": 160.72,
+      "duration": 3.599
+    },
+    {
+      "text": "guess is is one way to look at it the",
+      "start": 162.56,
+      "duration": 3.2
+    },
+    {
+      "text": "other way to look at it is like well",
+      "start": 164.319,
+      "duration": 3.28
+    },
+    {
+      "text": "actually just every layer is innovating",
+      "start": 165.76,
+      "duration": 3.839
+    },
+    {
+      "text": "hugely right like there's tons of gains",
+      "start": 167.599,
+      "duration": 3.601
+    },
+    {
+      "text": "in pre-training there's tons of gains in",
+      "start": 169.599,
+      "duration": 3.201
+    },
+    {
+      "text": "scaling there's tons of gains in",
+      "start": 171.2,
+      "duration": 3.2
+    },
+    {
+      "text": "quantization and systems but there's",
+      "start": 172.8,
+      "duration": 3.92
+    },
+    {
+      "text": "also tons of gains in RL stuff and both",
+      "start": 174.4,
+      "duration": 4.24
+    },
+    {
+      "text": "the like you know infraight of things",
+      "start": 176.72,
+      "duration": 3.84
+    },
+    {
+      "text": "and non-infright of things right so it's",
+      "start": 178.64,
+      "duration": 3.36
+    },
+    {
+      "text": "We took the low hanging fruit and now",
+      "start": 180.56,
+      "duration": 2.8
+    },
+    {
+      "text": "the low hanging fruit isn't as",
+      "start": 182.0,
+      "duration": 2.64
+    },
+    {
+      "text": ">> No, but like it's, you know, when you",
+      "start": 183.36,
+      "duration": 2.4
+    },
+    {
+      "text": "talk to someone at a lab, they say",
+      "start": 184.64,
+      "duration": 2.48
+    },
+    {
+      "text": "there's a ton of low hanging fruit,",
+      "start": 185.76,
+      "duration": 1.68
+    },
+    {
+      "text": "right? Like,",
+      "start": 187.12,
+      "duration": 2.16
+    },
+    {
+      "text": ">> but it's not as obvious as turning on",
+      "start": 187.44,
+      "duration": 3.68
+    },
+    {
+      "text": "inference time scaling on top of",
+      "start": 189.28,
+      "duration": 2.319
+    },
+    {
+      "text": "everything,",
+      "start": 191.12,
+      "duration": 1.92
+    },
+    {
+      "text": ">> I guess. But like you guys released a",
+      "start": 191.599,
+      "duration": 2.56
+    },
+    {
+      "text": "new model recently, and I'm sure there",
+      "start": 193.04,
+      "duration": 3.119
+    },
+    {
+      "text": "was, you know, if I go ask you, hey,",
+      "start": 194.159,
+      "duration": 3.36
+    },
+    {
+      "text": "here's all the low hanging fruit we got.",
+      "start": 196.159,
+      "duration": 2.8
+    },
+    {
+      "text": "Go ask Dirk, here's all the low hanging",
+      "start": 197.519,
+      "duration": 3.121
+    },
+    {
+      "text": "fruit we got. Like well the lore is like",
+      "start": 198.959,
+      "duration": 4.081
+    },
+    {
+      "text": "I made the SFT data set for reasoning in",
+      "start": 200.64,
+      "duration": 4.16
+    },
+    {
+      "text": "like a weekend cuz we had like unlimited",
+      "start": 203.04,
+      "duration": 3.36
+    },
+    {
+      "text": "Azure credits for a certain period of",
+      "start": 204.8,
+      "duration": 2.96
+    },
+    {
+      "text": "time and I was just bombarding like",
+      "start": 206.4,
+      "duration": 3.6
+    },
+    {
+      "text": "deepse points but I was like we haven't",
+      "start": 207.76,
+      "duration": 4.479
+    },
+    {
+      "text": "made our thinking SFT set. So I was like",
+      "start": 210.0,
+      "duration": 4.0
+    },
+    {
+      "text": "let's just get as many tokens as",
+      "start": 212.239,
+      "duration": 2.321
+    },
+    {
+      "text": "possible.",
+      "start": 214.0,
+      "duration": 2.239
+    },
+    {
+      "text": ">> Is this is this how you is this how you",
+      "start": 214.56,
+      "duration": 3.759
+    },
+    {
+      "text": "legally distill from open AI is by",
+      "start": 216.239,
+      "duration": 5.041
+    },
+    {
+      "text": "distilling from DC?",
+      "start": 218.319,
+      "duration": 4.161
+    },
+    {
+      "text": ">> I'm trolling. Sorry.",
+      "start": 221.28,
+      "duration": 3.039
+    },
+    {
+      "text": ">> We just we just dissolve from open AI",
+      "start": 222.48,
+      "duration": 3.36
+    },
+    {
+      "text": "directly. We do it for research purpose.",
+      "start": 224.319,
+      "duration": 3.601
+    },
+    {
+      "text": "Our model AI's models are intended for",
+      "start": 225.84,
+      "duration": 3.6
+    },
+    {
+      "text": "research purposes and click to see our",
+      "start": 227.92,
+      "duration": 2.879
+    },
+    {
+      "text": "responsible use policy, but they're",
+      "start": 229.44,
+      "duration": 3.439
+    },
+    {
+      "text": "still Apache 2 with no clickthrough and",
+      "start": 230.799,
+      "duration": 3.601
+    },
+    {
+      "text": "no terms of service, but there is low",
+      "start": 232.879,
+      "duration": 3.521
+    },
+    {
+      "text": "hanging fruit and it's like it would",
+      "start": 234.4,
+      "duration": 3.919
+    },
+    {
+      "text": "take a meaningful amount of GPU hours on",
+      "start": 236.4,
+      "duration": 4.0
+    },
+    {
+      "text": "our scale to like do inference on",
+      "start": 238.319,
+      "duration": 4.0
+    },
+    {
+      "text": "DeepSeek and a lot of the tooling to do",
+      "start": 240.4,
+      "duration": 4.08
+    },
+    {
+      "text": "batch inference on a model that needs to",
+      "start": 242.319,
+      "duration": 3.84
+    },
+    {
+      "text": "be served multi-node is just not that",
+      "start": 244.48,
+      "duration": 4.0
+    },
+    {
+      "text": "good. And it's like we also used",
+      "start": 246.159,
+      "duration": 4.961
+    },
+    {
+      "text": "Frontier a bunch which is like the US",
+      "start": 248.48,
+      "duration": 5.28
+    },
+    {
+      "text": "AMD supercomputer and we did a whole",
+      "start": 251.12,
+      "duration": 5.359
+    },
+    {
+      "text": "bunch of like Quen 32B because it works",
+      "start": 253.76,
+      "duration": 6.24
+    },
+    {
+      "text": "on a one node 8 by like MIX whatever",
+      "start": 256.479,
+      "duration": 5.921
+    },
+    {
+      "text": "rack and we use millions of GPU hours on",
+      "start": 260.0,
+      "duration": 3.52
+    },
+    {
+      "text": "synthetic data because we have this",
+      "start": 262.4,
+      "duration": 3.519
+    },
+    {
+      "text": "frontier lying around. It's like that's",
+      "start": 263.52,
+      "duration": 4.48
+    },
+    {
+      "text": "very much AIT's data vibe and there's a",
+      "start": 265.919,
+      "duration": 2.801
+    },
+    {
+      "text": "lot more",
+      "start": 268.0,
+      "duration": 3.04
+    },
+    {
+      "text": ">> but at least like from what you've put",
+      "start": 268.72,
+      "duration": 4.4
+    },
+    {
+      "text": "out from the most recent model um and I",
+      "start": 271.04,
+      "duration": 3.36
+    },
+    {
+      "text": "talked to Durk a little bit. You guys",
+      "start": 273.12,
+      "duration": 2.88
+    },
+    {
+      "text": "both have indicated that there was like",
+      "start": 274.4,
+      "duration": 2.799
+    },
+    {
+      "text": "low hanging fruit on the most recent",
+      "start": 276.0,
+      "duration": 2.639
+    },
+    {
+      "text": "models and I'm sure you feel that way",
+      "start": 277.199,
+      "duration": 3.521
+    },
+    {
+      "text": "about the next one. There always is. I",
+      "start": 278.639,
+      "duration": 3.681
+    },
+    {
+      "text": "think there's just like I think part of",
+      "start": 280.72,
+      "duration": 3.36
+    },
+    {
+      "text": "AIT's balance especially in ports",
+      "start": 282.32,
+      "duration": 3.439
+    },
+    {
+      "text": "training is that we like bring in the",
+      "start": 284.08,
+      "duration": 3.76
+    },
+    {
+      "text": "best students from Udub who are all like",
+      "start": 285.759,
+      "duration": 4.641
+    },
+    {
+      "text": "super excited top few PhD students in",
+      "start": 287.84,
+      "duration": 3.68
+    },
+    {
+      "text": "the world and they have like their",
+      "start": 290.4,
+      "duration": 3.04
+    },
+    {
+      "text": "things to that they want to work on a",
+      "start": 291.52,
+      "duration": 3.04
+    },
+    {
+      "text": "lot of it is just like building a",
+      "start": 293.44,
+      "duration": 2.8
+    },
+    {
+      "text": "platform where they can run with it",
+      "start": 294.56,
+      "duration": 3.28
+    },
+    {
+      "text": ">> and like there's like one student like",
+      "start": 296.24,
+      "duration": 4.08
+    },
+    {
+      "text": "like Scott and Victoria are two people",
+      "start": 297.84,
+      "duration": 4.079
+    },
+    {
+      "text": "that are doing all the DPO stuff and he",
+      "start": 300.32,
+      "duration": 3.2
+    },
+    {
+      "text": "had this one DPO paper and it's like we",
+      "start": 301.919,
+      "duration": 3.28
+    },
+    {
+      "text": "just got massive gains from doing DPO",
+      "start": 303.52,
+      "duration": 3.6
+    },
+    {
+      "text": "and this is this guy that's just like I",
+      "start": 305.199,
+      "duration": 4.081
+    },
+    {
+      "text": "have my chance to prove my paper on the",
+      "start": 307.12,
+      "duration": 3.919
+    },
+    {
+      "text": "almost scale and just goes like crazy",
+      "start": 309.28,
+      "duration": 4.0
+    },
+    {
+      "text": "hours and he does it and I was like like",
+      "start": 311.039,
+      "duration": 4.321
+    },
+    {
+      "text": "that's not really that like it's not",
+      "start": 313.28,
+      "duration": 3.759
+    },
+    {
+      "text": "like I'm giving an engineering plan to",
+      "start": 315.36,
+      "duration": 3.52
+    },
+    {
+      "text": "some full-time employee. It's just like",
+      "start": 317.039,
+      "duration": 4.081
+    },
+    {
+      "text": "doing it between the hours of 10 and 2",
+      "start": 318.88,
+      "duration": 4.64
+    },
+    {
+      "text": "a.m. for the week training the 32B",
+      "start": 321.12,
+      "duration": 4.48
+    },
+    {
+      "text": "model. And I'm like, \"Okay, I've got to",
+      "start": 323.52,
+      "duration": 4.16
+    },
+    {
+      "text": "go to bed.\" Like, \"Good luck. It's not",
+      "start": 325.6,
+      "duration": 4.159
+    },
+    {
+      "text": "broken right now.\" Right.",
+      "start": 327.68,
+      "duration": 4.079
+    },
+    {
+      "text": ">> Well, so Elon RZ is paying people to do",
+      "start": 329.759,
+      "duration": 3.921
+    },
+    {
+      "text": "this, but I think you have another level",
+      "start": 331.759,
+      "duration": 3.521
+    },
+    {
+      "text": "of RZ that's above that. You're not even",
+      "start": 333.68,
+      "duration": 2.64
+    },
+    {
+      "text": "paying the UDub.",
+      "start": 335.28,
+      "duration": 2.56
+    },
+    {
+      "text": ">> We pay them a little bit. They're",
+      "start": 336.32,
+      "duration": 2.719
+    },
+    {
+      "text": "student collaborators.",
+      "start": 337.84,
+      "duration": 3.28
+    },
+    {
+      "text": ">> Okay. Let me go Let me go look up what",
+      "start": 339.039,
+      "duration": 2.561
+    },
+    {
+      "text": "the",
+      "start": 341.12,
+      "duration": 1.76
+    },
+    {
+      "text": ">> They need to be paid more. They're",
+      "start": 341.6,
+      "duration": 3.039
+    },
+    {
+      "text": "underpaid. I I agree. They are",
+      "start": 342.88,
+      "duration": 3.44
+    },
+    {
+      "text": "underpaid. The students are fun to work",
+      "start": 344.639,
+      "duration": 3.12
+    },
+    {
+      "text": "with, but it's a very different dynamic",
+      "start": 346.32,
+      "duration": 2.159
+    },
+    {
+      "text": "of everybody.",
+      "start": 347.759,
+      "duration": 2.641
+    },
+    {
+      "text": ">> Has Has any lab started just like, \"Oh,",
+      "start": 348.479,
+      "duration": 3.44
+    },
+    {
+      "text": "they work at AI2. Maybe I should like",
+      "start": 350.4,
+      "duration": 2.48
+    },
+    {
+      "text": "interview them.\"",
+      "start": 351.919,
+      "duration": 1.361
+    },
+    {
+      "text": ">> Probably.",
+      "start": 352.88,
+      "duration": 1.52
+    },
+    {
+      "text": ">> Is this like a thing?",
+      "start": 353.28,
+      "duration": 2.479
+    },
+    {
+      "text": ">> Probably not as much as they should",
+      "start": 354.4,
+      "duration": 3.28
+    },
+    {
+      "text": "because AI2 is out in this like Seattle",
+      "start": 355.759,
+      "duration": 3.841
+    },
+    {
+      "text": "bubble and people kind of ignore it. But",
+      "start": 357.68,
+      "duration": 4.64
+    },
+    {
+      "text": "I'm always one of the most prominent",
+      "start": 359.6,
+      "duration": 5.36
+    },
+    {
+      "text": "worriers about poaching with like with a",
+      "start": 362.32,
+      "duration": 5.439
+    },
+    {
+      "text": "small team, it's just like you lose",
+      "start": 364.96,
+      "duration": 4.16
+    },
+    {
+      "text": "three people and you're back a few",
+      "start": 367.759,
+      "duration": 3.761
+    },
+    {
+      "text": "months realistically and it's just so",
+      "start": 369.12,
+      "duration": 4.0
+    },
+    {
+      "text": "hard. There's like a couple labs at",
+      "start": 371.52,
+      "duration": 3.519
+    },
+    {
+      "text": "Stanford where I know just got pilered",
+      "start": 373.12,
+      "duration": 4.0
+    },
+    {
+      "text": "by, you know, even Meta most recently,",
+      "start": 375.039,
+      "duration": 4.0
+    },
+    {
+      "text": "right? So, it's like, you know, they'll",
+      "start": 377.12,
+      "duration": 3.76
+    },
+    {
+      "text": "just like, well, we need people. Where",
+      "start": 379.039,
+      "duration": 3.121
+    },
+    {
+      "text": "should we go? Okay, here's the like",
+      "start": 380.88,
+      "duration": 2.48
+    },
+    {
+      "text": "active players, but what if we want to",
+      "start": 382.16,
+      "duration": 3.759
+    },
+    {
+      "text": "pay people only a million or two, right?",
+      "start": 383.36,
+      "duration": 4.0
+    },
+    {
+      "text": "Instead of paying them 10 million, well,",
+      "start": 385.919,
+      "duration": 3.361
+    },
+    {
+      "text": "let me go find the PhD students and",
+      "start": 387.36,
+      "duration": 3.119
+    },
+    {
+      "text": "offer them that, right?",
+      "start": 389.28,
+      "duration": 3.039
+    },
+    {
+      "text": ">> I'm surprised it doesn't happen more.",
+      "start": 390.479,
+      "duration": 3.44
+    },
+    {
+      "text": ">> Yeah. Yeah. I mean, that's the next",
+      "start": 392.319,
+      "duration": 3.921
+    },
+    {
+      "text": "level of the talent drain is like",
+      "start": 393.919,
+      "duration": 4.56
+    },
+    {
+      "text": ">> maybe semi analysis when we when we when",
+      "start": 396.24,
+      "duration": 5.2
+    },
+    {
+      "text": "we do maybe we should we should go to we",
+      "start": 398.479,
+      "duration": 4.401
+    },
+    {
+      "text": "should start trying to poach from AI",
+      "start": 401.44,
+      "duration": 1.759
+    },
+    {
+      "text": "too.",
+      "start": 402.88,
+      "duration": 1.2
+    },
+    {
+      "text": ">> No comment.",
+      "start": 403.199,
+      "duration": 2.321
+    },
+    {
+      "text": ">> I'm just kidding. I'm just kidding.",
+      "start": 404.08,
+      "duration": 3.6
+    },
+    {
+      "text": ">> Um person from Momo or one of the two",
+      "start": 405.52,
+      "duration": 4.399
+    },
+    {
+      "text": "leads. It was like Chris C and then Matt",
+      "start": 407.68,
+      "duration": 5.28
+    },
+    {
+      "text": "Duchka. He like had left AI2 for a bit",
+      "start": 409.919,
+      "duration": 4.081
+    },
+    {
+      "text": "and then there's a New York Times",
+      "start": 412.96,
+      "duration": 2.72
+    },
+    {
+      "text": "article where he famously like turned",
+      "start": 414.0,
+      "duration": 3.36
+    },
+    {
+      "text": "down 100 million from Meta and then Zuck",
+      "start": 415.68,
+      "duration": 3.84
+    },
+    {
+      "text": "offered him 200 million. So it's like",
+      "start": 417.36,
+      "duration": 3.679
+    },
+    {
+      "text": "people are looking. He would probably be",
+      "start": 419.52,
+      "duration": 3.84
+    },
+    {
+      "text": "like up there with the best possible",
+      "start": 421.039,
+      "duration": 3.761
+    },
+    {
+      "text": "super intell like if I was going to just",
+      "start": 423.36,
+      "duration": 3.119
+    },
+    {
+      "text": "throw money at a researcher that hasn't",
+      "start": 424.8,
+      "duration": 3.28
+    },
+    {
+      "text": "really been brought into the scene yet,",
+      "start": 426.479,
+      "duration": 3.601
+    },
+    {
+      "text": "he's like up there. He's so good. So,",
+      "start": 428.08,
+      "duration": 2.8
+    },
+    {
+      "text": "it's like",
+      "start": 430.08,
+      "duration": 2.72
+    },
+    {
+      "text": ">> I don't know. We we screwed by. But",
+      "start": 430.88,
+      "duration": 2.96
+    },
+    {
+      "text": "also,",
+      "start": 432.8,
+      "duration": 2.48
+    },
+    {
+      "text": ">> what's it like here, right? Cuz like a",
+      "start": 433.84,
+      "duration": 3.12
+    },
+    {
+      "text": "lot of people um you guys have the most",
+      "start": 435.28,
+      "duration": 3.919
+    },
+    {
+      "text": "open source stack here, whether it be on",
+      "start": 436.96,
+      "duration": 4.079
+    },
+    {
+      "text": "your data, on your recipe, all the",
+      "start": 439.199,
+      "duration": 3.84
+    },
+    {
+      "text": "checkpoints, all your RL stuff. You guys",
+      "start": 441.039,
+      "duration": 3.921
+    },
+    {
+      "text": "have so much open source stuff here. is",
+      "start": 443.039,
+      "duration": 4.88
+    },
+    {
+      "text": "OMO like disproportionately represented",
+      "start": 444.96,
+      "duration": 5.12
+    },
+    {
+      "text": "by you know building upon OMO here or I",
+      "start": 447.919,
+      "duration": 3.441
+    },
+    {
+      "text": "don't want to say disproportionately but",
+      "start": 450.08,
+      "duration": 2.48
+    },
+    {
+      "text": "like you know it's it's",
+      "start": 451.36,
+      "duration": 2.959
+    },
+    {
+      "text": ">> we've we've done analysis for like what",
+      "start": 452.56,
+      "duration": 3.52
+    },
+    {
+      "text": "do people use OLO for and I think",
+      "start": 454.319,
+      "duration": 3.521
+    },
+    {
+      "text": "there's a lot of interpretability",
+      "start": 456.08,
+      "duration": 3.119
+    },
+    {
+      "text": "research that's done by releasing",
+      "start": 457.84,
+      "duration": 3.12
+    },
+    {
+      "text": "intermediate checkpoints and then",
+      "start": 459.199,
+      "duration": 3.361
+    },
+    {
+      "text": "especially post training data is really",
+      "start": 460.96,
+      "duration": 3.2
+    },
+    {
+      "text": "heavily used but that post training data",
+      "start": 462.56,
+      "duration": 3.199
+    },
+    {
+      "text": "is not just academic because it's like",
+      "start": 464.16,
+      "duration": 3.12
+    },
+    {
+      "text": "people like thinking machines one of",
+      "start": 465.759,
+      "duration": 3.361
+    },
+    {
+      "text": "their examples loads one of our data",
+      "start": 467.28,
+      "duration": 4.4
+    },
+    {
+      "text": "sets but it's also just like a lot of",
+      "start": 469.12,
+      "duration": 4.079
+    },
+    {
+      "text": "startups and small companies will pull",
+      "start": 471.68,
+      "duration": 3.919
+    },
+    {
+      "text": "it in or like when we did reward bench",
+      "start": 473.199,
+      "duration": 4.161
+    },
+    {
+      "text": "which like a tiny academic project it's",
+      "start": 475.599,
+      "duration": 3.6
+    },
+    {
+      "text": "like tons of companies are also just",
+      "start": 477.36,
+      "duration": 3.44
+    },
+    {
+      "text": "like h yeah we should have this around",
+      "start": 479.199,
+      "duration": 3.921
+    },
+    {
+      "text": "and or use this infrastructure as an",
+      "start": 480.8,
+      "duration": 4.16
+    },
+    {
+      "text": "early thing so I think that definitely",
+      "start": 483.12,
+      "duration": 4.32
+    },
+    {
+      "text": "gets adopted and then whatever is the",
+      "start": 484.96,
+      "duration": 4.56
+    },
+    {
+      "text": "best pre-training data I think gets used",
+      "start": 487.44,
+      "duration": 3.52
+    },
+    {
+      "text": "a lot at the time and that kind of",
+      "start": 489.52,
+      "duration": 3.679
+    },
+    {
+      "text": "oscillates between like like AI2's dolma",
+      "start": 490.96,
+      "duration": 3.6
+    },
+    {
+      "text": "was it and then like hugging face with",
+      "start": 493.199,
+      "duration": 2.961
+    },
+    {
+      "text": "fine web has been it and it kind of goes",
+      "start": 494.56,
+      "duration": 4.0
+    },
+    {
+      "text": "back and forth and then like um DCLM",
+      "start": 496.16,
+      "duration": 4.0
+    },
+    {
+      "text": "whatever is clearly the best at the time",
+      "start": 498.56,
+      "duration": 4.16
+    },
+    {
+      "text": "gets used a lot in research but I I",
+      "start": 500.16,
+      "duration": 4.319
+    },
+    {
+      "text": "think that there's Like we would like to",
+      "start": 502.72,
+      "duration": 3.44
+    },
+    {
+      "text": "see if people can do continued",
+      "start": 504.479,
+      "duration": 3.761
+    },
+    {
+      "text": "pre-training on specific domains to see",
+      "start": 506.16,
+      "duration": 4.24
+    },
+    {
+      "text": "if that could work cuz our intuition is",
+      "start": 508.24,
+      "duration": 3.519
+    },
+    {
+      "text": "that you need the pre-training data and",
+      "start": 510.4,
+      "duration": 2.559
+    },
+    {
+      "text": "the checkpoints because you have to like",
+      "start": 511.759,
+      "duration": 2.96
+    },
+    {
+      "text": "mix the domain in with the web otherwise",
+      "start": 512.959,
+      "duration": 3.44
+    },
+    {
+      "text": "you're going to have instability which",
+      "start": 514.719,
+      "duration": 3.921
+    },
+    {
+      "text": "is something we would like to see but I",
+      "start": 516.399,
+      "duration": 4.0
+    },
+    {
+      "text": "think that",
+      "start": 518.64,
+      "duration": 3.199
+    },
+    {
+      "text": "it's still hard to get a new",
+      "start": 520.399,
+      "duration": 3.281
+    },
+    {
+      "text": "pre-training code base set up on a",
+      "start": 521.839,
+      "duration": 3.601
+    },
+    {
+      "text": "cluster unless you have really good",
+      "start": 523.68,
+      "duration": 3.279
+    },
+    {
+      "text": "talent. Like it it seems like you can",
+      "start": 525.44,
+      "duration": 3.12
+    },
+    {
+      "text": "take Megatron off the shelf and use it",
+      "start": 526.959,
+      "duration": 3.44
+    },
+    {
+      "text": "and like Megatron's a bit better but",
+      "start": 528.56,
+      "duration": 2.959
+    },
+    {
+      "text": "it's still really hard. And the same",
+      "start": 530.399,
+      "duration": 2.961
+    },
+    {
+      "text": "thing for Mo Core. So we have had a few",
+      "start": 531.519,
+      "duration": 3.601
+    },
+    {
+      "text": "collaborations where somebody from like",
+      "start": 533.36,
+      "duration": 3.2
+    },
+    {
+      "text": "astrophysics is like I want to train",
+      "start": 535.12,
+      "duration": 4.32
+    },
+    {
+      "text": "this model and use mo to",
+      "start": 536.56,
+      "duration": 5.68
+    },
+    {
+      "text": ">> all this special data and it's like",
+      "start": 539.44,
+      "duration": 4.32
+    },
+    {
+      "text": ">> hasn't there hasn't been like really",
+      "start": 542.24,
+      "duration": 3.2
+    },
+    {
+      "text": "cool examples but there's a lot of",
+      "start": 543.76,
+      "duration": 3.199
+    },
+    {
+      "text": "inbound on it. So hopefully it can make",
+      "start": 545.44,
+      "duration": 3.519
+    },
+    {
+      "text": "it a bit easier to use and do this and",
+      "start": 546.959,
+      "duration": 3.841
+    },
+    {
+      "text": "like obviously having bigger and better",
+      "start": 548.959,
+      "duration": 3.921
+    },
+    {
+      "text": "better models helps to do that.",
+      "start": 550.8,
+      "duration": 3.52
+    },
+    {
+      "text": ">> Makes sense. scaling. I think scaling",
+      "start": 552.88,
+      "duration": 3.519
+    },
+    {
+      "text": "will help the scale that all these",
+      "start": 554.32,
+      "duration": 4.079
+    },
+    {
+      "text": "Chinese labs are doing and then like",
+      "start": 556.399,
+      "duration": 4.0
+    },
+    {
+      "text": "cursor is obviously built on some",
+      "start": 558.399,
+      "duration": 4.161
+    },
+    {
+      "text": "Chinese large of some sort.",
+      "start": 560.399,
+      "duration": 3.281
+    },
+    {
+      "text": ">> I was wondering because like when I look",
+      "start": 562.56,
+      "duration": 2.64
+    },
+    {
+      "text": "around at the models a lot of it is",
+      "start": 563.68,
+      "duration": 3.04
+    },
+    {
+      "text": "built on top of the Chinese models as",
+      "start": 565.2,
+      "duration": 3.04
+    },
+    {
+      "text": "well, right? A lot of the researches. So",
+      "start": 566.72,
+      "duration": 3.28
+    },
+    {
+      "text": "I was curious like how much of",
+      "start": 568.24,
+      "duration": 4.08
+    },
+    {
+      "text": ">> how much of the industry like cares I",
+      "start": 570.0,
+      "duration": 3.92
+    },
+    {
+      "text": "guess like about hey here's just the",
+      "start": 572.32,
+      "duration": 3.6
+    },
+    {
+      "text": "best open weights model versus like",
+      "start": 573.92,
+      "duration": 3.44
+    },
+    {
+      "text": "actually I want it to be open source",
+      "start": 575.92,
+      "duration": 4.08
+    },
+    {
+      "text": "across all these dimensions for my work.",
+      "start": 577.36,
+      "duration": 4.08
+    },
+    {
+      "text": "Are there certain areas where it matters",
+      "start": 580.0,
+      "duration": 3.2
+    },
+    {
+      "text": "more versus not interpretability? You",
+      "start": 581.44,
+      "duration": 2.56
+    },
+    {
+      "text": "gave that example.",
+      "start": 583.2,
+      "duration": 2.48
+    },
+    {
+      "text": ">> I think there's like healthare stuff. So",
+      "start": 584.0,
+      "duration": 3.44
+    },
+    {
+      "text": "like AI2 has some early collaborations",
+      "start": 585.68,
+      "duration": 3.68
+    },
+    {
+      "text": "on like cancer research and other thing",
+      "start": 587.44,
+      "duration": 3.44
+    },
+    {
+      "text": "that needs patient data and they want to",
+      "start": 589.36,
+      "duration": 3.919
+    },
+    {
+      "text": "try building on this open research. I",
+      "start": 590.88,
+      "duration": 4.16
+    },
+    {
+      "text": "think that's all a lot earlier.",
+      "start": 593.279,
+      "duration": 3.68
+    },
+    {
+      "text": ">> Why does why does healthcare care about",
+      "start": 595.04,
+      "duration": 4.799
+    },
+    {
+      "text": "whether it's I guess just like",
+      "start": 596.959,
+      "duration": 4.481
+    },
+    {
+      "text": "consciousness of not using a Chinese?",
+      "start": 599.839,
+      "duration": 3.601
+    },
+    {
+      "text": ">> I think you like can't release the data.",
+      "start": 601.44,
+      "duration": 3.28
+    },
+    {
+      "text": "This is might be more on like the",
+      "start": 603.44,
+      "duration": 2.88
+    },
+    {
+      "text": "flexible mo side, which is like being",
+      "start": 604.72,
+      "duration": 3.28
+    },
+    {
+      "text": "able to train part of a model with like",
+      "start": 606.32,
+      "duration": 3.92
+    },
+    {
+      "text": "specialized data, but it's just",
+      "start": 608.0,
+      "duration": 3.76
+    },
+    {
+      "text": "operationally easier for them to",
+      "start": 610.24,
+      "duration": 2.08
+    },
+    {
+      "text": "onboard.",
+      "start": 611.76,
+      "duration": 2.56
+    },
+    {
+      "text": ">> I guess I guess I more so meant like not",
+      "start": 612.32,
+      "duration": 3.92
+    },
+    {
+      "text": "collaboration, but like hey, we dropped",
+      "start": 614.32,
+      "duration": 3.12
+    },
+    {
+      "text": "all this like they're just taking the",
+      "start": 616.24,
+      "duration": 3.12
+    },
+    {
+      "text": "code and going or taking the weights and",
+      "start": 617.44,
+      "duration": 2.399
+    },
+    {
+      "text": "going.",
+      "start": 619.36,
+      "duration": 2.159
+    },
+    {
+      "text": ">> Not a ton. I mean like we got inbound",
+      "start": 619.839,
+      "duration": 2.881
+    },
+    {
+      "text": "from like data bricks are like we're",
+      "start": 621.519,
+      "duration": 2.961
+    },
+    {
+      "text": "going to try it. So I think it's like",
+      "start": 622.72,
+      "duration": 3.2
+    },
+    {
+      "text": "we're constantly in and out of this",
+      "start": 624.48,
+      "duration": 2.64
+    },
+    {
+      "text": "boundary of performance where it's",
+      "start": 625.92,
+      "duration": 3.12
+    },
+    {
+      "text": "relevant which is like the thing that I",
+      "start": 627.12,
+      "duration": 3.44
+    },
+    {
+      "text": "say internally all the time is like we",
+      "start": 629.04,
+      "duration": 3.52
+    },
+    {
+      "text": "have to bet more like the you need to",
+      "start": 630.56,
+      "duration": 3.519
+    },
+    {
+      "text": "put more of the company on this in order",
+      "start": 632.56,
+      "duration": 3.519
+    },
+    {
+      "text": "to get to this next scale because then",
+      "start": 634.079,
+      "duration": 3.2
+    },
+    {
+      "text": "there's just way more interesting things",
+      "start": 636.079,
+      "duration": 3.521
+    },
+    {
+      "text": "that you can do like the actual like",
+      "start": 637.279,
+      "duration": 4.24
+    },
+    {
+      "text": "fully open coding assistant or whatever.",
+      "start": 639.6,
+      "duration": 3.2
+    },
+    {
+      "text": "I think it just becomes far more",
+      "start": 641.519,
+      "duration": 2.641
+    },
+    {
+      "text": "interesting at that level of performance",
+      "start": 642.8,
+      "duration": 3.92
+    },
+    {
+      "text": "where the 32B model if it's solid you",
+      "start": 644.16,
+      "duration": 4.16
+    },
+    {
+      "text": "can do automation tasks with it and a",
+      "start": 646.72,
+      "duration": 3.28
+    },
+    {
+      "text": "lot of information processing and they",
+      "start": 648.32,
+      "duration": 3.199
+    },
+    {
+      "text": "might like do different retrain",
+      "start": 650.0,
+      "duration": 2.959
+    },
+    {
+      "text": "different stages of our post training to",
+      "start": 651.519,
+      "duration": 4.0
+    },
+    {
+      "text": "do that but like it's not the like sexy",
+      "start": 652.959,
+      "duration": 2.961
+    },
+    {
+      "text": "stuff",
+      "start": 655.519,
+      "duration": 2.56
+    },
+    {
+      "text": ">> Nathan Nathan today new open source",
+      "start": 655.92,
+      "duration": 2.96
+    },
+    {
+      "text": "model",
+      "start": 658.079,
+      "duration": 2.961
+    },
+    {
+      "text": ">> not from an American company not from a",
+      "start": 658.88,
+      "duration": 5.28
+    },
+    {
+      "text": "Chinese company from mistrol them seems",
+      "start": 661.04,
+      "duration": 5.359
+    },
+    {
+      "text": "good I'm happy they released base models",
+      "start": 664.16,
+      "duration": 3.84
+    },
+    {
+      "text": "I think that that like that's coming",
+      "start": 666.399,
+      "duration": 3.761
+    },
+    {
+      "text": "back around because everybody like it",
+      "start": 668.0,
+      "duration": 3.36
+    },
+    {
+      "text": "seems like there's real demand and for",
+      "start": 670.16,
+      "duration": 3.359
+    },
+    {
+      "text": "base models and because people want to",
+      "start": 671.36,
+      "duration": 4.0
+    },
+    {
+      "text": "post train their own thing. I mean see",
+      "start": 673.519,
+      "duration": 4.481
+    },
+    {
+      "text": "cursor and composer that very likely is",
+      "start": 675.36,
+      "duration": 4.64
+    },
+    {
+      "text": "a post train that they did because they",
+      "start": 678.0,
+      "duration": 3.839
+    },
+    {
+      "text": "have a ton of data and they can do a lot",
+      "start": 680.0,
+      "duration": 2.16
+    },
+    {
+      "text": "more",
+      "start": 681.839,
+      "duration": 2.56
+    },
+    {
+      "text": ">> didn't yeah one one sort of like I guess",
+      "start": 682.16,
+      "duration": 3.6
+    },
+    {
+      "text": "like last question I'll answer it too",
+      "start": 684.399,
+      "duration": 2.56
+    },
+    {
+      "text": "and I have my I've thought of my answer",
+      "start": 685.76,
+      "duration": 2.96
+    },
+    {
+      "text": "for like the last like couple minutes",
+      "start": 686.959,
+      "duration": 3.361
+    },
+    {
+      "text": ">> and I'm going to jump it on you. We've",
+      "start": 688.72,
+      "duration": 4.16
+    },
+    {
+      "text": "had these leaps, right? Um, in various",
+      "start": 690.32,
+      "duration": 4.8
+    },
+    {
+      "text": "domains um and depending on how much you",
+      "start": 692.88,
+      "duration": 3.519
+    },
+    {
+      "text": "specialize in the domain, you can, you",
+      "start": 695.12,
+      "duration": 2.399
+    },
+    {
+      "text": "know, people can point out like if",
+      "start": 696.399,
+      "duration": 2.321
+    },
+    {
+      "text": "you're in pre-training, you people can",
+      "start": 697.519,
+      "duration": 3.041
+    },
+    {
+      "text": "point out like 5 to 10 leaps over the",
+      "start": 698.72,
+      "duration": 3.359
+    },
+    {
+      "text": "last few years, right? If you're an RL,",
+      "start": 700.56,
+      "duration": 3.839
+    },
+    {
+      "text": "there's 5 to 10 leaps. What what do you",
+      "start": 702.079,
+      "duration": 5.681
+    },
+    {
+      "text": "think the next area of like like leap uh",
+      "start": 704.399,
+      "duration": 4.961
+    },
+    {
+      "text": "growth? Like what what is something that",
+      "start": 707.76,
+      "duration": 4.639
+    },
+    {
+      "text": "you think will come and probably will be",
+      "start": 709.36,
+      "duration": 4.32
+    },
+    {
+      "text": "heavily discussed here, right?",
+      "start": 712.399,
+      "duration": 3.201
+    },
+    {
+      "text": ">> I don't have a huge leap thing, but I",
+      "start": 713.68,
+      "duration": 4.08
+    },
+    {
+      "text": "think token efficiency is underrated. So",
+      "start": 715.6,
+      "duration": 3.919
+    },
+    {
+      "text": "it's like we didn't release these plots",
+      "start": 717.76,
+      "duration": 3.36
+    },
+    {
+      "text": "but we did a lot of like Pareto plots",
+      "start": 719.519,
+      "duration": 3.121
+    },
+    {
+      "text": "which is like a val performance and",
+      "start": 721.12,
+      "duration": 3.44
+    },
+    {
+      "text": "number of tokens per val and that's the",
+      "start": 722.64,
+      "duration": 3.12
+    },
+    {
+      "text": "thing that we want to be like if we're",
+      "start": 724.56,
+      "duration": 1.519
+    },
+    {
+      "text": "like",
+      "start": 725.76,
+      "duration": 2.24
+    },
+    {
+      "text": ">> number of tokens generated for the eval",
+      "start": 726.079,
+      "duration": 3.2
+    },
+    {
+      "text": "number of tokens used to trade",
+      "start": 728.0,
+      "duration": 3.279
+    },
+    {
+      "text": ">> for at inference time because it's like",
+      "start": 729.279,
+      "duration": 3.841
+    },
+    {
+      "text": "if we're reasonably close to Quen and",
+      "start": 731.279,
+      "duration": 3.281
+    },
+    {
+      "text": "Nvidia on performance",
+      "start": 733.12,
+      "duration": 2.8
+    },
+    {
+      "text": ">> that's what that's what opus was right",
+      "start": 734.56,
+      "duration": 1.839
+    },
+    {
+      "text": "4.5",
+      "start": 735.92,
+      "duration": 3.599
+    },
+    {
+      "text": ">> Opus slam down the token",
+      "start": 736.399,
+      "duration": 5.44
+    },
+    {
+      "text": ">> it just makes it's cheaper and faster",
+      "start": 739.519,
+      "duration": 5.601
+    },
+    {
+      "text": ">> 5.1 as well right GPD 5.1 codecs really",
+      "start": 741.839,
+      "duration": 3.601
+    },
+    {
+      "text": "slam",
+      "start": 745.12,
+      "duration": 1.12
+    },
+    {
+      "text": ">> so I think there'll be a lot of",
+      "start": 745.44,
+      "duration": 2.72
+    },
+    {
+      "text": "interesting research on my uh my gigab",
+      "start": 746.24,
+      "duration": 3.44
+    },
+    {
+      "text": "brain thing and I just I only thought",
+      "start": 748.16,
+      "duration": 2.88
+    },
+    {
+      "text": "about about it because you got you're uh",
+      "start": 749.68,
+      "duration": 3.04
+    },
+    {
+      "text": "you're kind of against it was uh you",
+      "start": 751.04,
+      "duration": 3.68
+    },
+    {
+      "text": "know the continual learning stuff.",
+      "start": 752.72,
+      "duration": 4.4
+    },
+    {
+      "text": ">> I know I know you're like oh shut up.",
+      "start": 754.72,
+      "duration": 4.72
+    },
+    {
+      "text": ">> Um it's a long time longterm continual",
+      "start": 757.12,
+      "duration": 3.76
+    },
+    {
+      "text": "learning is definitely a thing. I just",
+      "start": 759.44,
+      "duration": 3.76
+    },
+    {
+      "text": "think that when industry is building",
+      "start": 760.88,
+      "duration": 5.199
+    },
+    {
+      "text": "we're we're building the mega computer",
+      "start": 763.2,
+      "duration": 4.0
+    },
+    {
+      "text": "for the first time and they're going to",
+      "start": 766.079,
+      "duration": 2.801
+    },
+    {
+      "text": "build it for sure. I'm like focusing on",
+      "start": 767.2,
+      "duration": 3.439
+    },
+    {
+      "text": "the thing that is for sure and the",
+      "start": 768.88,
+      "duration": 3.92
+    },
+    {
+      "text": "research it is an it is good research",
+      "start": 770.639,
+      "duration": 2.721
+    },
+    {
+      "text": "problem.",
+      "start": 772.8,
+      "duration": 1.599
+    },
+    {
+      "text": ">> Yeah. Yeah. Yeah. I guess that's",
+      "start": 773.36,
+      "duration": 2.4
+    },
+    {
+      "text": "interesting. You guys despite being a",
+      "start": 774.399,
+      "duration": 2.88
+    },
+    {
+      "text": "research or don't go for the moonshot",
+      "start": 775.76,
+      "duration": 3.04
+    },
+    {
+      "text": "silly right? You guys actually",
+      "start": 777.279,
+      "duration": 3.601
+    },
+    {
+      "text": "just go for like open sourcing like the",
+      "start": 778.8,
+      "duration": 4.24
+    },
+    {
+      "text": "paro op like paro frontier of what we",
+      "start": 780.88,
+      "duration": 4.0
+    },
+    {
+      "text": "have today mostly. Is that is that a",
+      "start": 783.04,
+      "duration": 3.68
+    },
+    {
+      "text": "fair statement or is that is that fair?",
+      "start": 784.88,
+      "duration": 3.519
+    },
+    {
+      "text": ">> It's cuz it's hard to get all the setups",
+      "start": 786.72,
+      "duration": 3.04
+    },
+    {
+      "text": "right. I think there's famously these",
+      "start": 788.399,
+      "duration": 2.721
+    },
+    {
+      "text": "numbers and how much compute goes to",
+      "start": 789.76,
+      "duration": 2.48
+    },
+    {
+      "text": "different parts of the org where it's",
+      "start": 791.12,
+      "duration": 2.399
+    },
+    {
+      "text": "like you'll say like pre-training gets",
+      "start": 792.24,
+      "duration": 3.279
+    },
+    {
+      "text": "40%, post training like 20%, long-term",
+      "start": 793.519,
+      "duration": 4.401
+    },
+    {
+      "text": "research gets 5% and like AI2 we've",
+      "start": 795.519,
+      "duration": 3.44
+    },
+    {
+      "text": "talked about this and it's like if you",
+      "start": 797.92,
+      "duration": 2.64
+    },
+    {
+      "text": "break these down like AI2's long-term",
+      "start": 798.959,
+      "duration": 2.801
+    },
+    {
+      "text": "research percentage should be much",
+      "start": 800.56,
+      "duration": 2.64
+    },
+    {
+      "text": "higher. should be or used to be",
+      "start": 801.76,
+      "duration": 3.199
+    },
+    {
+      "text": ">> should be and it like kind of is it's",
+      "start": 803.2,
+      "duration": 3.759
+    },
+    {
+      "text": "just like the distribution of projects a",
+      "start": 804.959,
+      "duration": 3.361
+    },
+    {
+      "text": "lot of things you won't hear about",
+      "start": 806.959,
+      "duration": 2.56
+    },
+    {
+      "text": "because it's like just hard to have",
+      "start": 808.32,
+      "duration": 3.04
+    },
+    {
+      "text": "impact in that space as well. So I do",
+      "start": 809.519,
+      "duration": 2.641
+    },
+    {
+      "text": "think AI does",
+      "start": 811.36,
+      "duration": 1.919
+    },
+    {
+      "text": ">> that's the interesting thing about labs",
+      "start": 812.16,
+      "duration": 3.6
+    },
+    {
+      "text": "as well right open has over 500,000 GPUs",
+      "start": 813.279,
+      "duration": 5.281
+    },
+    {
+      "text": "working on uh R&D right let's call it",
+      "start": 815.76,
+      "duration": 4.079
+    },
+    {
+      "text": "R&D but then when you look at like",
+      "start": 818.56,
+      "duration": 3.04
+    },
+    {
+      "text": "frontier scale models their pre-training",
+      "start": 819.839,
+      "duration": 4.481
+    },
+    {
+      "text": "is not even 100k GPU scale yet right",
+      "start": 821.6,
+      "duration": 5.52
+    },
+    {
+      "text": "like GBD5 like not even 100k GPU",
+      "start": 824.32,
+      "duration": 4.8
+    },
+    {
+      "text": "pre-training scale so it's like that",
+      "start": 827.12,
+      "duration": 4.0
+    },
+    {
+      "text": "actually goes huge amount of stuff",
+      "start": 829.12,
+      "duration": 3.76
+    },
+    {
+      "text": "working on now I don't know if it's RL",
+      "start": 831.12,
+      "duration": 3.279
+    },
+    {
+      "text": "or long-term stuff but it's it's",
+      "start": 832.88,
+      "duration": 3.199
+    },
+    {
+      "text": "interesting the the mix is quite",
+      "start": 834.399,
+      "duration": 2.161
+    },
+    {
+      "text": "different",
+      "start": 836.079,
+      "duration": 2.161
+    },
+    {
+      "text": ">> yeah I would like know more about that",
+      "start": 836.56,
+      "duration": 3.68
+    },
+    {
+      "text": "but it's like I hard to know what they",
+      "start": 838.24,
+      "duration": 4.88
+    },
+    {
+      "text": "actually share hair too.",
+      "start": 840.24,
+      "duration": 2.88
+    }
+  ]
+}
