@@ -1,0 +1,54 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/210737923/e93bde91ce72fbf50e2faa22a7a594d0.mp3",
+  "description_html": "<p>Ryan Greenblatt is the Chief Scientist at Redwood Research, where he works on technical AI safety research. He's also lead author on the \"Alignment faking in Large Language Models\", and is currently working on a third party investigation into the OpenAI/HuggingFace incident. In my opinion, he's one of the most interesting thinkers on the future of AI.</p><p>Had him on to discuss/debate recursive self-improvement. This might be the most important question in the world right now \u2013 whether within a year or so of achieving human-level intelligence, you slingshot towards having 10s of billions of superintelligences, each of which is dramatically more competent than human experts across all fields.</p><p>I\u2019ve historically been skeptical of this possibility. My intuition has been that we will end up significantly bottlenecked by not only compute scaling but human expert data, which I think underlies most of the AI progress today.</p><p>If, because of RSI, we got a jump as big as GPT-3 to a Mythos (i.e. 6 years of AI progress) within a single year of achieving AGI, then the thing we get there at the end of that year is definitively and wildly superhuman.</p><p>We hashed it out, and I think Ryan made a pretty good case that this kind of speedup is plausible. FWIW, Ryan\u2019s median for when we automate AI R&D is 2031.</p><p>We then discussed the alignment implications of this scenario. Who should these superintelligences be aligned to? In the future, our capacity to steward our votes and our capital, and to make sense of what\u2019s happening in the world, will all be titrated by superintelligences. And I worry that specs like the Claude Constitution are not shaping these ASIs to truly be my personal advocates and guardian angels.</p><p>And can we get them aligned to anything in the first place? Ryan and I had a long debate about whether the kind of reward hacking we saw with the OAI/Hugging Face hack extrapolates to superintelligences that would team up to literally take over the world.</p><p>The first piece of advice you get when you\u2019re learning to drive is that it will go much smoother if you look at the horizon instead of directly in front of your tires. And so it is with the trajectory of AI. Hope you enjoy!</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/-RXD4bTuFTo\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/ryan-greenblatt\">transcript</a>.</p><p><strong>Sponsors</strong></p><p>* <a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">Antithesis</a> is a software testing platform that finds the failures no human or AI could ever anticipate. It runs thousands of copies of your code inside a fully deterministic computer, injecting faults and steering each trajectory toward the most insidious bugs. This lets you find critical issues in minutes rather than waiting months for your users to uncover them. Learn more at <a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">antithesis.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a>\u2019s back with a new puzzle. They designed an ASIC and sent me the final masks\u2026 but they didn\u2019t tell me what the chip actually does. So that\u2019s the challenge: reverse engineer the circuit and figure out the chip\u2019s purpose. Jane Street has a bunch of swag ready to send to the most creative solutions, and they\u2019re also planning to feature the top write-ups in a blog post. Download the files and get started at <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">janestreet.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://cursor.com/dwarkesh\">Cursor</a> and SpaceX recently released Grok 4.5, and I\u2019ve been surprised by just how good the model is. For example, when I tested it against Fable and Sol on a bunch of AI governance questions, all three models gave substantially the same answers, but Grok was faster, more concise, and cheaper. Grok 4.6 is coming soon, but in the meantime, you can try 4.5 at <a target=\"_blank\" href=\"https://cursor.com/dwarkesh\">cursor.com/dwarkesh</a></p><p>Timestamps</p><p>(00:00:00) \u2013 Is AI R&D verifiable enough to unlock recursive self-improvement?</p><p>(00:16:52) \u2013 Is AI progress bottlenecked by human expert data?</p><p>(00:34:02) \u2013 Flat token prices suggest scaling has been slow</p><p>(00:39:47) \u2013 Skills AI can\u2019t train on: does it even need them?</p><p>(00:48:07) \u2013 Aligned to whom?</p><p>(01:09:18) \u2013 Recent incidents of AIs colluding and deceiving humans</p><p>(01:19:38) \u2013 What could possibly go wrong? A concrete scenario</p><p>(01:48:02) \u2013 From reward hacking to takeover</p> <br/><br/>Get full access to Dwarkesh Podcast at <a href=\"https://www.dwarkesh.com/subscribe?utm_medium=podcast&#38;utm_campaign=CTA_4\">www.dwarkesh.com/subscribe</a>",
+  "description_text": "Ryan Greenblatt is the Chief Scientist at Redwood Research, where he works on technical AI safety research. He's also lead author on the \"Alignment faking in Large Language Models\", and is currently working on a third party investigation into the OpenAI/HuggingFace incident. In my opinion, he's one of the most interesting thinkers on the future of AI.\n\nHad him on to discuss/debate recursive self-improvement. This might be the most important question in the world right now \u2013 whether within a year or so of achieving human-level intelligence, you slingshot towards having 10s of billions of superintelligences, each of which is dramatically more competent than human experts across all fields.\n\nI\u2019ve historically been skeptical of this possibility. My intuition has been that we will end up significantly bottlenecked by not only compute scaling but human expert data, which I think underlies most of the AI progress today.\n\nIf, because of RSI, we got a jump as big as GPT-3 to a Mythos (i.e. 6 years of AI progress) within a single year of achieving AGI, then the thing we get there at the end of that year is definitively and wildly superhuman.\n\nWe hashed it out, and I think Ryan made a pretty good case that this kind of speedup is plausible. FWIW, Ryan\u2019s median for when we automate AI R&D is 2031.\n\nWe then discussed the alignment implications of this scenario. Who should these superintelligences be aligned to? In the future, our capacity to steward our votes and our capital, and to make sense of what\u2019s happening in the world, will all be titrated by superintelligences. And I worry that specs like the Claude Constitution are not shaping these ASIs to truly be my personal advocates and guardian angels.\n\nAnd can we get them aligned to anything in the first place? Ryan and I had a long debate about whether the kind of reward hacking we saw with the OAI/Hugging Face hack extrapolates to superintelligences that would team up to literally take over the world.\n\nThe first piece of advice you get when you\u2019re learning to drive is that it will go much smoother if you look at the horizon instead of directly in front of your tires. And so it is with the trajectory of AI. Hope you enjoy!\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\n* Antithesis is a software testing platform that finds the failures no human or AI could ever anticipate. It runs thousands of copies of your code inside a fully deterministic computer, injecting faults and steering each trajectory toward the most insidious bugs. This lets you find critical issues in minutes rather than waiting months for your users to uncover them. Learn more at antithesis.com/dwarkesh\n\n* Jane Street \u2019s back with a new puzzle. They designed an ASIC and sent me the final masks\u2026 but they didn\u2019t tell me what the chip actually does. So that\u2019s the challenge: reverse engineer the circuit and figure out the chip\u2019s purpose. Jane Street has a bunch of swag ready to send to the most creative solutions, and they\u2019re also planning to feature the top write-ups in a blog post. Download the files and get started at janestreet.com/dwarkesh\n\n* Cursor and SpaceX recently released Grok 4.5, and I\u2019ve been surprised by just how good the model is. For example, when I tested it against Fable and Sol on a bunch of AI governance questions, all three models gave substantially the same answers, but Grok was faster, more concise, and cheaper. Grok 4.6 is coming soon, but in the meantime, you can try 4.5 at cursor.com/dwarkesh\n\nTimestamps\n\n(00:00:00) \u2013 Is AI R&D verifiable enough to unlock recursive self-improvement?\n\n(00:16:52) \u2013 Is AI progress bottlenecked by human expert data?\n\n(00:34:02) \u2013 Flat token prices suggest scaling has been slow\n\n(00:39:47) \u2013 Skills AI can\u2019t train on: does it even need them?\n\n(00:48:07) \u2013 Aligned to whom?\n\n(01:09:18) \u2013 Recent incidents of AIs colluding and deceiving humans\n\n(01:19:38) \u2013 What could possibly go wrong? A concrete scenario\n\n(01:48:02) \u2013 From reward hacking to takeover\n\nGet full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+  "duration_seconds": 7952,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "41c79f865a6221e78dec",
+  "link": "https://www.dwarkesh.com/p/ryan-greenblatt",
+  "published": "2026-08-11T16:31:23+00:00",
+  "title": "Ryan Greenblatt \u2013 What happens once AI can automate AI research?",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/-RXD4bTuFTo"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/ryan-greenblatt"
+    },
+    {
+      "text": "Antithesis",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "antithesis.com/dwarkesh",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "Cursor",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "cursor.com/dwarkesh",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "www.dwarkesh.com/subscribe",
+      "url": "https://www.dwarkesh.com/subscribe?utm_medium=podcast&utm_campaign=CTA_4"
+    }
+  ]
+}

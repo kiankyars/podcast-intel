@@ -6,7 +6,7 @@
     },
     "019e588f28f4013791e2": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.722397+00:00"
+      "updated_at": "2026-08-12T16:02:58.593461+00:00"
     },
     "01c3d87bcabde7e7204a": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-15/freedom-250-recap-with-bo-nickal-the-hand-anthropic-was-dealt-fox-buys-roku-bo-nickal-gavi-01c3d87bcabde7e7204a/analysis.json",
@@ -27,7 +27,7 @@
     },
     "080e5785176cc51d3078": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.719568+00:00"
+      "updated_at": "2026-08-12T16:02:58.588890+00:00"
     },
     "08455bb0b941050e2953": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-06/xbox-layoffs-manual-ferrari-circle-k-lottery-dispute-baiju-bhatt-daniel-english-michele-ca-08455bb0b941050e2953/analysis.json",
@@ -82,7 +82,7 @@
     },
     "0c08f7d3f44a3d0bc881": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.719180+00:00"
+      "updated_at": "2026-08-12T16:02:58.588469+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -138,6 +138,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://www.dwarkesh.com/p/ada-palmer-2",
       "updated_at": "2026-06-17T15:04:04.651171+00:00"
+    },
+    "1697f085e7cf5416df66": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/the-bioai-phase-shift-matthew-mcpartlon-neil-patil-chai-discovery-1697f085e7cf5416df66/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/chai-discovery",
+      "published": "2026-08-11T21:03:50+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/the-bioai-phase-shift-matthew-mcpartlon-neil-patil-chai-discovery-1697f085e7cf5416df66/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/the-bioai-phase-shift-matthew-mcpartlon-neil-patil-chai-discovery-1697f085e7cf5416df66/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/the-bioai-phase-shift-matthew-mcpartlon-neil-patil-chai-discovery-1697f085e7cf5416df66/summary.md",
+      "title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/the-bioai-phase-shift-matthew-mcpartlon-neil-patil-chai-discovery-1697f085e7cf5416df66/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.latent.space/p/chai-discovery",
+      "updated_at": "2026-08-12T16:11:38.976591+00:00"
     },
     "172f188e9414764b980f": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-11/bezos-ai-play-future-of-airports-caa-fund-david-reger-mike-wior-ariel-cohen-jeff-tatarchuk-172f188e9414764b980f/analysis.json",
@@ -369,7 +386,7 @@
     },
     "2c2a4562f490a0d99d35": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.720499+00:00"
+      "updated_at": "2026-08-12T16:02:58.590126+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -504,7 +521,7 @@
     },
     "3e32b191c658552aa61f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.717983+00:00"
+      "updated_at": "2026-08-12T16:02:58.587497+00:00"
     },
     "3e57bc020699e12f7810": {
       "status": "metadata_skipped",
@@ -526,6 +543,23 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.latent.space/p/radical-ai",
       "updated_at": "2026-06-18T15:04:58.889231+00:00"
+    },
+    "41c79f865a6221e78dec": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/ryan-greenblatt-what-happens-once-ai-can-automate-ai-research-41c79f865a6221e78dec/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/ryan-greenblatt",
+      "published": "2026-08-11T16:31:23+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/ryan-greenblatt-what-happens-once-ai-can-automate-ai-research-41c79f865a6221e78dec/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/ryan-greenblatt-what-happens-once-ai-can-automate-ai-research-41c79f865a6221e78dec/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/ryan-greenblatt-what-happens-once-ai-can-automate-ai-research-41c79f865a6221e78dec/summary.md",
+      "title": "Ryan Greenblatt \u2013 What happens once AI can automate AI research?",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/ryan-greenblatt-what-happens-once-ai-can-automate-ai-research-41c79f865a6221e78dec/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+      "updated_at": "2026-08-12T16:11:38.980329+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -562,7 +596,7 @@
     },
     "4dd695488cecd51af249": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.722937+00:00"
+      "updated_at": "2026-08-12T16:02:58.593872+00:00"
     },
     "5407316ae797ccc74c42": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-04/alex-karp-live-from-aipcon-10-alex-karp-peter-zaffino-chad-wahlquist-sam-berry-5407316ae797ccc74c42/analysis.json",
@@ -659,7 +693,7 @@
     },
     "5c9079babc96f680ea68": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.718766+00:00"
+      "updated_at": "2026-08-12T16:02:58.588023+00:00"
     },
     "5cfc3c40bbdee4ffbbb7": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-03/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectur-5cfc3c40bbdee4ffbbb7/analysis.json",
@@ -677,6 +711,10 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.cognitiverevolution.ai/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectures/",
       "updated_at": "2026-06-11T16:06:42.803931+00:00"
+    },
+    "5d2f458e548558059852": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-12T16:02:58.586683+00:00"
     },
     "5f1ce4d7c5857004243f": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-30/etched-building-ai-hardware-to-make-inference-faster-and-cheaper-invest-like-the-best-ep-4-5f1ce4d7c5857004243f/analysis.json",
@@ -819,7 +857,7 @@
     },
     "73944182fcc47ce6f950": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.721582+00:00"
+      "updated_at": "2026-08-12T16:02:58.592564+00:00"
     },
     "74005a3f3649b4c66c39": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-19/the-data-black-hole-at-the-center-of-ai-74005a3f3649b4c66c39/analysis.json",
@@ -1090,11 +1128,11 @@
     },
     "8539dfe2360731b556b3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.721205+00:00"
+      "updated_at": "2026-08-12T16:02:58.591850+00:00"
     },
     "8889ec11851c90fa1eeb": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.720855+00:00"
+      "updated_at": "2026-08-12T16:02:58.590790+00:00"
     },
     "8b05ac6e5eb0a316d785": {
       "status": "metadata_skipped",
@@ -1337,7 +1375,7 @@
     },
     "acf76b632857e6bd388c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.723287+00:00"
+      "updated_at": "2026-08-12T16:02:58.594282+00:00"
     },
     "ae4a0a34d8b74065dcc9": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-06/chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-regulatory-capture-wi-ae4a0a34d8b74065dcc9/analysis.json",
@@ -1535,7 +1573,7 @@
     },
     "cbdc147dbc5c8789a2ac": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.719927+00:00"
+      "updated_at": "2026-08-12T16:02:58.589332+00:00"
     },
     "cd323cc4cc94a7625667": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-23/vlad-barbalat-investing-120-billion-in-permanent-capital-invest-like-the-best-ep-479-cd323cc4cc94a7625667/analysis.json",
@@ -1594,7 +1632,7 @@
     },
     "cf64acb4fbc06b110da8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.722004+00:00"
+      "updated_at": "2026-08-12T16:02:58.593034+00:00"
     },
     "d101b0207adc80019ab2": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-01/ep-017-deepseek-v4-and-huawei-ascend-npu-performance-inferencex-kimbo-chen-cam-quilici-bry-d101b0207adc80019ab2/analysis.json",
@@ -1636,7 +1674,7 @@
     },
     "d2fce60180d7428cf10d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-11T16:03:05.723655+00:00"
+      "updated_at": "2026-08-12T16:02:58.594682+00:00"
     },
     "d496c678af05e528a106": {
       "status": "metadata_skipped",
@@ -1697,6 +1735,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/cce0bdfb/transcription.txt",
       "updated_at": "2026-07-21T16:08:02.430732+00:00"
     },
+    "e69f98bdec4c29893c61": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-08/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-a-e69f98bdec4c29893c61/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-agent/",
+      "published": "2026-08-08T20:48:23+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-08/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-a-e69f98bdec4c29893c61/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-08/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-a-e69f98bdec4c29893c61/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-08/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-a-e69f98bdec4c29893c61/summary.md",
+      "title": "Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-08/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-a-e69f98bdec4c29893c61/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-agent/",
+      "updated_at": "2026-08-12T16:11:38.982949+00:00"
+    },
     "e7630540911fc5dea985": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-22/red-teaming-after-mythos-zico-kolter-matt-fredrikson-gray-swan-e7630540911fc5dea985/analysis.json",
       "error": "",
@@ -1742,7 +1797,7 @@
     "ee29121bdffa1dcd1bf8": {
       "error": "The MAD Podcast with Matt Turck / Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-11T16:03:24.686509+00:00"
+      "updated_at": "2026-08-12T16:03:02.852652+00:00"
     },
     "ee719fdce27e5d88ecd4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-01/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-s-ee719fdce27e5d88ecd4/analysis.json",

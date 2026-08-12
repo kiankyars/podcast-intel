@@ -135,3 +135,13 @@ GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and 
 ## 2026-08-06 - [Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad]()
 
 - **Gil argues that physical compute scarcity currently reinforces an oligopoly by capping each major lab's rate of progress and keeping competitors closer than they would be with unconstrained compute.** [20:00] He says compute is effectively prorated across the large labs, imposing similar ceilings on progress until the physical constraint lifts.
+
+<!-- episode:1697f085e7cf5416df66 -->
+## 2026-08-11 - [🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery](https://www.latent.space/p/chai-discovery)
+
+- **Chai says frontier protein-model workloads are poorly matched to hardware systems optimized primarily for LLM inference: AlphaFold-like pair representations scale as L-squared and batched attention as L-cubed, creating high FLOP and memory-bandwidth costs while molecule-design jobs fan out across many GPUs.** [01:03:13; 01:04:27] Patil calls B300 and Vera Rubin configurations LLM-forward, citing large KV caches and 72-GPU systems; McPartlon describes pair-state, layer-normalization, and SRAM-transfer bottlenecks and says chip suitability differs between training and inference.
+
+<!-- episode:41c79f865a6221e78dec -->
+## 2026-08-11 - [Ryan Greenblatt – What happens once AI can automate AI research?](https://www.dwarkesh.com/p/ryan-greenblatt)
+
+- **Greenblatt argues broad transfer into politics or executive persuasion is not required for radical economic transformation if AIs master AI, chip, fab, factory, and robotics R&D.** [00:39:47] He describes that technical bundle as sufficient for an industrial explosion that builds far more compute and automates the future production base, even if agents remain weaker in hard-to-verify social domains.

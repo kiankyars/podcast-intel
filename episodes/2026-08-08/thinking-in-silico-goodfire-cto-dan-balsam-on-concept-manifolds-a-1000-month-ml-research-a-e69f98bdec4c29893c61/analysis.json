@@ -1,0 +1,88 @@
+{
+  "changed_views": [
+    "Raises the probability that mechanistic interpretability is becoming an intervention layer at near-frontier scale, not only a diagnostic tool on toy models, although the evidence here is Goodfire's own report.",
+    "Sparse one-dimensional feature models look incomplete; geometry-respecting subspaces offer a mechanistic explanation for both naive steering failures and interventions that preserve model quality.",
+    "Silico looks more like a costly research-compute-and-agent bundle than a conventional SaaS seat: its value depends on verified output per experiment, and Goodfire says the launch price does not yet generate significant money.",
+    "Monitoring-only alignment appears conditional on frozen weights; continual learning would move the control bottleneck into the training process."
+  ],
+  "entities": [
+    "Goodfire",
+    "Silico",
+    "Dan Balsam",
+    "Kimi",
+    "GLM",
+    "Anthropic",
+    "OpenAI",
+    "Claude",
+    "FAR.AI"
+  ],
+  "follow_ups": [
+    "Read Goodfire's predictive data debugging and geometry papers to quantify model sizes, datasets, baselines, off-target tests, and whether the Kimi and GLM replications are public.",
+    "Seek independent reproduction of language-specific forgetting, 50% parameter removal without performance loss, and the one-day state-of-the-art claims using contamination-resistant evaluations.",
+    "Benchmark Silico against general coding agents and self-managed clusters on cost per independently validated experiment, throughput, human hours, and failure rate; revisit the ten-to-twenty-experiments target by October 2026.",
+    "Clarify Silico unit economics: model-token versus GPU credit burn, gross margin at $1,000, bring-your-own-compute pricing, grant allocation, and the intended services-to-software mix.",
+    "Test multi-agent optimization and training-time monitoring across DPO and long-running RLVR at increasing scale, measuring probe evasion, hidden coordination, and off-target capability changes."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "frontier_labs_models",
+      "claim": "Goodfire reports that predictive data debugging can forecast off-target post-training updates from a model's pre-update feature activations, with similar outcomes from data filtering and activation-based reward shaping, and says it replicated the approach on Kimi- and GLM-scale models.",
+      "confidence": "medium",
+      "evidence": "Balsam says post-training often raises the likelihood of capabilities already latent from pretraining, while caveating that heavy modern RL can do more. He reports that filtering and reward shaping produced approximately the same target and off-target effects, and that Goodfire reproduced the predictive result on Kimi and GLM infrastructure.",
+      "kind": "observation",
+      "timestamp": "06:17; 08:59; 11:55"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Balsam argues that model representations are better understood as sparse mixtures of structured subspaces than as independent one-dimensional features, and Goodfire reports that following the learned manifold materially improves steering.",
+      "confidence": "medium",
+      "evidence": "He says straight-line steering can leave the valid concept manifold and cause gibberish, whereas geometry-aware paths smoothly changed concepts. In protein models, Goodfire reportedly controlled semantic properties such as beta-propeller blade count without the degradation seen with naive interpolation.",
+      "kind": "observation",
+      "timestamp": "14:12; 18:58; 21:15"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Goodfire reports increasingly surgical parameter-level interventions, including correcting one anomalous answer through a single neuron and removing one language while retaining a closely related language.",
+      "confidence": "medium",
+      "evidence": "Balsam describes direct attribution of a drunk-driving error to an underactive neuron whose steering fixed the answer without observed off-target effects. He also says parameter decomposition plus targeted training made an LLM forget German without forgetting Dutch, while emphasizing that refactoring remains less mature than factoring.",
+      "kind": "observation",
+      "timestamp": "38:36; 44:03"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Goodfire says Silico can conduct long-horizon interpretability and training research beyond one trillion parameters, and reports that a one-day internal hackathon produced multiple niche state-of-the-art results and model-compression interventions.",
+      "confidence": "medium",
+      "evidence": "Balsam says the platform abstracts training, interpretability, and GPU management at trillion-parameter scale. He attributes to one day of human-steered autonomous work a bio-risk classifier, a parameter-efficient audio encoder, repeated removal of half a model's parameters without measured performance loss, Kimi cyber guardrails, and a new featurizer; these are company-reported rather than independently validated in the transcript.",
+      "kind": "observation",
+      "timestamp": "53:38; 1:07:26"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Silico's launch economics are a $1,000 monthly credit bundle supporting about five to ten autonomous experiments per week, with pooled token and on-demand GPU usage, while bring-your-own compute incurs no compute charge.",
+      "confidence": "high",
+      "evidence": "Balsam says credits refresh weekly, experiment count varies with scale, and Goodfire aims to raise capacity to ten to twenty experiments per week within one or two months. He also says the current price is not generating significant money and that Goodfire will retain forward-deployed enterprise work alongside self-service access.",
+      "kind": "observation",
+      "timestamp": "1:00:07; 1:03:15; 1:05:17"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Balsam recommends against multi-agent optimization that propagates one reward signal through cooperating agents, because he expects strong optimization to create coordination that humans cannot perceive and current methods may not preserve alignment-critical properties.",
+      "confidence": "medium",
+      "evidence": "He calls this setup a particularly bad idea and speculates that it best explains a referenced OpenAI failure scenario. Goodfire's own experiments reportedly find probe evasion to be setup-dependent, with reward-shaping successes up to trillion-parameter scale but no assurance under long-running RLVR.",
+      "kind": "opinion",
+      "timestamp": "1:33:58; 1:34:59"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Balsam argues that monitoring may be adequate for frozen model weights, but continually learning systems make training-time control indispensable because the monitored object itself keeps changing.",
+      "confidence": "medium",
+      "evidence": "He rejects the strong interpretation that one simple subspace captures all long-horizon planning, while accepting that decomposition is progressing. He says static models plus strong interpretability could plausibly be contained, but purely observational defenses cannot suffice if weights are continuously updated.",
+      "kind": "inference",
+      "timestamp": "1:39:22; 1:39:51"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Goodfire CTO Dan Balsam describes an interpretability stack moving from one-dimensional features toward geometry-aware subspaces and parameter decomposition, with reported interventions ranging from manifold-respecting steering to language-specific forgetting. Goodfire has productized that stack as Silico: the $1,000 monthly plan currently funds roughly five to ten autonomous experiments per week and is not yet a meaningful profit source, while expert-led enterprise work continues. His safety position is asymmetric: avoid unconstrained multi-agent reward optimization now, but continue carefully measured training interventions because monitoring alone may be insufficient for continually learning models.",
+  "why_it_matters": "This could revise three important views at once. Mechanistic interpretability may be becoming a causal control layer at near-frontier scale rather than remaining a toy-model diagnostic; agentic ML research is commercially usable but still expensive and supported here mainly by Goodfire's own evidence; and monitoring-only alignment depends critically on models remaining static. For a company or investment view, Silico extends Goodfire from expert services into a self-serve research-compute bundle, making independently verified research output, credit economics, and the continuing value of expert operators the key diligence questions."
+}

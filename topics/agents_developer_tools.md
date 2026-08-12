@@ -280,3 +280,13 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 
 - **Tokmak says Netic agents serve as the multimodal front door for essential-services companies and autonomously reason from customer need through labor deployment rather than merely answering support questions.** [02:39] She describes agents handling voice, text, and web intake, then using customer records, equipment type, urgency, lifetime value, technician specialization, and availability to decide whether, when, and whom to dispatch.
 - **Tokmak argues that vertical agent companies' defensibility against frontier labs comes from domain focus, enterprise product stability, and the last-mile harness, orchestration, software, and product layers rather than from the base model alone.** [13:12] She says labs optimize for general solutions and frequently change products, while serving millions of users with different accents, contexts, and repeat-customer goals requires application-specific work across all three layers.
+
+<!-- episode:41c79f865a6221e78dec -->
+## 2026-08-11 - [Ryan Greenblatt – What happens once AI can automate AI research?](https://www.dwarkesh.com/p/ryan-greenblatt)
+
+- **Greenblatt argues AI R&D is unusually amenable to automated capability improvement because much of it can be converted into containerized, verifiable training tasks.** [00:00:00] He proposes RL over small training runs, implementation tasks, metric hill-climbing, and subtle-bug detection, followed by turning successful real production experiments into new RL environments or online and off-policy training data.
+
+<!-- episode:e69f98bdec4c29893c61 -->
+## 2026-08-08 - [Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent](https://www.cognitiverevolution.ai/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-agent/)
+
+- **Goodfire says Silico can conduct long-horizon interpretability and training research beyond one trillion parameters, and reports that a one-day internal hackathon produced multiple niche state-of-the-art results and model-compression interventions.** [53:38; 1:07:26] Balsam says the platform abstracts training, interpretability, and GPU management at trillion-parameter scale. He attributes to one day of human-steered autonomous work a bio-risk classifier, a parameter-efficient audio encoder, repeated removal of half a model's parameters without measured performance loss, Kimi cyber guardrails, and a new featurizer; these are company-reported rather than independently validated in the transcript.
