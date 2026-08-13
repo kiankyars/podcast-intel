@@ -229,3 +229,8 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 
 - **Chai is committing to a pure software-and-model platform rather than building its own drug pipeline, and says Eli Lilly, Pfizer, Novartis, and argenx are partners with active pharma campaigns.** [00:03:45; 01:19:22] McPartlon names the four partners, later says Chai has no plans to start a pipeline, and describes the partnership model as aligning Chai's model improvements with partner success.
 - **Patil says Chai's latest $400 million raise will fund another compute cluster and much larger training and inference runs; the company reports only about 30 employees and roughly 10 researchers.** [01:08:09; 01:26:41] He directly links the new capital to buying a cluster and scaling runs, while both guests describe a deliberately small organization that treats research ideas and compute as capital-allocation decisions.
+
+<!-- episode:53895723558ef17ce831 -->
+## 2026-08-02 - [Nathan Goes to China – Part 2: AI Safety with Chinese Characteristics](https://www.cognitiverevolution.ai/nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics/)
+
+- **According to Labenz's summary of Concordia's July 2026 report, only five of ten major Chinese AI companies had recently published a safety evaluation with a model release, and even those companies did not do so for every release.** [21:40] He reports that established incumbents appear more willing than catch-up startups to spend on safety and disclosure, while younger labs often reason that US companies have already exposed the public to comparable capability levels.

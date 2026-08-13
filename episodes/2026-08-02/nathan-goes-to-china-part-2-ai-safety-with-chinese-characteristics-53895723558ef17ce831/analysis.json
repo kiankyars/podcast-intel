@@ -1,0 +1,95 @@
+{
+  "changed_views": [
+    "The current US-China model-safeguard gap appears to be driven disproportionately by OpenAI and Anthropic rather than by a uniformly stronger US ecosystem.",
+    "China's AI-safety ecosystem is becoming substantial but is organized mainly through universities and government supervision rather than independent nonprofits or company-authored risk frameworks.",
+    "The claim that any US safety obligation would automatically cede the race to an unwilling-to-regulate China is harder to sustain given China's documented launch delays, review process, and active safety research.",
+    "China's service-level regulatory model may control domestic deployments more effectively than model-only comparisons imply while leaving the global externalities of open-weight releases under-addressed."
+  ],
+  "entities": [
+    "Nathan Labenz",
+    "The Cognitive Revolution",
+    "Concordia AI",
+    "Shanghai AI Lab",
+    "Tsinghua University College of AI",
+    "Cyberspace Administration of China",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Meta",
+    "Xi Jinping",
+    "World Artificial Intelligence Conference",
+    "Apollo Research",
+    "METR",
+    "Palisade Research",
+    "UK AI Security Institute"
+  ],
+  "follow_ups": [
+    "Audit Concordia AI's July 2026 company-disclosure sample and AI Monitor methodology, separating model-only, API, and first-party service safeguards.",
+    "Verify the Tsinghua safety hub's funding, leadership, residency program, and exchange commitments from its Chinese-language launch materials.",
+    "Read the CAC registry rules and primary regulatory texts to confirm the 2023 launch-delay timeline, provincial-to-national review flow, and current triggers for renewed approval.",
+    "Track whether the draft malicious-code monitoring requirement becomes law and whether Chinese providers publish incident, enforcement, or compliance data.",
+    "Evaluate the quality and independent reproducibility of China's safety research rather than relying on paper counts, especially hazardous-capability isolation and agent-control work."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "frontier_labs_models",
+      "claim": "Labenz argues that Chinese frontier-model safeguards currently trail the US average, but that OpenAI and Anthropic account for most of the measured US advantage; without them, he expects only a slim US edge.",
+      "confidence": "medium",
+      "evidence": "He combines Concordia's comparison of mostly US proprietary APIs with mostly Chinese open-weight models and prior jailbreak testing, placing OpenAI and Anthropic clearly ahead, Google modestly ahead, and the remaining US and Chinese providers much closer together.",
+      "kind": "inference",
+      "timestamp": "05:05; 10:05"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Labenz says Chinese AI governance treats the deployed service, rather than released model weights alone, as the principal safety boundary and may therefore underweight harms that occur beyond China's enforcement reach.",
+      "confidence": "medium",
+      "evidence": "He observed Chinese consumer apps applying output monitors outside the base model and says regulators expect downstream services to carry controls; that domestic logic does not constrain foreign users of openly released weights.",
+      "kind": "inference",
+      "timestamp": "16:34"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "According to Labenz's summary of Concordia's July 2026 report, only five of ten major Chinese AI companies had recently published a safety evaluation with a model release, and even those companies did not do so for every release.",
+      "confidence": "medium",
+      "evidence": "He reports that established incumbents appear more willing than catch-up startups to spend on safety and disclosure, while younger labs often reason that US companies have already exposed the public to comparable capability levels.",
+      "kind": "observation",
+      "timestamp": "21:40"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Labenz reports that Tsinghua University's College of AI launched an internationally oriented AI-safety hub modeled partly on Constellation and LISA, with plans to host foreign researchers and fund Chinese students' placements abroad.",
+      "confidence": "high",
+      "evidence": "He attended the full-day launch, saw a European professor on the five-person founding leadership group, and heard repeated commitments to researcher exchanges and explicit citations of leading Western safety organizations.",
+      "kind": "observation",
+      "timestamp": "52:17"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Labenz says Concordia's tracker shows Chinese AI-safety output rising from only a few papers per month in 2023 to roughly 50-60 per month by mid-2026, with work converging on the same technical problems studied in the West.",
+      "confidence": "medium",
+      "evidence": "He identifies Chinese work on self-replication, evaluation faking, deception, mechanistic interpretability, adversarial robustness for vision-language-action models, and removal of hazardous mixture-of-experts capabilities, while cautioning that paper counts do not establish quality.",
+      "kind": "observation",
+      "timestamp": "57:26; 1:02:24; 1:07:23; 1:12:15"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Labenz reports that Chinese authorities delayed domestic chatbot launches for about six months in 2023 while establishing standards, and that new services now move from provincial testing to national CAC review before launch.",
+      "confidence": "medium",
+      "evidence": "He says providers give local authorities product or API access, obtain provincial approval, and then face CAC review; companies described regulator contact as weekly or even daily, with lighter treatment for some incremental releases.",
+      "kind": "observation",
+      "timestamp": "1:32:35; 1:37:41"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Labenz reports that China's emerging governance agenda extends beyond content censorship to loss-of-control and agent-security risks, including a draft requirement to monitor bulk malicious-code generation and rapid official warnings about vulnerable OpenClaw versions.",
+      "confidence": "medium",
+      "evidence": "He cites a government risk taxonomy that includes AI self-awareness and loss of human control, a January 2026 draft cybercrime rule on malicious-code reporting, and warnings issued within weeks of widespread OpenClaw adoption.",
+      "kind": "observation",
+      "timestamp": "1:27:32; 1:42:41"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Labenz's field report presents China as materially behind OpenAI and Anthropic on deployed model safeguards but much more engaged in AI safety than the common 'China will never slow down' argument assumes. He describes a fast-growing, university-centered research ecosystem, an internationally oriented Tsinghua safety hub, service-level regulation led by the CAC, and a history of delaying chatbot launches while standards were created. The evidence also exposes important weaknesses: inconsistent company disclosures, less robust open-weight models, and a domestic-control mindset that may not account for risks exported through globally available weights.",
+  "why_it_matters": "The episode changes the strategic baseline for US-China AI policy. China's combination of convergent technical research, centralized service oversight, and demonstrated willingness to impose launch costs suggests that bilateral safety coordination is not inherently futile. At the same time, weaker deployed safeguards, limited company transparency, and open-weight externalities remain concrete gaps, so policy should distinguish the Chinese research community, product companies, and state regulator rather than treating them as one uniformly safety-indifferent actor."
+}

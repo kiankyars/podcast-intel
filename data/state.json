@@ -6,7 +6,7 @@
     },
     "019e588f28f4013791e2": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.593461+00:00"
+      "updated_at": "2026-08-13T16:02:03.648537+00:00"
     },
     "01c3d87bcabde7e7204a": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-15/freedom-250-recap-with-bo-nickal-the-hand-anthropic-was-dealt-fox-buys-roku-bo-nickal-gavi-01c3d87bcabde7e7204a/analysis.json",
@@ -27,7 +27,7 @@
     },
     "080e5785176cc51d3078": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.588890+00:00"
+      "updated_at": "2026-08-13T16:02:03.645552+00:00"
     },
     "08455bb0b941050e2953": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-06/xbox-layoffs-manual-ferrari-circle-k-lottery-dispute-baiju-bhatt-daniel-english-michele-ca-08455bb0b941050e2953/analysis.json",
@@ -82,7 +82,7 @@
     },
     "0c08f7d3f44a3d0bc881": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.588469+00:00"
+      "updated_at": "2026-08-13T16:02:03.645128+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -104,6 +104,10 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/39bf1d0a",
       "updated_at": "2026-07-17T09:58:20.002206+00:00"
+    },
+    "107f8c41ed8ae830f60b": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-13T16:02:03.642732+00:00"
     },
     "10e21a6cc7fada9b845d": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-16/openai-s-compute-chief-we-can-t-build-fast-enough-sachin-katti-10e21a6cc7fada9b845d/analysis.json",
@@ -386,7 +390,7 @@
     },
     "2c2a4562f490a0d99d35": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.590126+00:00"
+      "updated_at": "2026-08-13T16:02:03.646456+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -521,7 +525,7 @@
     },
     "3e32b191c658552aa61f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.587497+00:00"
+      "updated_at": "2026-08-13T16:02:03.644228+00:00"
     },
     "3e57bc020699e12f7810": {
       "status": "metadata_skipped",
@@ -597,6 +601,40 @@
     "4dd695488cecd51af249": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-12T16:02:58.593872+00:00"
+    },
+    "528f56376dc5b17037c9": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-frontier/",
+      "published": "2026-08-05T18:10:32+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/summary.md",
+      "title": "Pick Your Poison: Zvi Mowshowitz on the Unipolar/Multipolar AGI Dilemma, OpenFace & Pacing the ...",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-frontier/",
+      "updated_at": "2026-08-13T16:08:23.430630+00:00"
+    },
+    "53895723558ef17ce831": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-02/nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics-53895723558ef17ce831/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics/",
+      "published": "2026-08-02T21:09:53+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-02/nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics-53895723558ef17ce831/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-02/nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics-53895723558ef17ce831/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-02/nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics-53895723558ef17ce831/summary.md",
+      "title": "Nathan Goes to China \u2013 Part 2: AI Safety with Chinese Characteristics",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-02/nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics-53895723558ef17ce831/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics/",
+      "updated_at": "2026-08-13T16:08:23.433219+00:00"
     },
     "5407316ae797ccc74c42": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-04/alex-karp-live-from-aipcon-10-alex-karp-peter-zaffino-chad-wahlquist-sam-berry-5407316ae797ccc74c42/analysis.json",
@@ -693,7 +731,7 @@
     },
     "5c9079babc96f680ea68": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.588023+00:00"
+      "updated_at": "2026-08-13T16:02:03.644693+00:00"
     },
     "5cfc3c40bbdee4ffbbb7": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-03/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectur-5cfc3c40bbdee4ffbbb7/analysis.json",
@@ -714,7 +752,7 @@
     },
     "5d2f458e548558059852": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.586683+00:00"
+      "updated_at": "2026-08-13T16:02:03.643568+00:00"
     },
     "5f1ce4d7c5857004243f": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-30/etched-building-ai-hardware-to-make-inference-faster-and-cheaper-invest-like-the-best-ep-4-5f1ce4d7c5857004243f/analysis.json",
@@ -857,7 +895,7 @@
     },
     "73944182fcc47ce6f950": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.592564+00:00"
+      "updated_at": "2026-08-13T16:02:03.647718+00:00"
     },
     "74005a3f3649b4c66c39": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-19/the-data-black-hole-at-the-center-of-ai-74005a3f3649b4c66c39/analysis.json",
@@ -1128,11 +1166,11 @@
     },
     "8539dfe2360731b556b3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.591850+00:00"
+      "updated_at": "2026-08-13T16:02:03.647309+00:00"
     },
     "8889ec11851c90fa1eeb": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.590790+00:00"
+      "updated_at": "2026-08-13T16:02:03.646893+00:00"
     },
     "8b05ac6e5eb0a316d785": {
       "status": "metadata_skipped",
@@ -1573,7 +1611,7 @@
     },
     "cbdc147dbc5c8789a2ac": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.589332+00:00"
+      "updated_at": "2026-08-13T16:02:03.646007+00:00"
     },
     "cd323cc4cc94a7625667": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-23/vlad-barbalat-investing-120-billion-in-permanent-capital-invest-like-the-best-ep-479-cd323cc4cc94a7625667/analysis.json",
@@ -1632,7 +1670,7 @@
     },
     "cf64acb4fbc06b110da8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-12T16:02:58.593034+00:00"
+      "updated_at": "2026-08-13T16:02:03.648127+00:00"
     },
     "d101b0207adc80019ab2": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-01/ep-017-deepseek-v4-and-huawei-ascend-npu-performance-inferencex-kimbo-chen-cam-quilici-bry-d101b0207adc80019ab2/analysis.json",
@@ -1679,6 +1717,11 @@
     "d496c678af05e528a106": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-16T16:01:30.586389+00:00"
+    },
+    "de2f231e9cd75ce66d7b": {
+      "error": "No Priors / Building a $200M Bootstrapped Chess Empire with Chess.com CEO Erik Allebest: TranscriptUnavailable: no publisher transcript or YouTube captions found",
+      "status": "transcript_error",
+      "updated_at": "2026-08-13T16:02:04.941820+00:00"
     },
     "e10ab830d3701f02aa5d": {
       "status": "metadata_skipped",
@@ -1797,7 +1840,7 @@
     "ee29121bdffa1dcd1bf8": {
       "error": "The MAD Podcast with Matt Turck / Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-12T16:03:02.852652+00:00"
+      "updated_at": "2026-08-13T16:02:08.823594+00:00"
     },
     "ee719fdce27e5d88ecd4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-01/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-s-ee719fdce27e5d88ecd4/analysis.json",

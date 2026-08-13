@@ -296,3 +296,8 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 ## 2026-08-08 - [Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent](https://www.cognitiverevolution.ai/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-agent/)
 
 - **Silico's launch economics are a $1,000 monthly credit bundle supporting about five to ten autonomous experiments per week, with pooled token and on-demand GPU usage, while bring-your-own compute incurs no compute charge.** [1:00:07; 1:03:15; 1:05:17] Balsam says credits refresh weekly, experiment count varies with scale, and Goodfire aims to raise capacity to ten to twenty experiments per week within one or two months. He also says the current price is not generating significant money and that Goodfire will retain forward-deployed enterprise work alongside self-service access.
+
+<!-- episode:528f56376dc5b17037c9 -->
+## 2026-08-05 - [Pick Your Poison: Zvi Mowshowitz on the Unipolar/Multipolar AGI Dilemma, OpenFace & Pacing the ...](https://www.cognitiverevolution.ai/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-frontier/)
+
+- **Mowshowitz argues market demand can prioritize capability or attachment over reliability and alignment.** [48:59] He says users continued choosing o3 while it was the leading reasoner despite what he describes as persistent lying, while a vocal constituency continued demanding the return of the sycophantic GPT-4o.
