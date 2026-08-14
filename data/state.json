@@ -27,7 +27,7 @@
     },
     "080e5785176cc51d3078": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.645552+00:00"
+      "updated_at": "2026-08-14T16:01:07.877774+00:00"
     },
     "08455bb0b941050e2953": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-06/xbox-layoffs-manual-ferrari-circle-k-lottery-dispute-baiju-bhatt-daniel-english-michele-ca-08455bb0b941050e2953/analysis.json",
@@ -82,7 +82,7 @@
     },
     "0c08f7d3f44a3d0bc881": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.645128+00:00"
+      "updated_at": "2026-08-14T16:01:07.875575+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -107,7 +107,7 @@
     },
     "107f8c41ed8ae830f60b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.642732+00:00"
+      "updated_at": "2026-08-14T16:01:07.866869+00:00"
     },
     "10e21a6cc7fada9b845d": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-16/openai-s-compute-chief-we-can-t-build-fast-enough-sachin-katti-10e21a6cc7fada9b845d/analysis.json",
@@ -325,6 +325,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-22T15:00:45.146989+00:00"
     },
+    "24b95606131009e94812": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest-like-the-best-ep-48-24b95606131009e94812/analysis.json",
+      "error": "",
+      "feed_id": "invest-like-the-best",
+      "link": "https://colossus.com/episode/sandcastles-and-silicon/",
+      "published": "2026-08-11T08:00:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest-like-the-best-ep-48-24b95606131009e94812/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest-like-the-best-ep-48-24b95606131009e94812/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest-like-the-best-ep-48-24b95606131009e94812/summary.md",
+      "title": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest-like-the-best-ep-48-24b95606131009e94812/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://colossus.com/episode/sandcastles-and-silicon/",
+      "updated_at": "2026-08-14T16:42:19.771060+00:00"
+    },
     "27bbb91c13fabb93dab9": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.106121+00:00"
@@ -390,7 +407,7 @@
     },
     "2c2a4562f490a0d99d35": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.646456+00:00"
+      "updated_at": "2026-08-14T16:01:07.881987+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -525,11 +542,16 @@
     },
     "3e32b191c658552aa61f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.644228+00:00"
+      "updated_at": "2026-08-14T16:01:07.871309+00:00"
     },
     "3e57bc020699e12f7810": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-09T16:02:23.566935+00:00"
+    },
+    "3f4033937cd40379d5ab": {
+      "error": "Invest Like the Best / Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
+      "status": "transcript_error",
+      "updated_at": "2026-08-14T16:01:17.469310+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -564,6 +586,10 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://www.dwarkesh.com/p/ryan-greenblatt",
       "updated_at": "2026-08-12T16:11:38.980329+00:00"
+    },
+    "42bcc72d1366bfa001da": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-14T16:01:07.864317+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -725,13 +751,30 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/",
       "updated_at": "2026-08-11T16:08:37.881963+00:00"
     },
+    "5b61a627044d2edce3d3": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-12/kushner-and-iger-buy-the-lakers-grok-4-6-launch-nvidia-nemotron-darren-rovell-patrick-whit-5b61a627044d2edce3d3/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/05cdd0cc",
+      "published": "2026-08-12T20:30:11+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-12/kushner-and-iger-buy-the-lakers-grok-4-6-launch-nvidia-nemotron-darren-rovell-patrick-whit-5b61a627044d2edce3d3/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-12/kushner-and-iger-buy-the-lakers-grok-4-6-launch-nvidia-nemotron-darren-rovell-patrick-whit-5b61a627044d2edce3d3/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-12/kushner-and-iger-buy-the-lakers-grok-4-6-launch-nvidia-nemotron-darren-rovell-patrick-whit-5b61a627044d2edce3d3/summary.md",
+      "title": "Kushner and Iger Buy The Lakers, Grok 4.6 Launch, NVIDIA Nemotron | Darren Rovell, Patrick Whitesell, Harjot Gill, Jeff Huber, Soren Monroe-Anderson & Shaun Maguire, Andrei Georgescu",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-12/kushner-and-iger-buy-the-lakers-grok-4-6-launch-nvidia-nemotron-darren-rovell-patrick-whit-5b61a627044d2edce3d3/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/05cdd0cc/transcription.txt",
+      "updated_at": "2026-08-14T16:42:19.773758+00:00"
+    },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.106807+00:00"
     },
     "5c9079babc96f680ea68": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.644693+00:00"
+      "updated_at": "2026-08-14T16:01:07.873416+00:00"
     },
     "5cfc3c40bbdee4ffbbb7": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-03/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectur-5cfc3c40bbdee4ffbbb7/analysis.json",
@@ -752,7 +795,7 @@
     },
     "5d2f458e548558059852": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.643568+00:00"
+      "updated_at": "2026-08-14T16:01:07.869145+00:00"
     },
     "5f1ce4d7c5857004243f": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-30/etched-building-ai-hardware-to-make-inference-faster-and-cheaper-invest-like-the-best-ep-4-5f1ce4d7c5857004243f/analysis.json",
@@ -854,6 +897,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/d9234efb/transcription.txt",
       "updated_at": "2026-07-11T07:40:56.297797+00:00"
+    },
+    "6a7fb87c7246ab2962ef": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ai-viruses-openai-s-first-device-wsj-mansion-section-samir-kaul-patrick-wendell-grant-lafo-6a7fb87c7246ab2962ef/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/a03bb8de",
+      "published": "2026-08-07T21:26:57+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ai-viruses-openai-s-first-device-wsj-mansion-section-samir-kaul-patrick-wendell-grant-lafo-6a7fb87c7246ab2962ef/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ai-viruses-openai-s-first-device-wsj-mansion-section-samir-kaul-patrick-wendell-grant-lafo-6a7fb87c7246ab2962ef/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ai-viruses-openai-s-first-device-wsj-mansion-section-samir-kaul-patrick-wendell-grant-lafo-6a7fb87c7246ab2962ef/summary.md",
+      "title": "AI Viruses, OpenAI's First Device, WSJ Mansion Section | Samir Kaul, Patrick Wendell, Grant LaFontaine",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ai-viruses-openai-s-first-device-wsj-mansion-section-samir-kaul-patrick-wendell-grant-lafo-6a7fb87c7246ab2962ef/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/a03bb8de/transcription.txt",
+      "updated_at": "2026-08-14T16:42:19.775825+00:00"
     },
     "6aa71eeef3f1396798d4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/ep-023-everyone-leaves-google-elon-forecasts-1t-arr-reflecting-on-gpt-5-building-personali-6aa71eeef3f1396798d4/analysis.json",
@@ -1166,11 +1226,11 @@
     },
     "8539dfe2360731b556b3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.647309+00:00"
+      "updated_at": "2026-08-14T16:01:07.886212+00:00"
     },
     "8889ec11851c90fa1eeb": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.646893+00:00"
+      "updated_at": "2026-08-14T16:01:07.884122+00:00"
     },
     "8b05ac6e5eb0a316d785": {
       "status": "metadata_skipped",
@@ -1234,6 +1294,10 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://www.dwarkesh.com/p/adam-brown-gr",
       "updated_at": "2026-07-11T07:40:56.305905+00:00"
+    },
+    "9149edaae23f4f1584ef": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-14T16:01:07.860690+00:00"
     },
     "91720efd7d609c680ef9": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-09/siri-ai-fable-5-launch-rivian-ceo-joins-rj-scaringe-chris-miller-evan-beard-nick-fleisher--91720efd7d609c680ef9/analysis.json",
@@ -1611,7 +1675,7 @@
     },
     "cbdc147dbc5c8789a2ac": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-13T16:02:03.646007+00:00"
+      "updated_at": "2026-08-14T16:01:07.879858+00:00"
     },
     "cd323cc4cc94a7625667": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-23/vlad-barbalat-investing-120-billion-in-permanent-capital-invest-like-the-best-ep-479-cd323cc4cc94a7625667/analysis.json",
@@ -1719,9 +1783,9 @@
       "updated_at": "2026-06-16T16:01:30.586389+00:00"
     },
     "de2f231e9cd75ce66d7b": {
-      "error": "No Priors / Building a $200M Bootstrapped Chess Empire with Chess.com CEO Erik Allebest: TranscriptUnavailable: no publisher transcript or YouTube captions found",
+      "error": "No Priors / What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-13T16:02:04.941820+00:00"
+      "updated_at": "2026-08-14T16:01:10.643132+00:00"
     },
     "e10ab830d3701f02aa5d": {
       "status": "metadata_skipped",
@@ -1840,7 +1904,7 @@
     "ee29121bdffa1dcd1bf8": {
       "error": "The MAD Podcast with Matt Turck / Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-13T16:02:08.823594+00:00"
+      "updated_at": "2026-08-14T16:01:14.500608+00:00"
     },
     "ee719fdce27e5d88ecd4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-01/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-s-ee719fdce27e5d88ecd4/analysis.json",

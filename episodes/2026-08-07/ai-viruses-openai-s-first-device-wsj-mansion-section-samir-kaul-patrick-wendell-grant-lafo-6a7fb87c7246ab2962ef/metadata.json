@@ -1,0 +1,43 @@
+{
+  "audio_url": "https://media.transistor.fm/a03bb8de/0da8e7d9.mp3",
+  "description_html": "<p></p><ul><li>(01:31) - AI Viruses \n</li>\n<li>(08:18) - OpenAI's Device Takes Shape \n</li>\n<li>(16:39) - Meta Faces Major Child Safety Case \n</li>\n<li>(25:25) - \ud835\udd4f Timeline Reactions \n</li>\n<li>(36:10) - WSJ Mansion Section \n</li>\n<li>(43:41) - Samir Kaul, a general partner at Khosla Ventures, discusses the firm\u2019s investment in Jeff Dean\u2019s Discovery Loop and its potential to apply AI to scientific research with tangible outcomes. He also shares his views on AI regulation, inflated private-market valuations, venture capital strategy, founder support, and the importance of taking bold risks to generate exceptional returns. \n</li>\n<li>(01:09:45) - Patrick Wendell discusses his role as Databricks co-founder and VP of Engineering, where he leads AI products and internal AI adoption. He explains how AI coding tools can nearly double engineering capacity while creating rapidly escalating consumption costs, and highlights model switching, intelligent routing, and optimization as key ways to control spending without sacrificing productivity. \n</li>\n<li>(01:27:30) - Grant Lafontaine discusses Whatnot\u2019s $545 million Series G funding round at a $20 billion valuation and the live-shopping platform\u2019s rapid growth. He explains how authentic, knowledgeable sellers can build substantial businesses with small audiences, while outlining Whatnot\u2019s focus on customer experience, new markets, product categories, and future streaming formats. \n</li>\n<li>(01:44:17) - \ud835\udd4f Timeline Reactions</li>\n</ul><p><br></p><p>TBPN is made possible by:</p><p>Ramp - https://ramp.com</p><p>Public - https://public.com</p><p>Cisco - https://www.cisco.com</p><p>Console - https://www.console.com</p><p>CrowdStrike - https://www.crowdstrike.com</p><p>Figma - https://www.figma.com</p><p>MongoDB - https://www.mongodb.com</p><p>NYSE - https://www.nyse.com</p><p>Railway - https://railway.com</p><p>Shopify - https://www.shopify.com</p><p>Codex - http://openAI.com/codex</p><p><br></p><p>Follow TBPN:\u00a0</p><p>https://TBPN.com</p><p>https://x.com/tbpn</p><p>https://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231</p><p>https://podcasts.apple.com/us/podcast/tbpn/id1772360235</p><p>https://www.youtube.com/@TBPNLive</p>",
+  "description_text": "(01:31) - AI Viruses\n\n(08:18) - OpenAI's Device Takes Shape\n\n(16:39) - Meta Faces Major Child Safety Case\n\n(25:25) - \ud835\udd4f Timeline Reactions\n\n(36:10) - WSJ Mansion Section\n\n(43:41) - Samir Kaul, a general partner at Khosla Ventures, discusses the firm\u2019s investment in Jeff Dean\u2019s Discovery Loop and its potential to apply AI to scientific research with tangible outcomes. He also shares his views on AI regulation, inflated private-market valuations, venture capital strategy, founder support, and the importance of taking bold risks to generate exceptional returns.\n\n(01:09:45) - Patrick Wendell discusses his role as Databricks co-founder and VP of Engineering, where he leads AI products and internal AI adoption. He explains how AI coding tools can nearly double engineering capacity while creating rapidly escalating consumption costs, and highlights model switching, intelligent routing, and optimization as key ways to control spending without sacrificing productivity.\n\n(01:27:30) - Grant Lafontaine discusses Whatnot\u2019s $545 million Series G funding round at a $20 billion valuation and the live-shopping platform\u2019s rapid growth. He explains how authentic, knowledgeable sellers can build substantial businesses with small audiences, while outlining Whatnot\u2019s focus on customer experience, new markets, product categories, and future streaming formats.\n\n(01:44:17) - \ud835\udd4f Timeline Reactions\n\nTBPN is made possible by:\n\nRamp - https://ramp.com\n\nPublic - https://public.com\n\nCisco - https://www.cisco.com\n\nConsole - https://www.console.com\n\nCrowdStrike - https://www.crowdstrike.com\n\nFigma - https://www.figma.com\n\nMongoDB - https://www.mongodb.com\n\nNYSE - https://www.nyse.com\n\nRailway - https://railway.com\n\nShopify - https://www.shopify.com\n\nCodex - http://openAI.com/codex\n\nFollow TBPN:\n\nhttps://TBPN.com\n\nhttps://x.com/tbpn\n\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\n\nhttps://podcasts.apple.com/us/podcast/tbpn/id1772360235\n\nhttps://www.youtube.com/@TBPNLive",
+  "duration_seconds": 6541,
+  "feed_id": "tbpn",
+  "feed_name": "TBPN",
+  "feed_priority": 6,
+  "id": "6a7fb87c7246ab2962ef",
+  "link": "https://share.transistor.fm/s/a03bb8de",
+  "published": "2026-08-07T21:26:57+00:00",
+  "title": "AI Viruses, OpenAI's First Device, WSJ Mansion Section | Samir Kaul, Patrick Wendell, Grant LaFontaine",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://share.transistor.fm/s/a03bb8de/transcription.txt",
+  "transcript_urls": [
+    {
+      "rel": "captions",
+      "type": "text/vtt",
+      "url": "https://share.transistor.fm/s/a03bb8de/transcription.vtt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/x-subrip",
+      "url": "https://share.transistor.fm/s/a03bb8de/transcription.srt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/json",
+      "url": "https://share.transistor.fm/s/a03bb8de/transcription.json"
+    },
+    {
+      "rel": "",
+      "type": "text/plain",
+      "url": "https://share.transistor.fm/s/a03bb8de/transcription.txt"
+    },
+    {
+      "rel": "",
+      "type": "text/html",
+      "url": "https://share.transistor.fm/s/a03bb8de/transcription"
+    }
+  ],
+  "web_links": []
+}

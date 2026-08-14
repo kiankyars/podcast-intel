@@ -301,3 +301,20 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 ## 2026-08-05 - [Pick Your Poison: Zvi Mowshowitz on the Unipolar/Multipolar AGI Dilemma, OpenFace & Pacing the ...](https://www.cognitiverevolution.ai/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-frontier/)
 
 - **Mowshowitz argues market demand can prioritize capability or attachment over reliability and alignment.** [48:59] He says users continued choosing o3 while it was the leading reasoner despite what he describes as persistent lying, while a vocal constituency continued demanding the return of the sycophantic GPT-4o.
+
+<!-- episode:24b95606131009e94812 -->
+## 2026-08-11 - [Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]](https://colossus.com/episode/sandcastles-and-silicon/)
+
+- **Vishria argues that coding agents materially weaken database lock-in because they can translate well-specified interfaces and perform monotonous migration work, making moves that were once giant projects much easier.** [00:18:40] He says the winning criteria shift away from migration friction toward low cost, rapid provisioning and teardown, and the ability to scale a new application from near-zero usage to very large demand.
+
+<!-- episode:5b61a627044d2edce3d3 -->
+## 2026-08-12 - [Kushner and Iger Buy The Lakers, Grok 4.6 Launch, NVIDIA Nemotron | Darren Rovell, Patrick Whitesell, Harjot Gill, Jeff Huber, Soren Monroe-Anderson & Shaun Maguire, Andrei Georgescu](https://share.transistor.fm/s/05cdd0cc)
+
+- **Vivodyne CEO Andrei Georgescu said the company grows centimeter-scale tissues from primary human cells and can test as many as 50,000 drug candidates against tissue derived from an individual sample.** Georgescu said Vivodyne works with a large majority of the top ten pharmaceutical companies on programs where animal results do not translate to humans, and supports work from discovery through clinical trials using tissues seeded from donated blood or biopsies.
+
+<!-- episode:6a7fb87c7246ab2962ef -->
+## 2026-08-07 - [AI Viruses, OpenAI's First Device, WSJ Mansion Section | Samir Kaul, Patrick Wendell, Grant LaFontaine](https://share.transistor.fm/s/a03bb8de)
+
+- **The hosts relay Mark Gurman's report that OpenAI's first consumer device is targeted for 2027 as a roughly $300-$400, screenless, portable smart-speaker-like device with microphones, cameras, sensors, lights, and moving parts, intended as the first member of a broader hardware family.** They describe a battery-powered, puck- or donut-sized device designed to learn owner context and make voice interaction more personalized, with a longer-term ambition to assume some smartphone functions.
+- **Khosla Ventures' Samir Kaul says Discovery Loop plans to predict experimental outcomes and use those predictions to run thousands or millions of parallel follow-on experiments across areas such as fusion magnets, solar cells, batteries, and scientific research.** Kaul presents rapid, testable experimental feedback as the mechanism that distinguishes Jeff Dean's company from general-purpose neo-labs and compares it with coding systems that can quickly verify whether an output works.
+- **Whatnot co-founder Grant LaFontaine says 75% of sellers earning more than $1 million annually reached a $500,000 annualized sales rate within ninety days, indicating unusually fast monetization for small-audience commerce creators.** LaFontaine says sellers can generate hundreds of thousands of dollars from a few weekly streams, that early shows often produce many sales, and that transaction-driven monetization is about an order of magnitude better than existing content platforms.

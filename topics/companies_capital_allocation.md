@@ -234,3 +234,13 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 ## 2026-08-02 - [Nathan Goes to China – Part 2: AI Safety with Chinese Characteristics](https://www.cognitiverevolution.ai/nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics/)
 
 - **According to Labenz's summary of Concordia's July 2026 report, only five of ten major Chinese AI companies had recently published a safety evaluation with a model release, and even those companies did not do so for every release.** [21:40] He reports that established incumbents appear more willing than catch-up startups to spend on safety and disclosure, while younger labs often reason that US companies have already exposed the public to comparable capability levels.
+
+<!-- episode:24b95606131009e94812 -->
+## 2026-08-11 - [Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]](https://colossus.com/episode/sandcastles-and-silicon/)
+
+- **Vishria says conventional SaaS quota-capacity planning is not the binding constraint for AI companies selling novel capability: he has seen representatives produce $10 million to $30 million, and one about $50 million, versus legacy early-stage quotas around $1.2 million to $1.5 million.** [00:26:32] He attributes the gap to pulled demand and says founders sell best by bridging uneven model capabilities to customer needs, implying that inherited territory and headcount models can materially mis-size AI go-to-market capacity.
+
+<!-- episode:6a7fb87c7246ab2962ef -->
+## 2026-08-07 - [AI Viruses, OpenAI's First Device, WSJ Mansion Section | Samir Kaul, Patrick Wendell, Grant LaFontaine](https://share.transistor.fm/s/a03bb8de)
+
+- **Wendell says consumption-priced coding agents initially created an exponential cost curve at Databricks that threatened to erase the efficiency gains from higher engineering output.** He explains that users can spend an effectively unbounded amount by running loops on expensive models; despite roughly doubling output, Databricks concluded that unchecked spend would eventually overwhelm the productivity case.

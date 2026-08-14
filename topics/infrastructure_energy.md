@@ -99,3 +99,8 @@ Data centers, power, cooling, networking, capital expenditure, and physical cons
 ## 2026-07-30 - [The Biggest AI Deployment Nobody Talks About | Samsara CEO Sanjit Biswas](https://podcasters.spotify.com/pod/show/firstmark/episodes/The-Biggest-AI-Deployment-Nobody-Talks-About--Samsara-CEO-Sanjit-Biswas-e3mn7h1)
 
 - **Biswas relays that one large energy utility expects to triple the power it delivers over the next five years after building its existing capacity over 125 years, and attributes 90% of the new demand to data centers.** [57:23] He says the figures came from a utility field visit the prior week and uses them to illustrate customers' inability to build grid infrastructure fast enough; the utility and capacity baseline are not identified.
+
+<!-- episode:24b95606131009e94812 -->
+## 2026-08-11 - [Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]](https://colossus.com/episode/sandcastles-and-silicon/)
+
+- **Vishria identifies energy as a potential binding constraint on intelligence supply and asserts that China will add about 10 times as much energy as the United States next year.** [00:28:22] His mechanism is that models convert compute into intelligence; if power limits compute while demand stays high, the United States gets fewer tokens or more expensive tokens. The episode does not source or define the 10x comparison.
