@@ -224,3 +224,13 @@ Export controls, national competition, regulation, defense, safety, and security
 ## 2026-08-07 - [AI Viruses, OpenAI's First Device, WSJ Mansion Section | Samir Kaul, Patrick Wendell, Grant LaFontaine](https://share.transistor.fm/s/a03bb8de)
 
 - **The hosts report that Stanford and Arc Institute researchers used an AI model to design novel bacteriophage genomes that became viable, bacteria-infecting viruses after synthesis, while emphasizing that the training set excluded viruses infecting humans, plants, animals, and fungi.** Their account says the model learned patterns from naturally occurring bacteriophage DNA, generated new sequences, and produced functional viruses in bacteria; they frame the result as a real capability advance with biotechnology upside and longer-term biosecurity implications, not a present human pathogen.
+
+<!-- episode:56309a23920236fe7754 -->
+## 2026-08-11 - [NVIDIA's $500B Compute Deal, Paramount Threatens to Bounce, Record Europe Tourism | Ernie Garcia, Alex Edelson, Nico Simko, Ian McGinley, Conor Sen](https://share.transistor.fm/s/9e551a21)
+
+- **Former CFTC enforcement chief Ian McGinley expects prediction-market regulation to tighten even though the markets themselves are likely permanent.** [01:46:37; 01:47:12; 01:57:53] McGinley says sports-contract jurisdiction has produced split district-court outcomes and one federal-preemption appellate ruling, predicts the dispute will reach the Supreme Court, and expects additional CFTC rules on manipulation and related risks.
+
+<!-- episode:bdccc20119822a1ab44b -->
+## 2026-08-14 - [Cursor Acquisition Closes, Bezos x Liverpool, Flying Roadster, Car Week, Gen Z Trends & More](https://share.transistor.fm/s/0181c123)
+
+- **A TBPN host reported that South Korea now requires new users of single-stock leveraged ETFs to complete one hour of simulated trading daily for five days after substantial losses in products tied to Samsung Electronics and SK Hynix.** [00:32:04; 00:34:10; 00:36:57] The on-air account said the KOSPI rose 76% in 2025 and doubled again before a 22% July correction; investors who bought leveraged chip ETFs in late May and held to mid-July lost about half, while daily turnover later fell from 12 trillion won to 70 billion won.

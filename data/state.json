@@ -27,7 +27,7 @@
     },
     "080e5785176cc51d3078": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.877774+00:00"
+      "updated_at": "2026-08-15T16:02:00.353384+00:00"
     },
     "08455bb0b941050e2953": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-06/xbox-layoffs-manual-ferrari-circle-k-lottery-dispute-baiju-bhatt-daniel-english-michele-ca-08455bb0b941050e2953/analysis.json",
@@ -82,7 +82,7 @@
     },
     "0c08f7d3f44a3d0bc881": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.875575+00:00"
+      "updated_at": "2026-08-15T16:02:00.351073+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -107,7 +107,7 @@
     },
     "107f8c41ed8ae830f60b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.866869+00:00"
+      "updated_at": "2026-08-15T16:02:00.341326+00:00"
     },
     "10e21a6cc7fada9b845d": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-16/openai-s-compute-chief-we-can-t-build-fast-enough-sachin-katti-10e21a6cc7fada9b845d/analysis.json",
@@ -407,7 +407,7 @@
     },
     "2c2a4562f490a0d99d35": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.881987+00:00"
+      "updated_at": "2026-08-15T16:02:00.357876+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -542,7 +542,7 @@
     },
     "3e32b191c658552aa61f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.871309+00:00"
+      "updated_at": "2026-08-15T16:02:00.346419+00:00"
     },
     "3e57bc020699e12f7810": {
       "status": "metadata_skipped",
@@ -551,7 +551,7 @@
     "3f4033937cd40379d5ab": {
       "error": "Invest Like the Best / Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-14T16:01:17.469310+00:00"
+      "updated_at": "2026-08-15T16:02:11.735960+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -589,7 +589,7 @@
     },
     "42bcc72d1366bfa001da": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.864317+00:00"
+      "updated_at": "2026-08-15T16:02:00.338291+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -730,6 +730,23 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native-engineering/",
       "updated_at": "2026-07-13T09:23:36.151494+00:00"
     },
+    "56309a23920236fe7754": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/nvidia-s-500b-compute-deal-paramount-threatens-to-bounce-record-europe-tourism-ernie-garci-56309a23920236fe7754/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/9e551a21",
+      "published": "2026-08-11T20:48:07+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/nvidia-s-500b-compute-deal-paramount-threatens-to-bounce-record-europe-tourism-ernie-garci-56309a23920236fe7754/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/nvidia-s-500b-compute-deal-paramount-threatens-to-bounce-record-europe-tourism-ernie-garci-56309a23920236fe7754/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/nvidia-s-500b-compute-deal-paramount-threatens-to-bounce-record-europe-tourism-ernie-garci-56309a23920236fe7754/summary.md",
+      "title": "NVIDIA's $500B Compute Deal, Paramount Threatens to Bounce, Record Europe Tourism | Ernie Garcia, Alex Edelson, Nico Simko, Ian McGinley, Conor Sen",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/nvidia-s-500b-compute-deal-paramount-threatens-to-bounce-record-europe-tourism-ernie-garci-56309a23920236fe7754/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/9e551a21/transcription.txt",
+      "updated_at": "2026-08-15T16:12:00.068487+00:00"
+    },
     "574e5e2140b54af3a13e": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.104149+00:00"
@@ -774,7 +791,7 @@
     },
     "5c9079babc96f680ea68": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.873416+00:00"
+      "updated_at": "2026-08-15T16:02:00.348759+00:00"
     },
     "5cfc3c40bbdee4ffbbb7": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-03/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectur-5cfc3c40bbdee4ffbbb7/analysis.json",
@@ -795,7 +812,7 @@
     },
     "5d2f458e548558059852": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.869145+00:00"
+      "updated_at": "2026-08-15T16:02:00.343981+00:00"
     },
     "5f1ce4d7c5857004243f": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-30/etched-building-ai-hardware-to-make-inference-faster-and-cheaper-invest-like-the-best-ep-4-5f1ce4d7c5857004243f/analysis.json",
@@ -952,6 +969,10 @@
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.105473+00:00"
+    },
+    "71fc1a2dcbbb76cef610": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-08-15T16:02:00.331454+00:00"
     },
     "73944182fcc47ce6f950": {
       "status": "metadata_skipped",
@@ -1230,7 +1251,7 @@
     },
     "8889ec11851c90fa1eeb": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.884122+00:00"
+      "updated_at": "2026-08-15T16:02:00.360133+00:00"
     },
     "8b05ac6e5eb0a316d785": {
       "status": "metadata_skipped",
@@ -1297,7 +1318,7 @@
     },
     "9149edaae23f4f1584ef": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.860690+00:00"
+      "updated_at": "2026-08-15T16:02:00.335448+00:00"
     },
     "91720efd7d609c680ef9": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-09/siri-ai-fable-5-launch-rivian-ceo-joins-rj-scaringe-chris-miller-evan-beard-nick-fleisher--91720efd7d609c680ef9/analysis.json",
@@ -1563,6 +1584,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-06-16T16:05:15.804460+00:00"
     },
+    "bdccc20119822a1ab44b": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-14/cursor-acquisition-closes-bezos-x-liverpool-flying-roadster-car-week-gen-z-trends-more-bdccc20119822a1ab44b/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/0181c123",
+      "published": "2026-08-14T20:29:42+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-14/cursor-acquisition-closes-bezos-x-liverpool-flying-roadster-car-week-gen-z-trends-more-bdccc20119822a1ab44b/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-14/cursor-acquisition-closes-bezos-x-liverpool-flying-roadster-car-week-gen-z-trends-more-bdccc20119822a1ab44b/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-14/cursor-acquisition-closes-bezos-x-liverpool-flying-roadster-car-week-gen-z-trends-more-bdccc20119822a1ab44b/summary.md",
+      "title": "Cursor Acquisition Closes, Bezos x Liverpool, Flying Roadster, Car Week, Gen Z Trends & More",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-14/cursor-acquisition-closes-bezos-x-liverpool-flying-roadster-car-week-gen-z-trends-more-bdccc20119822a1ab44b/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/0181c123/transcription.txt",
+      "updated_at": "2026-08-15T16:12:00.078335+00:00"
+    },
     "bde3aa5a84c87f7cf4e1": {
       "status": "metadata_skipped",
       "updated_at": "2026-07-16T07:01:19.068445+00:00"
@@ -1675,7 +1713,7 @@
     },
     "cbdc147dbc5c8789a2ac": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-14T16:01:07.879858+00:00"
+      "updated_at": "2026-08-15T16:02:00.355626+00:00"
     },
     "cd323cc4cc94a7625667": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-23/vlad-barbalat-investing-120-billion-in-permanent-capital-invest-like-the-best-ep-479-cd323cc4cc94a7625667/analysis.json",
@@ -1785,7 +1823,7 @@
     "de2f231e9cd75ce66d7b": {
       "error": "No Priors / What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-14T16:01:10.643132+00:00"
+      "updated_at": "2026-08-15T16:02:02.799914+00:00"
     },
     "e10ab830d3701f02aa5d": {
       "status": "metadata_skipped",
@@ -1904,7 +1942,7 @@
     "ee29121bdffa1dcd1bf8": {
       "error": "The MAD Podcast with Matt Turck / Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-14T16:01:14.500608+00:00"
+      "updated_at": "2026-08-15T16:02:08.315689+00:00"
     },
     "ee719fdce27e5d88ecd4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-01/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-s-ee719fdce27e5d88ecd4/analysis.json",

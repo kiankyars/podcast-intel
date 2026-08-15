@@ -308,3 +308,8 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 
 - **Databricks co-founder Patrick Wendell says AI coding tools have nearly doubled aggregate engineering capacity for a fixed-size team, with some teams moving materially faster after redesigning their processes around AI.** Wendell says Databricks triangulates pull requests, shipped features, and code output rather than relying on a single metric; those measures collectively indicate close to a twofold capacity gain.
 - **Databricks says rapid migration to newly efficient models is its largest AI cost lever, while intelligent routing can reduce cost by roughly another 30%; together with other optimizations, these techniques have kept cost per employee approximately constant as consumption rises.** Wendell says a new cost-performance frontier appears about weekly or every few weeks, so Databricks benchmarks releases and quickly shifts traffic; he confirms approximately 30% incremental savings from routing and says the combined controls flattened per-head cost.
+
+<!-- episode:bdccc20119822a1ab44b -->
+## 2026-08-14 - [Cursor Acquisition Closes, Bezos x Liverpool, Flying Roadster, Car Week, Gen Z Trends & More](https://share.transistor.fm/s/0181c123)
+
+- **Lemma founder Jerry Zhang positioned the product as contextual monitoring for longer-running agents that can surface failure modes teams did not predefine, rather than relying only on fixed alerts or judges.** [00:06:28] A host paraphrased Zhang's launch argument and used anomalous mass-emailing and commerce activity as examples; the episode provided no customer results, false-positive rates, or measured detection performance.

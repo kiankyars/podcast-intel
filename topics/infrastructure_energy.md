@@ -104,3 +104,8 @@ Data centers, power, cooling, networking, capital expenditure, and physical cons
 ## 2026-08-11 - [Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]](https://colossus.com/episode/sandcastles-and-silicon/)
 
 - **Vishria identifies energy as a potential binding constraint on intelligence supply and asserts that China will add about 10 times as much energy as the United States next year.** [00:28:22] His mechanism is that models convert compute into intelligence; if power limits compute while demand stays high, the United States gets fewer tokens or more expensive tokens. The episode does not source or define the 10x comparison.
+
+<!-- episode:56309a23920236fe7754 -->
+## 2026-08-11 - [NVIDIA's $500B Compute Deal, Paramount Threatens to Bounce, Record Europe Tourism | Ernie Garcia, Alex Edelson, Nico Simko, Ian McGinley, Conor Sen](https://share.transistor.fm/s/9e551a21)
+
+- **Nvidia CEO Jensen Huang expects AI infrastructure to remain constrained across nearly every layer of the physical supply chain.** [00:03:10] Huang names chips, memory, packaging, systems, photonics, connectors, land, power, and construction labor as simultaneous constraints and ties the pressure to AI beginning to perform productive work globally.
