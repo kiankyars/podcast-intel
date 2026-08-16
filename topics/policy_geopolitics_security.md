@@ -234,3 +234,13 @@ Export controls, national competition, regulation, defense, safety, and security
 ## 2026-08-14 - [Cursor Acquisition Closes, Bezos x Liverpool, Flying Roadster, Car Week, Gen Z Trends & More](https://share.transistor.fm/s/0181c123)
 
 - **A TBPN host reported that South Korea now requires new users of single-stock leveraged ETFs to complete one hour of simulated trading daily for five days after substantial losses in products tied to Samsung Electronics and SK Hynix.** [00:32:04; 00:34:10; 00:36:57] The on-air account said the KOSPI rose 76% in 2025 and doubled again before a 22% July correction; investors who bought leveraged chip ETFs in late May and held to mid-July lost about half, while daily turnover later fell from 12 trillion won to 70 billion won.
+
+<!-- episode:1d028938115de04c2f0d -->
+## 2026-08-10 - [Zuck's AI Future, AI Hacks Gym, SpaceX Moons | Ryan Spoon, Nicolai Klemke, Adam Goldstein & Brian Yutko](https://share.transistor.fm/s/5026e63e)
+
+- **Goldstein expects an executive-order-backed eVTOL Integration Pilot Program to enable big-city demonstration flights that are already beginning and should ramp in the second half of 2026, while Archer treats the 2028 Los Angeles Olympics as an effectively unslippable commercialization deadline.** [01:52:31; 01:53:50] He said Archer and Wisk are participating so consumers and regulators can gain comfort with the aircraft, and described Archer's exclusive air-taxi role at the games as a forcing function for the company, regulators, infrastructure partners, and the broader ecosystem; regulator confirmation was not presented.
+
+<!-- episode:e1c45cb0cf2c7d28a0e7 -->
+## 2026-08-16 - [Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems](https://www.cognitiverevolution.ai/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-systems/)
+
+- **Belenky argues that ASHRAE Standard 241 could pull far-UVC into building-code retrofits because UVC may be the cheapest practical way to satisfy pathogen-control targets in large, densely occupied rooms.** [38:14] She says the standard is not yet broadly adopted by authorities having jurisdiction and that ventilation or filtration alone becomes cost-prohibitive in auditoriums, lecture halls, and gyms. She expects commercial buildings' roughly ten-year renovation cycle to shape diffusion once adoption begins.

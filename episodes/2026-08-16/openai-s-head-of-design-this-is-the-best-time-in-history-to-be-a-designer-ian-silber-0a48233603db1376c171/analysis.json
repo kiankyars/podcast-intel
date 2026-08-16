@@ -1,0 +1,66 @@
+{
+  "changed_views": [
+    "OpenAI's super-app direction appears to be interface simplification rather than feature accretion: one input should route among fast answers, conversation, and delegated work.",
+    "Codex, the desktop app, and ChatGPT Work appear to function as incubation surfaces for frontier capabilities before those capabilities reach mainstream ChatGPT.",
+    "Model gains have not made every product function equally scalable; qualitative evaluation and cross-functional alignment remain serial bottlenecks even when prototype generation accelerates."
+  ],
+  "entities": [
+    "OpenAI",
+    "ChatGPT",
+    "Codex",
+    "ChatGPT Work",
+    "Slack"
+  ],
+  "follow_ups": [
+    "Track whether ChatGPT Work expands beyond calendar and Slack context and whether proactive suggestions convert into autonomous task execution.",
+    "Watch for ChatGPT interface consolidation that removes model and mode selectors while preserving expert controls.",
+    "Verify public active-user, subscriber, and revenue-per-user data before translating Silber's billion-scale, free-to-hundreds segmentation into revenue assumptions.",
+    "Compare OpenAI's composable-primitives and adaptive-interface strategy with Anthropic and Google's product architectures."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Silber says OpenAI's internal design-team surveys surfaced a sharp productivity asymmetry: engineers are perceived as gaining 10x or sometimes 100x productivity, while design has not kept pace because feedback, iteration, and alignment still take time.",
+      "confidence": "medium",
+      "evidence": "He says coding-agent output has become comparatively binary, while designers still discard many attempts, gather user and internal feedback, and coordinate stakeholders even though they can generate more concepts faster.",
+      "kind": "observation",
+      "timestamp": "00:04:40"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Silber says OpenAI is organizing product capabilities as composable primitives that can build on one another and that the model can reason across, rather than as isolated feature experiences.",
+      "confidence": "high",
+      "evidence": "He describes a systems strategy intended to make many capabilities feel like one cohesive, simple product while allowing the model to combine the underlying building blocks.",
+      "kind": "observation",
+      "timestamp": "00:30:20"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Silber says OpenAI deliberately uses different launch cadences: durable ChatGPT surfaces receive extensive design, testing, and research, while faster experiments such as Codex and super-app work are often built in public.",
+      "confidence": "high",
+      "evidence": "He contrasts trying roughly 100 variants before shipping one mature ChatGPT interaction with rapid public experimentation for Codex and the super-app; he adds that some other work can move from idea to shipment in about four hours.",
+      "kind": "observation",
+      "timestamp": "00:33:28"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Silber says OpenAI uses the desktop app, Codex, and ChatGPT Work to expose cutting-edge capabilities first to engaged users, then aims to distill successful behavior into mainstream ChatGPT without requiring switches or modes.",
+      "confidence": "high",
+      "evidence": "He frames this as the way to serve a billion-scale audience spanning free users and customers paying hundreds of dollars while avoiding confusing advanced controls for everyone else.",
+      "kind": "observation",
+      "timestamp": "00:39:52"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Silber expects ChatGPT to become a context-aware universal input that chooses whether to answer quickly, converse, or perform work, while producing richer interactive outputs and preserving reusable workflows.",
+      "confidence": "medium",
+      "evidence": "He says OpenAI wants the default experience to hide model and speed choices, add proactivity from context such as calendar and Slack, adapt affordances to the user's role, and stop making users restart every workflow from scratch.",
+      "kind": "forecast",
+      "timestamp": "00:46:25"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "OpenAI's head of product design describes a two-stage product strategy: incubate advanced workflows with power users in Codex, the desktop app, and ChatGPT Work, then distill them into a billion-scale ChatGPT surface without exposing model or mode complexity. The intended endpoint is a context-aware, proactive universal input that can answer quickly, converse, or execute work, with adaptive interactive outputs and reusable workflows. Internally, AI has compressed coding much more than design, leaving user feedback, judgment, and organizational alignment as persistent bottlenecks.",
+  "why_it_matters": "This is first-party roadmap and operating evidence from the leader responsible for ChatGPT and Codex design. It suggests application-layer differentiation is shifting toward orchestration, context, connectors, adaptive interfaces, and durable workflow state rather than a growing menu of visible model controls. It also tempers assumptions that generative tools raise productivity uniformly across product organizations: prototyping is faster, but evaluation and alignment remain serial constraints."
+}

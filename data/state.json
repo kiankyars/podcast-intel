@@ -27,7 +27,7 @@
     },
     "080e5785176cc51d3078": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.353384+00:00"
+      "updated_at": "2026-08-16T16:02:37.648863+00:00"
     },
     "08455bb0b941050e2953": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-06/xbox-layoffs-manual-ferrari-circle-k-lottery-dispute-baiju-bhatt-daniel-english-michele-ca-08455bb0b941050e2953/analysis.json",
@@ -80,9 +80,26 @@
       "transcript_source_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
       "updated_at": "2026-08-11T00:32:30.106326+00:00"
     },
+    "0a48233603db1376c171": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/openai-s-head-of-design-this-is-the-best-time-in-history-to-be-a-designer-ian-silber-0a48233603db1376c171/analysis.json",
+      "error": "",
+      "feed_id": "lennys-podcast",
+      "link": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
+      "published": "2026-08-16T12:31:42+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/openai-s-head-of-design-this-is-the-best-time-in-history-to-be-a-designer-ian-silber-0a48233603db1376c171/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/openai-s-head-of-design-this-is-the-best-time-in-history-to-be-a-designer-ian-silber-0a48233603db1376c171/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/openai-s-head-of-design-this-is-the-best-time-in-history-to-be-a-designer-ian-silber-0a48233603db1376c171/summary.md",
+      "title": "OpenAI\u2019s Head of Design: This is the best time in history to be a designer | Ian Silber",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/openai-s-head-of-design-this-is-the-best-time-in-history-to-be-a-designer-ian-silber-0a48233603db1376c171/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
+      "updated_at": "2026-08-16T16:15:52.956399+00:00"
+    },
     "0c08f7d3f44a3d0bc881": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.351073+00:00"
+      "updated_at": "2026-08-16T16:02:37.646503+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -107,7 +124,7 @@
     },
     "107f8c41ed8ae830f60b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.341326+00:00"
+      "updated_at": "2026-08-16T16:02:37.637135+00:00"
     },
     "10e21a6cc7fada9b845d": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-16/openai-s-compute-chief-we-can-t-build-fast-enough-sachin-katti-10e21a6cc7fada9b845d/analysis.json",
@@ -231,6 +248,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=RQE8OS392dU",
       "updated_at": "2026-06-09T16:09:24.212185+00:00"
+    },
+    "1d028938115de04c2f0d": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/zuck-s-ai-future-ai-hacks-gym-spacex-moons-ryan-spoon-nicolai-klemke-adam-goldstein-brian--1d028938115de04c2f0d/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/5026e63e",
+      "published": "2026-08-10T20:39:52+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/zuck-s-ai-future-ai-hacks-gym-spacex-moons-ryan-spoon-nicolai-klemke-adam-goldstein-brian--1d028938115de04c2f0d/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/zuck-s-ai-future-ai-hacks-gym-spacex-moons-ryan-spoon-nicolai-klemke-adam-goldstein-brian--1d028938115de04c2f0d/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/zuck-s-ai-future-ai-hacks-gym-spacex-moons-ryan-spoon-nicolai-klemke-adam-goldstein-brian--1d028938115de04c2f0d/summary.md",
+      "title": "Zuck's AI Future, AI Hacks Gym, SpaceX Moons | Ryan Spoon, Nicolai Klemke, Adam Goldstein & Brian Yutko",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/zuck-s-ai-future-ai-hacks-gym-spacex-moons-ryan-spoon-nicolai-klemke-adam-goldstein-brian--1d028938115de04c2f0d/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/5026e63e/transcription.txt",
+      "updated_at": "2026-08-16T16:15:52.967792+00:00"
     },
     "1d4e2365010b0f38a1de": {
       "status": "metadata_skipped",
@@ -407,7 +441,7 @@
     },
     "2c2a4562f490a0d99d35": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.357876+00:00"
+      "updated_at": "2026-08-16T16:02:37.654175+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -542,7 +576,7 @@
     },
     "3e32b191c658552aa61f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.346419+00:00"
+      "updated_at": "2026-08-16T16:02:37.641831+00:00"
     },
     "3e57bc020699e12f7810": {
       "status": "metadata_skipped",
@@ -551,7 +585,7 @@
     "3f4033937cd40379d5ab": {
       "error": "Invest Like the Best / Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-15T16:02:11.735960+00:00"
+      "updated_at": "2026-08-16T16:02:46.982529+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -589,7 +623,7 @@
     },
     "42bcc72d1366bfa001da": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.338291+00:00"
+      "updated_at": "2026-08-16T16:02:37.634667+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -791,7 +825,7 @@
     },
     "5c9079babc96f680ea68": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.348759+00:00"
+      "updated_at": "2026-08-16T16:02:37.644143+00:00"
     },
     "5cfc3c40bbdee4ffbbb7": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-03/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectur-5cfc3c40bbdee4ffbbb7/analysis.json",
@@ -812,7 +846,7 @@
     },
     "5d2f458e548558059852": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.343981+00:00"
+      "updated_at": "2026-08-16T16:02:37.639503+00:00"
     },
     "5f1ce4d7c5857004243f": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-30/etched-building-ai-hardware-to-make-inference-faster-and-cheaper-invest-like-the-best-ep-4-5f1ce4d7c5857004243f/analysis.json",
@@ -972,7 +1006,7 @@
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.331454+00:00"
+      "updated_at": "2026-08-16T16:02:37.628606+00:00"
     },
     "73944182fcc47ce6f950": {
       "status": "metadata_skipped",
@@ -1251,7 +1285,7 @@
     },
     "8889ec11851c90fa1eeb": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.360133+00:00"
+      "updated_at": "2026-08-16T16:02:37.656656+00:00"
     },
     "8b05ac6e5eb0a316d785": {
       "status": "metadata_skipped",
@@ -1318,7 +1352,7 @@
     },
     "9149edaae23f4f1584ef": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.335448+00:00"
+      "updated_at": "2026-08-16T16:02:37.632006+00:00"
     },
     "91720efd7d609c680ef9": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-09/siri-ai-fable-5-launch-rivian-ceo-joins-rj-scaringe-chris-miller-evan-beard-nick-fleisher--91720efd7d609c680ef9/analysis.json",
@@ -1713,7 +1747,7 @@
     },
     "cbdc147dbc5c8789a2ac": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-15T16:02:00.355626+00:00"
+      "updated_at": "2026-08-16T16:02:37.651551+00:00"
     },
     "cd323cc4cc94a7625667": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-23/vlad-barbalat-investing-120-billion-in-permanent-capital-invest-like-the-best-ep-479-cd323cc4cc94a7625667/analysis.json",
@@ -1823,11 +1857,28 @@
     "de2f231e9cd75ce66d7b": {
       "error": "No Priors / What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-15T16:02:02.799914+00:00"
+      "updated_at": "2026-08-16T16:02:40.086845+00:00"
     },
     "e10ab830d3701f02aa5d": {
       "status": "metadata_skipped",
       "updated_at": "2026-07-21T16:01:33.097570+00:00"
+    },
+    "e1c45cb0cf2c7d28a0e7": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-s-e1c45cb0cf2c7d28a0e7/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-systems/",
+      "published": "2026-08-16T05:43:02+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-s-e1c45cb0cf2c7d28a0e7/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-s-e1c45cb0cf2c7d28a0e7/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-s-e1c45cb0cf2c7d28a0e7/summary.md",
+      "title": "Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-16/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-s-e1c45cb0cf2c7d28a0e7/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://www.complexsystemspodcast.com/episodes/the-economics-of-putting-germicidal-light-in-every-room/?ref=cognitiverevolution.ai",
+      "updated_at": "2026-08-16T16:15:52.978689+00:00"
     },
     "e2dda797086f3cad6e06": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-07/father-of-the-ipod-and-iphone-on-building-taste-judgment-and-creativity-in-the-ai-era-tony-e2dda797086f3cad6e06/analysis.json",
@@ -1942,7 +1993,7 @@
     "ee29121bdffa1dcd1bf8": {
       "error": "The MAD Podcast with Matt Turck / Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-15T16:02:08.315689+00:00"
+      "updated_at": "2026-08-16T16:02:44.128942+00:00"
     },
     "ee719fdce27e5d88ecd4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-01/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-s-ee719fdce27e5d88ecd4/analysis.json",
