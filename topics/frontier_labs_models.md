@@ -265,3 +265,13 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 
 - **A TBPN host reported that Meta opened the weights of Muse Glimmer, a 30-billion-parameter dense model designed to run locally, and plans to release the weights of its Muse Spark 1.2 foundation model.** [00:12:24] The host presented the releases as Meta's concrete return to open weights and argued that local availability could seed fine-tuning and paid API adoption; the episode provided no license analysis, evaluations, or independent performance evidence.
 - **Based on Neural Frames' production experience, Klemke rated Seedance 2.5 as the current video-quality leader but probably the most expensive option, while calling Kling 3 a strong all-rounder that is significantly cheaper.** [01:43:32; 01:44:05; 01:44:16] He attributed Seedance 2.5's lead to cohesive clips of up to 30 seconds, integrated multi-shot generation, and support for many references, but said video-model cost is a major constraint; no standardized quality benchmark or per-generation pricing was supplied.
+
+<!-- episode:1c72020c86cca75745c6 -->
+## 2026-08-09 - [The playbook for building high-talent-density teams | Adam Ward, Head of Talent at Cursor](https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent)
+
+- **Rachitsky says Cursor is building models on SpaceX data centers; Ward then confirms that training on what he calls the world's largest data center has materially unlocked Cursor's model work.** [01:30:09] The SpaceX linkage comes from Rachitsky's prompt. Ward confirms the data-center scale and effect on Cursor's models but does not independently name SpaceX or give a location, compute scale, model, or training-run details.
+
+<!-- episode:1dc93465b4f4bd3344c9 -->
+## 2026-08-17 - [Ep. 25 - DYLAN IS HERE, LIVE! | Dylan Patel & Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--25---DYLAN-IS-HERE--LIVE---Dylan-Patel--Jordan-Nanos-e3ng78i)
+
+- **Patel says he has heard Anthropic has completed training another model but is withholding release; he argues release restrictions may narrow the public open-model gap without interrupting labs' private model-improvement feedback loops.** [20:25; 20:48] He distinguishes public availability from internal use: even if Anthropic and OpenAI withhold stronger models for safety or political reasons, they can still use them to develop successors.

@@ -1,0 +1,58 @@
+{
+  "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/124312274/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-16%2F429964909-44100-2-e14cc905b6914.mp3",
+  "description_html": "<p>Dylan joins the pod today, recorded live from our SF office. Jordan and Dylan discuss SemiAnalysis&#39;s AI spend, the model that escaped during training, AI rollups eating private equity, new accelerators vs NVIDIA, and whether the pod gives away too much information for free.<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA\">0:00</a> Cold Open<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA&t=325s\">5:25</a> SA AI Spend<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA&t=569s\">9:29</a> AI Performance Reviews<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA&t=640s\">10:40</a> AI Rollups<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA&t=827s\">13:47</a> The Agent Moment<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA&t=928s\">15:28</a> The Escaped Model<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA&t=1091s\">18:11</a> Model Exponential<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA&t=1372s\">22:52</a> Compute and Chips<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA&t=1818s\">30:18</a> Open Models<a href=\"https://www.youtube.com/watch?v=Trm74fovjaA&t=1920s\">32:00</a> ADHD and AI<br></p>",
+  "description_text": "Dylan joins the pod today, recorded live from our SF office. Jordan and Dylan discuss SemiAnalysis's AI spend, the model that escaped during training, AI rollups eating private equity, new accelerators vs NVIDIA, and whether the pod gives away too much information for free. 0:00 Cold Open 5:25 SA AI Spend 9:29 AI Performance Reviews 10:40 AI Rollups 13:47 The Agent Moment 15:28 The Escaped Model 18:11 Model Exponential 22:52 Compute and Chips 30:18 Open Models 32:00 ADHD and AI",
+  "duration_seconds": 2280,
+  "feed_id": "semianalysis-weekly",
+  "feed_name": "SemiAnalysis Weekly",
+  "feed_priority": 10,
+  "id": "1dc93465b4f4bd3344c9",
+  "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--25---DYLAN-IS-HERE--LIVE---Dylan-Patel--Jordan-Nanos-e3ng78i",
+  "published": "2026-08-17T13:00:00+00:00",
+  "title": "Ep. 25 - DYLAN IS HERE, LIVE! | Dylan Patel & Jordan Nanos",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=Trm74fovjaA",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "0:00",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA"
+    },
+    {
+      "text": "5:25",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA&t=325s"
+    },
+    {
+      "text": "9:29",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA&t=569s"
+    },
+    {
+      "text": "10:40",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA&t=640s"
+    },
+    {
+      "text": "13:47",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA&t=827s"
+    },
+    {
+      "text": "15:28",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA&t=928s"
+    },
+    {
+      "text": "18:11",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA&t=1091s"
+    },
+    {
+      "text": "22:52",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA&t=1372s"
+    },
+    {
+      "text": "30:18",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA&t=1818s"
+    },
+    {
+      "text": "32:00",
+      "url": "https://www.youtube.com/watch?v=Trm74fovjaA&t=1920s"
+    }
+  ]
+}

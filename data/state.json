@@ -27,7 +27,7 @@
     },
     "080e5785176cc51d3078": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.648863+00:00"
+      "updated_at": "2026-08-17T16:15:37.552609+00:00"
     },
     "08455bb0b941050e2953": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-06/xbox-layoffs-manual-ferrari-circle-k-lottery-dispute-baiju-bhatt-daniel-english-michele-ca-08455bb0b941050e2953/analysis.json",
@@ -99,7 +99,7 @@
     },
     "0c08f7d3f44a3d0bc881": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.646503+00:00"
+      "updated_at": "2026-08-17T16:15:37.552095+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -124,7 +124,7 @@
     },
     "107f8c41ed8ae830f60b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.637135+00:00"
+      "updated_at": "2026-08-17T16:15:37.549992+00:00"
     },
     "10e21a6cc7fada9b845d": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-16/openai-s-compute-chief-we-can-t-build-fast-enough-sachin-katti-10e21a6cc7fada9b845d/analysis.json",
@@ -249,6 +249,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=RQE8OS392dU",
       "updated_at": "2026-06-09T16:09:24.212185+00:00"
     },
+    "1c72020c86cca75745c6": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/the-playbook-for-building-high-talent-density-teams-adam-ward-head-of-talent-at-cursor-1c72020c86cca75745c6/analysis.json",
+      "error": "",
+      "feed_id": "lennys-podcast",
+      "link": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+      "published": "2026-08-09T12:31:29+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/the-playbook-for-building-high-talent-density-teams-adam-ward-head-of-talent-at-cursor-1c72020c86cca75745c6/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/the-playbook-for-building-high-talent-density-teams-adam-ward-head-of-talent-at-cursor-1c72020c86cca75745c6/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/the-playbook-for-building-high-talent-density-teams-adam-ward-head-of-talent-at-cursor-1c72020c86cca75745c6/summary.md",
+      "title": "The playbook for building high-talent-density teams | Adam Ward, Head of Talent at Cursor",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-09/the-playbook-for-building-high-talent-density-teams-adam-ward-head-of-talent-at-cursor-1c72020c86cca75745c6/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+      "updated_at": "2026-08-17T16:33:32.695296+00:00"
+    },
     "1d028938115de04c2f0d": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-10/zuck-s-ai-future-ai-hacks-gym-spacex-moons-ryan-spoon-nicolai-klemke-adam-goldstein-brian--1d028938115de04c2f0d/analysis.json",
       "error": "",
@@ -286,6 +303,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-06-09T16:09:24.214987+00:00"
+    },
+    "1dc93465b4f4bd3344c9": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-17/ep-25-dylan-is-here-live-dylan-patel-jordan-nanos-1dc93465b4f4bd3344c9/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--25---DYLAN-IS-HERE--LIVE---Dylan-Patel--Jordan-Nanos-e3ng78i",
+      "published": "2026-08-17T13:00:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-17/ep-25-dylan-is-here-live-dylan-patel-jordan-nanos-1dc93465b4f4bd3344c9/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-17/ep-25-dylan-is-here-live-dylan-patel-jordan-nanos-1dc93465b4f4bd3344c9/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-17/ep-25-dylan-is-here-live-dylan-patel-jordan-nanos-1dc93465b4f4bd3344c9/summary.md",
+      "title": "Ep. 25 - DYLAN IS HERE, LIVE! | Dylan Patel & Jordan Nanos",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-17/ep-25-dylan-is-here-live-dylan-patel-jordan-nanos-1dc93465b4f4bd3344c9/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=Trm74fovjaA",
+      "updated_at": "2026-08-17T16:33:32.698080+00:00"
     },
     "1e1c346d9bae1a20c6ab": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-07/openai-s-model-hacked-us-hugging-face-s-thomas-wolf-1e1c346d9bae1a20c6ab/analysis.json",
@@ -441,7 +475,7 @@
     },
     "2c2a4562f490a0d99d35": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.654175+00:00"
+      "updated_at": "2026-08-17T16:15:37.553569+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -576,7 +610,7 @@
     },
     "3e32b191c658552aa61f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.641831+00:00"
+      "updated_at": "2026-08-17T16:15:37.551003+00:00"
     },
     "3e57bc020699e12f7810": {
       "status": "metadata_skipped",
@@ -585,7 +619,7 @@
     "3f4033937cd40379d5ab": {
       "error": "Invest Like the Best / Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-16T16:02:46.982529+00:00"
+      "updated_at": "2026-08-17T16:15:50.982895+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -623,7 +657,7 @@
     },
     "42bcc72d1366bfa001da": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.634667+00:00"
+      "updated_at": "2026-08-17T16:15:37.549252+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -825,7 +859,7 @@
     },
     "5c9079babc96f680ea68": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.644143+00:00"
+      "updated_at": "2026-08-17T16:15:37.551601+00:00"
     },
     "5cfc3c40bbdee4ffbbb7": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-03/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectur-5cfc3c40bbdee4ffbbb7/analysis.json",
@@ -846,7 +880,7 @@
     },
     "5d2f458e548558059852": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.639503+00:00"
+      "updated_at": "2026-08-17T16:15:37.550500+00:00"
     },
     "5f1ce4d7c5857004243f": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-30/etched-building-ai-hardware-to-make-inference-faster-and-cheaper-invest-like-the-best-ep-4-5f1ce4d7c5857004243f/analysis.json",
@@ -1006,7 +1040,7 @@
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.628606+00:00"
+      "updated_at": "2026-08-17T16:15:37.547512+00:00"
     },
     "73944182fcc47ce6f950": {
       "status": "metadata_skipped",
@@ -1285,7 +1319,7 @@
     },
     "8889ec11851c90fa1eeb": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.656656+00:00"
+      "updated_at": "2026-08-17T16:15:37.554040+00:00"
     },
     "8b05ac6e5eb0a316d785": {
       "status": "metadata_skipped",
@@ -1352,7 +1386,7 @@
     },
     "9149edaae23f4f1584ef": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.632006+00:00"
+      "updated_at": "2026-08-17T16:15:37.548704+00:00"
     },
     "91720efd7d609c680ef9": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-09/siri-ai-fable-5-launch-rivian-ceo-joins-rj-scaringe-chris-miller-evan-beard-nick-fleisher--91720efd7d609c680ef9/analysis.json",
@@ -1747,7 +1781,7 @@
     },
     "cbdc147dbc5c8789a2ac": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-16T16:02:37.651551+00:00"
+      "updated_at": "2026-08-17T16:15:37.553092+00:00"
     },
     "cd323cc4cc94a7625667": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-23/vlad-barbalat-investing-120-billion-in-permanent-capital-invest-like-the-best-ep-479-cd323cc4cc94a7625667/analysis.json",
@@ -1854,10 +1888,27 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-16T16:01:30.586389+00:00"
     },
+    "d7afb2157a56ba17b695": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/google-deepmind-reorgs-rainforest-discoveries-monkey-prices-surge-harley-finkelstein-john--d7afb2157a56ba17b695/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/ca871caf",
+      "published": "2026-08-05T20:29:53+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/google-deepmind-reorgs-rainforest-discoveries-monkey-prices-surge-harley-finkelstein-john--d7afb2157a56ba17b695/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/google-deepmind-reorgs-rainforest-discoveries-monkey-prices-surge-harley-finkelstein-john--d7afb2157a56ba17b695/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/google-deepmind-reorgs-rainforest-discoveries-monkey-prices-surge-harley-finkelstein-john--d7afb2157a56ba17b695/summary.md",
+      "title": "Google DeepMind Reorgs, Rainforest Discoveries, Monkey Prices Surge | Harley Finkelstein, John J. Giamatteo, Jeremy Allaire, Mackenzie Burnett",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-05/google-deepmind-reorgs-rainforest-discoveries-monkey-prices-surge-harley-finkelstein-john--d7afb2157a56ba17b695/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/ca871caf/transcription.txt",
+      "updated_at": "2026-08-17T16:33:32.700006+00:00"
+    },
     "de2f231e9cd75ce66d7b": {
       "error": "No Priors / What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-16T16:02:40.086845+00:00"
+      "updated_at": "2026-08-17T16:15:44.118682+00:00"
     },
     "e10ab830d3701f02aa5d": {
       "status": "metadata_skipped",
@@ -1993,7 +2044,7 @@
     "ee29121bdffa1dcd1bf8": {
       "error": "The MAD Podcast with Matt Turck / Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-16T16:02:44.128942+00:00"
+      "updated_at": "2026-08-17T16:15:48.837456+00:00"
     },
     "ee719fdce27e5d88ecd4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-01/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-s-ee719fdce27e5d88ecd4/analysis.json",

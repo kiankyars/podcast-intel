@@ -348,3 +348,21 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 ## 2026-08-16 - [Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems](https://www.cognitiverevolution.ai/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-systems/)
 
 - **Belenky identifies short-range transmission as the decisive commercial falsifier: far-UVC could remain important for pandemics yet prevent too little routine illness to justify broad year-round spending.** [56:06] She estimates a typical installation produces one equivalent air change every two minutes, reducing airborne flu or coronavirus by about 90% in eight minutes and 99% in fifteen. That can interrupt accumulated shared-air exposure but may do little against a large dose received face-to-face at two feet.
+
+<!-- episode:1c72020c86cca75745c6 -->
+## 2026-08-09 - [The playbook for building high-talent-density teams | Adam Ward, Head of Talent at Cursor](https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent)
+
+- **Ward says current AI hiring demand is shifting toward hybrid forward-deployed engineers who combine technical depth with customer and executive deployment skills, while narrowly specialized technical roles and inexperienced new-grad roles are weakening.** [00:07:04; 00:07:56; 00:08:34] He describes forward-deployed engineers as people who can help sales teams and customers deploy technical products and move from token-maxing to cost optimization; he says AI tools increasingly cover work previously assigned to narrow specialists or junior hires.
+
+<!-- episode:1dc93465b4f4bd3344c9 -->
+## 2026-08-17 - [Ep. 25 - DYLAN IS HERE, LIVE! | Dylan Patel & Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--25---DYLAN-IS-HERE--LIVE---Dylan-Patel--Jordan-Nanos-e3ng78i)
+
+- **Patel says SemiAnalysis already uses agents to audit every issued invoice and draft internal support answers, finding deals that manual processes had failed to associate with invoices and reducing analyst time per ticket.** [11:44] The invoice agents searched the full invoice set, while support agents pull from internal data and hand answers to analysts rather than sending directly to customers.
+
+<!-- episode:d7afb2157a56ba17b695 -->
+## 2026-08-05 - [Google DeepMind Reorgs, Rainforest Discoveries, Monkey Prices Surge | Harley Finkelstein, John J. Giamatteo, Jeremy Allaire, Mackenzie Burnett](https://share.transistor.fm/s/ca871caf)
+
+- **Shopify president Harley Finkelstein says agentic commerce is already sending disproportionate demand to specialized independent merchants, with AI-driven traffic and orders each up 3x and Shopify Catalog converting at 2x the rate of generic AI scraping.** [00:51:45] Finkelstein reported matching 3x increases in AI-referred traffic and resulting orders, said catalog-based conversion was twice generic scraping, and identified long-tail stores as the main beneficiaries.
+- **Circle CEO Jeremy Allaire says more than 99% of transactions on emerging agent-payment protocols such as x402 and MPP use USDC, and that more than 900 agent services are available.** [01:28:44; 01:29:45] Allaire paired the transaction-share claim with a strategy centered on discoverable agent labor, identity, reputation, and cross-firm service marketplaces rather than shopping agents alone.
+- **Ambrook CEO Mackenzie Burnett says the platform now serves more than 8,000 businesses, including more than 1,000 truckers, as adoption spreads organically from agriculture into adjacent real-economy verticals.** [01:45:42] Burnett cited truckers, general contractors, property managers, and nonprofits, and said agricultural customers pulled Ambrook into side businesses and nearby family or community businesses.
+- **Burnett says Ambrook's customer-acquisition cost is roughly half as high in counties with 1% to 2% penetration as in counties with only 10 to 25 basis points of penetration.** [01:54:39] She attributed the CAC gap to regional social proof and word of mouth after an initial push through Facebook awareness, case studies, trade associations, and niche podcasts.

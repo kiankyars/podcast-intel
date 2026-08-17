@@ -313,3 +313,19 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 ## 2026-08-14 - [Cursor Acquisition Closes, Bezos x Liverpool, Flying Roadster, Car Week, Gen Z Trends & More](https://share.transistor.fm/s/0181c123)
 
 - **Lemma founder Jerry Zhang positioned the product as contextual monitoring for longer-running agents that can surface failure modes teams did not predefine, rather than relying only on fixed alerts or judges.** [00:06:28] A host paraphrased Zhang's launch argument and used anomalous mass-emailing and commerce activity as examples; the episode provided no customer results, false-positive rates, or measured detection performance.
+
+<!-- episode:1c72020c86cca75745c6 -->
+## 2026-08-09 - [The playbook for building high-talent-density teams | Adam Ward, Head of Talent at Cursor](https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent)
+
+- **Ward expects recruiters to become 'talent engineers' who build their own workflows with AI coding tools instead of depending on central engineering teams.** [01:19:56] He says recruiting teams once had to beg for engineering time to build internal tools, whereas products such as Cursor now put that capability directly in recruiters' hands; he wants this to become the default operating model for his team.
+
+<!-- episode:1dc93465b4f4bd3344c9 -->
+## 2026-08-17 - [Ep. 25 - DYLAN IS HERE, LIVE! | Dylan Patel & Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--25---DYLAN-IS-HERE--LIVE---Dylan-Patel--Jordan-Nanos-e3ng78i)
+
+- **Nanos says GPT-5.6 Sol has become his default for nearly all engineering work because, unlike Anthropic's Fable or Opus in his experience, it reliably continues long-running cluster tasks overnight.** [19:28; 21:40; 22:07] He says Anthropic sessions have often stopped about 20 minutes into an eight-hour unattended run, whereas Sol was still working when he woke; he also reports that Anthropic safety classifiers can down-route routine node-reboot tasks.
+
+<!-- episode:d7afb2157a56ba17b695 -->
+## 2026-08-05 - [Google DeepMind Reorgs, Rainforest Discoveries, Monkey Prices Surge | Harley Finkelstein, John J. Giamatteo, Jeremy Allaire, Mackenzie Burnett](https://share.transistor.fm/s/ca871caf)
+
+- **Finkelstein says Shopify's Sidekick onboarding guidance increased the share of new merchants reaching a fifth order within fifteen days by 8%.** [01:01:50] He presented the 8% activation lift as an observed outcome on Shopify's large flow of new merchants, while providing no test design or baseline conversion rate.
+- **BlackBerry CEO John J. Giamatteo says the company uses AI for testing, customer service, and go-to-market work but remains deliberately limited in using it for safety-critical production code because BlackBerry's safety-critical automotive code must satisfy ISO 26262.** [01:13:20] Giamatteo described certifying an AI agent to the automotive safety standard as nontrivial and said BlackBerry is therefore cautious about AI in the core code shipped into vehicles.
