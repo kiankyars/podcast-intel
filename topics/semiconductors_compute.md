@@ -157,3 +157,8 @@ GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and 
 ## 2026-08-17 - [Ep. 25 - DYLAN IS HERE, LIVE! | Dylan Patel & Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--25---DYLAN-IS-HERE--LIVE---Dylan-Patel--Jordan-Nanos-e3ng78i)
 
 - **Patel argues the 2027 alternative-accelerator wave is unlikely to displace incumbent economics soon: startup volumes are tiny beside Nvidia and Google TPUs, many headline orders are only LOIs, and high-interactivity chips must earn enough premium to match roughly $100 million of annual revenue per megawatt.** [24:36; 25:01; 25:44; 27:03] He expects startups to win limited allocations while most cash flow stays with Nvidia or Broadcom; his commercial test is revenue per megawatt, not peak token speed.
+
+<!-- episode:ed374a3cbf0d24f35c21 -->
+## 2026-08-18 - [Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]](https://colossus.com/episode/winners-losers-ai-era/)
+
+- **Thompson argues TSMC's conservative capacity policy transferred overbuild risk to hyperscalers as foregone revenue; the resulting shortage may finally make qualifying Intel or Samsung economical and provide geopolitical diversification that pure insurance spending could not justify.** [38:44; 41:12; 43:54; 44:15] He says TSMC's growth rate fell in 2024 and 2025 before rising in 2026, notes that customers previously avoided Intel because TSMC was easier and better, and expects a major Intel partner announcement as scarcity outweighs qualification pain.

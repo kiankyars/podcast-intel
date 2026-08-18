@@ -329,3 +329,14 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 
 - **Finkelstein says Shopify's Sidekick onboarding guidance increased the share of new merchants reaching a fifth order within fifteen days by 8%.** [01:01:50] He presented the 8% activation lift as an observed outcome on Shopify's large flow of new merchants, while providing no test design or baseline conversion rate.
 - **BlackBerry CEO John J. Giamatteo says the company uses AI for testing, customer service, and go-to-market work but remains deliberately limited in using it for safety-critical production code because BlackBerry's safety-critical automotive code must satisfy ISO 26262.** [01:13:20] Giamatteo described certifying an AI agent to the automotive safety standard as nontrivial and said BlackBerry is therefore cautious about AI in the core code shipped into vehicles.
+
+<!-- episode:e1a3b37534ebf5a4d408 -->
+## 2026-08-04 - [Bending Spoons Buys Airtable, Snap Rips, Ads in BMW | Grace Li, Samir Kaji, John Quinn, Nikhil Reddy, Art Levy & Russell Kaplan, Brendan Carr](https://share.transistor.fm/s/b35b3f03)
+
+- **Kaizen founder Nikhil Reddy said the company designed, built, and deployed a two-sided Pentagon counter-drone marketplace from a blank slate in nine weeks, including a natural-language capability-planning agent.** [01:52:20; 01:53:52] Reddy said American OEMs can sell to defense offices, state and local law enforcement, and allied nations; buyers can enter a mission, threat profile, and budget to receive recommended assets and add them to a cart.
+- **Kaplan said a Global 2000 customer deployed Devin across an organization with tens of thousands of engineers, yet product managers discarded working Devin prototypes after converting them back into Jira tickets because shipping code belonged to engineering.** [02:05:04] The anonymized deployment exposed organizational boundaries as a constraint: the agent completed implementation work, but the existing PM-to-engineering handoff caused that work to be thrown away.
+
+<!-- episode:ed374a3cbf0d24f35c21 -->
+## 2026-08-18 - [Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]](https://colossus.com/episode/winners-losers-ai-era/)
+
+- **Thompson sees Microsoft pursuing IBM's 1990s playbook: stay off the model frontier, provide enterprises a dependable middleware and platform layer across changing models, and concentrate data-center spending on inference, even as agent interfaces and AI-assisted migration attack the legacy software lock-in funding the strategy.** [53:36; 56:07; 57:25; 58:25] He compares Microsoft's harness and platform layer with IBM's bridge from mainframes to the web, then argues that agents point directly at Microsoft's user interface while AI makes tedious system migrations easier.

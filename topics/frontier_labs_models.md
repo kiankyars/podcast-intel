@@ -275,3 +275,9 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 ## 2026-08-17 - [Ep. 25 - DYLAN IS HERE, LIVE! | Dylan Patel & Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--25---DYLAN-IS-HERE--LIVE---Dylan-Patel--Jordan-Nanos-e3ng78i)
 
 - **Patel says he has heard Anthropic has completed training another model but is withholding release; he argues release restrictions may narrow the public open-model gap without interrupting labs' private model-improvement feedback loops.** [20:25; 20:48] He distinguishes public availability from internal use: even if Anthropic and OpenAI withhold stronger models for safety or political reasons, they can still use them to develop successors.
+
+<!-- episode:e1a3b37534ebf5a4d408 -->
+## 2026-08-04 - [Bending Spoons Buys Airtable, Snap Rips, Ads in BMW | Grace Li, Samir Kaji, John Quinn, Nikhil Reddy, Art Levy & Russell Kaplan, Brendan Carr](https://share.transistor.fm/s/b35b3f03)
+
+- **Intelligence CEO Grace Li said Design Arena grew from roughly 3,000 overnight users to 5.6 million people across 192 countries; she added that Intelligence works with nearly all major frontier labs on hard-to-verify domains.** [00:45:08; 00:45:23; 00:46:52] Li described a useful consumer workflow that presents multiple outputs and captures human preference and behavior signals, giving labs feedback for domains such as design and games where automated verification is weak.
+- **Cognition president Russell Kaplan said Cognition has seen OpenAI models perform best on recall for detecting security vulnerabilities, while Anthropic models can be slightly better on precision.** [02:04:20] Kaplan used the split to argue that enterprises should route work to the best model for each job and evaluation metric instead of selecting one universal model provider.
