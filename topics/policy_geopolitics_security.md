@@ -260,3 +260,8 @@ Export controls, national competition, regulation, defense, safety, and security
 ## 2026-08-18 - [Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]](https://colossus.com/episode/winners-losers-ai-era/)
 
 - **Thompson argues that decisive U.S. AI-enabled military superiority could increase Taiwan tail risk: he sees destroying TSMC as a rational Chinese response and doubts the United States can economically unwind its deeper China dependencies before a conflict.** [02:35; 03:01; 04:28; 06:14] He contrasts that hegemonic outcome with what he considers a safer U.S.-favorable equilibrium, in which OpenAI and Anthropic lead while Chinese models remain roughly six to nine months behind; Apple's partial India diversification is his example of why full decoupling remains prohibitively expensive.
+
+<!-- episode:97a3346678ba03fddb55 -->
+## 2026-08-20 - [Ep. 026 - PJM's $12B Modeling Mistake Is Hitting Ratepayers Again (Datacenter, Energy) | Robert Boswell, Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--026---PJMs-12B-Modeling-Mistake-Is-Hitting-Ratepayers-Again-Datacenter--Energy--Robert-Boswell--Jordan-Nanos-e3nkns1)
+
+- **Boswell says PJM's members approved an alternative that would place procurement liability directly on data centers, but the board overrode it because it believed that structure would buy too little capacity.** [27:44; 30:09; 30:39] The episode says the member proposal cleared PJM's greater-than-two-thirds threshold. Boswell argues that if his lower capacity requirement is correct, the board's stated reason for overriding the members disappears, making reliability modeling a governance issue as well as a technical one.

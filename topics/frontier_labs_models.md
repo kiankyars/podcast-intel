@@ -281,3 +281,8 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 
 - **Intelligence CEO Grace Li said Design Arena grew from roughly 3,000 overnight users to 5.6 million people across 192 countries; she added that Intelligence works with nearly all major frontier labs on hard-to-verify domains.** [00:45:08; 00:45:23; 00:46:52] Li described a useful consumer workflow that presents multiple outputs and captures human preference and behavior signals, giving labs feedback for domains such as design and games where automated verification is weak.
 - **Cognition president Russell Kaplan said Cognition has seen OpenAI models perform best on recall for detecting security vulnerabilities, while Anthropic models can be slightly better on precision.** [02:04:20] Kaplan used the split to argue that enterprises should route work to the best model for each job and evaluation metric instead of selecting one universal model provider.
+
+<!-- episode:91cfdcdc3778c5335774 -->
+## 2026-08-20 - [From Restoring Sight to Reimagining the Brain, with Max Hodak](https://www.youtube.com/watch?v=7HXqMepjvy8)
+
+- **Hodak says Science can align animal neural recordings with internal AI-model representations and uses those alignments in its research.** [20:39] He says Science uses the shared geometry practically and can obtain such alignments; the episode names no model and supplies no method, metric, or result.

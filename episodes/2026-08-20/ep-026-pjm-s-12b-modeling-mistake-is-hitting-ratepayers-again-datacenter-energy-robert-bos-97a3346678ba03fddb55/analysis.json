@@ -1,0 +1,89 @@
+{
+  "changed_views": [
+    "PJM rate increases cited as evidence against data centers may be driven materially by auction design and reliability modeling rather than load growth alone, although the $12 billion attribution remains Boswell's estimate.",
+    "PJM's apparent capacity scarcity is partly institutional: compressed procurement lead times and slow interconnection can prevent supply from responding even when the auction price is high.",
+    "The emergency auction creates an asymmetric financing risk because PJM can commit long-duration capacity before the data centers expected to pay for it have accepted the obligation.",
+    "Seasonal capability and winterization are not minor engineering details in a uniform-price capacity market; they can alter both procurement quantity and every cleared generator's payment.",
+    "Large data-center loads are not necessarily a zero-sum burden on ratepayers; with incremental supply and flexible resources, their demand could spread fixed grid costs and improve utilization."
+  ],
+  "entities": [
+    "SemiAnalysis",
+    "Robert Boswell",
+    "Jordan Nanos",
+    "PJM Interconnection",
+    "Federal Energy Regulatory Commission",
+    "Governor Shapiro",
+    "Storm Elliott",
+    "data centers"
+  ],
+  "follow_ups": [
+    "Reproduce SemiAnalysis's $12 billion estimate from PJM's 2025-26 and 2026-27 auction demand curves, supply offers, clearing prices, and seasonal capability assumptions, separating the winter-output and winterization effects.",
+    "Audit PJM manuals and FERC filings to establish exactly how seasonal generator ratings, historical forced outages, and post-Storm-Elliott winterization enter current capacity accreditation.",
+    "Obtain the emergency-auction filing and board record to verify the 6.8 GW target, contract term, $555 per MW-day cap, cost-allocation rules, and the member alternative that the board rejected.",
+    "Stress-test the emergency procurement under data-center completion, delay, cancellation, and relocation scenarios to quantify how much liability would fall on existing ratepayers.",
+    "Compare PJM's auction lead times and interconnection completion rates with other U.S. grid operators to determine how much of the shortage is specific to its process rather than common equipment or permitting constraints.",
+    "Measure whether winterization mandates have actually reduced forced-outage rates enough to justify Boswell's reliability adjustment."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "infrastructure_energy",
+      "claim": "Boswell estimates PJM could have avoided $12 billion of the $63 billion spent across its last four capacity auctions: $7 billion in 2025-26 and $5 billion in 2026-27, both from crediting existing winter capability more accurately.",
+      "confidence": "medium",
+      "evidence": "He says PJM effectively applies summer capability year-round and extrapolates historical cold-weather outages even after mandated winterization, understating cold-air output and reliability. Because the supply curve is near vertical, his modeled quantity correction produces an unusually large reduction in the uniform clearing price; the estimate is not independently audited in the episode.",
+      "kind": "inference",
+      "timestamp": "07:39; 09:44; 11:50"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Boswell argues PJM is manufacturing part of its scarcity by running auctions only one to two years ahead while its interconnection process is slow, leaving too little time for new generation to qualify and shifting the supply curve left.",
+      "confidence": "medium",
+      "evidence": "He says the auctions are intended to provide roughly three years of warning, which he already considers tight, but recent delays compressed the interval further. New plants therefore cannot arrive in response to the capacity signal even as forecast demand rises.",
+      "kind": "inference",
+      "timestamp": "05:15; 08:57"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Boswell explains that PJM's capacity auction can magnify small modeling errors because every cleared generator, including fully paid-off existing plants, receives the marginal systemwide price rather than its own bid.",
+      "confidence": "high",
+      "evidence": "Boswell explains that the auction pays for the ability to generate, not delivered electricity, and gives the example of a resource bidding $5 per MW-day still receiving $300 per MW-day if the last required unit sets that price. A small quantity change at the steep end of supply can therefore reprice a very large installed base.",
+      "kind": "observation",
+      "timestamp": "03:48; 14:41"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "For 2028-29, PJM projects a 6.8 GW capacity shortfall, but Boswell's seasonal-output and winterization adjustments reduce the estimated need to about 3 GW, implying the planned emergency auction could overprocure roughly 3.8 GW.",
+      "confidence": "medium",
+      "evidence": "Boswell attributes part of the official gap to price-capped auctions that did not procure the target quantity. He says recognizing higher winter output and improved cold-weather reliability would eliminate more than half of the remaining modeled deficit.",
+      "kind": "inference",
+      "timestamp": "26:46; 27:24"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Boswell warns that PJM's emergency-auction design may commit capacity through 2042-43 before a data-center counterparty is guaranteed, leaving existing ratepayers exposed if the forecast load does not materialize.",
+      "confidence": "medium",
+      "evidence": "He says the price cap is $555 per MW-day and calculates that the targeted capacity could cost up to $21 billion over the full term. PJM plans to pass the cost to new demand, but it has no balance sheet to absorb the obligation if data centers decline an uncertain long-duration commitment.",
+      "kind": "forecast",
+      "timestamp": "28:17; 29:13"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Boswell says PJM's members approved an alternative that would place procurement liability directly on data centers, but the board overrode it because it believed that structure would buy too little capacity.",
+      "confidence": "medium",
+      "evidence": "The episode says the member proposal cleared PJM's greater-than-two-thirds threshold. Boswell argues that if his lower capacity requirement is correct, the board's stated reason for overriding the members disappears, making reliability modeling a governance issue as well as a technical one.",
+      "kind": "inference",
+      "timestamp": "27:44; 30:09; 30:39"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Boswell argues that data-center load can lower rather than raise average electricity costs if it finances incremental supply and improves utilization of a high-fixed-cost grid.",
+      "confidence": "medium",
+      "evidence": "He points to batteries, bring-your-own or backup generation, and load flexibility as ways to pair demand with supply, and says data centers may accept paying more than a pro-rata share in exchange for being connected. He presents this as the upside case, not evidence that PJM has achieved it.",
+      "kind": "opinion",
+      "timestamp": "19:23; 40:04; 42:22"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Robert Boswell argues that PJM's recent capacity-price shock is not simply the physical consequence of AI data-center demand. His model attributes $12 billion of avoidable cost across the 2025-26 and 2026-27 auctions to PJM undervaluing existing winter capacity while procuring against a supply curve made unusually steep by short auction lead times and interconnection delays. The same issue now matters for an emergency procurement: PJM sees a 6.8 GW shortfall for 2028-29, while Boswell estimates seasonal capability and winterization reduce the need to roughly 3 GW. The proposed structure could commit capacity through 2042-43 without a guaranteed data-center counterparty, potentially transferring a liability Boswell sizes at up to $21 billion to existing ratepayers. These are consequential, mechanistically explained estimates from SemiAnalysis, but the episode does not independently validate the model or the auction assumptions.",
+  "why_it_matters": "PJM covers 66 million people and the core U.S. data-center corridor, so its auction design affects both household power bills and the pace and location of AI infrastructure deployment. If Boswell's estimates hold, a material portion of the price increase commonly attributed to data-center load instead reflects reliability accounting, procurement timing, interconnection bottlenecks, and liability allocation. That changes the investment and policy question from whether demand must be suppressed to whether PJM can credit existing capacity accurately, enable new supply soon enough, and make the customers creating long-term demand bear the corresponding commitment risk."
+}
