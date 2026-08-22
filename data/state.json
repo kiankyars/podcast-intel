@@ -124,7 +124,7 @@
     },
     "107f8c41ed8ae830f60b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-21T16:02:43.412554+00:00"
+      "updated_at": "2026-08-22T16:02:09.572458+00:00"
     },
     "10e21a6cc7fada9b845d": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-16/openai-s-compute-chief-we-can-t-build-fast-enough-sachin-katti-10e21a6cc7fada9b845d/analysis.json",
@@ -566,6 +566,23 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/ai-am-highlights-exploring-the-j-space-ai-superforecasters-sambanova-s-chips-ltx-video-gen/",
       "updated_at": "2026-07-13T09:23:36.149706+00:00"
     },
+    "392efcaf08295a0dda16": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-21/simulation-the-new-scaling-law-joon-sung-park-simile-ai-392efcaf08295a0dda16/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/simile",
+      "published": "2026-08-21T23:37:38+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-21/simulation-the-new-scaling-law-joon-sung-park-simile-ai-392efcaf08295a0dda16/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-21/simulation-the-new-scaling-law-joon-sung-park-simile-ai-392efcaf08295a0dda16/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-21/simulation-the-new-scaling-law-joon-sung-park-simile-ai-392efcaf08295a0dda16/summary.md",
+      "title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-21/simulation-the-new-scaling-law-joon-sung-park-simile-ai-392efcaf08295a0dda16/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/simile",
+      "updated_at": "2026-08-22T16:14:20.024187+00:00"
+    },
     "3a32f702d444a89ffbb1": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-02/inside-nemotron-nvidia-s-ai-lab-bryan-catanzaro-3a32f702d444a89ffbb1/analysis.json",
       "error": "",
@@ -610,7 +627,7 @@
     },
     "3e32b191c658552aa61f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-21T16:02:43.413878+00:00"
+      "updated_at": "2026-08-22T16:02:09.573441+00:00"
     },
     "3e57bc020699e12f7810": {
       "status": "metadata_skipped",
@@ -619,7 +636,7 @@
     "3f4033937cd40379d5ab": {
       "error": "Invest Like the Best / Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-21T16:02:50.061812+00:00"
+      "updated_at": "2026-08-22T16:02:16.412837+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -657,7 +674,7 @@
     },
     "42bcc72d1366bfa001da": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-21T16:02:43.412051+00:00"
+      "updated_at": "2026-08-22T16:02:09.571925+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -880,7 +897,7 @@
     },
     "5d2f458e548558059852": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-21T16:02:43.413460+00:00"
+      "updated_at": "2026-08-22T16:02:09.572947+00:00"
     },
     "5f1ce4d7c5857004243f": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-30/etched-building-ai-hardware-to-make-inference-faster-and-cheaper-invest-like-the-best-ep-4-5f1ce4d7c5857004243f/analysis.json",
@@ -1040,7 +1057,7 @@
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-21T16:02:43.410263+00:00"
+      "updated_at": "2026-08-22T16:02:09.570329+00:00"
     },
     "73944182fcc47ce6f950": {
       "status": "metadata_skipped",
@@ -1079,6 +1096,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
       "updated_at": "2026-07-11T07:40:56.299345+00:00"
+    },
+    "77e4ba8b8b10a6e4ea71": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-22/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026-77e4ba8b8b10a6e4ea71/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026/",
+      "published": "2026-08-22T14:22:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-22/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026-77e4ba8b8b10a6e4ea71/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-22/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026-77e4ba8b8b10a6e4ea71/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-22/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026-77e4ba8b8b10a6e4ea71/summary.md",
+      "title": "AI in the AM \u2014 Weekly Highlights: Relaunch Week (Aug 17\u201320, 2026)",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-22/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026-77e4ba8b8b10a6e4ea71/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026/",
+      "updated_at": "2026-08-22T16:14:20.026810+00:00"
     },
     "780e4321f53f8b9011ff": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-08/why-ai-infrastructure-must-evolve-for-agent-experience-akshat-bubna-modal-cto-780e4321f53f8b9011ff/analysis.json",
@@ -1386,7 +1420,7 @@
     },
     "9149edaae23f4f1584ef": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-21T16:02:43.411555+00:00"
+      "updated_at": "2026-08-22T16:02:09.571190+00:00"
     },
     "91720efd7d609c680ef9": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-09/siri-ai-fable-5-launch-rivian-ceo-joins-rj-scaringe-chris-miller-evan-beard-nick-fleisher--91720efd7d609c680ef9/analysis.json",
@@ -1942,7 +1976,7 @@
     "de2f231e9cd75ce66d7b": {
       "error": "No Priors / What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-21T16:02:45.037497+00:00"
+      "updated_at": "2026-08-22T16:02:10.873264+00:00"
     },
     "e10ab830d3701f02aa5d": {
       "status": "metadata_skipped",
@@ -2112,7 +2146,7 @@
     "ee29121bdffa1dcd1bf8": {
       "error": "The MAD Podcast with Matt Turck / Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-21T16:02:48.500882+00:00"
+      "updated_at": "2026-08-22T16:02:14.575668+00:00"
     },
     "ee719fdce27e5d88ecd4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-01/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-s-ee719fdce27e5d88ecd4/analysis.json",

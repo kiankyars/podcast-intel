@@ -162,3 +162,8 @@ GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and 
 ## 2026-08-18 - [Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]](https://colossus.com/episode/winners-losers-ai-era/)
 
 - **Thompson argues TSMC's conservative capacity policy transferred overbuild risk to hyperscalers as foregone revenue; the resulting shortage may finally make qualifying Intel or Samsung economical and provide geopolitical diversification that pure insurance spending could not justify.** [38:44; 41:12; 43:54; 44:15] He says TSMC's growth rate fell in 2024 and 2025 before rising in 2026, notes that customers previously avoided Intel because TSMC was easier and better, and expects a major Intel partner announcement as scarcity outweighs qualification pain.
+
+<!-- episode:77e4ba8b8b10a6e4ea71 -->
+## 2026-08-22 - [AI in the AM — Weekly Highlights: Relaunch Week (Aug 17–20, 2026)](https://www.cognitiverevolution.ai/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026/)
+
+- **Lemurian Labs CEO Jay Dawani argues that AI systems are now primarily memory-, network-, communication-, and power-bound, making scheduling software a faster source of effective compute than hand-tuned kernels or new hardware.** [2:07:12; 2:08:18; 2:11:37] Dawani estimates that full hardware-workload coverage would require about 106 billion kernels while only roughly 2,000 engineers can write high-performance kernels and 90% sit in one vendor ecosystem. He claims software can raise utilization three- to tenfold while turbines and power delay new silicon capacity.

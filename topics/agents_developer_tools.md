@@ -340,3 +340,8 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 ## 2026-08-18 - [Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]](https://colossus.com/episode/winners-losers-ai-era/)
 
 - **Thompson sees Microsoft pursuing IBM's 1990s playbook: stay off the model frontier, provide enterprises a dependable middleware and platform layer across changing models, and concentrate data-center spending on inference, even as agent interfaces and AI-assisted migration attack the legacy software lock-in funding the strategy.** [53:36; 56:07; 57:25; 58:25] He compares Microsoft's harness and platform layer with IBM's bridge from mainframes to the web, then argues that agents point directly at Microsoft's user interface while AI makes tedious system migrations easier.
+
+<!-- episode:77e4ba8b8b10a6e4ea71 -->
+## 2026-08-22 - [AI in the AM — Weekly Highlights: Relaunch Week (Aug 17–20, 2026)](https://www.cognitiverevolution.ai/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026/)
+
+- **Basis cofounder Mitchell Troyanovsky says supervision for long-horizon agents should evaluate required actions and process, not token-level reasoning.** [1:55:12] Basis agents can run for eight hours or longer with five-plus subagent layers. Its open behavior-spec approach uses a rubric and a judge agent to determine whether a triggering condition occurred and whether the required step was performed, creating a trajectory-level signal that can feed harness or model improvements.
