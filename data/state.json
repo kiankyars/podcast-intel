@@ -124,7 +124,7 @@
     },
     "107f8c41ed8ae830f60b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-22T16:02:09.572458+00:00"
+      "updated_at": "2026-08-23T16:02:09.531647+00:00"
     },
     "10e21a6cc7fada9b845d": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-16/openai-s-compute-chief-we-can-t-build-fast-enough-sachin-katti-10e21a6cc7fada9b845d/analysis.json",
@@ -545,6 +545,23 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/ai-in-the-am-week-1-highlights-june-2026/",
       "updated_at": "2026-06-11T16:06:42.802628+00:00"
     },
+    "3593dedb1bf3257293e2": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/analysis.json",
+      "error": "",
+      "feed_id": "lennys-podcast",
+      "link": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+      "published": "2026-08-23T12:31:43+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/summary.md",
+      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+      "updated_at": "2026-08-23T16:10:57.778534+00:00"
+    },
     "36808c38af33bbb74359": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-15T16:01:40.193522+00:00"
@@ -627,7 +644,7 @@
     },
     "3e32b191c658552aa61f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-22T16:02:09.573441+00:00"
+      "updated_at": "2026-08-23T16:02:09.532719+00:00"
     },
     "3e57bc020699e12f7810": {
       "status": "metadata_skipped",
@@ -636,7 +653,7 @@
     "3f4033937cd40379d5ab": {
       "error": "Invest Like the Best / Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-22T16:02:16.412837+00:00"
+      "updated_at": "2026-08-23T16:02:15.242717+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -674,7 +691,7 @@
     },
     "42bcc72d1366bfa001da": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-22T16:02:09.571925+00:00"
+      "updated_at": "2026-08-23T16:02:09.530941+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -897,7 +914,7 @@
     },
     "5d2f458e548558059852": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-22T16:02:09.572947+00:00"
+      "updated_at": "2026-08-23T16:02:09.532087+00:00"
     },
     "5f1ce4d7c5857004243f": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-30/etched-building-ai-hardware-to-make-inference-faster-and-cheaper-invest-like-the-best-ep-4-5f1ce4d7c5857004243f/analysis.json",
@@ -1057,7 +1074,7 @@
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-22T16:02:09.570329+00:00"
+      "updated_at": "2026-08-23T16:02:09.529516+00:00"
     },
     "73944182fcc47ce6f950": {
       "status": "metadata_skipped",
@@ -1420,7 +1437,7 @@
     },
     "9149edaae23f4f1584ef": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-22T16:02:09.571190+00:00"
+      "updated_at": "2026-08-23T16:02:09.530451+00:00"
     },
     "91720efd7d609c680ef9": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-09/siri-ai-fable-5-launch-rivian-ceo-joins-rj-scaringe-chris-miller-evan-beard-nick-fleisher--91720efd7d609c680ef9/analysis.json",
@@ -1976,7 +1993,7 @@
     "de2f231e9cd75ce66d7b": {
       "error": "No Priors / What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-22T16:02:10.873264+00:00"
+      "updated_at": "2026-08-23T16:02:10.946979+00:00"
     },
     "e10ab830d3701f02aa5d": {
       "status": "metadata_skipped",
@@ -2146,7 +2163,7 @@
     "ee29121bdffa1dcd1bf8": {
       "error": "The MAD Podcast with Matt Turck / Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
-      "updated_at": "2026-08-22T16:02:14.575668+00:00"
+      "updated_at": "2026-08-23T16:02:14.010243+00:00"
     },
     "ee719fdce27e5d88ecd4": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-01/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-s-ee719fdce27e5d88ecd4/analysis.json",
