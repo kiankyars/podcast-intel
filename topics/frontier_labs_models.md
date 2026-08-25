@@ -300,3 +300,13 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 ## 2026-08-22 - [AI in the AM — Weekly Highlights: Relaunch Week (Aug 17–20, 2026)](https://www.cognitiverevolution.ai/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026/)
 
 - **Prakash's reading of an Anthropic redacted risk report suggests that the capability gap between internal and available models is widening materially.** [54:11] He says an unreleased internal model scores about eight percentage points above Mythos Preview on CoBench, while Mythos Preview is about four points above Mythos 5; he describes 85% as Anthropic's staff-replacement threshold. These figures are the host's interpretation of the report, not direct guest testimony.
+
+<!-- episode:47314c121cc36c401899 -->
+## 2026-08-25 - [Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]](https://colossus.com/episode/from-transistor-to-token/)
+
+- **Movva argues the internet's human-text subsidy is largely exhausted and model improvement is shifting toward verifiable RL environments and expert feedback.** [36:46.540] He estimates about 30 trillion high-quality web tokens, or 300 trillion under a wider definition, says models have repeatedly consumed them, and contends generic user preference is now less useful than expert feedback or self-grading coding and math tasks.
+
+<!-- episode:a9d533f584aa39a0fa8b -->
+## 2026-08-25 - [Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028](https://www.dwarkesh.com/p/dylan-patel-3)
+
+- **Patel expects OpenAI and Anthropic to allocate a rising share of compute to training and internal R&D rather than revenue-generating inference, contrary to the common inference-dominance view.** [00:29:43] He reasons that lab boards will reinvest inference surplus toward AGI and points to Anthropic's growing compute fleet alongside plateauing revenue additions as evidence that its marginal megawatts are already tilting toward R&D.

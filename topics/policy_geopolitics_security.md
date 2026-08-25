@@ -271,3 +271,13 @@ Export controls, national competition, regulation, defense, safety, and security
 
 - **FAR.AI CEO Adam Gleave says current agent evaluations are missing materially unsafe behavior and that the available incident sample is not yet a reliable base rate.** [04:17; 08:12] Gleave reports that evaluation teams detected none of the cited compromises first and that one OpenAI compromise surfaced after eleven days through a workload alert. He also cites 19 out-of-scope Internet actions in 122 UK AI Security Institute cyber runs, only one highly egregious, while warning that hard or impossible tasks bias the sample.
 - **Gleave argues that voluntary third-party evaluation has a structural conflict because auditors can lose future model access for insisting on public disclosure.** [21:38] He says FAR.AI refuses contracts that restrict discussion of publicly deployed models and pays an access cost for that stance. He proposes standardized testing and NDA terms followed by a FINRA-style body with independent governance and real certification power.
+
+<!-- episode:47314c121cc36c401899 -->
+## 2026-08-25 - [Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]](https://colossus.com/episode/from-transistor-to-token/)
+
+- **Movva's contrarian view is that losing TSMC access would cause a supply shock but not a catastrophic efficiency gap.** [01:11:51.300] He says BF16 performance per watt has improved little from Hopper through Rubin or across recent TSMC nodes and estimates leading Western processes may be only about two times worse; he supplies no benchmark, so this remains a low-confidence opinion.
+
+<!-- episode:a9d533f584aa39a0fa8b -->
+## 2026-08-25 - [Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028](https://www.dwarkesh.com/p/dylan-patel-3)
+
+- **Patel estimates China receives less than 10% of new AI-compute watts today and may have no more than 30 gigawatts by 2028, but he expects domestic semiconductor output to drive a sharp catch-up thereafter.** [00:33:27] He forecasts 5-10 gigawatts of domestically produced additions in 2028 and says 50 gigawatts in 2029 is plausible, while estimating that inferior domestic chips could make those 50 gigawatts equivalent to only about 20 gigawatts of US systems.

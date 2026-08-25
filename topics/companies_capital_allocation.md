@@ -318,3 +318,14 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 
 - **Abel says enterprise pricing should absorb sales-cycle and implementation burden: a roughly 90-day cycle can support a $100,000 deal, whereas a nine-month cycle should command approximately $250,000 to $300,000.** [00:59:36; 01:00:42; 01:01:01] She applies the same logic to forward-deployed engineers. A multi-million-dollar Palantir-style engagement can support dedicated technical labor, but placing a full-time engineer and salesperson on a $100,000 contract makes the economics difficult unless the role is accelerating a larger expansion rather than compensating for an unusable product.
 - **Abel argues that enterprise economics depend on expansion: a $100,000-$250,000 initial contract should grow toward roughly $350,000-$500,000 in the following year, and founders should stay involved with the first ten enterprise customers to discover what product or service work enables that growth.** [00:38:00; 01:18:18; 01:18:45] She says software companies should not reject services categorically because enterprises already maintain large, familiar services budgets. Her point is that custom work can reveal repeatable expansion products, although the episode provides no margin or retention data for this approach.
+
+<!-- episode:47314c121cc36c401899 -->
+## 2026-08-25 - [Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]](https://colossus.com/episode/from-transistor-to-token/)
+
+- **Movva expects frontier labs' price premium for staying three to six months ahead of open models to face pressure.** [01:07:07.900] He argues enterprise deployment cycles are slower than frontier release cycles and AI-generated public code creates unavoidable latent distillation, continually diffusing capabilities into open models.
+
+<!-- episode:a9d533f584aa39a0fa8b -->
+## 2026-08-25 - [Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028](https://www.dwarkesh.com/p/dylan-patel-3)
+
+- **Patel says frontier-lab inference economics have flipped from negative gross margin to enough surplus to finance materially more model training.** [00:00:00] He puts base compute cost near $10-15 million per megawatt, says Anthropic has reached as much as $50 million of revenue per megawatt, and reports that Anthropic became profitable in Q2 while OpenAI could follow in Q3.
+- **SemiAnalysis's current model implies that AI infrastructure buildout through 2029 will require credit issuance on a scale large enough to crowd out non-AI borrowers.** [00:48:48] Patel gives a 2024-2029 estimate of more than $11 trillion in capital expenditure, split approximately into $6 trillion funded by cash and more than $5 trillion funded by debt, because desired capacity grows faster than lab and hyperscaler cash flow.

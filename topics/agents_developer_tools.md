@@ -345,3 +345,8 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 ## 2026-08-22 - [AI in the AM — Weekly Highlights: Relaunch Week (Aug 17–20, 2026)](https://www.cognitiverevolution.ai/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026/)
 
 - **Basis cofounder Mitchell Troyanovsky says supervision for long-horizon agents should evaluate required actions and process, not token-level reasoning.** [1:55:12] Basis agents can run for eight hours or longer with five-plus subagent layers. Its open behavior-spec approach uses a rubric and a judge agent to determine whether a triggering condition occurred and whether the required step was performed, creating a trajectory-level signal that can feed harness or model improvements.
+
+<!-- episode:47314c121cc36c401899 -->
+## 2026-08-25 - [Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]](https://colossus.com/episode/from-transistor-to-token/)
+
+- **Movva forecasts background inference will reach roughly half of workloads by year-end and eventually 90%, shifting optimization from interactive latency toward throughput economics.** [08:39.480] He argues background token consumption is not bounded by human attention, then projects a 50/50 background-versus-real-time mix by year-end and 90/10 later; these are his projections, not measured adoption data.

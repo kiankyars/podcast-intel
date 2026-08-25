@@ -1,0 +1,33 @@
+# Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028
+
+- Podcast: Dwarkesh Podcast
+- Published: 2026-08-25
+- Source: https://www.dwarkesh.com/p/dylan-patel-3
+- Relevance: 5/5
+
+SemiAnalysis founder Dylan Patel argues that OpenAI and Anthropic are becoming the highest-value marginal bidders for AI compute because their revenue per megawatt has risen faster than infrastructure costs, pushing compute prices upward. He projects that signed capacity and newer hardware could leave the two labs controlling most usable AI FLOPs by late 2028, and separately predicts they will direct a rising share of compute from external inference toward internal R&D. He identifies supply-chain latency, regulation, and credit-market crowding as the main brakes; his China and global-capex estimates are consequential but explicitly model-based and become increasingly speculative at longer horizons.
+
+**Why it matters:** The episode links model economics to semiconductor pricing, lab concentration, and macro capital allocation with unusually concrete estimates. If Patel's framework is directionally right, the key investment variable is not merely how much compute is built, but which organizations can monetize each megawatt best and therefore outbid others, redirect capacity into model R&D, and absorb a larger share of the semiconductor and credit supply.
+
+## Signals
+
+- **Dylan Patel projects that OpenAI and Anthropic will take 40-50% of next year's incremental compute and could control most of the world's usable AI FLOPs by the end of 2028.** [00:00:00] _semiconductors_compute; forecast; medium confidence._ He says the labs already account for about 30% of compute added this year, signed commitments lift their share next year, and new systems deliver roughly 3-5 times the performance per watt of prior generations, making their share of usable FLOPs larger than their share of watts.
+- **Patel says frontier-lab inference economics have flipped from negative gross margin to enough surplus to finance materially more model training.** [00:00:00] _companies_capital_allocation; observation; medium confidence._ He puts base compute cost near $10-15 million per megawatt, says Anthropic has reached as much as $50 million of revenue per megawatt, and reports that Anthropic became profitable in Q2 while OpenAI could follow in Q3.
+- **Patel argues that semiconductor-tool capacity will remain a hard near-term constraint even when downstream AI economics justify much faster expansion.** [00:07:01] _semiconductors_compute; forecast; medium confidence._ He says Carl Zeiss has only recently moved toward planning enough mirrors for about 100 EUV tools annually by 2030, and that expanding every tier of the tool supply chain takes years despite large prospective returns.
+- **Patel forecasts that labs would need to pay roughly $25-50 million per megawatt to absorb 70% or more of incremental compute in 2028, shifting more surplus toward owners of already-financed capacity.** [00:13:08] _infrastructure_energy; forecast; medium confidence._ He contrasts ordinary compute transacting near $10-15 million per megawatt with the premium available to balance-sheet-backed builders such as SpaceX and Meta, which can wait to lease completed capacity to the highest-value user.
+- **Patel expects OpenAI and Anthropic to allocate a rising share of compute to training and internal R&D rather than revenue-generating inference, contrary to the common inference-dominance view.** [00:29:43] _frontier_labs_models; forecast; medium confidence._ He reasons that lab boards will reinvest inference surplus toward AGI and points to Anthropic's growing compute fleet alongside plateauing revenue additions as evidence that its marginal megawatts are already tilting toward R&D.
+- **Patel estimates China receives less than 10% of new AI-compute watts today and may have no more than 30 gigawatts by 2028, but he expects domestic semiconductor output to drive a sharp catch-up thereafter.** [00:33:27] _policy_geopolitics_security; forecast; low confidence._ He forecasts 5-10 gigawatts of domestically produced additions in 2028 and says 50 gigawatts in 2029 is plausible, while estimating that inferior domestic chips could make those 50 gigawatts equivalent to only about 20 gigawatts of US systems.
+- **SemiAnalysis's current model implies that AI infrastructure buildout through 2029 will require credit issuance on a scale large enough to crowd out non-AI borrowers.** [00:48:48] _companies_capital_allocation; forecast; low confidence._ Patel gives a 2024-2029 estimate of more than $11 trillion in capital expenditure, split approximately into $6 trillion funded by cash and more than $5 trillion funded by debt, because desired capacity grows faster than lab and hyperscaler cash flow.
+
+## Changed Views Or Tensions
+
+- Compute concentration should be assessed in usable FLOPs rather than gigawatts because successive hardware generations materially amplify the share controlled by buyers of new capacity.
+- Inference may not dominate frontier-lab compute if the internal return on model R&D remains higher than the revenue available from selling tokens externally.
+- The limiting resource for AI buildout may broaden from chips and power to credit, with large AI borrowers potentially repricing capital for unrelated companies and sovereigns.
+
+## Follow-Ups
+
+- Reconcile the claimed 40-50% share of next year's incremental compute with disclosed contracts, separating owned capacity from cloud capacity attributed to a model provider.
+- Test the $50 million revenue-per-megawatt estimate against lab revenue disclosures, utilization, revenue sharing, and inference-versus-training allocation.
+- Stress-test the $11 trillion capex and $5 trillion credit forecasts under slower deployment, tighter data-center regulation, and lower model monetization.
+- Track Chinese domestic accelerator, HBM, and leading-edge wafer output to determine whether the projected 2028-2029 compute inflection is materializing.

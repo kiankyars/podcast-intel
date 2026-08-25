@@ -167,3 +167,15 @@ GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and 
 ## 2026-08-22 - [AI in the AM — Weekly Highlights: Relaunch Week (Aug 17–20, 2026)](https://www.cognitiverevolution.ai/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026/)
 
 - **Lemurian Labs CEO Jay Dawani argues that AI systems are now primarily memory-, network-, communication-, and power-bound, making scheduling software a faster source of effective compute than hand-tuned kernels or new hardware.** [2:07:12; 2:08:18; 2:11:37] Dawani estimates that full hardware-workload coverage would require about 106 billion kernels while only roughly 2,000 engineers can write high-performance kernels and 90% sit in one vendor ecosystem. He claims software can raise utilization three- to tenfold while turbines and power delay new silicon capacity.
+
+<!-- episode:47314c121cc36c401899 -->
+## 2026-08-25 - [Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]](https://colossus.com/episode/from-transistor-to-token/)
+
+- **Movva argues long-horizon inference can trade away NVLink's latency advantage and exploit non-NVIDIA chips with better FLOPs per operating dollar.** [23:08.900] He says eight-way sharding can consume eight times the hardware for only about four to five times the speed, while expert or pipeline parallelism and communication hiding can make less-connected accelerators useful for throughput.
+- **Movva identifies KV-cache memory as a major inference inefficiency and is exploring model and chip designs that offload it from HBM to flash at 1 to 10 tokens per second.** [01:09:19.360] He estimates current KV-cache storage at multiple kilobytes per token and perhaps 10 to 100 times larger than necessary, then describes aggressive flash offload as a divergent SAIL design direction; neither magnitude is benchmarked in the interview.
+
+<!-- episode:a9d533f584aa39a0fa8b -->
+## 2026-08-25 - [Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028](https://www.dwarkesh.com/p/dylan-patel-3)
+
+- **Dylan Patel projects that OpenAI and Anthropic will take 40-50% of next year's incremental compute and could control most of the world's usable AI FLOPs by the end of 2028.** [00:00:00] He says the labs already account for about 30% of compute added this year, signed commitments lift their share next year, and new systems deliver roughly 3-5 times the performance per watt of prior generations, making their share of usable FLOPs larger than their share of watts.
+- **Patel argues that semiconductor-tool capacity will remain a hard near-term constraint even when downstream AI economics justify much faster expansion.** [00:07:01] He says Carl Zeiss has only recently moved toward planning enough mirrors for about 100 EUV tools annually by 2030, and that expanding every tier of the tool supply chain takes years despite large prospective returns.

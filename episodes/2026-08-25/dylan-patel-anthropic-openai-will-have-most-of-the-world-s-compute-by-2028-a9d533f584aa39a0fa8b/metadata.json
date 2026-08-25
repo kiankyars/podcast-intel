@@ -1,0 +1,62 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/212689635/cf7a1608fcec427861f1b832ba9f1e8a.mp3",
+  "description_html": "<p>Had a lot of fun chatting again with my twin brother Dylan Patel.</p><p>We went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).</p><p>And then we discuss whether the >$10T of total AI capex we\u2019ll see by the end of the decade will cause a sovereign debt crisis, where hyperscaler debt raises interest rates, drives non-AI exposed countries into bankruptcy, and crashes non-AI equities.</p><p>One question we weren\u2019t able to resolve is whether there\u2019s anything that can counter all the forces barrelling towards centralization in this industry - the economies of scale in training, the scarcity of compute, and eventually continual learning and RSI.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/aV26V1UvkJw\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/dylan-patel-3\">transcript</a>.</p><p>Sponsors</p><p>* <a target=\"_blank\" href=\"https://x.ai/bot\">Grok Bot</a> has been quite helpful with my search for a new editor. I created a recruiter bot and described the type of editor I was looking for. That bot then spun up a handful of subagents that combed through my emails and X DMs, read the end credits of various documentaries I like, and figured out who edits for some of my favorite YouTubers. It took all of those results, and then delivered me a shortlist of candidates that matched my criteria. Try Grok Bot for yourself at<a target=\"_blank\" href=\"https://x.ai/bot\"> </a><a target=\"_blank\" href=\"http://x.ai/bot\">x.ai/bot</a></p><p>* <a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">Antithesis</a> lets you add time travel to your software testing toolkit. Since the Antithesis platform is fully deterministic, everything that happens inside of it is perfectly reproducible. So if your software crashes, you can rewind to the exact right moment, freeze time, and investigate. Or you can test different hypotheses by perturbing the system: kill a node or disable a feature, see what happens, then reset the trajectory and try something else. Learn more at<a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\"> </a><a target=\"_blank\" href=\"http://antithesis.com/dwarkesh\">antithesis.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a> is hiring for two separate ML internships right now, one focused primarily on research and one focused on engineering. In both cases, interns are expected to contribute to real work, not contrived exercises: one common project is adapting a frontier LLM paper to financial markets, which tend to come with a ton of different gnarly challenges. Importantly, you don\u2019t need any finance background to apply. 2027 applications are open now at<a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\"> janestreet.com/dwarkesh</a></p><p>Timestamps</p><p>(00:00:00) \u2013 Two labs will soon control most of the world\u2019s compute</p><p>(00:07:01) \u2013 $6 billion in fab capex enables $1t+ of end revenue</p><p>(00:13:08) \u2013 Compute prices will rise if the labs outbid everyone</p><p>(00:18:22) \u2013 Which layer will capture most of the surplus?</p><p>(00:25:40) \u2013 What could slow down progress?</p><p>(00:29:43) \u2013 Labs are shifting compute from inference to R&D</p><p>(00:33:27) \u2013 China gets less than 10% of new compute, but its labs need less</p><p>(00:48:48) \u2013 Will AI cause a sovereign debt crisis?</p><p>(01:07:52) \u2013 Will the world\u2019s future workforce belong to a few companies?</p> <br/><br/>Get full access to Dwarkesh Podcast at <a href=\"https://www.dwarkesh.com/subscribe?utm_medium=podcast&#38;utm_campaign=CTA_4\">www.dwarkesh.com/subscribe</a>",
+  "description_text": "Had a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the >$10T of total AI capex we\u2019ll see by the end of the decade will cause a sovereign debt crisis, where hyperscaler debt raises interest rates, drives non-AI exposed countries into bankruptcy, and crashes non-AI equities.\n\nOne question we weren\u2019t able to resolve is whether there\u2019s anything that can counter all the forces barrelling towards centralization in this industry - the economies of scale in training, the scarcity of compute, and eventually continual learning and RSI.\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\n* Grok Bot has been quite helpful with my search for a new editor. I created a recruiter bot and described the type of editor I was looking for. That bot then spun up a handful of subagents that combed through my emails and X DMs, read the end credits of various documentaries I like, and figured out who edits for some of my favorite YouTubers. It took all of those results, and then delivered me a shortlist of candidates that matched my criteria. Try Grok Bot for yourself at x.ai/bot\n\n* Antithesis lets you add time travel to your software testing toolkit. Since the Antithesis platform is fully deterministic, everything that happens inside of it is perfectly reproducible. So if your software crashes, you can rewind to the exact right moment, freeze time, and investigate. Or you can test different hypotheses by perturbing the system: kill a node or disable a feature, see what happens, then reset the trajectory and try something else. Learn more at antithesis.com/dwarkesh\n\n* Jane Street is hiring for two separate ML internships right now, one focused primarily on research and one focused on engineering. In both cases, interns are expected to contribute to real work, not contrived exercises: one common project is adapting a frontier LLM paper to financial markets, which tend to come with a ton of different gnarly challenges. Importantly, you don\u2019t need any finance background to apply. 2027 applications are open now at janestreet.com/dwarkesh\n\nTimestamps\n\n(00:00:00) \u2013 Two labs will soon control most of the world\u2019s compute\n\n(00:07:01) \u2013 $6 billion in fab capex enables $1t+ of end revenue\n\n(00:13:08) \u2013 Compute prices will rise if the labs outbid everyone\n\n(00:18:22) \u2013 Which layer will capture most of the surplus?\n\n(00:25:40) \u2013 What could slow down progress?\n\n(00:29:43) \u2013 Labs are shifting compute from inference to R&D\n\n(00:33:27) \u2013 China gets less than 10% of new compute, but its labs need less\n\n(00:48:48) \u2013 Will AI cause a sovereign debt crisis?\n\n(01:07:52) \u2013 Will the world\u2019s future workforce belong to a few companies?\n\nGet full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+  "duration_seconds": 4613,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "a9d533f584aa39a0fa8b",
+  "link": "https://www.dwarkesh.com/p/dylan-patel-3",
+  "published": "2026-08-25T15:32:57+00:00",
+  "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/dylan-patel-3",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/aV26V1UvkJw"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/dylan-patel-3"
+    },
+    {
+      "text": "Grok Bot",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "x.ai/bot",
+      "url": "http://x.ai/bot"
+    },
+    {
+      "text": "Antithesis",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "antithesis.com/dwarkesh",
+      "url": "http://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "www.dwarkesh.com/subscribe",
+      "url": "https://www.dwarkesh.com/subscribe?utm_medium=podcast&utm_campaign=CTA_4"
+    }
+  ]
+}
