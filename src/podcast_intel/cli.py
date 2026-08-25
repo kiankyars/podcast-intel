@@ -64,13 +64,12 @@ def _candidate_episodes(
     skipped = 0
     for episode in episodes:
         status = state.status(episode.id)
-        if status == "processed":
+        if status in {"processed", "transcript_error"}:
             continue
         retryable = status in {
             "retry",
             "transcript_ready",
             "analysis_error",
-            "transcript_error",
         }
         if episode.published < since and not retryable:
             continue
