@@ -350,3 +350,13 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 ## 2026-08-25 - [Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]](https://colossus.com/episode/from-transistor-to-token/)
 
 - **Movva forecasts background inference will reach roughly half of workloads by year-end and eventually 90%, shifting optimization from interactive latency toward throughput economics.** [08:39.480] He argues background token consumption is not bounded by human attention, then projects a 50/50 background-versus-real-time mix by year-end and 90/10 later; these are his projections, not measured adoption data.
+
+<!-- episode:df0a3284607954090268 -->
+## 2026-08-26 - [🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing](https://www.latent.space/p/anima)
+
+- **Anandkumar says TorchLean can express PyTorch-like neural networks inside Lean and attach formal robustness and finite-precision bounds, but that large-model verification is not yet scalable because the current Lean backend is CPU-based and moving it to GPUs remains difficult.** [00:06:41.648] She describes a Lean-native network framework with CROWN-style certified robustness and perturbation-sensitivity bounds, then says transformer-scale efficiency still requires substantial work.
+
+<!-- episode:e2c7b3697003264882d4 -->
+## 2026-08-26 - [RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo](https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/)
+
+- **Schoen says long-horizon agent reasoning has already created an oversight-scale mismatch that direct human chain-of-thought review cannot handle.** [07:21-14:03] He reports roughly 100-million-token reasoning traces for individual UK AISI Mythos evaluation attempts and says some Apollo evaluation samples reach about 80 million tokens and run for roughly a day and a half, forcing reliance on nested model summaries.

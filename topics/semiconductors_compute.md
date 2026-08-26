@@ -179,3 +179,8 @@ GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and 
 
 - **Dylan Patel projects that OpenAI and Anthropic will take 40-50% of next year's incremental compute and could control most of the world's usable AI FLOPs by the end of 2028.** [00:00:00] He says the labs already account for about 30% of compute added this year, signed commitments lift their share next year, and new systems deliver roughly 3-5 times the performance per watt of prior generations, making their share of usable FLOPs larger than their share of watts.
 - **Patel argues that semiconductor-tool capacity will remain a hard near-term constraint even when downstream AI economics justify much faster expansion.** [00:07:01] He says Carl Zeiss has only recently moved toward planning enough mirrors for about 100 EUV tools annually by 2030, and that expanding every tier of the tool supply chain takes years despite large prospective returns.
+
+<!-- episode:df0a3284607954090268 -->
+## 2026-08-26 - [🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing](https://www.latent.space/p/anima)
+
+- **Anandkumar says her collaborators use physics simulators inside an AI inverse-design loop for lithography masks, quantum-dot gates, and nonlinear photonics, turning fast forward models into optimized designs rather than mere predictions.** [01:16:03.304] She describes optimizing inverse-lithography masks and gate or photonic structures against an embedded simulator, but does not provide fabrication results or comparative design metrics in the interview.

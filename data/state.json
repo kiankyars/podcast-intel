@@ -124,7 +124,7 @@
     },
     "107f8c41ed8ae830f60b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-25T16:42:41.708122+00:00"
+      "updated_at": "2026-08-26T16:00:42.457486+00:00"
     },
     "10e21a6cc7fada9b845d": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-16/openai-s-compute-chief-we-can-t-build-fast-enough-sachin-katti-10e21a6cc7fada9b845d/analysis.json",
@@ -691,7 +691,7 @@
     },
     "42bcc72d1366bfa001da": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-25T16:42:41.707649+00:00"
+      "updated_at": "2026-08-26T16:00:42.457027+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -1091,7 +1091,7 @@
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-25T16:42:41.706402+00:00"
+      "updated_at": "2026-08-26T16:00:42.455179+00:00"
     },
     "73944182fcc47ce6f950": {
       "status": "metadata_skipped",
@@ -1454,7 +1454,7 @@
     },
     "9149edaae23f4f1584ef": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-25T16:42:41.707134+00:00"
+      "updated_at": "2026-08-26T16:00:42.456512+00:00"
     },
     "91720efd7d609c680ef9": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-09/siri-ai-fable-5-launch-rivian-ceo-joins-rj-scaringe-chris-miller-evan-beard-nick-fleisher--91720efd7d609c680ef9/analysis.json",
@@ -2029,6 +2029,23 @@
       "status": "transcript_error",
       "updated_at": "2026-08-24T16:01:46.284387+00:00"
     },
+    "df0a3284607954090268": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/we-have-foundation-models-for-language-not-for-physics-anima-anandkumar-bren-professor-of--df0a3284607954090268/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/anima",
+      "published": "2026-08-26T15:15:00+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/we-have-foundation-models-for-language-not-for-physics-anima-anandkumar-bren-professor-of--df0a3284607954090268/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/we-have-foundation-models-for-language-not-for-physics-anima-anandkumar-bren-professor-of--df0a3284607954090268/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/we-have-foundation-models-for-language-not-for-physics-anima-anandkumar-bren-professor-of--df0a3284607954090268/summary.md",
+      "title": "\ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/we-have-foundation-models-for-language-not-for-physics-anima-anandkumar-bren-professor-of--df0a3284607954090268/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.latent.space/p/anima",
+      "updated_at": "2026-08-26T16:07:09.432247+00:00"
+    },
     "e10ab830d3701f02aa5d": {
       "status": "metadata_skipped",
       "updated_at": "2026-07-21T16:01:33.097570+00:00"
@@ -2066,6 +2083,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://www.complexsystemspodcast.com/episodes/the-economics-of-putting-germicidal-light-in-every-room/?ref=cognitiverevolution.ai",
       "updated_at": "2026-08-16T16:15:52.978689+00:00"
+    },
+    "e2c7b3697003264882d4": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apo-e2c7b3697003264882d4/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/",
+      "published": "2026-08-26T11:02:32+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apo-e2c7b3697003264882d4/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apo-e2c7b3697003264882d4/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apo-e2c7b3697003264882d4/summary.md",
+      "title": "RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning \u2013 Bronson Schoen, Apollo",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-26/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apo-e2c7b3697003264882d4/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/",
+      "updated_at": "2026-08-26T16:07:09.434545+00:00"
     },
     "e2dda797086f3cad6e06": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-06-07/father-of-the-ipod-and-iphone-on-building-taste-judgment-and-creativity-in-the-ai-era-tony-e2dda797086f3cad6e06/analysis.json",

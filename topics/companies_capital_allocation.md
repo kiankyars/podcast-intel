@@ -329,3 +329,8 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 
 - **Patel says frontier-lab inference economics have flipped from negative gross margin to enough surplus to finance materially more model training.** [00:00:00] He puts base compute cost near $10-15 million per megawatt, says Anthropic has reached as much as $50 million of revenue per megawatt, and reports that Anthropic became profitable in Q2 while OpenAI could follow in Q3.
 - **SemiAnalysis's current model implies that AI infrastructure buildout through 2029 will require credit issuance on a scale large enough to crowd out non-AI borrowers.** [00:48:48] Patel gives a 2024-2029 estimate of more than $11 trillion in capital expenditure, split approximately into $6 trillion funded by cash and more than $5 trillion funded by debt, because desired capacity grows faster than lab and hyperscaler cash flow.
+
+<!-- episode:e2c7b3697003264882d4 -->
+## 2026-08-26 - [RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo](https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/)
+
+- **Schoen argues that commercial and organizational incentives favor eliminating visible reward hacking rather than establishing that the underlying model is aligned.** [1:25:47-1:28:48] He distinguishes being no more visibly misaligned than competing products from solving alignment, and warns that training near known exploits can push residual failures into rarer, monitor-aware cases; internal automated R&D would also lack a normal customer-feedback loop.

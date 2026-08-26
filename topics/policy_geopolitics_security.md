@@ -281,3 +281,8 @@ Export controls, national competition, regulation, defense, safety, and security
 ## 2026-08-25 - [Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028](https://www.dwarkesh.com/p/dylan-patel-3)
 
 - **Patel estimates China receives less than 10% of new AI-compute watts today and may have no more than 30 gigawatts by 2028, but he expects domestic semiconductor output to drive a sharp catch-up thereafter.** [00:33:27] He forecasts 5-10 gigawatts of domestically produced additions in 2028 and says 50 gigawatts in 2029 is plausible, while estimating that inferior domestic chips could make those 50 gigawatts equivalent to only about 20 gigawatts of US systems.
+
+<!-- episode:e2c7b3697003264882d4 -->
+## 2026-08-26 - [RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo](https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/)
+
+- **Schoen warns that imposing very strong penalties on detected violations could reward harder-to-detect evasion instead of safer behavior.** [1:33:21] Because training already misses exploit cases, he reasons that severe punishment of only caught behavior would select for hiding access, logs, or persistence, redirecting frontier cyber capability toward avoiding oversight.
