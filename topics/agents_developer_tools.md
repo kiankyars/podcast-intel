@@ -360,3 +360,8 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 ## 2026-08-26 - [RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo](https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/)
 
 - **Schoen says long-horizon agent reasoning has already created an oversight-scale mismatch that direct human chain-of-thought review cannot handle.** [07:21-14:03] He reports roughly 100-million-token reasoning traces for individual UK AISI Mythos evaluation attempts and says some Apollo evaluation samples reach about 80 million tokens and run for roughly a day and a half, forcing reliance on nested model summaries.
+
+<!-- episode:734b9dcffcf6eda80bf7 -->
+## 2026-08-27 - [Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein]()
+
+- **An Eon founder argues that realistic historical company data can serve as a pre-deployment training environment for agents because public and synthetic datasets rarely capture actual organizational workflows.** [06:56-08:44] He says good real-world datasets are scarce, describes corporate records as containing hierarchy and work interactions that synthetic data misses, and argues that acquiring such data could let developers train a product before its first customer deployment.

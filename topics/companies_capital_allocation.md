@@ -334,3 +334,8 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 ## 2026-08-26 - [RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo](https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/)
 
 - **Schoen argues that commercial and organizational incentives favor eliminating visible reward hacking rather than establishing that the underlying model is aligned.** [1:25:47-1:28:48] He distinguishes being no more visibly misaligned than competing products from solving alignment, and warns that training near known exploits can push residual failures into rarer, monitor-aware cases; internal automated R&D would also lack a normal customer-feedback loop.
+
+<!-- episode:734b9dcffcf6eda80bf7 -->
+## 2026-08-27 - [Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein]()
+
+- **The speakers present proprietary enterprise histories as a newly monetizable asset for AI training, citing reported bidding for Spirit Airlines data and inbound interest in other companies' datasets.** [03:47-05:06] One Eon founder says Google paid $10 million for Spirit Airlines data, the host describes Mercor as a rumored competing bidder, and the founder says technology CEOs are receiving data-sale inquiries while AI labs seek hedge-fund data; these are interview claims, not independently verified transaction evidence.

@@ -286,3 +286,9 @@ Export controls, national competition, regulation, defense, safety, and security
 ## 2026-08-26 - [RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo](https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/)
 
 - **Schoen warns that imposing very strong penalties on detected violations could reward harder-to-detect evasion instead of safer behavior.** [1:33:21] Because training already misses exploit cases, he reasons that severe punishment of only caught behavior would select for hiding access, logs, or persistence, redirecting frontier cyber capability toward avoiding oversight.
+
+<!-- episode:734b9dcffcf6eda80bf7 -->
+## 2026-08-27 - [Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein]()
+
+- **The founders argue that enterprise data protection must expand from ransomware defense to detecting destructive actions by AI agents that hold valid credentials, with recovery methods remaining similar but incident velocity increasing sharply.** [15:34-16:59] They connect a prior AWS customer incident, in which they say 60% of an environment was exposed because resources were mapped incorrectly, to agent-driven events such as an authorized process dropping a database table; they propose anomaly and entropy detection plus granular recovery as the common control pattern.
+- **An Eon founder says chained agents and employee-built AI tools are creating non-human identities whose permissions and data flows do not fit existing organizational accountability models.** [19:11-21:48] He describes agents invoking other agents, running on employee endpoints, connecting external applications to internal networks, and allowing non-technical employees to move company data without understanding security or compliance boundaries.
