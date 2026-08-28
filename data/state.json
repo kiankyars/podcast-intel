@@ -160,6 +160,23 @@
       "transcript_source_url": "https://www.dwarkesh.com/p/ada-palmer-2",
       "updated_at": "2026-06-17T15:04:04.651171+00:00"
     },
+    "115b7f5863eb20713e3a": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-27/ai-could-take-over-in-2029-is-it-already-too-late-ryan-greenblatt-115b7f5863eb20713e3a/analysis.json",
+      "error": "",
+      "feed_id": "mad-podcast",
+      "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/AI-Could-Take-Over-in-2029--Is-It-Already-Too-Late---Ryan-Greenblatt-e3nvfab",
+      "published": "2026-08-27T14:22:21+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-27/ai-could-take-over-in-2029-is-it-already-too-late-ryan-greenblatt-115b7f5863eb20713e3a/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-27/ai-could-take-over-in-2029-is-it-already-too-late-ryan-greenblatt-115b7f5863eb20713e3a/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-27/ai-could-take-over-in-2029-is-it-already-too-late-ryan-greenblatt-115b7f5863eb20713e3a/summary.md",
+      "title": "AI Could Take Over in 2029. Is It Already Too Late? | Ryan Greenblatt",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-27/ai-could-take-over-in-2029-is-it-already-too-late-ryan-greenblatt-115b7f5863eb20713e3a/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=SK9ITBK5osA",
+      "updated_at": "2026-08-28T16:08:24.997878+00:00"
+    },
     "1697f085e7cf5416df66": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-11/the-bioai-phase-shift-matthew-mcpartlon-neil-patil-chai-discovery-1697f085e7cf5416df66/analysis.json",
       "error": "",
@@ -1085,13 +1102,30 @@
       "transcript_source_url": "https://www.latent.space/p/inference-eng",
       "updated_at": "2026-08-11T16:08:37.884637+00:00"
     },
+    "6c9acda833e3c57e8620": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-28/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded-6c9acda833e3c57e8620/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded/",
+      "published": "2026-08-28T11:30:42+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-28/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded-6c9acda833e3c57e8620/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-28/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded-6c9acda833e3c57e8620/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-28/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded-6c9acda833e3c57e8620/summary.md",
+      "title": "AI:AM Highlights: Recursive Self-Improvement, Rushed and Vibe-Coded?",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-28/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded-6c9acda833e3c57e8620/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded/",
+      "updated_at": "2026-08-28T16:08:25.002103+00:00"
+    },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.105473+00:00"
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
-      "updated_at": "2026-08-27T16:01:38.181879+00:00"
+      "updated_at": "2026-08-28T16:01:03.457333+00:00"
     },
     "734b9dcffcf6eda80bf7": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-27/rethinking-legacy-data-infrastructure-with-eon-co-founders-ofir-ehrlich-and-gonen-stein-734b9dcffcf6eda80bf7/analysis.json",

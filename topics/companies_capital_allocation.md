@@ -339,3 +339,8 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 ## 2026-08-27 - [Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein]()
 
 - **The speakers present proprietary enterprise histories as a newly monetizable asset for AI training, citing reported bidding for Spirit Airlines data and inbound interest in other companies' datasets.** [03:47-05:06] One Eon founder says Google paid $10 million for Spirit Airlines data, the host describes Mercor as a rumored competing bidder, and the founder says technology CEOs are receiving data-sale inquiries while AI labs seek hedge-fund data; these are interview claims, not independently verified transaction evidence.
+
+<!-- episode:115b7f5863eb20713e3a -->
+## 2026-08-27 - [AI Could Take Over in 2029. Is It Already Too Late? | Ryan Greenblatt](https://podcasters.spotify.com/pod/show/firstmark/episodes/AI-Could-Take-Over-in-2029--Is-It-Already-Too-Late---Ryan-Greenblatt-e3nvfab)
+
+- **Greenblatt expects AI 2040's total-research-transparency regime to reduce OpenAI's and Anthropic's valuations by eroding proprietary frontier capability as a moat, without destroying their businesses.** [43:15-45:32] He says labs would instead compete on user experience, customization, integration speed, reliability, safety, and security, and would lose some ability to control downstream access and pricing. This is his scenario analysis, not an observed market outcome.

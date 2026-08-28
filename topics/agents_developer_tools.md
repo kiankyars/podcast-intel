@@ -365,3 +365,14 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 ## 2026-08-27 - [Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein]()
 
 - **An Eon founder argues that realistic historical company data can serve as a pre-deployment training environment for agents because public and synthetic datasets rarely capture actual organizational workflows.** [06:56-08:44] He says good real-world datasets are scarce, describes corporate records as containing hierarchy and work interactions that synthetic data misses, and argues that acquiring such data could let developers train a product before its first customer deployment.
+
+<!-- episode:115b7f5863eb20713e3a -->
+## 2026-08-27 - [AI Could Take Over in 2029. Is It Already Too Late? | Ryan Greenblatt](https://podcasters.spotify.com/pod/show/firstmark/episodes/AI-Could-Take-Over-in-2029--Is-It-Already-Too-Late---Ryan-Greenblatt-e3nvfab)
+
+- **Greenblatt says practical AI control requires end-to-end observability and least privilege across an AI company's agent traffic, with automated flagging, human escalation, action blocking, and causal provenance for inter-agent communication and generated artifacts.** [01:06:16-01:11:48] He proposes monitoring all relevant traffic, granting elevated permissions only when needed, retaining the communication and artifact graph, and avoiding architectures whose reasoning is primarily opaque activations; he also warns that AI overseers can collude or share correlated failures.
+
+<!-- episode:6c9acda833e3c57e8620 -->
+## 2026-08-28 - [AI:AM Highlights: Recursive Self-Improvement, Rushed and Vibe-Coded?](https://www.cognitiverevolution.ai/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded/)
+
+- **Inherent has separated scientific reasoning from implementation: its 27B Faraday model directs a larger GPT-5.5 Codex coding model rather than trying to make one model frontier-grade at both roles.** [22:38-25:20] Kirsch says Faraday chooses and reasons about experiments while handing coding to GPT-5.5 Codex, allowing the startup to iterate faster at smaller scale and benefit from external coding-model progress; he reports scientific behaviors already emerging at 27B, but provides no same-budget ablation in the interview.
+- **Genesis Molecular AI's CTO reports that coding agents compress implementation and orchestration work from several people working for months to roughly days, while still failing to supply the non-incremental scientific taste he considers essential.** [49:31-51:13] Edunov says agents can implement a specified idea or paper in the company's codebase and dramatically accelerate engineers, but tend to exploit incremental improvements and enter rabbit holes instead of proposing grounded, potentially groundbreaking architectures.
