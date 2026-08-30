@@ -3,16 +3,12 @@ layout: default
 title: Podcast Intelligence
 ---
 
-# Podcast Intelligence
-
 {% assign published_digests = site.pages | where: "digest", true | sort: "date" | reverse %}
-{% for digest in published_digests %}
-## [{{ digest.date | date: "%Y-%m-%d" }}]({{ digest.url | relative_url }})
+{% assign latest_digest = published_digests | first %}
+{{ latest_digest.content }}
 
-<ul>
-{% for episode_title in digest.episode_titles %}
-  <li>{{ episode_title | escape }}</li>
-{% endfor %}
-</ul>
+## Previous digests
 
+{% for digest in published_digests offset:1 %}
+- [{{ digest.date | date: "%Y-%m-%d" }}]({{ digest.url | relative_url }})
 {% endfor %}

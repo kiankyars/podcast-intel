@@ -180,8 +180,8 @@ priority = 7
             digest = Path(result.digest_path).read_text()
             self.assertIn("digest: true", digest)
             self.assertIn("permalink: /", digest)
-            self.assertIn("episode_titles:", digest)
             self.assertIn("## TL;DR", digest)
+            self.assertNotIn("# Podcast Intelligence -", digest)
             self.assertNotIn("local summary", digest)
             self.assertFalse((root / "digests" / "latest.md").exists())
             topic = root / "topics" / "semiconductors_compute.md"

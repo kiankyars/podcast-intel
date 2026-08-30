@@ -6,9 +6,9 @@ to matter, and maintain both a daily log and cumulative topic files.
 
 Read the published digests at
 [kiankyars.github.io/podcast-intel](https://kiankyars.github.io/podcast-intel/).
-The root page lists every retained day in reverse chronological order. Each
-dated page starts with a three-finding TL;DR, followed by additional findings
-and episode summaries.
+The root page shows the newest digest, with earlier dates linked below it. Each
+digest starts with a three-finding TL;DR, followed by additional findings and
+episode summaries.
 
 ## Design
 

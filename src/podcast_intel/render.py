@@ -194,14 +194,9 @@ def write_daily_digest(
         "digest: true",
         f"date: {run_date_text}",
         f"permalink: /{run_date_text}/",
-        "episode_titles:",
-        *(
-            f"  - {json.dumps(episode.title, ensure_ascii=False)}"
-            for episode, _ in sorted_relevant
-        ),
         "---",
         "",
-        f"# Podcast Intelligence - {run_date_text}",
+        f"# {run_date_text}",
         "",
         (
             f"Processed {processed_count} episode(s); retained {len(relevant)}; "
