@@ -4,6 +4,12 @@ A local daily podcast intelligence pipeline modeled on Gavin Baker's described
 workflow: scan more material than a person can watch, retain only points likely
 to matter, and maintain both a daily log and cumulative topic files.
 
+Read the published digests at
+[kiankyars.github.io/podcast-intel](https://kiankyars.github.io/podcast-intel/).
+The root page lists every retained day in reverse chronological order. Each
+dated page starts with a three-finding TL;DR, followed by additional findings
+and episode summaries.
+
 ## Design
 
 The system deliberately has a small number of moving parts:

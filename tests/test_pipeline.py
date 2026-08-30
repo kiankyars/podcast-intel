@@ -5,7 +5,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from podcast_intel.cli import finalize_pipeline, prepare_pipeline
+from podcast_intel.cli import (
+    _resolve_state_path,
+    _state_path,
+    finalize_pipeline,
+    prepare_pipeline,
+)
 from podcast_intel.feeds import metadata_matches, parse_feed
 from podcast_intel.models import FeedConfig, Transcript
 from podcast_intel.transcripts import extract_transcript_section, normalize_transcript
@@ -81,6 +86,17 @@ The second point.
 
 
 class PipelineTests(unittest.TestCase):
+    def test_state_paths_resolve_relative_and_legacy_absolute_values(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            relative = Path("episodes/2030-06-04/fixture/transcript.txt")
+            absolute = root / relative
+
+            self.assertEqual(_state_path(root, absolute), relative.as_posix())
+            self.assertEqual(_state_path(root, relative), relative.as_posix())
+            self.assertEqual(_resolve_state_path(root, relative), absolute)
+            self.assertEqual(_resolve_state_path(root, absolute), absolute)
+
     def test_offline_pipeline_writes_digest_topics_and_state(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
@@ -126,6 +142,16 @@ priority = 7
                 transcript_acquirer=fake_transcript,
             )
             self.assertEqual(prepared.selected, 1)
+            prepared_state = json.loads((root / "data" / "state.json").read_text())
+            prepared_record = next(iter(prepared_state["episodes"].values()))
+            for field in (
+                "analysis_path",
+                "raw_transcript",
+                "request_path",
+                "transcript_path",
+            ):
+                self.assertFalse(Path(prepared_record[field]).is_absolute())
+                self.assertEqual(Path(prepared_record[field]).parts[0], "episodes")
             pending = json.loads((root / "data" / "pending_analysis.json").read_text())
             analysis = {
                 "relevance_score": 4,
@@ -151,11 +177,27 @@ priority = 7
             result = finalize_pipeline(root=root)
             self.assertEqual(result.relevant, 1)
             self.assertTrue(Path(result.digest_path).exists())
+            digest = Path(result.digest_path).read_text()
+            self.assertIn("digest: true", digest)
+            self.assertIn("permalink: /", digest)
+            self.assertIn("episode_titles:", digest)
+            self.assertIn("## TL;DR", digest)
+            self.assertNotIn("local summary", digest)
+            self.assertFalse((root / "digests" / "latest.md").exists())
             topic = root / "topics" / "semiconductors_compute.md"
             self.assertIn("The serving architecture changed", topic.read_text())
             state = json.loads((root / "data" / "state.json").read_text())
             record = next(iter(state["episodes"].values()))
             self.assertEqual(record["status"], "processed")
+            for field in (
+                "analysis_path",
+                "raw_transcript",
+                "request_path",
+                "summary_path",
+                "transcript_path",
+            ):
+                self.assertFalse(Path(record[field]).is_absolute())
+                self.assertEqual(Path(record[field]).parts[0], "episodes")
 
 
 if __name__ == "__main__":

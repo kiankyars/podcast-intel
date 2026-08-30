@@ -98,12 +98,29 @@ def _candidate_episodes(
     return selected, skipped
 
 
-def _cached_transcript(state: State, episode: Episode) -> Transcript | None:
+def _state_path(root: Path, path: str | Path) -> str:
+    candidate = Path(path)
+    try:
+        return candidate.relative_to(root).as_posix()
+    except ValueError:
+        return str(candidate)
+
+
+def _resolve_state_path(root: Path, value: object) -> Path:
+    path = Path(str(value or ""))
+    return path if path.is_absolute() else root / path
+
+
+def _cached_transcript(
+    root: Path,
+    state: State,
+    episode: Episode,
+) -> Transcript | None:
     record = state.get(episode.id)
     raw_path = record.get("raw_transcript")
     if not raw_path:
         return None
-    path = Path(raw_path)
+    path = _resolve_state_path(root, raw_path)
     if not path.exists():
         return None
     return Transcript(
@@ -150,7 +167,7 @@ def prepare_pipeline(
 
     for episode in selected:
         print(f"PROCESS {episode.feed_name}: {episode.title}", flush=True)
-        transcript = _cached_transcript(state, episode)
+        transcript = _cached_transcript(root, state, episode)
         if not transcript:
             try:
                 transcript = transcript_acquirer(
@@ -180,12 +197,12 @@ def prepare_pipeline(
         state.update(
             episode.id,
             status="transcript_ready",
-            raw_transcript=paths["raw_transcript"],
-            transcript_path=paths["transcript"],
+            raw_transcript=_state_path(root, paths["raw_transcript"]),
+            transcript_path=_state_path(root, paths["transcript"]),
             transcript_source=transcript.source,
             transcript_source_url=transcript.source_url,
-            request_path=str(request_path),
-            analysis_path=str(analysis_path),
+            request_path=_state_path(root, request_path),
+            analysis_path=_state_path(root, analysis_path),
             feed_id=episode.feed_id,
             title=episode.title,
             published=episode.published.isoformat(),
@@ -237,9 +254,9 @@ def finalize_pipeline(*, root: Path = ROOT) -> RunResult:
     for episode_id, record in list(state.payload["episodes"].items()):
         if record.get("status") not in {"transcript_ready", "analysis_error"}:
             continue
-        analysis_path = Path(str(record.get("analysis_path", "")))
-        raw_path = Path(str(record.get("raw_transcript", "")))
-        transcript_path = Path(str(record.get("transcript_path", "")))
+        analysis_path = _resolve_state_path(root, record.get("analysis_path"))
+        raw_path = _resolve_state_path(root, record.get("raw_transcript"))
+        transcript_path = _resolve_state_path(root, record.get("transcript_path"))
         metadata_path = transcript_path.parent / "metadata.json"
         if not analysis_path.exists():
             continue
@@ -264,8 +281,8 @@ def finalize_pipeline(*, root: Path = ROOT) -> RunResult:
                 episode_id,
                 status="processed",
                 relevance_score=score,
-                analysis_path=paths["analysis"],
-                summary_path=paths["summary"],
+                analysis_path=_state_path(root, paths["analysis"]),
+                summary_path=_state_path(root, paths["summary"]),
                 error="",
             )
         except Exception as error:

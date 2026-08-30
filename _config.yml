@@ -1,0 +1,27 @@
+title: Podcast Intelligence
+description: Daily podcast intelligence digests
+url: https://kiankyars.github.io
+baseurl: /podcast-intel
+timezone: America/Los_Angeles
+markdown: kramdown
+
+exclude:
+  - .agents
+  - .venv
+  - AGENTS.md
+  - README.md
+  - config.toml
+  - data
+  - episodes
+  - logs
+  - manifests
+  - notes
+  - profile.md
+  - pyproject.toml
+  - schemas
+  - scripts
+  - src
+  - tests
+  - topics
+  - transcripts
+  - uv.lock

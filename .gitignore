@@ -6,7 +6,6 @@ __pycache__/
 data/state.json
 data/pending_analysis.json
 data/cache/
-data/tmp/
 episodes/*
 !episodes/.gitkeep
 digests/*

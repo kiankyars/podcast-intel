@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import os
 import re
 from datetime import date
 from pathlib import Path
@@ -170,10 +169,39 @@ def write_daily_digest(
     failed_feeds: list[str],
     failed_episodes: list[str],
 ) -> Path:
-    path = root / "digests" / f"{run_date.isoformat()}.md"
+    run_date_text = run_date.isoformat()
+    path = root / "digests" / f"{run_date_text}.md"
     path.parent.mkdir(parents=True, exist_ok=True)
+    sorted_relevant = sorted(
+        relevant,
+        key=lambda item: (
+            int(item[1]["relevance_score"]),
+            item[0].feed_priority,
+            item[0].published,
+        ),
+        reverse=True,
+    )
     lines = [
-        f"# Podcast Intelligence - {run_date.isoformat()}",
+        "---",
+        "layout: default",
+        (
+            "title: "
+            + json.dumps(
+                f"Podcast Intelligence - {run_date_text}",
+                ensure_ascii=False,
+            )
+        ),
+        "digest: true",
+        f"date: {run_date_text}",
+        f"permalink: /{run_date_text}/",
+        "episode_titles:",
+        *(
+            f"  - {json.dumps(episode.title, ensure_ascii=False)}"
+            for episode, _ in sorted_relevant
+        ),
+        "---",
+        "",
+        f"# Podcast Intelligence - {run_date_text}",
         "",
         (
             f"Processed {processed_count} episode(s); retained {len(relevant)}; "
@@ -187,8 +215,8 @@ def write_daily_digest(
             all_signals.append((int(analysis["relevance_score"]), episode, signal))
     all_signals.sort(key=lambda item: (item[0], item[1].feed_priority), reverse=True)
 
-    lines.extend(("## Highest-Signal Findings", ""))
-    for _, episode, signal in all_signals[:10]:
+    lines.extend(("## TL;DR", ""))
+    for _, episode, signal in all_signals[:3]:
         time = signal_time(signal.get("timestamp"))
         lines.append(
             f"- **{signal['claim']}**{time} "
@@ -197,27 +225,22 @@ def write_daily_digest(
     if not all_signals:
         lines.append("- No retained signals.")
 
+    if len(all_signals) > 3:
+        lines.extend(("", "## More findings", ""))
+        for _, episode, signal in all_signals[3:10]:
+            time = signal_time(signal.get("timestamp"))
+            lines.append(
+                f"- **{signal['claim']}**{time} "
+                f"([{episode.feed_name}]({episode.link})). {signal['evidence']}"
+            )
+
     lines.extend(("", "## Episodes", ""))
-    for episode, analysis in sorted(
-        relevant,
-        key=lambda item: (
-            int(item[1]["relevance_score"]),
-            item[0].feed_priority,
-            item[0].published,
-        ),
-        reverse=True,
-    ):
-        directory = episode_directory(root, episode)
-        relative_summary = os.path.relpath(directory / "summary.md", path.parent)
+    for episode, analysis in sorted_relevant:
         lines.extend(
             (
                 f"### [{episode.title}]({episode.link})",
                 "",
-                (
-                    f"**{episode.feed_name} | relevance "
-                    f"{analysis['relevance_score']}/5 | "
-                    f"[local summary]({relative_summary})**"
-                ),
+                f"**{episode.feed_name} | relevance {analysis['relevance_score']}/5**",
                 "",
                 analysis["summary"],
                 "",
@@ -232,8 +255,4 @@ def write_daily_digest(
         lines.append("")
 
     path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-    (root / "digests" / "latest.md").write_text(
-        path.read_text(encoding="utf-8"),
-        encoding="utf-8",
-    )
     return path

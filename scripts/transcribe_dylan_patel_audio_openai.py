@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import hashlib
 import json
 import os
 import subprocess
@@ -10,7 +11,6 @@ try:
     from fetch_dylan_patel_transcripts import VIDEOS, write_outputs
 except ModuleNotFoundError:
     from scripts.fetch_dylan_patel_transcripts import VIDEOS, write_outputs
-from openai import OpenAI
 
 
 TERMS_PROMPT = (
@@ -73,6 +73,33 @@ def ensure_chunks(audio_path, chunk_dir, segment_time):
         ]
     )
     return sorted(chunk_dir.glob("chunk_*.mp3"))
+
+
+def default_chunk_dir(base, audio_path, video_id, segment_time, model, prompt):
+    audio_hash = hashlib.sha256()
+    with audio_path.open("rb") as audio:
+        while chunk := audio.read(1024 * 1024):
+            audio_hash.update(chunk)
+
+    inputs = {
+        "audio_sha256": audio_hash.hexdigest(),
+        "model": model,
+        "prompt": prompt,
+        "prompt_mode": "terms" if prompt is not None else "none",
+        "segment_time": segment_time,
+    }
+    fingerprint = hashlib.sha256(
+        json.dumps(inputs, sort_keys=True, separators=(",", ":")).encode()
+    ).hexdigest()
+    return base / "data" / "cache" / "dylan-audio" / video_id / fingerprint
+
+
+def resolve_chunk_dir(
+    chunk_dir, base, audio_path, video_id, segment_time, model, prompt
+):
+    if chunk_dir is not None:
+        return chunk_dir
+    return default_chunk_dir(base, audio_path, video_id, segment_time, model, prompt)
 
 
 def as_dict(response):
@@ -158,7 +185,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--audio", required=True, type=Path)
     parser.add_argument("--video-id", required=True)
-    parser.add_argument("--chunk-dir", type=Path, default=Path("/tmp/dylan-audio-chunks"))
+    parser.add_argument("--chunk-dir", type=Path)
     parser.add_argument("--segment-time", type=int, default=600)
     parser.add_argument("--model", default="whisper-1")
     parser.add_argument("--no-prompt", action="store_true")
@@ -167,17 +194,28 @@ def main():
     if not os.environ.get("OPENAI_API_KEY"):
         raise SystemExit("OPENAI_API_KEY is not set")
 
+    from openai import OpenAI
+
     base = Path(__file__).resolve().parents[1]
     video = find_video(args.video_id)
-    chunks = ensure_chunks(args.audio, args.chunk_dir, args.segment_time)
-    client = OpenAI()
     prompt = None if args.no_prompt else TERMS_PROMPT
+    chunk_dir = resolve_chunk_dir(
+        args.chunk_dir,
+        base,
+        args.audio,
+        args.video_id,
+        args.segment_time,
+        args.model,
+        prompt,
+    )
+    chunks = ensure_chunks(args.audio, chunk_dir, args.segment_time)
+    client = OpenAI()
 
     transcript = []
     offset = 0.0
     for index, chunk in enumerate(chunks):
         chunk_duration = duration_seconds(chunk)
-        cache_path = args.chunk_dir / f"{chunk.stem}.transcript.json"
+        cache_path = chunk_dir / f"{chunk.stem}.transcript.json"
         payload = transcribe_chunk(client, chunk, args.model, cache_path, prompt)
         transcript.extend(normalize_segments(payload, offset, chunk_duration))
         print(f"ok chunk {index + 1}/{len(chunks)} {chunk.name}")
