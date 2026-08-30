@@ -2186,6 +2186,23 @@
       "transcript_source_url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
       "updated_at": "2026-07-12T12:38:23.924588+00:00"
     },
+    "e5208331bea80e877e47": {
+      "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
+      "error": "",
+      "feed_id": "lennys-podcast",
+      "link": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
+      "published": "2026-08-30T12:31:30+00:00",
+      "raw_transcript": "/Users/kian/Developer/podcast-intel/episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis_request.md",
+      "status": "processed",
+      "summary_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/summary.md",
+      "title": "AI\u2019s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI\u2019s product lead)",
+      "transcript_path": "/Users/kian/Developer/podcast-intel/episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
+      "updated_at": "2026-08-30T16:07:39.614194+00:00"
+    },
     "e64148a744e2b5227ca9": {
       "analysis_path": "/Users/kian/Developer/podcast-intel/episodes/2026-07-20/tyler-cowen-doesn-t-think-america-should-ban-chinese-ai-models-e64148a744e2b5227ca9/analysis.json",
       "error": "",
