@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
+from datetime import date
 from pathlib import Path
 
 from podcast_intel.cli import (
@@ -13,6 +14,7 @@ from podcast_intel.cli import (
 )
 from podcast_intel.feeds import metadata_matches, parse_feed
 from podcast_intel.models import FeedConfig, Transcript
+from podcast_intel.render import write_daily_digest
 from podcast_intel.transcripts import extract_transcript_section, normalize_transcript
 
 
@@ -86,6 +88,19 @@ The second point.
 
 
 class PipelineTests(unittest.TestCase):
+    def test_failure_only_digest_has_typed_empty_episode_titles(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            digest_path = write_daily_digest(
+                Path(temporary),
+                date(2030, 6, 4),
+                [],
+                failed_feeds=["Fixture Show: unavailable"],
+                failed_episodes=[],
+            )
+            digest = digest_path.read_text()
+            self.assertIn("episode_titles: []", digest)
+            self.assertNotIn("Processed ", digest)
+
     def test_state_paths_resolve_relative_and_legacy_absolute_values(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
@@ -180,9 +195,13 @@ priority = 7
             digest = Path(result.digest_path).read_text()
             self.assertIn("digest: true", digest)
             self.assertIn("permalink: /", digest)
+            self.assertIn('episode_titles:\n  - "OpenAI systems and new inference chips"', digest)
             self.assertIn("## TL;DR", digest)
+            self.assertIn("Fixture Show · Relevance 4/5", digest)
             self.assertNotIn("# Podcast Intelligence -", digest)
             self.assertNotIn("local summary", digest)
+            self.assertNotIn("Processed ", digest)
+            self.assertNotIn("| relevance", digest)
             self.assertFalse((root / "digests" / "latest.md").exists())
             topic = root / "topics" / "semiconductors_compute.md"
             self.assertIn("The serving architecture changed", topic.read_text())

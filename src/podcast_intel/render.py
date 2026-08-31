@@ -164,8 +164,6 @@ def write_daily_digest(
     run_date: date,
     relevant: list[tuple[Episode, dict[str, Any]]],
     *,
-    processed_count: int,
-    skipped_count: int,
     failed_feeds: list[str],
     failed_episodes: list[str],
 ) -> Path:
@@ -181,6 +179,17 @@ def write_daily_digest(
         ),
         reverse=True,
     )
+    episode_title_lines = (
+        [
+            "episode_titles:",
+            *(
+                f"  - {json.dumps(episode.title, ensure_ascii=False)}"
+                for episode, _ in sorted_relevant
+            ),
+        ]
+        if sorted_relevant
+        else ["episode_titles: []"]
+    )
     lines = [
         "---",
         "layout: default",
@@ -194,14 +203,10 @@ def write_daily_digest(
         "digest: true",
         f"date: {run_date_text}",
         f"permalink: /{run_date_text}/",
+        *episode_title_lines,
         "---",
         "",
         f"# {run_date_text}",
-        "",
-        (
-            f"Processed {processed_count} episode(s); retained {len(relevant)}; "
-            f"filtered {skipped_count}."
-        ),
         "",
     ]
     all_signals: list[tuple[int, Episode, dict[str, Any]]] = []
@@ -235,7 +240,7 @@ def write_daily_digest(
             (
                 f"### [{episode.title}]({episode.link})",
                 "",
-                f"**{episode.feed_name} | relevance {analysis['relevance_score']}/5**",
+                f"{episode.feed_name} · Relevance {analysis['relevance_score']}/5",
                 "",
                 analysis["summary"],
                 "",

@@ -295,8 +295,6 @@ def finalize_pipeline(*, root: Path = ROOT) -> RunResult:
             root,
             datetime.now().astimezone().date(),
             relevant,
-            processed_count=result.processed,
-            skipped_count=result.skipped,
             failed_feeds=[],
             failed_episodes=result.failed_episodes,
         )
