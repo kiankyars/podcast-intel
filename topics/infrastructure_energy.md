@@ -140,3 +140,8 @@ Data centers, power, cooling, networking, capital expenditure, and physical cons
 ## 2026-08-25 - [Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028](https://www.dwarkesh.com/p/dylan-patel-3)
 
 - **Patel forecasts that labs would need to pay roughly $25-50 million per megawatt to absorb 70% or more of incremental compute in 2028, shifting more surplus toward owners of already-financed capacity.** [00:13:08] He contrasts ordinary compute transacting near $10-15 million per megawatt with the premium available to balance-sheet-backed builders such as SpaceX and Meta, which can wait to lease completed capacity to the highest-value user.
+
+<!-- episode:8c50b0067c5cc3e1ad5b -->
+## 2026-08-30 - [Ep. 027 - OpenAI Jalapeño: Better Than Nvidia Blackwell (Accelerators)](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--027---OpenAI-Jalapeo-Better-Than-Nvidia-Blackwell-Accelerators-e3o3oms)
+
+- **The hosts argue that Jalapeño weakens Nvidia's kernel-software moat but does not yet reproduce Nvidia's systems moat: OpenAI still has to move from engineering racks to a 100-megawatt fleet with manufacturing, deployment, monitoring, and reliability at scale.** [00:18:18-00:25:49] They distinguish faster AI-assisted bring-up from Nvidia's purchasing, support, logistics, and supply-chain ecosystem, and point to Broadcom and Celestica as partners with TPU-scale production experience. The 100-megawatt target is the next proof point, not demonstrated operating capacity.

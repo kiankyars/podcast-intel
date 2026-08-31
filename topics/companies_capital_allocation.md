@@ -349,3 +349,8 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 ## 2026-08-30 - [AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)](https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent)
 
 - **Seshan says OpenAI product teams build for the model capabilities expected two to three months ahead, considering both current-capability optimization and one-year-ahead bets equally mistimed.** [00:27:18.296-00:28:54.000] She describes a two-to-three-month planning window, says product constructs should get out of the model's way, and ties product development closely to research roadmaps for specific coding and writing improvements. This is her account of OpenAI's operating process, not an independently measured release cadence.
+
+<!-- episode:8c50b0067c5cc3e1ad5b -->
+## 2026-08-30 - [Ep. 027 - OpenAI Jalapeño: Better Than Nvidia Blackwell (Accelerators)](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--027---OpenAI-Jalapeo-Better-Than-Nvidia-Blackwell-Accelerators-e3o3oms)
+
+- **Under SemiAnalysis's owner-operated cost assumptions, the hosts estimate that Jalapeño wins or nearly matches performance per total cost by replacing Nvidia's supplier margin with Broadcom's lower margin.** [00:07:17-00:08:46] Their model assumes OpenAI buys the systems and operates its own data centers rather than paying current neocloud rental prices. The result is an analyst estimate, not disclosed OpenAI cost data, and the transcript's captioned competitor dollar figures are ambiguous.

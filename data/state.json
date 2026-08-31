@@ -1465,6 +1465,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-07-17T09:58:20.008378+00:00"
     },
+    "8c50b0067c5cc3e1ad5b": {
+      "analysis_path": "episodes/2026-08-30/ep-027-openai-jalape-o-better-than-nvidia-blackwell-accelerators-8c50b0067c5cc3e1ad5b/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--027---OpenAI-Jalapeo-Better-Than-Nvidia-Blackwell-Accelerators-e3o3oms",
+      "published": "2026-08-30T22:22:06+00:00",
+      "raw_transcript": "episodes/2026-08-30/ep-027-openai-jalape-o-better-than-nvidia-blackwell-accelerators-8c50b0067c5cc3e1ad5b/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-08-30/ep-027-openai-jalape-o-better-than-nvidia-blackwell-accelerators-8c50b0067c5cc3e1ad5b/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-08-30/ep-027-openai-jalape-o-better-than-nvidia-blackwell-accelerators-8c50b0067c5cc3e1ad5b/summary.md",
+      "title": "Ep. 027 - OpenAI Jalape\u00f1o: Better Than Nvidia Blackwell (Accelerators)",
+      "transcript_path": "episodes/2026-08-30/ep-027-openai-jalape-o-better-than-nvidia-blackwell-accelerators-8c50b0067c5cc3e1ad5b/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=hj_ffVldQZA&t=65s",
+      "updated_at": "2026-08-31T16:08:37.839197+00:00"
+    },
     "8d9fef4d070751773d4a": {
       "analysis_path": "episodes/2026-06-18/the-professor-of-outputmaxxing-anjney-midha-amp-8d9fef4d070751773d4a/analysis.json",
       "error": "",
