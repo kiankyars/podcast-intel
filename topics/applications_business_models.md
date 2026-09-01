@@ -416,3 +416,13 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 
 - **Seshan says OpenAI's product north star is to merge today's ChatGPT, Codex, Chat, and Work choices so the system automatically selects the appropriate model and agent harness from a user's task.** [00:29:50.640-00:30:31.980] She says the ideal interface has no mode toggle: a user states the task and the product chooses the right harness and model, sparing users from understanding capability limits or agent architecture. She gives no rollout date, so this remains a stated direction rather than a shipped behavior.
 - **Seshan presents Sites in Codex as a move from document generation toward prompt-built personal software that is hosted, shareable, stateful, and able to use internal data.** [00:48:55.862-00:51:26.980] She says a prompt can create a hosted Site with a database; Sites can be public, team-shared, or private, can auto-update, and can turn internal data into dashboards. She reports replacing many docs and sheets in her own workflow with Sites, but provides no external adoption, reliability, or retention data.
+
+<!-- episode:2352a884aaede56a4bc5 -->
+## 2026-09-01 - [Write, Change, Recall, Forget: MongoDB's Pete Johnson on How Retrieval Drives Agent Performance](https://www.cognitiverevolution.ai/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performance/)
+
+- **Johnson says most Fortune 500 AI work he sees is still employee-facing and human-in-the-loop rather than fully autonomous and customer-facing.** [1:12:57; 1:13:10] He attributes the pattern to existing employee KPIs that make ROI measurable and to the much larger security and reputational cost of leaking one customer's data to another.
+
+<!-- episode:d1dd51069537abbd8cde -->
+## 2026-09-01 - [Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]](https://colossus.com/episode/no-priors-just-conviction/)
+
+- **Guo says customer evidence from Chai Discovery changed her view that AI model companies can create and capture software-like value in biology without owning a drug pipeline.** [00:54:03-00:57:13] She says Chai is working materially with several top-ten pharmaceutical companies and points to a $10 million contract plus scientist adoption as evidence that customers value the product. She still identifies regulation, physical experimental speed, and safety as hard constraints, and says the industry's decisive proof will be a new indication or drug whose trajectory was clearly changed by AI.

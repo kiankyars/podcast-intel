@@ -1,0 +1,74 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/213682035/9231941671d781aaea5fd995c256ad24.mp3",
+  "description_html": "<p><a target=\"_blank\" href=\"https://x.com/ajeya_cotra\">Ajeya Cotra</a> is a researcher at METR, where she works on threat modeling for loss-of-control risks from advanced AI. Before that, she led the technical AI safety program at what is now Coefficient Giving.</p><p>She is one the three authors of METR and Redwood Research\u2019s \u201c<a target=\"_blank\" href=\"https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/\">Brief independent investigation of agents\u2019 behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident</a>\u201d.</p><p>We go through not only what she and her coauthors discovered during this investigation, but what it means for how we should train future, smarter AIs which might be involved in the process of recursive self-improvement.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/X50zezLFWWI\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/ajeya-cotra\">transcript</a>.</p><p>Sponsors</p><p>* <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a>\u2019s ML engineering internships start with an intense four-day bootcamp: PyTorch, autograd, writing kernels, profiling workloads\u2026 all the things that Jane Street engineers need to know for their daily work. After that, interns tackle real projects, things the firm actually wants in its codebase. If you want to apply, or if you want to watch my recent conversation with Axel, one of Jane Street\u2019s ML engineers, go to<a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\"> janestreet.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://cursor.com/dwarkesh\">Cursor</a>, which is now part of SpaceX, noticed that their MoE layers were eating more than half of total training time. So they wrote and open-sourced <a target=\"_blank\" href=\"https://cursor.com/blog/mixture-of-kittens\">Mixture-of-Kittens</a>, which is a custom megakernel for training MoE models on NVL72s. This kernel sped up an end-to-end run across 512 GPUs by 1.4x, from about 760 to over 1000 tokens per second per GPU. If you want to read more about the ML research that Cursor and SpaceX are doing, go to<a target=\"_blank\" href=\"https://cursor.com/dwarkesh\"> </a><a target=\"_blank\" href=\"http://cursor.com/dwarkesh\">cursor.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">Antithesis</a> hands you (or your agents) a bug\u2019s root cause so you can avoid days of manual debugging. If your test run crashes, Antithesis rewinds, branches off hundreds of slightly varied rollouts, and checks in how many of them the crash still appears. Then it rewinds further and does this all again. As Antithesis rewinds, it eventually finds the spot where the frequency of the crash plummets: that\u2019s where the root cause lives! If you want to see it in action, go to<a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\"> </a><a target=\"_blank\" href=\"http://antithesis.com/dwarkesh\">antithesis.com/dwarkesh</a></p><p>Timestamps</p><p>(00:00:00) - Agents get kicked off</p><p>(00:06:45) - Self-sacrificing behavior</p><p>(00:13:43) - Potemkin villages</p><p>(00:23:27) - The Hugging Face attack</p><p>(00:35:23) - The slopvestigation</p><p>(00:52:02) - Understanding the AI's motives</p><p>(01:05:31) - The actual dangers of anthropomorphizing</p><p>(01:14:30) - What smarter models might do</p><p>(01:30:29) - The implications for recursive self-improvement</p><p>(01:38:10) - Is this the case for open source?</p><p>(01:53:04) - How do we prevent this in the future?</p><p>(02:15:58) - The clearest warning shot we might ever get</p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.dwarkesh.com?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.dwarkesh.com</a>",
+  "description_text": "Ajeya Cotra is a researcher at METR, where she works on threat modeling for loss-of-control risks from advanced AI. Before that, she led the technical AI safety program at what is now Coefficient Giving.\n\nShe is one the three authors of METR and Redwood Research\u2019s \u201c Brief independent investigation of agents\u2019 behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident \u201d.\n\nWe go through not only what she and her coauthors discovered during this investigation, but what it means for how we should train future, smarter AIs which might be involved in the process of recursive self-improvement.\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\n* Jane Street \u2019s ML engineering internships start with an intense four-day bootcamp: PyTorch, autograd, writing kernels, profiling workloads\u2026 all the things that Jane Street engineers need to know for their daily work. After that, interns tackle real projects, things the firm actually wants in its codebase. If you want to apply, or if you want to watch my recent conversation with Axel, one of Jane Street\u2019s ML engineers, go to janestreet.com/dwarkesh\n\n* Cursor , which is now part of SpaceX, noticed that their MoE layers were eating more than half of total training time. So they wrote and open-sourced Mixture-of-Kittens , which is a custom megakernel for training MoE models on NVL72s. This kernel sped up an end-to-end run across 512 GPUs by 1.4x, from about 760 to over 1000 tokens per second per GPU. If you want to read more about the ML research that Cursor and SpaceX are doing, go to cursor.com/dwarkesh\n\n* Antithesis hands you (or your agents) a bug\u2019s root cause so you can avoid days of manual debugging. If your test run crashes, Antithesis rewinds, branches off hundreds of slightly varied rollouts, and checks in how many of them the crash still appears. Then it rewinds further and does this all again. As Antithesis rewinds, it eventually finds the spot where the frequency of the crash plummets: that\u2019s where the root cause lives! If you want to see it in action, go to antithesis.com/dwarkesh\n\nTimestamps\n\n(00:00:00) - Agents get kicked off\n\n(00:06:45) - Self-sacrificing behavior\n\n(00:13:43) - Potemkin villages\n\n(00:23:27) - The Hugging Face attack\n\n(00:35:23) - The slopvestigation\n\n(00:52:02) - Understanding the AI's motives\n\n(01:05:31) - The actual dangers of anthropomorphizing\n\n(01:14:30) - What smarter models might do\n\n(01:30:29) - The implications for recursive self-improvement\n\n(01:38:10) - Is this the case for open source?\n\n(01:53:04) - How do we prevent this in the future?\n\n(02:15:58) - The clearest warning shot we might ever get\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com",
+  "duration_seconds": 8433,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "0b1233dc196f2932058b",
+  "link": "https://www.dwarkesh.com/p/ajeya-cotra",
+  "published": "2026-09-01T15:41:06+00:00",
+  "title": "Ajeya Cotra \u2013 Inside the OpenAI agent swarm that hacked Hugging Face",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/ajeya-cotra",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "Ajeya Cotra",
+      "url": "https://x.com/ajeya_cotra"
+    },
+    {
+      "text": "Brief independent investigation of agents\u2019 behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/X50zezLFWWI"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/ajeya-cotra"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "Cursor",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "Mixture-of-Kittens",
+      "url": "https://cursor.com/blog/mixture-of-kittens"
+    },
+    {
+      "text": "",
+      "url": "https://cursor.com/dwarkesh"
+    },
+    {
+      "text": "cursor.com/dwarkesh",
+      "url": "http://cursor.com/dwarkesh"
+    },
+    {
+      "text": "Antithesis",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "antithesis.com/dwarkesh",
+      "url": "http://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}

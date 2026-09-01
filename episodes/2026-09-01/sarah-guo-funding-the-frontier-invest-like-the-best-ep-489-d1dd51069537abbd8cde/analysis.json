@@ -1,0 +1,83 @@
+{
+  "changed_views": [
+    "Frontier researchers' short recursive-self-improvement timelines appear more widespread than a year ago, but the prediction remains socially reported and chronically overconfident rather than measured.",
+    "The limiting AI-infrastructure clock may be 2030-to-2032 physical capacity rather than the next model cycle, with natural gas, construction, regulation, labor, and supply-chain redundancy all binding.",
+    "Household robotics now has a concrete near-term deployment claim from a technically credible team, but a portfolio investor's year-end beta forecast is not shipment evidence.",
+    "Consolidated accelerator demand and compute-independence spending may improve venture economics for semiconductor and industrial companies that were structurally unattractive in the prior software era.",
+    "AI biology may support valuable model and software platforms before an AI-originated drug reaches market, with a reported eight-figure customer contract serving as an early commercial signal."
+  ],
+  "entities": [
+    "Sarah Guo",
+    "Conviction",
+    "OpenAI",
+    "Anthropic",
+    "Google DeepMind",
+    "Andrej Karpathy",
+    "Sunday Robotics",
+    "Chai Discovery",
+    "Nvidia",
+    "TSMC",
+    "PACIA"
+  ],
+  "follow_ups": [
+    "Identify the hyperscaler and audit its pre-2030 capacity pipeline, including power, gas, interconnection, permitting, and construction assumptions.",
+    "Track Sunday Robotics' promised 2026 household beta, number of deployed units, task success rates, intervention frequency, hardware cost, and safety performance.",
+    "Verify Chai Discovery's reported $10 million contract, top-ten-pharma customer count, renewal structure, gross margins, and experimentally validated R&D acceleration.",
+    "Compare open-model backdoor and dangerous-capability evaluations across leading Chinese, US, and European releases before accepting either prohibition or safety claims.",
+    "Test whether current semiconductor and infrastructure startups have durable technology margins or are primarily project-finance and execution businesses exposed to concentrated buyers."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "frontier_labs_models",
+      "claim": "Guo says a belief that recursively self-improving AI research models could produce exponential intelligence within one to two years has become newly common among many frontier researchers during the last twelve months.",
+      "confidence": "low",
+      "evidence": "She presents this as a belief she is questioning, not her own forecast, and notes Andrej Karpathy's self-aware comment that he has expected a two-year horizon for roughly a decade. She also says larger lab headcounts and a perceived need for roughly $750 billion of compute are making individual researchers feel less able to change the outcome.",
+      "kind": "observation",
+      "timestamp": "00:12:17-00:14:15"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Guo says an infrastructure leader at an unnamed hyperscaler told her that nothing under development would add enough capacity to move the company's needle before 2030, while industry planning is already focused on 2032-scale compute.",
+      "confidence": "medium",
+      "evidence": "She identifies sufficient natural gas, data-center siting, nuclear construction, regulation, community acceptance, physical supply chains, and tacit labor knowledge as the binding constraints rather than a lack of technical ideas or private capital. The 2030 statement is second-hand and the hyperscaler is not identified.",
+      "kind": "observation",
+      "timestamp": "00:15:58-00:17:48"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Guo says Conviction portfolio company Sunday Robotics expects to place general semi-humanoid robots into household beta testing by the end of 2026 after less than two years of company development.",
+      "confidence": "low",
+      "evidence": "She says the team moved from a Stanford prototype to a manufactured full-stack system through hundreds of hardware, model, and data-collection iterations, with cheap real-world task data treated as a core technical problem. Guo explicitly cautions that nothing is proven until the product ships, and the timeline comes from a financially interested investor relaying the team's expectation.",
+      "kind": "forecast",
+      "timestamp": "00:21:58-00:23:45"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Guo argues that restricting open-model use inside the United States would primarily slow lawful American businesses rather than adversaries, because capable Chinese, US, and European open models are already broadly available.",
+      "confidence": "medium",
+      "evidence": "She says local models address workloads that hosted frontier APIs make too expensive, sensitive, or slow, but acknowledges offensive cyber and biology risks. Her proposed boundary is rigorous capability and backdoor evaluation of frontier open models rather than speculative claims or domestic usage restrictions.",
+      "kind": "opinion",
+      "timestamp": "00:40:09-00:44:06"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Guo says consolidated hyperscaler demand for accelerators and supply-chain redundancy has changed Conviction's view of semiconductor and other capital-intensive companies from historically poor venture businesses to potentially attractive asymmetric bets.",
+      "confidence": "medium",
+      "evidence": "She frames compute independence as redundancy across GPUs, energy, cooling, labor, fabs, and upstream components rather than full US autarky. Conviction has invested in data-center labor and robotics, nuclear energy, and alternative chip architectures, but has not yet backed an operational data-center or solar-and-battery builder because the durable technology asset is less clear.",
+      "kind": "inference",
+      "timestamp": "00:49:22-00:53:37"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Guo says customer evidence from Chai Discovery changed her view that AI model companies can create and capture software-like value in biology without owning a drug pipeline.",
+      "confidence": "medium",
+      "evidence": "She says Chai is working materially with several top-ten pharmaceutical companies and points to a $10 million contract plus scientist adoption as evidence that customers value the product. She still identifies regulation, physical experimental speed, and safety as hard constraints, and says the industry's decisive proof will be a new indication or drug whose trajectory was clearly changed by AI.",
+      "kind": "observation",
+      "timestamp": "00:54:03-00:57:13"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Conviction founder Sarah Guo gives a first-party investor view of where AI enthusiasm is colliding with physical and commercial constraints. She reports that a one-to-two-year recursive-self-improvement timeline has become newly common among frontier researchers, while warning that the same researchers increasingly see compute rather than individual effort as decisive. Her more concrete evidence is downstream: an unnamed hyperscaler infrastructure leader sees no supply addition large enough to matter before 2030; Sunday Robotics is targeting an in-home beta by year-end after less than two years of development; and Chai Discovery's work with major pharmaceutical companies, including a contract she describes as worth $10 million, changed her view that AI model companies can capture software-like value in biology. She also argues that open models are already too widespread to contain through US usage restrictions and should instead face rigorous capability and backdoor testing.",
+  "why_it_matters": "The episode connects frontier-model expectations to investable bottlenecks and emerging application evidence. Guo's account suggests that power, fuel, construction, supply-chain redundancy, and capital formation may constrain AI progress well beyond the software cycle, while consolidated accelerator demand is making semiconductor and industrial businesses more plausible venture investments. At the application layer, the Sunday Robotics and Chai examples are early but measurable tests of whether AI can escape software into homes and drug research. Her open-source position also frames model policy as an evaluation and resilience problem rather than a distribution-control problem. Each claim carries selection bias because Guo is discussing Conviction's portfolio and investment thesis, and the most ambitious timelines remain unverified."
+}

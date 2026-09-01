@@ -1,0 +1,26 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/213603862/1e27c584393e0d2044654bcd88d38e5c.mp3",
+  "description_html": "<p>This is a video recording of a post I wrote last week. You can read the original <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/openai-huggingface\">here</a>.</p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.dwarkesh.com?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.dwarkesh.com</a>",
+  "description_text": "This is a video recording of a post I wrote last week. You can read the original here .\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com",
+  "duration_seconds": 1480,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "c352c8e2629c45736144",
+  "link": "https://www.dwarkesh.com/p/openai-huggingface-narration",
+  "published": "2026-08-31T20:36:53+00:00",
+  "title": "The rise and fall of agent civilizations",
+  "transcript_source": "episode_page_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/openai-huggingface-narration",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "here",
+      "url": "https://www.dwarkesh.com/p/openai-huggingface"
+    },
+    {
+      "text": "www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}

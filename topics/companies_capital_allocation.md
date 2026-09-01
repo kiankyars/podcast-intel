@@ -354,3 +354,19 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 ## 2026-08-30 - [Ep. 027 - OpenAI Jalapeño: Better Than Nvidia Blackwell (Accelerators)](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--027---OpenAI-Jalapeo-Better-Than-Nvidia-Blackwell-Accelerators-e3o3oms)
 
 - **Under SemiAnalysis's owner-operated cost assumptions, the hosts estimate that Jalapeño wins or nearly matches performance per total cost by replacing Nvidia's supplier margin with Broadcom's lower margin.** [00:07:17-00:08:46] Their model assumes OpenAI buys the systems and operates its own data centers rather than paying current neocloud rental prices. The result is an analyst estimate, not disclosed OpenAI cost data, and the transcript's captioned competitor dollar figures are ambiguous.
+
+<!-- episode:2352a884aaede56a4bc5 -->
+## 2026-09-01 - [Write, Change, Recall, Forget: MongoDB's Pete Johnson on How Retrieval Drives Agent Performance](https://www.cognitiverevolution.ai/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performance/)
+
+- **Johnson says MongoDB ended fiscal 2026 with about $2.5 billion in revenue, serves roughly 75% of the Fortune 500, and still represents only about 3% of a $100 billion to $110 billion database market.** [12:24] He presents these figures while explaining that enterprises choose MongoDB workload by workload or go all-in depending on scale, latency, retrieval needs, legacy systems, and available talent.
+
+<!-- episode:3fe8ed5694552d2c5742 -->
+## 2026-08-31 - [WE'RE BACK, Meta Addiction, Tim Cook's Last Day | Jordan Schneider, Robert Mendelsohn & Eric Olszewski, Billy Thalheimer, Aaron Cannon, Stephen Balaban](https://share.transistor.fm/s/1b7b60f3)
+
+- **Jordan Schneider said Liang Wenfeng's profitable quant business lets him self-fund DeepSeek, tell investors that the objective is AGI rather than profit, and keep a small team pursuing independent research instead of optimizing around a product roadmap or a Chinese cloud provider.** [01:20:20; 01:20:45] Schneider based the characterization on Liang's reported and leaked remarks and contrasted the structure with Western frontier labs that need products and outside capital to finance compute. The episode did not provide DeepSeek financial statements, headcount, or the source remarks themselves.
+- **Regent CEO Billy Thalheimer said the company closed a $240 million Series B, has about $10 billion of commercial backlog backed by more than $10 million of nonrefundable deposits, and has roughly $20 million of defense orders, mostly from the U.S. Marine Corps.** [01:42:38; 01:43:11; 01:44:13] Thalheimer distinguished customer cash and firm orders from an uncommitted backlog, and said Regent has about 120 employees plus a 250,000-square-foot Rhode Island factory intended to build Viceroy and Squire Seagliders. The episode did not disclose backlog cancellation terms, delivery dates, valuation, burn, or manufacturing readiness.
+
+<!-- episode:d1dd51069537abbd8cde -->
+## 2026-09-01 - [Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]](https://colossus.com/episode/no-priors-just-conviction/)
+
+- **Guo says consolidated hyperscaler demand for accelerators and supply-chain redundancy has changed Conviction's view of semiconductor and other capital-intensive companies from historically poor venture businesses to potentially attractive asymmetric bets.** [00:49:22-00:53:37] She frames compute independence as redundancy across GPUs, energy, cooling, labor, fabs, and upstream components rather than full US autarky. Conviction has invested in data-center labor and robotics, nuclear energy, and alternative chip architectures, but has not yet backed an operational data-center or solar-and-battery builder because the durable technology asset is less clear.

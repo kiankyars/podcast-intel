@@ -97,6 +97,23 @@
       "transcript_source_url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
       "updated_at": "2026-08-16T16:15:52.956399+00:00"
     },
+    "0b1233dc196f2932058b": {
+      "analysis_path": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/ajeya-cotra",
+      "published": "2026-09-01T15:41:06+00:00",
+      "raw_transcript": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/summary.md",
+      "title": "Ajeya Cotra \u2013 Inside the OpenAI agent swarm that hacked Hugging Face",
+      "transcript_path": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://www.dwarkesh.com/p/ajeya-cotra",
+      "updated_at": "2026-09-01T16:13:56.492062+00:00"
+    },
     "0c08f7d3f44a3d0bc881": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-20T16:01:01.194739+00:00"
@@ -410,6 +427,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-22T15:00:45.146989+00:00"
     },
+    "2352a884aaede56a4bc5": {
+      "analysis_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performance/",
+      "published": "2026-09-01T09:26:39+00:00",
+      "raw_transcript": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/summary.md",
+      "title": "Write, Change, Recall, Forget: MongoDB's Pete Johnson on How Retrieval Drives Agent Performance",
+      "transcript_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performance/",
+      "updated_at": "2026-09-01T16:13:56.494982+00:00"
+    },
     "24b95606131009e94812": {
       "analysis_path": "episodes/2026-08-11/eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest-like-the-best-ep-48-24b95606131009e94812/analysis.json",
       "error": "",
@@ -671,6 +705,23 @@
       "error": "Invest Like the Best / Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
       "updated_at": "2026-08-24T16:01:51.604064+00:00"
+    },
+    "3fe8ed5694552d2c5742": {
+      "analysis_path": "episodes/2026-08-31/we-re-back-meta-addiction-tim-cook-s-last-day-jordan-schneider-robert-mendelsohn-eric-olsz-3fe8ed5694552d2c5742/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/1b7b60f3",
+      "published": "2026-08-31T20:53:48+00:00",
+      "raw_transcript": "episodes/2026-08-31/we-re-back-meta-addiction-tim-cook-s-last-day-jordan-schneider-robert-mendelsohn-eric-olsz-3fe8ed5694552d2c5742/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-08-31/we-re-back-meta-addiction-tim-cook-s-last-day-jordan-schneider-robert-mendelsohn-eric-olsz-3fe8ed5694552d2c5742/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-08-31/we-re-back-meta-addiction-tim-cook-s-last-day-jordan-schneider-robert-mendelsohn-eric-olsz-3fe8ed5694552d2c5742/summary.md",
+      "title": "WE'RE BACK, Meta Addiction, Tim Cook's Last Day | Jordan Schneider, Robert Mendelsohn & Eric Olszewski, Billy Thalheimer, Aaron Cannon, Stephen Balaban",
+      "transcript_path": "episodes/2026-08-31/we-re-back-meta-addiction-tim-cook-s-last-day-jordan-schneider-robert-mendelsohn-eric-olsz-3fe8ed5694552d2c5742/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/1b7b60f3/transcription.vtt",
+      "updated_at": "2026-09-01T16:13:56.497201+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -1562,6 +1613,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.104478+00:00"
     },
+    "959ed15a1fb0e88d91d9": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-01T16:00:59.297104+00:00"
+    },
     "97a3346678ba03fddb55": {
       "analysis_path": "episodes/2026-08-20/ep-026-pjm-s-12b-modeling-mistake-is-hitting-ratepayers-again-datacenter-energy-robert-bos-97a3346678ba03fddb55/analysis.json",
       "error": "",
@@ -1915,6 +1970,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/e066c7b5/transcription.txt",
       "updated_at": "2026-06-13T21:21:46.221714+00:00"
     },
+    "c352c8e2629c45736144": {
+      "analysis_path": "episodes/2026-08-31/the-rise-and-fall-of-agent-civilizations-c352c8e2629c45736144/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/openai-huggingface-narration",
+      "published": "2026-08-31T20:36:53+00:00",
+      "raw_transcript": "episodes/2026-08-31/the-rise-and-fall-of-agent-civilizations-c352c8e2629c45736144/transcript.txt",
+      "relevance_score": 2,
+      "request_path": "episodes/2026-08-31/the-rise-and-fall-of-agent-civilizations-c352c8e2629c45736144/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-08-31/the-rise-and-fall-of-agent-civilizations-c352c8e2629c45736144/summary.md",
+      "title": "The rise and fall of agent civilizations",
+      "transcript_path": "episodes/2026-08-31/the-rise-and-fall-of-agent-civilizations-c352c8e2629c45736144/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.dwarkesh.com/p/openai-huggingface-narration",
+      "updated_at": "2026-09-01T16:13:56.499745+00:00"
+    },
     "c652c75ffd98ddab73d6": {
       "analysis_path": "episodes/2026-07-29/ep-022-market-drawdown-historic-bubbles-funding-the-buildout-ai-politics-doug-is-back-c652c75ffd98ddab73d6/analysis.json",
       "error": "",
@@ -2066,6 +2138,23 @@
     "d128c93af3329aa47c6a": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.120828+00:00"
+    },
+    "d1dd51069537abbd8cde": {
+      "analysis_path": "episodes/2026-09-01/sarah-guo-funding-the-frontier-invest-like-the-best-ep-489-d1dd51069537abbd8cde/analysis.json",
+      "error": "",
+      "feed_id": "invest-like-the-best",
+      "link": "https://colossus.com/episode/no-priors-just-conviction/",
+      "published": "2026-09-01T08:00:00+00:00",
+      "raw_transcript": "episodes/2026-09-01/sarah-guo-funding-the-frontier-invest-like-the-best-ep-489-d1dd51069537abbd8cde/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-01/sarah-guo-funding-the-frontier-invest-like-the-best-ep-489-d1dd51069537abbd8cde/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-01/sarah-guo-funding-the-frontier-invest-like-the-best-ep-489-d1dd51069537abbd8cde/summary.md",
+      "title": "Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]",
+      "transcript_path": "episodes/2026-09-01/sarah-guo-funding-the-frontier-invest-like-the-best-ep-489-d1dd51069537abbd8cde/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=hY6S__xeCjg",
+      "updated_at": "2026-09-01T16:13:56.501923+00:00"
     },
     "d2fce60180d7428cf10d": {
       "status": "metadata_skipped",

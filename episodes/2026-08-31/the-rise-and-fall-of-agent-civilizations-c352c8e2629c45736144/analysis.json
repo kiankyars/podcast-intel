@@ -1,0 +1,16 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Dwarkesh Patel",
+    "Dwarkesh Podcast"
+  ],
+  "follow_ups": [
+    "Recover and transcribe the metadata-matched 1,480-second audio enclosure before retaining episode claims.",
+    "Alternatively, retrieve the linked original post and clearly label any later analysis as article-grounded rather than transcript-grounded."
+  ],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "The supplied transcript matches the episode's Substack wrapper but contains no substantive narration, speaker turns, or timestamps. No episode-level claims can be retained from this evidence.",
+  "summary": "The metadata identifies a Dwarkesh Patel narration about agent civilizations, but the supplied transcript is only a Substack episode-page shell with subscription links and a recent-episodes list. It does not contain the narrated post or any substantive episode claims.",
+  "why_it_matters": "The topic appears directly relevant to agent behavior and real-world deployments, but the current evidence cannot support technical, company, or investment conclusions without deriving them from the title or linked-post metadata."
+}
