@@ -426,3 +426,8 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 ## 2026-09-01 - [Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]](https://colossus.com/episode/no-priors-just-conviction/)
 
 - **Guo says customer evidence from Chai Discovery changed her view that AI model companies can create and capture software-like value in biology without owning a drug pipeline.** [00:54:03-00:57:13] She says Chai is working materially with several top-ten pharmaceutical companies and points to a $10 million contract plus scientist adoption as evidence that customers value the product. She still identifies regulation, physical experimental speed, and safety as hard constraints, and says the industry's decisive proof will be a new indication or drug whose trajectory was clearly changed by AI.
+
+<!-- episode:ca0c43fba0998653a85c -->
+## 2026-09-02 - [Ep. 028 - Most Neoclouds Suck At Security: How Agents Hacked Hugging Face (Neoclouds, Security) | Doug O'Laughlin, Sam Harshe, Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--028---Most-Neoclouds-Suck-At-Security-How-Agents-Hacked-Hugging-Face-Neoclouds--Security--Doug-OLaughlin--Sam-Harshe--Jordan-Nanos-e3o6n46)
+
+- **Harshe argues that model-powered cybersecurity could become durable frontier-lab revenue only while closed models maintain a significant capability lead over cheaper open-weight alternatives.** [24:32; 24:48] He says customers would not keep paying a lab such as Anthropic for cyber work that a low-cost open model could perform. This is a business-model forecast, not evidence of a launched service, customer willingness to pay, pricing, margins, or a measured closed-versus-open capability gap.

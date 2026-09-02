@@ -1343,6 +1343,10 @@
       "transcript_source_url": "https://www.latent.space/p/axiom",
       "updated_at": "2026-06-09T16:09:24.218390+00:00"
     },
+    "7c58aaef4685a3b31591": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-02T16:02:03.355482+00:00"
+    },
     "7ca5460b7d4b74f43cff": {
       "analysis_path": "episodes/2026-06-09/alex-sacerdote-how-to-invest-through-technology-cycles-invest-like-the-best-ep-477-7ca5460b7d4b74f43cff/analysis.json",
       "error": "",
@@ -1615,7 +1619,7 @@
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-01T16:00:59.297104+00:00"
+      "updated_at": "2026-09-02T16:02:03.357637+00:00"
     },
     "97a3346678ba03fddb55": {
       "analysis_path": "episodes/2026-08-20/ep-026-pjm-s-12b-modeling-mistake-is-hitting-ratepayers-again-datacenter-energy-robert-bos-97a3346678ba03fddb55/analysis.json",
@@ -2037,6 +2041,23 @@
       "transcript_source": "rss_embedded_transcript",
       "transcript_source_url": "https://www.latent.space/p/satya-2026",
       "updated_at": "2026-06-09T16:09:24.221142+00:00"
+    },
+    "ca0c43fba0998653a85c": {
+      "analysis_path": "episodes/2026-09-02/ep-028-most-neoclouds-suck-at-security-how-agents-hacked-hugging-face-neoclouds-security-d-ca0c43fba0998653a85c/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--028---Most-Neoclouds-Suck-At-Security-How-Agents-Hacked-Hugging-Face-Neoclouds--Security--Doug-OLaughlin--Sam-Harshe--Jordan-Nanos-e3o6n46",
+      "published": "2026-09-02T14:00:00+00:00",
+      "raw_transcript": "episodes/2026-09-02/ep-028-most-neoclouds-suck-at-security-how-agents-hacked-hugging-face-neoclouds-security-d-ca0c43fba0998653a85c/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-02/ep-028-most-neoclouds-suck-at-security-how-agents-hacked-hugging-face-neoclouds-security-d-ca0c43fba0998653a85c/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-02/ep-028-most-neoclouds-suck-at-security-how-agents-hacked-hugging-face-neoclouds-security-d-ca0c43fba0998653a85c/summary.md",
+      "title": "Ep. 028 - Most Neoclouds Suck At Security: How Agents Hacked Hugging Face (Neoclouds, Security) | Doug O'Laughlin, Sam Harshe, Jordan Nanos",
+      "transcript_path": "episodes/2026-09-02/ep-028-most-neoclouds-suck-at-security-how-agents-hacked-hugging-face-neoclouds-security-d-ca0c43fba0998653a85c/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=2uU5JFJ2T-o",
+      "updated_at": "2026-09-02T16:14:41.399582+00:00"
     },
     "cbdc147dbc5c8789a2ac": {
       "status": "metadata_skipped",

@@ -348,3 +348,8 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 ## 2026-09-01 - [Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]](https://colossus.com/episode/no-priors-just-conviction/)
 
 - **Guo says a belief that recursively self-improving AI research models could produce exponential intelligence within one to two years has become newly common among many frontier researchers during the last twelve months.** [00:12:17-00:14:15] She presents this as a belief she is questioning, not her own forecast, and notes Andrej Karpathy's self-aware comment that he has expected a two-year horizon for roughly a decade. She also says larger lab headcounts and a perceived need for roughly $750 billion of compute are making individual researchers feel less able to change the outcome.
+
+<!-- episode:ca0c43fba0998653a85c -->
+## 2026-09-02 - [Ep. 028 - Most Neoclouds Suck At Security: How Agents Hacked Hugging Face (Neoclouds, Security) | Doug O'Laughlin, Sam Harshe, Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--028---Most-Neoclouds-Suck-At-Security-How-Agents-Hacked-Hugging-Face-Neoclouds--Security--Doug-OLaughlin--Sam-Harshe--Jordan-Nanos-e3o6n46)
+
+- **ClusterMAX researchers report that authorized defensive testing repeatedly triggered cyber refusals from alpha-access frontier models, forcing the team to construct some customer-perspective exploits manually.** [16:42; 17:21; 18:00] He says refusals persisted even when the testers were approved for cybersecurity work. His conclusion that the behavior was trained into model weights rather than imposed by a classifier or filter is an inference, not a reported ablation; Hugging Face's separate refusal experience is relayed secondhand.

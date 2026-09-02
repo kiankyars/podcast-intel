@@ -1,0 +1,17 @@
+{
+  "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/125049414/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-1%2F430976291-44100-2-8b9d6ee12421e.mp3",
+  "description_html": "<p>This week Doug, Sam and Jordan discuss the OpenAI vs HuggingFace security incident and our recent article on Neocloud security ahead of ClusterMAX 3.0</p><p><br></p><p>Full article: https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security</p><p><br></p><p>0:00 Cold Open</p><p>0:57 Neocloud Security</p><p>4:38 The Hugging Face Hack</p><p>11:47 Agent Swarm Behavior</p><p>14:47 Obliterated Models</p><p>20:37 Security as a Service</p><p>24:30 What the Data Shows</p><p>33:08 Attacker Asymmetry</p><p>40:55 Nothing Ever Happens</p><p>45:22 CMAX Audit</p>",
+  "description_text": "This week Doug, Sam and Jordan discuss the OpenAI vs HuggingFace security incident and our recent article on Neocloud security ahead of ClusterMAX 3.0\n\nFull article: https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security\n\n0:00 Cold Open\n\n0:57 Neocloud Security\n\n4:38 The Hugging Face Hack\n\n11:47 Agent Swarm Behavior\n\n14:47 Obliterated Models\n\n20:37 Security as a Service\n\n24:30 What the Data Shows\n\n33:08 Attacker Asymmetry\n\n40:55 Nothing Ever Happens\n\n45:22 CMAX Audit",
+  "duration_seconds": 3055,
+  "feed_id": "semianalysis-weekly",
+  "feed_name": "SemiAnalysis Weekly",
+  "feed_priority": 10,
+  "id": "ca0c43fba0998653a85c",
+  "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--028---Most-Neoclouds-Suck-At-Security-How-Agents-Hacked-Hugging-Face-Neoclouds--Security--Doug-OLaughlin--Sam-Harshe--Jordan-Nanos-e3o6n46",
+  "published": "2026-09-02T14:00:00+00:00",
+  "title": "Ep. 028 - Most Neoclouds Suck At Security: How Agents Hacked Hugging Face (Neoclouds, Security) | Doug O'Laughlin, Sam Harshe, Jordan Nanos",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=2uU5JFJ2T-o",
+  "transcript_urls": [],
+  "web_links": []
+}
