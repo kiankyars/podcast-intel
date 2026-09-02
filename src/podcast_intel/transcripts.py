@@ -8,7 +8,7 @@ import tempfile
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
-from urllib.parse import unquote
+from urllib.parse import parse_qs, unquote, urlparse
 
 from .feeds import fetch_text, parse_html
 from .models import Episode, Transcript
@@ -168,10 +168,92 @@ def _youtube_urls(links: list[dict[str, str]]) -> list[str]:
         raw = unquote(link.get("url", "")).replace("&amp;", "&")
         if not raw:
             continue
-        if "youtube.com/watch" in raw or "youtube.com/shorts/" in raw or "youtu.be/" in raw:
-            if raw not in found:
-                found.append(raw)
+        parsed = urlparse(raw)
+        host = parsed.netloc.casefold().removeprefix("www.")
+        video_id = ""
+        if host in {"youtube.com", "m.youtube.com"}:
+            if parsed.path == "/watch":
+                video_id = (parse_qs(parsed.query).get("v") or [""])[0]
+            elif parsed.path.startswith("/shorts/"):
+                video_id = parsed.path.split("/", 3)[2]
+        elif host == "youtu.be":
+            video_id = parsed.path.strip("/").split("/", 1)[0]
+        if not re.fullmatch(r"[A-Za-z0-9_-]{6,}", video_id):
+            continue
+        canonical = f"https://www.youtube.com/watch?v={video_id}"
+        if canonical not in found:
+            found.append(canonical)
     return found
+
+
+def _normalized_match_text(value: str) -> str:
+    return " ".join(re.sub(r"[^\w]+", " ", value.casefold()).split())
+
+
+def _episode_number(value: str) -> int | None:
+    match = re.search(r"\bep(?:isode)?\.?\s*#?\s*0*(\d+)\b", value, re.I)
+    return int(match.group(1)) if match else None
+
+
+def _youtube_candidate_matches(episode: Episode, candidate: dict[str, Any]) -> bool:
+    title = str(candidate.get("title") or "")
+    expected_number = _episode_number(episode.title)
+    if expected_number is not None and _episode_number(title) != expected_number:
+        return False
+
+    title_score = SequenceMatcher(
+        None,
+        _normalized_match_text(episode.title),
+        _normalized_match_text(title),
+    ).ratio()
+    if title_score < 0.75:
+        return False
+
+    expected_channel = _normalized_match_text(episode.feed_name)
+    channel = _normalized_match_text(
+        str(candidate.get("channel") or candidate.get("uploader") or "")
+    )
+    if not expected_channel or not channel:
+        return False
+    channel_score = SequenceMatcher(None, expected_channel, channel).ratio()
+    if channel_score < 0.70:
+        return False
+
+    if episode.duration_seconds:
+        try:
+            duration = float(candidate.get("duration") or 0)
+        except (TypeError, ValueError):
+            return False
+        tolerance = max(120.0, episode.duration_seconds * 0.10)
+        if duration <= 0 or abs(duration - episode.duration_seconds) > tolerance:
+            return False
+    return True
+
+
+def _youtube_metadata(url: str) -> dict[str, Any] | None:
+    if not shutil.which("yt-dlp"):
+        return None
+    command = [
+        "yt-dlp",
+        "--no-playlist",
+        "--skip-download",
+        "--dump-single-json",
+        url,
+    ]
+    result = subprocess.run(
+        command,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        timeout=180,
+    )
+    if result.returncode:
+        return None
+    try:
+        payload = json.loads(result.stdout)
+    except json.JSONDecodeError:
+        return None
+    return payload if isinstance(payload, dict) else None
 
 
 def _youtube_captions(url: str) -> Transcript | None:
@@ -227,7 +309,8 @@ def _youtube_captions(url: str) -> Transcript | None:
 def _youtube_search_url(episode: Episode) -> str:
     if not shutil.which("yt-dlp"):
         return ""
-    query = f"ytsearch5:{episode.title} {episode.feed_name}"
+    search_title = episode.title.split(" | ", 1)[0]
+    query = f"ytsearch5:{search_title} {episode.feed_name}"
     command = [
         "yt-dlp",
         "--flat-playlist",
@@ -248,29 +331,30 @@ def _youtube_search_url(episode: Episode) -> str:
     except json.JSONDecodeError:
         return ""
 
-    expected_title = episode.title.casefold()
-    expected_channel = episode.feed_name.casefold()
     candidates: list[tuple[float, str]] = []
     for item in payload.get("entries") or []:
         if not isinstance(item, dict):
             continue
         video_id = item.get("id")
-        title = str(item.get("title") or "")
-        channel = str(item.get("channel") or item.get("uploader") or "")
-        if not video_id or not title:
+        if not video_id:
             continue
+        url = f"https://www.youtube.com/watch?v={video_id}"
+        metadata = _youtube_metadata(url)
+        if not metadata or str(metadata.get("id") or "") != str(video_id):
+            continue
+        if not _youtube_candidate_matches(episode, metadata):
+            continue
+        title = str(metadata.get("title") or "")
         title_score = SequenceMatcher(
-            None, expected_title, title.casefold()
+            None,
+            _normalized_match_text(episode.title),
+            _normalized_match_text(title),
         ).ratio()
-        channel_score = SequenceMatcher(
-            None, expected_channel, channel.casefold()
-        ).ratio()
-        score = title_score + (0.25 * channel_score)
-        candidates.append((score, f"https://www.youtube.com/watch?v={video_id}"))
+        candidates.append((title_score, url))
     if not candidates:
         return ""
-    score, url = max(candidates)
-    return url if score >= 0.85 else ""
+    _, url = max(candidates)
+    return url
 
 
 def acquire_transcript(
@@ -325,6 +409,9 @@ def acquire_transcript(
         )
 
     for youtube_url in _youtube_urls(all_links):
+        metadata = _youtube_metadata(youtube_url)
+        if not metadata or not _youtube_candidate_matches(episode, metadata):
+            continue
         transcript = _youtube_captions(youtube_url)
         if transcript:
             return transcript

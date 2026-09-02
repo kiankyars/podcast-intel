@@ -3,8 +3,9 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
+from unittest.mock import Mock, patch
 
 from podcast_intel.cli import (
     _resolve_state_path,
@@ -13,9 +14,16 @@ from podcast_intel.cli import (
     prepare_pipeline,
 )
 from podcast_intel.feeds import metadata_matches, parse_feed
-from podcast_intel.models import FeedConfig, Transcript
+from podcast_intel.models import Episode, FeedConfig, Transcript
 from podcast_intel.render import write_daily_digest
-from podcast_intel.transcripts import extract_transcript_section, normalize_transcript
+from podcast_intel.transcripts import (
+    TranscriptUnavailable,
+    _youtube_candidate_matches,
+    _youtube_search_url,
+    acquire_transcript,
+    extract_transcript_section,
+    normalize_transcript,
+)
 
 
 RSS = """<?xml version="1.0" encoding="UTF-8"?>
@@ -42,6 +50,26 @@ RSS = """<?xml version="1.0" encoding="UTF-8"?>
   </channel>
 </rss>
 """
+
+
+def semianalysis_episode() -> Episode:
+    return Episode(
+        id="ca0c43fba0998653a85c",
+        feed_id="semianalysis-weekly",
+        feed_name="SemiAnalysis Weekly",
+        feed_priority=10,
+        title=(
+            "Ep. 028 - Most Neoclouds Suck At Security: How Agents Hacked "
+            "Hugging Face (Neoclouds, Security) | Doug O'Laughlin, Sam Harshe, "
+            "Jordan Nanos"
+        ),
+        description_html="",
+        description_text="",
+        published=datetime(2026, 9, 2, 14, tzinfo=timezone.utc),
+        duration_seconds=3055,
+        link="https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/ep-028",
+        audio_url="https://example.com/ep-028.mp3",
+    )
 
 
 class FeedTests(unittest.TestCase):
@@ -85,6 +113,151 @@ The second point.
 
         source = "Episode notes\n\n(00:00) Intro\n\n(05:00) Technical discussion"
         self.assertFalse(has_transcript_heading(source))
+
+
+class YouTubeMatchTests(unittest.TestCase):
+    def matching_candidate(self) -> dict:
+        return {
+            "id": "2uU5JFJ2T-o",
+            "title": (
+                "Ep. 028 - Most Neoclouds Suck At Security: How Agents Hacked "
+                "Hugging Face (Neoclouds, Security)"
+            ),
+            "channel": "SemiAnalysis",
+            "duration": 3056,
+        }
+
+    def test_accepts_matching_episode_title_channel_and_duration(self) -> None:
+        self.assertTrue(
+            _youtube_candidate_matches(
+                semianalysis_episode(),
+                self.matching_candidate(),
+            )
+        )
+
+    def test_rejects_different_episode_number(self) -> None:
+        candidate = self.matching_candidate()
+        candidate["title"] = candidate["title"].replace("028", "027", 1)
+        self.assertFalse(_youtube_candidate_matches(semianalysis_episode(), candidate))
+
+    def test_rejects_low_title_similarity(self) -> None:
+        candidate = self.matching_candidate()
+        candidate["title"] = "Ep. 028 - A completely unrelated weekly market recap"
+        self.assertFalse(_youtube_candidate_matches(semianalysis_episode(), candidate))
+
+    def test_rejects_wrong_channel(self) -> None:
+        candidate = self.matching_candidate()
+        candidate["channel"] = "Unrelated Uploads"
+        self.assertFalse(_youtube_candidate_matches(semianalysis_episode(), candidate))
+
+    def test_rejects_wrong_duration(self) -> None:
+        candidate = self.matching_candidate()
+        candidate["duration"] = 3792
+        self.assertFalse(_youtube_candidate_matches(semianalysis_episode(), candidate))
+
+    def test_search_accepts_matching_video(self) -> None:
+        payload = {"entries": [self.matching_candidate()]}
+        result = Mock(returncode=0, stdout=json.dumps(payload), stderr="")
+        with (
+            patch("podcast_intel.transcripts.shutil.which", return_value="yt-dlp"),
+            patch("podcast_intel.transcripts.subprocess.run", return_value=result),
+            patch(
+                "podcast_intel.transcripts._youtube_metadata",
+                return_value=self.matching_candidate(),
+            ),
+        ):
+            self.assertEqual(
+                _youtube_search_url(semianalysis_episode()),
+                "https://www.youtube.com/watch?v=2uU5JFJ2T-o",
+            )
+
+    def test_search_hydrates_flat_result_without_duration(self) -> None:
+        flat_candidate = self.matching_candidate()
+        del flat_candidate["duration"]
+        payload = {"entries": [flat_candidate]}
+        result = Mock(returncode=0, stdout=json.dumps(payload), stderr="")
+        with (
+            patch("podcast_intel.transcripts.shutil.which", return_value="yt-dlp"),
+            patch(
+                "podcast_intel.transcripts.subprocess.run",
+                return_value=result,
+            ) as search,
+            patch(
+                "podcast_intel.transcripts._youtube_metadata",
+                return_value=self.matching_candidate(),
+            ) as metadata,
+        ):
+            self.assertEqual(
+                _youtube_search_url(semianalysis_episode()),
+                "https://www.youtube.com/watch?v=2uU5JFJ2T-o",
+            )
+
+        metadata.assert_called_once_with(
+            "https://www.youtube.com/watch?v=2uU5JFJ2T-o"
+        )
+        self.assertNotIn("Doug O'Laughlin", search.call_args.args[0][-1])
+
+    def test_search_returns_empty_when_current_video_is_not_indexed(self) -> None:
+        payload = {
+            "entries": [
+                {
+                    "id": "hj_ffVldQZA",
+                    "title": (
+                        "Ep. 027 - OpenAI Jalape\u00f1o: Better Than Nvidia Blackwell "
+                        "(Accelerators)"
+                    ),
+                    "channel": "SemiAnalysis",
+                    "duration": 3792,
+                }
+            ]
+        }
+        result = Mock(returncode=0, stdout=json.dumps(payload), stderr="")
+        with (
+            patch("podcast_intel.transcripts.shutil.which", return_value="yt-dlp"),
+            patch("podcast_intel.transcripts.subprocess.run", return_value=result),
+            patch(
+                "podcast_intel.transcripts._youtube_metadata",
+                return_value=payload["entries"][0],
+            ),
+        ):
+            self.assertEqual(_youtube_search_url(semianalysis_episode()), "")
+
+    def test_page_link_to_previous_episode_is_rejected_before_captions(self) -> None:
+        html = (
+            '<html><body><a href="https://www.youtube.com/watch?'
+            'v=hj_ffVldQZA&amp;t=65s">1:05</a></body></html>'
+        )
+        previous_episode = {
+            "id": "hj_ffVldQZA",
+            "title": (
+                "Ep. 027 - OpenAI Jalape\u00f1o: Better Than Nvidia Blackwell "
+                "(Accelerators)"
+            ),
+            "channel": "SemiAnalysis",
+            "duration": 3792,
+        }
+        with (
+            patch(
+                "podcast_intel.transcripts.fetch_text",
+                return_value=(html, "text/html"),
+            ),
+            patch(
+                "podcast_intel.transcripts._youtube_metadata",
+                return_value=previous_episode,
+            ) as metadata,
+            patch("podcast_intel.transcripts._youtube_captions") as captions,
+            patch("podcast_intel.transcripts._youtube_search_url", return_value=""),
+        ):
+            with self.assertRaisesRegex(
+                TranscriptUnavailable,
+                "no publisher transcript or YouTube captions found",
+            ):
+                acquire_transcript(semianalysis_episode(), timeout=10)
+
+        metadata.assert_called_once_with(
+            "https://www.youtube.com/watch?v=hj_ffVldQZA"
+        )
+        captions.assert_not_called()
 
 
 class PipelineTests(unittest.TestCase):
