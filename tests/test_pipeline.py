@@ -20,6 +20,7 @@ from podcast_intel.transcripts import (
     TranscriptUnavailable,
     _youtube_candidate_matches,
     _youtube_search_url,
+    _transcript_url_priority,
     acquire_transcript,
     extract_transcript_section,
     normalize_transcript,
@@ -150,6 +151,21 @@ class YouTubeMatchTests(unittest.TestCase):
         candidate["channel"] = "Unrelated Uploads"
         self.assertFalse(_youtube_candidate_matches(semianalysis_episode(), candidate))
 
+    def test_accepts_extended_official_channel_name(self) -> None:
+        episode = semianalysis_episode()
+        episode.feed_name = "No Priors"
+        episode.title = "Redefining Chip Architecture with Arm CEO Rene Haas"
+        episode.duration_seconds = 2226
+        candidate = {
+            "title": episode.title,
+            "channel": "No Priors: AI, Machine Learning, Tech, & Startups",
+            "duration": 2227,
+        }
+        self.assertTrue(_youtube_candidate_matches(episode, candidate))
+
+        candidate["channel"] = "Prior Art: No Priors Clips"
+        self.assertFalse(_youtube_candidate_matches(episode, candidate))
+
     def test_rejects_wrong_duration(self) -> None:
         candidate = self.matching_candidate()
         candidate["duration"] = 3792
@@ -261,6 +277,14 @@ class YouTubeMatchTests(unittest.TestCase):
 
 
 class PipelineTests(unittest.TestCase):
+    def test_timestamped_transcript_urls_are_preferred(self) -> None:
+        candidates = [
+            {"type": "text/plain", "url": "https://example.com/transcript.txt"},
+            {"type": "text/vtt", "url": "https://example.com/transcript.vtt"},
+        ]
+        ordered = sorted(candidates, key=_transcript_url_priority)
+        self.assertEqual(ordered[0]["url"], "https://example.com/transcript.vtt")
+
     def test_failure_only_digest_has_typed_empty_episode_titles(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             digest_path = write_daily_digest(
@@ -289,7 +313,13 @@ class PipelineTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             feed_path = root / "fixture.rss"
-            feed_path.write_text(RSS, encoding="utf-8")
+            feed_path.write_text(
+                RSS.replace(
+                    "<link>https://example.com/episode</link>",
+                    "",
+                ),
+                encoding="utf-8",
+            )
             (root / "profile.md").write_text("Prefer technical specifics.\n")
             (root / "config.toml").write_text(
                 f"""
@@ -332,6 +362,10 @@ priority = 7
             self.assertEqual(prepared.selected, 1)
             prepared_state = json.loads((root / "data" / "state.json").read_text())
             prepared_record = next(iter(prepared_state["episodes"].values()))
+            self.assertEqual(
+                prepared_record["link"],
+                "https://example.com/transcript",
+            )
             for field in (
                 "analysis_path",
                 "raw_transcript",
@@ -371,6 +405,10 @@ priority = 7
             self.assertIn('episode_titles:\n  - "OpenAI systems and new inference chips"', digest)
             self.assertIn("## TL;DR", digest)
             self.assertIn("Fixture Show · Relevance 4/5", digest)
+            self.assertIn(
+                "[Fixture Show](https://example.com/transcript)",
+                digest,
+            )
             self.assertNotIn("# Podcast Intelligence -", digest)
             self.assertNotIn("local summary", digest)
             self.assertNotIn("Processed ", digest)

@@ -183,6 +183,8 @@ def prepare_pipeline(
                 state.update(episode.id, status="transcript_error", error=message)
                 continue
 
+        if not episode.link:
+            episode.link = transcript.source_url or episode.audio_url
         paths = write_transcript_artifact(root, episode, transcript)
         request_path = Path(paths["directory"]) / "analysis_request.md"
         analysis_path = Path(paths["directory"]) / "analysis.json"

@@ -140,13 +140,13 @@ def looks_like_transcript(text: str, direct: bool = False) -> bool:
 def _transcript_url_priority(candidate: dict[str, str]) -> tuple[int, str]:
     kind = candidate.get("type", "").casefold()
     url = candidate.get("url", "").casefold()
-    if "text/plain" in kind or url.endswith(".txt"):
+    if "vtt" in kind or url.endswith(".vtt"):
         return (0, url)
     if "json" in kind or url.endswith((".json", ".json3")):
         return (1, url)
-    if "vtt" in kind or url.endswith(".vtt"):
-        return (2, url)
     if "subrip" in kind or url.endswith(".srt"):
+        return (2, url)
+    if "text/plain" in kind or url.endswith(".txt"):
         return (3, url)
     return (4, url)
 
@@ -216,7 +216,11 @@ def _youtube_candidate_matches(episode: Episode, candidate: dict[str, Any]) -> b
     if not expected_channel or not channel:
         return False
     channel_score = SequenceMatcher(None, expected_channel, channel).ratio()
-    if channel_score < 0.70:
+    expected_tokens = expected_channel.split()
+    extended_official_name = len(expected_tokens) >= 2 and channel.startswith(
+        f"{expected_channel} "
+    )
+    if channel_score < 0.70 and not extended_official_name:
         return False
 
     if episode.duration_seconds:
