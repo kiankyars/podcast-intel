@@ -156,3 +156,8 @@ Data centers, power, cooling, networking, capital expenditure, and physical cons
 ## 2026-09-01 - [Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]](https://colossus.com/episode/no-priors-just-conviction/)
 
 - **Guo says an infrastructure leader at an unnamed hyperscaler told her that nothing under development would add enough capacity to move the company's needle before 2030, while industry planning is already focused on 2032-scale compute.** [00:15:58-00:17:48] She identifies sufficient natural gas, data-center siting, nuclear construction, regulation, community acceptance, physical supply chains, and tacit labor knowledge as the binding constraints rather than a lack of technical ideas or private capital. The 2030 statement is second-hand and the hyperscaler is not identified.
+
+<!-- episode:758c70b09544dd1a8f60 -->
+## 2026-09-03 - [Redefining Chip Architecture with Arm CEO Rene Haas]()
+
+- **Haas expects AI compute supply to remain constrained for at least three to five years and identifies data-center construction as a likely next bottleneck rather than seeing near-term physical oversupply.** [11:59; 12:42; 12:48; 13:47; 14:57] He points to advanced-node, packaging, memory, capital, labor, and permitting constraints; he says few data-center projects are ahead of schedule or using less labor than planned and argues that supply is not close to exceeding demand.

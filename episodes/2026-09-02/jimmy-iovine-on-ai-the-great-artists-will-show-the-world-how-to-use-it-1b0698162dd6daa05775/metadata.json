@@ -1,0 +1,43 @@
+{
+  "audio_url": "https://media.transistor.fm/dcf3a038/7a822c2b.mp3",
+  "description_html": "<p>This is our full interview with Jimmy Iovine.</p><p>We discuss why he and Dr. Dre started a school at USC, how they built Beats into the world's biggest headphone company, what he learned from Steve Jobs, why software companies struggle to build great hardware, how AI will transform music, what's broken about Spotify and streaming, and more.</p><p>TBPN is made possible by:<br>Ramp - https://ramp.com<br>Public - https://public.com<br>Cisco - https://www.cisco.com<br>Console - https://www.console.com<br>CrowdStrike - https://www.crowdstrike.com<br>Figma - https://www.figma.com<br>MongoDB - https://www.mongodb.com<br>NYSE - https://www.nyse.com<br>Railway - https://railway.com<br>Shopify - https://www.shopify.com/<br>Codex - http://openAI.com/codex</p><p>Sign up for TBPN\u2019s daily newsletter at TBPN.com</p><p>Follow TBPN:<br>https://TBPN.com<br>https://x.com/tbpn<br>https://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231<br>https://podcasts.apple.com/us/podcast/technology-brothers/id1772360235<br>https://www.youtube.com/@TBPNLive</p>",
+  "description_text": "This is our full interview with Jimmy Iovine.\n\nWe discuss why he and Dr. Dre started a school at USC, how they built Beats into the world's biggest headphone company, what he learned from Steve Jobs, why software companies struggle to build great hardware, how AI will transform music, what's broken about Spotify and streaming, and more.\n\nTBPN is made possible by:\nRamp - https://ramp.com\nPublic - https://public.com\nCisco - https://www.cisco.com\nConsole - https://www.console.com\nCrowdStrike - https://www.crowdstrike.com\nFigma - https://www.figma.com\nMongoDB - https://www.mongodb.com\nNYSE - https://www.nyse.com\nRailway - https://railway.com\nShopify - https://www.shopify.com/\nCodex - http://openAI.com/codex\n\nSign up for TBPN\u2019s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/technology-brothers/id1772360235\nhttps://www.youtube.com/@TBPNLive",
+  "duration_seconds": 3727,
+  "feed_id": "tbpn",
+  "feed_name": "TBPN",
+  "feed_priority": 6,
+  "id": "1b0698162dd6daa05775",
+  "link": "https://share.transistor.fm/s/dcf3a038",
+  "published": "2026-09-02T21:36:29+00:00",
+  "title": "Jimmy Iovine on AI: \u201cThe Great Artists Will Show the World How to Use It\u201d",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://share.transistor.fm/s/dcf3a038/transcription.vtt",
+  "transcript_urls": [
+    {
+      "rel": "captions",
+      "type": "text/vtt",
+      "url": "https://share.transistor.fm/s/dcf3a038/transcription.vtt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/x-subrip",
+      "url": "https://share.transistor.fm/s/dcf3a038/transcription.srt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/json",
+      "url": "https://share.transistor.fm/s/dcf3a038/transcription.json"
+    },
+    {
+      "rel": "",
+      "type": "text/plain",
+      "url": "https://share.transistor.fm/s/dcf3a038/transcription.txt"
+    },
+    {
+      "rel": "",
+      "type": "text/html",
+      "url": "https://share.transistor.fm/s/dcf3a038/transcription"
+    }
+  ],
+  "web_links": []
+}

@@ -353,3 +353,8 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 ## 2026-09-02 - [Ep. 028 - Most Neoclouds Suck At Security: How Agents Hacked Hugging Face (Neoclouds, Security) | Doug O'Laughlin, Sam Harshe, Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--028---Most-Neoclouds-Suck-At-Security-How-Agents-Hacked-Hugging-Face-Neoclouds--Security--Doug-OLaughlin--Sam-Harshe--Jordan-Nanos-e3o6n46)
 
 - **ClusterMAX researchers report that authorized defensive testing repeatedly triggered cyber refusals from alpha-access frontier models, forcing the team to construct some customer-perspective exploits manually.** [16:42; 17:21; 18:00] He says refusals persisted even when the testers were approved for cybersecurity work. His conclusion that the behavior was trained into model weights rather than imposed by a classifier or filter is an inference, not a reported ablation; Hugging Face's separate refusal experience is relayed secondhand.
+
+<!-- episode:1b0698162dd6daa05775 -->
+## 2026-09-02 - [Jimmy Iovine on AI: “The Great Artists Will Show the World How to Use It”](https://share.transistor.fm/s/dcf3a038)
+
+- **Iovine predicts that rights holders will narrow the catalogs they license for AI training, causing licensed AI-music products to be less capable than products trained on broader corpora.** [00:31:04; 00:31:24] He describes a chain reaction in which licensors reduce what they make available, but explicitly labels the resulting quality penalty as his opinion and says he does not know; no corpus comparison or model benchmark is offered.

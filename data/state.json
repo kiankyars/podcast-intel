@@ -266,6 +266,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.127263+00:00"
     },
+    "1b0698162dd6daa05775": {
+      "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/dcf3a038",
+      "published": "2026-09-02T21:36:29+00:00",
+      "raw_transcript": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/summary.md",
+      "title": "Jimmy Iovine on AI: \u201cThe Great Artists Will Show the World How to Use It\u201d",
+      "transcript_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/dcf3a038/transcription.vtt",
+      "updated_at": "2026-09-03T16:17:15.285019+00:00"
+    },
     "1bf240c7e8316a75d9c2": {
       "analysis_path": "episodes/2026-06-04/the-rise-of-the-full-stack-builder-and-hyper-leveraged-generalist-with-microsoft-ceo-satya-1bf240c7e8316a75d9c2/analysis.json",
       "error": "",
@@ -815,6 +832,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-12T16:02:58.593872+00:00"
     },
+    "4faf6592e9d9fb7ae874": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-03T16:16:50.824686+00:00"
+    },
     "528f56376dc5b17037c9": {
       "analysis_path": "episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/analysis.json",
       "error": "",
@@ -1216,6 +1237,23 @@
       "transcript_source_url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole",
       "updated_at": "2026-06-21T15:50:40.948402+00:00"
     },
+    "758c70b09544dd1a8f60": {
+      "analysis_path": "episodes/2026-09-03/redefining-chip-architecture-with-arm-ceo-rene-haas-758c70b09544dd1a8f60/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=85Y6h_jbRfs",
+      "published": "2026-09-03T10:00:00+00:00",
+      "raw_transcript": "episodes/2026-09-03/redefining-chip-architecture-with-arm-ceo-rene-haas-758c70b09544dd1a8f60/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-03/redefining-chip-architecture-with-arm-ceo-rene-haas-758c70b09544dd1a8f60/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-03/redefining-chip-architecture-with-arm-ceo-rene-haas-758c70b09544dd1a8f60/summary.md",
+      "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
+      "transcript_path": "episodes/2026-09-03/redefining-chip-architecture-with-arm-ceo-rene-haas-758c70b09544dd1a8f60/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=85Y6h_jbRfs",
+      "updated_at": "2026-09-03T16:17:15.286955+00:00"
+    },
     "75cf2ba206705a6a39eb": {
       "analysis_path": "episodes/2026-07-09/travel-through-the-lens-of-ai-with-with-booking-com-ceo-glenn-fogel-75cf2ba206705a6a39eb/analysis.json",
       "error": "",
@@ -1343,9 +1381,13 @@
       "transcript_source_url": "https://www.latent.space/p/axiom",
       "updated_at": "2026-06-09T16:09:24.218390+00:00"
     },
+    "7be8c83bb02fbe15e4b6": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-03T16:16:50.825795+00:00"
+    },
     "7c58aaef4685a3b31591": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-02T16:02:03.355482+00:00"
+      "updated_at": "2026-09-03T16:16:50.826792+00:00"
     },
     "7ca5460b7d4b74f43cff": {
       "analysis_path": "episodes/2026-06-09/alex-sacerdote-how-to-invest-through-technology-cycles-invest-like-the-best-ep-477-7ca5460b7d4b74f43cff/analysis.json",
@@ -1619,7 +1661,7 @@
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-02T16:02:03.357637+00:00"
+      "updated_at": "2026-09-03T16:16:50.827256+00:00"
     },
     "97a3346678ba03fddb55": {
       "analysis_path": "episodes/2026-08-20/ep-026-pjm-s-12b-modeling-mistake-is-hitting-ratepayers-again-datacenter-energy-robert-bos-97a3346678ba03fddb55/analysis.json",

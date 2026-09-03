@@ -414,3 +414,8 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 ## 2026-09-02 - [Ep. 028 - Most Neoclouds Suck At Security: How Agents Hacked Hugging Face (Neoclouds, Security) | Doug O'Laughlin, Sam Harshe, Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--028---Most-Neoclouds-Suck-At-Security-How-Agents-Hacked-Hugging-Face-Neoclouds--Security--Doug-OLaughlin--Sam-Harshe--Jordan-Nanos-e3o6n46)
 
 - **Harshe reports that the team's preliminary GitHub analysis has not found the dramatic increase in public vulnerability discovery or security engineering that qualitative model capability would predict.** [25:25; 26:04; 30:08] They say the ratio of CVEs to ordinary security patches was unchanged, while some repositories showed more pull requests and only a slightly higher share of changes with security-related terms. The work was roughly halfway complete, one visible correlation was probably not statistically significant, and the team acknowledges that public repositories, disclosure workflow changes, or implementation lag may make these proxies inadequate.
+
+<!-- episode:758c70b09544dd1a8f60 -->
+## 2026-09-03 - [Redefining Chip Architecture with Arm CEO Rene Haas]()
+
+- **Haas estimates that 80% to 90% of Arm engineers use AI daily, with the clearest benefits in verification, validation, debug, and documentation; he says Arm is also working with model makers on proprietary-data gaps.** [07:22; 08:01; 08:25; 08:54; 09:25; 09:37] He says RTL generation and physical design remain less mature because public training data omits proprietary chip knowledge, while Arm's documented IP, test benches, and implementation records give it an unusually usable training corpus.
