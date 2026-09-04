@@ -358,3 +358,9 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 ## 2026-09-02 - [Jimmy Iovine on AI: “The Great Artists Will Show the World How to Use It”](https://share.transistor.fm/s/dcf3a038)
 
 - **Iovine predicts that rights holders will narrow the catalogs they license for AI training, causing licensed AI-music products to be less capable than products trained on broader corpora.** [00:31:04; 00:31:24] He describes a chain reaction in which licensors reduce what they make available, but explicitly labels the resulting quality penalty as his opinion and says he does not know; no corpus comparison or model benchmark is offered.
+
+<!-- episode:5da7a692d9e16483b618 -->
+## 2026-09-03 - [Model Mayhem, NVIDIA x Hugging Face Deal, GPT-6 Astra | Pablo Torre, Mohit Aron, Akshay Narisetti, Hari Ravichandran, Matt Caldwell & Jordy Leiser, Jeff Thornburg, Charlie O’Neill, Sridhar Ramaswamy](https://share.transistor.fm/s/aeb93c8c)
+
+- **TBPN's hosts report that Anthropic announced projected cost reductions for Fable 5.1 and a planned customer-controlled retention system called Enterprise Frontier Safeguards.** [09:39; 10:13; 10:50; 11:00] They say Anthropic projects improved caching will make ordinary workloads 25% cheaper and long-horizon agentic jobs 45% cheaper, and describe the planned safeguards as keeping retained data on company-owned infrastructure rather than sending it into Anthropic's databases.
+- **Base Labs' Charlie O'Neill argues that access to costly task data and RL environments is becoming a central open-model bottleneck, while firm-scale continual learning remains unsolved.** [02:05:18; 02:05:43; 02:12:47] O'Neill says closed labs spend billions yearly on RL environments and Base Labs plans to build and release open environments; he also says supervised fine-tuning degrades models while RL does not reliably add firm-specific knowledge.

@@ -834,7 +834,7 @@
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-03T16:16:50.824686+00:00"
+      "updated_at": "2026-09-04T16:15:39.015357+00:00"
     },
     "528f56376dc5b17037c9": {
       "analysis_path": "episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/analysis.json",
@@ -1022,6 +1022,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-25T16:42:41.708593+00:00"
     },
+    "5da7a692d9e16483b618": {
+      "analysis_path": "episodes/2026-09-03/model-mayhem-nvidia-x-hugging-face-deal-gpt-6-astra-pablo-torre-mohit-aron-akshay-narisett-5da7a692d9e16483b618/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/aeb93c8c",
+      "published": "2026-09-03T21:12:23+00:00",
+      "raw_transcript": "episodes/2026-09-03/model-mayhem-nvidia-x-hugging-face-deal-gpt-6-astra-pablo-torre-mohit-aron-akshay-narisett-5da7a692d9e16483b618/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-03/model-mayhem-nvidia-x-hugging-face-deal-gpt-6-astra-pablo-torre-mohit-aron-akshay-narisett-5da7a692d9e16483b618/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-03/model-mayhem-nvidia-x-hugging-face-deal-gpt-6-astra-pablo-torre-mohit-aron-akshay-narisett-5da7a692d9e16483b618/summary.md",
+      "title": "Model Mayhem, NVIDIA x Hugging Face Deal, GPT-6 Astra | Pablo Torre, Mohit Aron, Akshay Narisetti, Hari Ravichandran, Matt Caldwell & Jordy Leiser, Jeff Thornburg, Charlie O\u2019Neill, Sridhar Ramaswamy",
+      "transcript_path": "episodes/2026-09-03/model-mayhem-nvidia-x-hugging-face-deal-gpt-6-astra-pablo-torre-mohit-aron-akshay-narisett-5da7a692d9e16483b618/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=PYmertPq-zU",
+      "updated_at": "2026-09-04T16:29:36.422471+00:00"
+    },
     "5f1ce4d7c5857004243f": {
       "analysis_path": "episodes/2026-06-30/etched-building-ai-hardware-to-make-inference-faster-and-cheaper-invest-like-the-best-ep-4-5f1ce4d7c5857004243f/analysis.json",
       "error": "",
@@ -1042,6 +1059,10 @@
     "60a555042a12c43842b0": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.120406+00:00"
+    },
+    "61f1dd347a133bc3c6a0": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-04T16:15:39.014514+00:00"
     },
     "62a383ca4443066219db": {
       "analysis_path": "episodes/2026-07-12/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal-62a383ca4443066219db/analysis.json",
@@ -1383,11 +1404,11 @@
     },
     "7be8c83bb02fbe15e4b6": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-03T16:16:50.825795+00:00"
+      "updated_at": "2026-09-04T16:15:39.015854+00:00"
     },
     "7c58aaef4685a3b31591": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-03T16:16:50.826792+00:00"
+      "updated_at": "2026-09-04T16:15:39.016309+00:00"
     },
     "7ca5460b7d4b74f43cff": {
       "analysis_path": "episodes/2026-06-09/alex-sacerdote-how-to-invest-through-technology-cycles-invest-like-the-best-ep-477-7ca5460b7d4b74f43cff/analysis.json",
@@ -1661,7 +1682,7 @@
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-03T16:16:50.827256+00:00"
+      "updated_at": "2026-09-04T16:15:39.016751+00:00"
     },
     "97a3346678ba03fddb55": {
       "analysis_path": "episodes/2026-08-20/ep-026-pjm-s-12b-modeling-mistake-is-hitting-ratepayers-again-datacenter-energy-robert-bos-97a3346678ba03fddb55/analysis.json",
@@ -2083,6 +2104,23 @@
       "transcript_source": "rss_embedded_transcript",
       "transcript_source_url": "https://www.latent.space/p/satya-2026",
       "updated_at": "2026-06-09T16:09:24.221142+00:00"
+    },
+    "c93305c7e01f879442fb": {
+      "analysis_path": "episodes/2026-09-03/pablo-torre-explains-the-steve-ballmer-kawhi-leonard-scandal-c93305c7e01f879442fb/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/2bfd5175",
+      "published": "2026-09-03T21:38:19+00:00",
+      "raw_transcript": "episodes/2026-09-03/pablo-torre-explains-the-steve-ballmer-kawhi-leonard-scandal-c93305c7e01f879442fb/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-03/pablo-torre-explains-the-steve-ballmer-kawhi-leonard-scandal-c93305c7e01f879442fb/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-03/pablo-torre-explains-the-steve-ballmer-kawhi-leonard-scandal-c93305c7e01f879442fb/summary.md",
+      "title": "Pablo Torre Explains the Steve Ballmer & Kawhi Leonard Scandal",
+      "transcript_path": "episodes/2026-09-03/pablo-torre-explains-the-steve-ballmer-kawhi-leonard-scandal-c93305c7e01f879442fb/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/2bfd5175/transcription.vtt",
+      "updated_at": "2026-09-04T16:29:36.423956+00:00"
     },
     "ca0c43fba0998653a85c": {
       "analysis_path": "episodes/2026-09-02/ep-028-most-neoclouds-suck-at-security-how-agents-hacked-hugging-face-neoclouds-security-d-ca0c43fba0998653a85c/analysis.json",
