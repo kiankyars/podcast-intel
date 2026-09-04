@@ -18,11 +18,13 @@ from podcast_intel.models import Episode, FeedConfig, Transcript
 from podcast_intel.render import write_daily_digest
 from podcast_intel.transcripts import (
     TranscriptUnavailable,
+    _fetch_transcript_url,
     _youtube_candidate_matches,
     _youtube_search_url,
     _transcript_url_priority,
     acquire_transcript,
     extract_transcript_section,
+    looks_like_transcript,
     normalize_transcript,
 )
 
@@ -115,6 +117,27 @@ The second point.
         source = "Episode notes\n\n(00:00) Intro\n\n(05:00) Technical discussion"
         self.assertFalse(has_transcript_heading(source))
 
+    def test_episode_page_chrome_is_not_a_transcript(self) -> None:
+        shell = (
+            "Full Transcript\n\nChapters\n\n"
+            + "( 00:19 ) - Model Mayhem\n" * 12
+            + "Subscribe Share More Info Download\n" * 300
+        )
+        self.assertFalse(looks_like_transcript(shell))
+
+    def test_transcript_link_to_episode_page_rejects_chrome(self) -> None:
+        html = (
+            "<html><body><h2>Full Transcript</h2><h2>Chapters</h2>"
+            + "<p>( 00:19 ) - Model Mayhem</p>" * 12
+            + "<p>Subscribe Share More Info Download</p>" * 300
+            + "</body></html>"
+        )
+        with patch(
+            "podcast_intel.transcripts.fetch_text",
+            return_value=(html, "text/html"),
+        ):
+            self.assertIsNone(_fetch_transcript_url("https://example.com", 10))
+
 
 class YouTubeMatchTests(unittest.TestCase):
     def matching_candidate(self) -> dict:
@@ -164,6 +187,28 @@ class YouTubeMatchTests(unittest.TestCase):
         self.assertTrue(_youtube_candidate_matches(episode, candidate))
 
         candidate["channel"] = "Prior Art: No Priors Clips"
+        self.assertFalse(_youtube_candidate_matches(episode, candidate))
+
+    def test_accepts_long_episode_title_from_video_chapters(self) -> None:
+        episode = semianalysis_episode()
+        episode.feed_name = "TBPN"
+        episode.title = (
+            "Model Mayhem, NVIDIA x Hugging Face Deal, GPT-6 Astra | "
+            "Pablo Torre, Mohit Aron, Akshay Narisetti"
+        )
+        episode.duration_seconds = 8767
+        candidate = {
+            "title": "Model Mayhem, Nvidia Hugging Face, Pablo Torre Joins",
+            "description": (
+                "Model Mayhem. Why NVIDIA Bought Hugging Face. GPT-6 Astra. "
+                "Pablo Torre joins, followed by Mohit Aron and Akshay Narisetti."
+            ),
+            "channel": "TBPN",
+            "duration": 9042,
+        }
+        self.assertTrue(_youtube_candidate_matches(episode, candidate))
+
+        candidate["description"] = "A different day of technology news and interviews."
         self.assertFalse(_youtube_candidate_matches(episode, candidate))
 
     def test_rejects_wrong_duration(self) -> None:

@@ -129,12 +129,11 @@ def looks_like_transcript(text: str, direct: bool = False) -> bool:
         return False
     if direct:
         return True
-    lowered = text.casefold()
     timestamp_count = len(
         re.findall(r"(?:^|\n)\s*[\[(]?\d{1,2}:\d{2}(?::\d{2})?[\])]?", text)
     )
     speaker_count = len(re.findall(r"(?:^|\n)[A-Z][A-Za-z .'-]{1,40}\s*:", text))
-    return "transcript" in lowered or timestamp_count >= 6 or speaker_count >= 10
+    return timestamp_count >= 6 or speaker_count >= 10
 
 
 def _transcript_url_priority(candidate: dict[str, str]) -> tuple[int, str]:
@@ -156,8 +155,9 @@ def _fetch_transcript_url(url: str, timeout: int) -> Transcript | None:
         value, content_type = fetch_text(url, timeout)
     except Exception:
         return None
+    is_html = "html" in content_type.casefold() or "<html" in value[:1000].casefold()
     text = normalize_transcript(value, content_type, url)
-    if not looks_like_transcript(text, direct=True):
+    if not looks_like_transcript(text, direct=not is_html):
         return None
     return Transcript(text=text, source="publisher_transcript", source_url=url)
 
@@ -206,7 +206,22 @@ def _youtube_candidate_matches(episode: Episode, candidate: dict[str, Any]) -> b
         _normalized_match_text(episode.title),
         _normalized_match_text(title),
     ).ratio()
-    if title_score < 0.75:
+    expected_title_tokens = set(_normalized_match_text(episode.title).split())
+    candidate_context_tokens = set(
+        _normalized_match_text(
+            f"{title} {str(candidate.get('description') or '')}"
+        ).split()
+    )
+    context_coverage = (
+        len(expected_title_tokens & candidate_context_tokens)
+        / len(expected_title_tokens)
+        if expected_title_tokens
+        else 0.0
+    )
+    long_title_context_match = (
+        len(expected_title_tokens) >= 8 and context_coverage >= 0.80
+    )
+    if title_score < 0.75 and not long_title_context_match:
         return False
 
     expected_channel = _normalized_match_text(episode.feed_name)
@@ -404,7 +419,7 @@ def acquire_transcript(
 
     page_section = extract_transcript_section(page_text)
     if has_transcript_heading(page_text) and looks_like_transcript(
-        page_section, direct=True
+        page_section
     ):
         return Transcript(
             text=page_section,
