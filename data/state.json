@@ -834,7 +834,7 @@
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-04T16:15:39.015357+00:00"
+      "updated_at": "2026-09-05T16:02:02.304245+00:00"
     },
     "528f56376dc5b17037c9": {
       "analysis_path": "episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/analysis.json",
@@ -1062,7 +1062,7 @@
     },
     "61f1dd347a133bc3c6a0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-04T16:15:39.014514+00:00"
+      "updated_at": "2026-09-05T16:02:02.303769+00:00"
     },
     "62a383ca4443066219db": {
       "analysis_path": "episodes/2026-07-12/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal-62a383ca4443066219db/analysis.json",
@@ -1404,11 +1404,11 @@
     },
     "7be8c83bb02fbe15e4b6": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-04T16:15:39.015854+00:00"
+      "updated_at": "2026-09-05T16:02:02.304731+00:00"
     },
     "7c58aaef4685a3b31591": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-04T16:15:39.016309+00:00"
+      "updated_at": "2026-09-05T16:02:02.305205+00:00"
     },
     "7ca5460b7d4b74f43cff": {
       "analysis_path": "episodes/2026-06-09/alex-sacerdote-how-to-invest-through-technology-cycles-invest-like-the-best-ep-477-7ca5460b7d4b74f43cff/analysis.json",
@@ -1682,7 +1682,7 @@
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-04T16:15:39.016751+00:00"
+      "updated_at": "2026-09-05T16:02:02.305652+00:00"
     },
     "97a3346678ba03fddb55": {
       "analysis_path": "episodes/2026-08-20/ep-026-pjm-s-12b-modeling-mistake-is-hitting-ratepayers-again-datacenter-energy-robert-bos-97a3346678ba03fddb55/analysis.json",
@@ -2342,6 +2342,10 @@
       "transcript_source_url": "https://www.complexsystemspodcast.com/episodes/the-economics-of-putting-germicidal-light-in-every-room/?ref=cognitiverevolution.ai",
       "updated_at": "2026-08-16T16:15:52.978689+00:00"
     },
+    "e1cf9a4de101fd863979": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-05T16:02:02.302323+00:00"
+    },
     "e2c7b3697003264882d4": {
       "analysis_path": "episodes/2026-08-26/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apo-e2c7b3697003264882d4/analysis.json",
       "error": "",
@@ -2460,6 +2464,10 @@
       "transcript_source": "rss_embedded_transcript",
       "transcript_source_url": "https://www.latent.space/p/gray-swan",
       "updated_at": "2026-06-23T15:03:36.936042+00:00"
+    },
+    "e7b0e34ac82ae8c73b8e": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-05T16:02:02.303270+00:00"
     },
     "eb0d59dac5a1ac1f776c": {
       "analysis_path": "episodes/2026-07-12/alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p-doom-is-down-to-5-eb0d59dac5a1ac1f776c/analysis.json",
