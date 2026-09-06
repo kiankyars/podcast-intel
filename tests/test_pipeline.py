@@ -105,6 +105,47 @@ The second point.
             "[00:00:01] The first point.\n[00:00:05] The second point.",
         )
 
+    def test_original_english_captions_are_preferred(self) -> None:
+        from podcast_intel.transcripts import _caption_file_priority
+
+        paths = [
+            Path("episode.en.json3"),
+            Path("episode.en-GB.vtt"),
+            Path("episode.en-orig.json3"),
+        ]
+        self.assertEqual(
+            [path.name for path in sorted(paths, key=_caption_file_priority)],
+            ["episode.en-orig.json3", "episode.en.json3", "episode.en-GB.vtt"],
+        )
+
+    def test_youtube_captions_request_original_english_first(self) -> None:
+        from podcast_intel.transcripts import _youtube_captions
+
+        vtt = """WEBVTT
+
+00:00:01.000 --> 00:00:03.000
+""" + ("Clean original English caption text. " * 40)
+
+        def write_original(command: list[str], **_: object) -> Mock:
+            output = command[command.index("--output") + 1]
+            path = Path(output.replace("%(id)s.%(ext)s", "fixture.en-orig.vtt"))
+            path.write_text(vtt, encoding="utf-8")
+            return Mock(returncode=0)
+
+        with (
+            patch("podcast_intel.transcripts.shutil.which", return_value="yt-dlp"),
+            patch(
+                "podcast_intel.transcripts.subprocess.run",
+                side_effect=write_original,
+            ) as run,
+        ):
+            transcript = _youtube_captions("https://www.youtube.com/watch?v=fixture")
+
+        self.assertIsNotNone(transcript)
+        command = run.call_args.args[0]
+        self.assertEqual(command[command.index("--sub-langs") + 1], "en-orig")
+        self.assertIn("Clean original English", transcript.text)
+
     def test_extract_embedded_transcript(self) -> None:
         source = "Show notes\n\nTranscript\n\nSpeaker: " + ("useful detail " * 200)
         extracted = extract_transcript_section(source)

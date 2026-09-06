@@ -280,49 +280,63 @@ def _youtube_captions(url: str) -> Transcript | None:
         return None
     with tempfile.TemporaryDirectory(prefix="podcast-intel-youtube-") as temporary:
         output = str(Path(temporary) / "%(id)s.%(ext)s")
-        command = [
-            "yt-dlp",
-            "--no-playlist",
-            "--skip-download",
-            "--write-subs",
-            "--write-auto-subs",
-            "--sub-langs",
-            "en.*,en",
-            "--sub-format",
-            "json3/vtt/best",
-            "--output",
-            output,
-            url,
-        ]
-        result = subprocess.run(
-            command,
-            text=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            timeout=300,
-        )
-        if result.returncode:
-            return None
-        files = sorted(
-            (
-                path
-                for path in Path(temporary).iterdir()
-                if path.suffix.casefold() in {".json3", ".json", ".vtt", ".srt"}
-            ),
-            key=lambda path: (
-                0 if ".en." in path.name else 1,
-                len(path.name),
-                path.name,
-            ),
-        )
-        for path in files:
-            text = normalize_transcript(
-                path.read_text(encoding="utf-8", errors="replace"),
-                url=path.name,
+        for language in ("en-orig", "en", "en.*"):
+            for path in Path(temporary).iterdir():
+                path.unlink()
+            command = [
+                "yt-dlp",
+                "--no-playlist",
+                "--skip-download",
+                "--write-subs",
+                "--write-auto-subs",
+                "--sub-langs",
+                language,
+                "--sub-format",
+                "json3/vtt/best",
+                "--output",
+                output,
+                url,
+            ]
+            result = subprocess.run(
+                command,
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                timeout=300,
             )
-            if looks_like_transcript(text, direct=True):
-                return Transcript(text=text, source="youtube_captions", source_url=url)
+            if result.returncode:
+                continue
+            files = sorted(
+                (
+                    path
+                    for path in Path(temporary).iterdir()
+                    if path.suffix.casefold() in {".json3", ".json", ".vtt", ".srt"}
+                ),
+                key=_caption_file_priority,
+            )
+            for path in files:
+                text = normalize_transcript(
+                    path.read_text(encoding="utf-8", errors="replace"),
+                    url=path.name,
+                )
+                if looks_like_transcript(text, direct=True):
+                    return Transcript(
+                        text=text,
+                        source="youtube_captions",
+                        source_url=url,
+                    )
     return None
+
+
+def _caption_file_priority(path: Path) -> tuple[int, int, str]:
+    name = path.name.casefold()
+    if re.search(r"\.en-orig\.(?:json3?|vtt|srt)$", name):
+        language_priority = 0
+    elif re.search(r"\.en\.(?:json3?|vtt|srt)$", name):
+        language_priority = 1
+    else:
+        language_priority = 2
+    return (language_priority, len(name), name)
 
 
 def _youtube_search_url(episode: Episode) -> str:
