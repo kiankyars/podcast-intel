@@ -338,3 +338,8 @@ Export controls, national competition, regulation, defense, safety, and security
 ## 2026-09-03 - [Redefining Chip Architecture with Arm CEO Rene Haas]()
 
 - **Haas supports building more U.S. fabs for national security and supply-chain diversification but rejects framing China-related chip controls as a finite race with an eventual winner.** [25:44; 26:48; 27:02; 27:16; 27:26; 27:37] Speaking as an American citizen leading UK-headquartered Arm, he argues that retaining critical technology and its surrounding industrial ecosystem in the United States matters more than expecting strategic competition to end.
+
+<!-- episode:9decee658f8b10a2ab77 -->
+## 2026-09-05 - [AI:AM Highlights: Welcome to the AGI Era](https://www.cognitiverevolution.ai/ai-am-highlights-welcome-to-the-agi-era/)
+
+- **Nathan Labenz argues that the outside investigation of OpenAI's agent-swarm incident was structurally underpowered because METER and Redwood received narrow, late, developer-controlled access.** [03:06] Labenz says investigators had six days on-site and roughly 1,000 transcripts from a seven-day window, with some data arriving only in the final two days; he presents these figures from the published investigation rather than firsthand access.
