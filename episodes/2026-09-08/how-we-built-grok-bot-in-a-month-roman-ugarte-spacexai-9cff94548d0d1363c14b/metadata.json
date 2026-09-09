@@ -1,0 +1,74 @@
+{
+  "audio_url": "https://pscrb.fm/rss/p/api.substack.com/feed/podcast/214070217/3483f2b4b11da80edfd1766d944779f8.mp3",
+  "description_html": "<p><strong>Roman Ugarte</strong> helped incubate and build Grok Bot, the popular new knowledge-work agent from SpaceXAI. A small, isolated team took it from first line of code to a working internal product in four weeks, and to a hugely successful public launch just three weeks later. Before Grok Bot, Roman led Growth at Cursor, where he helped scale the company from 15 people to over 1,000 before its acquisition by SpaceX.</p><p></p><p><strong>In our in-depth conversation, we discuss:</strong></p><p>1. The origin story of Grok Bot</p><p>2. The key decision to build it from scratch instead of adding it to Cursor</p><p>3. Why the team personally onboarded nearly 300 of its first users</p><p>4. The two early product decisions that made Grok Bot so successful</p><p>5. Their \u201ccolleague-pilled\u201d product philosophy</p><p>6. Roman\u2019s advice on moats, and what has allowed Cursor to keep winning in the most competitive market in the world</p><p>\u2014</p><p><strong>Brought to you by:</strong></p><p><a target=\"_blank\" href=\"https://workos.com/lenny\"><strong>WorkOS</strong></a>\u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more</p><p><a target=\"_blank\" href=\"https://mercury.com/command?utm_source=lennys&#38;utm_medium=sponsored_newsletter&#38;utm_campaign=26q3_brand_campaign\"><strong>Mercury</strong></a>\u2014Radically different banking, now with Command</p><p>\u2014</p><p><strong>Episode transcript:</strong> <a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month\">https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month</a></p><p>\u2014</p><p><strong>Archive of all Lenny's Podcast transcripts: </strong><a target=\"_blank\" href=\"https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&#38;st=ahz0fj11&#38;dl=0\">https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0</a></p><p>\u2014</p><p><strong>Where to find Roman Ugarte:</strong></p><p>\u2022 X: <a target=\"_blank\" href=\"https://x.com/romanugarte_\">https://x.com/romanugarte_</a></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"https://www.linkedin.com/in/romanugarte\">https://www.linkedin.com/in/romanugarte</a></p><p>\u2022 Website: <a target=\"_blank\" href=\"https://x.ai\">https://x.ai</a></p><p>\u2014</p><p><strong>Where to find Lenny:</strong></p><p>\u2022 Newsletter: <a target=\"_blank\" href=\"https://www.lennysnewsletter.com\">https://www.lennysnewsletter.com</a></p><p>\u2022 X: <a target=\"_blank\" href=\"https://twitter.com/lennysan\">https://twitter.com/lennysan</a></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"https://www.linkedin.com/in/lennyrachitsky/\">https://www.linkedin.com/in/lennyrachitsky/</a></p><p>\u2014</p><p><strong>In this episode, we cover:</strong></p><p>(00:00) Introduction</p><p>(02:09) The origin story: building from scratch in one month</p><p>(08:40) Why Grok Bot was built as a separate product</p><p>(11:20) Manually onboarding a couple hundred people</p><p>(14:29) Hiding internal mechanics from users</p><p>(18:41) Timeline from beta to public launch</p><p>(19:14) Unshipping features and simplifying</p><p>(23:50) Early use cases and feedback</p><p>(26:50) Product philosophy: \u201cGrok Bot can now\u201d</p><p>(30:02) Cloud-first architecture</p><p>(33:12) The fresh-start advantage</p><p>(35:54) The vision: a true team of AI colleagues</p><p>(39:20) The \u201ccolleague-pilled\u201d framework</p><p>(42:36) Work versus personal: one product or two?</p><p>(47:14) Long-lived agents, persistent memory, and the computer abstraction</p><p>(51:04) Grok Bot as an always-on infovore and chief of staff</p><p>(53:35) How fast the team moves and what preserves the startup feeling</p><p>(58:20) SpaceXAI pillars</p><p>(1:00:44) The first 90% vs. the last 10%</p><p>(1:03:30) Moving fast at scale</p><p>(1:06:40) How Cursor kept winning in the most competitive market in the world</p><p>(1:10:04) Company values: \u201cdeleting the product\u201d and \u201cjust do the thing\u201d</p><p>(1:11:45) Moats: discovered, not planned</p><p>(1:15:11) Tips for new users and power users</p><p>(1:18:00) Lightning round and final thoughts</p><p>\u2014</p><p><strong>References: </strong><a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month\">https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month</a></p><p>\u2014</p><p>Production and marketing by <a target=\"_blank\" href=\"https://penname.co/\">https://penname.co/</a>. For inquiries about sponsoring the podcast, email <a target=\"_blank\" href=\"mailto:podcast@lennyrachitsky.com\">podcast@lennyrachitsky.com</a>.</p><p>\u2014</p><p><em>Lenny may be an investor in the companies discussed.</em></p> <br/><br/>To hear more, visit <a href=\"https://www.lennysnewsletter.com?utm_medium=podcast&#38;utm_campaign=show-notes-no-free-preview-language\">www.lennysnewsletter.com</a>",
+  "description_text": "Roman Ugarte helped incubate and build Grok Bot, the popular new knowledge-work agent from SpaceXAI. A small, isolated team took it from first line of code to a working internal product in four weeks, and to a hugely successful public launch just three weeks later. Before Grok Bot, Roman led Growth at Cursor, where he helped scale the company from 15 people to over 1,000 before its acquisition by SpaceX.\n\nIn our in-depth conversation, we discuss:\n\n1. The origin story of Grok Bot\n\n2. The key decision to build it from scratch instead of adding it to Cursor\n\n3. Why the team personally onboarded nearly 300 of its first users\n\n4. The two early product decisions that made Grok Bot so successful\n\n5. Their \u201ccolleague-pilled\u201d product philosophy\n\n6. Roman\u2019s advice on moats, and what has allowed Cursor to keep winning in the most competitive market in the world\n\n\u2014\n\nBrought to you by:\n\nWorkOS \u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more\n\nMercury \u2014Radically different banking, now with Command\n\n\u2014\n\nEpisode transcript: https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month\n\n\u2014\n\nArchive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0\n\n\u2014\n\nWhere to find Roman Ugarte:\n\n\u2022 X: https://x.com/romanugarte_\n\n\u2022 LinkedIn: https://www.linkedin.com/in/romanugarte\n\n\u2022 Website: https://x.ai\n\n\u2014\n\nWhere to find Lenny:\n\n\u2022 Newsletter: https://www.lennysnewsletter.com\n\n\u2022 X: https://twitter.com/lennysan\n\n\u2022 LinkedIn: https://www.linkedin.com/in/lennyrachitsky/\n\n\u2014\n\nIn this episode, we cover:\n\n(00:00) Introduction\n\n(02:09) The origin story: building from scratch in one month\n\n(08:40) Why Grok Bot was built as a separate product\n\n(11:20) Manually onboarding a couple hundred people\n\n(14:29) Hiding internal mechanics from users\n\n(18:41) Timeline from beta to public launch\n\n(19:14) Unshipping features and simplifying\n\n(23:50) Early use cases and feedback\n\n(26:50) Product philosophy: \u201cGrok Bot can now\u201d\n\n(30:02) Cloud-first architecture\n\n(33:12) The fresh-start advantage\n\n(35:54) The vision: a true team of AI colleagues\n\n(39:20) The \u201ccolleague-pilled\u201d framework\n\n(42:36) Work versus personal: one product or two?\n\n(47:14) Long-lived agents, persistent memory, and the computer abstraction\n\n(51:04) Grok Bot as an always-on infovore and chief of staff\n\n(53:35) How fast the team moves and what preserves the startup feeling\n\n(58:20) SpaceXAI pillars\n\n(1:00:44) The first 90% vs. the last 10%\n\n(1:03:30) Moving fast at scale\n\n(1:06:40) How Cursor kept winning in the most competitive market in the world\n\n(1:10:04) Company values: \u201cdeleting the product\u201d and \u201cjust do the thing\u201d\n\n(1:11:45) Moats: discovered, not planned\n\n(1:15:11) Tips for new users and power users\n\n(1:18:00) Lightning round and final thoughts\n\n\u2014\n\nReferences: https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month\n\n\u2014\n\nProduction and marketing by https://penname.co/ . For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com .\n\n\u2014\n\nLenny may be an investor in the companies discussed.\n\nTo hear more, visit www.lennysnewsletter.com",
+  "duration_seconds": 4963,
+  "feed_id": "lennys-podcast",
+  "feed_name": "Lenny's Podcast",
+  "feed_priority": 5,
+  "id": "9cff94548d0d1363c14b",
+  "link": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+  "published": "2026-09-08T12:31:49+00:00",
+  "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=maSdsTLaMuU",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "WorkOS",
+      "url": "https://workos.com/lenny"
+    },
+    {
+      "text": "Mercury",
+      "url": "https://mercury.com/command?utm_source=lennys&utm_medium=sponsored_newsletter&utm_campaign=26q3_brand_campaign"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+      "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month"
+    },
+    {
+      "text": "https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0",
+      "url": "https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0"
+    },
+    {
+      "text": "https://x.com/romanugarte_",
+      "url": "https://x.com/romanugarte_"
+    },
+    {
+      "text": "https://www.linkedin.com/in/romanugarte",
+      "url": "https://www.linkedin.com/in/romanugarte"
+    },
+    {
+      "text": "https://x.ai",
+      "url": "https://x.ai"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com"
+    },
+    {
+      "text": "https://twitter.com/lennysan",
+      "url": "https://twitter.com/lennysan"
+    },
+    {
+      "text": "https://www.linkedin.com/in/lennyrachitsky/",
+      "url": "https://www.linkedin.com/in/lennyrachitsky/"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+      "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month"
+    },
+    {
+      "text": "https://penname.co/",
+      "url": "https://penname.co/"
+    },
+    {
+      "text": "podcast@lennyrachitsky.com",
+      "url": "mailto:podcast@lennyrachitsky.com"
+    },
+    {
+      "text": "www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com?utm_medium=podcast&utm_campaign=show-notes-no-free-preview-language"
+    }
+  ]
+}
