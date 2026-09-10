@@ -1,0 +1,73 @@
+{
+  "changed_views": [
+    "Suno's announced artist partnerships should not be reduced to an assumed streaming-style royalty rate: the described mechanism depends on opted-in content, attributable users, and products still being developed.",
+    "Creative-model quality is not a single ranking: Suno is explicitly offering different post-training tradeoffs for novelty and complete-song polish.",
+    "Technical defensibility and financing ability are complementary requirements in Cahn's grid-investment framework; deep IP alone is not sufficient."
+  ],
+  "entities": [
+    "Suno",
+    "Mikey Shulman",
+    "David Cahn",
+    "Sequoia Capital",
+    "Form Energy",
+    "Type",
+    "Fletcher Richman",
+    "Keith Rabois",
+    "Khosla Ventures",
+    "OpenAI",
+    "Anthropic"
+  ],
+  "follow_ups": [
+    "Check Suno's eventual artist-product terms for opt-in scope, revenue attribution, payout rates, and implications for application margins.",
+    "Look for measured user preference and engagement differences between V6 and V6 Wild rather than assuming more novelty improves every workflow.",
+    "Track Type's paid-team retention, collaborative usage, and deployment controls to distinguish a durable workflow product from an early product pitch.",
+    "Track Form Energy's deployment milestones and financing needs against the timing of AI-related electricity demand.",
+    "When the relevant lab filings become available, compare reported margins and revenue quality with the assumptions underlying private AI valuations."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Shulman says forthcoming Suno products will let users work with opted-in artists' content and send those artists a share of revenue attributable to the participating users.",
+      "confidence": "high",
+      "evidence": "He describes long-term music-company partnerships and planned artist-content experiences, with part of the relevant users' revenue flowing to artists. Later he says economic models will evolve with the products; he gives no fixed royalty percentage or universal revenue-sharing formula.",
+      "kind": "forecast",
+      "timestamp": "01:15:33; 01:16:07; 01:24:03"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Cahn distinguishes defensible grid technology from neocloud financing and treats billion-dollar fundraising capacity as an investment prerequisite for capital-intensive hardware founders.",
+      "confidence": "high",
+      "evidence": "He characterizes neocloud innovation chiefly as financing GPU purchases, contrasts that with years of difficult hardware R&D, and cites Sequoia's newly announced Form Energy investment after nine years of development. He says he may decline even strong seed-stage hardware IP if he doubts the founder can raise the billion dollars needed to reach deployment scale.",
+      "kind": "opinion",
+      "timestamp": "01:00:57; 01:02:10; 01:03:24"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Richman reports that Type's early niche is nontechnical teams at companies with roughly 25 to a few hundred employees, especially direct-to-consumer e-commerce businesses.",
+      "confidence": "high",
+      "evidence": "He says these teams need shared workspaces and deployment tooling around code generated with Claude or ChatGPT, while tiny teams can work directly in a chatbot and engineers already know established tools. He describes e-commerce's structured advertising, listings, and inventory workflows as a good agent fit and reports a $4 million raise, but supplies no customer count or retention metrics.",
+      "kind": "observation",
+      "timestamp": "02:53:40; 02:54:35; 02:55:23; 02:57:13"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Shulman says Suno deliberately post-trained V6 Wild for more interesting creative output at some expense to complete-song quality.",
+      "confidence": "high",
+      "evidence": "He describes music evaluation as difficult and dependent on taste rather than the benchmarks available to language-model developers. He says V6 and V6 Wild use different post-training, with Wild producing more interesting material but being somewhat worse at making full songs: a deliberate product tradeoff, not a claim that one variant dominates every quality dimension.",
+      "kind": "observation",
+      "timestamp": "01:14:21; 01:21:46; 01:22:14"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Rabois argues that disappointing OpenAI or Anthropic public-market metrics could reset AI startup valuations because current underwriting depends on trillion-dollar outcomes within a venture fund's lifetime.",
+      "confidence": "medium",
+      "evidence": "He identifies a revenue or margin disappointment around the labs' IPOs or early public quarters as a possible trigger for broad repricing and reduced access to funding. He explicitly says he is not predicting such a miss or calling it likely; if one occurred, he considers margins more vulnerable than revenue at present.",
+      "kind": "forecast",
+      "timestamp": "01:43:06; 01:43:44; 01:44:02; 01:44:11"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Suno CEO Mikey Shulman outlines forthcoming opt-in artist products with user-attributable revenue sharing and explains the deliberate creativity-versus-song-quality tradeoff in V6 Wild. David Cahn discusses the proprietary technology and financing requirements behind Sequoia's energy investments, Fletcher Richman describes Type's nontechnical-team deployment niche, and Keith Rabois identifies a conditional IPO risk to AI valuations.",
+  "why_it_matters": "The interviews supply specific mechanisms for AI application economics and investment durability: how artists could participate in product revenue, why creative models need different optimization targets, where shared agent tooling finds demand, and why hardware intellectual property still needs exceptional access to capital. The IPO discussion is a downside scenario, not evidence that a market reset is imminent."
+}

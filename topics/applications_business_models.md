@@ -467,3 +467,19 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 
 - **Ugarte reports that 99% of Grok Bot automations are created through natural-language instructions rather than a configuration interface.** [29:15; 29:40; 29:54] He contrasts competitors' sidebar-based trigger-and-action setup flows with Grok Bot requests such as a recurring reminder. He gives the 99% figure as the platform pattern, without a measurement window, denominator, or independent verification.
 - **Ugarte says chief-of-staff orchestration emerged from user behavior before the team began encouraging it in the product.** [12:14; 12:47; 13:06; 13:55; 14:07] During roughly two weeks of manually onboarding a couple hundred people, the team tested whether external users would independently repeat an internal pattern: promoting one bot to coordinate a set of specialized bots. He says many did without that explicit suggestion, after which the team modestly encouraged the pattern while retaining other ways to use the product.
+
+<!-- episode:09fe57ff68e7f14e822e -->
+## 2026-09-10 - [Coinbase’s Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong](https://www.youtube.com/watch?v=uLDK4l_-gUE)
+
+- **Armstrong reports that about 76% of the agentic-commerce transactions Coinbase observes are below $0.30, with information purchases a prominent use case.** [06:47; 07:12; 07:23; 07:48] He contrasts these amounts with an approximately $0.30 flat card-processing charge and describes agents buying search, financial data, and specialized agents' outputs. The statistic concerns the transactions his team sees, not a measured share of all agent commerce; he supplies no sampling period or methodology.
+- **Armstrong describes NewLimit's AI-to-lab discovery loop and targets its first phase-one trial for 'next year,' initially in alcohol-related liver disease.** [28:28; 28:44; 29:13; 29:25; 31:57; 32:41] He says AI proposes transcription-factor combinations, pooled screens narrow candidates, and animal assays test the strongest results. He reports reprogramming human cells in humanized mice, ongoing non-human-primate testing, and a planned first human trial. He identifies liver, vascular, and immune-cell programs; the clinical timing is a forecast and the reported results are preclinical, not demonstrated benefit in patients.
+
+<!-- episode:1ba93f69fa91375cb748 -->
+## 2026-09-09 - [Apple Unveils iPhone Duo, Muse AI Agent, Keith Rabois Joins | David Cahn, Mikey Shulman, David Perell, Jim Reilly, Fletcher Richman](https://share.transistor.fm/s/3cda42af)
+
+- **Shulman says forthcoming Suno products will let users work with opted-in artists' content and send those artists a share of revenue attributable to the participating users.** [01:15:33; 01:16:07; 01:24:03] He describes long-term music-company partnerships and planned artist-content experiences, with part of the relevant users' revenue flowing to artists. Later he says economic models will evolve with the products; he gives no fixed royalty percentage or universal revenue-sharing formula.
+
+<!-- episode:60ce9e9f9344e04260c3 -->
+## 2026-09-10 - [When AI Improves Itself | Richard Socher (Recursive)](https://podcasters.spotify.com/pod/show/firstmark/episodes/When-AI-Improves-Itself--Richard-Socher-Recursive-e3oiodo)
+
+- **Socher considers broad self-driving laboratory investment somewhat early and expects better timing in two to three years, once software and simulations can select worthwhile expensive experiments.** [01:00:48; 01:01:03; 01:01:18; 31:53; 32:08; 37:45] He welcomes early robotic-lab efforts but expects improvements in models, scientific-data integration, and simulation fidelity before experiments lasting hours, days, or weeks become an attractive next step. He separately rejects an immediate hard takeoff in medicine because physical constraints and long-term clinical follow-up still consume calendar time.

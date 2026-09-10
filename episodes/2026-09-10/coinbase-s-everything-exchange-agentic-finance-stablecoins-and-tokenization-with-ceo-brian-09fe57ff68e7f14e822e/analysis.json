@@ -1,0 +1,76 @@
+{
+  "changed_views": [
+    "Coinbase's internal agent strategy includes an explicit feedback-to-memory loop, not just distributing coding assistants; its effectiveness still needs measured acceptance and defect rates.",
+    "The reported small size of observed agent payments makes pay-per-request information services a more concrete near-term use case than broad predictions about an autonomous agent economy.",
+    "Coinbase's diversification figures concern Bitcoin spot fees, not the elimination of exposure to crypto activity more broadly."
+  ],
+  "entities": [
+    "Brian Armstrong",
+    "Elad Gil",
+    "Coinbase",
+    "Toshi",
+    "x402",
+    "Bitcoin",
+    "NewLimit"
+  ],
+  "follow_ups": [
+    "Look for measured Toshi PR acceptance, escaped defects, and review time before and after mandatory memory updates.",
+    "Check the 76% transaction statistic's period, sample coverage, repeat-paying users, and treatment of automated or self-generated traffic.",
+    "Track the launch and authorization controls of segregated Coinbase agent accounts, including spending limits, revocation, and human approval boundaries.",
+    "Track NewLimit's registered first-in-human study, eligibility criteria, safety evidence, and actual start date before treating the projected clinical milestone as achieved."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Armstrong says Coinbase is requiring code-review corrections to update persistent team and repository memory consumed by future coding agents.",
+      "confidence": "high",
+      "evidence": "He describes Markdown 'brains' containing incidents, financial controls, experiments, and accepted/rejected pull requests, integrated with Coinbase's Toshi harness. Reviewer corrections must flow back into that memory. He says one-shot PR acceptance then improves, but gives no measured improvement or baseline; this is a workflow-memory loop, not evidence of autonomous model-weight improvement.",
+      "kind": "observation",
+      "timestamp": "13:01; 13:43; 14:04; 14:18"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Armstrong reports that about 76% of the agentic-commerce transactions Coinbase observes are below $0.30, with information purchases a prominent use case.",
+      "confidence": "medium",
+      "evidence": "He contrasts these amounts with an approximately $0.30 flat card-processing charge and describes agents buying search, financial data, and specialized agents' outputs. The statistic concerns the transactions his team sees, not a measured share of all agent commerce; he supplies no sampling period or methodology.",
+      "kind": "observation",
+      "timestamp": "06:47; 07:12; 07:23; 07:48"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Coinbase plans identity-linked agent accounts with segregated funds alongside a separate self-custodial-wallet route, according to Armstrong.",
+      "confidence": "medium",
+      "evidence": "He says a near-future Coinbase account will let a human delegate trading and payments using a separate balance, while agents can also use self-custodial stablecoin wallets. He identifies payment handoffs as a recurring obstacle and expects stablecoin-backed cards to provide compatibility with existing merchants, alongside x402 payments.",
+      "kind": "forecast",
+      "timestamp": "04:51; 05:20; 05:41; 05:53"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Armstrong cites a broader revenue mix and roughly $100 million in annualized prediction-market revenue as evidence for Coinbase's Everything Exchange strategy.",
+      "confidence": "high",
+      "evidence": "He cites 88% of revenue outside Bitcoin trading and recalls prediction-market growth above 100% quarter over quarter, explicitly qualifying his recollection. The [Q2 disclosure](https://investor.coinbase.com/news/news-details/2026/Coinbase-Q2-Earnings-Everything-Exchange-Drives-3rd-Consecutive-Quarter-of-Record-Crypto-Trading-Volume-Market-Share-Revenue-Diversification-and-Resilience/default.aspx) specifies 88% of net revenue outside BTC spot trading and 106% prediction-market growth. That is not 88% non-crypto revenue, and the annualized figure is not full-year realized revenue.",
+      "kind": "observation",
+      "timestamp": "18:37; 18:45; 21:54; 22:02"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Armstrong positions non-US tokenized equities as Coinbase's next step toward putting multiple asset classes on common trading and transfer infrastructure.",
+      "confidence": "medium",
+      "evidence": "He says Coinbase has announced a tokenized-stock product outside the US, describes the tokens as securities backed one-for-one by shares held in custody rather than synthetic exposure, and says the company is seeking a US regulatory path. He extends the roadmap to private credit, treasuries, and bank deposits; those extensions are a vision, not reported launches.",
+      "kind": "observation",
+      "timestamp": "19:08; 19:19; 20:08; 20:22"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Armstrong describes NewLimit's AI-to-lab discovery loop and targets its first phase-one trial for 'next year,' initially in alcohol-related liver disease.",
+      "confidence": "medium",
+      "evidence": "He says AI proposes transcription-factor combinations, pooled screens narrow candidates, and animal assays test the strongest results. He reports reprogramming human cells in humanized mice, ongoing non-human-primate testing, and a planned first human trial. He identifies liver, vascular, and immune-cell programs; the clinical timing is a forecast and the reported results are preclinical, not demonstrated benefit in patients.",
+      "kind": "forecast",
+      "timestamp": "28:28; 28:44; 29:13; 29:25; 31:57; 32:41"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Brian Armstrong describes Coinbase's shift toward agent-operated financial accounts and persistent memory for its internal coding agents. The strongest details are reviewer feedback written back into team/repository memory, a reported concentration of agent payments below $0.30, and a two-track agent-account architecture. He also discusses diversification beyond Bitcoin spot fees, tokenized equities outside the US, and NewLimit's AI-guided drug-discovery pipeline; commercial metrics and clinical timelines remain attributed management claims.",
+  "why_it_matters": "The interview connects two practical agent bottlenecks: retaining organizational knowledge across coding tasks and paying for external services without repeatedly handing control back to a human. It also gives concrete product and revenue markers for assessing Coinbase's broader financial-platform strategy, without establishing that crypto-cycle exposure has disappeared or that NewLimit's therapies work in humans."
+}

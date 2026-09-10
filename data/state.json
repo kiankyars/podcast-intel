@@ -63,6 +63,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/b5f0e80c/transcription.txt",
       "updated_at": "2026-06-11T16:06:42.800826+00:00"
     },
+    "09fe57ff68e7f14e822e": {
+      "analysis_path": "episodes/2026-09-10/coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokenization-with-ceo-brian-09fe57ff68e7f14e822e/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=uLDK4l_-gUE",
+      "published": "2026-09-10T10:00:00+00:00",
+      "raw_transcript": "episodes/2026-09-10/coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokenization-with-ceo-brian-09fe57ff68e7f14e822e/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-10/coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokenization-with-ceo-brian-09fe57ff68e7f14e822e/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-10/coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokenization-with-ceo-brian-09fe57ff68e7f14e822e/summary.md",
+      "title": "Coinbase\u2019s Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong",
+      "transcript_path": "episodes/2026-09-10/coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokenization-with-ceo-brian-09fe57ff68e7f14e822e/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=uLDK4l_-gUE",
+      "updated_at": "2026-09-10T16:17:32.242441+00:00"
+    },
     "0a353092bee29557d746": {
       "analysis_path": "episodes/2026-08-03/why-smarter-ai-models-could-drive-up-compute-prices-10x-0a353092bee29557d746/analysis.json",
       "error": "",
@@ -282,6 +299,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/dcf3a038/transcription.vtt",
       "updated_at": "2026-09-03T16:17:15.285019+00:00"
+    },
+    "1ba93f69fa91375cb748": {
+      "analysis_path": "episodes/2026-09-09/apple-unveils-iphone-duo-muse-ai-agent-keith-rabois-joins-david-cahn-mikey-shulman-david-p-1ba93f69fa91375cb748/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/3cda42af",
+      "published": "2026-09-09T21:34:58+00:00",
+      "raw_transcript": "episodes/2026-09-09/apple-unveils-iphone-duo-muse-ai-agent-keith-rabois-joins-david-cahn-mikey-shulman-david-p-1ba93f69fa91375cb748/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-09/apple-unveils-iphone-duo-muse-ai-agent-keith-rabois-joins-david-cahn-mikey-shulman-david-p-1ba93f69fa91375cb748/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-09/apple-unveils-iphone-duo-muse-ai-agent-keith-rabois-joins-david-cahn-mikey-shulman-david-p-1ba93f69fa91375cb748/summary.md",
+      "title": "Apple Unveils iPhone Duo, Muse AI Agent, Keith Rabois Joins | David Cahn, Mikey Shulman, David Perell, Jim Reilly, Fletcher Richman",
+      "transcript_path": "episodes/2026-09-09/apple-unveils-iphone-duo-muse-ai-agent-keith-rabois-joins-david-cahn-mikey-shulman-david-p-1ba93f69fa91375cb748/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=gc1TFhqJE0k",
+      "updated_at": "2026-09-10T16:17:32.244968+00:00"
     },
     "1bf240c7e8316a75d9c2": {
       "analysis_path": "episodes/2026-06-04/the-rise-of-the-full-stack-builder-and-hyper-leveraged-generalist-with-microsoft-ceo-satya-1bf240c7e8316a75d9c2/analysis.json",
@@ -805,7 +839,7 @@
     },
     "4726656ed66556023bea": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-09T18:13:25.544099+00:00"
+      "updated_at": "2026-09-10T16:12:38.945914+00:00"
     },
     "47314c121cc36c401899": {
       "analysis_path": "episodes/2026-08-25/neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488-47314c121cc36c401899/analysis.json",
@@ -855,7 +889,7 @@
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-09T18:13:25.547235+00:00"
+      "updated_at": "2026-09-10T16:12:38.947879+00:00"
     },
     "528f56376dc5b17037c9": {
       "analysis_path": "episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/analysis.json",
@@ -1081,9 +1115,26 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.120406+00:00"
     },
+    "60ce9e9f9344e04260c3": {
+      "analysis_path": "episodes/2026-09-10/when-ai-improves-itself-richard-socher-recursive-60ce9e9f9344e04260c3/analysis.json",
+      "error": "",
+      "feed_id": "mad-podcast",
+      "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/When-AI-Improves-Itself--Richard-Socher-Recursive-e3oiodo",
+      "published": "2026-09-10T11:30:00+00:00",
+      "raw_transcript": "episodes/2026-09-10/when-ai-improves-itself-richard-socher-recursive-60ce9e9f9344e04260c3/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-10/when-ai-improves-itself-richard-socher-recursive-60ce9e9f9344e04260c3/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-10/when-ai-improves-itself-richard-socher-recursive-60ce9e9f9344e04260c3/summary.md",
+      "title": "When AI Improves Itself | Richard Socher (Recursive)",
+      "transcript_path": "episodes/2026-09-10/when-ai-improves-itself-richard-socher-recursive-60ce9e9f9344e04260c3/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=kyyLku5F3bo",
+      "updated_at": "2026-09-10T16:17:32.247288+00:00"
+    },
     "61f1dd347a133bc3c6a0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-09T18:13:25.546109+00:00"
+      "updated_at": "2026-09-10T16:12:38.947428+00:00"
     },
     "62a383ca4443066219db": {
       "analysis_path": "episodes/2026-07-12/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal-62a383ca4443066219db/analysis.json",
@@ -1143,6 +1194,10 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
       "updated_at": "2026-07-20T18:27:18.566605+00:00"
+    },
+    "69060df278188f065f65": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-10T16:12:38.944211+00:00"
     },
     "690ea092c6cda715494c": {
       "status": "metadata_skipped",
@@ -1370,7 +1425,7 @@
     },
     "783ba35c867dfa816b61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-09T18:13:25.543198+00:00"
+      "updated_at": "2026-09-10T16:12:38.945291+00:00"
     },
     "78c9c4d6670eadbc1601": {
       "analysis_path": "episodes/2026-06-01/ep-013-aws-margins-jump-10-while-azure-and-gcp-flatline-tokenomics-jordan-nanos-jeremie-el-78c9c4d6670eadbc1601/analysis.json",
@@ -1446,11 +1501,11 @@
     },
     "7be8c83bb02fbe15e4b6": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-09T18:13:25.547883+00:00"
+      "updated_at": "2026-09-10T16:12:38.948356+00:00"
     },
     "7c58aaef4685a3b31591": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-09T18:13:25.548771+00:00"
+      "updated_at": "2026-09-10T16:12:38.948815+00:00"
     },
     "7ca5460b7d4b74f43cff": {
       "analysis_path": "episodes/2026-06-09/alex-sacerdote-how-to-invest-through-technology-cycles-invest-like-the-best-ep-477-7ca5460b7d4b74f43cff/analysis.json",
@@ -1724,7 +1779,7 @@
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-09T18:13:25.549715+00:00"
+      "updated_at": "2026-09-10T16:12:38.949263+00:00"
     },
     "97a3346678ba03fddb55": {
       "analysis_path": "episodes/2026-08-20/ep-026-pjm-s-12b-modeling-mistake-is-hitting-ratepayers-again-datacenter-energy-robert-bos-97a3346678ba03fddb55/analysis.json",
@@ -2425,7 +2480,7 @@
     },
     "e1cf9a4de101fd863979": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-09T18:13:25.544681+00:00"
+      "updated_at": "2026-09-10T16:12:38.946418+00:00"
     },
     "e2c7b3697003264882d4": {
       "analysis_path": "episodes/2026-08-26/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apo-e2c7b3697003264882d4/analysis.json",
@@ -2548,7 +2603,7 @@
     },
     "e7b0e34ac82ae8c73b8e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-09T18:13:25.545402+00:00"
+      "updated_at": "2026-09-10T16:12:38.946957+00:00"
     },
     "eb0d59dac5a1ac1f776c": {
       "analysis_path": "episodes/2026-07-12/alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p-doom-is-down-to-5-eb0d59dac5a1ac1f776c/analysis.json",

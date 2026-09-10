@@ -380,3 +380,13 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 ## 2026-09-08 - [Greg Brockman on Astra and the Future of OpenAI](https://share.transistor.fm/s/b4fe5e02)
 
 - **Brockman reports that an OpenAI model produced a Navier-Stokes singularity counterexample, positioning new mathematical knowledge as a frontier capability milestone.** [00:00:24; 00:00:51; 00:01:09; 00:01:55] He describes a proof that the equations can break down under certain conditions and argues that scientists can learn new methods from model output. The interview does not establish independent acceptance of the proof or identify the model as public Astra. Separately, OpenAI's [published announcement](https://openai.com/index/navier-stokes-solution/) describes an internal model more capable than Astra and a Lean formalization; this is company-provided context, not an independent verification performed for this digest.
+
+<!-- episode:1ba93f69fa91375cb748 -->
+## 2026-09-09 - [Apple Unveils iPhone Duo, Muse AI Agent, Keith Rabois Joins | David Cahn, Mikey Shulman, David Perell, Jim Reilly, Fletcher Richman](https://share.transistor.fm/s/3cda42af)
+
+- **Shulman says Suno deliberately post-trained V6 Wild for more interesting creative output at some expense to complete-song quality.** [01:14:21; 01:21:46; 01:22:14] He describes music evaluation as difficult and dependent on taste rather than the benchmarks available to language-model developers. He says V6 and V6 Wild use different post-training, with Wild producing more interesting material but being somewhat worse at making full songs: a deliberate product tradeoff, not a claim that one variant dominates every quality dimension.
+
+<!-- episode:60ce9e9f9344e04260c3 -->
+## 2026-09-10 - [When AI Improves Itself | Richard Socher (Recursive)](https://podcasters.spotify.com/pod/show/firstmark/episodes/When-AI-Improves-Itself--Richard-Socher-Recursive-e3oiodo)
+
+- **Socher argues that affordable simulations and verifiers determine where AI can progress rapidly; today's biological data and simulation gaps prevent simply carrying software's improvement loop into biology.** [17:32; 18:03; 20:52; 21:31; 23:57; 24:31; 57:32] He ties superhuman performance to repeated experiments in simulations or verification tools, explicitly requiring experiments that do not take years. He contrasts software with cells that cannot yet be adequately simulated, calls for many more gene-knockout and molecular perturbation measurements, and says a comprehensive virtual cell does not yet exist.

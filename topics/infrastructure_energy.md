@@ -161,3 +161,8 @@ Data centers, power, cooling, networking, capital expenditure, and physical cons
 ## 2026-09-03 - [Redefining Chip Architecture with Arm CEO Rene Haas]()
 
 - **Haas expects AI compute supply to remain constrained for at least three to five years and identifies data-center construction as a likely next bottleneck rather than seeing near-term physical oversupply.** [11:59; 12:42; 12:48; 13:47; 14:57] He points to advanced-node, packaging, memory, capital, labor, and permitting constraints; he says few data-center projects are ahead of schedule or using less labor than planned and argues that supply is not close to exceeding demand.
+
+<!-- episode:1ba93f69fa91375cb748 -->
+## 2026-09-09 - [Apple Unveils iPhone Duo, Muse AI Agent, Keith Rabois Joins | David Cahn, Mikey Shulman, David Perell, Jim Reilly, Fletcher Richman](https://share.transistor.fm/s/3cda42af)
+
+- **Cahn distinguishes defensible grid technology from neocloud financing and treats billion-dollar fundraising capacity as an investment prerequisite for capital-intensive hardware founders.** [01:00:57; 01:02:10; 01:03:24] He characterizes neocloud innovation chiefly as financing GPU purchases, contrasts that with years of difficult hardware R&D, and cites Sequoia's newly announced Form Energy investment after nine years of development. He says he may decline even strong seed-stage hardware IP if he doubts the founder can raise the billion dollars needed to reach deployment scale.
