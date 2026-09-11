@@ -390,3 +390,8 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 ## 2026-09-10 - [When AI Improves Itself | Richard Socher (Recursive)](https://podcasters.spotify.com/pod/show/firstmark/episodes/When-AI-Improves-Itself--Richard-Socher-Recursive-e3oiodo)
 
 - **Socher argues that affordable simulations and verifiers determine where AI can progress rapidly; today's biological data and simulation gaps prevent simply carrying software's improvement loop into biology.** [17:32; 18:03; 20:52; 21:31; 23:57; 24:31; 57:32] He ties superhuman performance to repeated experiments in simulations or verification tools, explicitly requiring experiments that do not take years. He contrasts software with cells that cannot yet be adequately simulated, calls for many more gene-knockout and molecular perturbation measurements, and says a comprehensive virtual cell does not yet exist.
+
+<!-- episode:df63a40da1a63bb23dbe -->
+## 2026-09-10 - [YC Demo Day, Spoon = Bent (Again), iPhone Duo Reactions | Garry Tan, Om Buddhdev, Karen Serfaty, Antonio Li, Edward Ge, Alfredo Gonzalez](https://share.transistor.fm/s/35e8db3b)
+
+- **Om Buddhdev says Olam Labs validates proposed training tasks by post-training open-source models on GPUs before selling the data to frontier labs.** [00:44:29; 00:44:47; 00:45:30; 00:49:30; 00:49:42] He describes simulated workplaces and negotiation settings for measuring deception and collaboration, then explains that benchmarks demonstrate the capability a dataset can improve. Olam tests tasks through its own post-training runs. He says current GPU sourcing is manageable at its size but views future competition with larger labs for compute as a business risk.
