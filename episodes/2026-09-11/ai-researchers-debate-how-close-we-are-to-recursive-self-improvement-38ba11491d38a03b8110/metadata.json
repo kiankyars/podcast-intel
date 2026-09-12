@@ -1,0 +1,74 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/215199144/a0f47ff12d3d6420b3180f18adb9bfa3.mp3",
+  "description_html": "<p>New episode with <a target=\"_blank\" href=\"http://joschu.net/\">John Schulman</a>, <a target=\"_blank\" href=\"https://www.beren.io/\">Beren Millidge</a> and <a target=\"_blank\" href=\"https://charlesponeill.com/\">Charlie O\u2019Neill</a>. I got together with some of the most insightful AI researchers I know who are at the openish companies, because I wanted to hear the details of what's actually happening at the frontier and what comes next.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/PrSf7IOYu-I\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/john-beren-charlie\">transcript</a>.</p><p>Sponsors</p><p>* <a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">Antithesis</a> helps you trust your code. As agents generate more and more of your software, the bottleneck shifts from your engineers actually writing code to verifying it. Antithesis does that testing for you. Ron Minsky, who co-leads Jane Street\u2019s tech group, told me that Antithesis was able to help his team shake out bugs in software that had already undergone heavy review. If you want to see how it fits into your development process, go to<a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\"> </a><a target=\"_blank\" href=\"http://antithesis.com/dwarkesh\">antithesis.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://x.ai/bot\">Grok Bot</a> has been a great way to hand off tasks. My team uses it as a producer: whenever my editor posts a rough cut of an interview in Slack, Grok Bot opens the transcript on its own computer, matches my notes to the exact moments they refer to, and uses a file of my preferences to suggest edits. Then it sends me its top clip candidates so I can review everything from my phone, which saves my editors from sorting through hours of footage. Try Grok Bot for yourself at<a target=\"_blank\" href=\"https://x.ai/bot\"> </a><a target=\"_blank\" href=\"http://x.ai/bot\">x.ai/bot</a></p><p>* <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a> just launched its most ambitious competition yet: design a protocol-emulator ASIC. Basically, if you have a chip you want to test outside of a live system, you should be able to connect it to your design and have it simulate realistic traffic. Jane Street wants general-purpose, reprogrammable designs that can work across multiple protocols and remain useful as new ones emerge. The most novel submissions will actually get taped out, and the winners will receive a physical copy! The competition is open until January 18, 2027, and teams are encouraged. To get started download the template code at <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">janestreet.com/dwarkesh</a></p><p>Timestamps</p><p>(00:00:00) \u2013 Steelmanning the case against RSI</p><p>(00:18:39) \u2013 What\u2019s driving the Chinese labs\u2019 progress</p><p>(00:28:06) \u2013 How will automated AI researchers be trained</p><p>(00:33:51) \u2013 Will long-horizon RL elicit AGI?</p><p>(00:45:24) \u2013 The sim-to-real gap</p><p>(01:00:33) \u2013 How much progress is explained by data?</p><p>(01:18:03) \u2013 Why is RL working so well?</p><p>(01:24:54) \u2013 Move 37 and entropy collapse</p><p>(01:28:32) \u2013 Rapid-fire timelines</p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.dwarkesh.com?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.dwarkesh.com</a>",
+  "description_text": "New episode with John Schulman , Beren Millidge and Charlie O\u2019Neill . I got together with some of the most insightful AI researchers I know who are at the openish companies, because I wanted to hear the details of what's actually happening at the frontier and what comes next.\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\n* Antithesis helps you trust your code. As agents generate more and more of your software, the bottleneck shifts from your engineers actually writing code to verifying it. Antithesis does that testing for you. Ron Minsky, who co-leads Jane Street\u2019s tech group, told me that Antithesis was able to help his team shake out bugs in software that had already undergone heavy review. If you want to see how it fits into your development process, go to antithesis.com/dwarkesh\n\n* Grok Bot has been a great way to hand off tasks. My team uses it as a producer: whenever my editor posts a rough cut of an interview in Slack, Grok Bot opens the transcript on its own computer, matches my notes to the exact moments they refer to, and uses a file of my preferences to suggest edits. Then it sends me its top clip candidates so I can review everything from my phone, which saves my editors from sorting through hours of footage. Try Grok Bot for yourself at x.ai/bot\n\n* Jane Street just launched its most ambitious competition yet: design a protocol-emulator ASIC. Basically, if you have a chip you want to test outside of a live system, you should be able to connect it to your design and have it simulate realistic traffic. Jane Street wants general-purpose, reprogrammable designs that can work across multiple protocols and remain useful as new ones emerge. The most novel submissions will actually get taped out, and the winners will receive a physical copy! The competition is open until January 18, 2027, and teams are encouraged. To get started download the template code at janestreet.com/dwarkesh\n\nTimestamps\n\n(00:00:00) \u2013 Steelmanning the case against RSI\n\n(00:18:39) \u2013 What\u2019s driving the Chinese labs\u2019 progress\n\n(00:28:06) \u2013 How will automated AI researchers be trained\n\n(00:33:51) \u2013 Will long-horizon RL elicit AGI?\n\n(00:45:24) \u2013 The sim-to-real gap\n\n(01:00:33) \u2013 How much progress is explained by data?\n\n(01:18:03) \u2013 Why is RL working so well?\n\n(01:24:54) \u2013 Move 37 and entropy collapse\n\n(01:28:32) \u2013 Rapid-fire timelines\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com",
+  "duration_seconds": 5821,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "38ba11491d38a03b8110",
+  "link": "https://www.dwarkesh.com/p/john-beren-charlie",
+  "published": "2026-09-11T16:28:11+00:00",
+  "title": "AI researchers debate how close we are to recursive self-improvement",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/john-beren-charlie",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "John Schulman",
+      "url": "http://joschu.net/"
+    },
+    {
+      "text": "Beren Millidge",
+      "url": "https://www.beren.io/"
+    },
+    {
+      "text": "Charlie O\u2019Neill",
+      "url": "https://charlesponeill.com/"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/PrSf7IOYu-I"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/john-beren-charlie"
+    },
+    {
+      "text": "Antithesis",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "antithesis.com/dwarkesh",
+      "url": "http://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "Grok Bot",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "x.ai/bot",
+      "url": "http://x.ai/bot"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}
