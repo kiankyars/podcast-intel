@@ -1,0 +1,66 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/216149332/7d69c76fc9ac6716e7931d0de12ec324.mp3",
+  "description_html": "<p>New episode with Noam Brown.</p><p>We talk about multi-agent, Navier-Stokes, and what the current explosion of maths progress tells us about what happens once you automate AI research.</p><p>And we also discuss how we will know if the models are actually aligned before we kick off RSI.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/6AgOfiZOWiY\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/noam-brown\">transcript</a>.</p><p>Sponsors</p><p>* <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a> has been interested in AI for a lot longer than you\u2019d think, and not just for trading. In 2011, a full year before AlexNet and over a decade before ChatGPT launched, they hosted the first FOOM Debate between Eliezer Yudkowsky and Robin Hanson on whether AI would lead to an intelligence explosion. Now Jane Street is revisiting the question with a new panel: Daniel Kokotajlo, Ege Erdil, Ryan Greenblatt, and Jaime Sevilla, hosted by Ron Minsky in San Francisco this October. I expect it to be a truly excellent conversation. Register at<a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\"> </a><a target=\"_blank\" href=\"http://janestreet.com/dwarkesh\">janestreet.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://x.ai/bot\">Grok Bot</a> has made handing off work super easy. It runs on its own cloud computer, where it installs the tools it needs to handle tasks end-to-end. For the podcast, we use Grok Bot to help produce our videos. You may have noticed that our ads feature animations of real websites. Getting these pixel-perfect used to mean running a convoluted, multi-step workflow ourselves. Now we just let Grok Bot handle it. Best of all, Grok Bot has learned all of our specs and preferences, so we don\u2019t have to redescribe the task each time! Try Grok Bot for yourself at<a target=\"_blank\" href=\"https://x.ai/bot\"> </a><a target=\"_blank\" href=\"http://x.ai/bot\">x.ai/bot</a></p><p>* <a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">Antithesis</a> gives you the confidence of a giant test suite without actually having to write one. Say you\u2019re doing a major backend refactor: building enough tests to trust it could take weeks. Antithesis solves this by running your software through countless simulated worlds, injecting faults and hunting for failures. On any PR, you can turn a dial to decide exactly how much testing you want. And because every run is fully deterministic, agents can branch off the moment a bug appears, rewind it, inspect memory, and replay it, all while the original test keeps running. Learn more at<a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\"> </a><a target=\"_blank\" href=\"http://antithesis.com/dwarkesh\">antithesis.com/dwarkesh</a></p><p>Timestamps</p><p>(00:00:00) \u2013 Multi-agent and Navier-Stokes</p><p>(00:15:28) \u2013 How will AI firms work?</p><p>(00:22:02) \u2013 What math progress tells us about recursive self improvement</p><p>(00:40:22) \u2013 Hugging Face and alignment</p><p>(01:01:18) \u2013 The internal/external model gap</p><p>(01:08:34) \u2013 Chain of thought is degrading</p><p>(01:14:12) \u2013 How will we know when alignment is solved?</p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.dwarkesh.com?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.dwarkesh.com</a>",
+  "description_text": "New episode with Noam Brown.\n\nWe talk about multi-agent, Navier-Stokes, and what the current explosion of maths progress tells us about what happens once you automate AI research.\n\nAnd we also discuss how we will know if the models are actually aligned before we kick off RSI.\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\n* Jane Street has been interested in AI for a lot longer than you\u2019d think, and not just for trading. In 2011, a full year before AlexNet and over a decade before ChatGPT launched, they hosted the first FOOM Debate between Eliezer Yudkowsky and Robin Hanson on whether AI would lead to an intelligence explosion. Now Jane Street is revisiting the question with a new panel: Daniel Kokotajlo, Ege Erdil, Ryan Greenblatt, and Jaime Sevilla, hosted by Ron Minsky in San Francisco this October. I expect it to be a truly excellent conversation. Register at janestreet.com/dwarkesh\n\n* Grok Bot has made handing off work super easy. It runs on its own cloud computer, where it installs the tools it needs to handle tasks end-to-end. For the podcast, we use Grok Bot to help produce our videos. You may have noticed that our ads feature animations of real websites. Getting these pixel-perfect used to mean running a convoluted, multi-step workflow ourselves. Now we just let Grok Bot handle it. Best of all, Grok Bot has learned all of our specs and preferences, so we don\u2019t have to redescribe the task each time! Try Grok Bot for yourself at x.ai/bot\n\n* Antithesis gives you the confidence of a giant test suite without actually having to write one. Say you\u2019re doing a major backend refactor: building enough tests to trust it could take weeks. Antithesis solves this by running your software through countless simulated worlds, injecting faults and hunting for failures. On any PR, you can turn a dial to decide exactly how much testing you want. And because every run is fully deterministic, agents can branch off the moment a bug appears, rewind it, inspect memory, and replay it, all while the original test keeps running. Learn more at antithesis.com/dwarkesh\n\nTimestamps\n\n(00:00:00) \u2013 Multi-agent and Navier-Stokes\n\n(00:15:28) \u2013 How will AI firms work?\n\n(00:22:02) \u2013 What math progress tells us about recursive self improvement\n\n(00:40:22) \u2013 Hugging Face and alignment\n\n(01:01:18) \u2013 The internal/external model gap\n\n(01:08:34) \u2013 Chain of thought is degrading\n\n(01:14:12) \u2013 How will we know when alignment is solved?\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com",
+  "duration_seconds": 4810,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "c9ac86dad4a9ff6ab0fb",
+  "link": "https://www.dwarkesh.com/p/noam-brown",
+  "published": "2026-09-17T15:38:13+00:00",
+  "title": "Noam Brown \u2013 Agent swarms, alignment, & recursive self-improvement",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/noam-brown",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/6AgOfiZOWiY"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/noam-brown"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "http://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "Grok Bot",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "x.ai/bot",
+      "url": "http://x.ai/bot"
+    },
+    {
+      "text": "Antithesis",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "antithesis.com/dwarkesh",
+      "url": "http://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "changed_views": [
+    "Agent value can come from persistence and evidence collection across existing systems, not just reducing labor cost; BackOps' claimed approval improvement is a concrete metric to validate.",
+    "Treat modular solar compute as a potentially faster physical deployment method, while separately testing utilization and delivered economics. A module installation time is not proof of a continuously operating large cluster.",
+    "Frontier capability improvements may reach regulated engineering organizations slowly because eligible model deployments and data handling constrain access."
+  ],
+  "entities": [
+    "BackOps",
+    "Sean McCarthy",
+    "Footprint",
+    "Eli Wachs",
+    "Roon",
+    "William Layden",
+    "Theory Ventures",
+    "Tomasz Tunguz",
+    "Sail",
+    "Impulse Space",
+    "Tom Mueller"
+  ],
+  "follow_ups": [
+    "Ask BackOps for comparable customer cohorts, approval-rate denominators, recovery dollars and agent costs, including human escalations.",
+    "Seek Footprint's false-negative rates, investigation precision, auditability and cost per resolved case across approved model configurations.",
+    "For Roon, verify commissioned MW, power availability by hour, GPU duty cycle, networking and all-in inference pricing at an operating site.",
+    "Track whether agent contracts priced against human labor retain customers and positive contribution margins after introductory subsidies."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "BackOps CEO Sean McCarthy says improved browser automation has expanded the systems his supply-chain agents can operate, while more persistent claim handling produces a reported improvement in recovery approvals.",
+      "confidence": "medium",
+      "evidence": "McCarthy says BackOps initially selected roughly ten integrations because browser tools and API access were limiting. It now serves customers using mainframes and common systems of record, often through contractor logins. He reports at least a 13% higher freight-claim approval rate than human filing, attributing gains to repeated appeals and more complete supporting documentation. The interview does not specify the baseline, sample size or whether 13% means relative growth or percentage points.",
+      "kind": "observation",
+      "timestamp": "02:00:26; 02:01:37; 02:03:05; 02:03:53"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Footprint CEO Eli Wachs describes financial-crime automation as an orchestration and evidence-access problem, with policy-specific agents and case memory alongside model intelligence.",
+      "confidence": "medium",
+      "evidence": "Wachs says Footprint charges usage credits by case complexity, routes across models and hosts some models itself. He describes a bank's 150-page policy becoming thousands of rules, each assigned a sub-agent environment. Synthetic cases derived from real investigations test new models, and access to hundreds of databases supports checking agents' research. These are company-reported design choices; no independent accuracy or cost benchmark is supplied.",
+      "kind": "observation",
+      "timestamp": "01:50:46; 01:52:38; 01:52:44; 01:53:56; 01:54:08"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Roon CEO William Layden says modular data centers and power electronics can attach compute directly to surplus utility-scale solar, but the large installation he describes is still a prospective capacity estimate.",
+      "confidence": "medium",
+      "evidence": "Layden describes server-containing Relic modules coupled into clusters, with one unit physically deployed in about sixty minutes using a forklift and two power wires. He says Roon is working with a 400 MW solar facility where he thinks 100\u2013200 MW of data-center capacity could fit. The interview does not establish that capacity as operating, or quantify GPU utilization, overnight power, networking, cooling or delivered token cost.",
+      "kind": "observation",
+      "timestamp": "01:28:28; 01:28:37; 01:29:27; 01:31:14"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Theory Ventures founder Tomasz Tunguz sees inference splitting into specialized markets with different latency and cost requirements, rather than one uniform serving business.",
+      "confidence": "medium",
+      "evidence": "He cites an investment in Sail for workloads that can wait five to ten minutes and says customers pay a premium for immediate responses. For voice, he emphasizes response latency, where inference runs and preparing caches for changing demand by time zone; he expects more serving to move toward the edge. He supplies no measured cost saving or latency comparison.",
+      "kind": "inference",
+      "timestamp": "01:12:58; 01:13:10; 01:14:27; 01:14:46; 01:14:58"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Tunguz reports a portfolio agent priced at parity with human labor while the fastest-growing AI harness companies command roughly 100\u2013150 times current ARR, making durable margins a key unresolved issue.",
+      "confidence": "medium",
+      "evidence": "He says Theory first observed a portfolio company charging at human-market rates in March or April 2026 and expects it could charge a premium. He argues elastic capacity can justify that price without replacing an employee. Separately, he says some rapidly growing harness businesses subsidize adoption through low gross margins; neither the portfolio company nor the valuation sample is identified.",
+      "kind": "observation",
+      "timestamp": "01:18:15; 01:18:52; 01:19:36"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Impulse Space CEO Tom Mueller says classified work and ITAR constraints limit access to the latest AI models even as their engineering usefulness improves.",
+      "confidence": "high",
+      "evidence": "Mueller contrasts a poor propulsion-assistance experience about a year earlier with better current responses, but says the company cannot freely use the newest models because of its programs and data restrictions. He uses AI for engineering information retrieval and thinks coding is the strongest internal use. His concern about falling behind is a first-party adoption constraint, not a measured productivity deficit or a general legal interpretation.",
+      "kind": "observation",
+      "timestamp": "02:14:00; 02:14:10; 02:14:25; 02:15:28; 02:16:00"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Founders describe where AI deployment is producing measurable operational value and where constraints remain. BackOps reports better freight-claim recoveries as browser agents broaden integration coverage; Footprint combines investigation agents, retained case context and external databases; Roon proposes modular compute beside underused solar generation. Tomasz Tunguz discusses inference specialization, agent pricing and aggressive software valuations, while Impulse Space reports restricted access to frontier models.",
+  "why_it_matters": "The useful evidence is in workflow economics and deployment limits: repeated claim appeals can create incremental revenue, financial-crime agents require both data access and policy controls, and cheap power or stronger models do not automatically become usable capacity. Company-reported gains and planned installations still need customer or operational validation."
+}

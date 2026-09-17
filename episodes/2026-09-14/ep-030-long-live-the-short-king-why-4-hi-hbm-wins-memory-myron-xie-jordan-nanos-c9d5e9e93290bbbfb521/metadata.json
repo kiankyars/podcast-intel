@@ -1,0 +1,17 @@
+{
+  "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/125723716/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-14%2F431879632-44100-2-4fa28231b375e.mp3",
+  "description_html": "<p>NVIDIA previewed Rubin Ultra at 1TB of HBM per package. The part that ships will carry 192GB.</p><p><br /></p><p>Myron Xie and Jordan Nanos get into how the design fell that far, why the reason is supply and not performance, and why shipping less memory per chip might be the right call anyway.</p><p><br /></p><p>For the first time in recent memory, NVIDIA's next flagship will have less capacity than the one it replaces.</p><p><br /></p><p>Read More: https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi</p>",
+  "description_text": "NVIDIA previewed Rubin Ultra at 1TB of HBM per package. The part that ships will carry 192GB.\n\nMyron Xie and Jordan Nanos get into how the design fell that far, why the reason is supply and not performance, and why shipping less memory per chip might be the right call anyway.\n\nFor the first time in recent memory, NVIDIA's next flagship will have less capacity than the one it replaces.\n\nRead More: https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
+  "duration_seconds": 2332,
+  "feed_id": "semianalysis-weekly",
+  "feed_name": "SemiAnalysis Weekly",
+  "feed_priority": 10,
+  "id": "c9d5e9e93290bbbfb521",
+  "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--030---Long-Live-the-Short-King-Why-4-HI-HBM-Wins-Memory--Myron-Xie--Jordan-Nanos-e3or9k4",
+  "published": "2026-09-14T17:00:16+00:00",
+  "title": "Ep. 030 - Long Live the Short King: Why 4-HI HBM Wins (Memory) | Myron Xie, Jordan Nanos",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=2cmlk-YlgRk",
+  "transcript_urls": [],
+  "web_links": []
+}

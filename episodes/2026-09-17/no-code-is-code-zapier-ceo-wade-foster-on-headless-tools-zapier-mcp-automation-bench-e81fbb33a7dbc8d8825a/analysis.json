@@ -1,0 +1,66 @@
+{
+  "changed_views": [
+    "Agent adoption does not imply that every workflow step should execute through a model; deterministic execution can remain the efficient endpoint of agent-authored automation.",
+    "A vendor\u2019s benchmark and its product\u2019s incremental improvement are separate claims: this interview supplies the former but postpones the latter."
+  ],
+  "entities": [
+    "Zapier",
+    "Wade Foster",
+    "Nathan Labenz",
+    "Automation Bench",
+    "Cursor",
+    "OpenAI",
+    "Anthropic",
+    "Google"
+  ],
+  "follow_ups": [
+    "Check Automation Bench V2 for matched task sets, harness details, cost, latency and incremental success with Zapier tools.",
+    "Track whether internal activity-based recommendations become a shipped product with measurable adoption and workflow retention."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Foster estimates that about 80% of customers\u2019 agent usage would be better served by deterministic code.",
+      "confidence": "medium",
+      "evidence": "He advocates agents building and repairing workflows, with AI reserved for steps requiring reasoning. Visual workflows remain useful for human verification. This is his estimate, not a published task-by-task audit.",
+      "kind": "opinion",
+      "timestamp": "13:46; 18:02"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Foster reports roughly 40% success for Astra on about 600 business tasks; Zapier\u2019s incremental lift remains unreported here.",
+      "confidence": "medium",
+      "evidence": "Automation Bench spans sales, marketing, HR and operations. Asked for measured improvements with Zapier tools, he defers to a future V2 release. The result is benchmark-specific, not a general workplace success rate.",
+      "kind": "observation",
+      "timestamp": "10:21; 13:46; 23:29"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Zapier\u2019s support troubleshooting program runs five independent agents and uses human rejection reasons to improve the system.",
+      "confidence": "high",
+      "evidence": "Foster says agreement by four agents is a useful diagnostic signal. Human auditors approve or reject outputs with explanations; he gives no accuracy or cost comparison against a single agent.",
+      "kind": "observation",
+      "timestamp": "24:30; 29:05"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Foster describes weekly activity-based automation recommendations as an internal adoption mechanism.",
+      "confidence": "high",
+      "evidence": "Connected-tool event histories prompt suggested workflows that employees accept or refine. He expects a customer product, but does not announce its availability or conversion results.",
+      "kind": "observation",
+      "timestamp": "37:07; 39:41; 40:58"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Zapier is using spend visibility and coaching before imposing individual AI-token budgets.",
+      "confidence": "high",
+      "evidence": "Foster acknowledges very high spenders as outliers. Dashboards and conversations distinguish productive usage from unnecessarily expensive model choices; differentiated budgets remain a future expectation.",
+      "kind": "observation",
+      "timestamp": "54:53; 55:46"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Wade Foster describes Zapier moving into users\u2019 preferred AI tools through MCP. His proposed architecture uses agents to build and repair workflows while deterministic code handles repeatable execution. He reports weak end-to-end enterprise-task performance even from frontier models and describes concrete support-evaluation, workflow-discovery and token-cost practices inside Zapier.",
+  "why_it_matters": "The useful application-layer opportunity is turning model reasoning into reliable business processes with context, integration and feedback. Foster provides operational examples, but does not yet quantify the benchmark lift or savings delivered by Zapier\u2019s tools."
+}

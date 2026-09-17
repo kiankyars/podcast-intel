@@ -133,7 +133,7 @@
     },
     "0a8a42de39b182621b75": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.722834+00:00"
+      "updated_at": "2026-09-17T18:47:05.002676+00:00"
     },
     "0b1233dc196f2932058b": {
       "analysis_path": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/analysis.json",
@@ -159,6 +159,23 @@
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-15T16:01:40.193315+00:00"
+    },
+    "0d768302ec2d938c1184": {
+      "analysis_path": "episodes/2026-09-16/underwriting-superintelligence-backing-agents-you-can-sue-rune-kvist-aiuc-0d768302ec2d938c1184/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/aiuc",
+      "published": "2026-09-16T18:07:45+00:00",
+      "raw_transcript": "episodes/2026-09-16/underwriting-superintelligence-backing-agents-you-can-sue-rune-kvist-aiuc-0d768302ec2d938c1184/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-16/underwriting-superintelligence-backing-agents-you-can-sue-rune-kvist-aiuc-0d768302ec2d938c1184/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-16/underwriting-superintelligence-backing-agents-you-can-sue-rune-kvist-aiuc-0d768302ec2d938c1184/summary.md",
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue \u2014 Rune Kvist, AIUC",
+      "transcript_path": "episodes/2026-09-16/underwriting-superintelligence-backing-agents-you-can-sue-rune-kvist-aiuc-0d768302ec2d938c1184/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/aiuc",
+      "updated_at": "2026-09-17T18:55:56.770744+00:00"
     },
     "102a9d198bacc5dcc087": {
       "analysis_path": "episodes/2026-07-16/tml-inkling-california-forever-tsmc-capex-david-baszucki-everett-randle-eric-glyman-jordan-102a9d198bacc5dcc087/analysis.json",
@@ -592,6 +609,27 @@
       "transcript_source_url": "https://colossus.com/episode/how-to-raise-a-few-billion-dollars/",
       "updated_at": "2026-07-15T19:29:17.932856+00:00"
     },
+    "2a381cd0d6f39b8d9956": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-17T18:47:05.000946+00:00"
+    },
+    "2a807ddd2604e1805206": {
+      "analysis_path": "episodes/2026-09-14/the-ai-slowdown-debate-nico-wittenborn-scott-keogh-mitchell-green-david-rosenthal-ben-gilb-2a807ddd2604e1805206/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/e172867c",
+      "published": "2026-09-14T21:19:53+00:00",
+      "raw_transcript": "episodes/2026-09-14/the-ai-slowdown-debate-nico-wittenborn-scott-keogh-mitchell-green-david-rosenthal-ben-gilb-2a807ddd2604e1805206/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-14/the-ai-slowdown-debate-nico-wittenborn-scott-keogh-mitchell-green-david-rosenthal-ben-gilb-2a807ddd2604e1805206/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-14/the-ai-slowdown-debate-nico-wittenborn-scott-keogh-mitchell-green-david-rosenthal-ben-gilb-2a807ddd2604e1805206/summary.md",
+      "title": "The AI Slowdown Debate | Nico Wittenborn, Scott Keogh, Mitchell Green, David Rosenthal & Ben Gilbert, Faraj Aalaei",
+      "transcript_path": "episodes/2026-09-14/the-ai-slowdown-debate-nico-wittenborn-scott-keogh-mitchell-green-david-rosenthal-ben-gilb-2a807ddd2604e1805206/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/e172867c/transcription.vtt",
+      "updated_at": "2026-09-17T18:55:56.773396+00:00"
+    },
     "2a8b7a221853b0a80885": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.104816+00:00"
@@ -888,13 +926,30 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.126113+00:00"
     },
+    "4551f4ac900ae65079c3": {
+      "analysis_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--031---EMERGENCY-EPISODE-Are-We-Doomed---Jordan-Nanos--Doug-OLaughlin--Max-Kan--Joey-Brookhart-e3otgvp",
+      "published": "2026-09-16T02:30:00+00:00",
+      "raw_transcript": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/summary.md",
+      "title": "Ep. 031 - EMERGENCY EPISODE: Are We Doomed? | Jordan Nanos, Doug O'Laughlin, Max Kan, Joey Brookhart",
+      "transcript_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=38vwjWpHFes",
+      "updated_at": "2026-09-17T18:55:56.777054+00:00"
+    },
     "46ca1a1793e4725c8c27": {
       "status": "metadata_skipped",
       "updated_at": "2026-07-20T16:01:06.762052+00:00"
     },
     "4726656ed66556023bea": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.725083+00:00"
+      "updated_at": "2026-09-17T18:47:05.004378+00:00"
     },
     "47314c121cc36c401899": {
       "analysis_path": "episodes/2026-08-25/neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488-47314c121cc36c401899/analysis.json",
@@ -944,7 +999,7 @@
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.727368+00:00"
+      "updated_at": "2026-09-15T16:03:03.941882+00:00"
     },
     "528f56376dc5b17037c9": {
       "analysis_path": "episodes/2026-08-05/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-528f56376dc5b17037c9/analysis.json",
@@ -1069,6 +1124,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.104149+00:00"
     },
+    "587b17a5f0842cce50e0": {
+      "analysis_path": "episodes/2026-09-14/humanity-s-last-invention-richard-socher-of-recursive-587b17a5f0842cce50e0/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/recursive",
+      "published": "2026-09-14T16:04:16+00:00",
+      "raw_transcript": "episodes/2026-09-14/humanity-s-last-invention-richard-socher-of-recursive-587b17a5f0842cce50e0/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-09-14/humanity-s-last-invention-richard-socher-of-recursive-587b17a5f0842cce50e0/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-14/humanity-s-last-invention-richard-socher-of-recursive-587b17a5f0842cce50e0/summary.md",
+      "title": "Humanity\u2019s Last Invention \u2014 Richard Socher of Recursive",
+      "transcript_path": "episodes/2026-09-14/humanity-s-last-invention-richard-socher-of-recursive-587b17a5f0842cce50e0/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/recursive",
+      "updated_at": "2026-09-17T18:55:56.780612+00:00"
+    },
     "5ab5d5451ae57abad1ef": {
       "analysis_path": "episodes/2026-08-10/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-h-5ab5d5451ae57abad1ef/analysis.json",
       "error": "",
@@ -1187,9 +1259,26 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=kyyLku5F3bo",
       "updated_at": "2026-09-10T16:17:32.247288+00:00"
     },
+    "60da14f8670364ba6680": {
+      "analysis_path": "episodes/2026-09-15/high-interest-rate-phenomenon-driscoll-s-china-bet-backfires-who-votes-on-ai-safety-stephe-60da14f8670364ba6680/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/fd8ffa74",
+      "published": "2026-09-15T21:13:44+00:00",
+      "raw_transcript": "episodes/2026-09-15/high-interest-rate-phenomenon-driscoll-s-china-bet-backfires-who-votes-on-ai-safety-stephe-60da14f8670364ba6680/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-15/high-interest-rate-phenomenon-driscoll-s-china-bet-backfires-who-votes-on-ai-safety-stephe-60da14f8670364ba6680/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-15/high-interest-rate-phenomenon-driscoll-s-china-bet-backfires-who-votes-on-ai-safety-stephe-60da14f8670364ba6680/summary.md",
+      "title": "High Interest Rate Phenomenon, Driscoll's China Bet Backfires, Who Votes on AI Safety? | Stephen Colbert & Josh Kline, Jim VandeHei, Steve Menneto, Matthew Wilson, Rune Kvist, Tyler Bahl, James Cadwallader",
+      "transcript_path": "episodes/2026-09-15/high-interest-rate-phenomenon-driscoll-s-china-bet-backfires-who-votes-on-ai-safety-stephe-60da14f8670364ba6680/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/fd8ffa74/transcription.vtt",
+      "updated_at": "2026-09-17T18:55:56.783104+00:00"
+    },
     "61f1dd347a133bc3c6a0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.726825+00:00"
+      "updated_at": "2026-09-17T18:47:05.006015+00:00"
     },
     "62a383ca4443066219db": {
       "analysis_path": "episodes/2026-07-12/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal-62a383ca4443066219db/analysis.json",
@@ -1269,7 +1358,7 @@
     },
     "69060df278188f065f65": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.723984+00:00"
+      "updated_at": "2026-09-17T18:47:05.003224+00:00"
     },
     "690ea092c6cda715494c": {
       "status": "metadata_skipped",
@@ -1497,7 +1586,7 @@
     },
     "783ba35c867dfa816b61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.724554+00:00"
+      "updated_at": "2026-09-17T18:47:05.003773+00:00"
     },
     "78c9c4d6670eadbc1601": {
       "analysis_path": "episodes/2026-06-01/ep-013-aws-margins-jump-10-while-azure-and-gcp-flatline-tokenomics-jordan-nanos-jeremie-el-78c9c4d6670eadbc1601/analysis.json",
@@ -1573,11 +1662,11 @@
     },
     "7be8c83bb02fbe15e4b6": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.727908+00:00"
+      "updated_at": "2026-09-15T16:03:03.942448+00:00"
     },
     "7c58aaef4685a3b31591": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.728446+00:00"
+      "updated_at": "2026-09-15T16:03:03.943013+00:00"
     },
     "7ca5460b7d4b74f43cff": {
       "analysis_path": "episodes/2026-06-09/alex-sacerdote-how-to-invest-through-technology-cycles-invest-like-the-best-ep-477-7ca5460b7d4b74f43cff/analysis.json",
@@ -1731,6 +1820,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.105146+00:00"
     },
+    "8b0b4ed754f772cb4df4": {
+      "analysis_path": "episodes/2026-09-16/michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-like-the-best-ep-491-8b0b4ed754f772cb4df4/analysis.json",
+      "error": "",
+      "feed_id": "invest-like-the-best",
+      "link": "https://colossus.com/episode/the-outsider/",
+      "published": "2026-09-16T08:00:00+00:00",
+      "raw_transcript": "episodes/2026-09-16/michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-like-the-best-ep-491-8b0b4ed754f772cb4df4/transcript.txt",
+      "relevance_score": 2,
+      "request_path": "episodes/2026-09-16/michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-like-the-best-ep-491-8b0b4ed754f772cb4df4/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-16/michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-like-the-best-ep-491-8b0b4ed754f772cb4df4/summary.md",
+      "title": "Michael Moritz - Lessons From 40 Years of Investing and Writing - [Invest Like the Best, EP.491]",
+      "transcript_path": "episodes/2026-09-16/michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-like-the-best-ep-491-8b0b4ed754f772cb4df4/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=mlWX7RltfDE",
+      "updated_at": "2026-09-17T18:55:56.784571+00:00"
+    },
     "8bcfdf9db794a95c49e0": {
       "status": "metadata_skipped",
       "updated_at": "2026-07-21T16:01:33.099072+00:00"
@@ -1851,7 +1957,7 @@
     },
     "92905564fdc62775c79d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.721411+00:00"
+      "updated_at": "2026-09-17T18:47:05.002127+00:00"
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
@@ -2123,6 +2229,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=6l8oAO_LBx4",
       "updated_at": "2026-08-11T16:08:37.887094+00:00"
     },
+    "b1b1213f580a1f67b7ce": {
+      "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/02034a71",
+      "published": "2026-09-16T20:38:32+00:00",
+      "raw_transcript": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/summary.md",
+      "title": "Third Party Evaluators, Fed Hikes Rates, Zuck Pushes Back On AI Slowdown | Jeremy Allaire, Tomasz Tunguz, William Layden, Justin Beroz, Eli Wachs, Sean McCarthy, Tom Mueller",
+      "transcript_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/02034a71/transcription.vtt",
+      "updated_at": "2026-09-17T18:55:56.787476+00:00"
+    },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
       "updated_at": "2026-07-14T07:57:11.920537+00:00"
@@ -2155,6 +2278,10 @@
     "baa8899c269b56921f21": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-22T15:00:45.147249+00:00"
+    },
+    "bacd58e0409438c767e2": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-17T18:47:05.001562+00:00"
     },
     "bb3951d8739839c7f8d2": {
       "analysis_path": "episodes/2026-06-10/babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labor-of-ai-at-work-bb3951d8739839c7f8d2/analysis.json",
@@ -2350,6 +2477,40 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/2bfd5175/transcription.vtt",
       "updated_at": "2026-09-04T16:29:36.423956+00:00"
+    },
+    "c9ac86dad4a9ff6ab0fb": {
+      "analysis_path": "episodes/2026-09-17/noam-brown-agent-swarms-alignment-recursive-self-improvement-c9ac86dad4a9ff6ab0fb/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/noam-brown",
+      "published": "2026-09-17T15:38:13+00:00",
+      "raw_transcript": "episodes/2026-09-17/noam-brown-agent-swarms-alignment-recursive-self-improvement-c9ac86dad4a9ff6ab0fb/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-17/noam-brown-agent-swarms-alignment-recursive-self-improvement-c9ac86dad4a9ff6ab0fb/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-17/noam-brown-agent-swarms-alignment-recursive-self-improvement-c9ac86dad4a9ff6ab0fb/summary.md",
+      "title": "Noam Brown \u2013 Agent swarms, alignment, & recursive self-improvement",
+      "transcript_path": "episodes/2026-09-17/noam-brown-agent-swarms-alignment-recursive-self-improvement-c9ac86dad4a9ff6ab0fb/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://www.dwarkesh.com/p/noam-brown",
+      "updated_at": "2026-09-17T18:55:56.790210+00:00"
+    },
+    "c9d5e9e93290bbbfb521": {
+      "analysis_path": "episodes/2026-09-14/ep-030-long-live-the-short-king-why-4-hi-hbm-wins-memory-myron-xie-jordan-nanos-c9d5e9e93290bbbfb521/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--030---Long-Live-the-Short-King-Why-4-HI-HBM-Wins-Memory--Myron-Xie--Jordan-Nanos-e3or9k4",
+      "published": "2026-09-14T17:00:16+00:00",
+      "raw_transcript": "episodes/2026-09-14/ep-030-long-live-the-short-king-why-4-hi-hbm-wins-memory-myron-xie-jordan-nanos-c9d5e9e93290bbbfb521/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-14/ep-030-long-live-the-short-king-why-4-hi-hbm-wins-memory-myron-xie-jordan-nanos-c9d5e9e93290bbbfb521/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-14/ep-030-long-live-the-short-king-why-4-hi-hbm-wins-memory-myron-xie-jordan-nanos-c9d5e9e93290bbbfb521/summary.md",
+      "title": "Ep. 030 - Long Live the Short King: Why 4-HI HBM Wins (Memory) | Myron Xie, Jordan Nanos",
+      "transcript_path": "episodes/2026-09-14/ep-030-long-live-the-short-king-why-4-hi-hbm-wins-memory-myron-xie-jordan-nanos-c9d5e9e93290bbbfb521/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=2cmlk-YlgRk",
+      "updated_at": "2026-09-17T18:55:56.792126+00:00"
     },
     "ca0c43fba0998653a85c": {
       "analysis_path": "episodes/2026-09-02/ep-028-most-neoclouds-suck-at-security-how-agents-hacked-hugging-face-neoclouds-security-d-ca0c43fba0998653a85c/analysis.json",
@@ -2590,7 +2751,7 @@
     },
     "e1cf9a4de101fd863979": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.725623+00:00"
+      "updated_at": "2026-09-17T18:47:05.004934+00:00"
     },
     "e2c7b3697003264882d4": {
       "analysis_path": "episodes/2026-08-26/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apo-e2c7b3697003264882d4/analysis.json",
@@ -2713,7 +2874,41 @@
     },
     "e7b0e34ac82ae8c73b8e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-14T16:01:52.726258+00:00"
+      "updated_at": "2026-09-17T18:47:05.005471+00:00"
+    },
+    "e81fbb33a7dbc8d8825a": {
+      "analysis_path": "episodes/2026-09-17/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench-e81fbb33a7dbc8d8825a/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench/",
+      "published": "2026-09-17T13:27:47+00:00",
+      "raw_transcript": "episodes/2026-09-17/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench-e81fbb33a7dbc8d8825a/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-17/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench-e81fbb33a7dbc8d8825a/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-17/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench-e81fbb33a7dbc8d8825a/summary.md",
+      "title": "No Code Is Code: Zapier CEO Wade Foster on Headless Tools, Zapier MCP & Automation Bench",
+      "transcript_path": "episodes/2026-09-17/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench-e81fbb33a7dbc8d8825a/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench/",
+      "updated_at": "2026-09-17T18:55:56.793948+00:00"
+    },
+    "e98274e5d5280ceea259": {
+      "analysis_path": "episodes/2026-09-15/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well-e98274e5d5280ceea259/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well/",
+      "published": "2026-09-15T18:52:30+00:00",
+      "raw_transcript": "episodes/2026-09-15/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well-e98274e5d5280ceea259/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-15/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well-e98274e5d5280ceea259/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-15/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well-e98274e5d5280ceea259/summary.md",
+      "title": "The Balance of AI Power: Anton Leicht on Politics, Pacing Deals, and Muddling Through Well",
+      "transcript_path": "episodes/2026-09-15/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well-e98274e5d5280ceea259/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well/",
+      "updated_at": "2026-09-17T18:55:56.796319+00:00"
     },
     "eb0d59dac5a1ac1f776c": {
       "analysis_path": "episodes/2026-07-12/alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p-doom-is-down-to-5-eb0d59dac5a1ac1f776c/analysis.json",
@@ -2866,6 +3061,10 @@
     "fa57f5ab7508f94c688c": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-09T16:02:23.566544+00:00"
+    },
+    "fb2301951f30455eadda": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-17T18:47:04.999989+00:00"
     },
     "fdccc88bd9342ede8dc4": {
       "analysis_path": "episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/analysis.json",

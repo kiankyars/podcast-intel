@@ -458,3 +458,33 @@ Company strategy, unit economics, incentives, compensation, financing, and inves
 ## 2026-09-11 - [Ep. 029 - Modular Data Centers Cut Build Time to 12 Months (Datacenter, Energy) | Nico Bontigui, Jordan Nanos, Nigel Chiang, Eric Wen](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--029---Modular-Data-Centers-Cut-Build-Time-to-12-Months-Datacenter--Energy--Nico-Bontigui--Jordan-Nanos--Nigel-Chiang--Eric-Wen-e3onilo)
 
 - **The panel argues that selling integrated modules expands vendors' content per megawatt while making each shipment dependent on a broader set of components.** [29:22; 29:31; 29:55; 30:25; 30:36; 34:05; 34:44; 34:57] Nico distinguishes equipment manufacturers bundling their own products from engineering and construction integrators assembling third-party gear. Earlier, the panel explains that one missing component can hold up an entire high-value skid instead of leaving other standalone products shippable. Suppliers are also investing in modular capacity while customers may add second or third sources. Greater package revenue therefore comes with shipment dependencies and utilization risk, not an established margin improvement.
+
+<!-- episode:0d768302ec2d938c1184 -->
+## 2026-09-16 - [Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC](https://www.latent.space/p/aiuc)
+
+- **Kvist argues that copyright insurance faces an adverse-selection problem: buyers can know more about problematic training data than insurers.** [00:58:35] He reports substantial demand but little supply for copyright coverage and reasons that the labs most eager to buy it may carry the most exposure. He suggests credible testing could reduce this information gap; he does not establish that such a test or product exists.
+
+<!-- episode:2a807ddd2604e1805206 -->
+## 2026-09-14 - [The AI Slowdown Debate | Nico Wittenborn, Scott Keogh, Mitchell Green, David Rosenthal & Ben Gilbert, Faraj Aalaei](https://share.transistor.fm/s/e172867c)
+
+- **Scout is using in-house prototype builds to train its new factory workforce before a planned 2028 production ramp.** [01:08:57; 01:09:09; 01:09:35; 01:10:05] Keogh says more than half of Scout's roughly 1,600 employees are already at the factory, where early prototypes are being built internally instead of outsourced. He presents this as a way to give workers who have not made cars before practical experience ahead of ramp-up. First customer deliveries remain planned for 2028, with a target of roughly 3,000 factory employees and 3,800–4,000 across the company. Current prototype work is therefore evidence of preparation, not mass-production capacity or achieved launch volumes.
+
+<!-- episode:587b17a5f0842cce50e0 -->
+## 2026-09-14 - [Humanity’s Last Invention — Richard Socher of Recursive](https://www.latent.space/p/recursive)
+
+- **Socher says You.com's business focus constrained keeping frontier-model research inside it; the separate Recursive venture has substantially less disclosed funding than the episode description implies.** [00:16:06] He says You.com shifted to search APIs and that pursuing another frontier-research effort inside the company was difficult before the first business generated enough money. For financing context, co-lead [GV reports $650M in early funding at a $4.65B valuation](https://www.gv.com/news/recursive-superintelligence-self-improving-ai); the publisher description incorrectly calls $4.65B the seed round. The announcement is not evidence of a particular GPU purchase, committed compute budget or realized return.
+
+<!-- episode:c9d5e9e93290bbbfb521 -->
+## 2026-09-14 - [Ep. 030 - Long Live the Short King: Why 4-HI HBM Wins (Memory) | Myron Xie, Jordan Nanos](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--030---Long-Live-the-Short-King-Why-4-HI-HBM-Wins-Memory--Myron-Xie--Jordan-Nanos-e3or9k4)
+
+- **Xie reports a custom Meta MI450 configuration using 8-hi rather than 12-hi HBM and expects more customer-specific memory configurations as overprovisioning becomes costly.** [37:08] At 36:50-37:43, Xie says Meta already uses custom or semi-custom memory configurations and specifically cites an MI450 version with shorter stacks. He connects further SKU differentiation to scarce supply and the cost of buying resources a customer does not need. The episode supplies no AMD or Meta confirmation, contract detail or shipment evidence for this reported configuration.
+
+<!-- episode:e81fbb33a7dbc8d8825a -->
+## 2026-09-17 - [No Code Is Code: Zapier CEO Wade Foster on Headless Tools, Zapier MCP & Automation Bench](https://www.cognitiverevolution.ai/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench/)
+
+- **Zapier is using spend visibility and coaching before imposing individual AI-token budgets.** [54:53; 55:46] Foster acknowledges very high spenders as outliers. Dashboards and conversations distinguish productive usage from unnecessarily expensive model choices; differentiated budgets remain a future expectation.
+
+<!-- episode:e98274e5d5280ceea259 -->
+## 2026-09-15 - [The Balance of AI Power: Anton Leicht on Politics, Pacing Deals, and Muddling Through Well](https://www.cognitiverevolution.ai/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well/)
+
+- **Leicht argues that monetizing today's models may justify deployed compute without justifying current AI valuations and planned buildout, which he believes depend on much higher-value research automation customers.** [25:41] He contrasts ordinary office-productivity spending with multimillion-dollar pharma, materials, chip-design, and automated AI-R&D contracts. He also distinguishes a voluntary reliability-focused slowdown from an open-ended government pause that could provoke a sharper repricing.

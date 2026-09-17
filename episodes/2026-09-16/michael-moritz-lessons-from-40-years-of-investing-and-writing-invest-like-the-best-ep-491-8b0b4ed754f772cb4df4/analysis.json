@@ -1,0 +1,15 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Michael Moritz",
+    "Patrick O\u2019Shaughnessy",
+    "Sequoia Capital",
+    "Don Valentine"
+  ],
+  "follow_ups": [],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "Mostly biography and familiar leadership/investing principles. The AI discussion supplies no concrete mechanism, operating metric or independently testable development sufficient for the daily digest. Sponsor claims were excluded.",
+  "summary": "Michael Moritz reflects on family history, founder assessment, Sequoia and leadership. He argues that early venture investing benefited from local information advantages and fewer competitors, and that these conditions no longer transfer readily. His AI comments are broad expectations about entrepreneurship and employment rather than new technical or operating evidence. Reviewed the official video linked by the publisher; its 94-minute edition differs from the 72-minute RSS runtime.",
+  "why_it_matters": "Useful historical context for judging investor track records, but little new evidence for current AI, semiconductor or infrastructure decisions."
+}

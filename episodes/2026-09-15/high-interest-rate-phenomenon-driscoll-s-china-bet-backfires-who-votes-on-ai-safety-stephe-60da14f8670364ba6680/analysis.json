@@ -1,0 +1,70 @@
+{
+  "changed_views": [
+    "The Profound and Activision interviews provide complementary first-party evidence that AI discovery is changing actual marketing workflows. Profound\u2019s expansion into content and ad execution also suggests its opportunity extends beyond an answer-visibility dashboard."
+  ],
+  "entities": [
+    "Profound",
+    "James Cadwallader",
+    "Ramp",
+    "Jack and Jill",
+    "Matthew Wilson",
+    "Axios",
+    "Jim VandeHei",
+    "Activision",
+    "Tyler Bahl",
+    "Call of Duty",
+    "ChatGPT"
+  ],
+  "follow_ups": [
+    "Check Profound\u2019s paying-customer penetration, retention and attributable marketing returns; distinguish broad Fortune 100 adoption from the maturity of Ad Studio.",
+    "Track whether serving separate crawler content changes inclusion in AI answers and conversions, and how answer engines respond.",
+    "Seek Jack and Jill placement rates, success-fee economics and employer retention; network membership alone does not establish matching quality.",
+    "Track measured reach and incremental revenue from Axios\u2019s automated distribution, separate from company-wide productivity claims."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Profound CEO James Cadwallader says the company has expanded from measuring AI brand visibility into an agent platform used across a third of the Fortune 100.",
+      "confidence": "high",
+      "evidence": "He reports $180 million raised, a marketing-specific harness built over six to nine months, and customers using agents to perform marketing work. Later he says Ramp uses Profound Ad Studio to create, publish and measure advertising on generative platforms; expansion across other media platforms remains a plan.",
+      "kind": "observation",
+      "timestamp": "02:46:23"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Cadwallader says Profound has shipped edge software that serves AI answer-engine crawlers different content from human visitors.",
+      "confidence": "high",
+      "evidence": "He describes Dynamic Bot Rendering detecting user agents at the edge. He also reports that a large consumer-goods customer updated 40,000 web pages in a week using Profound, illustrating production scale without providing independent quality or conversion measurements.",
+      "kind": "observation",
+      "timestamp": "02:50:14"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Jack and Jill CEO Matthew Wilson describes a two-sided agent network with nearly half a million people, paid primarily through employer success fees.",
+      "confidence": "high",
+      "evidence": "Jack represents professionals and Jill represents employers; candidates use the service free. Wilson reports coverage across San Francisco, New York and London, some retainer-style arrangements and $40 million raised. Matching agents are his proposed response to AI-generated application and recruiter-outreach overload; autonomous final compensation negotiation is only a future possibility.",
+      "kind": "observation",
+      "timestamp": "01:31:09"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Axios CEO Jim VandeHei says its clearest AI gains come from operations and distribution around journalism, with a newsletter-to-social pipeline built in 36 hours and live within six days.",
+      "confidence": "high",
+      "evidence": "He describes turning newsletters into six-to-eight-card Instagram packages and extending the process to other platforms. His earlier 70% revenue-per-employee improvement refers to the broader Simplify work redesign, including deleting tasks and automation; it is not a clean estimate of AI\u2019s causal contribution.",
+      "kind": "observation",
+      "timestamp": "01:10:17"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Activision marketing executive Tyler Bahl says AI answer discovery is already changing Call of Duty\u2019s marketing work.",
+      "confidence": "high",
+      "evidence": "He says the team is adapting its site and seeking to influence information sources as players ask ChatGPT for improvement advice and equipment choices. Separately, he describes AI-generated concepts as direction for human artists, plus meeting-note automation, rather than claiming an automated game-production pipeline.",
+      "kind": "observation",
+      "timestamp": "02:09:51"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "First-party interviews provide concrete evidence on marketing agents, hiring agents and media automation. Profound reports adoption across a third of the Fortune 100 and expansion into execution; Jack and Jill describes employer-funded agent matching; Axios and Activision identify specific changes to distribution and discovery workflows.",
+  "why_it_matters": "The useful evidence concerns where agent applications can earn revenue and alter existing operations. Marketing is moving from measuring AI answers to producing and distributing content, while hiring tools address noise that cheaper AI outreach itself creates. All adoption and productivity numbers below are speaker-reported, not independently audited."
+}

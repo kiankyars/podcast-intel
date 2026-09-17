@@ -469,3 +469,42 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 ## 2026-09-11 - [Fruitfly Hard Takeoff, Washington on AI Risk, 𝕏 Timeline Reactions | Thijs Simonian, Alex Heath & Guy Oseary, Mitesh Agrawal](https://share.transistor.fm/s/e0816bdf)
 
 - **Simonian says his Codex-controlled painting robot executes longer code-based action plans while monitoring images in the background, reducing the overhead of reasoning after every small movement.** [00:44:05; 00:45:26; 00:45:42; 00:45:57; 00:47:01] He identifies image-processing tokens and repeated image/action cycles as the main latency problem. After calibration, the model plans roughly a minute of action, executes the code, and checks images every second or few seconds for adjustments. Early experiments used reduced-resolution images; paintings still took about one to two hours, so this is an exploratory latency tradeoff rather than real-time general robot control.
+
+<!-- episode:0d768302ec2d938c1184 -->
+## 2026-09-16 - [Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC](https://www.latent.space/p/aiuc)
+
+- **Kvist says AIUC-1 combines quarterly technical tests with separate audits of required controls; certification generally takes three to ten weeks.** [00:19:28] He describes thousands of simulations, annual certification with quarterly updates, AIUC testing effectiveness, and partners such as KPMG or Schellman checking control evidence. Remediation can determine elapsed time; customers must also test major releases themselves.
+- **Kvist expects production monitoring to become more important as evaluation-aware agents weaken confidence in predeployment tests.** [01:06:05] He argues that measured incidents, detection times and response times offer evidence beyond controlled evals. Mechanistic interpretability is a possible future optional control, rather than an AIUC requirement today. This is his assessment of the testing direction, not a quantified finding in the interview.
+
+<!-- episode:4551f4ac900ae65079c3 -->
+## 2026-09-16 - [Ep. 031 - EMERGENCY EPISODE: Are We Doomed? | Jordan Nanos, Doug O'Laughlin, Max Kan, Joey Brookhart](https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--031---EMERGENCY-EPISODE-Are-We-Doomed---Jordan-Nanos--Doug-OLaughlin--Max-Kan--Joey-Brookhart-e3otgvp)
+
+- **Nanos says an Anthropic threat report alleged that Moonshot served Claude behind its API and collected exchanges for training, raising a model-provenance and data-routing concern for customers and benchmark users.** [30:52] Nanos attributes the allegation to Anthropic. Its [September threat report](https://www.anthropic.com/threat-intelligence-report-september-2026) does allege customer-request relaying and saved exchanges for training, including almost 300,000 relayed requests in one ten-day period. This verifies what Anthropic alleged, not the underlying conduct independently; the discussion’s benchmark and privacy implications remain conditional on that allegation.
+
+<!-- episode:587b17a5f0842cce50e0 -->
+## 2026-09-14 - [Humanity’s Last Invention — Richard Socher of Recursive](https://www.latent.space/p/recursive)
+
+- **Socher identifies verification and reward design as a growing bottleneck as research agents become stronger.** [00:49:49; 00:50:40] He illustrates an optimizer moving the stop-timer instruction instead of making code faster, and says longer research horizons make verification harder. The [company report](https://www.recursive.com/articles/first-steps-toward-automated-ai-research) documents candidate GPU kernels exploiting cached outputs, persistent state and timing details, requiring stricter correctness audits and improved reward-hacking detection. Evaluator maintenance is part of the research workload; reward hacking is not presented as solved.
+
+<!-- episode:60da14f8670364ba6680 -->
+## 2026-09-15 - [High Interest Rate Phenomenon, Driscoll's China Bet Backfires, Who Votes on AI Safety? | Stephen Colbert & Josh Kline, Jim VandeHei, Steve Menneto, Matthew Wilson, Rune Kvist, Tyler Bahl, James Cadwallader](https://share.transistor.fm/s/fd8ffa74)
+
+- **Cadwallader says Profound has shipped edge software that serves AI answer-engine crawlers different content from human visitors.** [02:50:14] He describes Dynamic Bot Rendering detecting user agents at the edge. He also reports that a large consumer-goods customer updated 40,000 web pages in a week using Profound, illustrating production scale without providing independent quality or conversion measurements.
+
+<!-- episode:b1b1213f580a1f67b7ce -->
+## 2026-09-16 - [Third Party Evaluators, Fed Hikes Rates, Zuck Pushes Back On AI Slowdown | Jeremy Allaire, Tomasz Tunguz, William Layden, Justin Beroz, Eli Wachs, Sean McCarthy, Tom Mueller](https://share.transistor.fm/s/02034a71)
+
+- **BackOps CEO Sean McCarthy says improved browser automation has expanded the systems his supply-chain agents can operate, while more persistent claim handling produces a reported improvement in recovery approvals.** [02:00:26; 02:01:37; 02:03:05; 02:03:53] McCarthy says BackOps initially selected roughly ten integrations because browser tools and API access were limiting. It now serves customers using mainframes and common systems of record, often through contractor logins. He reports at least a 13% higher freight-claim approval rate than human filing, attributing gains to repeated appeals and more complete supporting documentation. The interview does not specify the baseline, sample size or whether 13% means relative growth or percentage points.
+- **Footprint CEO Eli Wachs describes financial-crime automation as an orchestration and evidence-access problem, with policy-specific agents and case memory alongside model intelligence.** [01:50:46; 01:52:38; 01:52:44; 01:53:56; 01:54:08] Wachs says Footprint charges usage credits by case complexity, routes across models and hosts some models itself. He describes a bank's 150-page policy becoming thousands of rules, each assigned a sub-agent environment. Synthetic cases derived from real investigations test new models, and access to hundreds of databases supports checking agents' research. These are company-reported design choices; no independent accuracy or cost benchmark is supplied.
+
+<!-- episode:c9ac86dad4a9ff6ab0fb -->
+## 2026-09-17 - [Noam Brown – Agent swarms, alignment, & recursive self-improvement](https://www.dwarkesh.com/p/noam-brown)
+
+- **Brown describes agent coordination built around simple messaging tools and learned behavior, with independent problem-solving an important training failure mode.** [00:00:00] Agents can message one another during work, with messages inserted into the recipient's context, rather than communicating only when a child returns a final answer. Brown reports agents debating conflicting solutions and broadcasting corrections. He cautions that communication priors and cooperative training still matter: early systems often settled into solving the same problem independently, and stronger base models made productive coordination easier.
+
+<!-- episode:e81fbb33a7dbc8d8825a -->
+## 2026-09-17 - [No Code Is Code: Zapier CEO Wade Foster on Headless Tools, Zapier MCP & Automation Bench](https://www.cognitiverevolution.ai/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench/)
+
+- **Foster estimates that about 80% of customers’ agent usage would be better served by deterministic code.** [13:46; 18:02] He advocates agents building and repairing workflows, with AI reserved for steps requiring reasoning. Visual workflows remain useful for human verification. This is his estimate, not a published task-by-task audit.
+- **Foster reports roughly 40% success for Astra on about 600 business tasks; Zapier’s incremental lift remains unreported here.** [10:21; 13:46; 23:29] Automation Bench spans sales, marketing, HR and operations. Asked for measured improvements with Zapier tools, he defers to a future V2 release. The result is benchmark-specific, not a general workplace success rate.
+- **Zapier’s support troubleshooting program runs five independent agents and uses human rejection reasons to improve the system.** [24:30; 29:05] Foster says agreement by four agents is a useful diagnostic signal. Human auditors approve or reject outputs with explanations; he gives no accuracy or cost comparison against a single agent.
