@@ -133,7 +133,7 @@
     },
     "0a8a42de39b182621b75": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:05.002676+00:00"
+      "updated_at": "2026-09-18T16:01:05.145639+00:00"
     },
     "0b1233dc196f2932058b": {
       "analysis_path": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/analysis.json",
@@ -611,7 +611,7 @@
     },
     "2a381cd0d6f39b8d9956": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:05.000946+00:00"
+      "updated_at": "2026-09-18T16:01:05.143391+00:00"
     },
     "2a807ddd2604e1805206": {
       "analysis_path": "episodes/2026-09-14/the-ai-slowdown-debate-nico-wittenborn-scott-keogh-mitchell-green-david-rosenthal-ben-gilb-2a807ddd2604e1805206/analysis.json",
@@ -884,6 +884,10 @@
       "transcript_source_url": "https://share.transistor.fm/s/1b7b60f3/transcription.vtt",
       "updated_at": "2026-09-01T16:13:56.497201+00:00"
     },
+    "3ff13f7bcff9c3d85760": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-18T16:01:05.140120+00:00"
+    },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
       "error": "",
@@ -949,7 +953,7 @@
     },
     "4726656ed66556023bea": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:05.004378+00:00"
+      "updated_at": "2026-09-18T16:01:05.147905+00:00"
     },
     "47314c121cc36c401899": {
       "analysis_path": "episodes/2026-08-25/neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488-47314c121cc36c401899/analysis.json",
@@ -1085,6 +1089,10 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
       "updated_at": "2026-07-15T19:29:17.935918+00:00"
+    },
+    "54e38ed52e867b4ef306": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-18T16:01:05.141775+00:00"
     },
     "55042b9966a3bc4b5c88": {
       "analysis_path": "episodes/2026-07-01/1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native-engineering-55042b9966a3bc4b5c88/analysis.json",
@@ -1358,7 +1366,7 @@
     },
     "69060df278188f065f65": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:05.003224+00:00"
+      "updated_at": "2026-09-18T16:01:05.146396+00:00"
     },
     "690ea092c6cda715494c": {
       "status": "metadata_skipped",
@@ -1586,7 +1594,7 @@
     },
     "783ba35c867dfa816b61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:05.003773+00:00"
+      "updated_at": "2026-09-18T16:01:05.147161+00:00"
     },
     "78c9c4d6670eadbc1601": {
       "analysis_path": "episodes/2026-06-01/ep-013-aws-margins-jump-10-while-azure-and-gcp-flatline-tokenomics-jordan-nanos-jeremie-el-78c9c4d6670eadbc1601/analysis.json",
@@ -1957,7 +1965,7 @@
     },
     "92905564fdc62775c79d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:05.002127+00:00"
+      "updated_at": "2026-09-18T16:01:05.144893+00:00"
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
@@ -2250,6 +2258,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-07-14T07:57:11.920537+00:00"
     },
+    "b48c823709f932568650": {
+      "analysis_path": "episodes/2026-09-18/why-diffusion-will-win-ai-inference-with-inception-co-founder-and-ceo-stefano-ermon-b48c823709f932568650/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=N1rjtDs8blY",
+      "published": "2026-09-18T10:00:00+00:00",
+      "raw_transcript": "episodes/2026-09-18/why-diffusion-will-win-ai-inference-with-inception-co-founder-and-ceo-stefano-ermon-b48c823709f932568650/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-18/why-diffusion-will-win-ai-inference-with-inception-co-founder-and-ceo-stefano-ermon-b48c823709f932568650/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-18/why-diffusion-will-win-ai-inference-with-inception-co-founder-and-ceo-stefano-ermon-b48c823709f932568650/summary.md",
+      "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "transcript_path": "episodes/2026-09-18/why-diffusion-will-win-ai-inference-with-inception-co-founder-and-ceo-stefano-ermon-b48c823709f932568650/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=N1rjtDs8blY",
+      "updated_at": "2026-09-18T16:05:15.518608+00:00"
+    },
     "b674c213eed72b1200da": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-09T16:02:23.566757+00:00"
@@ -2281,7 +2306,7 @@
     },
     "bacd58e0409438c767e2": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:05.001562+00:00"
+      "updated_at": "2026-09-18T16:01:05.144144+00:00"
     },
     "bb3951d8739839c7f8d2": {
       "analysis_path": "episodes/2026-06-10/babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labor-of-ai-at-work-bb3951d8739839c7f8d2/analysis.json",
@@ -2751,7 +2776,7 @@
     },
     "e1cf9a4de101fd863979": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:05.004934+00:00"
+      "updated_at": "2026-09-18T16:01:05.148652+00:00"
     },
     "e2c7b3697003264882d4": {
       "analysis_path": "episodes/2026-08-26/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apo-e2c7b3697003264882d4/analysis.json",
@@ -2874,7 +2899,7 @@
     },
     "e7b0e34ac82ae8c73b8e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:05.005471+00:00"
+      "updated_at": "2026-09-18T16:01:05.153472+00:00"
     },
     "e81fbb33a7dbc8d8825a": {
       "analysis_path": "episodes/2026-09-17/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench-e81fbb33a7dbc8d8825a/analysis.json",
@@ -3064,7 +3089,7 @@
     },
     "fb2301951f30455eadda": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-17T18:47:04.999989+00:00"
+      "updated_at": "2026-09-18T16:01:05.142597+00:00"
     },
     "fdccc88bd9342ede8dc4": {
       "analysis_path": "episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/analysis.json",

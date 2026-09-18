@@ -425,3 +425,8 @@ Frontier labs, model capabilities, training methods, scaling, and model economic
 ## 2026-09-15 - [The Balance of AI Power: Anton Leicht on Politics, Pacing Deals, and Muddling Through Well](https://www.cognitiverevolution.ai/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well/)
 
 - **Leicht warns that open models may stop following closed frontier capabilities on a predictable delay as proprietary RL environments, restricted distillation access, and compute availability become more important.** [41:26] He argues that matching an older pretraining frontier may not reproduce specialized life-science capability without the corresponding post-training infrastructure. He also questions whether personal hardware can keep pace with increasingly concentrated server compute.
+
+<!-- episode:b48c823709f932568650 -->
+## 2026-09-18 - [Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon](https://www.youtube.com/watch?v=N1rjtDs8blY)
+
+- **Ermon positions Mercury's present opportunity around latency-constrained tasks, while explicitly stopping short of frontier-intelligence parity.** [12:23; 27:36; 28:06; 29:20; 29:45] He compares current quality to speed-oriented Haiku, Flash and smaller OpenAI models, then states that Inception is not at frontier intelligence and many workloads still require it. His estimate that 20–30% of workloads are highly latency-sensitive comes from his own reading of OpenRouter categories, not a measured market-share forecast. Superior intelligence or data efficiency at scale remains a research possibility in his account.

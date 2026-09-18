@@ -532,3 +532,8 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 ## 2026-09-17 - [No Code Is Code: Zapier CEO Wade Foster on Headless Tools, Zapier MCP & Automation Bench](https://www.cognitiverevolution.ai/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench/)
 
 - **Foster describes weekly activity-based automation recommendations as an internal adoption mechanism.** [37:07; 39:41; 40:58] Connected-tool event histories prompt suggested workflows that employees accept or refine. He expects a customer product, but does not announce its availability or conversion results.
+
+<!-- episode:b48c823709f932568650 -->
+## 2026-09-18 - [Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon](https://www.youtube.com/watch?v=N1rjtDs8blY)
+
+- **Ermon reports that OpenCall switched its voice-agent LLM from Cerebras-served autoregressive models to Mercury running on Nvidia GPUs.** [17:37; 18:04; 18:19; 18:29; 25:12] He describes an ASR-to-reasoning-LLM-to-TTS pipeline and says OpenCall obtained comparable model speed with greater hardware availability, lower cost and higher quality after the switch. He also says OpenCall retained its application harness through an OpenAI-compatible API and structured outputs. The episode provides no controlled latency distribution, cost calculation or end-to-end voice comparison, so the result should remain a customer-specific vendor account.
