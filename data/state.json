@@ -25,6 +25,11 @@
       "transcript_source_url": "https://share.transistor.fm/s/07ad1b46/transcription.txt",
       "updated_at": "2026-06-16T16:05:15.800076+00:00"
     },
+    "05c0879840cb181ce270": {
+      "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
+      "status": "transcript_error",
+      "updated_at": "2026-09-19T16:01:04.781454+00:00"
+    },
     "080e5785176cc51d3078": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-20T16:01:01.195156+00:00"
@@ -133,7 +138,7 @@
     },
     "0a8a42de39b182621b75": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.145639+00:00"
+      "updated_at": "2026-09-19T16:00:47.252800+00:00"
     },
     "0b1233dc196f2932058b": {
       "analysis_path": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/analysis.json",
@@ -611,7 +616,7 @@
     },
     "2a381cd0d6f39b8d9956": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.143391+00:00"
+      "updated_at": "2026-09-19T16:00:47.251001+00:00"
     },
     "2a807ddd2604e1805206": {
       "analysis_path": "episodes/2026-09-14/the-ai-slowdown-debate-nico-wittenborn-scott-keogh-mitchell-green-david-rosenthal-ben-gilb-2a807ddd2604e1805206/analysis.json",
@@ -886,7 +891,7 @@
     },
     "3ff13f7bcff9c3d85760": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.140120+00:00"
+      "updated_at": "2026-09-19T16:00:47.247471+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -953,7 +958,7 @@
     },
     "4726656ed66556023bea": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.147905+00:00"
+      "updated_at": "2026-09-19T16:00:47.254542+00:00"
     },
     "47314c121cc36c401899": {
       "analysis_path": "episodes/2026-08-25/neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488-47314c121cc36c401899/analysis.json",
@@ -1092,7 +1097,7 @@
     },
     "54e38ed52e867b4ef306": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.141775+00:00"
+      "updated_at": "2026-09-19T16:00:47.249567+00:00"
     },
     "55042b9966a3bc4b5c88": {
       "analysis_path": "episodes/2026-07-01/1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native-engineering-55042b9966a3bc4b5c88/analysis.json",
@@ -1366,7 +1371,7 @@
     },
     "69060df278188f065f65": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.146396+00:00"
+      "updated_at": "2026-09-19T16:00:47.253407+00:00"
     },
     "690ea092c6cda715494c": {
       "status": "metadata_skipped",
@@ -1594,7 +1599,7 @@
     },
     "783ba35c867dfa816b61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.147161+00:00"
+      "updated_at": "2026-09-19T16:00:47.253965+00:00"
     },
     "78c9c4d6670eadbc1601": {
       "analysis_path": "episodes/2026-06-01/ep-013-aws-margins-jump-10-while-azure-and-gcp-flatline-tokenomics-jordan-nanos-jeremie-el-78c9c4d6670eadbc1601/analysis.json",
@@ -1965,7 +1970,7 @@
     },
     "92905564fdc62775c79d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.144893+00:00"
+      "updated_at": "2026-09-19T16:00:47.252218+00:00"
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
@@ -2306,7 +2311,7 @@
     },
     "bacd58e0409438c767e2": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.144144+00:00"
+      "updated_at": "2026-09-19T16:00:47.251594+00:00"
     },
     "bb3951d8739839c7f8d2": {
       "analysis_path": "episodes/2026-06-10/babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labor-of-ai-at-work-bb3951d8739839c7f8d2/analysis.json",
@@ -3089,7 +3094,7 @@
     },
     "fb2301951f30455eadda": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-18T16:01:05.142597+00:00"
+      "updated_at": "2026-09-19T16:00:47.250188+00:00"
     },
     "fdccc88bd9342ede8dc4": {
       "analysis_path": "episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/analysis.json",
