@@ -138,7 +138,7 @@
     },
     "0a8a42de39b182621b75": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.252800+00:00"
+      "updated_at": "2026-09-20T16:01:52.454714+00:00"
     },
     "0b1233dc196f2932058b": {
       "analysis_path": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/analysis.json",
@@ -616,7 +616,7 @@
     },
     "2a381cd0d6f39b8d9956": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.251001+00:00"
+      "updated_at": "2026-09-20T16:01:52.452423+00:00"
     },
     "2a807ddd2604e1805206": {
       "analysis_path": "episodes/2026-09-14/the-ai-slowdown-debate-nico-wittenborn-scott-keogh-mitchell-green-david-rosenthal-ben-gilb-2a807ddd2604e1805206/analysis.json",
@@ -891,7 +891,7 @@
     },
     "3ff13f7bcff9c3d85760": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.247471+00:00"
+      "updated_at": "2026-09-20T16:01:52.448862+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -958,7 +958,7 @@
     },
     "4726656ed66556023bea": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.254542+00:00"
+      "updated_at": "2026-09-20T16:01:52.457131+00:00"
     },
     "47314c121cc36c401899": {
       "analysis_path": "episodes/2026-08-25/neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488-47314c121cc36c401899/analysis.json",
@@ -1097,7 +1097,7 @@
     },
     "54e38ed52e867b4ef306": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.249567+00:00"
+      "updated_at": "2026-09-20T16:01:52.450305+00:00"
     },
     "55042b9966a3bc4b5c88": {
       "analysis_path": "episodes/2026-07-01/1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native-engineering-55042b9966a3bc4b5c88/analysis.json",
@@ -1371,7 +1371,7 @@
     },
     "69060df278188f065f65": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.253407+00:00"
+      "updated_at": "2026-09-20T16:01:52.455319+00:00"
     },
     "690ea092c6cda715494c": {
       "status": "metadata_skipped",
@@ -1599,7 +1599,7 @@
     },
     "783ba35c867dfa816b61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.253965+00:00"
+      "updated_at": "2026-09-20T16:01:52.455903+00:00"
     },
     "78c9c4d6670eadbc1601": {
       "analysis_path": "episodes/2026-06-01/ep-013-aws-margins-jump-10-while-azure-and-gcp-flatline-tokenomics-jordan-nanos-jeremie-el-78c9c4d6670eadbc1601/analysis.json",
@@ -1970,7 +1970,7 @@
     },
     "92905564fdc62775c79d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.252218+00:00"
+      "updated_at": "2026-09-20T16:01:52.454059+00:00"
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
@@ -2311,7 +2311,7 @@
     },
     "bacd58e0409438c767e2": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.251594+00:00"
+      "updated_at": "2026-09-20T16:01:52.453049+00:00"
     },
     "bb3951d8739839c7f8d2": {
       "analysis_path": "episodes/2026-06-10/babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labor-of-ai-at-work-bb3951d8739839c7f8d2/analysis.json",
@@ -2456,6 +2456,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-08-11T00:32:30.115032+00:00"
+    },
+    "c70b77534ce2d92c6b94": {
+      "analysis_path": "episodes/2026-09-19/ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fable-a-new-llm-pain-axi-c70b77534ce2d92c6b94/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fable-a-new-llm-pain-axis/",
+      "published": "2026-09-19T18:28:55+00:00",
+      "raw_transcript": "episodes/2026-09-19/ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fable-a-new-llm-pain-axi-c70b77534ce2d92c6b94/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-19/ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fable-a-new-llm-pain-axi-c70b77534ce2d92c6b94/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-19/ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fable-a-new-llm-pain-axi-c70b77534ce2d92c6b94/summary.md",
+      "title": "AI:AM Highlights: Zvi on Pacing & Trump-Xi, Astra better behaved than Fable? + a new LLM Pain Axis??",
+      "transcript_path": "episodes/2026-09-19/ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fable-a-new-llm-pain-axi-c70b77534ce2d92c6b94/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fable-a-new-llm-pain-axis/",
+      "updated_at": "2026-09-20T16:07:19.750938+00:00"
     },
     "c752e1f0326372f9c412": {
       "analysis_path": "episodes/2026-07-04/intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-device-native-foundati-c752e1f0326372f9c412/analysis.json",
@@ -2923,6 +2940,23 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-automation-bench/",
       "updated_at": "2026-09-17T18:55:56.793948+00:00"
     },
+    "e88aef56e4e21571a95c": {
+      "analysis_path": "episodes/2026-09-20/90-minutes-of-unfiltered-product-advice-from-snap-and-discord-s-product-chief-peter-sellis-e88aef56e4e21571a95c/analysis.json",
+      "error": "",
+      "feed_id": "lennys-podcast",
+      "link": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+      "published": "2026-09-20T12:32:17+00:00",
+      "raw_transcript": "episodes/2026-09-20/90-minutes-of-unfiltered-product-advice-from-snap-and-discord-s-product-chief-peter-sellis-e88aef56e4e21571a95c/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-20/90-minutes-of-unfiltered-product-advice-from-snap-and-discord-s-product-chief-peter-sellis-e88aef56e4e21571a95c/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-20/90-minutes-of-unfiltered-product-advice-from-snap-and-discord-s-product-chief-peter-sellis-e88aef56e4e21571a95c/summary.md",
+      "title": "90 minutes of unfiltered product advice from Snap and Discord\u2019s product chief | Peter Sellis",
+      "transcript_path": "episodes/2026-09-20/90-minutes-of-unfiltered-product-advice-from-snap-and-discord-s-product-chief-peter-sellis-e88aef56e4e21571a95c/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=97LRJUUPy_w",
+      "updated_at": "2026-09-20T16:07:19.753830+00:00"
+    },
     "e98274e5d5280ceea259": {
       "analysis_path": "episodes/2026-09-15/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well-e98274e5d5280ceea259/analysis.json",
       "error": "",
@@ -3094,7 +3128,7 @@
     },
     "fb2301951f30455eadda": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-19T16:00:47.250188+00:00"
+      "updated_at": "2026-09-20T16:01:52.451239+00:00"
     },
     "fdccc88bd9342ede8dc4": {
       "analysis_path": "episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/analysis.json",
