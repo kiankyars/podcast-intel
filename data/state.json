@@ -100,7 +100,7 @@
       "transcript_path": "episodes/2026-09-21/amazon-ban-hammer-seedance-strategy-amazon-blocks-muse-vinod-khosla-augustus-doricko-ben-h-0979ba5887c05684f4e0/transcript.md",
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/81a5a42e/transcription.vtt",
-      "updated_at": "2026-09-22T17:03:12.719408+00:00"
+      "updated_at": "2026-09-22T17:30:41.778160+00:00"
     },
     "09fe57ff68e7f14e822e": {
       "analysis_path": "episodes/2026-09-10/coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokenization-with-ceo-brian-09fe57ff68e7f14e822e/analysis.json",
@@ -221,9 +221,21 @@
       "updated_at": "2026-08-26T16:00:42.457486+00:00"
     },
     "10cc68eb43352370c764": {
-      "error": "Invest Like the Best / Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
-      "status": "transcript_error",
-      "updated_at": "2026-09-22T16:54:29.475387+00:00"
+      "analysis_path": "episodes/2026-09-22/gabe-stengel-building-investing-superintelligence-invest-like-the-best-ep-492-10cc68eb43352370c764/analysis.json",
+      "error": "",
+      "feed_id": "invest-like-the-best",
+      "link": "https://colossus.com/episode/building-investing-superintelligence/",
+      "published": "2026-09-22T08:00:00+00:00",
+      "raw_transcript": "episodes/2026-09-22/gabe-stengel-building-investing-superintelligence-invest-like-the-best-ep-492-10cc68eb43352370c764/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-09-22/gabe-stengel-building-investing-superintelligence-invest-like-the-best-ep-492-10cc68eb43352370c764/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-22/gabe-stengel-building-investing-superintelligence-invest-like-the-best-ep-492-10cc68eb43352370c764/summary.md",
+      "title": "Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]",
+      "transcript_path": "episodes/2026-09-22/gabe-stengel-building-investing-superintelligence-invest-like-the-best-ep-492-10cc68eb43352370c764/transcript.md",
+      "transcript_source": "local_audio_transcription_mlx_whisper",
+      "transcript_source_url": "https://traffic.megaphone.fm/CLS7922860814.mp3",
+      "updated_at": "2026-09-22T17:30:41.780024+00:00"
     },
     "10e21a6cc7fada9b845d": {
       "analysis_path": "episodes/2026-07-16/openai-s-compute-chief-we-can-t-build-fast-enough-sachin-katti-10e21a6cc7fada9b845d/analysis.json",
@@ -2098,7 +2110,7 @@
       "transcript_path": "episodes/2026-09-21/jev-system-one-models-for-prod-not-god-with-diogo-almeida-ceo-typesafe-ai-9ec8b2a4a3326fddef15/transcript.md",
       "transcript_source": "rss_embedded_transcript",
       "transcript_source_url": "https://www.latent.space/p/jev",
-      "updated_at": "2026-09-22T17:03:12.723984+00:00"
+      "updated_at": "2026-09-22T17:30:41.782772+00:00"
     },
     "a18c11e4c6f8d808e927": {
       "analysis_path": "episodes/2026-06-21/building-the-most-ai-pilled-engineering-team-in-the-world-fiona-fung-manager-of-the-claude-a18c11e4c6f8d808e927/analysis.json",

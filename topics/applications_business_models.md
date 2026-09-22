@@ -549,3 +549,8 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 ## 2026-09-21 - [Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI](https://www.latent.space/p/jev)
 
 - **Almeida reports that Jev passed one trillion tokens per day with calls continuing overnight, which he interprets as machine workloads rather than launch experimentation.** [00:35:23; 00:35:32; 00:36:23] He distinguishes signups and waitlist traffic from software usage, says the platform was continuously training at night because machines were calling it, and gives more than one trillion tokens per day as the milestone. He supplies no request counts, customer mix, token accounting, revenue, or independent telemetry, so this is an early vendor-reported demand signal.
+
+<!-- episode:10cc68eb43352370c764 -->
+## 2026-09-22 - [Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]](https://colossus.com/episode/building-investing-superintelligence/)
+
+- **Stengel expects finance AI pricing to progress from seats to usage and eventually outcomes, such as a valuable investment idea, a completed LP report, or a banking deliverable, although Rogo currently sells seats because buyers compare it with Bloomberg-like products.** [00:26:25] He says seat pricing matches current buyer expectations and requires a human enterprise-sales motion, while outcome pricing would align the bill with value the customer can recognize. He presents the latter as a desired direction rather than a current Rogo contract model.

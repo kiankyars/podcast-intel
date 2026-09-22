@@ -390,3 +390,8 @@ Export controls, national competition, regulation, defense, safety, and security
 ## 2026-09-19 - [AI:AM Highlights: Zvi on Pacing & Trump-Xi, Astra better behaved than Fable? + a new LLM Pain Axis??](https://www.cognitiverevolution.ai/ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fable-a-new-llm-pain-axis/)
 
 - **Zvi Mowshowitz and Prakash Narayanan argue that credible external AI evaluation needs both technical insiders and assessors whose independence the public can recognize.** [36:15; 38:28] Mowshowitz describes the existing evaluator pool as small and culturally close to the labs, and proposes complementing specialists with experienced outsiders from other safety disciplines. Narayanan emphasizes that technical competence alone will not create public trust in the certifying institutions. This is a proposed institutional design and a criticism of current capacity, not evidence that an expanded evaluation regime or international pacing agreement has been adopted.
+
+<!-- episode:10cc68eb43352370c764 -->
+## 2026-09-22 - [Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]](https://colossus.com/episode/building-investing-superintelligence/)
+
+- **Stengel says auditability can matter more than raw accuracy for agentic finance: users need source, assumption, and decision lineage to check outputs, debug failures, and satisfy regulators before granting agents execution authority.** [00:34:17] He argues that an occasionally wrong answer remains actionable when its inputs and reasoning are inspectable, whereas an untraceable answer cannot be trusted. He extends the requirement from information retrieval to agents that execute investments or send communications.

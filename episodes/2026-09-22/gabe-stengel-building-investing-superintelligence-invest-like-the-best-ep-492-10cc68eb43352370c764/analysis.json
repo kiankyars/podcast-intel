@@ -1,0 +1,94 @@
+{
+  "changed_views": [
+    "Applied-AI product quality can jump when models cross a reliability threshold, but the threshold only creates value when a vertical product already has the required context and workflow plumbing.",
+    "For finance agents, traceable lineage and auditability may be a prerequisite for deployment and regulatory acceptance, rather than a post hoc quality feature.",
+    "Individual AI productivity in banks does not establish firm-level economic value; the strategic test is whether firms redesign coverage, pricing, and market scope around the extra capacity.",
+    "Private-market AI may evolve toward agent-mediated transaction infrastructure, but standardization and relationship-based trust are material adoption gates."
+  ],
+  "entities": [
+    "Gabe Stengel",
+    "Rogo",
+    "Invest Like the Best",
+    "Patrick O'Shaughnessy",
+    "Anthropic",
+    "OpenAI",
+    "Claude",
+    "Opus 4.5",
+    "o1 Pro",
+    "Bloomberg",
+    "FactSet",
+    "Capital IQ",
+    "PitchBook",
+    "Affirm",
+    "private markets",
+    "capital markets"
+  ],
+  "follow_ups": [
+    "Track independent customer evidence for Rogo's claimed time savings and whether deployments produce measurable revenue, cost, or new-market outcomes.",
+    "Watch finance-AI contracts for a shift from seat pricing to usage or outcome pricing, and identify how realized value is measured.",
+    "Compare agent products' memory-compaction, lineage, and regulator-audit capabilities before treating autonomous finance workflows as production-ready.",
+    "Monitor private-market data standardization, agent-to-agent transaction protocols, and evidence that smaller businesses will accept automated rather than relationship-led deals."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "frontier_labs_models",
+      "claim": "Stengel says Rogo crossed meaningful capability thresholds with the model cycle: o1 Pro made financial-metric search reliable enough for practical use, while Opus 4.5 became capable of most junior investment-banking work when supplied with the right instructions and context.",
+      "confidence": "medium",
+      "evidence": "He contrasts early Rogo demos that looked magical but failed in practice with o1 Pro's usable reliability and Opus 4.5's broader junior-work capability. This is his account of Rogo's product evolution, not an independent benchmark.",
+      "kind": "observation",
+      "timestamp": "00:03:55"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Stengel argues that vertical-AI defensibility sits in the harness around a model: domain data and context, systems-of-record integrations, compliance and lineage, evals and model routing, and workflow or transaction surfaces that frontier labs are unlikely to build.",
+      "confidence": "medium",
+      "evidence": "He describes Rogo moving away from a roughly 60-call model pipeline toward simpler tools, while investing in data inputs, discoverable compliance trails, performance-cost-latency evals, data rooms, and finance workflows. He frames those layers as the opportunity perpendicular to the labs' general intelligence products.",
+      "kind": "inference",
+      "timestamp": "00:17:25"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Stengel identifies persistent memory compaction as a major unsolved bottleneck for enterprise agents, especially when one agent must preserve context across many conversations and coordinate with an entire organization.",
+      "confidence": "high",
+      "evidence": "He says an agent must retain the right information from roughly 100 conversations within a usable token budget, then argues that conversations across 100 colleagues make the coordination and context problem compound exponentially; he says current models are weak at this.",
+      "kind": "observation",
+      "timestamp": "00:23:34"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Stengel expects finance AI pricing to progress from seats to usage and eventually outcomes, such as a valuable investment idea, a completed LP report, or a banking deliverable, although Rogo currently sells seats because buyers compare it with Bloomberg-like products.",
+      "confidence": "medium",
+      "evidence": "He says seat pricing matches current buyer expectations and requires a human enterprise-sales motion, while outcome pricing would align the bill with value the customer can recognize. He presents the latter as a desired direction rather than a current Rogo contract model.",
+      "kind": "forecast",
+      "timestamp": "00:26:25"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Stengel says auditability can matter more than raw accuracy for agentic finance: users need source, assumption, and decision lineage to check outputs, debug failures, and satisfy regulators before granting agents execution authority.",
+      "confidence": "high",
+      "evidence": "He argues that an occasionally wrong answer remains actionable when its inputs and reasoning are inspectable, whereas an untraceable answer cannot be trusted. He extends the requirement from information retrieval to agents that execute investments or send communications.",
+      "kind": "opinion",
+      "timestamp": "00:34:17"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Stengel reports that bank deployments are creating large individual productivity gains, but says the unresolved strategic question is how firms convert those gains into revenue, cost savings, or newly serviceable markets.",
+      "confidence": "medium",
+      "evidence": "He gives the example of managing directors producing in minutes work that previously required days of analyst iteration, then says firms must decide whether to cut costs or use one banker plus AI to serve segments such as smaller M&A deals that were previously uneconomic.",
+      "kind": "inference",
+      "timestamp": "00:32:10"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Stengel sees a path from Rogo's copilot to autonomous workflows and an agent-to-agent communication layer for private-market transactions, which he forecasts could shorten deal and asset-pricing cycles and increase liquidity; he remains uncertain how quickly standardization and human trust will allow that transformation.",
+      "confidence": "medium",
+      "evidence": "He describes using AI to enter the market, building full workflows and autopilot execution, then enabling agents to negotiate, coordinate advisers, and run auctions. Later he says private-market liquidity depends on standardization and that small-business owners may still prefer a trusted human handoff.",
+      "kind": "forecast",
+      "timestamp": "00:30:03; 00:55:50"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Gabe Stengel describes Rogo's progression from unreliable model demos to a finance-specific agent system as frontier models improve. He argues that the durable work is the vertical harness: proprietary context, systems-of-record integrations, auditability, model routing, and transaction workflows. He expects finance AI to move toward outcome pricing and agent-mediated private-market transactions, while identifying persistent memory, firm-level adoption, and human trust as important constraints.",
+  "why_it_matters": "The interview connects model capability thresholds to applied-AI product timing, regulated deployment requirements, enterprise monetization, and the possible restructuring of private-market workflows. The claims are primarily Stengel's first-person product and market views, so they should be tracked as informed but self-reported signals rather than verified Rogo performance or market outcomes."
+}
