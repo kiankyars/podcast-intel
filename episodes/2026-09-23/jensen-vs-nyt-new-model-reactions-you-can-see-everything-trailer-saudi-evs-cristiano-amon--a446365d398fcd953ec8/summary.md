@@ -1,0 +1,33 @@
+# Jensen vs NYT, New Model Reactions, "You Can See Everything" Trailer, Saudi EVs | Cristiano Amon, Talia Goldberg, John & Louis Antonelli, Max Levchin, Sam Ross
+
+- Podcast: TBPN
+- Published: 2026-09-23
+- Source: https://share.transistor.fm/s/e6c9bcc4
+- Relevance: 4/5
+
+First-party interviews provide concrete evidence on AI deployment and investment. Qualcomm CEO Cristiano Amon describes tight compute supply and a cross-vendor software strategy around Modular. Bessemer partner Talia Goldberg details a $5.75 billion capital raise with concentrated growth investments. Real reports faster engineering releases, while Affirm CEO Max Levchin describes newly deployed attention-based underwriting and a 30% decline in fully loaded cost per pull request after creating a dedicated developer-productivity team.
+
+**Why it matters:** The interviews suggest that AI value increasingly depends on software portability, workflow design and proprietary operational data. Qualcomm is trying to broaden the hardware ecosystem through an open software layer; Affirm offers a specific implementation pattern for managing fast-changing coding tools, plus evidence that attention architectures can improve a specialized financial workflow. The operating metrics remain company-reported, and the interviews do not establish equivalent improvements in quality or long-term credit outcomes.
+
+## Signals
+
+- **Max Levchin reports that Affirm reduced fully loaded cost per pull request by 30% after creating a dedicated developer-productivity team.** [01:42:30] _agents_developer_tools; observation; medium confidence._ He says Affirm formed a roughly 12-person team around January 2026 to maintain a supported menu of commercial and open-weight models and harnesses, and to make upgrades easy for engineers. The cost measure includes salaries and AWS costs. This links a concrete organizational intervention to a reported operating improvement; the interview provides no controlled comparison or code-quality measure.
+- **Levchin says Affirm has deployed attention-based ARC underwriting models whose improvement was twice that of its next planned tree-model upgrade.** [01:30:25] _applications_business_models; observation; medium confidence._ He describes roughly three years of research and about a year of testing before deployment. The comparison concerns incremental model improvement; he does not specify its metric or denominator. Affirm separately confirms a live transformer model and reports 3.4% more completed purchases in an initial controlled deployment, a distinct measure: [Affirm announcement](https://investors.affirm.com/news-releases/news-release-details/affirm-launches-transformer-based-machine-learning-model-real).
+- **Cristiano Amon says Qualcomm is making Modular's software stack open source and supports its use on competing Nvidia and AMD hardware as well as Qualcomm silicon.** [00:45:05] _semiconductors_compute; observation; high confidence._ Amon positions the acquired team as a way to provide a common AI software layer across data centers and devices. His stated willingness to support competitors makes software portability central to Qualcomm's strategy. Modular's own [acquisition announcement](https://www.modular.com/blog/qualcomm-completes-acquisition-of-modular) confirms the deal closed; the interview does not establish complete feature parity, performance parity or the completion of every open-source release.
+- **Amon reports compute demand exceeding supply broadly, describing the semiconductor supply chain as operating at full capacity.** [00:41:09] _semiconductors_compute; observation; medium confidence._ He says shortages extend across compute. He separately forecasts rising CPU demand from agent orchestration in data centers and devices, alongside specialized inference engines for stages such as prefill and decode. This points to a wider set of potential bottlenecks and beneficiaries; he supplies no component-level utilization, shipment or backlog data.
+- **Talia Goldberg says Bessemer raised $5.75 billion, allocating $1.75 billion to early-stage companies and $4 billion to growth, with a plan to concentrate growth capital in fewer companies.** [00:58:17] _companies_capital_allocation; observation; high confidence._ Goldberg says Bessemer intends to lead growth rounds and hold meaningful positions as returns concentrate in larger winners. The raised capital and allocations are reported as completed; larger, more selective future checks are the investment strategy. The distinction matters because fund size alone does not show that this capital has already reached portfolio companies.
+- **Real co-founders John and Louis Antonelli credit AI with shortening product-update cadence from every three to four months to every two to three weeks while their team has not materially grown.** [01:13:07] _agents_developer_tools; observation; medium confidence._ In discussing the engineering work needed to expand sports coverage, the founders say engineers are shipping more frequently and adding contextual statistics. This is a concrete claim of increased delivery cadence in an existing consumer application, although they provide no release-size, quality, staffing or cost series that would establish an equivalent productivity multiplier.
+
+## Changed Views Or Tensions
+
+- Affirm's reported cost reduction strengthens the case for a dedicated team that curates AI development tools and manages migrations; access to models alone may leave substantial organizational friction.
+- Qualcomm's willingness to support competing silicon through Modular strengthens the hypothesis that software portability is a strategic route to expanding its AI hardware opportunity; execution and performance remain open questions.
+- Affirm's underwriting deployment adds concrete evidence that attention architectures can improve established vertical decision systems using existing proprietary data.
+
+## Follow-Ups
+
+- Check whether Affirm's 30% cost-per-PR reduction includes comparable PR scope, review effort, defect rates and maintenance costs; separate adoption growth from quality-adjusted output.
+- Clarify ARC's incremental-improvement metric and baseline, then monitor repayment cohorts and loss rates as the transformer underwriting deployment expands.
+- Track which Modular components are open source, their licenses and release dates, and comparable workload performance across Nvidia, AMD and Qualcomm hardware.
+- Compare Amon's broad supply constraint assessment with component-specific lead times, capacity disclosures and evidence of CPU demand from agents.
+- Track Bessemer's actual growth-check sizes and concentration as its newly raised capital is deployed.

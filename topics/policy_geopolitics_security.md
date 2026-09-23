@@ -395,3 +395,13 @@ Export controls, national competition, regulation, defense, safety, and security
 ## 2026-09-22 - [Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]](https://colossus.com/episode/building-investing-superintelligence/)
 
 - **Stengel says auditability can matter more than raw accuracy for agentic finance: users need source, assumption, and decision lineage to check outputs, debug failures, and satisfy regulators before granting agents execution authority.** [00:34:17] He argues that an occasionally wrong answer remains actionable when its inputs and reasoning are inspectable, whereas an untraceable answer cannot be trusted. He extends the requirement from information retrieval to agents that execute investments or send communications.
+
+<!-- episode:847856d613d7bf55ad11 -->
+## 2026-09-23 - [🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)](https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric)
+
+- **Nguyen frames Radical Numerics' biosecurity mandate as continual improvement of layered defense, including surveillance and response after hazards have escaped upstream controls.** [01:20:37] He describes a dual design-and-defense mandate at 01:11:10. When the hosts raise false-positive burdens and the difficulty of perfect prevention, he acknowledges that defenses will not catch every case and points to environmental surveillance, attribution and countermeasure work. At 01:24:03 he calls defense an ongoing arms race. The strategic claim is a need for sustained defensive capability, not a demonstrated prevention guarantee; the discussion supplies no operational deployment metrics.
+
+<!-- episode:f7431b2b2c92a9b0492e -->
+## 2026-09-22 - [Harvey's Margin Whiplash, Human Powered Agents, McLaren Rebrand, Insects > Humans? | Ben Thompson, Gagan Biyani, Alex Ratner, Peter Kalogiannis, Daniel Petkevich](https://share.transistor.fm/s/937dd166)
+
+- **Swarm Aero CEO Peter Kalogiannis says Gamera's design couples aircraft manufacturing with swarm command software because both production capacity and qualified operators constrain deployment at scale.** [01:55:03] Kalogiannis says the company has been developing the aircraft and factory for capacity in the hundreds per year, alongside autonomy intended to control hundreds of aircraft simultaneously. He identifies operator scarcity and radio coordination as bottlenecks, says Pacific range and payload needs drove the design, and claims the design can meet an Air Force price requirement below $10 million per aircraft. These are company design and capacity claims, not proof of achieved output, operational swarm performance, contracted sales or profitable unit costs.
