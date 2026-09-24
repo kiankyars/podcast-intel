@@ -155,7 +155,7 @@
     },
     "0a8a42de39b182621b75": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-23T20:48:30.053389+00:00"
+      "updated_at": "2026-09-24T16:02:34.946597+00:00"
     },
     "0b1233dc196f2932058b": {
       "analysis_path": "episodes/2026-09-01/ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face-0b1233dc196f2932058b/analysis.json",
@@ -411,6 +411,10 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=RQE8OS392dU",
       "updated_at": "2026-06-09T16:09:24.212185+00:00"
     },
+    "1c6f81073f13976ed65f": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-09-24T16:02:34.940800+00:00"
+    },
     "1c72020c86cca75745c6": {
       "analysis_path": "episodes/2026-08-09/the-playbook-for-building-high-talent-density-teams-adam-ward-head-of-talent-at-cursor-1c72020c86cca75745c6/analysis.json",
       "error": "",
@@ -650,7 +654,7 @@
     },
     "2a381cd0d6f39b8d9956": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-23T20:48:30.051554+00:00"
+      "updated_at": "2026-09-24T16:02:34.944808+00:00"
     },
     "2a807ddd2604e1805206": {
       "analysis_path": "episodes/2026-09-14/the-ai-slowdown-debate-nico-wittenborn-scott-keogh-mitchell-green-david-rosenthal-ben-gilb-2a807ddd2604e1805206/analysis.json",
@@ -925,7 +929,7 @@
     },
     "3ff13f7bcff9c3d85760": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-23T20:48:30.049672+00:00"
+      "updated_at": "2026-09-24T16:02:34.943056+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -1148,7 +1152,7 @@
     },
     "54e38ed52e867b4ef306": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-23T20:48:30.050319+00:00"
+      "updated_at": "2026-09-24T16:02:34.943669+00:00"
     },
     "55042b9966a3bc4b5c88": {
       "analysis_path": "episodes/2026-07-01/1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native-engineering-55042b9966a3bc4b5c88/analysis.json",
@@ -1384,7 +1388,7 @@
     },
     "641235807f5ce3964ef6": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-23T20:48:30.047829+00:00"
+      "updated_at": "2026-09-24T16:02:34.941803+00:00"
     },
     "64782ec72ea2e1cdbf5b": {
       "analysis_path": "episodes/2026-05-28/state-of-enterprise-ai-2026-aaron-levie-on-tokenmaxxing-rise-of-headless-and-ai-proofing-y-64782ec72ea2e1cdbf5b/analysis.json",
@@ -2042,7 +2046,7 @@
     },
     "92905564fdc62775c79d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-23T20:48:30.052747+00:00"
+      "updated_at": "2026-09-24T16:02:34.946035+00:00"
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
@@ -2243,6 +2247,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-07-20T18:27:18.577039+00:00"
     },
+    "a6927f687e144dc279b6": {
+      "analysis_path": "episodes/2026-09-24/re-founding-incumbents-for-the-ai-era-with-sequence-holdings-co-founder-and-ceo-michael-le-a6927f687e144dc279b6/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=TCpRwJBQvW0",
+      "published": "2026-09-24T10:00:00+00:00",
+      "raw_transcript": "episodes/2026-09-24/re-founding-incumbents-for-the-ai-era-with-sequence-holdings-co-founder-and-ceo-michael-le-a6927f687e144dc279b6/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-24/re-founding-incumbents-for-the-ai-era-with-sequence-holdings-co-founder-and-ceo-michael-le-a6927f687e144dc279b6/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-24/re-founding-incumbents-for-the-ai-era-with-sequence-holdings-co-founder-and-ceo-michael-le-a6927f687e144dc279b6/summary.md",
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "transcript_path": "episodes/2026-09-24/re-founding-incumbents-for-the-ai-era-with-sequence-holdings-co-founder-and-ceo-michael-le-a6927f687e144dc279b6/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=TCpRwJBQvW0",
+      "updated_at": "2026-09-24T16:21:02.640990+00:00"
+    },
     "a7181cf9a2d4a85905f3": {
       "analysis_path": "episodes/2026-09-11/ep-029-modular-data-centers-cut-build-time-to-12-months-datacenter-energy-nico-bontigui-jo-a7181cf9a2d4a85905f3/analysis.json",
       "error": "",
@@ -2417,7 +2438,7 @@
     },
     "bacd58e0409438c767e2": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-23T20:48:30.052148+00:00"
+      "updated_at": "2026-09-24T16:02:34.945399+00:00"
     },
     "bb3951d8739839c7f8d2": {
       "analysis_path": "episodes/2026-06-10/babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labor-of-ai-at-work-bb3951d8739839c7f8d2/analysis.json",
@@ -2545,6 +2566,23 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.dwarkesh.com/p/openai-huggingface-narration",
       "updated_at": "2026-09-01T16:13:56.499745+00:00"
+    },
+    "c404436f03c8ee14d825": {
+      "analysis_path": "episodes/2026-09-23/ep-033-clustermax-3-0-is-here-neoclouds-ranked-neoclouds-gpus-sam-harshe-pratt-bhatt-jorda-c404436f03c8ee14d825/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--033---ClusterMAX-3-0-Is-Here--Neoclouds-Ranked-Neoclouds--GPUs--Sam-Harshe--Pratt-Bhatt--Jordan-Nanos-e3pa84t",
+      "published": "2026-09-23T22:50:00+00:00",
+      "raw_transcript": "episodes/2026-09-23/ep-033-clustermax-3-0-is-here-neoclouds-ranked-neoclouds-gpus-sam-harshe-pratt-bhatt-jorda-c404436f03c8ee14d825/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-23/ep-033-clustermax-3-0-is-here-neoclouds-ranked-neoclouds-gpus-sam-harshe-pratt-bhatt-jorda-c404436f03c8ee14d825/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-23/ep-033-clustermax-3-0-is-here-neoclouds-ranked-neoclouds-gpus-sam-harshe-pratt-bhatt-jorda-c404436f03c8ee14d825/summary.md",
+      "title": "Ep. 033 - ClusterMAX 3.0 Is Here! Neoclouds Ranked (Neoclouds, GPUs) | Sam Harshe, Pratt Bhatt, Jordan Nanos",
+      "transcript_path": "episodes/2026-09-23/ep-033-clustermax-3-0-is-here-neoclouds-ranked-neoclouds-gpus-sam-harshe-pratt-bhatt-jorda-c404436f03c8ee14d825/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=gO7oczGh9qE",
+      "updated_at": "2026-09-24T16:21:02.643772+00:00"
     },
     "c652c75ffd98ddab73d6": {
       "analysis_path": "episodes/2026-07-29/ep-022-market-drawdown-historic-bubbles-funding-the-buildout-ai-politics-doug-is-back-c652c75ffd98ddab73d6/analysis.json",
@@ -2870,7 +2908,7 @@
     },
     "e12094dbdf590175d20d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-23T20:48:30.048972+00:00"
+      "updated_at": "2026-09-24T16:02:34.942465+00:00"
     },
     "e1a3b37534ebf5a4d408": {
       "analysis_path": "episodes/2026-08-04/bending-spoons-buys-airtable-snap-rips-ads-in-bmw-grace-li-samir-kaji-john-quinn-nikhil-re-e1a3b37534ebf5a4d408/analysis.json",
@@ -3255,7 +3293,7 @@
     },
     "fb2301951f30455eadda": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-23T20:48:30.050952+00:00"
+      "updated_at": "2026-09-24T16:02:34.944236+00:00"
     },
     "fdccc88bd9342ede8dc4": {
       "analysis_path": "episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/analysis.json",

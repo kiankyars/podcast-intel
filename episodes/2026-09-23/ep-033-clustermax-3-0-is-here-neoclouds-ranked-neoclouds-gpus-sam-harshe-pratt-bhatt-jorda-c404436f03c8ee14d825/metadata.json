@@ -1,0 +1,22 @@
+{
+  "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/126213725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-23%2F432540098-44100-2-2061fb4efe4a.mp3",
+  "description_html": "<p>ClusterMAX 3.0 is here. Sam Harshe (@sharshe02) and Pratt Bhatt (@PrathmeshBhat19) join Jordan Nanos (@jordannanos) after months of testing 77 GPU clouds. Some moved up, some moved down. </p><p>Health checks, cache hit rates, NCCL recipes, agentic coding on clusters, a Linux kernel bug, neocloud security, SLAs and financing, NVIDIA&#39;s backstops, five-year-old H100s, and hosted RL training.<br></p><p>Read the full ClusterMAX 3.0 report: https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard<br>ClusterMAX inquiries: <a href=\"mailto:clustermax@semianalysis.com\">clustermax@semianalysis.com</a></p><p><br></p><p>0:00 Cold Open</p><p>1:32 The Rankings</p><p>6:58 Health Checks</p><p>13:26 Endpoint Cache Misses</p><p>16:40 Networking and NCCL</p><p>22:52 Vibe-Coded Infra</p><p>31:27 Bug Hunting</p><p>38:36 Security</p><p>45:43 Financing Neoclouds</p><p>56:33 Hosted Training and RL</p>",
+  "description_text": "ClusterMAX 3.0 is here. Sam Harshe (@sharshe02) and Pratt Bhatt (@PrathmeshBhat19) join Jordan Nanos (@jordannanos) after months of testing 77 GPU clouds. Some moved up, some moved down.\n\nHealth checks, cache hit rates, NCCL recipes, agentic coding on clusters, a Linux kernel bug, neocloud security, SLAs and financing, NVIDIA's backstops, five-year-old H100s, and hosted RL training.\n\nRead the full ClusterMAX 3.0 report: https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard\nClusterMAX inquiries: clustermax@semianalysis.com\n\n0:00 Cold Open\n\n1:32 The Rankings\n\n6:58 Health Checks\n\n13:26 Endpoint Cache Misses\n\n16:40 Networking and NCCL\n\n22:52 Vibe-Coded Infra\n\n31:27 Bug Hunting\n\n38:36 Security\n\n45:43 Financing Neoclouds\n\n56:33 Hosted Training and RL",
+  "duration_seconds": 4116,
+  "feed_id": "semianalysis-weekly",
+  "feed_name": "SemiAnalysis Weekly",
+  "feed_priority": 10,
+  "id": "c404436f03c8ee14d825",
+  "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--033---ClusterMAX-3-0-Is-Here--Neoclouds-Ranked-Neoclouds--GPUs--Sam-Harshe--Pratt-Bhatt--Jordan-Nanos-e3pa84t",
+  "published": "2026-09-23T22:50:00+00:00",
+  "title": "Ep. 033 - ClusterMAX 3.0 Is Here! Neoclouds Ranked (Neoclouds, GPUs) | Sam Harshe, Pratt Bhatt, Jordan Nanos",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=gO7oczGh9qE",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "clustermax@semianalysis.com",
+      "url": "mailto:clustermax@semianalysis.com"
+    }
+  ]
+}

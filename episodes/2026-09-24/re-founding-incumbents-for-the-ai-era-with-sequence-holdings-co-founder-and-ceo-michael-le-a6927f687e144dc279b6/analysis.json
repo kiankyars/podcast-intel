@@ -1,0 +1,81 @@
+{
+  "changed_views": [
+    "The BankSouth account adds a concrete example of AI expanding processing capacity through a demand spike, while preserving the distinction between servicing more demand and creating it.",
+    "Centralized systems and well-defined regulated workflows may be positive selection criteria for enterprise agents. Fragmented rollups can face a separate integration burden even when their tasks look automatable.",
+    "Sequence's own path began with services before ownership. That qualifies the interview's broader argument that vendors cannot drive deep change: a services relationship helped establish the evidence and trust for the permanent partnership."
+  ],
+  "entities": [
+    "Sequence Holdings",
+    "Michael Lee",
+    "Sarah Guo",
+    "BankSouth",
+    "Baldwin",
+    "Trevor Baldwin",
+    "Dell family office",
+    "Atlas",
+    "Lattice",
+    "Artifacts",
+    "Applied Epic",
+    "Anthropic"
+  ],
+  "follow_ups": [
+    "Obtain BankSouth's measurement definitions and denominators for the 94% consumer underwriting reduction, 30-to-11-day turnaround and doubled quarterly volume; separate loan counts from dollar volume and compare equivalent loan mixes.",
+    "Track credit losses, exceptions, error rates, customer outcomes and fully loaded engineering, inference and integration costs before treating the operational metrics as evidence of improved risk-adjusted economics.",
+    "Check Baldwin transaction closing, capital structure and ownership terms, then look for measured Atlas reuse and operating results that test whether the BankSouth implementation transfers to brokerage.",
+    "Clarify Atlas's model choices, grounding and evaluation methods, human approval boundaries and audit controls; the interview describes layers but does not provide sufficient technical detail to assess reliability."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Lee reports that BankSouth reduced consumer underwriting time by 94% after Sequence's March investment, and that the bank's average end-to-end loan turnaround fell from 30 to 11 days as commercial underwriting automation began rolling out.",
+      "confidence": "medium",
+      "evidence": "He says the system can handle all consumer loans and redirects underwriters from entering numbers to evaluating exceptions. Guo clarifies that the 94% figure refers to the timeline. Lee then gives the 30-to-11-day bank loan figure after describing the commercial rollout; he does not provide sample sizes, absolute consumer baselines or implementation costs.",
+      "kind": "observation",
+      "timestamp": "32:21\u201333:01"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Lee says BankSouth handled a doubling of loan volume from Q1 to Q2 with two fewer underwriters and unchanged underwriting standards; he explicitly attributes the demand increase to luck rather than Sequence.",
+      "confidence": "medium",
+      "evidence": "He says the bank previously would have turned away volume because of middle- and back-office capacity limits. The smaller team reflected one retirement and one move to the front office. This is a reported capacity gain, not evidence that AI generated the additional loans or improved subsequent credit performance.",
+      "kind": "observation",
+      "timestamp": "33:17\u201333:55"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Lee's acquisition screen favors centralized operations and established data discipline because one engineering deployment can reach the whole business; he argues that BankSouth's regulation helped create agent-friendly rules and data hygiene.",
+      "confidence": "medium",
+      "evidence": "He contrasts centralized bank underwriting with rollups that must reconcile systems, operating procedures and cultures across locations. He later identifies Baldwin's single Applied Epic instance and prior Anthropic adoption as evidence of management's preparation for change. The practical investment criterion is existing operational coherence, beyond the size of the labor bill.",
+      "kind": "opinion",
+      "timestamp": "16:21\u201317:38; 28:43\u201330:06"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Lee describes Atlas as a four-layer internal platform built at BankSouth: a business data ontology, an agent builder, the Lattice orchestration engine and an Artifacts application builder. Reuse at Baldwin is an expectation, not a demonstrated deployment result.",
+      "confidence": "medium",
+      "evidence": "The ontology connects customer identity and related records across systems so agents can interpret the business. Lee says shared infrastructure should speed deployment and let operating-company engineers build applications. He cites engineers' estimate that 80% of business building blocks are common and 20% industry-specific, but supplies no cross-industry benchmark or measured reuse rate.",
+      "kind": "observation",
+      "timestamp": "20:56\u201322:49"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Lee reports that BankSouth began as a services customer and became a minority investment; he says permanent ownership changed how much engineering complexity Sequence could undertake and how employees engaged with the transformation.",
+      "confidence": "medium",
+      "evidence": "He describes an August-to-late-November services engagement followed by a March investment after Fed and OCC approval. Engineers could build for continued ownership rather than a future handoff, and management could plan a multiyear technology foundation. This is a first-party account of changed incentives, without a controlled comparison separating ownership effects from deployment maturity.",
+      "kind": "observation",
+      "timestamp": "14:35\u201316:18"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Sequence is pursuing a concentrated permanent-capital model: Lee targets roughly one deal a year and says Sequence and the Dell family office will co-control Baldwin, which Guo introduces as an announced $7.7 billion take-private.",
+      "confidence": "high",
+      "evidence": "Lee says skipping a year is acceptable and there is no mandated deployment cadence. He explains that a take-private requires certainty of capital for a multibillion-dollar equity commitment, motivating the Dell partnership. The structure pairs Sequence's operating platform with external capital at much larger scale, but the interview does not establish closing, financing terms or realized Baldwin results.",
+      "kind": "observation",
+      "timestamp": "00:35\u201300:44; 26:39\u201327:08; 36:14\u201337:08"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Sequence Holdings CEO Michael Lee describes an ownership-and-engineering model for applying AI inside established businesses, with BankSouth providing the most concrete operating evidence. He reports a 94% reduction in consumer underwriting time and a fall in the bank's average end-to-end loan turnaround from 30 to 11 days. He also says the bank absorbed doubled quarterly loan volume with a smaller underwriting team, while explicitly denying that Sequence caused the demand increase. Sequence plans to extend the Atlas platform developed at the bank to Baldwin through an announced $7.7 billion take-private with the Dell family office. BankSouth results are founder-reported; cross-industry reuse, financial returns and Baldwin transformation results remain unproven in this interview. Host Sarah Guo discloses that she is a Sequence investor.",
+  "why_it_matters": "The useful evidence is a specific mechanism for enterprise AI adoption: automate routine loan processing, reserve underwriters for exceptions and absorb more volume through existing centralized operations. The case makes organizational structure, access to business data and authority to change workflows relevant to AI investment selection. It also suggests that a services engagement can precede an ownership partnership. The missing baselines, deployment costs and credit outcomes prevent translating the reported cycle-time improvements directly into ROI or assuming the approach will transfer to insurance brokerage."
+}
