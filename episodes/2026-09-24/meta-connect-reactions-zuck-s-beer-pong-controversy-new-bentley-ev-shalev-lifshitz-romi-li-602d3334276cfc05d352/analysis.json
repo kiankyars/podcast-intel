@@ -1,0 +1,90 @@
+{
+  "changed_views": [
+    "Public's reported customer migration suggests agent-based portfolio execution may appeal to sophisticated, high-balance customers early, rather than adoption depending solely on novice investors; one anecdote does not establish a distribution trend.",
+    "TypeSafe's profitability assertion raises a testable commercial question beyond its already-covered technical efficiency thesis, but lacks the accounting detail needed to assess sustainable economics.",
+    "Nanos's account makes availability for a particular customer and timely software support material complements to a cloud's benchmark ranking; even a top-rated provider may be inaccessible at the required date.",
+    "Solcoa's feedstock pivot and Nanos's labor account identify distinct physical limits: scalable material input for a process plant and trained workers for data-center construction and operations. Financing alone does not establish delivered capacity."
+  ],
+  "entities": [
+    "Public",
+    "Leif Abraham",
+    "UBS",
+    "TypeSafe AI",
+    "Diogo Almeida",
+    "Jev",
+    "Solcoa Industries",
+    "Solcoa One",
+    "Hooman Reza Nezhad",
+    "SemiAnalysis",
+    "Jordan Nanos",
+    "CoreWeave",
+    "Nebius",
+    "Nvidia",
+    "Amazon EFA",
+    "vLLM",
+    "SGLang",
+    "Crusoe"
+  ],
+  "follow_ups": [
+    "Seek Public's agent-linked net inflows, account retention, strategy mix and execution controls before extrapolating from the reported $50 million customer.",
+    "Clarify TypeSafe's profit definition and period, paid revenue, compute and research costs, and whether launch-scale demand preserves the claimed economics.",
+    "Track Solcoa One's permitting, equipment installation, feedstock and offtake contracts, July 2027 commissioning, realized throughput and production costs separately from announced capacity.",
+    "Check actual managed-cluster quotes, start dates and support commitments for CoreWeave and Nebius rather than generalizing from the reported $100 million customer conversations.",
+    "Test required inference features on each proposed network and software version, including KV-cache transfers, to measure portability work and time to production.",
+    "Obtain comparable electrician wage and staffing data with dates, locations and compensation definitions, and track whether hiring or training delays change data-center delivery schedules."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Public CEO Leif Abraham says its newly launched prediction-market agents can use event probabilities to trigger portfolio actions, and reports a roughly $50 million account that moved from UBS wealth management to Public for agent execution.",
+      "confidence": "medium",
+      "evidence": "Abraham describes market-moving event contracts, excluding sports and entertainment, whose probabilities can trigger trades, alerts or risk management across other assets; his rate-hike threshold is an example rather than a reported executed trade. He separately says one customer moved $50 million and uses agents mainly for covered calls, while other customers automate tax-loss harvesting. This is a founder-reported customer anecdote and product capability, with no aggregate net inflows, retention or investment-performance evidence.",
+      "kind": "observation",
+      "timestamp": "01:00:42; 01:01:33; 01:07:13; 01:08:28"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "TypeSafe CEO Diogo Almeida claims the company has become profitable after raising less than $40 million roughly a year and a half earlier, while launch demand is exposing changing infrastructure bottlenecks.",
+      "confidence": "medium",
+      "evidence": "Asked whether TypeSafe needs frontier-lab-scale GPU clusters, Almeida says its compute requirements are very different and explicitly claims it has built a profitable AI company. He then says the bottleneck changes daily as demand exceeds what the system was designed to handle. He gives no revenue, cost breakdown, accounting definition of profit or measurement period; this is a new financial assertion, not validation of Jev's previously described capital-efficiency thesis.",
+      "kind": "observation",
+      "timestamp": "01:14:26; 01:14:37; 01:14:49"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Solcoa CEO Hooman Reza Nezhad reports a $75 million raise for a planned 500-ton-per-year Nevada metallization plant, targeting July 4, 2027 commissioning after pivoting from recycling to mined feedstock because scrap volume was insufficient.",
+      "confidence": "medium",
+      "evidence": "He says the company shifted about a year earlier to converting refined virgin material into metals, retaining only a small recycling business. The planned plant would make neodymium-praseodymium for automotive and some defense uses, plus samarium largely for defense. The [company's site](https://solcoaindustries.com/) resolves the transcript's inconsistent company spelling and corroborates the announced financing and planned capacity. Funding and the feedstock pivot are reported events; commissioning, scaled output and competitive production economics have not been demonstrated here.",
+      "kind": "observation",
+      "timestamp": "01:19:16; 01:19:56; 01:20:05; 01:25:33; 01:26:07"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Jordan Nanos says prospective customers with roughly $100 million to spend have told SemiAnalysis that CoreWeave cannot accommodate them until May 2027, creating an opening for Nebius in the middle of the market.",
+      "confidence": "medium",
+      "evidence": "Nanos relays customers approaching SemiAnalysis after being turned away or delayed by CoreWeave, then attributes part of Nebius's opportunity to that capacity constraint and its strong managed-cluster execution. The timing and budget are customer anecdotes, without named counterparties or contracts. His comparison concerns managed clusters and should not be extended to bare-metal deals, inference endpoints or RL services, which he distinguishes explicitly.",
+      "kind": "observation",
+      "timestamp": "01:34:58; 01:35:28; 01:35:45; 01:36:17"
+    },
+    {
+      "category": "semiconductors_compute",
+      "claim": "Nanos argues that custom cloud networking can impose months of delay before new inference-software features work well, extending Nvidia's advantage beyond raw networking performance.",
+      "confidence": "medium",
+      "evidence": "He names Amazon EFA as a custom-network example and says vLLM and SGLang developers usually develop against Nvidia networks. Supporting new features on another network can therefore require additional work; he uses a four-month wait for KV-cache offloading as an illustrative cost. This adds a software-adoption mechanism to the previously covered network-configuration thesis, but he does not identify a reproducible feature/version/provider comparison or establish a universal four-month delay.",
+      "kind": "inference",
+      "timestamp": "01:32:58; 01:33:36; 01:34:09"
+    },
+    {
+      "category": "infrastructure_energy",
+      "claim": "Nanos reports electrician salaries rising three to five times in data-center locations SemiAnalysis tracks, including Louisiana and Abilene, Texas, and says training pipelines are becoming an operating constraint.",
+      "confidence": "medium",
+      "evidence": "He attributes local wage competition partly to Crusoe, says operators are running out of people, and describes stronger neoclouds retraining adjacent workers for site operations and software reliability roles. He provides no baseline date, wage dataset or distinction between pay rates and total compensation. The reported multiplier is a local research assertion rather than an industry-wide labor-cost index; the concrete implication is that funded capacity still depends on recruiting and training delivery teams.",
+      "kind": "observation",
+      "timestamp": "01:38:28; 01:39:10"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "The useful additions are in the guest interviews: Public's CEO describes event-market signals driving portfolio agents and a reported $50 million customer migration; TypeSafe's CEO claims the company is already profitable; and Solcoa's CEO announces financing for a planned Nevada rare-earth metallization plant after shifting away from scrap feedstock. SemiAnalysis's Jordan Nanos adds customer-access, software-portability and labor-cost detail to the previously covered ClusterMAX rankings. Jev's architecture and the ClusterMAX ratings, recovery tests and hosted-RL thesis repeat material covered in the September 22 and 24 digests and are not retained as new signals.",
+  "why_it_matters": "The interviews connect AI products to concrete commercial questions: whether portfolio automation attracts substantial assets, whether a specialized model business can support itself with modest financing, and whether GPU capacity comes with timely access, compatible software and enough skilled labor. Solcoa's pivot identifies feedstock volume and metallization as separate constraints in rebuilding a domestic magnet supply chain. These are commercially interested speakers' accounts, not audited financial or operating results. Public is a TBPN sponsor, although the evidence here comes from its CEO's interview, and SemiAnalysis sells related research and consulting. Solcoa's announced capacity and commissioning date remain plans."
+}
