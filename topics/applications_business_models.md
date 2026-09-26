@@ -598,3 +598,8 @@ AI products, adoption, pricing, distribution, labor effects, and application-lay
 ## 2026-09-25 - [Runway’s WorldPrompt and the Engineering of Real-Time Worlds](https://www.latent.space/p/runway)
 
 - **Germanidis says Runway's creative team participates throughout model training, including detailed cinematography captions and evaluation of whether outputs are usable in real workflows.** [01:15:44; 01:26:08] He describes creatives working alongside researchers to make camera direction and aesthetic choices controllable at inference. He later frames user priorities as expanding from visual quality to controllability and then iteration latency. The operational mechanism is specialized supervision tied to creative tasks; the interview provides no ablation or customer-retention measure proving how much advantage this organization produces.
+
+<!-- episode:f9fb19988efba1214c02 -->
+## 2026-09-25 - [OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha](https://www.latent.space/p/openrouter)
+
+- **OpenRouter's co-founder reports roughly 9% week-over-week token-volume growth and more than 10 trillion tokens routed per day; these are throughput claims, not revenue or unique-user measurements.** [01:03:10; 01:03:39; 01:03:42] He approximately confirms the host's 9% weekly figure, explicitly for token volume, then corrects the host's ten-trillion-per-week estimate to more than ten trillion per day. The interview provides no measurement window, paid/free split, cache accounting or financial conversion. OpenRouter's August announcement had already reported the daily scale, so that number alone is not a newly disclosed September milestone.
