@@ -1,0 +1,15 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Molly Graham",
+    "Lenny Rachitsky",
+    "Glue Club",
+    "OpenAI"
+  ],
+  "follow_ups": [],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "Mostly familiar organizational advice with insufficient incremental evidence. The strongest mechanism, execution being delegated while oversight and accountability remain with the human (44:33; 45:03; 45:31), is not accompanied by a concrete workflow change or measured result. The six-month shift from maximizing AI usage to questioning its cost (31:22; 31:38) is relayed from an unnamed acquaintance at OpenAI and does not establish an OpenAI policy change. A design leader reportedly blocked from shipping code at an unnamed financial company (55:41; 56:03; 56:20) supplies no resolution or outcome. The sentiment survey (29:38; 29:55; 30:02; 33:40) repeats previously covered material, and the claimed eightfold increase in code rewriting (39:07; 39:18) lacks an identifiable source or methodology in the transcript. These points do not justify treating the episode as new company or technical intelligence.",
+  "summary": "Molly Graham revises her 'give away your Legos' advice for AI: delegating execution to an agent leaves the human responsible for oversight and final quality, unlike transferring ownership to another person. She and Lenny Rachitsky discuss professional identity, burnout, rework and accountability, largely through management advice and anecdotes. The transcript is substantive and matches the episode; captions run to 01:34:11 against a metadata duration of 01:34:14.",
+  "why_it_matters": "The discussion is useful context for evaluating the human review burden around AI adoption, but it provides no measured oversight cost, deployment outcome or documented organizational change that materially advances the existing coverage. The survey discussion revisits the annual tech-worker sentiment study already covered on July 17; neither those correlations nor the speakers' views establish that AI caused burnout or that AI-related layoffs are misrepresented."
+}

@@ -1,0 +1,79 @@
+{
+  "changed_views": [
+    "GPU capacity is not a single fungible commodity: scale and term can push prices in opposite directions, while a defined on-demand index may leave substantial mismatch with a specific financed cluster.",
+    "The physical-world AI examples put data semantics and experimental orchestration alongside model capability: neither raw sensor hours nor tissue counts alone measure useful downstream outcomes.",
+    "Large safety-research awards can represent contingent capacity to spend on experiments and AI labor, rather than present organizational burn or a guarantee that scalable research work already exists."
+  ],
+  "entities": [
+    "Ornn",
+    "Wayne Nelms",
+    "Nvidia",
+    "ICE",
+    "Archetype AI",
+    "Newton",
+    "Nick Gillian",
+    "Kajima",
+    "Vivodyne",
+    "Andrei Georgescu",
+    "Coefficient Giving",
+    "Max Nadeau",
+    "Resolution",
+    "Geoffrey Irving",
+    "Lewis Hammond",
+    "Cooperative AI Foundation"
+  ],
+  "follow_ups": [
+    "Compare Ornn's index scope with each financed cluster. ICE's [May announcement](https://ir.theice.com/press/news-details/2026/ICE-and-Ornn-to-Launch-GPU-Compute-Futures-Contracts/default.aspx) describes planned cash-settled futures subject to regulatory approval; no later official listing confirmation was found in this check. Verify launch, traded liquidity and hedge mismatch before assuming the interview's proposed market is operational or physically delivered.",
+    "Seek Kajima's measured classification accuracy and operating savings, along with transfer results to new sites and the amount of customer fine-tuning required.",
+    "Ask Vivodyne for realized experiment throughput, uptime, cost per useful readout and prospective validation after the disk redesign. Its 'couple percent' saturation claim about Perturb-seq-based virtual-cell models at 1:25:30 names no model, dataset or metric; locate the precise learning curves before treating it as a general scaling limit.",
+    "Track Resolution's conditional funding, realized GPU/token use and research outputs. Project Tailwind's [official FAQ](https://coefficientgiving.org/tailwind/faqs/) describes $200,000\u2013$2 million pre-seed, $2\u2013$20 million seed and $20\u2013$200 million-plus scale opportunities, not a uniform award or a guarantee of funding.",
+    "Hammond's 17:46 and 23:11 discussion motivates testing communication-monitoring blind spots and cross-provider misuse detection. His account of the specific multi-agent training objective is speculation, and tacit or acausal cooperation is a proposed mechanism rather than a measured frequency in this episode.",
+    "Compare Vivodyne's reported 2\u20134\u00d7 disk-density gain with the Series 2 [company announcement](https://www.businesswire.com/news/home/20260812148428/en/), which describes planned annual capacity rather than achieved output. The precise density improvement remains an interview claim."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "semiconductors_compute",
+      "claim": "Ornn co-founder Wayne Nelms says longer GPU rental commitments generally lower the hourly price, while buying a much larger connected cluster can raise it because very few suppliers can deliver the required scale.",
+      "confidence": "medium",
+      "evidence": "He separates price, contract duration and quantity: term commitments support financing, whereas 10,000\u2013100,000 interconnected GPUs face a scarce-supplier premium. He says lenders' need for long-term offtake can prevent providers from choosing shorter, higher-priced rentals. This is his market explanation, not a disclosed price curve or verified hyperscaler contract. Ornn's [published methodology](https://data.ornn.com/methodology) covers executed on-demand rentals, excluding reserved, long-term and forward contracts; its prices should not be applied directly to bespoke long-term cluster deals. As an analytical implication, proposed index-price hedges leave utilization, counterparty and asset-specific risks unresolved.",
+      "kind": "observation",
+      "timestamp": "53:28; 57:38; 59:15"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Archetype AI CTO Nick Gillian describes Newton combining cameras, river sensors and weather data in a Kajima pilot to distinguish actual dredging from equipment movement and downtime, with customer-specific adaptation typically using a few thousand samples.",
+      "confidence": "medium",
+      "evidence": "He describes cameras, hydrometer, location and weather inputs producing activity timelines, and attributes low productivity days after storms to delayed upstream water and debris. Archetype's [April 2025 case study](https://www.archetypeai.io/blog/kajima-archetype-physical-ai-in-construction) identifies a retrospective pilot; this is not evidence of a newly deployed, site-wide autonomous system. At 1:17:56 he distinguishes out-of-the-box tasks from specialized equipment requiring adaptation. The few-thousand-sample figure describes customers generally, not Kajima's disclosed training-set size. No quantified savings or independent causal study is provided.",
+      "kind": "observation",
+      "timestamp": "1:14:18; 1:17:56"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Vivodyne CEO Andrei Georgescu reports two to four times the tissue density on second-generation disks, with larger tissues, enabled by moving more experimental control into the surrounding robotic system and its scheduling software.",
+      "confidence": "medium",
+      "evidence": "He describes compiling a compact experimental specification into millions of robotic actions while coordinating dosing intervals, readouts, lids, trays and thawing constraints across many distinct experiments. Improved orchestration reduces the space needed for supporting mechanisms on the disks. The 2\u20134\u00d7 figure is a founder-reported disk-density improvement, not evidence of equal growth in annual completed experiments, usable data or clinical prediction accuracy; utilization and per-experiment costs are not disclosed.",
+      "kind": "observation",
+      "timestamp": "1:32:23"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Gillian says Archetype has gathered close to a billion hours of physical data, but emphasizes that sparse, unsynchronized sensors and missing language labels require a different alignment recipe from ordinary image-language training.",
+      "confidence": "medium",
+      "evidence": "He describes self-supervised learning on heterogeneous sensor streams, supplemented with smaller partner/customer datasets. Radar and time-series data lack the abundant paired descriptions available for images, and meaning depends on temporal windows. He also warns that missing or repeated sensor values can reveal machine failure rather than a broken sensor, so cleaning them away can discard signal. The billion-hour count lacks a disclosed deduplication method or sensor-hour definition; it is not a count of independent labeled observations or a performance benchmark.",
+      "kind": "observation",
+      "timestamp": "1:10:00; 1:12:25"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Coefficient Giving's Max Nadeau says compute-heavy safety grants can reserve generous research budgets despite uncertainty about eventual use, because tokens increasingly fund both experiments and the AI labor conducting them.",
+      "confidence": "high",
+      "evidence": "He describes GPU rentals and API tokens as research expenses, sometimes held in a restricted lump sum that may be only partly used or later expanded. Seeding teams first is intended to create projects capable of absorbing much larger compute budgets. In the Resolution example, its founders' [grant announcement](https://www.lesswrong.com/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving) specifies a $108 million base plus $52 million conditional on hiring and compute needs; the $160 million headline is not evidence of that amount already spent. Nadeau limits the talent-not-money bottleneck claim to CG's chosen areas and acknowledges funding gaps elsewhere.",
+      "kind": "observation",
+      "timestamp": "39:31; 45:51; 47:44; 48:50; 50:06"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "This weekly compilation brings together Lewis Hammond on multi-agent oversight, Max Nadeau on safety-research funding, Wayne Nelms on GPU pricing, Nick Gillian on sensor foundation models, and Andrei Georgescu on automated human-tissue experiments. The most consequential material concerns large-cluster pricing and financing constraints, a concrete Newton deployment at Kajima, and Vivodyne's reported increase in tissue-disk density through better robotic orchestration. Further details explain sensor-language alignment and compute-heavy research grants. Claims about specific agent incidents, hyperscaler deal prices and a universal 2% virtual-cell saturation threshold are not independently established here and are not treated as new verified findings.",
+  "why_it_matters": "These interviews identify bottlenecks beyond simply buying more compute: obtaining a large connected cluster, aligning sparse sensor data with language, scheduling thousands of distinct physical experiments, and building research teams able to absorb compute budgets. The numbers remain attributed operating accounts; price indices, tissue capacity and research commitments should not be confused with realized financial returns, clinical success or proven AI safety."
+}
