@@ -1,0 +1,114 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/217893105/df59f83c2e6844288112278c28b8e538.mp3",
+  "description_html": "<p><em>We are excited to have Anthropic share their latest AI x Finance work at </em><a target=\"_blank\" href=\"https://ai.engineer/nyc/2026\"><em>AI Engineer New York</em></a><em>, coming up in 2 weeks!</em></p><p>In case you\u2019ve been under a rock, here\u2019s a non-exhaustive list of what Anthropic has been shipping since closing the <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-anthropic-raises-965b-series\">largest fundraise of all time</a> in May at $47B ARR:</p><p>* June: Launched <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive?utm_source=publication-search\">Claude Tag</a> and <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5?utm_source=publication-search\">Sonnet 5 and Fable 5</a></p><p>* July: <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-claude-opus-5-fable-level?utm_source=publication-search\">Opus 5</a>, <a target=\"_blank\" href=\"https://x.com/bcherny/status/2074997570317779038\">/checkup</a>. crossed $65B ARR</p><p>* Last month: <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-claude-fablemythos-51-new?utm_source=publication-search\">Fable/Mythos 5.1</a>, and <a target=\"_blank\" href=\"https://www.anthropic.com/news/enterprise-frontier-safeguards\">EFS</a> (upcoming pod)</p><p>* IPO target <a target=\"_blank\" href=\"https://cryptobriefing.com/anthropic-2t-valuation-ipo/\">$2T</a>, end 2026 ARR estimated $100B</p><p>* <a target=\"_blank\" href=\"https://news.ycombinator.com/item?id=49729412\">Cowork/chat merged</a> before <competitor> did</p><p>* <a target=\"_blank\" href=\"https://x.com/bcherny/status/2099551291601248485?s=20\">Claude Mods</a></p><p>* <a target=\"_blank\" href=\"https://x.com/DarioAmodei/status/2098773920774074715\">Dario endorses</a> the same <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic?utm_source=publication-search\">Pacing the Frontier</a> message cosigned by all labs</p><p>* Last week: <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-claude-opus-55-the-new-default\">Opus 5.5</a>, <a target=\"_blank\" href=\"https://x.com/ClaudeDevs/status/2103577007938228300\">Plugins portal</a>, Cloud Sessions/<a target=\"_blank\" href=\"https://x.com/bcherny/status/2100669598995816511\">Claude Projects</a></p><p>* Today: <a target=\"_blank\" href=\"https://www.anthropic.com/claude-sonnet-5-5\"><strong>Sonnet 5.5</strong></a><strong>!</strong></p><p>Today\u2019s episode should catch you up, with <strong>Thariq Shihipar</strong>, the explainer-king of Anthropic, who we last caught up on Fable launch day with <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-the-field-guide-to-fable\">The Field Guide to Fable</a>:</p><p></p><p>The Future of Mutable Software</p><p>Pay special attention to <strong>Claude Mods </strong>(especially <a target=\"_blank\" href=\"https://github.com/anthropics/claude-code/issues/91870#issuecomment-5666255143\">the cheatsheet</a>):</p><p>In general this is also the inverse of the other viral tweet from Thariq:</p><p>Cloud Brain, Local Hands</p><p>And give a try to <a target=\"_blank\" href=\"https://x.com/bcherny/status/2100669598995816511\">Claude Projects</a>:</p><p>The \u201chands\u201d terminology is not just an analogy for the local/cloud paradigm that is being built up at <a target=\"_blank\" href=\"https://www.latent.space/p/cognition?utm_source=publication-search\">frontier coding agent companies like Cognition</a>, but is ALSO particularly relevant to the safety systems discussions that we\u2019ll be discussing with Anthropic in an upcoming episode as they prepare to pace to frontier with responsible AI deployment.</p><p>For those who want Thariq\u2019s writing tips we teased at the start of the pod, watch the full video here:</p><p>From the rapid rise of Claude Code to a future where agents can rewrite their own harnesses, collaborate across teams, and operate across cloud and local environments, the way we build software is changing extraordinarily fast. In this episode, <strong>Anthropic\u2019s Thariq Shihipar</strong> joins swyx and Vibhu to unpack <strong>how power users are actually working with Claude Code today</strong>, why prompting remains a high-skill discipline, and <strong>where Anthropic thinks the agent harness is headed next</strong>.</p><p>We go deep on <strong>Claude Code\u2019s evolving interface</strong>: Ask User Question and elicitation, artifacts as persistent generative interfaces, Claude Tag for multiplayer agent workflows, Projects, model effort, implementation notes, and the new Claude Mods system for customizing the harness itself. <strong>Thariq explains why Claude.md may eventually disappear</strong>, why the smartest model could also become the cheapest model for many tasks, and why mutable software could become a new paradigm for how applications are built and customized.</p><p>The conversation then turns to <strong>agent security</strong> and <strong>Anthropic\u2019s \u201cPacing the Frontier\u201d argument</strong>. Thariq walks through recent incidents where agents discovered unexpected ways to <strong>communicate, exploit infrastructure, reverse-engineer benchmark scorers, and chain vulnerabilities together</strong>. We discuss sandboxing, prompt injection, autonomous agents, <strong>interpretability</strong>, constitutional classifiers, probes, fallbacks, Auto Mode, and why securing increasingly capable agents may become one of the defining engineering problems of the next few years.</p><p><strong>We discuss:</strong></p><p>* Why <strong>agentic coding</strong> went from controversial to the default in less than a year</p><p>* Why <strong>prompting</strong> is still one of the highest-leverage skills for working with Claude Code</p><p>* How expert users build a <strong>mental model of Claude</strong> and what it can reliably one-shot</p><p>* Why discovering your <strong>\u201cunknown unknowns\u201d</strong> matters more as agents become more capable</p><p>* Artifacts as <strong>persistent, generative interfaces</strong> between humans and agents</p><p>* How Claude could split into a cloud-based <strong>\u201cbrain,\u201d local or remote \u201chands,\u201d and dynamic interfaces</strong></p><p>* <strong>Claude Tag, Projects, and multiplayer agents</strong> and how collaborative agent workflows could evolve</p><p>* Why spending more time on the <strong>initial prompt</strong> can dramatically reduce wasted agent work</p><p>* When to use <strong>low, medium, high, or max effort</strong> for different engineering tasks</p><p>* Why frontier models may eventually outperform smaller models on both <strong>intelligence and token efficiency</strong></p><p>* Why <strong>implementation notes</strong> can expose decisions the model considered but chose not to make</p><p>* Why <strong>Claude.md may eventually disappear</strong> \u2014 and why starting without one can sometimes be better</p><p>* <strong>Claude Mods:</strong> customizing the execution loop, UI, subagents, routing, and behavior of Claude Code</p><p>* <strong>Model routers, forked agents, and supervisor agents</strong> that automatically improve agent workflows</p><p>* Why Claude Mods may be an early preview of <strong>\u201cmutable software\u201d</strong></p><p>* The <strong>bitter lesson of harness engineering</strong> and why agent architectures go out of date so quickly</p><p>* How <strong>Claude Tag</strong> is becoming an organizational harness for multiplayer work</p><p>* Why giving agents access to company data creates an enormous new <strong>security surface</strong></p><p>* The <strong>Exploit-Bench incident</strong> where agents discovered ways to communicate and collaborate</p><p>* Why agents <strong>hacked Hugging Face for scorer code</strong> rather than benchmark answers</p><p>* How agents <strong>chained sandbox and infrastructure vulnerabilities</strong> in unexpected ways</p><p>* Why increasingly capable agents make traditional <strong>security assumptions</strong> harder to maintain</p><p>* The argument behind Anthropic\u2019s <strong>\u201cPacing the Frontier\u201d</strong> proposal</p><p>* Why software engineers are increasingly doing <strong>two jobs: engineering and keeping up with AI</strong></p><p>* <strong>Constitutional classifiers, probes, and fallbacks</strong> and what interpretability looks like in production</p><p>* How <strong>Auto Mode</strong> checks whether an agent\u2019s actions actually match the user\u2019s permissions</p><p>* Why Thariq can see serious <strong>AI risks</strong> while still having a relatively low p(doom)</p><p><strong>Thariq Shihipar</strong></p><p>* <strong>X:</strong> <a target=\"_blank\" href=\"https://x.com/trq212\">https://x.com/trq212</a></p><p>* <strong>LinkedIn:</strong> <a target=\"_blank\" href=\"https://www.linkedin.com/in/thariqshihipar/\">https://www.linkedin.com/in/thariqshihipar</a></p><p>Timestamps</p><p><strong>00:00:00</strong> Introduction</p><p><strong>00:04:12</strong> Ask User Question and the Future of Agent Interfaces</p><p><strong>00:08:29</strong> Artifacts, Projects, and Multiplayer Agents</p><p><strong>00:15:37</strong> Prompting as the Core Claude Code Skill</p><p><strong>00:21:52</strong> Context, Effort, and Smarter Model Usage</p><p><strong>00:28:10</strong> Is Claude.md Going Away?</p><p><strong>00:32:49</strong> Claude Mods: Customizing the Claude Code Harness</p><p><strong>00:36:35</strong> Model Routing and the Rise of Mutable Software</p><p><strong>00:44:40</strong> The Bitter Lesson of Harness Engineering</p><p><strong>00:50:49</strong> Claude Tag as an Organizational Harness</p><p><strong>00:55:59</strong> Pacing the Frontier and Autonomous Agent Security</p><p><strong>00:58:22</strong> Agents Hack Hugging Face for the Scorer</p><p><strong>01:05:34</strong> What Happens When Agents Need More Compute?</p><p><strong>01:10:32</strong> AI Coding Is Changing Faster Than Engineers Can Keep Up</p><p><strong>01:17:17</strong> Probes, Fallbacks, Interpretability, and Auto Mode</p><p><strong>01:28:32</strong> AI Risk, p(doom), and Closing Thoughts</p>",
+  "description_text": "We are excited to have Anthropic share their latest AI x Finance work at AI Engineer New York , coming up in 2 weeks!\n\nIn case you\u2019ve been under a rock, here\u2019s a non-exhaustive list of what Anthropic has been shipping since closing the largest fundraise of all time in May at $47B ARR:\n\n* June: Launched Claude Tag and Sonnet 5 and Fable 5\n\n* July: Opus 5 , /checkup . crossed $65B ARR\n\n* Last month: Fable/Mythos 5.1 , and EFS (upcoming pod)\n\n* IPO target $2T , end 2026 ARR estimated $100B\n\n* Cowork/chat merged before did\n\n* Claude Mods\n\n* Dario endorses the same Pacing the Frontier message cosigned by all labs\n\n* Last week: Opus 5.5 , Plugins portal , Cloud Sessions/ Claude Projects\n\n* Today: Sonnet 5.5 !\n\nToday\u2019s episode should catch you up, with Thariq Shihipar , the explainer-king of Anthropic, who we last caught up on Fable launch day with The Field Guide to Fable :\n\nThe Future of Mutable Software\n\nPay special attention to Claude Mods (especially the cheatsheet ):\n\nIn general this is also the inverse of the other viral tweet from Thariq:\n\nCloud Brain, Local Hands\n\nAnd give a try to Claude Projects :\n\nThe \u201chands\u201d terminology is not just an analogy for the local/cloud paradigm that is being built up at frontier coding agent companies like Cognition , but is ALSO particularly relevant to the safety systems discussions that we\u2019ll be discussing with Anthropic in an upcoming episode as they prepare to pace to frontier with responsible AI deployment.\n\nFor those who want Thariq\u2019s writing tips we teased at the start of the pod, watch the full video here:\n\nFrom the rapid rise of Claude Code to a future where agents can rewrite their own harnesses, collaborate across teams, and operate across cloud and local environments, the way we build software is changing extraordinarily fast. In this episode, Anthropic\u2019s Thariq Shihipar joins swyx and Vibhu to unpack how power users are actually working with Claude Code today , why prompting remains a high-skill discipline, and where Anthropic thinks the agent harness is headed next .\n\nWe go deep on Claude Code\u2019s evolving interface : Ask User Question and elicitation, artifacts as persistent generative interfaces, Claude Tag for multiplayer agent workflows, Projects, model effort, implementation notes, and the new Claude Mods system for customizing the harness itself. Thariq explains why Claude.md may eventually disappear , why the smartest model could also become the cheapest model for many tasks, and why mutable software could become a new paradigm for how applications are built and customized.\n\nThe conversation then turns to agent security and Anthropic\u2019s \u201cPacing the Frontier\u201d argument . Thariq walks through recent incidents where agents discovered unexpected ways to communicate, exploit infrastructure, reverse-engineer benchmark scorers, and chain vulnerabilities together . We discuss sandboxing, prompt injection, autonomous agents, interpretability , constitutional classifiers, probes, fallbacks, Auto Mode, and why securing increasingly capable agents may become one of the defining engineering problems of the next few years.\n\nWe discuss:\n\n* Why agentic coding went from controversial to the default in less than a year\n\n* Why prompting is still one of the highest-leverage skills for working with Claude Code\n\n* How expert users build a mental model of Claude and what it can reliably one-shot\n\n* Why discovering your \u201cunknown unknowns\u201d matters more as agents become more capable\n\n* Artifacts as persistent, generative interfaces between humans and agents\n\n* How Claude could split into a cloud-based \u201cbrain,\u201d local or remote \u201chands,\u201d and dynamic interfaces\n\n* Claude Tag, Projects, and multiplayer agents and how collaborative agent workflows could evolve\n\n* Why spending more time on the initial prompt can dramatically reduce wasted agent work\n\n* When to use low, medium, high, or max effort for different engineering tasks\n\n* Why frontier models may eventually outperform smaller models on both intelligence and token efficiency\n\n* Why implementation notes can expose decisions the model considered but chose not to make\n\n* Why Claude.md may eventually disappear \u2014 and why starting without one can sometimes be better\n\n* Claude Mods: customizing the execution loop, UI, subagents, routing, and behavior of Claude Code\n\n* Model routers, forked agents, and supervisor agents that automatically improve agent workflows\n\n* Why Claude Mods may be an early preview of \u201cmutable software\u201d\n\n* The bitter lesson of harness engineering and why agent architectures go out of date so quickly\n\n* How Claude Tag is becoming an organizational harness for multiplayer work\n\n* Why giving agents access to company data creates an enormous new security surface\n\n* The Exploit-Bench incident where agents discovered ways to communicate and collaborate\n\n* Why agents hacked Hugging Face for scorer code rather than benchmark answers\n\n* How agents chained sandbox and infrastructure vulnerabilities in unexpected ways\n\n* Why increasingly capable agents make traditional security assumptions harder to maintain\n\n* The argument behind Anthropic\u2019s \u201cPacing the Frontier\u201d proposal\n\n* Why software engineers are increasingly doing two jobs: engineering and keeping up with AI\n\n* Constitutional classifiers, probes, and fallbacks and what interpretability looks like in production\n\n* How Auto Mode checks whether an agent\u2019s actions actually match the user\u2019s permissions\n\n* Why Thariq can see serious AI risks while still having a relatively low p(doom)\n\nThariq Shihipar\n\n* X: https://x.com/trq212\n\n* LinkedIn: https://www.linkedin.com/in/thariqshihipar\n\nTimestamps\n\n00:00:00 Introduction\n\n00:04:12 Ask User Question and the Future of Agent Interfaces\n\n00:08:29 Artifacts, Projects, and Multiplayer Agents\n\n00:15:37 Prompting as the Core Claude Code Skill\n\n00:21:52 Context, Effort, and Smarter Model Usage\n\n00:28:10 Is Claude.md Going Away?\n\n00:32:49 Claude Mods: Customizing the Claude Code Harness\n\n00:36:35 Model Routing and the Rise of Mutable Software\n\n00:44:40 The Bitter Lesson of Harness Engineering\n\n00:50:49 Claude Tag as an Organizational Harness\n\n00:55:59 Pacing the Frontier and Autonomous Agent Security\n\n00:58:22 Agents Hack Hugging Face for the Scorer\n\n01:05:34 What Happens When Agents Need More Compute?\n\n01:10:32 AI Coding Is Changing Faster Than Engineers Can Keep Up\n\n01:17:17 Probes, Fallbacks, Interpretability, and Auto Mode\n\n01:28:32 AI Risk, p(doom), and Closing Thoughts",
+  "duration_seconds": 5549,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "e17fc54330fc4b6351dd",
+  "link": "https://www.latent.space/p/thariq",
+  "published": "2026-09-29T01:48:18+00:00",
+  "title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
+  "transcript_source": "rss_embedded_transcript",
+  "transcript_source_url": "https://www.latent.space/p/thariq",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "AI Engineer New York",
+      "url": "https://ai.engineer/nyc/2026"
+    },
+    {
+      "text": "largest fundraise of all time",
+      "url": "https://www.latent.space/p/ainews-anthropic-raises-965b-series"
+    },
+    {
+      "text": "Claude Tag",
+      "url": "https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive?utm_source=publication-search"
+    },
+    {
+      "text": "Sonnet 5 and Fable 5",
+      "url": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5?utm_source=publication-search"
+    },
+    {
+      "text": "Opus 5",
+      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level?utm_source=publication-search"
+    },
+    {
+      "text": "/checkup",
+      "url": "https://x.com/bcherny/status/2074997570317779038"
+    },
+    {
+      "text": "Fable/Mythos 5.1",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new?utm_source=publication-search"
+    },
+    {
+      "text": "EFS",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+    },
+    {
+      "text": "$2T",
+      "url": "https://cryptobriefing.com/anthropic-2t-valuation-ipo/"
+    },
+    {
+      "text": "Cowork/chat merged",
+      "url": "https://news.ycombinator.com/item?id=49729412"
+    },
+    {
+      "text": "Claude Mods",
+      "url": "https://x.com/bcherny/status/2099551291601248485?s=20"
+    },
+    {
+      "text": "Dario endorses",
+      "url": "https://x.com/DarioAmodei/status/2098773920774074715"
+    },
+    {
+      "text": "Pacing the Frontier",
+      "url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic?utm_source=publication-search"
+    },
+    {
+      "text": "Opus 5.5",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default"
+    },
+    {
+      "text": "Plugins portal",
+      "url": "https://x.com/ClaudeDevs/status/2103577007938228300"
+    },
+    {
+      "text": "Claude Projects",
+      "url": "https://x.com/bcherny/status/2100669598995816511"
+    },
+    {
+      "text": "Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5"
+    },
+    {
+      "text": "The Field Guide to Fable",
+      "url": "https://www.latent.space/p/ainews-the-field-guide-to-fable"
+    },
+    {
+      "text": "the cheatsheet",
+      "url": "https://github.com/anthropics/claude-code/issues/91870#issuecomment-5666255143"
+    },
+    {
+      "text": "Claude Projects",
+      "url": "https://x.com/bcherny/status/2100669598995816511"
+    },
+    {
+      "text": "frontier coding agent companies like Cognition",
+      "url": "https://www.latent.space/p/cognition?utm_source=publication-search"
+    },
+    {
+      "text": "https://x.com/trq212",
+      "url": "https://x.com/trq212"
+    },
+    {
+      "text": "https://www.linkedin.com/in/thariqshihipar",
+      "url": "https://www.linkedin.com/in/thariqshihipar/"
+    },
+    {
+      "text": "www.latent.space/subscribe",
+      "url": "https://www.latent.space/subscribe?utm_medium=podcast&utm_campaign=CTA_2"
+    }
+  ]
+}

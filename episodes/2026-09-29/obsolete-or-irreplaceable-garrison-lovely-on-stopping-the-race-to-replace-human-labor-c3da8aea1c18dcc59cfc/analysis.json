@@ -1,0 +1,21 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Garrison Lovely",
+    "Nathan Labenz",
+    "Irreplaceable",
+    "OpenAI",
+    "Anthropic",
+    "Google DeepMind",
+    "AI Whistleblower Initiative"
+  ],
+  "follow_ups": [
+    "Revisit worker safety bargaining if a frontier lab publishes a recognized bargaining unit, concrete proposed or agreed safety terms, or evidence that collective action changed a research or deployment decision; independently establish the legal scope of any cross-lab coordination.",
+    "Revisit the frontier-freeze agenda when there is a specific legislative or treaty text defining covered training and post-training work, existing-model inference exceptions, verification methods and actual political sponsorship."
+  ],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "Substantive, metadata-matched interview read in full through the closing, but mostly normative argument, political advocacy and familiar risk discussion. The most specific proposals lack evidence of implementation or a demonstrated effect on frontier-lab behavior. Legal assurances about sector-wide bargaining, antitrust protection and whistleblowing are not retained as established facts; broad economic and geopolitical forecasts and repeated agent-incident claims do not meet this digest's new-evidence threshold.",
+  "summary": "Garrison Lovely presents the political case from his book Obsolete for separating beneficial specialized AI from efforts to automate all human labor. He advocates frontier-lab workers organizing for binding safety commitments before research automation reduces their leverage [1:01:12; 1:08:53], and proposes a frontier freeze covering large training runs, RLVR and recursive self-improvement, enforced through embedded auditors and eventual international verification [1:33:51; 1:37:46]. He also argues that blocking new data centers alone would leave progress through existing facilities, chip replacement and software improvements available [1:47:00; 1:48:17]. These are advocacy and causal arguments, not evidence of adopted safety agreements, an enforceable freeze, measured labor displacement or a demonstrated technical-control mechanism. His personal use of AI for journalism is first-hand but unquantified and largely familiar.",
+  "why_it_matters": "The interview outlines a possible organizing agenda around frontier-lab governance, but does not establish that it has the participation, legal structure or political support needed to change company operations or investment outcomes. Claims about future worker replacement, Chinese willingness to negotiate and the consequences of agent deployment remain the speakers' judgments. Familiar incident and recursive-self-improvement discussion adds little to the stronger first-party coverage already included in the September 1, 2 and 17 digests."
+}
