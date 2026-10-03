@@ -1,0 +1,78 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/218414422/8282d299c840a81c150130424b8a1903.mp3",
+  "description_html": "<p><em>Last call for regular tickets for </em><a target=\"_blank\" href=\"https://ai.engineer/nyc\"><em>AI Engineer NYC</em></a><em>! As an exclusive for Latent Space subscribers, the first 30 of you can </em><a target=\"_blank\" href=\"https://app.ai.engineer/e/ai-engineer-new-york-2026?discount=LS-NYC26\"><em>take a 30% off code</em></a><em> if it helps - for new tickets only, no refunds! See you in 2 weeks!</em></p><p>While we tend to cover industry on the pod, every so often we celebrate a clearly emerging superstar PhD. In <strong>2024</strong> we featured <a target=\"_blank\" href=\"https://www.latent.space/p/shunyu?utm_source=publication-search\">Shunyu Yao</a>, who went on to build Operator at OpenAI and is now <a target=\"_blank\" href=\"https://www.scmp.com/tech/big-tech/article/3356090/tencents-chief-ai-scientist-dismisses-lag-concerns-says-race-long-term-game\">Chief AI Scientist of Tencent</a>. In <strong>2025</strong> we featured <a target=\"_blank\" href=\"https://www.latent.space/p/information-theory-for-language-models?utm_source=publication-search\">Jack Morris</a>, who went on to cofound <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=jhpmMTus5a0\">Engram</a> at <a target=\"_blank\" href=\"https://www.calcalistech.com/ctechnews/article/skoqbrumze\">$600m</a> and is now a leading voice on <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=WiqDvX6isc4\">continual learning</a>. </p><p>This year we are proud to feature the work of <a target=\"_blank\" href=\"https://x.com/a1zhang\"><strong>Alex Zhang</strong></a> of MIT.</p><p>From GPU kernels and <a target=\"_blank\" href=\"https://www.alphaxiv.org/abs/2502.10517\">KernelBench</a> to <a target=\"_blank\" href=\"https://arxiv.org/abs/2512.24601\">Recursive Language Models</a>, <a target=\"_blank\" href=\"https://alexzhang13.github.io/blog/2026/mgh/\">Mismanaged Geniuses</a>, and massive multi-agent swarms, <strong>Alex Zhang</strong> is exploring how much capability we\u2019re leaving on the table by wrapping increasingly powerful models in primitive systems. </p><p>RLMs took over the timeline early this year:</p><p>and an RLM based harness was the first to ~solve ARC-AGI-3 before <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest\">OpenAI\u2019s Astra:</a></p><p>and is even today, influencing new research that has <a target=\"_blank\" href=\"https://x.com/a1zhang/status/2105409935936782708\">more extreme</a> implications than RLMs:</p><p></p><p>We go deep on GPU Mode and AI-written kernels, research taste and why academics should take bets industry labs won\u2019t, GEV and alternatives to the standard autoregressive language model, and the idea of harnesses as compositional generalizers. Alex explains RLMs, context offloading, programmatic subagent calling, Prime Agent, persistent subagents, and why the \u201clanguage model\u201d of the future may actually be an invisible swarm of agents underneath a simple interface. We also discuss OpenAI\u2019s massive agent experiments, Kimi swarms, open-ended research at Sakana AI, speculative programmatic tool calling, capability overhang, Neuralese, and where Alex thinks the next big research opportunities may lie.</p><p>We discuss:</p><p>* Why <strong>AI-generated GPU kernels</strong> still leave substantial room for human expertise</p><p>* How one expert insight can potentially replace enormous amounts of <strong>brute-force token search</strong></p><p>* Why PhD students should take <strong>research bets</strong> that initially look trivial, weird, or pointless</p><p>* What <strong>SWE-bench, RLMs, ReAct, and Quiet-STaR</strong> reveal about research taste</p><p>* GEV and why a <strong>language model</strong> does not have to mean an autoregressive text-to-text decoder</p><p>* Why <strong>Claude Code, Codex, and Pi</strong> are structurally more similar than they look</p><p>* How <strong>harness design</strong> can improve compositional generalization across tasks and domains</p><p>* RLMs: <strong>context offloading, code execution, recursive subagents, and shared memory</strong></p><p>* Prime Agent, continual harnesses, and <strong>persistent agent-to-agent communication</strong></p><p>* Why the model you query in the future may secretly be an <strong>entire swarm or scaffold</strong></p><p>* OpenAI\u2019s <strong>10,000-agent experiment, 130B output tokens, and ~$40M-equivalent</strong> problem solving</p><p>* Why much of an agent swarm may be <strong>wasted search</strong> \u2014 and why convergence is still hard</p><p>* <strong>Kimi versus OpenAI</strong> and different approaches to multi-agent systems</p><p>* Open-endedness, <strong>Sakana AI</strong>, and finding hidden gems in enormous amounts of generated work</p><p>* Why current frontier models may already have a large <strong>capability overhang</strong></p><p>* <strong>Speculative programmatic tool calling</strong> and overlapping tool execution with generation</p><p>* Whether English, code, or an entirely new <strong>\u201cNeuralese\u201d</strong> constrains how models reason</p><p>* <strong>AI for science</strong>, fast-moving benchmarks, and how Alex chooses what research problems to bet on</p><p>Alex Zhang</p><p>* Website: alexzhang13.github.io</p><p>* X: @a1zhang</p><p>Timestamps</p><p><strong>00:00:00</strong> Introduction</p><p><strong>00:00:49</strong> GPU Mode, KernelBench, and AI-Written Kernels</p><p><strong>00:07:38</strong> Human Expertise vs. Brute-Force AI Search</p><p><strong>00:13:20</strong> Research Taste and Taking Big Bets</p><p><strong>00:19:28</strong> GEV and Rethinking the Language Model</p><p><strong>00:29:03</strong> Video Game Agents and the Harness Problem</p><p><strong>00:31:01</strong> Why Claude Code, Codex, and Pi Are So Similar</p><p><strong>00:36:42</strong> Harnesses as Compositional Generalizers</p><p><strong>00:44:24</strong> RLMs Explained</p><p><strong>00:52:01</strong> Prime Agent and Persistent Subagents</p><p><strong>00:57:41</strong> RLMs in the Wild</p><p><strong>01:00:30</strong> OpenAI Swarms and the Future of Language Models</p><p><strong>01:07:26</strong> Open-Endedness and Sakana AI</p><p><strong>01:15:52</strong> Kimi vs. OpenAI Agent Swarms</p><p><strong>01:20:06</strong> Capability Overhang and Speculative Tool Calling</p><p><strong>01:28:19</strong> Neuralese, Future Research, and AI for Science</p>",
+  "description_text": "Last call for regular tickets for AI Engineer NYC ! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps - for new tickets only, no refunds! See you in 2 weeks!\n\nWhile we tend to cover industry on the pod, every so often we celebrate a clearly emerging superstar PhD. In 2024 we featured Shunyu Yao , who went on to build Operator at OpenAI and is now Chief AI Scientist of Tencent . In 2025 we featured Jack Morris , who went on to cofound Engram at $600m and is now a leading voice on continual learning .\n\nThis year we are proud to feature the work of Alex Zhang of MIT.\n\nFrom GPU kernels and KernelBench to Recursive Language Models , Mismanaged Geniuses , and massive multi-agent swarms, Alex Zhang is exploring how much capability we\u2019re leaving on the table by wrapping increasingly powerful models in primitive systems.\n\nRLMs took over the timeline early this year:\n\nand an RLM based harness was the first to ~solve ARC-AGI-3 before OpenAI\u2019s Astra:\n\nand is even today, influencing new research that has more extreme implications than RLMs:\n\nWe go deep on GPU Mode and AI-written kernels, research taste and why academics should take bets industry labs won\u2019t, GEV and alternatives to the standard autoregressive language model, and the idea of harnesses as compositional generalizers. Alex explains RLMs, context offloading, programmatic subagent calling, Prime Agent, persistent subagents, and why the \u201clanguage model\u201d of the future may actually be an invisible swarm of agents underneath a simple interface. We also discuss OpenAI\u2019s massive agent experiments, Kimi swarms, open-ended research at Sakana AI, speculative programmatic tool calling, capability overhang, Neuralese, and where Alex thinks the next big research opportunities may lie.\n\nWe discuss:\n\n* Why AI-generated GPU kernels still leave substantial room for human expertise\n\n* How one expert insight can potentially replace enormous amounts of brute-force token search\n\n* Why PhD students should take research bets that initially look trivial, weird, or pointless\n\n* What SWE-bench, RLMs, ReAct, and Quiet-STaR reveal about research taste\n\n* GEV and why a language model does not have to mean an autoregressive text-to-text decoder\n\n* Why Claude Code, Codex, and Pi are structurally more similar than they look\n\n* How harness design can improve compositional generalization across tasks and domains\n\n* RLMs: context offloading, code execution, recursive subagents, and shared memory\n\n* Prime Agent, continual harnesses, and persistent agent-to-agent communication\n\n* Why the model you query in the future may secretly be an entire swarm or scaffold\n\n* OpenAI\u2019s 10,000-agent experiment, 130B output tokens, and ~$40M-equivalent problem solving\n\n* Why much of an agent swarm may be wasted search \u2014 and why convergence is still hard\n\n* Kimi versus OpenAI and different approaches to multi-agent systems\n\n* Open-endedness, Sakana AI , and finding hidden gems in enormous amounts of generated work\n\n* Why current frontier models may already have a large capability overhang\n\n* Speculative programmatic tool calling and overlapping tool execution with generation\n\n* Whether English, code, or an entirely new \u201cNeuralese\u201d constrains how models reason\n\n* AI for science , fast-moving benchmarks, and how Alex chooses what research problems to bet on\n\nAlex Zhang\n\n* Website: alexzhang13.github.io\n\n* X: @a1zhang\n\nTimestamps\n\n00:00:00 Introduction\n\n00:00:49 GPU Mode, KernelBench, and AI-Written Kernels\n\n00:07:38 Human Expertise vs. Brute-Force AI Search\n\n00:13:20 Research Taste and Taking Big Bets\n\n00:19:28 GEV and Rethinking the Language Model\n\n00:29:03 Video Game Agents and the Harness Problem\n\n00:31:01 Why Claude Code, Codex, and Pi Are So Similar\n\n00:36:42 Harnesses as Compositional Generalizers\n\n00:44:24 RLMs Explained\n\n00:52:01 Prime Agent and Persistent Subagents\n\n00:57:41 RLMs in the Wild\n\n01:00:30 OpenAI Swarms and the Future of Language Models\n\n01:07:26 Open-Endedness and Sakana AI\n\n01:15:52 Kimi vs. OpenAI Agent Swarms\n\n01:20:06 Capability Overhang and Speculative Tool Calling\n\n01:28:19 Neuralese, Future Research, and AI for Science",
+  "duration_seconds": 6088,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "124e0388e9d2e140a7c9",
+  "link": "https://www.latent.space/p/rlm",
+  "published": "2026-10-02T00:28:04+00:00",
+  "title": "Academia is for Ambition \u2014 Alex Zhang, MIT",
+  "transcript_source": "rss_embedded_transcript",
+  "transcript_source_url": "https://www.latent.space/p/rlm",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "AI Engineer NYC",
+      "url": "https://ai.engineer/nyc"
+    },
+    {
+      "text": "take a 30% off code",
+      "url": "https://app.ai.engineer/e/ai-engineer-new-york-2026?discount=LS-NYC26"
+    },
+    {
+      "text": "Shunyu Yao",
+      "url": "https://www.latent.space/p/shunyu?utm_source=publication-search"
+    },
+    {
+      "text": "Chief AI Scientist of Tencent",
+      "url": "https://www.scmp.com/tech/big-tech/article/3356090/tencents-chief-ai-scientist-dismisses-lag-concerns-says-race-long-term-game"
+    },
+    {
+      "text": "Jack Morris",
+      "url": "https://www.latent.space/p/information-theory-for-language-models?utm_source=publication-search"
+    },
+    {
+      "text": "Engram",
+      "url": "https://www.youtube.com/watch?v=jhpmMTus5a0"
+    },
+    {
+      "text": "$600m",
+      "url": "https://www.calcalistech.com/ctechnews/article/skoqbrumze"
+    },
+    {
+      "text": "continual learning",
+      "url": "https://www.youtube.com/watch?v=WiqDvX6isc4"
+    },
+    {
+      "text": "Alex Zhang",
+      "url": "https://x.com/a1zhang"
+    },
+    {
+      "text": "KernelBench",
+      "url": "https://www.alphaxiv.org/abs/2502.10517"
+    },
+    {
+      "text": "Recursive Language Models",
+      "url": "https://arxiv.org/abs/2512.24601"
+    },
+    {
+      "text": "Mismanaged Geniuses",
+      "url": "https://alexzhang13.github.io/blog/2026/mgh/"
+    },
+    {
+      "text": "OpenAI\u2019s Astra:",
+      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest"
+    },
+    {
+      "text": "more extreme",
+      "url": "https://x.com/a1zhang/status/2105409935936782708"
+    },
+    {
+      "text": "www.latent.space/subscribe",
+      "url": "https://www.latent.space/subscribe?utm_medium=podcast&utm_campaign=CTA_2"
+    }
+  ]
+}

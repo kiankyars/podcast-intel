@@ -1,0 +1,66 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/218345956/4b5f7bc6865a6ab2f2eeea047dff6d8b.mp3",
+  "description_html": "<p>New episode with military historian <a target=\"_blank\" href=\"https://www.amazon.com/stores/author/B001JSA7E6/allbooks\">Si Sheppard</a>.</p><p>The conquests of the Aztec and Inca empires might be the most shocking events in human history.</p><p>Hernan Cort\u00e9s and some hundreds of Conquistadors landed on a new continent they knew basically nothing about, and within 2 and a half years, conquered the 6 million strong Aztec empire.</p><p>Then, a decade later, Francisco Pizarro did the same thing to an Incan Empire of some 10 million inhabitants.</p><p>In both cases, the Conquistadors consistently beat native armies while being literally 100x (or even in some cases 1000x) outnumbered - and in many cases, did so without taking a single casualty.</p><p>And they did this with 99% of their military forces being made up of the very natives they were trying to subjugate.</p><p>We often forget how wild human history is. People talk about AI takeover as if it would be some crazy, unprecedented sci-fi outcome. But this would not be the first time an alien force whose motives the defenders barely understand use more advanced technology and diplomatic cunning to outmaneuver and then take over a much larger and long established existing order.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/LwQQ7nBCGSs\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/si-sheppard\">transcript</a>.</p><p>Sponsors</p><p>* <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a>\u2019s intern projects are even more ambitious than I realized. One intern spent his summer researching LLM memorization, figuring out how to quantify and reduce it. This matters because, when Jane Street tests their models on historical data, they need to know that performance reflects predictive power, not just memorized outcomes. Another intern spent his time developing a new activation checkpointing scheme: his custom version ended up outperforming PyTorch\u2019s native one. If you want to read about more 2026 intern projects or apply for Jane Street\u2019s 2027 internships, go to<a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\"> </a><a target=\"_blank\" href=\"http://janestreet.com/dwarkesh\">janestreet.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://x.ai/bot\">Grok Bot</a> can tackle the tasks you\u2019ve been meaning to handle but just haven\u2019t gotten around to. For example, SpaceXAI recently gave Grok Bot access to their procurement contracts, vendor spend, and usage data: it ended up identifying over $100,000 in potential savings for them. I decided to try this on my own spend, and Grok Bot found over $5,000 of savings for me, even though I run a pretty small team. Try it out yourself at<a target=\"_blank\" href=\"https://x.ai/bot\"> </a><a target=\"_blank\" href=\"http://x.ai/bot\">x.ai/bot</a></p><p>* <a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">Antithesis</a> solves one of the biggest problems with traditional software testing: to test for a bug, you first have to be able to imagine it. Antithesis runs your system through thousands of parallel histories and steers your tests for you, injecting faults and generally trying to make everything as adversarial as possible. That way, your software gets tested against scenarios you\u2019d never imagine but that could still arise in the real world. Learn more at<a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\"> antithesis.com/dwarkesh</a></p><p><strong>Timestamps</strong></p><p>(00:00:00) \u2013 Cort\u00e9s\u2019s conquest of the Aztecs</p><p>(00:22:39) \u2013 Pizarro\u2019s conquest of the Inca</p><p>(00:26:59) \u2013 Explaining Conquistador military superiority</p><p>(00:34:39) \u2013 Could the natives have beat the Conquistadors?</p><p>(00:48:56) \u2013 The Aztecs and Incas did not get to learn from each other</p><p>(00:56:11) \u2013 Why Spain still lost in the long run</p><p>(01:07:47) \u2013 Why didn\u2019t the Aztecs/Incas adapt better to European warfare?</p><p>(01:14:16) \u2013 Conquistador motivation</p><p>(01:26:22) \u2013 Why Mughal India also couldn\u2019t play the Europeans off each other</p><p>(01:33:42) \u2013 Diplomacy was just as important as technology</p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.dwarkesh.com?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.dwarkesh.com</a>",
+  "description_text": "New episode with military historian Si Sheppard .\n\nThe conquests of the Aztec and Inca empires might be the most shocking events in human history.\n\nHernan Cort\u00e9s and some hundreds of Conquistadors landed on a new continent they knew basically nothing about, and within 2 and a half years, conquered the 6 million strong Aztec empire.\n\nThen, a decade later, Francisco Pizarro did the same thing to an Incan Empire of some 10 million inhabitants.\n\nIn both cases, the Conquistadors consistently beat native armies while being literally 100x (or even in some cases 1000x) outnumbered - and in many cases, did so without taking a single casualty.\n\nAnd they did this with 99% of their military forces being made up of the very natives they were trying to subjugate.\n\nWe often forget how wild human history is. People talk about AI takeover as if it would be some crazy, unprecedented sci-fi outcome. But this would not be the first time an alien force whose motives the defenders barely understand use more advanced technology and diplomatic cunning to outmaneuver and then take over a much larger and long established existing order.\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\n* Jane Street \u2019s intern projects are even more ambitious than I realized. One intern spent his summer researching LLM memorization, figuring out how to quantify and reduce it. This matters because, when Jane Street tests their models on historical data, they need to know that performance reflects predictive power, not just memorized outcomes. Another intern spent his time developing a new activation checkpointing scheme: his custom version ended up outperforming PyTorch\u2019s native one. If you want to read about more 2026 intern projects or apply for Jane Street\u2019s 2027 internships, go to janestreet.com/dwarkesh\n\n* Grok Bot can tackle the tasks you\u2019ve been meaning to handle but just haven\u2019t gotten around to. For example, SpaceXAI recently gave Grok Bot access to their procurement contracts, vendor spend, and usage data: it ended up identifying over $100,000 in potential savings for them. I decided to try this on my own spend, and Grok Bot found over $5,000 of savings for me, even though I run a pretty small team. Try it out yourself at x.ai/bot\n\n* Antithesis solves one of the biggest problems with traditional software testing: to test for a bug, you first have to be able to imagine it. Antithesis runs your system through thousands of parallel histories and steers your tests for you, injecting faults and generally trying to make everything as adversarial as possible. That way, your software gets tested against scenarios you\u2019d never imagine but that could still arise in the real world. Learn more at antithesis.com/dwarkesh\n\nTimestamps\n\n(00:00:00) \u2013 Cort\u00e9s\u2019s conquest of the Aztecs\n\n(00:22:39) \u2013 Pizarro\u2019s conquest of the Inca\n\n(00:26:59) \u2013 Explaining Conquistador military superiority\n\n(00:34:39) \u2013 Could the natives have beat the Conquistadors?\n\n(00:48:56) \u2013 The Aztecs and Incas did not get to learn from each other\n\n(00:56:11) \u2013 Why Spain still lost in the long run\n\n(01:07:47) \u2013 Why didn\u2019t the Aztecs/Incas adapt better to European warfare?\n\n(01:14:16) \u2013 Conquistador motivation\n\n(01:26:22) \u2013 Why Mughal India also couldn\u2019t play the Europeans off each other\n\n(01:33:42) \u2013 Diplomacy was just as important as technology\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com",
+  "duration_seconds": 5843,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "1bb2af43ed081ae1c311",
+  "link": "https://www.dwarkesh.com/p/si-sheppard",
+  "published": "2026-10-01T15:28:28+00:00",
+  "title": "Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/si-sheppard",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "Si Sheppard",
+      "url": "https://www.amazon.com/stores/author/B001JSA7E6/allbooks"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/LwQQ7nBCGSs"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/si-sheppard"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "http://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "Grok Bot",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "x.ai/bot",
+      "url": "http://x.ai/bot"
+    },
+    {
+      "text": "Antithesis",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "antithesis.com/dwarkesh",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}

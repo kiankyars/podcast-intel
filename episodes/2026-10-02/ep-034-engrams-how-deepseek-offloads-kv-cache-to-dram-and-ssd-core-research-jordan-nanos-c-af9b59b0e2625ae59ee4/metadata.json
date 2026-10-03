@@ -1,0 +1,17 @@
+{
+  "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/126704415/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-2%2F433186293-44100-2-609a2686fa96a.mp3",
+  "description_html": "<p>The InferenceX team is back after two months. Jordan Nanos (@JordanNanos) is joined by Cam Quilici (@noslawextratost), Bryan Shan, and Alec Ibarra to discuss Engram and DRAM offloading, the AgentX benchmark and its profit calculator, TPU v7 on InferenceX, Vera Rubin vs Blackwell, fast tokens, and TileRT on NVIDIA GPUs.</p><p><br></p><p>0:00 Intro</p><p>0:31 Engrams</p><p>12:27 AgentX Benchmark</p><p>16:36 Profit Calculator</p><p>23:40 TPU v7</p><p>32:03 Vera Rubin</p><p>40:49 Fast Tokens</p><p>49:33 TileRT</p><p>54:00 Chip Startups</p><p>1:01:31 Wrap Up</p>",
+  "description_text": "The InferenceX team is back after two months. Jordan Nanos (@JordanNanos) is joined by Cam Quilici (@noslawextratost), Bryan Shan, and Alec Ibarra to discuss Engram and DRAM offloading, the AgentX benchmark and its profit calculator, TPU v7 on InferenceX, Vera Rubin vs Blackwell, fast tokens, and TileRT on NVIDIA GPUs.\n\n0:00 Intro\n\n0:31 Engrams\n\n12:27 AgentX Benchmark\n\n16:36 Profit Calculator\n\n23:40 TPU v7\n\n32:03 Vera Rubin\n\n40:49 Fast Tokens\n\n49:33 TileRT\n\n54:00 Chip Startups\n\n1:01:31 Wrap Up",
+  "duration_seconds": 3800,
+  "feed_id": "semianalysis-weekly",
+  "feed_name": "SemiAnalysis Weekly",
+  "feed_priority": 10,
+  "id": "af9b59b0e2625ae59ee4",
+  "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--034---Engrams-How-DeepSeek-Offloads-KV-Cache-to-DRAM-and-SSD-Core-Research--Jordan-Nanos--Cam-Quilici--Alec-Ibarra--Bryan-Shan-e3pp7av",
+  "published": "2026-10-02T21:00:00+00:00",
+  "title": "Ep. 034 - Engrams: How DeepSeek Offloads KV Cache to DRAM and SSD (Core Research) | Jordan Nanos, Cam Quilici, Alec Ibarra, Bryan Shan",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=NcqHQmpNjr0",
+  "transcript_urls": [],
+  "web_links": []
+}

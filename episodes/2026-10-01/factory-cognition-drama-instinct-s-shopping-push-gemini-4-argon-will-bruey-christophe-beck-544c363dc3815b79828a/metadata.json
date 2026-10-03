@@ -1,0 +1,48 @@
+{
+  "audio_url": "https://media.transistor.fm/3a7cb60d/23992b1e.mp3",
+  "description_html": "<p></p><ul><li>(01:32) - NVIDIA Moves Up the AI Cloud Stack</li>\n<li>(09:54) - Factory-Cognition Drama</li>\n<li>(23:17) - Instinct Pushes into Shopping</li>\n<li>(35:23) - Gemini 4 Argon</li>\n<li>(44:45) - Will Bruey discusses Varda\u2019s transition to operating a scalable fleet of commercial reentry vehicles, supported by a $251 million Series D and launch capacity secured through 2029. He also explains how microgravity can advance pharmaceutical manufacturing, why reusable launch infrastructure will expand the space economy, and how Varda has made land-based reentry reliable and cost-effective.</li>\n<li>(58:16) - Christophe Beck, chairman, president, and CEO of Ecolab, discusses the company\u2019s work addressing water scarcity, infection prevention, food safety, and sustainable infrastructure. He highlights closed-loop, water-neutral cooling systems for AI data centers, advocates recycling water rather than relying on desalination, and urges technology companies to work closely with local communities.</li>\n<li>(01:16:20) - Hassaan Raza discusses Tavis\u2019s Griffin human-interaction model, designed to make communicating with AI feel as natural as speaking with a person. The Tavis co-founder and CEO explains its potential to power AI coworkers, tutors, healthcare workers, and companions while emphasizing careful safety testing, disclosure, and gradual release.</li>\n<li>(01:24:49) - Connor Renton discusses Brodie Rec League, the world\u2019s largest basketball league, which provides everyday athletes with a professional-style experience through uniforms, livestreams, player clips, statistics, and rewards. He explains how the platform simplifies joining and organizing recreational basketball while outlining its player-funded model, expansion across North American cities, and potential growth into other sports.</li>\n</ul><p><br></p><p>TBPN is made possible by:</p><p>Ramp - https://ramp.com</p><p>Public - https://public.com</p><p>Cisco - https://www.cisco.com</p><p>Console - https://www.console.com</p><p>CrowdStrike - https://www.crowdstrike.com</p><p>Figma - https://www.figma.com</p><p>MongoDB - https://www.mongodb.com</p><p>NYSE - https://www.nyse.com</p><p>Railway - https://railway.com</p><p>Shopify - https://www.shopify.com</p><p>Codex - http://openAI.com/codex</p><p><br></p><p>Follow TBPN:\u00a0</p><p>https://TBPN.com</p><p>https://x.com/tbpn</p><p>https://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231</p><p>https://podcasts.apple.com/us/podcast/tbpn/id1772360235</p><p><a href=\"https://www.youtube.com/@TBPNLive\">https://www.youtube.com/@TBPNLive</a></p>",
+  "description_text": "(01:32) - NVIDIA Moves Up the AI Cloud Stack\n\n(09:54) - Factory-Cognition Drama\n\n(23:17) - Instinct Pushes into Shopping\n\n(35:23) - Gemini 4 Argon\n\n(44:45) - Will Bruey discusses Varda\u2019s transition to operating a scalable fleet of commercial reentry vehicles, supported by a $251 million Series D and launch capacity secured through 2029. He also explains how microgravity can advance pharmaceutical manufacturing, why reusable launch infrastructure will expand the space economy, and how Varda has made land-based reentry reliable and cost-effective.\n\n(58:16) - Christophe Beck, chairman, president, and CEO of Ecolab, discusses the company\u2019s work addressing water scarcity, infection prevention, food safety, and sustainable infrastructure. He highlights closed-loop, water-neutral cooling systems for AI data centers, advocates recycling water rather than relying on desalination, and urges technology companies to work closely with local communities.\n\n(01:16:20) - Hassaan Raza discusses Tavis\u2019s Griffin human-interaction model, designed to make communicating with AI feel as natural as speaking with a person. The Tavis co-founder and CEO explains its potential to power AI coworkers, tutors, healthcare workers, and companions while emphasizing careful safety testing, disclosure, and gradual release.\n\n(01:24:49) - Connor Renton discusses Brodie Rec League, the world\u2019s largest basketball league, which provides everyday athletes with a professional-style experience through uniforms, livestreams, player clips, statistics, and rewards. He explains how the platform simplifies joining and organizing recreational basketball while outlining its player-funded model, expansion across North American cities, and potential growth into other sports.\n\nTBPN is made possible by:\n\nRamp - https://ramp.com\n\nPublic - https://public.com\n\nCisco - https://www.cisco.com\n\nConsole - https://www.console.com\n\nCrowdStrike - https://www.crowdstrike.com\n\nFigma - https://www.figma.com\n\nMongoDB - https://www.mongodb.com\n\nNYSE - https://www.nyse.com\n\nRailway - https://railway.com\n\nShopify - https://www.shopify.com\n\nCodex - http://openAI.com/codex\n\nFollow TBPN:\n\nhttps://TBPN.com\n\nhttps://x.com/tbpn\n\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\n\nhttps://podcasts.apple.com/us/podcast/tbpn/id1772360235\n\nhttps://www.youtube.com/@TBPNLive",
+  "duration_seconds": 5703,
+  "feed_id": "tbpn",
+  "feed_name": "TBPN",
+  "feed_priority": 6,
+  "id": "544c363dc3815b79828a",
+  "link": "https://share.transistor.fm/s/3a7cb60d",
+  "published": "2026-10-01T20:24:17+00:00",
+  "title": "Factory-Cognition Drama, Instinct's Shopping Push, Gemini 4 Argon | Will Bruey, Christophe Beck, Hassaan Raza, Connor Renton",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://share.transistor.fm/s/3a7cb60d/transcription.vtt",
+  "transcript_urls": [
+    {
+      "rel": "captions",
+      "type": "text/vtt",
+      "url": "https://share.transistor.fm/s/3a7cb60d/transcription.vtt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/x-subrip",
+      "url": "https://share.transistor.fm/s/3a7cb60d/transcription.srt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/json",
+      "url": "https://share.transistor.fm/s/3a7cb60d/transcription.json"
+    },
+    {
+      "rel": "",
+      "type": "text/plain",
+      "url": "https://share.transistor.fm/s/3a7cb60d/transcription.txt"
+    },
+    {
+      "rel": "",
+      "type": "text/html",
+      "url": "https://share.transistor.fm/s/3a7cb60d/transcription"
+    }
+  ],
+  "web_links": [
+    {
+      "text": "https://www.youtube.com/@TBPNLive",
+      "url": "https://www.youtube.com/@TBPNLive"
+    }
+  ]
+}

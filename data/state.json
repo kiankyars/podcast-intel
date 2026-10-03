@@ -288,6 +288,40 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=SK9ITBK5osA",
       "updated_at": "2026-08-28T16:08:24.997878+00:00"
     },
+    "124e0388e9d2e140a7c9": {
+      "analysis_path": "episodes/2026-10-02/academia-is-for-ambition-alex-zhang-mit-124e0388e9d2e140a7c9/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/rlm",
+      "published": "2026-10-02T00:28:04+00:00",
+      "raw_transcript": "episodes/2026-10-02/academia-is-for-ambition-alex-zhang-mit-124e0388e9d2e140a7c9/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-02/academia-is-for-ambition-alex-zhang-mit-124e0388e9d2e140a7c9/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-02/academia-is-for-ambition-alex-zhang-mit-124e0388e9d2e140a7c9/summary.md",
+      "title": "Academia is for Ambition \u2014 Alex Zhang, MIT",
+      "transcript_path": "episodes/2026-10-02/academia-is-for-ambition-alex-zhang-mit-124e0388e9d2e140a7c9/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/rlm",
+      "updated_at": "2026-10-03T16:25:34.916411+00:00"
+    },
+    "1686b56e55b9140344de": {
+      "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/b134a4e1",
+      "published": "2026-10-02T21:08:22+00:00",
+      "raw_transcript": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/summary.md",
+      "title": "BYOCompute, Pope Destroys False Idol, Ben Affleck's White Pill | Joe Gebbia, Molly Fowler, Tom Dotan, Pim de Witte, Greg Castle",
+      "transcript_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/b134a4e1/transcription.vtt",
+      "updated_at": "2026-10-03T16:25:34.920785+00:00"
+    },
     "1697f085e7cf5416df66": {
       "analysis_path": "episodes/2026-08-11/the-bioai-phase-shift-matthew-mcpartlon-neil-patil-chai-discovery-1697f085e7cf5416df66/analysis.json",
       "error": "",
@@ -394,6 +428,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=gc1TFhqJE0k",
       "updated_at": "2026-09-10T16:17:32.244968+00:00"
     },
+    "1bb2af43ed081ae1c311": {
+      "analysis_path": "episodes/2026-10-01/si-sheppard-how-did-a-few-hundred-spanish-soldiers-topple-two-empires-1bb2af43ed081ae1c311/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/si-sheppard",
+      "published": "2026-10-01T15:28:28+00:00",
+      "raw_transcript": "episodes/2026-10-01/si-sheppard-how-did-a-few-hundred-spanish-soldiers-topple-two-empires-1bb2af43ed081ae1c311/transcript.txt",
+      "relevance_score": 2,
+      "request_path": "episodes/2026-10-01/si-sheppard-how-did-a-few-hundred-spanish-soldiers-topple-two-empires-1bb2af43ed081ae1c311/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-01/si-sheppard-how-did-a-few-hundred-spanish-soldiers-topple-two-empires-1bb2af43ed081ae1c311/summary.md",
+      "title": "Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",
+      "transcript_path": "episodes/2026-10-01/si-sheppard-how-did-a-few-hundred-spanish-soldiers-topple-two-empires-1bb2af43ed081ae1c311/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://www.dwarkesh.com/p/si-sheppard",
+      "updated_at": "2026-10-03T16:25:34.921969+00:00"
+    },
     "1bf240c7e8316a75d9c2": {
       "analysis_path": "episodes/2026-06-04/the-rise-of-the-full-stack-builder-and-hyper-leveraged-generalist-with-microsoft-ceo-satya-1bf240c7e8316a75d9c2/analysis.json",
       "error": "",
@@ -413,7 +464,7 @@
     },
     "1c6f81073f13976ed65f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.020640+00:00"
+      "updated_at": "2026-10-03T16:01:58.428084+00:00"
     },
     "1c72020c86cca75745c6": {
       "analysis_path": "episodes/2026-08-09/the-playbook-for-building-high-talent-density-teams-adam-ward-head-of-talent-at-cursor-1c72020c86cca75745c6/analysis.json",
@@ -574,7 +625,7 @@
     },
     "20e12bf1b068860be6c8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.019442+00:00"
+      "updated_at": "2026-10-03T16:01:58.426732+00:00"
     },
     "2171d22d662de2032bb4": {
       "status": "metadata_skipped",
@@ -910,6 +961,40 @@
       "transcript_source_url": "https://share.transistor.fm/s/5676e6f2/transcription.txt",
       "updated_at": "2026-07-14T08:05:02.747158+00:00"
     },
+    "3cb4117c2d9aec0ca09c": {
+      "analysis_path": "episodes/2026-10-03/one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cross-embodiment-human-3cb4117c2d9aec0ca09c/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cross-embodiment-humanoids/",
+      "published": "2026-10-03T13:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-03/one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cross-embodiment-human-3cb4117c2d9aec0ca09c/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-03/one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cross-embodiment-human-3cb4117c2d9aec0ca09c/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-03/one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cross-embodiment-human-3cb4117c2d9aec0ca09c/summary.md",
+      "title": "One Brain, Any Body: Google DeepMind's Keerthana on Gemini Robotics 2, Cross-Embodiment & Humanoids",
+      "transcript_path": "episodes/2026-10-03/one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cross-embodiment-human-3cb4117c2d9aec0ca09c/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cross-embodiment-humanoids/",
+      "updated_at": "2026-10-03T16:25:34.925062+00:00"
+    },
+    "3cd7d7366f3fad198ec0": {
+      "analysis_path": "episodes/2026-09-30/white-house-ai-accord-model-welfare-ken-griffindor-school-of-market-wizardry-ali-golshan-m-3cd7d7366f3fad198ec0/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/ee2abb9f",
+      "published": "2026-09-30T21:27:30+00:00",
+      "raw_transcript": "episodes/2026-09-30/white-house-ai-accord-model-welfare-ken-griffindor-school-of-market-wizardry-ali-golshan-m-3cd7d7366f3fad198ec0/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-30/white-house-ai-accord-model-welfare-ken-griffindor-school-of-market-wizardry-ali-golshan-m-3cd7d7366f3fad198ec0/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-30/white-house-ai-accord-model-welfare-ken-griffindor-school-of-market-wizardry-ali-golshan-m-3cd7d7366f3fad198ec0/summary.md",
+      "title": "White House AI Accord, Model Welfare, Ken Griffindor School of Market Wizardry | Ali Golshan, Mike Intrator, Vlad Tenev, Pari Singh, Minna Song, Dev Ittycheria, Daragh Murphy, Noah Friedman",
+      "transcript_path": "episodes/2026-09-30/white-house-ai-accord-model-welfare-ken-griffindor-school-of-market-wizardry-ali-golshan-m-3cd7d7366f3fad198ec0/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/ee2abb9f/transcription.vtt",
+      "updated_at": "2026-10-03T16:25:34.927265+00:00"
+    },
     "3d0dbc86b344307a7010": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-17T15:02:00.027550+00:00"
@@ -950,7 +1035,7 @@
     },
     "3ff13f7bcff9c3d85760": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.022422+00:00"
+      "updated_at": "2026-09-30T16:02:26.038261+00:00"
     },
     "4051d4f942c4ec9fd923": {
       "analysis_path": "episodes/2026-06-17/the-self-driving-lab-joseph-krause-radical-ai-4051d4f942c4ec9fd923/analysis.json",
@@ -1035,6 +1120,23 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://colossus.com/episode/from-transistor-to-token/",
       "updated_at": "2026-08-25T16:59:03.819153+00:00"
+    },
+    "4904b0960e70c7c4b718": {
+      "analysis_path": "episodes/2026-09-29/openai-devday-sam-altman-alexander-embiricos-andrew-ambrosino-peter-steinberger-tibo-sotti-4904b0960e70c7c4b718/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/b41e5338",
+      "published": "2026-09-29T21:29:57+00:00",
+      "raw_transcript": "episodes/2026-09-29/openai-devday-sam-altman-alexander-embiricos-andrew-ambrosino-peter-steinberger-tibo-sotti-4904b0960e70c7c4b718/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-29/openai-devday-sam-altman-alexander-embiricos-andrew-ambrosino-peter-steinberger-tibo-sotti-4904b0960e70c7c4b718/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-29/openai-devday-sam-altman-alexander-embiricos-andrew-ambrosino-peter-steinberger-tibo-sotti-4904b0960e70c7c4b718/summary.md",
+      "title": "OpenAI DevDay | Sam Altman, Alexander Embiricos, Andrew Ambrosino, Peter Steinberger, Tibo Sottiaux, Kath Korevec, Casey Neistat",
+      "transcript_path": "episodes/2026-09-29/openai-devday-sam-altman-alexander-embiricos-andrew-ambrosino-peter-steinberger-tibo-sotti-4904b0960e70c7c4b718/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/b41e5338/transcription.vtt",
+      "updated_at": "2026-10-03T16:25:34.930044+00:00"
     },
     "4aad641f1dcb3066c5d8": {
       "analysis_path": "episodes/2026-06-04/alex-imas-and-phil-trammell-what-remains-scarce-after-agi-4aad641f1dcb3066c5d8/analysis.json",
@@ -1154,6 +1256,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/e959c3d4/transcription.txt",
       "updated_at": "2026-06-19T15:06:07.744514+00:00"
     },
+    "544c363dc3815b79828a": {
+      "analysis_path": "episodes/2026-10-01/factory-cognition-drama-instinct-s-shopping-push-gemini-4-argon-will-bruey-christophe-beck-544c363dc3815b79828a/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/3a7cb60d",
+      "published": "2026-10-01T20:24:17+00:00",
+      "raw_transcript": "episodes/2026-10-01/factory-cognition-drama-instinct-s-shopping-push-gemini-4-argon-will-bruey-christophe-beck-544c363dc3815b79828a/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-01/factory-cognition-drama-instinct-s-shopping-push-gemini-4-argon-will-bruey-christophe-beck-544c363dc3815b79828a/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-01/factory-cognition-drama-instinct-s-shopping-push-gemini-4-argon-will-bruey-christophe-beck-544c363dc3815b79828a/summary.md",
+      "title": "Factory-Cognition Drama, Instinct's Shopping Push, Gemini 4 Argon | Will Bruey, Christophe Beck, Hassaan Raza, Connor Renton",
+      "transcript_path": "episodes/2026-10-01/factory-cognition-drama-instinct-s-shopping-push-gemini-4-argon-will-bruey-christophe-beck-544c363dc3815b79828a/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/3a7cb60d/transcription.vtt",
+      "updated_at": "2026-10-03T16:25:34.931942+00:00"
+    },
     "5476a282eca641a33094": {
       "analysis_path": "episodes/2026-07-09/adam-mosseri-ai-is-a-tailwind-for-authenticity-5476a282eca641a33094/analysis.json",
       "error": "",
@@ -1173,7 +1292,7 @@
     },
     "54e38ed52e867b4ef306": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.023042+00:00"
+      "updated_at": "2026-09-30T16:02:26.038923+00:00"
     },
     "55042b9966a3bc4b5c88": {
       "analysis_path": "episodes/2026-07-01/1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native-engineering-55042b9966a3bc4b5c88/analysis.json",
@@ -1426,7 +1545,7 @@
     },
     "641235807f5ce3964ef6": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.021222+00:00"
+      "updated_at": "2026-10-03T16:01:58.428659+00:00"
     },
     "64782ec72ea2e1cdbf5b": {
       "analysis_path": "episodes/2026-05-28/state-of-enterprise-ai-2026-aaron-levie-on-tokenmaxxing-rise-of-headless-and-ai-proofing-y-64782ec72ea2e1cdbf5b/analysis.json",
@@ -1565,7 +1684,7 @@
     },
     "6e1f11fafa9a6a07127a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.018786+00:00"
+      "updated_at": "2026-10-03T16:01:58.426151+00:00"
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
@@ -1774,6 +1893,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/14a1df49/transcription.txt",
       "updated_at": "2026-06-10T22:59:15.765084+00:00"
     },
+    "7a5dbbeff176be052a3e": {
+      "analysis_path": "episodes/2026-10-01/why-ai-agents-cheat-eric-ho-goodfire-7a5dbbeff176be052a3e/analysis.json",
+      "error": "",
+      "feed_id": "mad-podcast",
+      "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/Why-AI-Agents-Cheat--Eric-Ho-Goodfire-e3pm35t",
+      "published": "2026-10-01T11:30:00+00:00",
+      "raw_transcript": "episodes/2026-10-01/why-ai-agents-cheat-eric-ho-goodfire-7a5dbbeff176be052a3e/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-01/why-ai-agents-cheat-eric-ho-goodfire-7a5dbbeff176be052a3e/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-01/why-ai-agents-cheat-eric-ho-goodfire-7a5dbbeff176be052a3e/summary.md",
+      "title": "Why AI Agents Cheat | Eric Ho (Goodfire)",
+      "transcript_path": "episodes/2026-10-01/why-ai-agents-cheat-eric-ho-goodfire-7a5dbbeff176be052a3e/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=MrnhtyPGCKI",
+      "updated_at": "2026-10-03T16:25:34.933765+00:00"
+    },
     "7b6b53d4dff291d5953c": {
       "analysis_path": "episodes/2026-06-03/scaling-past-informal-ai-carina-hong-axiom-math-7b6b53d4dff291d5953c/analysis.json",
       "error": "",
@@ -1964,6 +2100,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-17T16:15:37.554040+00:00"
     },
+    "890a00570b30251e6771": {
+      "analysis_path": "episodes/2026-10-01/ai-am-was-trump-xi-anything-what-counts-as-utopia-aws-gpus-cost-3x-ai-diagnoses-rare-disea-890a00570b30251e6771/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/ai-am-was-trump-xi-anything-what-counts-as-utopia-aws-gpus-cost-3x-ai-diagnoses-rare-diseases/",
+      "published": "2026-10-01T14:52:22+00:00",
+      "raw_transcript": "episodes/2026-10-01/ai-am-was-trump-xi-anything-what-counts-as-utopia-aws-gpus-cost-3x-ai-diagnoses-rare-disea-890a00570b30251e6771/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-01/ai-am-was-trump-xi-anything-what-counts-as-utopia-aws-gpus-cost-3x-ai-diagnoses-rare-disea-890a00570b30251e6771/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-01/ai-am-was-trump-xi-anything-what-counts-as-utopia-aws-gpus-cost-3x-ai-diagnoses-rare-disea-890a00570b30251e6771/summary.md",
+      "title": "AI:AM: Was Trump-Xi Anything? What Counts as Utopia? + AWS GPUs Cost 3X & AI Diagnoses Rare Diseases",
+      "transcript_path": "episodes/2026-10-01/ai-am-was-trump-xi-anything-what-counts-as-utopia-aws-gpus-cost-3x-ai-diagnoses-rare-disea-890a00570b30251e6771/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/ai-am-was-trump-xi-anything-what-counts-as-utopia-aws-gpus-cost-3x-ai-diagnoses-rare-diseases/",
+      "updated_at": "2026-10-03T16:25:34.936264+00:00"
+    },
     "8b05ac6e5eb0a316d785": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.105146+00:00"
@@ -2101,7 +2254,7 @@
     },
     "9226078e6c8bb6c5d3a1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.017754+00:00"
+      "updated_at": "2026-10-03T16:01:58.425577+00:00"
     },
     "923d8b3f6ddc10477ed0": {
       "status": "metadata_skipped",
@@ -2385,6 +2538,10 @@
       "transcript_source_url": "https://colossus.com/episode/americas-next-energy-crisis/",
       "updated_at": "2026-07-21T16:08:02.428489+00:00"
     },
+    "a94b79f15e3939605456": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-03T16:01:58.424982+00:00"
+    },
     "a9d533f584aa39a0fa8b": {
       "analysis_path": "episodes/2026-08-25/dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by-2028-a9d533f584aa39a0fa8b/analysis.json",
       "error": "",
@@ -2449,6 +2606,23 @@
       "transcript_source_url": "https://www.latent.space/p/runway",
       "updated_at": "2026-09-25T16:07:32.459672+00:00"
     },
+    "af9b59b0e2625ae59ee4": {
+      "analysis_path": "episodes/2026-10-02/ep-034-engrams-how-deepseek-offloads-kv-cache-to-dram-and-ssd-core-research-jordan-nanos-c-af9b59b0e2625ae59ee4/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--034---Engrams-How-DeepSeek-Offloads-KV-Cache-to-DRAM-and-SSD-Core-Research--Jordan-Nanos--Cam-Quilici--Alec-Ibarra--Bryan-Shan-e3pp7av",
+      "published": "2026-10-02T21:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-02/ep-034-engrams-how-deepseek-offloads-kv-cache-to-dram-and-ssd-core-research-jordan-nanos-c-af9b59b0e2625ae59ee4/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-02/ep-034-engrams-how-deepseek-offloads-kv-cache-to-dram-and-ssd-core-research-jordan-nanos-c-af9b59b0e2625ae59ee4/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-02/ep-034-engrams-how-deepseek-offloads-kv-cache-to-dram-and-ssd-core-research-jordan-nanos-c-af9b59b0e2625ae59ee4/summary.md",
+      "title": "Ep. 034 - Engrams: How DeepSeek Offloads KV Cache to DRAM and SSD (Core Research) | Jordan Nanos, Cam Quilici, Alec Ibarra, Bryan Shan",
+      "transcript_path": "episodes/2026-10-02/ep-034-engrams-how-deepseek-offloads-kv-cache-to-dram-and-ssd-core-research-jordan-nanos-c-af9b59b0e2625ae59ee4/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=NcqHQmpNjr0",
+      "updated_at": "2026-10-03T16:25:34.938055+00:00"
+    },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
       "error": "",
@@ -2465,6 +2639,10 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/02034a71/transcription.vtt",
       "updated_at": "2026-09-17T18:55:56.787476+00:00"
+    },
+    "b26e62a48f943efab72d": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-03T16:01:58.424359+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -2487,9 +2665,26 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=N1rjtDs8blY",
       "updated_at": "2026-09-18T16:05:15.518608+00:00"
     },
+    "b56f30878c081214cb5a": {
+      "analysis_path": "episodes/2026-10-02/frontier-chips-for-frontier-ai-labs-with-walter-goodwin-founder-ceo-of-fractile-b56f30878c081214cb5a/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=OpeCP4wCxkA",
+      "published": "2026-10-02T10:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-02/frontier-chips-for-frontier-ai-labs-with-walter-goodwin-founder-ceo-of-fractile-b56f30878c081214cb5a/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-02/frontier-chips-for-frontier-ai-labs-with-walter-goodwin-founder-ceo-of-fractile-b56f30878c081214cb5a/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-02/frontier-chips-for-frontier-ai-labs-with-walter-goodwin-founder-ceo-of-fractile-b56f30878c081214cb5a/summary.md",
+      "title": "Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile",
+      "transcript_path": "episodes/2026-10-02/frontier-chips-for-frontier-ai-labs-with-walter-goodwin-founder-ceo-of-fractile-b56f30878c081214cb5a/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=OpeCP4wCxkA",
+      "updated_at": "2026-10-03T16:25:34.939949+00:00"
+    },
     "b67022364a85eb173705": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.020031+00:00"
+      "updated_at": "2026-10-03T16:01:58.427506+00:00"
     },
     "b674c213eed72b1200da": {
       "status": "metadata_skipped",
@@ -3065,7 +3260,7 @@
     },
     "e12094dbdf590175d20d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.021825+00:00"
+      "updated_at": "2026-10-03T16:01:58.429229+00:00"
     },
     "e17fc54330fc4b6351dd": {
       "analysis_path": "episodes/2026-09-29/claude-code-s-next-era-thariq-shihipar-anthropic-e17fc54330fc4b6351dd/analysis.json",
@@ -3172,6 +3367,10 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
       "updated_at": "2026-07-12T12:38:23.924588+00:00"
+    },
+    "e4d62cdf327e1c57d03a": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-03T16:01:58.423390+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3427,6 +3626,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-07-14T07:57:11.920259+00:00"
     },
+    "f51163f23ace26a7165e": {
+      "analysis_path": "episodes/2026-09-30/why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-competitor-in-1-week-f51163f23ace26a7165e/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/devday-2026",
+      "published": "2026-09-30T22:23:40+00:00",
+      "raw_transcript": "episodes/2026-09-30/why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-competitor-in-1-week-f51163f23ace26a7165e/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-09-30/why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-competitor-in-1-week-f51163f23ace26a7165e/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-09-30/why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-competitor-in-1-week-f51163f23ace26a7165e/summary.md",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "transcript_path": "episodes/2026-09-30/why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-competitor-in-1-week-f51163f23ace26a7165e/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/devday-2026",
+      "updated_at": "2026-10-03T16:25:34.941505+00:00"
+    },
     "f7431b2b2c92a9b0492e": {
       "analysis_path": "episodes/2026-09-22/harvey-s-margin-whiplash-human-powered-agents-mclaren-rebrand-insects-humans-ben-thompson--f7431b2b2c92a9b0492e/analysis.json",
       "error": "",
@@ -3501,7 +3717,7 @@
     },
     "fb2301951f30455eadda": {
       "status": "metadata_skipped",
-      "updated_at": "2026-09-29T16:15:30.023752+00:00"
+      "updated_at": "2026-09-30T16:02:26.039572+00:00"
     },
     "fdccc88bd9342ede8dc4": {
       "analysis_path": "episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/analysis.json",

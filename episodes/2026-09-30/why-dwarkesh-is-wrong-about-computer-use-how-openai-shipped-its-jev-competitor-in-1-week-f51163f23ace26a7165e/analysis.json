@@ -1,0 +1,64 @@
+{
+  "changed_views": [
+    "The earlier Jev discussion established fast constrained decisions as a useful product category. Handa's account separates OpenAI's initial unchanged-weights implementation from claims about a distinct learned decision architecture or calibrated probabilities.",
+    "The recovered DevDay interview already attributes computer-use speed gains to model, reviewer and harness changes. Weinstein adds the concrete observation-format and action-batching mechanisms, and identifies external application waits as an emerging limit.",
+    "The September 29 cached-fork discussion concerned supervision sharing a prompt prefix. Handa adds a separate temporal-reuse problem for agents revisited after hours; longer retention remains a preview rather than an assumed public feature."
+  ],
+  "entities": [
+    "OpenAI",
+    "Ari Weinstein",
+    "Nikunj Handa",
+    "Codex",
+    "Dots",
+    "GPT-6 Luna",
+    "Decisions API",
+    "Responses API",
+    "Agents API",
+    "Jev",
+    "TypeSafe AI"
+  ],
+  "follow_ups": [
+    "Check Decisions API access, latency distributions, accuracy and confidence calibration against Luna with ordinary structured output and against Jev on the same labeled workload; separate prototype timing from production rollout.",
+    "Measure computer-use task success and wall time with screenshots, accessibility/DOM context and code batching under matched safety checks, including time spent waiting for external applications.",
+    "Track whether twelve-hour caching becomes public and compare actual cache-write fees, hit rates and latency for intermittent agent sessions; preserve the documented distinction between context persistence and cache reuse.",
+    "Test long tool calls with steering and changing dependencies, including results that arrive after a user's requirements change; verify the continuation has actually incorporated the update."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "frontier_labs_models",
+      "claim": "Handa says the initial Decisions API uses unchanged Luna weights, constrained outputs and parallelized questions; the roughly one-week project is an inference-stack adaptation, with calibration still an open improvement area.",
+      "confidence": "high",
+      "evidence": "At 00:24:33\u201300:24:44 he says the project was absent from the roadmap four weeks earlier and describes a working prototype still targeting a latency threshold before launch. At 00:27:36\u201300:28:06 he explicitly says there is no newly trained model: the first version runs zero-shot on Luna with batched questions. At 00:29:06 he treats calibration improvements as potential future work; at 00:30:39\u201300:31:07 he dates the effort to about a week. The headline should therefore not be read as broad production availability within one week, demonstrated Jev-equivalent calibration, or evidence for a new diffusion architecture.",
+      "kind": "observation",
+      "timestamp": "00:24:33; 00:24:44; 00:27:36; 00:27:40; 00:28:06; 00:29:06; 00:30:39; 00:31:07"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Weinstein says computer-use gains come partly from replacing repeated screenshot-and-scroll cycles with richer accessibility or DOM context and code that batches actions; page loading increasingly limits further speed.",
+      "confidence": "high",
+      "evidence": "At 00:06:35 and 00:09:36 he describes models using screenshots, accessibility, Playwright and generated JavaScript to inspect more information and execute multiple actions per call. At 00:10:40\u201300:11:40 he explains that app shots include accessibility text such as untruncated labels and link destinations. At 00:12:32\u201300:14:25 he says website loading and detecting readiness consume meaningful benchmark time. [OpenAI's computer-use documentation](https://developers.openai.com/api/docs/guides/tools-computer-use) corroborates code execution combining actions and control flow. His two-hour-versus-fifteen-minute meal-ordering story is a single anecdote; no controlled ablation or task-wide human comparison is supplied.",
+      "kind": "observation",
+      "timestamp": "00:03:53; 00:06:35; 00:09:36; 00:10:40; 00:11:40; 00:12:32; 00:14:22; 00:14:25"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Handa distinguishes public cache pre-warming and thirty-minute reuse from a twelve-hour cache guarantee being previewed for a customer, targeting agents whose users return after hours of inactivity.",
+      "confidence": "high",
+      "evidence": "At 00:32:35\u201300:33:43 he describes thirty-minute caching, then explicitly labels the twelve-hour option a non-public preview with a higher cache-write charge. At 00:34:14 he describes paying to pre-warm a known prompt before a request arrives. The [current public documentation](https://developers.openai.com/api/docs/guides/prompt-caching) lists 30m as the only supported minimum lifetime for GPT-5.6 and later and confirms pre-warming without output generation, billed at cache-write rates. Reuse depends on a matching eligible prefix; a persistent thread alone does not guarantee a hit. Neither the interview nor these docs establish general twelve-hour availability or realized customer savings.",
+      "kind": "observation",
+      "timestamp": "00:32:35; 00:33:42; 00:33:43; 00:34:14; 00:34:51"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Handa describes asynchronous tool execution and mid-turn steering as trained interaction capabilities exposed through the API, allowing useful work and user corrections while tools are still running.",
+      "confidence": "high",
+      "evidence": "At 00:19:34\u201300:21:00 he says the model can keep reasoning after launching a tool, then incorporate returned information or user updates; WebSockets provide bidirectional transport. The [async-tool documentation](https://developers.openai.com/api/docs/guides/async-tool-calling) confirms that applications still execute and manage function/custom tools, with compatibility limits for built-in tools and programmatic tool calling. The [steering documentation](https://developers.openai.com/api/docs/guides/steering) clarifies that an accepted update queues a continuation; it does not undo previous actions or cancel tools already started. This enables overlap but does not itself remove tool latency, dependency ordering or the need to handle stale results.",
+      "kind": "observation",
+      "timestamp": "00:19:34; 00:20:43; 00:20:48; 00:21:00"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "OpenAI's Ari Weinstein and Nikunj Handa explain implementation choices behind computer use and the developer APIs. Weinstein describes combining accessibility information, the DOM, screenshots and generated code to reduce repeated interaction steps, with website loading emerging as a latency bottleneck. Handa says the initial Decisions API reuses Luna weights and parallelizes constrained questions rather than training a new model, and describes a roughly week-long project still targeting launch at recording. He also explains asynchronous tool execution, steering and cache pre-warming, while explicitly identifying twelve-hour caching as a preview. Product-convergence announcements overlap the other DevDay interview; generalized superhuman claims and individual productivity anecdotes do not establish task-wide reliability or speed.",
+  "why_it_matters": "The new evidence identifies where agent latency and cost can improve: fewer observation-action cycles, overlapping tool execution, prompt reuse and narrower inference interfaces. Decisions is an inference-and-interface response to Jev, so architecture novelty and calibrated confidence cannot be assumed from API similarity. The caching preview could matter for intermittently active agents, but public availability and actual hit rates remain distinct from an executive's stated guarantee."
+}

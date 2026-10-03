@@ -1,0 +1,78 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/218243619/bab92a493c836ce907351acda5d8c2ec.mp3",
+  "description_html": "<p>Three months ago Dwarkesh, who has been posting <a target=\"_blank\" href=\"https://x.com/search?q=from%3Adwarkesh_sp%20RL&#38;src=typed_query\">incredible blogs and episodes </a>about RL, <a target=\"_blank\" href=\"https://x.com/dwarkesh_sp/status/2070672008946589922\">posted</a> a framing question for his video essay on RLVR which upset a lot of Computer Use folks:</p><p>We are no strangers to <a target=\"_blank\" href=\"https://learninpublic.org/\">learning in public</a> and are no strangers to the stress of getting things wrong when you have a big platform. However, we were <a target=\"_blank\" href=\"https://x.com/swyx/status/1852786783710539972\">at Anthropic for the Computer Use launch</a>, there for <a target=\"_blank\" href=\"https://x.com/swyx/status/2016899888718442842\">Claude Cowork</a> with the first <a target=\"_blank\" href=\"https://www.latent.space/p/felix-anthropic\">big podcast</a> on it, organized <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=1UmZHb_E_SM&#38;list=PLEz0frWjePik&#38;pp=sAgC\">the first Computer Use track at AIE</a> presenting the state of the art, and were close to the <a target=\"_blank\" href=\"https://openai.com/index/openai-acquires-software-applications-incorporated/\">OpenAI-Sky Software acquisition</a> that now powers the complete domination of computer use that Codex enjoys today. This is why we\u2019re excited to bring you today\u2019s first guest, <a target=\"_blank\" href=\"https://x.com/AriX/status/2088364788984217753\"><strong>Ari Weinstein</strong></a>, cofounder of Sky and now leading all the amazing CUA progress that casuals might miss:</p><p>Ari explains why Computer Use is now <strong>\u201c180 degrees different\u201d</strong> from where it was months ago, how agents are learning to debug and recover from failures, why combining screenshots with accessibility data, the DOM, Playwright, and generated code changes the speed equation, and why the next frontier is making agents literally superhuman at using software.</p><p></p><p>OpenAI clones Jev</p><p>In the second half, <strong>Nikunj Handa</strong> from OpenAI\u2019s API team breaks down <strong>the new developer stack: async tool calling, mid-turn steering, WebSockets, UltraFast inference, the Decisions API, prompt caching, pre-warming, compaction, and the Agents API</strong>. Given that we were <a target=\"_blank\" href=\"https://www.latent.space/p/jev\"><strong>the first Jev podcast</strong></a>, we particularly focus on the unusually fast sprint on the Decisions API:</p><p>And why it is just a Luna wrapper for now but the team is motivated and egoless enough to clone what they consider to be good patterns.</p><p></p><p></p><p>We discuss:</p><p>* Why OpenAI thinks <strong>Computer Use has changed dramatically</strong> in just the last few months</p><p>* Dots and what changes when every agent gets its own <strong>Linux computer</strong></p><p>* Why Computer Use can now complete some tasks <strong>faster than the average human</strong></p><p>* The path from human-level to <strong>\u201cliterally superhuman\u201d computer use</strong></p><p>* Why modern agents are much better at <strong>debugging and recovering from failure</strong></p><p>* How screenshots, accessibility trees, the DOM, Playwright, and <strong>generated JavaScript</strong> work together</p><p>* <strong>App Shots</strong> and why they give models much richer context than ordinary screenshots</p><p>* Why Computer Use can close the loop between <strong>writing software and testing it</strong></p><p>* Trust, permissions, and safety when agents can <strong>make payments and operate websites</strong></p><p>* <strong>Async function calling</strong> and why models no longer need to stop reasoning while tools run</p><p>* Mid-turn steering, WebSockets, and the architecture behind <strong>more responsive agents</strong></p><p>* <strong>UltraFast inference</strong> and how OpenAI is pushing frontier models toward much lower latency</p><p>* The rapid internal story behind the <strong>Decisions API</strong></p><p>* Why Decisions API is more than structured outputs at <strong>low latency</strong></p><p>* GPT Live, fast tool calling, and <strong>real-time computer control</strong></p><p>* How OpenAI is already using Decisions API for <strong>support classification and internal workflows</strong></p><p>* Longer prompt caching, <strong>cache pre-warming</strong>, and cache-aware applications</p><p>* Server-side compaction vs manual compaction for <strong>long-running agent threads</strong></p><p>* What should live inside an <strong>Agents API</strong> versus a developer\u2019s own harness</p><p>* OpenAI as an <strong>\u201cAI cloud\u201d</strong> and the search for higher-level primitives beyond raw model APIs</p><p>Ari Weinstein</p><p>* Product & Engineering, Computer Use at OpenAI</p><p>* <strong>X:</strong> <a target=\"_blank\" href=\"https://x.com/AriX?lang=en\">https://x.com/AriX</a></p><p>* <strong>LinkedIn:</strong> <a target=\"_blank\" href=\"https://www.linkedin.com/in/weinsteinari/\">https://www.linkedin.com/in/weinsteinari/</a></p><p>Nikunj Handa</p><p>* Product, API at OpenAI</p><p>* <strong>X:</strong> <a target=\"_blank\" href=\"https://x.com/nikunjhanda\">https://x.com/nikunjhanda</a></p><p>* <strong>LinkedIn:</strong> <a target=\"_blank\" href=\"https://www.linkedin.com/in/nikunjhanda/\">https://www.linkedin.com/in/nikunjhanda/</a></p><p>Timestamps</p><p><strong>00:00:00</strong> OpenAI DevDay: Dots, GPT-6.1, Agents API, and Decisions API</p><p><strong>00:02:52</strong> Dots and Personal Cloud Computers</p><p><strong>00:04:59</strong> Why Computer Use Is \u201c180 Degrees Different\u201d</p><p><strong>00:06:04</strong> From Sky to Self-Debugging Computer Use Agents</p><p><strong>00:09:24</strong> How Computer Use Sees and Operates Software</p><p><strong>00:12:09</strong> From Faster Than Humans to Superhuman Computer Use</p><p><strong>00:16:03</strong> Agents API: Trust, Permissions, and Safety</p><p><strong>00:17:31</strong> Computer Use for Coding, Testing, and QA</p><p><strong>00:19:14</strong> GPT-6 APIs, Async Tool Calling, and UltraFast Inference</p><p><strong>00:23:21</strong> The Rapid Story Behind Decisions API</p><p><strong>00:25:32</strong> What Decisions API Is and How It Works</p><p><strong>00:30:24</strong> What OpenAI Is Building With the New APIs</p><p><strong>00:32:23</strong> Prompt Caching, Pre-Warming, and API Performance</p><p><strong>00:35:20</strong> Context Compaction for Long-Running Agents</p><p><strong>00:37:13</strong> Memory, Higher-Level APIs, and the AI Cloud</p>",
+  "description_text": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks:\n\nWe are no strangers to learning in public and are no strangers to the stress of getting things wrong when you have a big platform. However, we were at Anthropic for the Computer Use launch , there for Claude Cowork with the first big podcast on it, organized the first Computer Use track at AIE presenting the state of the art, and were close to the OpenAI-Sky Software acquisition that now powers the complete domination of computer use that Codex enjoys today. This is why we\u2019re excited to bring you today\u2019s first guest, Ari Weinstein , cofounder of Sky and now leading all the amazing CUA progress that casuals might miss:\n\nAri explains why Computer Use is now \u201c180 degrees different\u201d from where it was months ago, how agents are learning to debug and recover from failures, why combining screenshots with accessibility data, the DOM, Playwright, and generated code changes the speed equation, and why the next frontier is making agents literally superhuman at using software.\n\nOpenAI clones Jev\n\nIn the second half, Nikunj Handa from OpenAI\u2019s API team breaks down the new developer stack: async tool calling, mid-turn steering, WebSockets, UltraFast inference, the Decisions API, prompt caching, pre-warming, compaction, and the Agents API . Given that we were the first Jev podcast , we particularly focus on the unusually fast sprint on the Decisions API:\n\nAnd why it is just a Luna wrapper for now but the team is motivated and egoless enough to clone what they consider to be good patterns.\n\nWe discuss:\n\n* Why OpenAI thinks Computer Use has changed dramatically in just the last few months\n\n* Dots and what changes when every agent gets its own Linux computer\n\n* Why Computer Use can now complete some tasks faster than the average human\n\n* The path from human-level to \u201cliterally superhuman\u201d computer use\n\n* Why modern agents are much better at debugging and recovering from failure\n\n* How screenshots, accessibility trees, the DOM, Playwright, and generated JavaScript work together\n\n* App Shots and why they give models much richer context than ordinary screenshots\n\n* Why Computer Use can close the loop between writing software and testing it\n\n* Trust, permissions, and safety when agents can make payments and operate websites\n\n* Async function calling and why models no longer need to stop reasoning while tools run\n\n* Mid-turn steering, WebSockets, and the architecture behind more responsive agents\n\n* UltraFast inference and how OpenAI is pushing frontier models toward much lower latency\n\n* The rapid internal story behind the Decisions API\n\n* Why Decisions API is more than structured outputs at low latency\n\n* GPT Live, fast tool calling, and real-time computer control\n\n* How OpenAI is already using Decisions API for support classification and internal workflows\n\n* Longer prompt caching, cache pre-warming , and cache-aware applications\n\n* Server-side compaction vs manual compaction for long-running agent threads\n\n* What should live inside an Agents API versus a developer\u2019s own harness\n\n* OpenAI as an \u201cAI cloud\u201d and the search for higher-level primitives beyond raw model APIs\n\nAri Weinstein\n\n* Product & Engineering, Computer Use at OpenAI\n\n* X: https://x.com/AriX\n\n* LinkedIn: https://www.linkedin.com/in/weinsteinari/\n\nNikunj Handa\n\n* Product, API at OpenAI\n\n* X: https://x.com/nikunjhanda\n\n* LinkedIn: https://www.linkedin.com/in/nikunjhanda/\n\nTimestamps\n\n00:00:00 OpenAI DevDay: Dots, GPT-6.1, Agents API, and Decisions API\n\n00:02:52 Dots and Personal Cloud Computers\n\n00:04:59 Why Computer Use Is \u201c180 Degrees Different\u201d\n\n00:06:04 From Sky to Self-Debugging Computer Use Agents\n\n00:09:24 How Computer Use Sees and Operates Software\n\n00:12:09 From Faster Than Humans to Superhuman Computer Use\n\n00:16:03 Agents API: Trust, Permissions, and Safety\n\n00:17:31 Computer Use for Coding, Testing, and QA\n\n00:19:14 GPT-6 APIs, Async Tool Calling, and UltraFast Inference\n\n00:23:21 The Rapid Story Behind Decisions API\n\n00:25:32 What Decisions API Is and How It Works\n\n00:30:24 What OpenAI Is Building With the New APIs\n\n00:32:23 Prompt Caching, Pre-Warming, and API Performance\n\n00:35:20 Context Compaction for Long-Running Agents\n\n00:37:13 Memory, Higher-Level APIs, and the AI Cloud",
+  "duration_seconds": 2352,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "f51163f23ace26a7165e",
+  "link": "https://www.latent.space/p/devday-2026",
+  "published": "2026-09-30T22:23:40+00:00",
+  "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+  "transcript_source": "rss_embedded_transcript",
+  "transcript_source_url": "https://www.latent.space/p/devday-2026",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "incredible blogs and episodes",
+      "url": "https://x.com/search?q=from%3Adwarkesh_sp%20RL&src=typed_query"
+    },
+    {
+      "text": "posted",
+      "url": "https://x.com/dwarkesh_sp/status/2070672008946589922"
+    },
+    {
+      "text": "learning in public",
+      "url": "https://learninpublic.org/"
+    },
+    {
+      "text": "at Anthropic for the Computer Use launch",
+      "url": "https://x.com/swyx/status/1852786783710539972"
+    },
+    {
+      "text": "Claude Cowork",
+      "url": "https://x.com/swyx/status/2016899888718442842"
+    },
+    {
+      "text": "big podcast",
+      "url": "https://www.latent.space/p/felix-anthropic"
+    },
+    {
+      "text": "the first Computer Use track at AIE",
+      "url": "https://www.youtube.com/watch?v=1UmZHb_E_SM&list=PLEz0frWjePik&pp=sAgC"
+    },
+    {
+      "text": "OpenAI-Sky Software acquisition",
+      "url": "https://openai.com/index/openai-acquires-software-applications-incorporated/"
+    },
+    {
+      "text": "Ari Weinstein",
+      "url": "https://x.com/AriX/status/2088364788984217753"
+    },
+    {
+      "text": "the first Jev podcast",
+      "url": "https://www.latent.space/p/jev"
+    },
+    {
+      "text": "https://x.com/AriX",
+      "url": "https://x.com/AriX?lang=en"
+    },
+    {
+      "text": "https://www.linkedin.com/in/weinsteinari/",
+      "url": "https://www.linkedin.com/in/weinsteinari/"
+    },
+    {
+      "text": "https://x.com/nikunjhanda",
+      "url": "https://x.com/nikunjhanda"
+    },
+    {
+      "text": "https://www.linkedin.com/in/nikunjhanda/",
+      "url": "https://www.linkedin.com/in/nikunjhanda/"
+    },
+    {
+      "text": "www.latent.space/subscribe",
+      "url": "https://www.latent.space/subscribe?utm_medium=podcast&utm_campaign=CTA_2"
+    }
+  ]
+}
