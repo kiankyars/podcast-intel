@@ -1,0 +1,62 @@
+{
+  "changed_views": [
+    "The earlier portable-subscription announcement mainly changed who funds inference. This interview adds an explicit plan to compensate participating plugins and external products, while leaving payout mechanics unresolved.",
+    "Agent access can increase application distribution and backend workload together. Retention and revenue per completed workflow matter more than raw agent traffic.",
+    "Agent-team size is not a stable proxy for capability: latency and context improvements can make previously useful parallel decomposition unnecessary for a particular user and task."
+  ],
+  "entities": [
+    "OpenAI",
+    "Tibo Sottiaux",
+    "ChatGPT",
+    "Codex",
+    "Dots",
+    "Sign in with ChatGPT",
+    "Notion",
+    "Figma",
+    "Model Context Protocol"
+  ],
+  "follow_ups": [
+    "Look for published partner compensation terms: eligible integrations, revenue basis, usage attribution, payout schedule and whether external Sign in with ChatGPT products use the same rules as plugins.",
+    "Track documented recommendation metrics and controlled evidence connecting retention or successful task completion to plugin exposure.",
+    "Seek a first-party Notion account quantifying MCP traffic, infrastructure cost and revenue before inferring a positive or negative margin effect.",
+    "Compare a single fast agent with coordinated agents on the same workloads, measuring completed-task quality, elapsed time, total tokens and human intervention."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Sottiaux says OpenAI will share revenue with popular plugins and describes shared economics when subscribers use external products through Sign in with ChatGPT.",
+      "confidence": "medium",
+      "evidence": "At 12:48\u201313:03 he says widely used plugins will receive part of the revenue. At 13:19\u201313:37 he extends the explanation to subscription usage consumed through plugins or an outside product using Sign in with ChatGPT. This adds a compensation proposition to the portable-subscription access covered in the earlier DevDay interviews. He supplies no percentage, calculation basis, eligibility threshold, start date or evidence of payments already made; it should be treated as a stated plan, not established developer unit economics. The [official quickstart](https://developers.openai.com/siwc/quickstart) documents participating apps using eligible subscribers\u2019 plan allowances, with commercial access limited to a trial; it does not establish revenue-share terms.",
+      "kind": "forecast",
+      "timestamp": "12:48; 12:54; 13:00; 13:19; 13:28; 13:34"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Sottiaux describes plugin recommendations as responsive to retention, quality and useful task completion, with weak plugins losing recommendations.",
+      "confidence": "medium",
+      "evidence": "At 13:53\u201314:14 he says OpenAI looks at retention and plugin quality, recommends successful plugins during conversations, and stops recommending those that perform poorly. At 14:19\u201314:30 the discussion clarifies the emphasis on useful repeated use. The interview does not disclose the retention window, ranking weights, minimum sample size, causal evaluation method or exposure guarantees. This is a first-party account of the selection logic, not a reproducible ranking formula or a promise that every retained user earns distribution. OpenAI\u2019s [plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines) support enhanced distribution for useful, satisfying plugins, without publishing the specific retention mechanism.",
+      "kind": "observation",
+      "timestamp": "13:53; 13:57; 14:01; 14:06; 14:10; 14:19"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Sottiaux says Notion's MCP integration brought substantial agent traffic and forced attention to system capacity and economics, illustrating that agent distribution also creates a serving burden for the connected application.",
+      "confidence": "medium",
+      "evidence": "At 31:56\u201332:15 he describes working closely with Notion, a traffic increase after exposing its MCP interface, and the resulting strain and economic questions. Notion's [MCP documentation](https://www.notion.com/help/notion-mcp) confirms that external assistants can read and write workspace content, but does not substantiate his traffic account. Neither source provides request growth, costs, failure rates or incremental revenue. His broader prediction that agents will perform most internet actions is separate from this reported integration experience.",
+      "kind": "observation",
+      "timestamp": "31:56; 32:01; 32:06; 32:09; 32:13"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Sottiaux reports reducing parallel agent use after a latency improvement and consolidating work when a stronger model can retain more context and handle the task itself.",
+      "confidence": "medium",
+      "evidence": "At 02:31\u201303:10 he describes alternating between larger agent teams while exploring capability limits and smaller teams after model improvements. At 03:19\u201304:00 he argues that users should eventually specify goals and feedback rather than continually tune loops. This is a personal workflow observation and a product direction: he provides no agent counts, latency measurements, cost comparison or task-success ablation. It supports testing whether a particular decomposition still helps, not assuming all multi-agent systems or explicit workflows will become unnecessary.",
+      "kind": "observation",
+      "timestamp": "02:31; 02:38; 02:54; 03:01; 03:07; 03:19; 03:52"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "In a DevDay interview published October 4, OpenAI's Tibo Sottiaux adds commercial detail beyond the earlier product announcements: he describes shared economics for popular plugins and external applications using Sign in with ChatGPT, and says retention and utility affect in-conversation recommendations. He also reports that Notion's MCP integration brought enough agent traffic to create infrastructure and economic pressure. His own agent workflow changes as latency and model capability improve, complicating any assumption that larger agent teams are always better. The broader vision of permanent assistants, product convergence and simpler interfaces repeats earlier coverage; multi-Dot teams remain a future release in his account, and his production-outage anecdote establishes an alert followed by human intervention, not autonomous repair.",
+  "why_it_matters": "The most consequential addition is the connection between distribution, compensation and the cost of serving agent-driven demand. A developer could gain both recommended placement and shared revenue, but its economics still depend on undisclosed payout rules, retained usage and the workload imposed on its own systems. Separately, faster or stronger models can change the useful division of work between agents, so orchestration overhead and task outcomes need to be measured at each capability level."
+}

@@ -1,0 +1,126 @@
+{
+  "audio_url": "https://pscrb.fm/rss/p/api.substack.com/feed/podcast/217274136/13e3f49711c936b294b6ef27d4160818.mp3",
+  "description_html": "<p><strong>Tibo Sottiaux</strong> leads ChatGPT and Codex at OpenAI. Under his stewardship, OpenAI has shipped some of its most consequential consumer launches: Codex, ChatGPT Work, and most recently, the new Dots personal agent platform. He joined me at DevDay, hours after his team launched more than 20 new products, to talk about where things are heading.</p><p></p><p><strong>We discuss:</strong></p><p>1. Dots, OpenAI\u2019s new personal AI assistant</p><p>2. Why most actions on the internet will soon be taken by agents</p><p>3. Why loops, graphs, and fine-tuning agent workflows are a passing phase</p><p>4. Which skills are trending up and down in the AI era</p><p>5. How Tibo\u2019s Dot warned him about a production outage five minutes before the launch</p><p>6. OpenAI\u2019s approach to AI safety</p><p>\u2014</p><p><strong>Brought to you by:</strong></p><p><a target=\"_blank\" href=\"https://workos.com/lenny\"><strong>WorkOS</strong></a>\u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more</p><p><a target=\"_blank\" href=\"https://getdx.com/?utm_source=lenny&#38;utm_medium=sponsorship&#38;utm_campaign=q42026\"><strong>DX</strong></a>\u2014Engineering intelligence for the AI era</p><p>\u2014</p><p><strong>Episode transcript:</strong> <a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering\">https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering</a></p><p>\u2014</p><p><strong>Archive of all Lenny's Podcast transcripts: </strong><a target=\"_blank\" href=\"https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&#38;st=ahz0fj11&#38;dl=0\">https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0</a></p><p>\u2014</p><p><strong>Where to find Tibo Sottiaux:</strong></p><p>\u2022 X: <a target=\"_blank\" href=\"https://x.com/thsottiaux\">https://x.com/thsottiaux</a></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"https://www.linkedin.com/in/thibault-sottiaux-27195366\">https://www.linkedin.com/in/thibault-sottiaux-27195366</a></p><p>\u2014</p><p><strong>Where to find Lenny:</strong></p><p>\u2022 Newsletter: <a target=\"_blank\" href=\"https://www.lennysnewsletter.com\">https://www.lennysnewsletter.com</a></p><p>\u2022 X: <a target=\"_blank\" href=\"https://twitter.com/lennysan\">https://twitter.com/lennysan</a></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"https://www.linkedin.com/in/lennyrachitsky/\">https://www.linkedin.com/in/lennyrachitsky/</a></p><p>\u2014</p><p><strong>In this episode, we cover:</strong></p><p>(00:00) Introduction to Tibo Sottiaux</p><p>(01:12) How Tibo uses AI in his daily work</p><p>(03:10) The vision for always-on AI agents</p><p>(06:15) How AI will continue to change work</p><p>(07:32) Bringing Codex, ChatGPT, and Dots together</p><p>(08:20) The sci-fi inspiration behind the technology</p><p>(09:02) Building AI with the community</p><p>(10:13) Understanding the Dots structure</p><p>(11:34) OpenAI\u2019s open ecosystem and plugin revenue sharing</p><p>(13:39) How plugins get discovered and recommended</p><p>(14:39) The research behind Dots</p><p>(16:20) Where humans will remain valuable</p><p>(17:25) Agent fatigue, loneliness, and context switching</p><p>(18:55) The pressure to do more with AI</p><p>(20:09) An agent that spotted a production outage before a live demo</p><p>(21:42) Agent guardrails and connecting multiple devices</p><p>(23:25) The skills becoming more valuable in the AI era</p><p>(25:56) Advice for people early in their careers</p><p>(27:18) How teams build and ship inside OpenAI</p><p>(28:59) Autonomy, trust, and learning from mistakes</p><p>(30:45) Building for a future where agents dominate internet activity</p><p>(32:41) What Tibo has changed his mind about</p><p>(33:55) OpenAI\u2019s approach to AI safety and alignment</p><p>(36:15) Moving beyond model pickers toward simpler AI</p><p>\u2014</p><p><strong>Referenced:</strong></p><p>\u2022 OpenAI Dots: <a target=\"_blank\" href=\"https://chatgpt.com/features/dots\">https://chatgpt.com/features/dots</a></p><p>\u2022 <em>Her </em>on Netflix: <a target=\"_blank\" href=\"https://www.netflix.com/title/70278933\">https://www.netflix.com/title/70278933</a></p><p>\u2022 <em>Star Trek</em>: <a target=\"_blank\" href=\"https://www.imdb.com/title/tt0060028\">https://www.imdb.com/title/tt0060028</a></p><p>\u2022 Pi: <a target=\"_blank\" href=\"https://pi.ai\">https://pi.ai</a></p><p>\u2022 OpenCode: <a target=\"_blank\" href=\"https://opencode.ai\">https://opencode.ai</a></p><p>\u2022 Notion: <a target=\"_blank\" href=\"https://www.notion.com\">https://www.notion.com</a></p><p>\u2022 Figma: <a target=\"_blank\" href=\"https://www.figma.com\">https://www.figma.com</a></p><p>\u2022 OpenClaw: <a target=\"_blank\" href=\"https://openclaw.ai\">https://openclaw.ai</a></p><p>\u2022 Peter Steinberger on X: <a target=\"_blank\" href=\"https://x.com/steipete\">https://x.com/steipete</a></p><p>\u2022 Grok Bot: <a target=\"_blank\" href=\"https://x.ai/bot\">https://x.ai/bot</a></p><p>\u2022 Muse: <a target=\"_blank\" href=\"https://muse.ai\">https://muse.ai</a></p><p>\u2022 Instinct: <a target=\"_blank\" href=\"https://instinct.com\">https://instinct.com</a></p><p>\u2022 Ahmed Ibrahim on LinkedIn: <a target=\"_blank\" href=\"http://linkedin.com/in/ahmedibrhm\">linkedin.com/in/ahmedibrhm</a></p><p>\u2022 The Hugging Face incident and the road ahead: <a target=\"_blank\" href=\"https://openai.com/index/hugging-face-incident-and-the-road-ahead\">https://openai.com/index/hugging-face-incident-and-the-road-ahead</a></p><p>\u2014</p><p><strong>Recommended book:</strong></p><p>\u2022 <em>Neuromancer</em>: <a target=\"_blank\" href=\"https://www.amazon.com/Neuromancer-William-Gibson/dp/0441007465\">https://www.amazon.com/Neuromancer-William-Gibson/dp/0441007465</a></p><p>\u2014</p><p>Production and marketing by <a target=\"_blank\" href=\"https://penname.co/\">https://penname.co/</a>. For inquiries about sponsoring the podcast, email <a target=\"_blank\" href=\"mailto:podcast@lennyrachitsky.com\">podcast@lennyrachitsky.com</a>.</p><p>\u2014</p><p><em>Lenny may be an investor in the companies discussed.</em></p> <br/><br/>To hear more, visit <a href=\"https://www.lennysnewsletter.com?utm_medium=podcast&#38;utm_campaign=show-notes-no-free-preview-language\">www.lennysnewsletter.com</a>",
+  "description_text": "Tibo Sottiaux leads ChatGPT and Codex at OpenAI. Under his stewardship, OpenAI has shipped some of its most consequential consumer launches: Codex, ChatGPT Work, and most recently, the new Dots personal agent platform. He joined me at DevDay, hours after his team launched more than 20 new products, to talk about where things are heading.\n\nWe discuss:\n\n1. Dots, OpenAI\u2019s new personal AI assistant\n\n2. Why most actions on the internet will soon be taken by agents\n\n3. Why loops, graphs, and fine-tuning agent workflows are a passing phase\n\n4. Which skills are trending up and down in the AI era\n\n5. How Tibo\u2019s Dot warned him about a production outage five minutes before the launch\n\n6. OpenAI\u2019s approach to AI safety\n\n\u2014\n\nBrought to you by:\n\nWorkOS \u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more\n\nDX \u2014Engineering intelligence for the AI era\n\n\u2014\n\nEpisode transcript: https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering\n\n\u2014\n\nArchive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0\n\n\u2014\n\nWhere to find Tibo Sottiaux:\n\n\u2022 X: https://x.com/thsottiaux\n\n\u2022 LinkedIn: https://www.linkedin.com/in/thibault-sottiaux-27195366\n\n\u2014\n\nWhere to find Lenny:\n\n\u2022 Newsletter: https://www.lennysnewsletter.com\n\n\u2022 X: https://twitter.com/lennysan\n\n\u2022 LinkedIn: https://www.linkedin.com/in/lennyrachitsky/\n\n\u2014\n\nIn this episode, we cover:\n\n(00:00) Introduction to Tibo Sottiaux\n\n(01:12) How Tibo uses AI in his daily work\n\n(03:10) The vision for always-on AI agents\n\n(06:15) How AI will continue to change work\n\n(07:32) Bringing Codex, ChatGPT, and Dots together\n\n(08:20) The sci-fi inspiration behind the technology\n\n(09:02) Building AI with the community\n\n(10:13) Understanding the Dots structure\n\n(11:34) OpenAI\u2019s open ecosystem and plugin revenue sharing\n\n(13:39) How plugins get discovered and recommended\n\n(14:39) The research behind Dots\n\n(16:20) Where humans will remain valuable\n\n(17:25) Agent fatigue, loneliness, and context switching\n\n(18:55) The pressure to do more with AI\n\n(20:09) An agent that spotted a production outage before a live demo\n\n(21:42) Agent guardrails and connecting multiple devices\n\n(23:25) The skills becoming more valuable in the AI era\n\n(25:56) Advice for people early in their careers\n\n(27:18) How teams build and ship inside OpenAI\n\n(28:59) Autonomy, trust, and learning from mistakes\n\n(30:45) Building for a future where agents dominate internet activity\n\n(32:41) What Tibo has changed his mind about\n\n(33:55) OpenAI\u2019s approach to AI safety and alignment\n\n(36:15) Moving beyond model pickers toward simpler AI\n\n\u2014\n\nReferenced:\n\n\u2022 OpenAI Dots: https://chatgpt.com/features/dots\n\n\u2022 Her on Netflix: https://www.netflix.com/title/70278933\n\n\u2022 Star Trek : https://www.imdb.com/title/tt0060028\n\n\u2022 Pi: https://pi.ai\n\n\u2022 OpenCode: https://opencode.ai\n\n\u2022 Notion: https://www.notion.com\n\n\u2022 Figma: https://www.figma.com\n\n\u2022 OpenClaw: https://openclaw.ai\n\n\u2022 Peter Steinberger on X: https://x.com/steipete\n\n\u2022 Grok Bot: https://x.ai/bot\n\n\u2022 Muse: https://muse.ai\n\n\u2022 Instinct: https://instinct.com\n\n\u2022 Ahmed Ibrahim on LinkedIn: linkedin.com/in/ahmedibrhm\n\n\u2022 The Hugging Face incident and the road ahead: https://openai.com/index/hugging-face-incident-and-the-road-ahead\n\n\u2014\n\nRecommended book:\n\n\u2022 Neuromancer : https://www.amazon.com/Neuromancer-William-Gibson/dp/0441007465\n\n\u2014\n\nProduction and marketing by https://penname.co/ . For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com .\n\n\u2014\n\nLenny may be an investor in the companies discussed.\n\nTo hear more, visit www.lennysnewsletter.com",
+  "duration_seconds": 2243,
+  "feed_id": "lennys-podcast",
+  "feed_name": "Lenny's Podcast",
+  "feed_priority": 5,
+  "id": "078e5758cc7400c05d21",
+  "link": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+  "published": "2026-10-04T12:32:47+00:00",
+  "title": "OpenAI\u2019s Head of ChatGPT: We\u2019re entering a new era of AI (again) | Tibo Sottiaux",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=MM-C3JqCXBk",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "WorkOS",
+      "url": "https://workos.com/lenny"
+    },
+    {
+      "text": "DX",
+      "url": "https://getdx.com/?utm_source=lenny&utm_medium=sponsorship&utm_campaign=q42026"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+      "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering"
+    },
+    {
+      "text": "https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0",
+      "url": "https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0"
+    },
+    {
+      "text": "https://x.com/thsottiaux",
+      "url": "https://x.com/thsottiaux"
+    },
+    {
+      "text": "https://www.linkedin.com/in/thibault-sottiaux-27195366",
+      "url": "https://www.linkedin.com/in/thibault-sottiaux-27195366"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com"
+    },
+    {
+      "text": "https://twitter.com/lennysan",
+      "url": "https://twitter.com/lennysan"
+    },
+    {
+      "text": "https://www.linkedin.com/in/lennyrachitsky/",
+      "url": "https://www.linkedin.com/in/lennyrachitsky/"
+    },
+    {
+      "text": "https://chatgpt.com/features/dots",
+      "url": "https://chatgpt.com/features/dots"
+    },
+    {
+      "text": "https://www.netflix.com/title/70278933",
+      "url": "https://www.netflix.com/title/70278933"
+    },
+    {
+      "text": "https://www.imdb.com/title/tt0060028",
+      "url": "https://www.imdb.com/title/tt0060028"
+    },
+    {
+      "text": "https://pi.ai",
+      "url": "https://pi.ai"
+    },
+    {
+      "text": "https://opencode.ai",
+      "url": "https://opencode.ai"
+    },
+    {
+      "text": "https://www.notion.com",
+      "url": "https://www.notion.com"
+    },
+    {
+      "text": "https://www.figma.com",
+      "url": "https://www.figma.com"
+    },
+    {
+      "text": "https://openclaw.ai",
+      "url": "https://openclaw.ai"
+    },
+    {
+      "text": "https://x.com/steipete",
+      "url": "https://x.com/steipete"
+    },
+    {
+      "text": "https://x.ai/bot",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "https://muse.ai",
+      "url": "https://muse.ai"
+    },
+    {
+      "text": "https://instinct.com",
+      "url": "https://instinct.com"
+    },
+    {
+      "text": "linkedin.com/in/ahmedibrhm",
+      "url": "http://linkedin.com/in/ahmedibrhm"
+    },
+    {
+      "text": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead"
+    },
+    {
+      "text": "https://www.amazon.com/Neuromancer-William-Gibson/dp/0441007465",
+      "url": "https://www.amazon.com/Neuromancer-William-Gibson/dp/0441007465"
+    },
+    {
+      "text": "https://penname.co/",
+      "url": "https://penname.co/"
+    },
+    {
+      "text": "podcast@lennyrachitsky.com",
+      "url": "mailto:podcast@lennyrachitsky.com"
+    },
+    {
+      "text": "www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com?utm_medium=podcast&utm_campaign=show-notes-no-free-preview-language"
+    }
+  ]
+}
