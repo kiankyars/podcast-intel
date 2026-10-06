@@ -411,6 +411,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.127263+00:00"
     },
+    "1ab626bff2f3133b9007": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-06T16:01:55.983719+00:00"
+    },
     "1b0698162dd6daa05775": {
       "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
       "error": "",
@@ -481,7 +485,7 @@
     },
     "1c6f81073f13976ed65f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-05T16:01:09.611834+00:00"
+      "updated_at": "2026-10-06T16:01:55.990844+00:00"
     },
     "1c72020c86cca75745c6": {
       "analysis_path": "episodes/2026-08-09/the-playbook-for-building-high-talent-density-teams-adam-ward-head-of-talent-at-cursor-1c72020c86cca75745c6/analysis.json",
@@ -642,7 +646,7 @@
     },
     "20e12bf1b068860be6c8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-05T16:01:09.610584+00:00"
+      "updated_at": "2026-10-06T16:01:55.989389+00:00"
     },
     "2171d22d662de2032bb4": {
       "status": "metadata_skipped",
@@ -943,6 +947,11 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=LdIyXiq2DTY",
       "updated_at": "2026-09-06T16:39:35.484576+00:00"
+    },
+    "39fb6b2f2b7d6554991e": {
+      "error": "Invest Like the Best / Andrew Huberman - The Frontier of Neurotechnology - [Invest Like the Best, EP.494]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
+      "status": "transcript_error",
+      "updated_at": "2026-10-06T16:02:08.916215+00:00"
     },
     "3a32f702d444a89ffbb1": {
       "analysis_path": "episodes/2026-07-02/inside-nemotron-nvidia-s-ai-lab-bryan-catanzaro-3a32f702d444a89ffbb1/analysis.json",
@@ -1562,7 +1571,7 @@
     },
     "641235807f5ce3964ef6": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-05T16:01:09.612496+00:00"
+      "updated_at": "2026-10-06T16:01:55.991581+00:00"
     },
     "64782ec72ea2e1cdbf5b": {
       "analysis_path": "episodes/2026-05-28/state-of-enterprise-ai-2026-aaron-levie-on-tokenmaxxing-rise-of-headless-and-ai-proofing-y-64782ec72ea2e1cdbf5b/analysis.json",
@@ -1701,7 +1710,7 @@
     },
     "6e1f11fafa9a6a07127a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-05T16:01:09.609935+00:00"
+      "updated_at": "2026-10-06T16:01:55.988681+00:00"
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
@@ -2271,7 +2280,7 @@
     },
     "9226078e6c8bb6c5d3a1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-05T16:01:09.609325+00:00"
+      "updated_at": "2026-10-06T16:01:55.988045+00:00"
     },
     "923d8b3f6ddc10477ed0": {
       "status": "metadata_skipped",
@@ -2557,7 +2566,7 @@
     },
     "a94b79f15e3939605456": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-05T16:01:09.608696+00:00"
+      "updated_at": "2026-10-06T16:01:55.987446+00:00"
     },
     "a9d533f584aa39a0fa8b": {
       "analysis_path": "episodes/2026-08-25/dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by-2028-a9d533f584aa39a0fa8b/analysis.json",
@@ -2659,7 +2668,7 @@
     },
     "b26e62a48f943efab72d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-05T16:01:09.608024+00:00"
+      "updated_at": "2026-10-06T16:01:55.986824+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -2701,7 +2710,7 @@
     },
     "b67022364a85eb173705": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-05T16:01:09.611185+00:00"
+      "updated_at": "2026-10-06T16:01:55.990199+00:00"
     },
     "b674c213eed72b1200da": {
       "status": "metadata_skipped",
@@ -3215,6 +3224,11 @@
       "transcript_source_url": "https://share.transistor.fm/s/ca871caf/transcription.txt",
       "updated_at": "2026-08-17T16:33:32.700006+00:00"
     },
+    "d9f4a509dace87012db6": {
+      "error": "SemiAnalysis Weekly / Ep. 035 - Tech DD\u2019s, Performance Projections, Benchmarks, Supply Chain, Investment Thesis (Consulting)| Abhilash Jain, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
+      "status": "transcript_error",
+      "updated_at": "2026-10-06T16:02:04.457025+00:00"
+    },
     "de122b159a4cc8c54034": {
       "analysis_path": "episodes/2026-09-27/the-grief-loneliness-and-burnout-sweeping-through-the-tech-industry-right-now-molly-graham-de122b159a4cc8c54034/analysis.json",
       "error": "",
@@ -3387,7 +3401,7 @@
     },
     "e4d62cdf327e1c57d03a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-05T16:01:09.606403+00:00"
+      "updated_at": "2026-10-06T16:01:55.986143+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3735,6 +3749,11 @@
     "fb2301951f30455eadda": {
       "status": "metadata_skipped",
       "updated_at": "2026-09-30T16:02:26.039572+00:00"
+    },
+    "fd4858316c2416c17581": {
+      "error": "TBPN / AI Video Game Mods, Should You Sell Your Data, Bryan Johnson on Endurance Racing | Sean Frank, Linda Du, Ali Partovi, Sigil Wen, Jerry Wu, Bryan Johnson: TranscriptUnavailable: no publisher transcript or YouTube captions found",
+      "status": "transcript_error",
+      "updated_at": "2026-10-06T16:02:10.701209+00:00"
     },
     "fdccc88bd9342ede8dc4": {
       "analysis_path": "episodes/2026-07-31/building-an-autonomous-enterprise-for-real-world-services-with-netic-founder-melisa-tokmak-fdccc88bd9342ede8dc4/analysis.json",
