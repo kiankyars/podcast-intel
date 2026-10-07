@@ -413,7 +413,7 @@
     },
     "1ab626bff2f3133b9007": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-06T16:01:55.983719+00:00"
+      "updated_at": "2026-10-07T06:01:59.472876+00:00"
     },
     "1b0698162dd6daa05775": {
       "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
@@ -485,7 +485,7 @@
     },
     "1c6f81073f13976ed65f": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-06T16:01:55.990844+00:00"
+      "updated_at": "2026-10-07T06:01:59.477874+00:00"
     },
     "1c72020c86cca75745c6": {
       "analysis_path": "episodes/2026-08-09/the-playbook-for-building-high-talent-density-teams-adam-ward-head-of-talent-at-cursor-1c72020c86cca75745c6/analysis.json",
@@ -646,7 +646,7 @@
     },
     "20e12bf1b068860be6c8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-06T16:01:55.989389+00:00"
+      "updated_at": "2026-10-07T06:01:59.476531+00:00"
     },
     "2171d22d662de2032bb4": {
       "status": "metadata_skipped",
@@ -1710,7 +1710,7 @@
     },
     "6e1f11fafa9a6a07127a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-06T16:01:55.988681+00:00"
+      "updated_at": "2026-10-07T06:01:59.475911+00:00"
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
@@ -2280,7 +2280,7 @@
     },
     "9226078e6c8bb6c5d3a1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-06T16:01:55.988045+00:00"
+      "updated_at": "2026-10-07T06:01:59.475322+00:00"
     },
     "923d8b3f6ddc10477ed0": {
       "status": "metadata_skipped",
@@ -2472,6 +2472,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/e6c9bcc4/transcription.vtt",
       "updated_at": "2026-09-23T20:57:04.519928+00:00"
     },
+    "a56f55ce2b72bbfb78f4": {
+      "analysis_path": "episodes/2026-10-06/le-chonk-buffett-discovers-youtube-the-case-against-ai-job-doom-greg-fleming-tj-parker-joo-a56f55ce2b72bbfb78f4/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/a06bfda5",
+      "published": "2026-10-06T21:08:56+00:00",
+      "raw_transcript": "episodes/2026-10-06/le-chonk-buffett-discovers-youtube-the-case-against-ai-job-doom-greg-fleming-tj-parker-joo-a56f55ce2b72bbfb78f4/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-06/le-chonk-buffett-discovers-youtube-the-case-against-ai-job-doom-greg-fleming-tj-parker-joo-a56f55ce2b72bbfb78f4/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-06/le-chonk-buffett-discovers-youtube-the-case-against-ai-job-doom-greg-fleming-tj-parker-joo-a56f55ce2b72bbfb78f4/summary.md",
+      "title": "Le Chonk, Buffett Discovers YouTube, The Case Against AI Job Doom | Greg Fleming, TJ Parker, Joowon Kim, Rick Dungey, Dylan Field, Hardik Kabaria",
+      "transcript_path": "episodes/2026-10-06/le-chonk-buffett-discovers-youtube-the-case-against-ai-job-doom-greg-fleming-tj-parker-joo-a56f55ce2b72bbfb78f4/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/a06bfda5/transcription.vtt",
+      "updated_at": "2026-10-07T06:06:51.239091+00:00"
+    },
     "a5eda6ab10b35d467517": {
       "analysis_path": "episodes/2026-07-18/emergency-episode-moonshot-s-kimi-k3-has-arrived-china-has-a-frontier-model-a5eda6ab10b35d467517/analysis.json",
       "error": "",
@@ -2566,7 +2583,7 @@
     },
     "a94b79f15e3939605456": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-06T16:01:55.987446+00:00"
+      "updated_at": "2026-10-07T06:01:59.474739+00:00"
     },
     "a9d533f584aa39a0fa8b": {
       "analysis_path": "episodes/2026-08-25/dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by-2028-a9d533f584aa39a0fa8b/analysis.json",
@@ -2668,7 +2685,7 @@
     },
     "b26e62a48f943efab72d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-06T16:01:55.986824+00:00"
+      "updated_at": "2026-10-07T06:01:59.474137+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -2710,7 +2727,7 @@
     },
     "b67022364a85eb173705": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-06T16:01:55.990199+00:00"
+      "updated_at": "2026-10-07T06:01:59.477215+00:00"
     },
     "b674c213eed72b1200da": {
       "status": "metadata_skipped",
@@ -3401,7 +3418,7 @@
     },
     "e4d62cdf327e1c57d03a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-06T16:01:55.986143+00:00"
+      "updated_at": "2026-10-07T06:01:59.473524+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3606,6 +3623,10 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "http://fireflies.ai/?ref=cognitiverevolution.ai",
       "updated_at": "2026-06-11T16:06:42.804837+00:00"
+    },
+    "f08988ee168936662f3b": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-07T06:01:59.471191+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
