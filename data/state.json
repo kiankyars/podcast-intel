@@ -413,7 +413,7 @@
     },
     "1ab626bff2f3133b9007": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-07T06:01:59.472876+00:00"
+      "updated_at": "2026-10-08T05:55:49.541343+00:00"
     },
     "1b0698162dd6daa05775": {
       "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
@@ -646,7 +646,7 @@
     },
     "20e12bf1b068860be6c8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-07T06:01:59.476531+00:00"
+      "updated_at": "2026-10-08T05:55:49.545566+00:00"
     },
     "2171d22d662de2032bb4": {
       "status": "metadata_skipped",
@@ -1409,6 +1409,10 @@
       "transcript_source_url": "https://share.transistor.fm/s/05cdd0cc/transcription.txt",
       "updated_at": "2026-08-14T16:42:19.773758+00:00"
     },
+    "5b706a9eeb4176543bdc": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-08T05:55:49.540000+00:00"
+    },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.106807+00:00"
@@ -1710,7 +1714,7 @@
     },
     "6e1f11fafa9a6a07127a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-07T06:01:59.475911+00:00"
+      "updated_at": "2026-10-08T05:55:49.544549+00:00"
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
@@ -2280,7 +2284,7 @@
     },
     "9226078e6c8bb6c5d3a1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-07T06:01:59.475322+00:00"
+      "updated_at": "2026-10-08T05:55:49.543872+00:00"
     },
     "923d8b3f6ddc10477ed0": {
       "status": "metadata_skipped",
@@ -2583,7 +2587,7 @@
     },
     "a94b79f15e3939605456": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-07T06:01:59.474739+00:00"
+      "updated_at": "2026-10-08T05:55:49.543172+00:00"
     },
     "a9d533f584aa39a0fa8b": {
       "analysis_path": "episodes/2026-08-25/dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by-2028-a9d533f584aa39a0fa8b/analysis.json",
@@ -2685,7 +2689,7 @@
     },
     "b26e62a48f943efab72d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-07T06:01:59.474137+00:00"
+      "updated_at": "2026-10-08T05:55:49.542552+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -2727,7 +2731,7 @@
     },
     "b67022364a85eb173705": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-07T06:01:59.477215+00:00"
+      "updated_at": "2026-10-08T05:55:49.546257+00:00"
     },
     "b674c213eed72b1200da": {
       "status": "metadata_skipped",
@@ -3418,7 +3422,7 @@
     },
     "e4d62cdf327e1c57d03a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-07T06:01:59.473524+00:00"
+      "updated_at": "2026-10-08T05:55:49.541948+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3436,6 +3440,23 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
       "updated_at": "2026-08-30T16:07:39.614194+00:00"
+    },
+    "e538506b7ef2fa1b7bd1": {
+      "analysis_path": "episodes/2026-10-07/software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-enterprise-grade-apps-e538506b7ef2fa1b7bd1/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-enterprise-grade-apps-at-ai-speed/",
+      "published": "2026-10-07T17:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-07/software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-enterprise-grade-apps-e538506b7ef2fa1b7bd1/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-07/software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-enterprise-grade-apps-e538506b7ef2fa1b7bd1/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-07/software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-enterprise-grade-apps-e538506b7ef2fa1b7bd1/summary.md",
+      "title": "Software That Never Breaks: OutSystems CEO Woodson Martin on Building Enterprise-Grade Apps at ...",
+      "transcript_path": "episodes/2026-10-07/software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-enterprise-grade-apps-e538506b7ef2fa1b7bd1/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-enterprise-grade-apps-at-ai-speed/",
+      "updated_at": "2026-10-08T06:00:24.480154+00:00"
     },
     "e64148a744e2b5227ca9": {
       "analysis_path": "episodes/2026-07-20/tyler-cowen-doesn-t-think-america-should-ban-chinese-ai-models-e64148a744e2b5227ca9/analysis.json",
@@ -3626,7 +3647,11 @@
     },
     "f08988ee168936662f3b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-07T06:01:59.471191+00:00"
+      "updated_at": "2026-10-08T05:55:49.540717+00:00"
+    },
+    "f09e9963266b140c4b9b": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-08T05:55:49.537111+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
