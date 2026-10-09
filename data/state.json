@@ -413,7 +413,7 @@
     },
     "1ab626bff2f3133b9007": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.541343+00:00"
+      "updated_at": "2026-10-09T06:03:51.848869+00:00"
     },
     "1b0698162dd6daa05775": {
       "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
@@ -646,7 +646,7 @@
     },
     "20e12bf1b068860be6c8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.545566+00:00"
+      "updated_at": "2026-10-09T06:03:51.857649+00:00"
     },
     "2171d22d662de2032bb4": {
       "status": "metadata_skipped",
@@ -1411,7 +1411,7 @@
     },
     "5b706a9eeb4176543bdc": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.540000+00:00"
+      "updated_at": "2026-10-09T06:03:51.847123+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -1615,6 +1615,23 @@
       "transcript_source_url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
       "updated_at": "2026-07-20T18:27:18.566605+00:00"
     },
+    "67e846cacee22f1452c1": {
+      "analysis_path": "episodes/2026-10-07/ep-036-200-buys-12-000-of-opus-tokens-we-bought-every-plan-ai-cloud-tco-max-kan-jordan-nan-67e846cacee22f1452c1/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--036---200-Buys-12-000-of-Opus-Tokens--We-Bought-Every-Plan-AI-Cloud-TCO--Max-Kan--Jordan-Nanos--Andrew-Megalaa-e3q3pgn",
+      "published": "2026-10-07T21:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-07/ep-036-200-buys-12-000-of-opus-tokens-we-bought-every-plan-ai-cloud-tco-max-kan-jordan-nan-67e846cacee22f1452c1/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-10-07/ep-036-200-buys-12-000-of-opus-tokens-we-bought-every-plan-ai-cloud-tco-max-kan-jordan-nan-67e846cacee22f1452c1/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-07/ep-036-200-buys-12-000-of-opus-tokens-we-bought-every-plan-ai-cloud-tco-max-kan-jordan-nan-67e846cacee22f1452c1/summary.md",
+      "title": "Ep. 036 - $200 Buys $12,000 of Opus Tokens, We Bought Every Plan (AI Cloud TCO) | Max Kan, Jordan Nanos, Andrew Megalaa",
+      "transcript_path": "episodes/2026-10-07/ep-036-200-buys-12-000-of-opus-tokens-we-bought-every-plan-ai-cloud-tco-max-kan-jordan-nan-67e846cacee22f1452c1/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=2NviLP2SwZI",
+      "updated_at": "2026-10-09T06:11:00.254615+00:00"
+    },
     "69060df278188f065f65": {
       "status": "metadata_skipped",
       "updated_at": "2026-09-23T20:48:30.053990+00:00"
@@ -1714,7 +1731,7 @@
     },
     "6e1f11fafa9a6a07127a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.544549+00:00"
+      "updated_at": "2026-10-09T06:03:51.856953+00:00"
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
@@ -2020,6 +2037,10 @@
       "transcript_source_url": "https://share.transistor.fm/s/39ef732a/transcription.txt",
       "updated_at": "2026-07-14T08:05:02.750458+00:00"
     },
+    "807580d78f5f92fdda1b": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-09T06:03:51.845347+00:00"
+    },
     "8145e71dcf409bda4286": {
       "analysis_path": "episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis.json",
       "error": "",
@@ -2284,7 +2305,7 @@
     },
     "9226078e6c8bb6c5d3a1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.543872+00:00"
+      "updated_at": "2026-10-09T06:03:51.853229+00:00"
     },
     "923d8b3f6ddc10477ed0": {
       "status": "metadata_skipped",
@@ -2510,6 +2531,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-07-20T18:27:18.577039+00:00"
     },
+    "a622f3ec355f65974f82": {
+      "analysis_path": "episodes/2026-10-08/crypto-going-bunker-mode-the-mathpocalypse-starbucks-explores-chipotle-takeover-rebecca-ka-a622f3ec355f65974f82/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/83f16592",
+      "published": "2026-10-08T20:56:26+00:00",
+      "raw_transcript": "episodes/2026-10-08/crypto-going-bunker-mode-the-mathpocalypse-starbucks-explores-chipotle-takeover-rebecca-ka-a622f3ec355f65974f82/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-08/crypto-going-bunker-mode-the-mathpocalypse-starbucks-explores-chipotle-takeover-rebecca-ka-a622f3ec355f65974f82/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-08/crypto-going-bunker-mode-the-mathpocalypse-starbucks-explores-chipotle-takeover-rebecca-ka-a622f3ec355f65974f82/summary.md",
+      "title": "Crypto Going \"Bunker Mode\", The Mathpocalypse, Starbucks Explores Chipotle Takeover | Rebecca Kaden & Michael Mignano, Nathan Benaich, Michael Sindicich & Healey Cypher, Moritz Stephan, Anastasios Angelopoulos, Zach Yadegari",
+      "transcript_path": "episodes/2026-10-08/crypto-going-bunker-mode-the-mathpocalypse-starbucks-explores-chipotle-takeover-rebecca-ka-a622f3ec355f65974f82/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/83f16592/transcription.vtt",
+      "updated_at": "2026-10-09T06:11:00.257827+00:00"
+    },
     "a6927f687e144dc279b6": {
       "analysis_path": "episodes/2026-09-24/re-founding-incumbents-for-the-ai-era-with-sequence-holdings-co-founder-and-ceo-michael-le-a6927f687e144dc279b6/analysis.json",
       "error": "",
@@ -2568,6 +2606,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=oWOz2htozfI",
       "updated_at": "2026-06-09T00:58:22.149571+00:00"
     },
+    "a921273b6e9a7ec105b4": {
+      "analysis_path": "episodes/2026-10-08/synthesis-superintelligence-from-semiconductors-to-superconductors-periodic-labs-liam-fedu-a921273b6e9a7ec105b4/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/periodic",
+      "published": "2026-10-08T16:27:54+00:00",
+      "raw_transcript": "episodes/2026-10-08/synthesis-superintelligence-from-semiconductors-to-superconductors-periodic-labs-liam-fedu-a921273b6e9a7ec105b4/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-08/synthesis-superintelligence-from-semiconductors-to-superconductors-periodic-labs-liam-fedu-a921273b6e9a7ec105b4/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-08/synthesis-superintelligence-from-semiconductors-to-superconductors-periodic-labs-liam-fedu-a921273b6e9a7ec105b4/summary.md",
+      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
+      "transcript_path": "episodes/2026-10-08/synthesis-superintelligence-from-semiconductors-to-superconductors-periodic-labs-liam-fedu-a921273b6e9a7ec105b4/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/periodic",
+      "updated_at": "2026-10-09T06:11:00.261179+00:00"
+    },
     "a92f1225a19a562c2bd4": {
       "analysis_path": "episodes/2026-07-21/matthew-smith-natural-gas-the-next-bottleneck-invest-like-the-best-ep-483-a92f1225a19a562c2bd4/analysis.json",
       "error": "",
@@ -2587,7 +2642,7 @@
     },
     "a94b79f15e3939605456": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.543172+00:00"
+      "updated_at": "2026-10-09T06:03:51.852632+00:00"
     },
     "a9d533f584aa39a0fa8b": {
       "analysis_path": "episodes/2026-08-25/dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by-2028-a9d533f584aa39a0fa8b/analysis.json",
@@ -2689,7 +2744,7 @@
     },
     "b26e62a48f943efab72d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.542552+00:00"
+      "updated_at": "2026-10-09T06:03:51.851237+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -3016,6 +3071,23 @@
       "transcript_source": "rss_embedded_transcript",
       "transcript_source_url": "https://www.latent.space/p/satya-2026",
       "updated_at": "2026-06-09T16:09:24.221142+00:00"
+    },
+    "c84bbfca7fa3cea7fbb9": {
+      "analysis_path": "episodes/2026-10-08/ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salaries-is-saas-cooked-c84bbfca7fa3cea7fbb9/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salaries-is-saas-cooked/",
+      "published": "2026-10-08T10:50:43+00:00",
+      "raw_transcript": "episodes/2026-10-08/ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salaries-is-saas-cooked-c84bbfca7fa3cea7fbb9/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-08/ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salaries-is-saas-cooked-c84bbfca7fa3cea7fbb9/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-08/ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salaries-is-saas-cooked-c84bbfca7fa3cea7fbb9/summary.md",
+      "title": "AI:AM: A Level We Shouldn't Pass? Notes from The Curve + Tokens vs. Salaries & Is SaaS Cooked?",
+      "transcript_path": "episodes/2026-10-08/ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salaries-is-saas-cooked-c84bbfca7fa3cea7fbb9/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salaries-is-saas-cooked/",
+      "updated_at": "2026-10-09T06:11:00.265208+00:00"
     },
     "c93305c7e01f879442fb": {
       "analysis_path": "episodes/2026-09-03/pablo-torre-explains-the-steve-ballmer-kawhi-leonard-scandal-c93305c7e01f879442fb/analysis.json",
@@ -3422,7 +3494,7 @@
     },
     "e4d62cdf327e1c57d03a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.541948+00:00"
+      "updated_at": "2026-10-09T06:03:51.850136+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3647,11 +3719,11 @@
     },
     "f08988ee168936662f3b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.540717+00:00"
+      "updated_at": "2026-10-09T06:03:51.847972+00:00"
     },
     "f09e9963266b140c4b9b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-08T05:55:49.537111+00:00"
+      "updated_at": "2026-10-09T06:03:51.846249+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
