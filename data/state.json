@@ -413,7 +413,7 @@
     },
     "1ab626bff2f3133b9007": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-09T06:03:51.848869+00:00"
+      "updated_at": "2026-10-10T06:03:46.745215+00:00"
     },
     "1b0698162dd6daa05775": {
       "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
@@ -689,6 +689,23 @@
     "27bbb91c13fabb93dab9": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.106121+00:00"
+    },
+    "27e403ab9bdc3ae583ea": {
+      "analysis_path": "episodes/2026-10-10/why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepmind-sal-candido-bioh-27e403ab9bdc3ae583ea/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/biohub-deepmind",
+      "published": "2026-10-10T00:31:26+00:00",
+      "raw_transcript": "episodes/2026-10-10/why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepmind-sal-candido-bioh-27e403ab9bdc3ae583ea/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-10-10/why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepmind-sal-candido-bioh-27e403ab9bdc3ae583ea/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-10/why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepmind-sal-candido-bioh-27e403ab9bdc3ae583ea/summary.md",
+      "title": "Why AlphaFold Didn't Solve Protein Folding \u2014 Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "transcript_path": "episodes/2026-10-10/why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepmind-sal-candido-bioh-27e403ab9bdc3ae583ea/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/biohub-deepmind",
+      "updated_at": "2026-10-10T06:08:48.310826+00:00"
     },
     "284118f7acc31f335c77": {
       "status": "metadata_skipped",
@@ -1411,7 +1428,7 @@
     },
     "5b706a9eeb4176543bdc": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-09T06:03:51.847123+00:00"
+      "updated_at": "2026-10-10T06:03:46.743360+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -1885,6 +1902,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-09-22T16:54:27.657189+00:00"
     },
+    "7875e0642d9310bd5ffc": {
+      "analysis_path": "episodes/2026-10-08/what-happens-when-billions-of-ai-agents-hit-your-database-andy-pavlo-7875e0642d9310bd5ffc/analysis.json",
+      "error": "",
+      "feed_id": "mad-podcast",
+      "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/What-Happens-When-Billions-of-AI-Agents-Hit-Your-Database--Andy-Pavlo-e3q4qu7",
+      "published": "2026-10-08T11:30:00+00:00",
+      "raw_transcript": "episodes/2026-10-08/what-happens-when-billions-of-ai-agents-hit-your-database-andy-pavlo-7875e0642d9310bd5ffc/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-08/what-happens-when-billions-of-ai-agents-hit-your-database-andy-pavlo-7875e0642d9310bd5ffc/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-08/what-happens-when-billions-of-ai-agents-hit-your-database-andy-pavlo-7875e0642d9310bd5ffc/summary.md",
+      "title": "What Happens When Billions of AI Agents Hit Your Database? (Andy Pavlo)",
+      "transcript_path": "episodes/2026-10-08/what-happens-when-billions-of-ai-agents-hit-your-database-andy-pavlo-7875e0642d9310bd5ffc/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=74X0DJOVEc8",
+      "updated_at": "2026-10-10T06:08:48.317365+00:00"
+    },
     "78c9c4d6670eadbc1601": {
       "analysis_path": "episodes/2026-06-01/ep-013-aws-margins-jump-10-while-azure-and-gcp-flatline-tokenomics-jordan-nanos-jeremie-el-78c9c4d6670eadbc1601/analysis.json",
       "error": "",
@@ -2039,7 +2073,7 @@
     },
     "807580d78f5f92fdda1b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-09T06:03:51.845347+00:00"
+      "updated_at": "2026-10-10T06:03:46.741597+00:00"
     },
     "8145e71dcf409bda4286": {
       "analysis_path": "episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis.json",
@@ -2305,7 +2339,7 @@
     },
     "9226078e6c8bb6c5d3a1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-09T06:03:51.853229+00:00"
+      "updated_at": "2026-10-10T06:03:46.749543+00:00"
     },
     "923d8b3f6ddc10477ed0": {
       "status": "metadata_skipped",
@@ -2642,7 +2676,7 @@
     },
     "a94b79f15e3939605456": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-09T06:03:51.852632+00:00"
+      "updated_at": "2026-10-10T06:03:46.748618+00:00"
     },
     "a9d533f584aa39a0fa8b": {
       "analysis_path": "episodes/2026-08-25/dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by-2028-a9d533f584aa39a0fa8b/analysis.json",
@@ -2744,7 +2778,7 @@
     },
     "b26e62a48f943efab72d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-09T06:03:51.851237+00:00"
+      "updated_at": "2026-10-10T06:03:46.747738+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -3317,6 +3351,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/ca871caf/transcription.txt",
       "updated_at": "2026-08-17T16:33:32.700006+00:00"
     },
+    "d921af7bf6afd3988ac2": {
+      "analysis_path": "episodes/2026-10-09/beam-the-great-american-open-model-with-reflectionai-co-founder-and-ceo-misha-laskin-d921af7bf6afd3988ac2/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=up4sG9RM20M",
+      "published": "2026-10-09T17:24:00+00:00",
+      "raw_transcript": "episodes/2026-10-09/beam-the-great-american-open-model-with-reflectionai-co-founder-and-ceo-misha-laskin-d921af7bf6afd3988ac2/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-09/beam-the-great-american-open-model-with-reflectionai-co-founder-and-ceo-misha-laskin-d921af7bf6afd3988ac2/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-09/beam-the-great-american-open-model-with-reflectionai-co-founder-and-ceo-misha-laskin-d921af7bf6afd3988ac2/summary.md",
+      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+      "transcript_path": "episodes/2026-10-09/beam-the-great-american-open-model-with-reflectionai-co-founder-and-ceo-misha-laskin-d921af7bf6afd3988ac2/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=up4sG9RM20M",
+      "updated_at": "2026-10-10T06:08:48.321687+00:00"
+    },
     "d9f4a509dace87012db6": {
       "error": "SemiAnalysis Weekly / Ep. 035 - Tech DD\u2019s, Performance Projections, Benchmarks, Supply Chain, Investment Thesis (Consulting)| Abhilash Jain, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
@@ -3494,7 +3545,7 @@
     },
     "e4d62cdf327e1c57d03a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-09T06:03:51.850136+00:00"
+      "updated_at": "2026-10-10T06:03:46.746862+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3719,11 +3770,11 @@
     },
     "f08988ee168936662f3b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-09T06:03:51.847972+00:00"
+      "updated_at": "2026-10-10T06:03:46.744281+00:00"
     },
     "f09e9963266b140c4b9b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-09T06:03:51.846249+00:00"
+      "updated_at": "2026-10-10T06:03:46.742638+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",

@@ -1,0 +1,28 @@
+# Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub
+
+- Podcast: Latent Space
+- Published: 2026-10-10
+- Source: https://www.latent.space/p/biohub-deepmind
+- Relevance: 3/5
+
+Pushmeet Kohli and Sal Candido explain why progress beyond AlphaFold depends on measuring the right biology: existing cell-by-gene data was insufficient for DeepMind’s virtual-cell ambition, static structure prediction does not recover protein dynamics, and useful scientific models need calibrated uncertainty. This is a technically useful account of research constraints, with no new model benchmark or demonstrated drug-development speedup.
+
+**Why it matters:** The actionable constraint for AI biology is the information captured by experiments, not simply the volume of data or compute. Model builders and funders should ask which missing measurements enable the intended prediction, how uncertainty is validated, and which discovery stage actually improves. The panel offers concrete failure experience and research directions rather than evidence of an end-to-end clinical breakthrough.
+
+## Signals
+
+- **DeepMind’s experience with cell-by-gene data points to a measurement bottleneck for virtual cells; scaling readily available biological datasets alone is not a demonstrated route to the goal.** [00:01:00; 00:02:32; 00:04:54] _frontier_labs_models; observation; high confidence._ At 00:04:54, Kohli says that after substantial work on cell-by-gene data, DeepMind concluded the data was insufficient for its virtual-cell ambition. At 00:01:00 and 00:02:32, Candido stresses finding a task-relevant scaling law and co-designing data generation with modelers; he also reports useful protein-language-model training from noisy metagenomic sequences, without specifying a benchmark. Separate context: [Biohub’s October 7 initiative expansion](https://biohub.org/news/virtual-biology-initiative-expansion/) emphasizes coordinated multimodal measurements, shared standards, and data infrastructure. That announcement supplies program context, not validation that a predictive virtual cell has been built.
+- **Kohli identifies raw cryo-EM micrographs as a possible route beyond static protein structures, while explicitly saying his attempt still needs more work.** [00:15:28; 00:17:54; 00:19:00] _frontier_labs_models; observation; high confidence._ At 00:15:28, Kohli describes AlphaFold 2’s target as reproducing experimentally deposited PDB structures, rather than recovering the full distribution of protein conformations. At 00:17:54 and 00:19:00, he proposes learning from raw cryo-EM micrographs to recover richer distributional information and acknowledges the work is unfinished. [EMBL-EBI’s AlphaFold 3 limitations guide](https://www.ebi.ac.uk/training/online/courses/alphafold/alphafold-3-and-alphafold-server/introducing-alphafold-3/what-alphafold-3-struggles-with/) independently confirms that static structure prediction does not capture biomolecular dynamics in solution. The panel gives no new dynamics model, dataset, or measured improvement.
+- **For scientific deployment, Kohli puts calibrated uncertainty and known failure modes ahead of a complete explanation of a model’s internal reasoning.** [00:23:53; 00:27:04] _applications_business_models; opinion; high confidence._ At 00:23:53, Kohli argues that even strong structural benchmark performance would be difficult to use if confidence estimates were unreliable; at 00:27:04 he distinguishes behavioral characterization from mechanistic interpretability. The concrete example is AlphaFold 2’s pLDDT. [DeepMind’s AlphaFold database documentation](https://github.com/google-deepmind/alphafold/blob/main/afdb/README.md#format) defines pLDDT as local per-residue confidence and PAE as more suitable for relative domain placement. The takeaway is task-specific validation of uncertainty, not that a high local-confidence score certifies an entire complex or a biological outcome.
+- **The speakers do not substantiate a 10–100× end-to-end drug-development acceleration or give a date for an entirely AI-made drug.** [00:28:08; 00:29:47] _applications_business_models; observation; high confidence._ At 00:28:08, Kohli insists that acceleration claims identify the stage—target discovery, lead optimization, preclinical work, or toxicology—and ties larger gains to unresolved biological understanding. At 00:29:47, Candido explicitly declines to predict when a drug will be made entirely by AI; his 10× framing is a way to search for different approaches, not a reported outcome. The discussion includes no controlled development-time comparison or clinical-result evidence.
+
+## Changed Views Or Tensions
+
+- Kohli’s account makes the virtual-cell data bottleneck more concrete: DeepMind tried existing cell-by-gene data and found it insufficient for the ambition. It does not establish that every useful cell-modeling task requires new modalities.
+- Keep static structure accuracy, dynamic biological prediction, and therapeutic outcomes as separate milestones. The panel provides reasons to invest in the latter two, but no evidence they have been solved.
+
+## Follow-Ups
+
+- Track whether Biohub’s initiative releases interoperable multimodal or perturbation datasets with explicit access terms and prospective benchmarks showing gains over existing cell-by-gene baselines.
+- Look for a published raw-cryo-EM modeling result that measures recovery of conformational distributions; Kohli’s proposal is not yet that result.
+- For AI drug-discovery claims, require a named stage, a comparable baseline, elapsed-time and experimental-outcome metrics, and a clear distinction from clinical efficacy.
