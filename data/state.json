@@ -85,6 +85,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/5fcc7e7e/transcription.txt",
       "updated_at": "2026-07-15T19:29:17.931375+00:00"
     },
+    "08defd3a49a31fa2e153": {
+      "analysis_path": "episodes/2026-10-10/how-agents-decide-goodfire-s-eric-bigelow-on-critical-tokens-phase-shifts-in-context-learn-08defd3a49a31fa2e153/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/how-agents-decide-goodfire-s-eric-bigelow-on-critical-tokens-phase-shifts-in-context-learning/",
+      "published": "2026-10-10T10:47:14+00:00",
+      "raw_transcript": "episodes/2026-10-10/how-agents-decide-goodfire-s-eric-bigelow-on-critical-tokens-phase-shifts-in-context-learn-08defd3a49a31fa2e153/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-10/how-agents-decide-goodfire-s-eric-bigelow-on-critical-tokens-phase-shifts-in-context-learn-08defd3a49a31fa2e153/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-10/how-agents-decide-goodfire-s-eric-bigelow-on-critical-tokens-phase-shifts-in-context-learn-08defd3a49a31fa2e153/summary.md",
+      "title": "How Agents Decide: Goodfire's Eric Bigelow on Critical Tokens, Phase Shifts, & In-Context Learning",
+      "transcript_path": "episodes/2026-10-10/how-agents-decide-goodfire-s-eric-bigelow-on-critical-tokens-phase-shifts-in-context-learn-08defd3a49a31fa2e153/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/how-agents-decide-goodfire-s-eric-bigelow-on-critical-tokens-phase-shifts-in-context-learning/",
+      "updated_at": "2026-10-11T06:04:49.256223+00:00"
+    },
     "096034669fedb0cbc4bb": {
       "analysis_path": "episodes/2026-06-10/cloudflare-ceo-predicts-ai-agents-will-outnumber-humans-1-000-to-1-096034669fedb0cbc4bb/analysis.json",
       "error": "",
@@ -413,7 +430,7 @@
     },
     "1ab626bff2f3133b9007": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-10T06:03:46.745215+00:00"
+      "updated_at": "2026-10-11T05:57:51.888035+00:00"
     },
     "1b0698162dd6daa05775": {
       "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
@@ -1428,7 +1445,7 @@
     },
     "5b706a9eeb4176543bdc": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-10T06:03:46.743360+00:00"
+      "updated_at": "2026-10-11T05:57:51.886760+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -2073,7 +2090,7 @@
     },
     "807580d78f5f92fdda1b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-10T06:03:46.741597+00:00"
+      "updated_at": "2026-10-11T05:57:51.883715+00:00"
     },
     "8145e71dcf409bda4286": {
       "analysis_path": "episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis.json",
@@ -2339,7 +2356,7 @@
     },
     "9226078e6c8bb6c5d3a1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-10T06:03:46.749543+00:00"
+      "updated_at": "2026-10-11T05:57:51.890810+00:00"
     },
     "923d8b3f6ddc10477ed0": {
       "status": "metadata_skipped",
@@ -2676,7 +2693,7 @@
     },
     "a94b79f15e3939605456": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-10T06:03:46.748618+00:00"
+      "updated_at": "2026-10-11T05:57:51.889921+00:00"
     },
     "a9d533f584aa39a0fa8b": {
       "analysis_path": "episodes/2026-08-25/dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by-2028-a9d533f584aa39a0fa8b/analysis.json",
@@ -2778,7 +2795,7 @@
     },
     "b26e62a48f943efab72d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-10T06:03:46.747738+00:00"
+      "updated_at": "2026-10-11T05:57:51.889288+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -2964,6 +2981,23 @@
       "transcript_source": "rss_embedded_transcript",
       "transcript_source_url": "https://www.latent.space/p/cognition",
       "updated_at": "2026-06-10T22:59:15.768312+00:00"
+    },
+    "c2b1b07a523fd1a86ff7": {
+      "analysis_path": "episodes/2026-10-09/ep-037-who-s-funding-the-11-trillion-ai-buildout-capital-markets-dan-nishball-jordan-nanos-c2b1b07a523fd1a86ff7/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--037---Whos-Funding-the-11-Trillion-AI-Buildout--Capital-Markets--Dan-Nishball--Jordan-Nanos-e3q81p6",
+      "published": "2026-10-09T16:30:54+00:00",
+      "raw_transcript": "episodes/2026-10-09/ep-037-who-s-funding-the-11-trillion-ai-buildout-capital-markets-dan-nishball-jordan-nanos-c2b1b07a523fd1a86ff7/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-10-09/ep-037-who-s-funding-the-11-trillion-ai-buildout-capital-markets-dan-nishball-jordan-nanos-c2b1b07a523fd1a86ff7/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-09/ep-037-who-s-funding-the-11-trillion-ai-buildout-capital-markets-dan-nishball-jordan-nanos-c2b1b07a523fd1a86ff7/summary.md",
+      "title": "Ep. 037 - Who's Funding the $11 Trillion AI Buildout? (Capital Markets) | Dan Nishball, Jordan Nanos",
+      "transcript_path": "episodes/2026-10-09/ep-037-who-s-funding-the-11-trillion-ai-buildout-capital-markets-dan-nishball-jordan-nanos-c2b1b07a523fd1a86ff7/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=XlnyFCviN4o",
+      "updated_at": "2026-10-11T06:04:49.260229+00:00"
     },
     "c334fb609592eeb0d561": {
       "analysis_path": "episodes/2026-06-03/microsoft-chases-the-frontier-suno-on-fire-project-solara-mikey-shulman-samir-chaudry-tom--c334fb609592eeb0d561/analysis.json",
@@ -3545,7 +3579,7 @@
     },
     "e4d62cdf327e1c57d03a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-10T06:03:46.746862+00:00"
+      "updated_at": "2026-10-11T05:57:51.888667+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3770,11 +3804,11 @@
     },
     "f08988ee168936662f3b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-10T06:03:46.744281+00:00"
+      "updated_at": "2026-10-11T05:57:51.887408+00:00"
     },
     "f09e9963266b140c4b9b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-10T06:03:46.742638+00:00"
+      "updated_at": "2026-10-11T05:57:51.886056+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
