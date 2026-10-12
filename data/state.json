@@ -430,7 +430,7 @@
     },
     "1ab626bff2f3133b9007": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-11T05:57:51.888035+00:00"
+      "updated_at": "2026-10-12T05:56:20.706481+00:00"
     },
     "1b0698162dd6daa05775": {
       "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
@@ -1392,6 +1392,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.104149+00:00"
     },
+    "58189689dd5864e21c87": {
+      "analysis_path": "episodes/2026-10-11/why-every-company-now-needs-to-think-and-operate-like-a-lab-team-josh-woodward-google-labs-58189689dd5864e21c87/analysis.json",
+      "error": "",
+      "feed_id": "lennys-podcast",
+      "link": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+      "published": "2026-10-11T12:31:59+00:00",
+      "raw_transcript": "episodes/2026-10-11/why-every-company-now-needs-to-think-and-operate-like-a-lab-team-josh-woodward-google-labs-58189689dd5864e21c87/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-11/why-every-company-now-needs-to-think-and-operate-like-a-lab-team-josh-woodward-google-labs-58189689dd5864e21c87/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-11/why-every-company-now-needs-to-think-and-operate-like-a-lab-team-josh-woodward-google-labs-58189689dd5864e21c87/summary.md",
+      "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+      "transcript_path": "episodes/2026-10-11/why-every-company-now-needs-to-think-and-operate-like-a-lab-team-josh-woodward-google-labs-58189689dd5864e21c87/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=3I6QYkccd3o",
+      "updated_at": "2026-10-12T06:01:45.303614+00:00"
+    },
     "587b17a5f0842cce50e0": {
       "analysis_path": "episodes/2026-09-14/humanity-s-last-invention-richard-socher-of-recursive-587b17a5f0842cce50e0/analysis.json",
       "error": "",
@@ -1445,7 +1462,7 @@
     },
     "5b706a9eeb4176543bdc": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-11T05:57:51.886760+00:00"
+      "updated_at": "2026-10-12T05:56:20.705200+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -2090,7 +2107,7 @@
     },
     "807580d78f5f92fdda1b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-11T05:57:51.883715+00:00"
+      "updated_at": "2026-10-12T05:56:20.703330+00:00"
     },
     "8145e71dcf409bda4286": {
       "analysis_path": "episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis.json",
@@ -2356,7 +2373,7 @@
     },
     "9226078e6c8bb6c5d3a1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-11T05:57:51.890810+00:00"
+      "updated_at": "2026-10-12T05:56:20.710400+00:00"
     },
     "923d8b3f6ddc10477ed0": {
       "status": "metadata_skipped",
@@ -2693,7 +2710,7 @@
     },
     "a94b79f15e3939605456": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-11T05:57:51.889921+00:00"
+      "updated_at": "2026-10-12T05:56:20.709767+00:00"
     },
     "a9d533f584aa39a0fa8b": {
       "analysis_path": "episodes/2026-08-25/dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by-2028-a9d533f584aa39a0fa8b/analysis.json",
@@ -2795,7 +2812,7 @@
     },
     "b26e62a48f943efab72d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-11T05:57:51.889288+00:00"
+      "updated_at": "2026-10-12T05:56:20.707772+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -3579,7 +3596,7 @@
     },
     "e4d62cdf327e1c57d03a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-11T05:57:51.888667+00:00"
+      "updated_at": "2026-10-12T05:56:20.707102+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3804,11 +3821,11 @@
     },
     "f08988ee168936662f3b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-11T05:57:51.887408+00:00"
+      "updated_at": "2026-10-12T05:56:20.705851+00:00"
     },
     "f09e9963266b140c4b9b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-11T05:57:51.886056+00:00"
+      "updated_at": "2026-10-12T05:56:20.704497+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
