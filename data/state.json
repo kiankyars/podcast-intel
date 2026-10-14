@@ -430,7 +430,7 @@
     },
     "1ab626bff2f3133b9007": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-13T06:00:49.419409+00:00"
+      "updated_at": "2026-10-14T05:56:25.066123+00:00"
     },
     "1b0698162dd6daa05775": {
       "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
@@ -1462,7 +1462,7 @@
     },
     "5b706a9eeb4176543bdc": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-13T06:00:49.417956+00:00"
+      "updated_at": "2026-10-14T05:56:25.064873+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -1970,6 +1970,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-06-09T16:09:24.217094+00:00"
     },
+    "796f0f2ba1aded54c3aa": {
+      "analysis_path": "episodes/2026-10-13/david-v-lez-building-nubank-and-the-future-of-global-banking-invest-like-the-best-ep-495-796f0f2ba1aded54c3aa/analysis.json",
+      "error": "",
+      "feed_id": "invest-like-the-best",
+      "link": "https://colossus.com/episode/david-v-goliath/",
+      "published": "2026-10-13T08:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-13/david-v-lez-building-nubank-and-the-future-of-global-banking-invest-like-the-best-ep-495-796f0f2ba1aded54c3aa/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-13/david-v-lez-building-nubank-and-the-future-of-global-banking-invest-like-the-best-ep-495-796f0f2ba1aded54c3aa/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-13/david-v-lez-building-nubank-and-the-future-of-global-banking-invest-like-the-best-ep-495-796f0f2ba1aded54c3aa/summary.md",
+      "title": "David V\u00e9lez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+      "transcript_path": "episodes/2026-10-13/david-v-lez-building-nubank-and-the-future-of-global-banking-invest-like-the-best-ep-495-796f0f2ba1aded54c3aa/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=Rs40uGRyXC8",
+      "updated_at": "2026-10-14T06:03:18.140434+00:00"
+    },
     "798363e4687bf3d364c0": {
       "analysis_path": "episodes/2026-05-28/building-an-ai-guardian-for-enterprise-with-onyx-security-ceo-maxim-bar-kogan-798363e4687bf3d364c0/analysis.json",
       "error": "",
@@ -2107,7 +2124,7 @@
     },
     "807580d78f5f92fdda1b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-13T06:00:49.415423+00:00"
+      "updated_at": "2026-10-14T05:56:25.063582+00:00"
     },
     "8145e71dcf409bda4286": {
       "analysis_path": "episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis.json",
@@ -2125,6 +2142,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-08-11T00:32:30.111845+00:00"
+    },
+    "81bb843c3671bd35207a": {
+      "analysis_path": "episodes/2026-10-13/dyna-2-general-purpose-physical-agents-with-hour-long-autonomy-jason-ma-dyna-robotics-81bb843c3671bd35207a/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/dyna",
+      "published": "2026-10-13T22:25:55+00:00",
+      "raw_transcript": "episodes/2026-10-13/dyna-2-general-purpose-physical-agents-with-hour-long-autonomy-jason-ma-dyna-robotics-81bb843c3671bd35207a/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-13/dyna-2-general-purpose-physical-agents-with-hour-long-autonomy-jason-ma-dyna-robotics-81bb843c3671bd35207a/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-13/dyna-2-general-purpose-physical-agents-with-hour-long-autonomy-jason-ma-dyna-robotics-81bb843c3671bd35207a/summary.md",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy \u2014 Jason Ma, Dyna Robotics",
+      "transcript_path": "episodes/2026-10-13/dyna-2-general-purpose-physical-agents-with-hour-long-autonomy-jason-ma-dyna-robotics-81bb843c3671bd35207a/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/dyna",
+      "updated_at": "2026-10-14T06:03:18.144612+00:00"
     },
     "837cff33e75593cdf629": {
       "analysis_path": "episodes/2026-07-02/how-nuclear-will-unlock-energy-abundance-with-valar-atomics-founder-isaiah-taylor-837cff33e75593cdf629/analysis.json",
@@ -2710,7 +2744,7 @@
     },
     "a94b79f15e3939605456": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-13T06:00:49.421529+00:00"
+      "updated_at": "2026-10-14T05:56:25.068155+00:00"
     },
     "a9d533f584aa39a0fa8b": {
       "analysis_path": "episodes/2026-08-25/dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by-2028-a9d533f584aa39a0fa8b/analysis.json",
@@ -2812,7 +2846,7 @@
     },
     "b26e62a48f943efab72d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-13T06:00:49.420790+00:00"
+      "updated_at": "2026-10-14T05:56:25.067501+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -3577,6 +3611,10 @@
       "transcript_source_url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
       "updated_at": "2026-06-14T17:01:27.087739+00:00"
     },
+    "e34ad713f1a4c9a5403a": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-14T05:56:25.062608+00:00"
+    },
     "e43801e1f35d88bd75e0": {
       "analysis_path": "episodes/2026-07-01/the-coolest-diffusion-research-isn-t-in-llms-evan-feinberg-sergey-edunov-genesis-molecular-e43801e1f35d88bd75e0/analysis.json",
       "error": "",
@@ -3596,7 +3634,7 @@
     },
     "e4d62cdf327e1c57d03a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-13T06:00:49.420108+00:00"
+      "updated_at": "2026-10-14T05:56:25.066793+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3821,11 +3859,11 @@
     },
     "f08988ee168936662f3b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-13T06:00:49.418697+00:00"
+      "updated_at": "2026-10-14T05:56:25.065494+00:00"
     },
     "f09e9963266b140c4b9b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-13T06:00:49.417141+00:00"
+      "updated_at": "2026-10-14T05:56:25.064247+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
@@ -3969,6 +4007,10 @@
     "fb2301951f30455eadda": {
       "status": "metadata_skipped",
       "updated_at": "2026-09-30T16:02:26.039572+00:00"
+    },
+    "fc8271b24ea34c6c6932": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-14T05:56:25.061406+00:00"
     },
     "fd4858316c2416c17581": {
       "error": "TBPN / AI Video Game Mods, Should You Sell Your Data, Bryan Johnson on Endurance Racing | Sean Frank, Linda Du, Ali Partovi, Sigil Wen, Jerry Wu, Bryan Johnson: TranscriptUnavailable: no publisher transcript or YouTube captions found",
