@@ -1,0 +1,110 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/220316507/1d6b651c13311431fbd1537315902da6.mp3",
+  "description_html": "<p>A few years ago I stumbled upon <a target=\"_blank\" href=\"https://www.leash.bio/\">Leash Bio\u2019s</a> <a target=\"_blank\" href=\"https://leashbio.substack.com/\">Substack</a>, and was hooked. Be it their <a target=\"_blank\" href=\"https://leashbio.substack.com/p/introducing-belka\">Kaggle competition</a> that showed that <a target=\"_blank\" href=\"https://leashbio.substack.com/p/belka-results-suggest-computers-can\">no, we really haven\u2019t solved protein-ligand binding</a>, or their crazy discovery that knowing <a target=\"_blank\" href=\"https://leashbio.substack.com/p/ai-for-chemistry-in-2025-is-like\">a molecule\u2019s author is perhaps all you need to know to predict how good it is</a>. Their substack \u2014 or at least <a target=\"_blank\" href=\"https://www.owlposting.com/\">Owl Posting</a>\u2019s <a target=\"_blank\" href=\"https://www.owlposting.com/p/an-ml-drug-discovery-startup-trying\">deep dive</a> on them \u2014 should be required reading for any scientist trying to do chemistry with AI.</p><p>So I was super excited to finally be able to sit down with <a target=\"_blank\" href=\"https://www.linkedin.com/in/iquigley/\">Ian Quigley</a> from Leash Bio, and pick his brain. Leash specializes in <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/DNA-encoded_chemical_library\">DNA Encoded Libraries</a> (aka \u201cDELs\u201d), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules. Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and an incredible conviction that you just have to Do The Thing.</p><p>It gets even better! Near the end of this episode, Ian teases something his team was just playing with when we recorded: an AI playground for agents to do verifiable scientific reasoning. They discovered the data they had spent the last few years collecting could provide tens of thousands of \u201clab-in-the-loop\u201d simulations, just what an agent needs for scientific RL. Two months later, it\u2019s matured into Minos, and today they\u2019re releasing a full <a target=\"_blank\" href=\"https://github.com/Leash-Labs/minos-paper/blob/trunk/Minos_Leash.pdf\">preprint</a>, <a target=\"_blank\" href=\"https://leashbio.substack.com/p/making-reality-replayable\">blog</a>, and <a target=\"_blank\" href=\"https://strelka.leash.bio/\">open dataset</a>. We\u2019ll be releasing a lightning podcast in a few days with an update. Stay tuned!</p><p>We had a blast with Ian, probably one of our most fun episodes to date. For both complete chemistry novices and expert AI x Bio practitioners, we think you\u2019ll get something out of this.</p><p>Enjoy!</p><p>We covered:</p><p>* Why DELs traumatize everyone who touches them, and how Leash puts dozens of barcodes on each molecule to catch proteins that bind the DNA instead of the drug.</p><p>* Ian\u2019s rule that biology only scales two ways: taking pictures and sequencing DNA.</p><p>* The <a target=\"_blank\" href=\"https://www.kaggle.com/competitions/leash-BELKA\">Kaggle competition</a>: about 4B measurements from a basement and about 2,000 teams, with nobody beating chance on an unseen chemical library. Also why Leash quietly feared co-folding would make them obsolete.</p><p>* <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Clever_Hans\">Clever Hans</a> in <a target=\"_blank\" href=\"https://www.ebi.ac.uk/chembl/\">ChEMBL</a>: models can guess a molecule\u2019s chemist from its structure, and \u201cwho made it\u201d predicts activity about as well as the structure does.</p><p>* <a target=\"_blank\" href=\"https://leashbio.substack.com/p/we-now-know-what-it-will-take\">Hermes</a>, trained only on Leash\u2019s own data, keeping pace with <a target=\"_blank\" href=\"https://github.com/jwohlwend/boltz\">Boltz</a> on public benchmarks. Plus the BRD4 molecule Boltz had already seen in the PDB.</p><p>* <a target=\"_blank\" href=\"https://leashbio.substack.com/p/taking-away-the-protein-cheat-sheet\">Breaking the pocket</a>: engineering protein mutants at scale after catching Hermes memorizing \u201cnicknames\u201d for proteins instead of binding sites.</p><p>* <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Lumacaftor\">Lumacaftor</a>-like hits as an accidental detector for misfolded proteins.</p><p>* The <a target=\"_blank\" href=\"https://github.com/Leash-Labs/minos-paper/blob/trunk/Minos_Leash.pdf\">agent sandbox</a>: LLMs that reason about SAR in plain English, hunting for the best binders among 6.5M molecules on a budget of 100.</p><p>* The <a target=\"_blank\" href=\"https://www.recursion.com/\">Recursion</a> mafia, and why its alumni companies all rhyme.</p><p>* The <a target=\"_blank\" href=\"https://x.com/srikosuri/status/2035866164325437894\">Kosuri paradox</a>: if you can collect the data, why do you need the model?</p><p>* Going from a DEL hit to good mouse PKPD in six months on an inflammation program, and the case for pills over antibodies on cytokine targets.</p><p>* What stops a better-funded lab from outscaling them, and Ian\u2019s by-fiat wish for massively parallel purification.</p> <br/><br/>This is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.latent.space/subscribe?utm_medium=podcast&#38;utm_campaign=CTA_2\">www.latent.space/subscribe</a>",
+  "description_text": "A few years ago I stumbled upon Leash Bio\u2019s Substack , and was hooked. Be it their Kaggle competition that showed that no, we really haven\u2019t solved protein-ligand binding , or their crazy discovery that knowing a molecule\u2019s author is perhaps all you need to know to predict how good it is . Their substack \u2014 or at least Owl Posting \u2019s deep dive on them \u2014 should be required reading for any scientist trying to do chemistry with AI.\n\nSo I was super excited to finally be able to sit down with Ian Quigley from Leash Bio, and pick his brain. Leash specializes in DNA Encoded Libraries (aka \u201cDELs\u201d), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules. Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and an incredible conviction that you just have to Do The Thing.\n\nIt gets even better! Near the end of this episode, Ian teases something his team was just playing with when we recorded: an AI playground for agents to do verifiable scientific reasoning. They discovered the data they had spent the last few years collecting could provide tens of thousands of \u201clab-in-the-loop\u201d simulations, just what an agent needs for scientific RL. Two months later, it\u2019s matured into Minos, and today they\u2019re releasing a full preprint , blog , and open dataset . We\u2019ll be releasing a lightning podcast in a few days with an update. Stay tuned!\n\nWe had a blast with Ian, probably one of our most fun episodes to date. For both complete chemistry novices and expert AI x Bio practitioners, we think you\u2019ll get something out of this.\n\nEnjoy!\n\nWe covered:\n\n* Why DELs traumatize everyone who touches them, and how Leash puts dozens of barcodes on each molecule to catch proteins that bind the DNA instead of the drug.\n\n* Ian\u2019s rule that biology only scales two ways: taking pictures and sequencing DNA.\n\n* The Kaggle competition : about 4B measurements from a basement and about 2,000 teams, with nobody beating chance on an unseen chemical library. Also why Leash quietly feared co-folding would make them obsolete.\n\n* Clever Hans in ChEMBL : models can guess a molecule\u2019s chemist from its structure, and \u201cwho made it\u201d predicts activity about as well as the structure does.\n\n* Hermes , trained only on Leash\u2019s own data, keeping pace with Boltz on public benchmarks. Plus the BRD4 molecule Boltz had already seen in the PDB.\n\n* Breaking the pocket : engineering protein mutants at scale after catching Hermes memorizing \u201cnicknames\u201d for proteins instead of binding sites.\n\n* Lumacaftor -like hits as an accidental detector for misfolded proteins.\n\n* The agent sandbox : LLMs that reason about SAR in plain English, hunting for the best binders among 6.5M molecules on a budget of 100.\n\n* The Recursion mafia, and why its alumni companies all rhyme.\n\n* The Kosuri paradox : if you can collect the data, why do you need the model?\n\n* Going from a DEL hit to good mouse PKPD in six months on an inflammation program, and the case for pills over antibodies on cytokine targets.\n\n* What stops a better-funded lab from outscaling them, and Ian\u2019s by-fiat wish for massively parallel purification.\n\nThis is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes, visit www.latent.space/subscribe",
+  "duration_seconds": 6596,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "48ed1d4f588af8bab2c4",
+  "link": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+  "published": "2026-10-14T20:35:09+00:00",
+  "title": "Lab-in-the-Loop at Compute Speed \u2014 Ian Quigley, Leash Bio",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "Leash Bio\u2019s",
+      "url": "https://www.leash.bio/"
+    },
+    {
+      "text": "Substack",
+      "url": "https://leashbio.substack.com/"
+    },
+    {
+      "text": "Kaggle competition",
+      "url": "https://leashbio.substack.com/p/introducing-belka"
+    },
+    {
+      "text": "no, we really haven\u2019t solved protein-ligand binding",
+      "url": "https://leashbio.substack.com/p/belka-results-suggest-computers-can"
+    },
+    {
+      "text": "a molecule\u2019s author is perhaps all you need to know to predict how good it is",
+      "url": "https://leashbio.substack.com/p/ai-for-chemistry-in-2025-is-like"
+    },
+    {
+      "text": "Owl Posting",
+      "url": "https://www.owlposting.com/"
+    },
+    {
+      "text": "deep dive",
+      "url": "https://www.owlposting.com/p/an-ml-drug-discovery-startup-trying"
+    },
+    {
+      "text": "Ian Quigley",
+      "url": "https://www.linkedin.com/in/iquigley/"
+    },
+    {
+      "text": "DNA Encoded Libraries",
+      "url": "https://en.wikipedia.org/wiki/DNA-encoded_chemical_library"
+    },
+    {
+      "text": "preprint",
+      "url": "https://github.com/Leash-Labs/minos-paper/blob/trunk/Minos_Leash.pdf"
+    },
+    {
+      "text": "blog",
+      "url": "https://leashbio.substack.com/p/making-reality-replayable"
+    },
+    {
+      "text": "open dataset",
+      "url": "https://strelka.leash.bio/"
+    },
+    {
+      "text": "Kaggle competition",
+      "url": "https://www.kaggle.com/competitions/leash-BELKA"
+    },
+    {
+      "text": "Clever Hans",
+      "url": "https://en.wikipedia.org/wiki/Clever_Hans"
+    },
+    {
+      "text": "ChEMBL",
+      "url": "https://www.ebi.ac.uk/chembl/"
+    },
+    {
+      "text": "Hermes",
+      "url": "https://leashbio.substack.com/p/we-now-know-what-it-will-take"
+    },
+    {
+      "text": "Boltz",
+      "url": "https://github.com/jwohlwend/boltz"
+    },
+    {
+      "text": "Breaking the pocket",
+      "url": "https://leashbio.substack.com/p/taking-away-the-protein-cheat-sheet"
+    },
+    {
+      "text": "Lumacaftor",
+      "url": "https://en.wikipedia.org/wiki/Lumacaftor"
+    },
+    {
+      "text": "agent sandbox",
+      "url": "https://github.com/Leash-Labs/minos-paper/blob/trunk/Minos_Leash.pdf"
+    },
+    {
+      "text": "Recursion",
+      "url": "https://www.recursion.com/"
+    },
+    {
+      "text": "Kosuri paradox",
+      "url": "https://x.com/srikosuri/status/2035866164325437894"
+    },
+    {
+      "text": "www.latent.space/subscribe",
+      "url": "https://www.latent.space/subscribe?utm_medium=podcast&utm_campaign=CTA_2"
+    }
+  ]
+}

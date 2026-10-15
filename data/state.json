@@ -430,7 +430,7 @@
     },
     "1ab626bff2f3133b9007": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-14T05:56:25.066123+00:00"
+      "updated_at": "2026-10-15T06:00:20.335549+00:00"
     },
     "1b0698162dd6daa05775": {
       "analysis_path": "episodes/2026-09-02/jimmy-iovine-on-ai-the-great-artists-will-show-the-world-how-to-use-it-1b0698162dd6daa05775/analysis.json",
@@ -685,6 +685,23 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.cognitiverevolution.ai/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performance/",
       "updated_at": "2026-09-01T16:13:56.494982+00:00"
+    },
+    "248bf3f21b404571ffa0": {
+      "analysis_path": "episodes/2026-10-14/openai-uncovers-spy-device-apple-x-lg-home-devices-tier-list-thomas-neckel-kabir-jain-dani-248bf3f21b404571ffa0/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/6209dfad",
+      "published": "2026-10-14T21:17:13+00:00",
+      "raw_transcript": "episodes/2026-10-14/openai-uncovers-spy-device-apple-x-lg-home-devices-tier-list-thomas-neckel-kabir-jain-dani-248bf3f21b404571ffa0/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-14/openai-uncovers-spy-device-apple-x-lg-home-devices-tier-list-thomas-neckel-kabir-jain-dani-248bf3f21b404571ffa0/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-14/openai-uncovers-spy-device-apple-x-lg-home-devices-tier-list-thomas-neckel-kabir-jain-dani-248bf3f21b404571ffa0/summary.md",
+      "title": "OpenAI Uncovers Spy Device, Apple x LG, Home Devices Tier List | Thomas Neckel, Kabir Jain, Danielle Axman, John Urschel, Nicolas Sharp, Jason Ballard, Erik Bernhardsson, Josh Tyrangiel, Aida Baradari",
+      "transcript_path": "episodes/2026-10-14/openai-uncovers-spy-device-apple-x-lg-home-devices-tier-list-thomas-neckel-kabir-jain-dani-248bf3f21b404571ffa0/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/6209dfad/transcription.vtt",
+      "updated_at": "2026-10-15T06:07:47.223953+00:00"
     },
     "24b95606131009e94812": {
       "analysis_path": "episodes/2026-08-11/eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest-like-the-best-ep-48-24b95606131009e94812/analysis.json",
@@ -1139,6 +1156,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.126113+00:00"
     },
+    "44cfdd21e26cf4ab151d": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-15T06:00:20.329875+00:00"
+    },
     "4551f4ac900ae65079c3": {
       "analysis_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/analysis.json",
       "error": "",
@@ -1180,6 +1201,23 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://colossus.com/episode/from-transistor-to-token/",
       "updated_at": "2026-08-25T16:59:03.819153+00:00"
+    },
+    "48ed1d4f588af8bab2c4": {
+      "analysis_path": "episodes/2026-10-14/lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio-48ed1d4f588af8bab2c4/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "published": "2026-10-14T20:35:09+00:00",
+      "raw_transcript": "episodes/2026-10-14/lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio-48ed1d4f588af8bab2c4/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-14/lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio-48ed1d4f588af8bab2c4/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-14/lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio-48ed1d4f588af8bab2c4/summary.md",
+      "title": "Lab-in-the-Loop at Compute Speed \u2014 Ian Quigley, Leash Bio",
+      "transcript_path": "episodes/2026-10-14/lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio-48ed1d4f588af8bab2c4/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "updated_at": "2026-10-15T06:07:47.228074+00:00"
     },
     "4904b0960e70c7c4b718": {
       "analysis_path": "episodes/2026-09-29/openai-devday-sam-altman-alexander-embiricos-andrew-ambrosino-peter-steinberger-tibo-sotti-4904b0960e70c7c4b718/analysis.json",
@@ -1462,7 +1500,7 @@
     },
     "5b706a9eeb4176543bdc": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-14T05:56:25.064873+00:00"
+      "updated_at": "2026-10-15T06:00:20.333571+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -2124,7 +2162,7 @@
     },
     "807580d78f5f92fdda1b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-14T05:56:25.063582+00:00"
+      "updated_at": "2026-10-15T06:00:20.332288+00:00"
     },
     "8145e71dcf409bda4286": {
       "analysis_path": "episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis.json",
@@ -2846,7 +2884,7 @@
     },
     "b26e62a48f943efab72d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-14T05:56:25.067501+00:00"
+      "updated_at": "2026-10-15T06:00:20.336891+00:00"
     },
     "b3635570050fd3dc37b9": {
       "status": "metadata_skipped",
@@ -3613,7 +3651,7 @@
     },
     "e34ad713f1a4c9a5403a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-14T05:56:25.062608+00:00"
+      "updated_at": "2026-10-15T06:00:20.331634+00:00"
     },
     "e43801e1f35d88bd75e0": {
       "analysis_path": "episodes/2026-07-01/the-coolest-diffusion-research-isn-t-in-llms-evan-feinberg-sergey-edunov-genesis-molecular-e43801e1f35d88bd75e0/analysis.json",
@@ -3634,7 +3672,7 @@
     },
     "e4d62cdf327e1c57d03a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-14T05:56:25.066793+00:00"
+      "updated_at": "2026-10-15T06:00:20.336237+00:00"
     },
     "e5208331bea80e877e47": {
       "analysis_path": "episodes/2026-08-30/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openai-s-product-lead-e5208331bea80e877e47/analysis.json",
@@ -3759,6 +3797,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=97LRJUUPy_w",
       "updated_at": "2026-09-20T16:07:19.753830+00:00"
     },
+    "e891e7f402da4a708f46": {
+      "analysis_path": "episodes/2026-10-14/governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-agents-preparing-for--e891e7f402da4a708f46/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-agents-preparing-for-rsi/",
+      "published": "2026-10-14T07:50:16+00:00",
+      "raw_transcript": "episodes/2026-10-14/governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-agents-preparing-for--e891e7f402da4a708f46/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-14/governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-agents-preparing-for--e891e7f402da4a708f46/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-14/governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-agents-preparing-for--e891e7f402da4a708f46/summary.md",
+      "title": "Governing AI Agents: Alan Chan of GovAI on Monitoring, Agent IDs, Rogue Agents & Preparing for RSI",
+      "transcript_path": "episodes/2026-10-14/governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-agents-preparing-for--e891e7f402da4a708f46/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-agents-preparing-for-rsi/",
+      "updated_at": "2026-10-15T06:07:47.231542+00:00"
+    },
     "e98274e5d5280ceea259": {
       "analysis_path": "episodes/2026-09-15/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well-e98274e5d5280ceea259/analysis.json",
       "error": "",
@@ -3859,11 +3914,11 @@
     },
     "f08988ee168936662f3b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-14T05:56:25.065494+00:00"
+      "updated_at": "2026-10-15T06:00:20.334631+00:00"
     },
     "f09e9963266b140c4b9b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-14T05:56:25.064247+00:00"
+      "updated_at": "2026-10-15T06:00:20.332935+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
@@ -4010,7 +4065,7 @@
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-14T05:56:25.061406+00:00"
+      "updated_at": "2026-10-15T06:00:20.330919+00:00"
     },
     "fd4858316c2416c17581": {
       "error": "TBPN / AI Video Game Mods, Should You Sell Your Data, Bryan Johnson on Endurance Racing | Sean Frank, Linda Du, Ali Partovi, Sigil Wen, Jerry Wu, Bryan Johnson: TranscriptUnavailable: no publisher transcript or YouTube captions found",

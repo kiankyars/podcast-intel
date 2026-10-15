@@ -1,0 +1,90 @@
+{
+  "changed_views": [
+    "The agent opportunity is more specific than autonomous drug discovery: a bounded, experimentally measured landscape can supply fast, repeatable search feedback, while off-library and therapeutic validation remain separate bottlenecks.",
+    "Raw molecular-data scale is a weak proxy for useful learning signal. Hidden-library tests, chemist style, and protein-identity shortcuts make split design and measured perturbations central to evaluating claimed generalization.",
+    "Leash's reported commercial optionality comes partly from chemical matter already found during screening; the incremental value of its models must be shown in faster optimization and prospective discoveries beyond that measured corpus."
+  ],
+  "entities": [
+    "Leash Bio",
+    "Ian Quigley",
+    "Andrew Blevins",
+    "Hermes",
+    "Minos",
+    "BELKA",
+    "ChEMBL",
+    "Boltz",
+    "ESM",
+    "ChemBERTa",
+    "Qwen",
+    "GLM",
+    "Recursion"
+  ],
+  "follow_ups": [
+    "Compare the older sandbox account with the October 14 [Minos release](https://leashbio.substack.com/p/making-reality-replayable) and [preprint](https://github.com/Leash-Labs/minos-paper/blob/trunk/Minos_Leash.pdf). Keep release-only numbers separate; check per-target success distributions, query-budget accounting, training versus evaluation separation, and controlled RL gains.",
+    "Audit the [Hermes benchmarks](https://leashbio.substack.com/p/we-now-know-what-it-will-take) by protein family and chemical distance, including author overlap, promiscuous-hit leakage, decoy construction, and comparator training exposure. Require matched-data ablations before attributing the mutant experiment's gains specifically to targeted mutations.",
+    "Track prospective off-DNA validation, measured absolute affinity, and off-library compound selection. At 01:48:06\u201301:49:03 Quigley identifies massively parallel purification for orthogonal assays as a desired bottleneck removal; reproducible DEL rankings alone do not establish those results.",
+    "Seek disclosed targets, blinded controls, exposure-response data, safety findings, and signed partner terms for the six-month mouse program before revising drug-development or revenue expectations."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Quigley says Leash has turned previously measured binding data into a rapid experimental sandbox for language-model agents, allowing many medicinal-chemistry search trajectories without rerunning a wet lab at every step.",
+      "confidence": "medium",
+      "evidence": "At 01:18:13 he describes supplying 10 binders and 10 nearby non-binders, letting agents select experiments from a measured catalog, and returning results by database lookup. At 01:19:25 and 01:21:51\u201301:22:22 he reports a 100-molecule budget, over 10,000 trajectories in a weekend, and finding top binders among 6.5 million molecules. These are early self-reported search results without a success-rate denominator; off-library testing is future work, and the conversation does not demonstrate a controlled improvement from RL training.",
+      "kind": "observation",
+      "timestamp": "01:18:13"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Quigley reports that chemist-authorship signals can match conventional molecular descriptors on activity prediction in Leash's ChEMBL tests, making author overlap a consequential benchmark concern.",
+      "confidence": "medium",
+      "evidence": "At 48:05\u201348:25 he describes a classifier covering 1,815 prolific chemists with roughly 60% top-five author accuracy. At 51:11\u201351:43 he says author-probability vectors predicted activity about as well as molecular descriptors, with little gain from combining them. Those probabilities are themselves inferred from molecular structure: this supports a confounding hypothesis, not proof that all chemistry models learn no chemistry. Leash's [primary write-up](https://leashbio.substack.com/p/ai-for-chemistry-in-2025-is-like) corroborates the scoped experiment.",
+      "kind": "observation",
+      "timestamp": "48:05"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Quigley says BELKA's apparent predictive success disappeared when entrants had to generalize to a wholly different, privately held-out chemical library.",
+      "confidence": "high",
+      "evidence": "At 30:00\u201332:25 he separates shared-building-block tests, unseen blocks with the same triazine core, and a different library with no shared core or attachment chemistry. About 2,000 teams competed; he reports no better-than-chance performance on the last regime, which was absent from the public evaluation. The [2024 results](https://leashbio.substack.com/p/belka-results-suggest-computers-can) support this narrow finding across three targets, while acknowledging assay and dataset alternatives. It is not a current verdict on every binding model.",
+      "kind": "observation",
+      "timestamp": "31:03"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Quigley argues that physically measured protein mutations can challenge protein-identity shortcuts, but the reported attention-map change does not establish that Hermes learned binding physics.",
+      "confidence": "medium",
+      "evidence": "At 01:04:09\u201301:05:46 he describes combining competitor displacement, targeted mutations, and preservation of other binding series to support pocket-specific effects. At 01:13:04\u201301:14:30 he interprets Hermes's preference for distinctive sequence regions as memorization and reports broader attention after mutant training. The [primary experiment](https://leashbio.substack.com/p/taking-away-the-protein-cheat-sheet) also added about 40% more ordinary training data, so it does not isolate the mutations' contribution; attention is a proxy rather than a causal explanation.",
+      "kind": "inference",
+      "timestamp": "01:13:04"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Quigley reports that a small binding classifier trained on Leash interaction labels became competitive with Boltz on selected benchmarks, suggesting useful transfer from controlled experimental data rather than universal generalization.",
+      "confidence": "medium",
+      "evidence": "At 41:13\u201342:03 he describes pretrained ESM and ChemBERTa embeddings joined by cross-attention; the binding labels came from Leash, not public interaction datasets. At 56:20\u201359:04 he reports external evaluation, protein-family differences, and possible Boltz training overlap. Leash's [detailed results](https://leashbio.substack.com/p/we-now-know-what-it-will-take) show split-dependent winners, poor new-library results for both models, and a promiscuous-hit leak in the protein split. The supported claim is bounded competitiveness, not superiority to today's models.",
+      "kind": "observation",
+      "timestamp": "56:20"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Quigley describes an assay strategy optimized for reusable training data: deeply characterize smaller chemical libraries across many proteins and explicitly measure barcode-related artifacts.",
+      "confidence": "medium",
+      "evidence": "At 10:34\u201311:49 he says each chemical identity has 32 or 48 different DNA barcodes, exposing sequence-dependent enrichment. At 17:12\u201318:17 he describes screening each library against hundreds of targets to reveal batch and synthesis effects, and at 36:30\u201337:15 says better-characterized smaller libraries were more useful than maximizing molecule count. Translation remains imperfect: he reports roughly 90% off-DNA confirmation for easier cases versus 50% for harder ones at 12:52\u201313:06, and says absolute affinity from read counts is not solved at 01:42:21\u201301:42:55.",
+      "kind": "observation",
+      "timestamp": "36:30"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Quigley says Leash is considering partnerships and spinouts for drug starting material generated by its screening platform, with one early inflammation program reaching mouse PK/PD in six months.",
+      "confidence": "medium",
+      "evidence": "At 01:28:48\u201301:29:02 he reports the six-month interval for a few chemical series; at 01:30:25\u201301:30:57 he describes mouse exposure and expected blood-cytokine changes. At 01:31:07\u201301:32:43 he discusses prospective partners and selective-looking starting material for roughly 700 targets. These are company-reported preclinical observations and commercialization discussions, not demonstrated human efficacy, disclosed licensing revenue, or 700 validated drug programs.",
+      "kind": "observation",
+      "timestamp": "01:28:48"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Leash Bio co-founder Ian Quigley describes how dense, deliberately varied protein\u2013molecule measurements support both binding models and a fast experimental sandbox for reasoning agents. The most consequential material is his account of hidden chemical-library generalization failures, chemist-authorship confounding in public benchmarks, and physical protein mutations used to challenge memorization. He also reports early agent-search and mouse pharmacokinetic/pharmacodynamic results, with substantial limits on extrapolation. The publisher says this conversation was recorded roughly two months before its October 14 publication; the later Minos release is separate evidence.",
+  "why_it_matters": "A plausible path to scientific agent training is to measure a bounded experimental landscape once and reuse its outcomes for many adaptive search trajectories. Leash's experience also argues that data diversity, meaningful negatives, and evaluation splits can matter more than model complexity or raw measurement counts. Binding rankings and replayed searches remain far upstream of reliable absolute affinity, off-library discoveries, safety, and clinical benefit."
+}
