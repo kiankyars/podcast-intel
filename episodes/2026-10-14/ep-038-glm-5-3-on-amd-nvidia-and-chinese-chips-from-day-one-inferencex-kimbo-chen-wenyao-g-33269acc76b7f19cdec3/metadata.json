@@ -1,0 +1,17 @@
+{
+  "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/127443595/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-14%2F434131164-44100-2-9542145ed2ca5.mp3",
+  "description_html": "<p>GLM 5.3 only attends to the tokens that matter. It still has to keep every one of them.</p><p><br></p><p>Kimbo Chen (@kimbochen) and Wenyao Gao (@gao_wenyao) join Jordan Nanos (@JordanNanos) to dig into AMD catching NVIDIA on InferenceX, how post-training alone pushed an open-weight model within reach of Mythos, and whether Z.ai quietly tuned it for Chinese chips. The team also looks at how GLM 5.3 became a fallback when Claude and GPT refuse security work.</p><p><br></p><p>Chapters:</p><p>0:00 Cold Open</p><p>0:37 Sparse Attention 101</p><p>4:46 HiCache and HiSparse</p><p>10:13 AMD Catches NVIDIA</p><p>12:54 Capacity vs Bandwidth</p><p>18:44 The Frankenstein Flash</p><p>20:09 Mythos-Class From China?</p><p>22:52 Post-Training Pipeline</p><p>32:32 Chinese Chips, Day One</p><p>39:54 GLM 5.4 and Beyond</p><p><br></p><p>Read the full article: How GLM 5.3 Sparse Attention Affects HBM Memory Usage</p><p>https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53</p>",
+  "description_text": "GLM 5.3 only attends to the tokens that matter. It still has to keep every one of them.\n\nKimbo Chen (@kimbochen) and Wenyao Gao (@gao_wenyao) join Jordan Nanos (@JordanNanos) to dig into AMD catching NVIDIA on InferenceX, how post-training alone pushed an open-weight model within reach of Mythos, and whether Z.ai quietly tuned it for Chinese chips. The team also looks at how GLM 5.3 became a fallback when Claude and GPT refuse security work.\n\nChapters:\n\n0:00 Cold Open\n\n0:37 Sparse Attention 101\n\n4:46 HiCache and HiSparse\n\n10:13 AMD Catches NVIDIA\n\n12:54 Capacity vs Bandwidth\n\n18:44 The Frankenstein Flash\n\n20:09 Mythos-Class From China?\n\n22:52 Post-Training Pipeline\n\n32:32 Chinese Chips, Day One\n\n39:54 GLM 5.4 and Beyond\n\nRead the full article: How GLM 5.3 Sparse Attention Affects HBM Memory Usage\n\nhttps://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53",
+  "duration_seconds": 2652,
+  "feed_id": "semianalysis-weekly",
+  "feed_name": "SemiAnalysis Weekly",
+  "feed_priority": 10,
+  "id": "33269acc76b7f19cdec3",
+  "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--038---GLM-5-3-on-AMD--NVIDIA--and-Chinese-Chips-From-Day-One-InferenceX--Kimbo-Chen--Wenyao-Gao--Jordan-Nanos-e3qfp6b",
+  "published": "2026-10-14T11:00:00+00:00",
+  "title": "Ep. 038 - GLM 5.3 on AMD, NVIDIA, and Chinese Chips From Day One (InferenceX) | Kimbo Chen, Wenyao Gao, Jordan Nanos",
+  "transcript_source": "youtube_captions",
+  "transcript_source_url": "https://www.youtube.com/watch?v=5OwUwMSkO4Y",
+  "transcript_urls": [],
+  "web_links": []
+}
