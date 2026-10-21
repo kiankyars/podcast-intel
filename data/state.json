@@ -214,7 +214,7 @@
     },
     "0d494e96bd9fd1d8ded8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.958881+00:00"
+      "updated_at": "2026-10-21T06:01:16.962392+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -342,6 +342,27 @@
       "transcript_source": "rss_embedded_transcript",
       "transcript_source_url": "https://www.latent.space/p/rlm",
       "updated_at": "2026-10-03T16:25:34.916411+00:00"
+    },
+    "12ee1272434c2c2452e2": {
+      "analysis_path": "episodes/2026-10-20/a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement-the-1-8b-data-push-12ee1272434c2c2452e2/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement-the-1-8b-data-push/",
+      "published": "2026-10-20T11:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-20/a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement-the-1-8b-data-push-12ee1272434c2c2452e2/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-20/a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement-the-1-8b-data-push-12ee1272434c2c2452e2/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-20/a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement-the-1-8b-data-push-12ee1272434c2c2452e2/summary.md",
+      "title": "A World Model of Life: Biohub's Alex Rives on Virtual Cells, Measurement, & the $1.8B Data Push",
+      "transcript_path": "episodes/2026-10-20/a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement-the-1-8b-data-push-12ee1272434c2c2452e2/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement-the-1-8b-data-push/",
+      "updated_at": "2026-10-21T06:07:28.997014+00:00"
+    },
+    "14569a81115ecd803781": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-21T06:01:16.960400+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -848,11 +869,11 @@
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.957094+00:00"
+      "updated_at": "2026-10-21T06:01:16.961054+00:00"
     },
     "2cd282efff414185c755": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.958170+00:00"
+      "updated_at": "2026-10-21T06:01:16.961719+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -1101,6 +1122,23 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cross-embodiment-humanoids/",
       "updated_at": "2026-10-03T16:25:34.925062+00:00"
     },
+    "3cbd99079ebf4181dbd2": {
+      "analysis_path": "episodes/2026-10-20/christina-cacioppo-building-an-enduring-software-company-in-the-age-of-ai-invest-like-the--3cbd99079ebf4181dbd2/analysis.json",
+      "error": "",
+      "feed_id": "invest-like-the-best",
+      "link": "https://colossus.com/episode/becoming-a-category-winner/",
+      "published": "2026-10-20T08:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-20/christina-cacioppo-building-an-enduring-software-company-in-the-age-of-ai-invest-like-the--3cbd99079ebf4181dbd2/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-20/christina-cacioppo-building-an-enduring-software-company-in-the-age-of-ai-invest-like-the--3cbd99079ebf4181dbd2/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-20/christina-cacioppo-building-an-enduring-software-company-in-the-age-of-ai-invest-like-the--3cbd99079ebf4181dbd2/summary.md",
+      "title": "Christina Cacioppo - Building an Enduring Software Company in the Age of AI - [Invest Like the Best, EP.496]",
+      "transcript_path": "episodes/2026-10-20/christina-cacioppo-building-an-enduring-software-company-in-the-age-of-ai-invest-like-the--3cbd99079ebf4181dbd2/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=sQaM5oPlUYs",
+      "updated_at": "2026-10-21T06:07:29.001928+00:00"
+    },
     "3cd7d7366f3fad198ec0": {
       "analysis_path": "episodes/2026-09-30/white-house-ai-accord-model-welfare-ken-griffindor-school-of-market-wizardry-ali-golshan-m-3cd7d7366f3fad198ec0/analysis.json",
       "error": "",
@@ -1204,7 +1242,7 @@
     },
     "44cfdd21e26cf4ab151d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.960899+00:00"
+      "updated_at": "2026-10-21T06:01:16.964498+00:00"
     },
     "4551f4ac900ae65079c3": {
       "analysis_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/analysis.json",
@@ -1563,7 +1601,7 @@
     },
     "5b706a9eeb4176543bdc": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.977766+00:00"
+      "updated_at": "2026-10-21T06:01:16.968704+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -1791,6 +1829,23 @@
     "690ea092c6cda715494c": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.105796+00:00"
+    },
+    "69464a2f81f76e84f1c5": {
+      "analysis_path": "episodes/2026-10-20/the-programmable-data-center-evan-conrad-sf-compute-69464a2f81f76e84f1c5/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/sfcompute2",
+      "published": "2026-10-20T19:31:57+00:00",
+      "raw_transcript": "episodes/2026-10-20/the-programmable-data-center-evan-conrad-sf-compute-69464a2f81f76e84f1c5/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-20/the-programmable-data-center-evan-conrad-sf-compute-69464a2f81f76e84f1c5/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-20/the-programmable-data-center-evan-conrad-sf-compute-69464a2f81f76e84f1c5/summary.md",
+      "title": "The Programmable Data Center \u2014 Evan Conrad, SF Compute",
+      "transcript_path": "episodes/2026-10-20/the-programmable-data-center-evan-conrad-sf-compute-69464a2f81f76e84f1c5/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/sfcompute2",
+      "updated_at": "2026-10-21T06:07:29.004855+00:00"
     },
     "6a1dc2cc8ea8423a8728": {
       "analysis_path": "episodes/2026-07-08/ben-thompson-explains-the-xbox-disaster-6a1dc2cc8ea8423a8728/analysis.json",
@@ -2225,7 +2280,7 @@
     },
     "807580d78f5f92fdda1b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.962924+00:00"
+      "updated_at": "2026-10-21T06:01:16.967388+00:00"
     },
     "8145e71dcf409bda4286": {
       "analysis_path": "episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis.json",
@@ -2555,6 +2610,10 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-07-11T07:40:56.306966+00:00"
+    },
+    "99556667c68cce18d27b": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-21T06:01:16.959704+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -2962,6 +3021,10 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=NcqHQmpNjr0",
       "updated_at": "2026-10-03T16:25:34.938055+00:00"
     },
+    "afe6b7df59e302e1335b": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-21T06:01:16.958685+00:00"
+    },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
       "error": "",
@@ -3311,7 +3374,7 @@
     },
     "c7511b690819590aa310": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.959552+00:00"
+      "updated_at": "2026-10-21T06:01:16.963041+00:00"
     },
     "c752e1f0326372f9c412": {
       "analysis_path": "episodes/2026-07-04/intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-device-native-foundati-c752e1f0326372f9c412/analysis.json",
@@ -3434,7 +3497,7 @@
     },
     "ca1b13be5d2fbd6df977": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.960222+00:00"
+      "updated_at": "2026-10-21T06:01:16.963697+00:00"
     },
     "cac20ce3a5e8c6e66154": {
       "analysis_path": "episodes/2026-09-24/who-feeds-the-gpus-inside-ai-s-hidden-30b-layer-renen-hallak-vast-data-cac20ce3a5e8c6e66154/analysis.json",
@@ -3574,6 +3637,23 @@
     "d2fce60180d7428cf10d": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-12T16:02:58.594682+00:00"
+    },
+    "d425cc0dcea12806250d": {
+      "analysis_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/tenex",
+      "published": "2026-10-21T05:01:26+00:00",
+      "raw_transcript": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/summary.md",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
+      "transcript_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.latent.space/p/tenex",
+      "updated_at": "2026-10-21T06:07:29.007810+00:00"
     },
     "d496c678af05e528a106": {
       "status": "metadata_skipped",
@@ -3773,7 +3853,7 @@
     },
     "e34ad713f1a4c9a5403a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.962263+00:00"
+      "updated_at": "2026-10-21T06:01:16.966557+00:00"
     },
     "e43801e1f35d88bd75e0": {
       "analysis_path": "episodes/2026-07-01/the-coolest-diffusion-research-isn-t-in-llms-evan-feinberg-sergey-edunov-genesis-molecular-e43801e1f35d88bd75e0/analysis.json",
@@ -4057,7 +4137,7 @@
     },
     "f09e9963266b140c4b9b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.963593+00:00"
+      "updated_at": "2026-10-21T06:01:16.968069+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
@@ -4204,7 +4284,7 @@
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-20T06:04:02.961589+00:00"
+      "updated_at": "2026-10-21T06:01:16.965892+00:00"
     },
     "fd4858316c2416c17581": {
       "error": "TBPN / AI Video Game Mods, Should You Sell Your Data, Bryan Johnson on Endurance Racing | Sean Frank, Linda Du, Ali Partovi, Sigil Wen, Jerry Wu, Bryan Johnson: TranscriptUnavailable: no publisher transcript or YouTube captions found",

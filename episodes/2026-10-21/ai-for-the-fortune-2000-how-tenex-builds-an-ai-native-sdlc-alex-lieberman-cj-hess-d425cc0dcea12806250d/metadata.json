@@ -1,0 +1,42 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/221403684/5b26ff73916385d08efdaa6bd2514a4b.mp3",
+  "description_html": "<p>Alex Lieberman and CJ Hess join swyx at AI Engineer New York to discuss Tenex\u2019s approach to AI-native engineering, paying for outcomes, MetaHarness, enterprise AI adoption and rebuilding SaaS.</p><p>Show notes:</p><p>Tenex: <a target=\"_blank\" href=\"https://www.tenex.co/\">https://www.tenex.co/</a></p><p>Building an AI-native SDLC: <a target=\"_blank\" href=\"https://www.tenex.co/blog/building-an-ai-native-sdlc\">https://www.tenex.co/blog/building-an-ai-native-sdlc</a></p><p>Earlier Tenex episode: <a target=\"_blank\" href=\"https://www.latent.space/p/10x-ai-engineers-with-1m-salaries\">https://www.latent.space/p/10x-ai-engineers-with-1m-salaries</a></p><p>Kill My SaaS: <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=zlD-CkLVKtU\">https://www.youtube.com/watch?v=zlD-CkLVKtU</a></p><p>Full video: <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=Vki6cklFqxo\">https://www.youtube.com/watch?v=Vki6cklFqxo</a></p><p>0:00 Cold open</p><p>0:26 Introductions</p><p>0:51 What Tenex does</p><p>1:32 Why CJ joined Tenex</p><p>3:17 Paying engineers for outcomes</p><p>7:20 Inside MetaHarness</p><p>10:25 Models and long-running tasks</p><p>15:11 Token spending and ROI</p><p>19:29 The enterprise AI adoption gap</p><p>23:22 Why agent deployment is hard</p><p>24:42 Vertical AI and enterprise software</p><p>30:32 Kill My SaaS</p><p>35:23 AI and jobs</p><p>38:18 New York\u2019s AI ecosystem</p><p>42:28 Hiring at Tenex</p> <br/><br/>This is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.latent.space/subscribe?utm_medium=podcast&#38;utm_campaign=CTA_2\">www.latent.space/subscribe</a>",
+  "description_text": "Alex Lieberman and CJ Hess join swyx at AI Engineer New York to discuss Tenex\u2019s approach to AI-native engineering, paying for outcomes, MetaHarness, enterprise AI adoption and rebuilding SaaS.\n\nShow notes:\n\nTenex: https://www.tenex.co/\n\nBuilding an AI-native SDLC: https://www.tenex.co/blog/building-an-ai-native-sdlc\n\nEarlier Tenex episode: https://www.latent.space/p/10x-ai-engineers-with-1m-salaries\n\nKill My SaaS: https://www.youtube.com/watch?v=zlD-CkLVKtU\n\nFull video: https://www.youtube.com/watch?v=Vki6cklFqxo\n\n0:00 Cold open\n\n0:26 Introductions\n\n0:51 What Tenex does\n\n1:32 Why CJ joined Tenex\n\n3:17 Paying engineers for outcomes\n\n7:20 Inside MetaHarness\n\n10:25 Models and long-running tasks\n\n15:11 Token spending and ROI\n\n19:29 The enterprise AI adoption gap\n\n23:22 Why agent deployment is hard\n\n24:42 Vertical AI and enterprise software\n\n30:32 Kill My SaaS\n\n35:23 AI and jobs\n\n38:18 New York\u2019s AI ecosystem\n\n42:28 Hiring at Tenex\n\nThis is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes, visit www.latent.space/subscribe",
+  "duration_seconds": 2613,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "d425cc0dcea12806250d",
+  "link": "https://www.latent.space/p/tenex",
+  "published": "2026-10-21T05:01:26+00:00",
+  "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC \u2014 Alex Lieberman & CJ Hess",
+  "transcript_source": "episode_page_transcript",
+  "transcript_source_url": "https://www.latent.space/p/tenex",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "https://www.tenex.co/",
+      "url": "https://www.tenex.co/"
+    },
+    {
+      "text": "https://www.tenex.co/blog/building-an-ai-native-sdlc",
+      "url": "https://www.tenex.co/blog/building-an-ai-native-sdlc"
+    },
+    {
+      "text": "https://www.latent.space/p/10x-ai-engineers-with-1m-salaries",
+      "url": "https://www.latent.space/p/10x-ai-engineers-with-1m-salaries"
+    },
+    {
+      "text": "https://www.youtube.com/watch?v=zlD-CkLVKtU",
+      "url": "https://www.youtube.com/watch?v=zlD-CkLVKtU"
+    },
+    {
+      "text": "https://www.youtube.com/watch?v=Vki6cklFqxo",
+      "url": "https://www.youtube.com/watch?v=Vki6cklFqxo"
+    },
+    {
+      "text": "www.latent.space/subscribe",
+      "url": "https://www.latent.space/subscribe?utm_medium=podcast&utm_campaign=CTA_2"
+    }
+  ]
+}

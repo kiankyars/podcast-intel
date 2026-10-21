@@ -1,0 +1,150 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/221372257/7ed7b84113dff624d58881643b466618.mp3",
+  "description_html": "<p><em>This was recorded on the sidelines of </em><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=jiUC6IUMdvc&#38;t=1552s\"><em>the new Compute Trading track at AIE NYC</em></a><em>. Catch us next at </em><a target=\"_blank\" href=\"https://aie.codes/\"><em>AIE CODE</em></a><em>, our last flagship for the top agentic engineers in the world.</em></p><p>In the early days of cloud, <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=p1k7TiAFqdE&#38;pp=ygUTbGF0ZW50IHNwYWNlIG1hcnRpbg%3D%3D\">former guest Martin Casado</a> made something so disruptive that Cisco was threatened enough to pay $600m for it, and VMware outbid for $1.3B:</p><p>That concept was <a target=\"_blank\" href=\"https://www.reddit.com/r/networking/comments/3lctxk/comment/cv597dc/\"><strong>software-defined networking</strong></a>, which virtualized the routing network by separating the control plane from the data plane. That revolution is now coming for GPUs - where previously running your own supercompute cluster required $50-100m upfront to get commitments and do the entire stack from hardware to firmware to kernels, <strong>SF Compute </strong>is now enabling you to not only buy or sell GPU hours now and in the future, but also to programmatically control everything from your network to memory.</p><p>We last spoke with Evan about <a target=\"_blank\" href=\"https://www.latent.space/p/sfcompute\">commoditizing compute</a>. At AI Engineer New York, we went deeper: what does it take to physically deliver a GPU contract, and what has to be true before a market in compute can become liquid?</p><p>From selling a room to running the hotel</p><p>Evan describes SF Compute\u2019s expansion with a hotel analogy. A customer wants a room, then asks for cleaning, room service, and security. Eventually you discover that delivering the room means operating the hotel. SF Compute began by trying to sublease a cluster; the company has since built much of the operating capacity of a cloud to deliver the compute traded on its market.</p><p>That work is physical settlement: the buyer gets usable compute, rather than simply a cash payment against an index. It brings the physical constraints of a cluster into the market itself. Can a workload be interrupted? How quickly can it recover from storage? Which GPU generation, networking and software configuration does it need? Those details affect both the contract and the price.</p><p>Making compute tradeable</p><p>Rather than waiting for every GPU cluster to become interchangeable, SF Compute matches orders with different constraints. Evan argues that this makes trading possible while the technology changes, at the cost of spreading liquidity across more variants. We also discuss spot and forward pricing, batch versus live inference, and why an index can become disconnected from the cost of actually buying compute.</p><p>Independence is central to Evan\u2019s case for a market operator. He argues that companies with large hardware or inference businesses have incentives that make it harder to run a neutral exchange. We also get into the unglamorous engineering: visiting sites, designing clusters, running the backplane, and making infrastructure programmable. Near the end, he describes the ability to subdivide InfiniBand fabric on the fly as one example.</p><p><strong>Guest:</strong> Evan Conrad, CEO of <a target=\"_blank\" href=\"https://sfcompute.com\">SF Compute</a>. </p><p>Show notes</p><p>* <a target=\"_blank\" href=\"https://ai.engineer/nyc/2026/talks/sf-compute\">Evan\u2019s AI Engineer NYC talk: How Compute Markets Work</a></p><p>* <a target=\"_blank\" href=\"https://www.latent.space/p/sfcompute\">Our previous SF Compute conversation</a></p><p>* <a target=\"_blank\" href=\"https://www.eia.gov/todayinenergy/detail.php?id=43495\">Why oil futures went negative in 2020 \u2014 EIA</a></p><p>* <a target=\"_blank\" href=\"https://sfcompute.com/news/realized-discount\">How SF Compute customers resell unused GPU capacity</a></p><p>* <a target=\"_blank\" href=\"https://sfcompute.com/news/tcv-q3-2026\">SF Compute\u2019s $245M compute sale</a></p><p>* <a target=\"_blank\" href=\"https://sfcompute.com/news/abel-ledger\">Abel: SF Compute\u2019s settlement ledger</a></p><p>* <a target=\"_blank\" href=\"https://www.cftc.gov/PressRoom/PressReleases/6289-12\">CFTC: Barclays and LIBOR manipulation</a></p><p>* <a target=\"_blank\" href=\"https://sfcompute.com/news/elastic-infiniband-partitions\">Elastic InfiniBand partitions</a></p><p>Timestamps</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=0s\">0:00</a> \u2014 Why can\u2019t NVIDIA build this?</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=25s\">0:25</a> \u2014 Welcome back to Latent Space</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=143s\">2:23</a> \u2014 From selling a room to running the hotel</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=227s\">3:47</a> \u2014 Physical settlement: actually delivering compute</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=360s\">6:00</a> \u2014 Liquidity and the GPU order book</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=522s\">8:42</a> \u2014 Trading nonstandard compute</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=600s\">10:00</a> \u2014 Interrupting and moving workloads</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=740s\">12:20</a> \u2014 Why hardware cohorts matter</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=872s\">14:32</a> \u2014 How far out do compute contracts go?</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=979s\">16:19</a> \u2014 Batch versus live inference leases</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=1078s\">17:58</a> \u2014 The shape of compute prices</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=1233s\">20:33</a> \u2014 GPU generations, specifications and SKUs</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=1410s\">23:30</a> \u2014 Physical versus cash settlement</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=1620s\">27:00</a> \u2014 The emerging compute market ecosystem</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=1743s\">29:03</a> \u2014 What it takes to deliver a GPU cluster</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=1944s\">32:24</a> \u2014 Sovereign compute</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=2006s\">33:26</a> \u2014 Why NVIDIA can\u2019t build this market</p><p>* <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EAtLq9_vrE0&#38;t=2088s\">34:48</a> \u2014 A programmable data center</p>",
+  "description_text": "This was recorded on the sidelines of the new Compute Trading track at AIE NYC . Catch us next at AIE CODE , our last flagship for the top agentic engineers in the world.\n\nIn the early days of cloud, former guest Martin Casado made something so disruptive that Cisco was threatened enough to pay $600m for it, and VMware outbid for $1.3B:\n\nThat concept was software-defined networking , which virtualized the routing network by separating the control plane from the data plane. That revolution is now coming for GPUs - where previously running your own supercompute cluster required $50-100m upfront to get commitments and do the entire stack from hardware to firmware to kernels, SF Compute is now enabling you to not only buy or sell GPU hours now and in the future, but also to programmatically control everything from your network to memory.\n\nWe last spoke with Evan about commoditizing compute . At AI Engineer New York, we went deeper: what does it take to physically deliver a GPU contract, and what has to be true before a market in compute can become liquid?\n\nFrom selling a room to running the hotel\n\nEvan describes SF Compute\u2019s expansion with a hotel analogy. A customer wants a room, then asks for cleaning, room service, and security. Eventually you discover that delivering the room means operating the hotel. SF Compute began by trying to sublease a cluster; the company has since built much of the operating capacity of a cloud to deliver the compute traded on its market.\n\nThat work is physical settlement: the buyer gets usable compute, rather than simply a cash payment against an index. It brings the physical constraints of a cluster into the market itself. Can a workload be interrupted? How quickly can it recover from storage? Which GPU generation, networking and software configuration does it need? Those details affect both the contract and the price.\n\nMaking compute tradeable\n\nRather than waiting for every GPU cluster to become interchangeable, SF Compute matches orders with different constraints. Evan argues that this makes trading possible while the technology changes, at the cost of spreading liquidity across more variants. We also discuss spot and forward pricing, batch versus live inference, and why an index can become disconnected from the cost of actually buying compute.\n\nIndependence is central to Evan\u2019s case for a market operator. He argues that companies with large hardware or inference businesses have incentives that make it harder to run a neutral exchange. We also get into the unglamorous engineering: visiting sites, designing clusters, running the backplane, and making infrastructure programmable. Near the end, he describes the ability to subdivide InfiniBand fabric on the fly as one example.\n\nGuest: Evan Conrad, CEO of SF Compute .\n\nShow notes\n\n* Evan\u2019s AI Engineer NYC talk: How Compute Markets Work\n\n* Our previous SF Compute conversation\n\n* Why oil futures went negative in 2020 \u2014 EIA\n\n* How SF Compute customers resell unused GPU capacity\n\n* SF Compute\u2019s $245M compute sale\n\n* Abel: SF Compute\u2019s settlement ledger\n\n* CFTC: Barclays and LIBOR manipulation\n\n* Elastic InfiniBand partitions\n\nTimestamps\n\n* 0:00 \u2014 Why can\u2019t NVIDIA build this?\n\n* 0:25 \u2014 Welcome back to Latent Space\n\n* 2:23 \u2014 From selling a room to running the hotel\n\n* 3:47 \u2014 Physical settlement: actually delivering compute\n\n* 6:00 \u2014 Liquidity and the GPU order book\n\n* 8:42 \u2014 Trading nonstandard compute\n\n* 10:00 \u2014 Interrupting and moving workloads\n\n* 12:20 \u2014 Why hardware cohorts matter\n\n* 14:32 \u2014 How far out do compute contracts go?\n\n* 16:19 \u2014 Batch versus live inference leases\n\n* 17:58 \u2014 The shape of compute prices\n\n* 20:33 \u2014 GPU generations, specifications and SKUs\n\n* 23:30 \u2014 Physical versus cash settlement\n\n* 27:00 \u2014 The emerging compute market ecosystem\n\n* 29:03 \u2014 What it takes to deliver a GPU cluster\n\n* 32:24 \u2014 Sovereign compute\n\n* 33:26 \u2014 Why NVIDIA can\u2019t build this market\n\n* 34:48 \u2014 A programmable data center",
+  "duration_seconds": 2203,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "69464a2f81f76e84f1c5",
+  "link": "https://www.latent.space/p/sfcompute2",
+  "published": "2026-10-20T19:31:57+00:00",
+  "title": "The Programmable Data Center \u2014 Evan Conrad, SF Compute",
+  "transcript_source": "rss_embedded_transcript",
+  "transcript_source_url": "https://www.latent.space/p/sfcompute2",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "the new Compute Trading track at AIE NYC",
+      "url": "https://www.youtube.com/watch?v=jiUC6IUMdvc&t=1552s"
+    },
+    {
+      "text": "AIE CODE",
+      "url": "https://aie.codes/"
+    },
+    {
+      "text": "former guest Martin Casado",
+      "url": "https://www.youtube.com/watch?v=p1k7TiAFqdE&pp=ygUTbGF0ZW50IHNwYWNlIG1hcnRpbg%3D%3D"
+    },
+    {
+      "text": "software-defined networking",
+      "url": "https://www.reddit.com/r/networking/comments/3lctxk/comment/cv597dc/"
+    },
+    {
+      "text": "commoditizing compute",
+      "url": "https://www.latent.space/p/sfcompute"
+    },
+    {
+      "text": "SF Compute",
+      "url": "https://sfcompute.com"
+    },
+    {
+      "text": "Evan\u2019s AI Engineer NYC talk: How Compute Markets Work",
+      "url": "https://ai.engineer/nyc/2026/talks/sf-compute"
+    },
+    {
+      "text": "Our previous SF Compute conversation",
+      "url": "https://www.latent.space/p/sfcompute"
+    },
+    {
+      "text": "Why oil futures went negative in 2020 \u2014 EIA",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=43495"
+    },
+    {
+      "text": "How SF Compute customers resell unused GPU capacity",
+      "url": "https://sfcompute.com/news/realized-discount"
+    },
+    {
+      "text": "SF Compute\u2019s $245M compute sale",
+      "url": "https://sfcompute.com/news/tcv-q3-2026"
+    },
+    {
+      "text": "Abel: SF Compute\u2019s settlement ledger",
+      "url": "https://sfcompute.com/news/abel-ledger"
+    },
+    {
+      "text": "CFTC: Barclays and LIBOR manipulation",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/6289-12"
+    },
+    {
+      "text": "Elastic InfiniBand partitions",
+      "url": "https://sfcompute.com/news/elastic-infiniband-partitions"
+    },
+    {
+      "text": "0:00",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=0s"
+    },
+    {
+      "text": "0:25",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=25s"
+    },
+    {
+      "text": "2:23",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=143s"
+    },
+    {
+      "text": "3:47",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=227s"
+    },
+    {
+      "text": "6:00",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=360s"
+    },
+    {
+      "text": "8:42",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=522s"
+    },
+    {
+      "text": "10:00",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=600s"
+    },
+    {
+      "text": "12:20",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=740s"
+    },
+    {
+      "text": "14:32",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=872s"
+    },
+    {
+      "text": "16:19",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=979s"
+    },
+    {
+      "text": "17:58",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=1078s"
+    },
+    {
+      "text": "20:33",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=1233s"
+    },
+    {
+      "text": "23:30",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=1410s"
+    },
+    {
+      "text": "27:00",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=1620s"
+    },
+    {
+      "text": "29:03",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=1743s"
+    },
+    {
+      "text": "32:24",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=1944s"
+    },
+    {
+      "text": "33:26",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=2006s"
+    },
+    {
+      "text": "34:48",
+      "url": "https://www.youtube.com/watch?v=EAtLq9_vrE0&t=2088s"
+    },
+    {
+      "text": "www.latent.space/subscribe",
+      "url": "https://www.latent.space/subscribe?utm_medium=podcast&utm_campaign=CTA_2"
+    }
+  ]
+}
