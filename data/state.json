@@ -214,7 +214,7 @@
     },
     "0d494e96bd9fd1d8ded8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.962392+00:00"
+      "updated_at": "2026-10-22T05:57:26.504170+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -362,7 +362,7 @@
     },
     "14569a81115ecd803781": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.960400+00:00"
+      "updated_at": "2026-10-22T05:57:26.500958+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -745,6 +745,10 @@
       "transcript_source_url": "https://colossus.com/episode/sandcastles-and-silicon/",
       "updated_at": "2026-08-14T16:42:19.771060+00:00"
     },
+    "251c782d236be2666d84": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-22T05:57:26.497442+00:00"
+    },
     "27bbb91c13fabb93dab9": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.106121+00:00"
@@ -869,11 +873,11 @@
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.961054+00:00"
+      "updated_at": "2026-10-22T05:57:26.502446+00:00"
     },
     "2cd282efff414185c755": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.961719+00:00"
+      "updated_at": "2026-10-22T05:57:26.503445+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -1240,9 +1244,26 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.126113+00:00"
     },
+    "44caf68af3cad872ec63": {
+      "analysis_path": "episodes/2026-10-21/the-internet-is-finished-early-iphone-duo-reviews-spacexsitesla-merger-talks-nikesh-arora--44caf68af3cad872ec63/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/76dfa8a5",
+      "published": "2026-10-21T20:01:49+00:00",
+      "raw_transcript": "episodes/2026-10-21/the-internet-is-finished-early-iphone-duo-reviews-spacexsitesla-merger-talks-nikesh-arora--44caf68af3cad872ec63/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-21/the-internet-is-finished-early-iphone-duo-reviews-spacexsitesla-merger-talks-nikesh-arora--44caf68af3cad872ec63/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-21/the-internet-is-finished-early-iphone-duo-reviews-spacexsitesla-merger-talks-nikesh-arora--44caf68af3cad872ec63/summary.md",
+      "title": "The Internet Is Finished, Early iPhone Duo Reviews, SpaceXSITesla Merger Talks | Nikesh Arora, Aidan Smith, Akhil Iyer, Max Junestrand",
+      "transcript_path": "episodes/2026-10-21/the-internet-is-finished-early-iphone-duo-reviews-spacexsitesla-merger-talks-nikesh-arora--44caf68af3cad872ec63/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/76dfa8a5/transcription.vtt",
+      "updated_at": "2026-10-22T06:05:04.221260+00:00"
+    },
     "44cfdd21e26cf4ab151d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.964498+00:00"
+      "updated_at": "2026-10-22T05:57:26.507008+00:00"
     },
     "4551f4ac900ae65079c3": {
       "analysis_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/analysis.json",
@@ -2280,7 +2301,7 @@
     },
     "807580d78f5f92fdda1b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.967388+00:00"
+      "updated_at": "2026-10-22T05:57:26.510128+00:00"
     },
     "8145e71dcf409bda4286": {
       "analysis_path": "episodes/2026-08-09/ep-024-spacex-s-10gw-plan-drives-300b-arr-by-2027-datacenter-energy-reyk-knuhtsen-jeremie--8145e71dcf409bda4286/analysis.json",
@@ -2613,7 +2634,7 @@
     },
     "99556667c68cce18d27b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.959704+00:00"
+      "updated_at": "2026-10-22T05:57:26.500247+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -3023,7 +3044,7 @@
     },
     "afe6b7df59e302e1335b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.958685+00:00"
+      "updated_at": "2026-10-22T05:57:26.499171+00:00"
     },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
@@ -3374,7 +3395,7 @@
     },
     "c7511b690819590aa310": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.963041+00:00"
+      "updated_at": "2026-10-22T05:57:26.504955+00:00"
     },
     "c752e1f0326372f9c412": {
       "analysis_path": "episodes/2026-07-04/intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-device-native-foundati-c752e1f0326372f9c412/analysis.json",
@@ -3497,7 +3518,7 @@
     },
     "ca1b13be5d2fbd6df977": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.963697+00:00"
+      "updated_at": "2026-10-22T05:57:26.505933+00:00"
     },
     "cac20ce3a5e8c6e66154": {
       "analysis_path": "episodes/2026-09-24/who-feeds-the-gpus-inside-ai-s-hidden-30b-layer-renen-hallak-vast-data-cac20ce3a5e8c6e66154/analysis.json",
@@ -3853,7 +3874,7 @@
     },
     "e34ad713f1a4c9a5403a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.966557+00:00"
+      "updated_at": "2026-10-22T05:57:26.509177+00:00"
     },
     "e43801e1f35d88bd75e0": {
       "analysis_path": "episodes/2026-07-01/the-coolest-diffusion-research-isn-t-in-llms-evan-feinberg-sergey-edunov-genesis-molecular-e43801e1f35d88bd75e0/analysis.json",
@@ -3977,6 +3998,23 @@
       "transcript_source": "rss_embedded_transcript",
       "transcript_source_url": "https://www.latent.space/p/gray-swan",
       "updated_at": "2026-06-23T15:03:36.936042+00:00"
+    },
+    "e7aeb221efa3f4282852": {
+      "analysis_path": "episodes/2026-10-20/ep-039-emergency-our-numbers-are-insane-here-s-the-proof-datacenters-jeremie-ontiveros-rey-e7aeb221efa3f4282852/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--039---EMERGENCY-Our-Numbers-Are-Insane--Heres-the-Proof--Datacenters--Jeremie-Ontiveros--Reyk-Knuhtsen--Jordan-Nanos-e3qpvpg",
+      "published": "2026-10-20T15:09:36+00:00",
+      "raw_transcript": "episodes/2026-10-20/ep-039-emergency-our-numbers-are-insane-here-s-the-proof-datacenters-jeremie-ontiveros-rey-e7aeb221efa3f4282852/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-10-20/ep-039-emergency-our-numbers-are-insane-here-s-the-proof-datacenters-jeremie-ontiveros-rey-e7aeb221efa3f4282852/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-20/ep-039-emergency-our-numbers-are-insane-here-s-the-proof-datacenters-jeremie-ontiveros-rey-e7aeb221efa3f4282852/summary.md",
+      "title": "Ep. 039 - [EMERGENCY] Our Numbers Are \"Insane.\" Here's the Proof. (Datacenters) | Jeremie Ontiveros, Reyk Knuhtsen, Jordan Nanos",
+      "transcript_path": "episodes/2026-10-20/ep-039-emergency-our-numbers-are-insane-here-s-the-proof-datacenters-jeremie-ontiveros-rey-e7aeb221efa3f4282852/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=I3tNGNjYcDw",
+      "updated_at": "2026-10-22T06:05:04.224047+00:00"
     },
     "e7b0e34ac82ae8c73b8e": {
       "status": "metadata_skipped",
@@ -4284,7 +4322,7 @@
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-21T06:01:16.965892+00:00"
+      "updated_at": "2026-10-22T05:57:26.507980+00:00"
     },
     "fd4858316c2416c17581": {
       "error": "TBPN / AI Video Game Mods, Should You Sell Your Data, Bryan Johnson on Endurance Racing | Sean Frank, Linda Du, Ali Partovi, Sigil Wen, Jerry Wu, Bryan Johnson: TranscriptUnavailable: no publisher transcript or YouTube captions found",
