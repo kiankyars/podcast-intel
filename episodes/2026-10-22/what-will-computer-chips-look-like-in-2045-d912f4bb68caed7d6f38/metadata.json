@@ -1,0 +1,62 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/221632772/30c38515d3ea0554c60350beead67f42.mp3",
+  "description_html": "<p>I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like.</p><p>A lot of what's coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bonding \u2013 is hard to follow without actually seeing it, so we made all the awesome animated explainers that I wish I had while I was prepping.</p><p>I also asked Intel\u2019s leadership how the semiconductor industry will cope with the enormous shock in demand from AI.</p><p>AI compute has grown 3x a year for the last decade, but according to Intel's CTO, Intel could only double leading-edge wafer production with today\u2019s global stock of chipmaking tools.</p><p>What kinds of tricks can foundries pull to extend this crossover point where demand surges way ahead of supply?</p><p>This was a totally new format for us - hope you enjoy!</p><p>I also made flashcards for the concepts I had to learn to prep for this episode <a target=\"_blank\" href=\"http://flashcards.dwarkesh.com/intel\">here</a>.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/frYSOKvNiiE\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/intel-tour\">transcript</a>.</p><p>Sponsors</p><p><a target=\"_blank\" href=\"https://workos.com\">WorkOS</a> helps you do business with enterprises. It gives you access to all the features most commonly required by enterprises: SSO, SCIM, RBAC, audit logs, and more. It\u2019s easy to plug these features in \u2014 it only takes a few lines of code \u2014 and WorkOS is releasing new functionality all the time, including things like auth for agents. If you want to join the 3,000+ companies that rely on WorkOS, go to<a target=\"_blank\" href=\"https://workos.com\"> </a><a target=\"_blank\" href=\"http://workos.com\">workos.com</a></p><p><a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a> built a powerful tool called magic-trace to help analyze and debug their trading systems. It only exists because one engineer noticed a feature on Intel chips called Processor Trace and thought it\u2019d be valuable to build on top of. Now, traders and developers across Jane Street use magic-trace every single day! If you want to be trusted to pursue the ideas you think matter most, Jane Street is hiring. Go to<a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\"> janestreet.com/dwarkesh</a></p><p><a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">Antithesis</a>\u2019 testing platform lets you perfectly reproduce every single bug you find. That\u2019s because it runs on a fully deterministic computer, which strips out all the unpredictability that can make certain bugs flaky and hard to pin down. To build it, Antithesis found every source of non-determinism in Intel\u2019s x86 architecture and either sealed it off or replaced it with a controlled simulation. Learn more at<a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\"> antithesis.com/dwarkesh</a></p><p>Timestamps</p><p>(00:00:00) \u2013 Intro</p><p>(00:00:47) \u2013 How Intel brings up a new process node</p><p>(00:03:22) \u2013 What Intel learned from 10nm</p><p>(00:06:28) \u2013 From planar transistors to gate-all-around</p><p>(00:13:13) \u2013 Why High-NA EUV pays off for Intel but not TSMC</p><p>(00:19:20) \u2013 Could chips have evolved completely differently?</p><p>(00:23:33) \u2013 Inside Intel\u2019s \u201cHot Topics\u201d meeting</p><p>(00:29:30) \u2013 Replacing copper wires with ruthenium</p><p>(00:32:41) \u2013 Why stacked transistors take a decade to ship</p><p>(00:39:45) \u2013 Hybrid bonding and the chip-to-chip bottleneck</p><p>(00:48:00) \u2013 There aren\u2019t enough tools to 10x chip production</p><p>(00:53:14) \u2013 Can Intel catch up to TSMC?</p><p>(01:01:02) \u2013 Terafab, and rethinking the fab from scratch</p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.dwarkesh.com?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.dwarkesh.com</a>",
+  "description_text": "I spent two days touring Intel\u2019s most advanced fab and talking to its technical leadership to understand what the chips of the future will look like.\n\nA lot of what's coming next \u2013 gate-all-around transistors, backside power, CFET, hybrid bonding \u2013 is hard to follow without actually seeing it, so we made all the awesome animated explainers that I wish I had while I was prepping.\n\nI also asked Intel\u2019s leadership how the semiconductor industry will cope with the enormous shock in demand from AI.\n\nAI compute has grown 3x a year for the last decade, but according to Intel's CTO, Intel could only double leading-edge wafer production with today\u2019s global stock of chipmaking tools.\n\nWhat kinds of tricks can foundries pull to extend this crossover point where demand surges way ahead of supply?\n\nThis was a totally new format for us - hope you enjoy!\n\nI also made flashcards for the concepts I had to learn to prep for this episode here .\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\nWorkOS helps you do business with enterprises. It gives you access to all the features most commonly required by enterprises: SSO, SCIM, RBAC, audit logs, and more. It\u2019s easy to plug these features in \u2014 it only takes a few lines of code \u2014 and WorkOS is releasing new functionality all the time, including things like auth for agents. If you want to join the 3,000+ companies that rely on WorkOS, go to workos.com\n\nJane Street built a powerful tool called magic-trace to help analyze and debug their trading systems. It only exists because one engineer noticed a feature on Intel chips called Processor Trace and thought it\u2019d be valuable to build on top of. Now, traders and developers across Jane Street use magic-trace every single day! If you want to be trusted to pursue the ideas you think matter most, Jane Street is hiring. Go to janestreet.com/dwarkesh\n\nAntithesis \u2019 testing platform lets you perfectly reproduce every single bug you find. That\u2019s because it runs on a fully deterministic computer, which strips out all the unpredictability that can make certain bugs flaky and hard to pin down. To build it, Antithesis found every source of non-determinism in Intel\u2019s x86 architecture and either sealed it off or replaced it with a controlled simulation. Learn more at antithesis.com/dwarkesh\n\nTimestamps\n\n(00:00:00) \u2013 Intro\n\n(00:00:47) \u2013 How Intel brings up a new process node\n\n(00:03:22) \u2013 What Intel learned from 10nm\n\n(00:06:28) \u2013 From planar transistors to gate-all-around\n\n(00:13:13) \u2013 Why High-NA EUV pays off for Intel but not TSMC\n\n(00:19:20) \u2013 Could chips have evolved completely differently?\n\n(00:23:33) \u2013 Inside Intel\u2019s \u201cHot Topics\u201d meeting\n\n(00:29:30) \u2013 Replacing copper wires with ruthenium\n\n(00:32:41) \u2013 Why stacked transistors take a decade to ship\n\n(00:39:45) \u2013 Hybrid bonding and the chip-to-chip bottleneck\n\n(00:48:00) \u2013 There aren\u2019t enough tools to 10x chip production\n\n(00:53:14) \u2013 Can Intel catch up to TSMC?\n\n(01:01:02) \u2013 Terafab, and rethinking the fab from scratch\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com",
+  "duration_seconds": 4140,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "d912f4bb68caed7d6f38",
+  "link": "https://www.dwarkesh.com/p/intel-tour",
+  "published": "2026-10-22T15:02:21+00:00",
+  "title": "What will computer chips look like in 2045?",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://www.dwarkesh.com/p/intel-tour",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "here",
+      "url": "http://flashcards.dwarkesh.com/intel"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/frYSOKvNiiE"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/intel-tour"
+    },
+    {
+      "text": "WorkOS",
+      "url": "https://workos.com"
+    },
+    {
+      "text": "",
+      "url": "https://workos.com"
+    },
+    {
+      "text": "workos.com",
+      "url": "http://workos.com"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "Antithesis",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "antithesis.com/dwarkesh",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}

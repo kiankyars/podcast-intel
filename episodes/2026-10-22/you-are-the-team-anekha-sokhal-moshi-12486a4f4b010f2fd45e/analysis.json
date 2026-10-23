@@ -1,0 +1,43 @@
+{
+  "changed_views": [
+    "A usable recommendation workflow still requires validation beyond a functioning dashboard."
+  ],
+  "entities": [
+    "Moshi",
+    "Anekha Sokhal",
+    "swyx"
+  ],
+  "follow_ups": [
+    "Measure recommendation usefulness, confidence calibration, document accuracy, data controls and retained paid usage."
+  ],
+  "relevance_score": 3,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Sokhal says Moshi connects public and private market data to recommend information relevant to a trader's portfolio.",
+      "confidence": "medium",
+      "evidence": "An ontology and graph support proactive recommendations alongside queries. The claimed ingestion rate has no defined unit or accuracy benchmark.",
+      "kind": "observation",
+      "timestamp": "6:09; 7:11; 8:11; 10:14"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Sokhal treats disagreement between trusted sources as information to preserve.",
+      "confidence": "medium",
+      "evidence": "She describes confidence scores and contextualizing conflicting reports. No calibration results establish whether those scores predict correctness.",
+      "kind": "observation",
+      "timestamp": "15:20; 16:21"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Sokhal links internal document models to customer-data controls and available engineering talent.",
+      "confidence": "medium",
+      "evidence": "She describes extracting uploaded PDFs and avoiding uncontrolled third-party processing. This does not establish on-premises deployment, universal confidentiality or better extraction economics.",
+      "kind": "observation",
+      "timestamp": "16:21; 17:24"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Anekha Sokhal describes Moshi's commodity-research system: portfolio-specific recommendations, source disagreement and privately processed documents. The interview supplies product mechanisms, without measured trading performance or adoption.",
+  "why_it_matters": "Its differentiation depends on useful connections and workflow adoption, beyond ingesting more information. Customer data handling also shapes the architecture."
+}

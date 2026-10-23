@@ -1,0 +1,226 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/221647996/7b166f0836b31568962798909d4a8801.mp3",
+  "description_html": "<p><em>Warm welcome to </em><a target=\"_blank\" href=\"https://x.com/realbasilchatha?lang=en\"><em>Basil Chatha</em></a><em>, our newest </em><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=MwNvowwcZOo\"><em>cohost</em></a><em> from the </em><a target=\"_blank\" href=\"https://www.forwardeployed.com/about\"><em>Forward Deployed</em></a><em> side of the AI Engineering world! We\u2019ll be ramping up a new show with him and couldn\u2019t pass up an interview with Modal\u2019s CEO Eric on the occasion of their monster Series D!</em></p><p>Two years ago, <a target=\"_blank\" href=\"https://www.latent.space/p/modal\">we spoke with Erik Bernhardsson</a> about his vision for truly serverless AI infrastructure: developers should be able to run code without provisioning clusters, predicting load, or paying for idle resources. <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=UwxxlTNPjWo&#38;feature=youtu.be\">CTO Akshat</a> then joined us to talk about Modal\u2019s infra primitives and stack to offer those primitives and agent experience.</p><p>A lot has changed in the past 5 months. Since their $5B series C, Modal now reports it crossed <a target=\"_blank\" href=\"https://modal.com/blog/1-billion-annualized-run-rate-series-d\">$1 billion in annualized run rate</a>, raised a <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d\"><strong>$750 million Series D at a $16B valuation</strong></a>, and has spun up nearly three billion sandboxes. In this conversation, Erik joins Vibhu to explain the infrastructure and economics behind that growth\u2014and why demand for compute rarely looks like the contracts used to buy it.</p><p><a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I\">Watch the full conversation on YouTube \u2192</a></p><p></p><p></p><p>GPU demand isn\u2019t rectangular</p><p>A typical capacity contract gives a customer a fixed number of GPUs for a fixed period. Plot capacity against time and you get a rectangle. Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand.</p><p>Erik describes Modal\u2019s bet as a kind of duration transformation: pool demand across thousands of customers, secure capacity underneath, and let each customer use what they need when they need it. The smoother the aggregate demand, the more useful that pool can be. It\u2019s a useful companion to <a target=\"_blank\" href=\"https://www.latent.space/p/sfcompute2\">our conversation with SF Compute\u2019s Evan Conrad</a>: Evan focuses on making capacity tradeable; Erik focuses on making it usable in smaller, elastic slices.</p><p>There is a financial risk on the other side. If a provider locks in capacity at today\u2019s prices and GPU prices later fall, it can be left holding expensive supply. Erik says he doesn\u2019t expect an imminent collapse, but thinks the possibility matters when building the business. <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=1185\">Jump to the GPU price discussion \u2192</a></p><p>The sandbox that almost didn\u2019t make it</p><p>Modal launched sandboxes after Erik and cofounder Akshat Bubna noticed that language models could generate code\u2014and that someone would need a place to run it. Early adoption was modest enough that the team discussed shutting the product down. Then coding agents, background agents, and reinforcement learning created new demand. Erik says sandboxes have grown to roughly a third of Modal\u2019s revenue, a result he didn\u2019t predict at launch.</p><p>That growth also changes what infrastructure has to do. An agent may create an environment, run code, inspect the result, and try again many times. The latency of starting and restoring those environments becomes part of the experience. In <a target=\"_blank\" href=\"https://www.latent.space/p/modal2026\">our recent interview with Akshat</a>, we explored this shift from developer experience to agent experience; here Erik adds the product and business story. <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=1989\">Jump to the sandbox discussion \u2192</a></p><p>Fast startup is an infrastructure feature</p><p>Elasticity only works if capacity can arrive quickly enough to matter. Modal\u2019s <a target=\"_blank\" href=\"https://modal.com/blog/truly-serverless-gpus\">serverless GPU write-up</a> describes the machinery: a buffer of available GPUs, a custom filesystem, process checkpointing, and GPU memory snapshots. Those pieces reduce the work needed to bring another model replica online. It is a concrete example of how infrastructure decisions show up in an application\u2019s responsiveness and cost.</p><p>We also discuss Erik\u2019s path from Spotify\u2019s recommendation system to Modal, how the company buys compute, alternatives to NVIDIA, forward-deployed engineers, and why code review is optional at Modal. <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=3809\">Jump to engineering culture \u2192</a></p><p>Show notes</p><p>* <a target=\"_blank\" href=\"https://modal.com/\">Modal</a> \u2014 the AI infrastructure platform Erik founded.</p><p>* <a target=\"_blank\" href=\"https://erikbern.com/\">Erik\u2019s writing</a> \u2014 his essays on infrastructure, markets, and building companies.</p><p>* <a target=\"_blank\" href=\"https://modal.com/blog/1-billion-annualized-run-rate-series-d\">Modal\u2019s Series D announcement</a> \u2014 the company\u2019s latest reported growth and sandbox milestones.</p><p>* <a target=\"_blank\" href=\"https://modal.com/blog/truly-serverless-gpus\">How Modal achieved truly serverless GPUs</a> \u2014 the startup and scaling techniques behind elastic inference.</p><p>* <a target=\"_blank\" href=\"https://modal.com/blog/resource-solver\">Modal\u2019s resource solver</a> \u2014 how it selects capacity across changing prices and availability.</p><p>* <a target=\"_blank\" href=\"https://modal.com/blog/scaling-to-1-million-concurrent-sandboxes-in-seconds\">Scaling to one million concurrent sandboxes</a> \u2014 an engineering account of sandbox scaling.</p><p>* <a target=\"_blank\" href=\"https://www.latent.space/p/modal\">Our first interview with Erik</a> \u2014 the original serverless infrastructure thesis.</p><p>* <a target=\"_blank\" href=\"https://www.latent.space/p/modal2026\">Our interview with Akshat Bubna</a> \u2014 infrastructure and developer experience for agents.</p><p>* <a target=\"_blank\" href=\"https://www.latent.space/p/sfcompute2\">The Programmable Data Center</a> \u2014 Evan Conrad on GPU trading and physical settlement.</p><p>Timestamps</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=0\">0:00</a> What Modal does</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=85\">1:25</a> From Spotify to building Modal</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=259\">4:19</a> Founding before the generative AI boom</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=463\">7:43</a> First customers and fundraising</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=600\">10:00</a> Building for inference and autoscaling</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=801\">13:21</a> Where Modal gets GPU capacity</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=939\">15:39</a> Renting vs. owning infrastructure</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=1185\">19:45</a> The risk of GPU prices falling</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=1458\">24:18</a> Is AI demand infinite?</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=1572\">26:12</a> Alternatives to NVIDIA</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=1705\">28:25</a> What Modal can learn from neoclouds</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=1826\">30:26</a> GPUs as an asset class</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=1915\">31:55</a> Modal\u2019s products: functions and sandboxes</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=2163\">36:03</a> The case for smaller training workloads</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=2481\">41:21</a> How agent sandboxes are changing</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=2808\">46:48</a> Anthropic and sandbox security</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=2969\">49:29</a> Using agents to test security</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=3171\">52:51</a> Developer experience in the age of agents</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=3465\">57:45</a> What Modal\u2019s forward-deployed engineers do</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=3595\">59:55</a> Modal\u2019s approach to product management</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=3809\">1:03:29</a> Optional code reviews and engineering culture</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=3956\">1:05:56</a> Cloud, on-prem and bring-your-own-cloud</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=4165\">1:09:25</a> Capacity, fundraising and growth</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=4387\">1:13:07</a> Scaling the team</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=4648\">1:17:28</a> Erik\u2019s tweets: ephemeral sandboxes</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=4711\">1:18:31</a> The problem with rectangular GPU contracts</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=4880\">1:21:20</a> Inference providers vs. model builders</p><p>* <a target=\"_blank\" href=\"https://youtu.be/IiZ9yd2Do8I?t=5005\">1:23:25</a> Where models improve next</p>",
+  "description_text": "Warm welcome to Basil Chatha , our newest cohost from the Forward Deployed side of the AI Engineering world! We\u2019ll be ramping up a new show with him and couldn\u2019t pass up an interview with Modal\u2019s CEO Eric on the occasion of their monster Series D!\n\nTwo years ago, we spoke with Erik Bernhardsson about his vision for truly serverless AI infrastructure: developers should be able to run code without provisioning clusters, predicting load, or paying for idle resources. CTO Akshat then joined us to talk about Modal\u2019s infra primitives and stack to offer those primitives and agent experience.\n\nA lot has changed in the past 5 months. Since their $5B series C, Modal now reports it crossed $1 billion in annualized run rate , raised a $750 million Series D at a $16B valuation , and has spun up nearly three billion sandboxes. In this conversation, Erik joins Vibhu to explain the infrastructure and economics behind that growth\u2014and why demand for compute rarely looks like the contracts used to buy it.\n\nWatch the full conversation on YouTube \u2192\n\nGPU demand isn\u2019t rectangular\n\nA typical capacity contract gives a customer a fixed number of GPUs for a fixed period. Plot capacity against time and you get a rectangle. Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand.\n\nErik describes Modal\u2019s bet as a kind of duration transformation: pool demand across thousands of customers, secure capacity underneath, and let each customer use what they need when they need it. The smoother the aggregate demand, the more useful that pool can be. It\u2019s a useful companion to our conversation with SF Compute\u2019s Evan Conrad : Evan focuses on making capacity tradeable; Erik focuses on making it usable in smaller, elastic slices.\n\nThere is a financial risk on the other side. If a provider locks in capacity at today\u2019s prices and GPU prices later fall, it can be left holding expensive supply. Erik says he doesn\u2019t expect an imminent collapse, but thinks the possibility matters when building the business. Jump to the GPU price discussion \u2192\n\nThe sandbox that almost didn\u2019t make it\n\nModal launched sandboxes after Erik and cofounder Akshat Bubna noticed that language models could generate code\u2014and that someone would need a place to run it. Early adoption was modest enough that the team discussed shutting the product down. Then coding agents, background agents, and reinforcement learning created new demand. Erik says sandboxes have grown to roughly a third of Modal\u2019s revenue, a result he didn\u2019t predict at launch.\n\nThat growth also changes what infrastructure has to do. An agent may create an environment, run code, inspect the result, and try again many times. The latency of starting and restoring those environments becomes part of the experience. In our recent interview with Akshat , we explored this shift from developer experience to agent experience; here Erik adds the product and business story. Jump to the sandbox discussion \u2192\n\nFast startup is an infrastructure feature\n\nElasticity only works if capacity can arrive quickly enough to matter. Modal\u2019s serverless GPU write-up describes the machinery: a buffer of available GPUs, a custom filesystem, process checkpointing, and GPU memory snapshots. Those pieces reduce the work needed to bring another model replica online. It is a concrete example of how infrastructure decisions show up in an application\u2019s responsiveness and cost.\n\nWe also discuss Erik\u2019s path from Spotify\u2019s recommendation system to Modal, how the company buys compute, alternatives to NVIDIA, forward-deployed engineers, and why code review is optional at Modal. Jump to engineering culture \u2192\n\nShow notes\n\n* Modal \u2014 the AI infrastructure platform Erik founded.\n\n* Erik\u2019s writing \u2014 his essays on infrastructure, markets, and building companies.\n\n* Modal\u2019s Series D announcement \u2014 the company\u2019s latest reported growth and sandbox milestones.\n\n* How Modal achieved truly serverless GPUs \u2014 the startup and scaling techniques behind elastic inference.\n\n* Modal\u2019s resource solver \u2014 how it selects capacity across changing prices and availability.\n\n* Scaling to one million concurrent sandboxes \u2014 an engineering account of sandbox scaling.\n\n* Our first interview with Erik \u2014 the original serverless infrastructure thesis.\n\n* Our interview with Akshat Bubna \u2014 infrastructure and developer experience for agents.\n\n* The Programmable Data Center \u2014 Evan Conrad on GPU trading and physical settlement.\n\nTimestamps\n\n* 0:00 What Modal does\n\n* 1:25 From Spotify to building Modal\n\n* 4:19 Founding before the generative AI boom\n\n* 7:43 First customers and fundraising\n\n* 10:00 Building for inference and autoscaling\n\n* 13:21 Where Modal gets GPU capacity\n\n* 15:39 Renting vs. owning infrastructure\n\n* 19:45 The risk of GPU prices falling\n\n* 24:18 Is AI demand infinite?\n\n* 26:12 Alternatives to NVIDIA\n\n* 28:25 What Modal can learn from neoclouds\n\n* 30:26 GPUs as an asset class\n\n* 31:55 Modal\u2019s products: functions and sandboxes\n\n* 36:03 The case for smaller training workloads\n\n* 41:21 How agent sandboxes are changing\n\n* 46:48 Anthropic and sandbox security\n\n* 49:29 Using agents to test security\n\n* 52:51 Developer experience in the age of agents\n\n* 57:45 What Modal\u2019s forward-deployed engineers do\n\n* 59:55 Modal\u2019s approach to product management\n\n* 1:03:29 Optional code reviews and engineering culture\n\n* 1:05:56 Cloud, on-prem and bring-your-own-cloud\n\n* 1:09:25 Capacity, fundraising and growth\n\n* 1:13:07 Scaling the team\n\n* 1:17:28 Erik\u2019s tweets: ephemeral sandboxes\n\n* 1:18:31 The problem with rectangular GPU contracts\n\n* 1:21:20 Inference providers vs. model builders\n\n* 1:23:25 Where models improve next",
+  "duration_seconds": 5133,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "cb9379216092351b95ea",
+  "link": "https://www.latent.space/p/modal-d",
+  "published": "2026-10-22T17:40:57+00:00",
+  "title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
+  "transcript_source": "rss_embedded_transcript",
+  "transcript_source_url": "https://www.latent.space/p/modal-d",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "Basil Chatha",
+      "url": "https://x.com/realbasilchatha?lang=en"
+    },
+    {
+      "text": "cohost",
+      "url": "https://www.youtube.com/watch?v=MwNvowwcZOo"
+    },
+    {
+      "text": "Forward Deployed",
+      "url": "https://www.forwardeployed.com/about"
+    },
+    {
+      "text": "we spoke with Erik Bernhardsson",
+      "url": "https://www.latent.space/p/modal"
+    },
+    {
+      "text": "CTO Akshat",
+      "url": "https://www.youtube.com/watch?v=UwxxlTNPjWo&feature=youtu.be"
+    },
+    {
+      "text": "$1 billion in annualized run rate",
+      "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d"
+    },
+    {
+      "text": "$750 million Series D at a $16B valuation",
+      "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d"
+    },
+    {
+      "text": "Watch the full conversation on YouTube \u2192",
+      "url": "https://youtu.be/IiZ9yd2Do8I"
+    },
+    {
+      "text": "our conversation with SF Compute\u2019s Evan Conrad",
+      "url": "https://www.latent.space/p/sfcompute2"
+    },
+    {
+      "text": "Jump to the GPU price discussion \u2192",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=1185"
+    },
+    {
+      "text": "our recent interview with Akshat",
+      "url": "https://www.latent.space/p/modal2026"
+    },
+    {
+      "text": "Jump to the sandbox discussion \u2192",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=1989"
+    },
+    {
+      "text": "serverless GPU write-up",
+      "url": "https://modal.com/blog/truly-serverless-gpus"
+    },
+    {
+      "text": "Jump to engineering culture \u2192",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=3809"
+    },
+    {
+      "text": "Modal",
+      "url": "https://modal.com/"
+    },
+    {
+      "text": "Erik\u2019s writing",
+      "url": "https://erikbern.com/"
+    },
+    {
+      "text": "Modal\u2019s Series D announcement",
+      "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d"
+    },
+    {
+      "text": "How Modal achieved truly serverless GPUs",
+      "url": "https://modal.com/blog/truly-serverless-gpus"
+    },
+    {
+      "text": "Modal\u2019s resource solver",
+      "url": "https://modal.com/blog/resource-solver"
+    },
+    {
+      "text": "Scaling to one million concurrent sandboxes",
+      "url": "https://modal.com/blog/scaling-to-1-million-concurrent-sandboxes-in-seconds"
+    },
+    {
+      "text": "Our first interview with Erik",
+      "url": "https://www.latent.space/p/modal"
+    },
+    {
+      "text": "Our interview with Akshat Bubna",
+      "url": "https://www.latent.space/p/modal2026"
+    },
+    {
+      "text": "The Programmable Data Center",
+      "url": "https://www.latent.space/p/sfcompute2"
+    },
+    {
+      "text": "0:00",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=0"
+    },
+    {
+      "text": "1:25",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=85"
+    },
+    {
+      "text": "4:19",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=259"
+    },
+    {
+      "text": "7:43",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=463"
+    },
+    {
+      "text": "10:00",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=600"
+    },
+    {
+      "text": "13:21",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=801"
+    },
+    {
+      "text": "15:39",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=939"
+    },
+    {
+      "text": "19:45",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=1185"
+    },
+    {
+      "text": "24:18",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=1458"
+    },
+    {
+      "text": "26:12",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=1572"
+    },
+    {
+      "text": "28:25",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=1705"
+    },
+    {
+      "text": "30:26",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=1826"
+    },
+    {
+      "text": "31:55",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=1915"
+    },
+    {
+      "text": "36:03",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=2163"
+    },
+    {
+      "text": "41:21",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=2481"
+    },
+    {
+      "text": "46:48",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=2808"
+    },
+    {
+      "text": "49:29",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=2969"
+    },
+    {
+      "text": "52:51",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=3171"
+    },
+    {
+      "text": "57:45",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=3465"
+    },
+    {
+      "text": "59:55",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=3595"
+    },
+    {
+      "text": "1:03:29",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=3809"
+    },
+    {
+      "text": "1:05:56",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=3956"
+    },
+    {
+      "text": "1:09:25",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=4165"
+    },
+    {
+      "text": "1:13:07",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=4387"
+    },
+    {
+      "text": "1:17:28",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=4648"
+    },
+    {
+      "text": "1:18:31",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=4711"
+    },
+    {
+      "text": "1:21:20",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=4880"
+    },
+    {
+      "text": "1:23:25",
+      "url": "https://youtu.be/IiZ9yd2Do8I?t=5005"
+    },
+    {
+      "text": "www.latent.space",
+      "url": "https://www.latent.space?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}

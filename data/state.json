@@ -214,7 +214,7 @@
     },
     "0d494e96bd9fd1d8ded8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.504170+00:00"
+      "updated_at": "2026-10-23T05:55:42.772010+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -326,6 +326,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=SK9ITBK5osA",
       "updated_at": "2026-08-28T16:08:24.997878+00:00"
     },
+    "12486a4f4b010f2fd45e": {
+      "analysis_path": "episodes/2026-10-22/you-are-the-team-anekha-sokhal-moshi-12486a4f4b010f2fd45e/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/moshi",
+      "published": "2026-10-22T14:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-22/you-are-the-team-anekha-sokhal-moshi-12486a4f4b010f2fd45e/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-10-22/you-are-the-team-anekha-sokhal-moshi-12486a4f4b010f2fd45e/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-22/you-are-the-team-anekha-sokhal-moshi-12486a4f4b010f2fd45e/summary.md",
+      "title": "You are the Team  \u2014 Anekha Sokhal, Moshi",
+      "transcript_path": "episodes/2026-10-22/you-are-the-team-anekha-sokhal-moshi-12486a4f4b010f2fd45e/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.latent.space/p/moshi",
+      "updated_at": "2026-10-23T06:02:44.315625+00:00"
+    },
     "124e0388e9d2e140a7c9": {
       "analysis_path": "episodes/2026-10-02/academia-is-for-ambition-alex-zhang-mit-124e0388e9d2e140a7c9/analysis.json",
       "error": "",
@@ -362,7 +379,7 @@
     },
     "14569a81115ecd803781": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.500958+00:00"
+      "updated_at": "2026-10-23T05:55:42.768994+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -747,7 +764,7 @@
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.497442+00:00"
+      "updated_at": "2026-10-23T05:55:42.766130+00:00"
     },
     "27bbb91c13fabb93dab9": {
       "status": "metadata_skipped",
@@ -873,11 +890,11 @@
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.502446+00:00"
+      "updated_at": "2026-10-23T05:55:42.770041+00:00"
     },
     "2cd282efff414185c755": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.503445+00:00"
+      "updated_at": "2026-10-23T05:55:42.771188+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -1263,7 +1280,7 @@
     },
     "44cfdd21e26cf4ab151d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.507008+00:00"
+      "updated_at": "2026-10-23T05:55:42.774554+00:00"
     },
     "4551f4ac900ae65079c3": {
       "analysis_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/analysis.json",
@@ -1623,6 +1640,10 @@
     "5b706a9eeb4176543bdc": {
       "status": "metadata_skipped",
       "updated_at": "2026-10-21T06:01:16.968704+00:00"
+    },
+    "5c24bd5b343b0119f6c5": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-23T05:55:42.764634+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -2634,7 +2655,7 @@
     },
     "99556667c68cce18d27b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.500247+00:00"
+      "updated_at": "2026-10-23T05:55:42.768008+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -3044,7 +3065,7 @@
     },
     "afe6b7df59e302e1335b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.499171+00:00"
+      "updated_at": "2026-10-23T05:55:42.767072+00:00"
     },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
@@ -3395,7 +3416,7 @@
     },
     "c7511b690819590aa310": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.504955+00:00"
+      "updated_at": "2026-10-23T05:55:42.772742+00:00"
     },
     "c752e1f0326372f9c412": {
       "analysis_path": "episodes/2026-07-04/intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-device-native-foundati-c752e1f0326372f9c412/analysis.json",
@@ -3518,7 +3539,7 @@
     },
     "ca1b13be5d2fbd6df977": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.505933+00:00"
+      "updated_at": "2026-10-23T05:55:42.773678+00:00"
     },
     "cac20ce3a5e8c6e66154": {
       "analysis_path": "episodes/2026-09-24/who-feeds-the-gpus-inside-ai-s-hidden-30b-layer-renen-hallak-vast-data-cac20ce3a5e8c6e66154/analysis.json",
@@ -3536,6 +3557,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=awoR908Yu5Y",
       "updated_at": "2026-09-25T16:07:32.462085+00:00"
+    },
+    "cb9379216092351b95ea": {
+      "analysis_path": "episodes/2026-10-22/why-ai-compute-comes-in-rectangles-erik-bernhardsson-modal-ceo-cb9379216092351b95ea/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.latent.space/p/modal-d",
+      "published": "2026-10-22T17:40:57+00:00",
+      "raw_transcript": "episodes/2026-10-22/why-ai-compute-comes-in-rectangles-erik-bernhardsson-modal-ceo-cb9379216092351b95ea/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-10-22/why-ai-compute-comes-in-rectangles-erik-bernhardsson-modal-ceo-cb9379216092351b95ea/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-22/why-ai-compute-comes-in-rectangles-erik-bernhardsson-modal-ceo-cb9379216092351b95ea/summary.md",
+      "title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
+      "transcript_path": "episodes/2026-10-22/why-ai-compute-comes-in-rectangles-erik-bernhardsson-modal-ceo-cb9379216092351b95ea/transcript.md",
+      "transcript_source": "rss_embedded_transcript",
+      "transcript_source_url": "https://www.latent.space/p/modal-d",
+      "updated_at": "2026-10-23T06:02:44.319738+00:00"
     },
     "cbdc147dbc5c8789a2ac": {
       "status": "metadata_skipped",
@@ -3676,6 +3714,23 @@
       "transcript_source_url": "https://www.latent.space/p/tenex",
       "updated_at": "2026-10-21T06:07:29.007810+00:00"
     },
+    "d4443963c3db5e0286ca": {
+      "analysis_path": "episodes/2026-10-22/the-new-apex-predator-crowdstrike-ceo-george-kurtz-on-adversaries-armed-with-ai-agents-d4443963c3db5e0286ca/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=PST8yesYOSo",
+      "published": "2026-10-22T10:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-22/the-new-apex-predator-crowdstrike-ceo-george-kurtz-on-adversaries-armed-with-ai-agents-d4443963c3db5e0286ca/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-22/the-new-apex-predator-crowdstrike-ceo-george-kurtz-on-adversaries-armed-with-ai-agents-d4443963c3db5e0286ca/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-22/the-new-apex-predator-crowdstrike-ceo-george-kurtz-on-adversaries-armed-with-ai-agents-d4443963c3db5e0286ca/summary.md",
+      "title": "The New Apex Predator: CrowdStrike CEO George Kurtz on Adversaries Armed With AI Agents",
+      "transcript_path": "episodes/2026-10-22/the-new-apex-predator-crowdstrike-ceo-george-kurtz-on-adversaries-armed-with-ai-agents-d4443963c3db5e0286ca/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=PST8yesYOSo",
+      "updated_at": "2026-10-23T06:02:44.322859+00:00"
+    },
     "d496c678af05e528a106": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-16T16:01:30.586389+00:00"
@@ -3696,6 +3751,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/ca871caf/transcription.txt",
       "updated_at": "2026-08-17T16:33:32.700006+00:00"
+    },
+    "d912f4bb68caed7d6f38": {
+      "analysis_path": "episodes/2026-10-22/what-will-computer-chips-look-like-in-2045-d912f4bb68caed7d6f38/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/intel-tour",
+      "published": "2026-10-22T15:02:21+00:00",
+      "raw_transcript": "episodes/2026-10-22/what-will-computer-chips-look-like-in-2045-d912f4bb68caed7d6f38/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-10-22/what-will-computer-chips-look-like-in-2045-d912f4bb68caed7d6f38/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-22/what-will-computer-chips-look-like-in-2045-d912f4bb68caed7d6f38/summary.md",
+      "title": "What will computer chips look like in 2045?",
+      "transcript_path": "episodes/2026-10-22/what-will-computer-chips-look-like-in-2045-d912f4bb68caed7d6f38/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://www.dwarkesh.com/p/intel-tour",
+      "updated_at": "2026-10-23T06:02:44.325873+00:00"
     },
     "d921af7bf6afd3988ac2": {
       "analysis_path": "episodes/2026-10-09/beam-the-great-american-open-model-with-reflectionai-co-founder-and-ceo-misha-laskin-d921af7bf6afd3988ac2/analysis.json",
@@ -3718,6 +3790,23 @@
       "error": "SemiAnalysis Weekly / Ep. 035 - Tech DD\u2019s, Performance Projections, Benchmarks, Supply Chain, Investment Thesis (Consulting)| Abhilash Jain, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
       "updated_at": "2026-10-06T16:02:04.457025+00:00"
+    },
+    "dae10283de43e6b7b583": {
+      "analysis_path": "episodes/2026-10-22/matthew-prince-on-php2shell-iphone-duo-early-reactions-meta-unveils-new-class-c-stock-matt-dae10283de43e6b7b583/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/3dd855a5",
+      "published": "2026-10-22T20:25:09+00:00",
+      "raw_transcript": "episodes/2026-10-22/matthew-prince-on-php2shell-iphone-duo-early-reactions-meta-unveils-new-class-c-stock-matt-dae10283de43e6b7b583/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-22/matthew-prince-on-php2shell-iphone-duo-early-reactions-meta-unveils-new-class-c-stock-matt-dae10283de43e6b7b583/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-22/matthew-prince-on-php2shell-iphone-duo-early-reactions-meta-unveils-new-class-c-stock-matt-dae10283de43e6b7b583/summary.md",
+      "title": "Matthew Prince on PHP2Shell, iPhone Duo Early Reactions, Meta Unveils New Class C Stock | Matthew Prince, Kevin Weil, MC Lader, Dillon Baxter, Richard Starson, Brian Manning",
+      "transcript_path": "episodes/2026-10-22/matthew-prince-on-php2shell-iphone-duo-early-reactions-meta-unveils-new-class-c-stock-matt-dae10283de43e6b7b583/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=xq6fzvVM6V4",
+      "updated_at": "2026-10-23T06:02:44.333043+00:00"
     },
     "de122b159a4cc8c54034": {
       "analysis_path": "episodes/2026-09-27/the-grief-loneliness-and-burnout-sweeping-through-the-tech-industry-right-now-molly-graham-de122b159a4cc8c54034/analysis.json",
@@ -3874,7 +3963,7 @@
     },
     "e34ad713f1a4c9a5403a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.509177+00:00"
+      "updated_at": "2026-10-23T05:55:42.776600+00:00"
     },
     "e43801e1f35d88bd75e0": {
       "analysis_path": "episodes/2026-07-01/the-coolest-diffusion-research-isn-t-in-llms-evan-feinberg-sergey-edunov-genesis-molecular-e43801e1f35d88bd75e0/analysis.json",
@@ -4322,7 +4411,7 @@
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-22T05:57:26.507980+00:00"
+      "updated_at": "2026-10-23T05:55:42.775253+00:00"
     },
     "fd4858316c2416c17581": {
       "error": "TBPN / AI Video Game Mods, Should You Sell Your Data, Bryan Johnson on Endurance Racing | Sean Frank, Linda Du, Ali Partovi, Sigil Wen, Jerry Wu, Bryan Johnson: TranscriptUnavailable: no publisher transcript or YouTube captions found",

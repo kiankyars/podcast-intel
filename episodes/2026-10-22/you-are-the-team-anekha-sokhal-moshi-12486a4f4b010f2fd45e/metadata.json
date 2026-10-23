@@ -1,0 +1,34 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/221404681/b91dcdf11abad0a82fba87e6e99dd5ba.mp3",
+  "description_html": "<p>Anekha Sokhal, CEO of Moshi, joins swyx to discuss building a recommendation engine for commodity traders, turning market data into useful signals, and designing AI that fits users\u2019 workflows.</p><p>Watch: <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=DWHyPWnzGAI\">YouTube</a> \u00b7 <a target=\"_blank\" href=\"https://hellomoshi.ai/\">Moshi</a> \u00b7 <a target=\"_blank\" href=\"https://anekha.github.io/resume/\">Anekha</a></p><p>0:00 AI Engineer New York and \u201cyou are the team\u201d</p><p>0:54 Meet Anekha</p><p>2:09 From mathematics to energy derivatives</p><p>3:46 Fulbright and becoming a founder</p><p>5:45 What Moshi does</p><p>6:10 Market data</p><p>9:03 Bloomberg and market workflows</p><p>10:03 Bloomberg, Claude and Netflix</p><p>12:03 From dashboards to workflows</p><p>15:03 Trusted sources and signal</p><p>17:13 Models and document extraction</p><p>18:20 AI Engineer New York</p><p>20:32 Customer meetings</p><p>23:54 Hiring and customers</p><p>25:55 swyx\u2019s path into AI</p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.latent.space?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.latent.space</a>",
+  "description_text": "Anekha Sokhal, CEO of Moshi, joins swyx to discuss building a recommendation engine for commodity traders, turning market data into useful signals, and designing AI that fits users\u2019 workflows.\n\nWatch: YouTube \u00b7 Moshi \u00b7 Anekha\n\n0:00 AI Engineer New York and \u201cyou are the team\u201d\n\n0:54 Meet Anekha\n\n2:09 From mathematics to energy derivatives\n\n3:46 Fulbright and becoming a founder\n\n5:45 What Moshi does\n\n6:10 Market data\n\n9:03 Bloomberg and market workflows\n\n10:03 Bloomberg, Claude and Netflix\n\n12:03 From dashboards to workflows\n\n15:03 Trusted sources and signal\n\n17:13 Models and document extraction\n\n18:20 AI Engineer New York\n\n20:32 Customer meetings\n\n23:54 Hiring and customers\n\n25:55 swyx\u2019s path into AI\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.latent.space",
+  "duration_seconds": 1601,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "12486a4f4b010f2fd45e",
+  "link": "https://www.latent.space/p/moshi",
+  "published": "2026-10-22T14:00:00+00:00",
+  "title": "You are the Team  \u2014 Anekha Sokhal, Moshi",
+  "transcript_source": "episode_page_transcript",
+  "transcript_source_url": "https://www.latent.space/p/moshi",
+  "transcript_urls": [],
+  "web_links": [
+    {
+      "text": "YouTube",
+      "url": "https://www.youtube.com/watch?v=DWHyPWnzGAI"
+    },
+    {
+      "text": "Moshi",
+      "url": "https://hellomoshi.ai/"
+    },
+    {
+      "text": "Anekha",
+      "url": "https://anekha.github.io/resume/"
+    },
+    {
+      "text": "www.latent.space",
+      "url": "https://www.latent.space?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}
