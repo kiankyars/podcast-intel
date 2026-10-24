@@ -214,7 +214,7 @@
     },
     "0d494e96bd9fd1d8ded8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.772010+00:00"
+      "updated_at": "2026-10-24T06:06:15.823355+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -379,7 +379,7 @@
     },
     "14569a81115ecd803781": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.768994+00:00"
+      "updated_at": "2026-10-24T06:06:15.821345+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -764,7 +764,7 @@
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.766130+00:00"
+      "updated_at": "2026-10-24T06:06:15.819283+00:00"
     },
     "27bbb91c13fabb93dab9": {
       "status": "metadata_skipped",
@@ -890,11 +890,11 @@
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.770041+00:00"
+      "updated_at": "2026-10-24T06:06:15.822012+00:00"
     },
     "2cd282efff414185c755": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.771188+00:00"
+      "updated_at": "2026-10-24T06:06:15.822680+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -1280,7 +1280,7 @@
     },
     "44cfdd21e26cf4ab151d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.774554+00:00"
+      "updated_at": "2026-10-24T06:06:15.825463+00:00"
     },
     "4551f4ac900ae65079c3": {
       "analysis_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/analysis.json",
@@ -1407,6 +1407,23 @@
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
       "updated_at": "2026-09-15T16:03:03.941882+00:00"
+    },
+    "51d1b9d57a343b0e621d": {
+      "analysis_path": "episodes/2026-10-23/democratizing-security-for-the-agentic-web-with-cloudflare-cto-dane-knecht-51d1b9d57a343b0e621d/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=6VprwfSc4Xk",
+      "published": "2026-10-23T10:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-23/democratizing-security-for-the-agentic-web-with-cloudflare-cto-dane-knecht-51d1b9d57a343b0e621d/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-23/democratizing-security-for-the-agentic-web-with-cloudflare-cto-dane-knecht-51d1b9d57a343b0e621d/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-23/democratizing-security-for-the-agentic-web-with-cloudflare-cto-dane-knecht-51d1b9d57a343b0e621d/summary.md",
+      "title": "Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht",
+      "transcript_path": "episodes/2026-10-23/democratizing-security-for-the-agentic-web-with-cloudflare-cto-dane-knecht-51d1b9d57a343b0e621d/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=6VprwfSc4Xk",
+      "updated_at": "2026-10-24T06:10:26.616347+00:00"
     },
     "51dd508efccc7b651d26": {
       "analysis_path": "episodes/2026-10-18/inside-the-black-box-of-ai-how-ai-models-actually-think-emmanuel-ameisen-anthropic-51dd508efccc7b651d26/analysis.json",
@@ -1643,7 +1660,7 @@
     },
     "5c24bd5b343b0119f6c5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.764634+00:00"
+      "updated_at": "2026-10-24T06:06:15.818592+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -2655,7 +2672,7 @@
     },
     "99556667c68cce18d27b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.768008+00:00"
+      "updated_at": "2026-10-24T06:06:15.820635+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -2762,6 +2779,10 @@
     "a1fa97f8e5a4ac29894b": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.103492+00:00"
+    },
+    "a240c8d7b42e167d6d3d": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-24T06:06:15.817885+00:00"
     },
     "a2c0cde3ebd3d530c6ff": {
       "analysis_path": "episodes/2026-06-04/reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs-a2c0cde3ebd3d530c6ff/analysis.json",
@@ -3065,7 +3086,7 @@
     },
     "afe6b7df59e302e1335b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.767072+00:00"
+      "updated_at": "2026-10-24T06:06:15.819961+00:00"
     },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
@@ -3416,7 +3437,7 @@
     },
     "c7511b690819590aa310": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.772742+00:00"
+      "updated_at": "2026-10-24T06:06:15.824015+00:00"
     },
     "c752e1f0326372f9c412": {
       "analysis_path": "episodes/2026-07-04/intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-device-native-foundati-c752e1f0326372f9c412/analysis.json",
@@ -3520,6 +3541,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=2cmlk-YlgRk",
       "updated_at": "2026-09-17T18:55:56.792126+00:00"
     },
+    "c9ff777b70d3fc64f7e5": {
+      "analysis_path": "episodes/2026-10-22/mistral-is-so-back-inside-le-chonk-the-west-s-biggest-open-model-pierre-stock-vp-science-m-c9ff777b70d3fc64f7e5/analysis.json",
+      "error": "",
+      "feed_id": "mad-podcast",
+      "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/Mistral-Is-SO-Back-Inside-Le-Chonk--the-Wests-Biggest-Open-Model-Pierre-Stock--VP-Science--Mistral-e3qsupu",
+      "published": "2026-10-22T11:30:00+00:00",
+      "raw_transcript": "episodes/2026-10-22/mistral-is-so-back-inside-le-chonk-the-west-s-biggest-open-model-pierre-stock-vp-science-m-c9ff777b70d3fc64f7e5/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-10-22/mistral-is-so-back-inside-le-chonk-the-west-s-biggest-open-model-pierre-stock-vp-science-m-c9ff777b70d3fc64f7e5/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-22/mistral-is-so-back-inside-le-chonk-the-west-s-biggest-open-model-pierre-stock-vp-science-m-c9ff777b70d3fc64f7e5/summary.md",
+      "title": "Mistral Is SO Back: Inside Le Chonk, the West\u2019s Biggest Open Model (Pierre Stock, VP Science, Mistral)",
+      "transcript_path": "episodes/2026-10-22/mistral-is-so-back-inside-le-chonk-the-west-s-biggest-open-model-pierre-stock-vp-science-m-c9ff777b70d3fc64f7e5/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=nxAoCPsGfe8",
+      "updated_at": "2026-10-24T06:10:26.626032+00:00"
+    },
     "ca0c43fba0998653a85c": {
       "analysis_path": "episodes/2026-09-02/ep-028-most-neoclouds-suck-at-security-how-agents-hacked-hugging-face-neoclouds-security-d-ca0c43fba0998653a85c/analysis.json",
       "error": "",
@@ -3539,7 +3577,7 @@
     },
     "ca1b13be5d2fbd6df977": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.773678+00:00"
+      "updated_at": "2026-10-24T06:06:15.824751+00:00"
     },
     "cac20ce3a5e8c6e66154": {
       "analysis_path": "episodes/2026-09-24/who-feeds-the-gpus-inside-ai-s-hidden-30b-layer-renen-hallak-vast-data-cac20ce3a5e8c6e66154/analysis.json",
@@ -3696,6 +3734,10 @@
     "d2fce60180d7428cf10d": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-12T16:02:58.594682+00:00"
+    },
+    "d335e9914a9e3058f71a": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-24T06:06:15.816800+00:00"
     },
     "d425cc0dcea12806250d": {
       "analysis_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/analysis.json",
@@ -3963,7 +4005,7 @@
     },
     "e34ad713f1a4c9a5403a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.776600+00:00"
+      "updated_at": "2026-10-24T06:06:15.826801+00:00"
     },
     "e43801e1f35d88bd75e0": {
       "analysis_path": "episodes/2026-07-01/the-coolest-diffusion-research-isn-t-in-llms-evan-feinberg-sergey-edunov-genesis-molecular-e43801e1f35d88bd75e0/analysis.json",
@@ -4411,7 +4453,7 @@
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-23T05:55:42.775253+00:00"
+      "updated_at": "2026-10-24T06:06:15.826124+00:00"
     },
     "fd4858316c2416c17581": {
       "error": "TBPN / AI Video Game Mods, Should You Sell Your Data, Bryan Johnson on Endurance Racing | Sean Frank, Linda Du, Ali Partovi, Sigil Wen, Jerry Wu, Bryan Johnson: TranscriptUnavailable: no publisher transcript or YouTube captions found",
