@@ -1,0 +1,75 @@
+{
+  "changed_views": [
+    "ASML's patent supports a technical design direction, while Besi publicly disputes the competition thesis. Customer qualification and product scope will distinguish these accounts.",
+    "Logic and HBM need separate adoption assumptions. SemiAnalysis's 2029-plus HBM forecast is later than Besi's expectation, making qualification scope and production volume critical to resolving the disagreement.",
+    "The larger-mask program is a 2030s ecosystem project layered onto earlier High-NA adoption, rather than an immediate fix available on every installed scanner.",
+    "China's stacking strategy can change system performance without reproducing a leading transistor process; that does not remove thermal, yield, design-tool or manufacturing constraints."
+  ],
+  "entities": [
+    "ASML",
+    "Besi",
+    "ASMPT",
+    "TSMC",
+    "Intel Foundry",
+    "Samsung",
+    "Supertrak",
+    "Huawei",
+    "Cadence",
+    "Jordan Nanos",
+    "Howie",
+    "Sherry Zhang"
+  ],
+  "follow_ups": [
+    "Track an ASML product announcement, customer qualification, scope of collaboration with existing bonding suppliers, and first delivery commitments before assigning commercial market share to the patent.",
+    "Request measured overlay, contamination, uptime, throughput and cost per good bonded die across comparable chip sizes and pitches.",
+    "Compare SemiAnalysis's 2029-plus HBM scenario with memory-vendor qualification and volume schedules, distinguishing test tools, base-die bonding and complete DRAM-stack adoption.",
+    "Track the 2031 mask pilot and 2033 system-readiness milestones, supplier commitments, actual mask dimensions, pellicle/inspection readiness and whether scanner changes require new tools.",
+    "Validate LogicFolding through reproducible die analysis and performance, thermal and yield measurements; compare equivalent multi-tier designs and EDA capabilities rather than nominal process-node labels."
+  ],
+  "relevance_score": 5,
+  "signals": [
+    {
+      "category": "semiconductors_compute",
+      "claim": "The analysts infer that ASML could apply lithography-grade positioning and metrology to a track-based hybrid bonder that brings the wafer to a die held on a carrier.",
+      "confidence": "medium",
+      "evidence": "They describe dies staying on holders through preparation and measurement before bonding. ASML's [WO2025201788A1 application](https://patents.google.com/patent/WO2025201788A1/en), published October 2, 2025, corroborates this design family, while permitting different positioning arrangements; it does not require that only the wafer moves. The speakers put commercialization several years away. Counterpoint: [Besi's October 22 release, pp. 2\u20133](https://www.besi.com/fileadmin/user_upload/PR_Q3-2026.pdf), says it does not view ASML as a competitor, understands ASML's work as longer-term transistor stacking, and describes joint die-stress work. Neither the patent nor these competing interpretations establishes a commercial product or displacement of Besi.",
+      "kind": "inference",
+      "timestamp": "00:38; 01:31; 02:16; 03:04; 13:32; 14:15"
+    },
+    {
+      "category": "semiconductors_compute",
+      "claim": "The proposed architecture shifts the commercial test from positioning accuracy alone to maintaining accuracy, cleanliness and throughput across an integrated moving system.",
+      "confidence": "medium",
+      "evidence": "Howie asks how measurement modules and process environments would engage dies on the track without degrading precision or introducing particles. Zhang connects alignment and contamination to bonding yield and usable throughput. A particle can prevent contact over an area larger than the contaminant itself, so a good measurement at one station is insufficient if the surface is recontaminated before bonding. The [patent](https://patents.google.com/patent/WO2025201788A1/en) proposes isolation and vibration-control arrangements; these are design provisions, not qualification results. No comparative yield, uptime, dies-per-hour or cost-per-good-bond measurements are supplied.",
+      "kind": "inference",
+      "timestamp": "14:43; 15:24; 15:47; 15:57; 17:05; 18:24; 19:18"
+    },
+    {
+      "category": "semiconductors_compute",
+      "claim": "SemiAnalysis forecasts that high-volume die-to-wafer hybrid bonding for HBM will wait until 2029 or later because stack-density gains do not yet justify the added cost and qualification burden.",
+      "confidence": "medium",
+      "evidence": "Howie contrasts logic's connectivity benefits with HBM's incentive to fit more memory layers into a package, and says customers have requested fewer layers at a given performance target. Zhang adds accuracy and throughput constraints. In contrast, [Besi's October 22 release, p. 2](https://www.besi.com/fileadmin/user_upload/PR_Q3-2026.pdf), anticipates hybrid bonding across HBM stack heights within two years. These are competing expectations, with potentially different adoption thresholds; neither provides a committed volume schedule or comparable cost-per-stack and yield data. Evaluation-tool orders are not equivalent to volume memory production.",
+      "kind": "forecast",
+      "timestamp": "07:38; 07:56; 08:55; 09:27; 09:56; 10:21; 11:04; 11:20"
+    },
+    {
+      "category": "semiconductors_compute",
+      "claim": "The move toward larger High-NA photomasks is a coordinated mask-ecosystem transition, with official targets of a 2031 pilot line and production-system readiness in 2033.",
+      "confidence": "high",
+      "evidence": "The speakers explain how doubling one mask dimension could restore a full exposure field under High-NA's asymmetric reduction and reduce stitching constraints. They identify mask production, inspection, repair, pellicles and handling as dependencies. The [September 8 ASML\u2013TSMC announcement](https://investor.asml.com/news-releases/news-release-details/asml-and-tsmc-announce-initiative-pioneer-industry-transition-large-format-photomasks-high-na-euv) supplies the 2031/2033 targets and explicitly says High-NA production starts with current six-inch masks. Larger masks therefore are not a prerequisite for initial High-NA adoption. The transcript's garbled year and area units should not be used as specifications; no retrofit compatibility or realized productivity gain is established here.",
+      "kind": "forecast",
+      "timestamp": "25:35; 26:01; 26:31; 27:08; 28:19; 28:48; 29:15"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "The analysts argue that fine-grained logic partitioning across bonded layers gives China another way to improve performance under process constraints, while increasing dependence on packaging yield and design tools.",
+      "confidence": "medium",
+      "evidence": "Howie describes moving memory and selected functions onto another tier so timing-critical blocks can sit closer together, shortening communication paths. He expects more aggressive stacking to create additional bonding and yield demands. [Huawei's May LogicFolding announcement](https://www.huawei.com/en/news/2026/5/ieee-iscas-tau-scaling) supports the critical-path rationale, not independently measured parity with leading process nodes. The suggestion that Western EDA has never addressed such partitioning is too broad: [Cadence's platform documentation](https://www.cadence.com/en_US/home/resources/datasheets/integrity-3d-ic-platform-ds.html) already describes netlist partitioning, logic-on-logic exploration and cross-die analysis. Neither source establishes export-control immunity or interchangeable manufacturing flows.",
+      "kind": "inference",
+      "timestamp": "20:41; 21:36; 24:21; 24:48; 30:19; 31:11"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "SemiAnalysis's Jordan Nanos, Howie and Sherry Zhang examine an ASML patent for a track-based hybrid-bonding system, a possible extension of its metrology and wafer-stage capabilities. The useful distinction is between a disclosed technical concept and a commercially qualified tool. They identify integration, cleanliness and yield as gates, forecast HBM volume adoption in 2029 or later, and explain the larger-mask transition for High-NA. Besi's October 22 management statement disputes both the competitive interpretation and the HBM timing. Their China discussion supplies a mechanism for performance gains through three-dimensional partitioning, but does not establish equivalent process technology or superior production economics.",
+  "why_it_matters": "Hybrid bonding creates opportunities across alignment, inspection, cleaning and die handling, while its value depends on application-specific economics. Logic stacking, HBM and larger High-NA masks have different adoption schedules. Treating them as one imminent equipment cycle would obscure the important risks: customer qualification, usable throughput, bonding yield, mask infrastructure and whether existing packaging methods remain sufficient."
+}
