@@ -1,0 +1,45 @@
+{
+  "changed_views": [
+    "Modest update for AI application evaluation: adoption may depend on satisfying a specific workflow's integration and approval constraints before model or interface improvements matter. The Jump account is a concrete example, but not evidence of a durable moat.",
+    "Horizontal churn should prompt cohort-level examination before concluding there is no demand; the surviving workflow may justify a narrower product, although the anonymous freight-forwarder example is too incomplete to estimate the payoff."
+  ],
+  "entities": [
+    "Rob Snyder",
+    "Lenny Rachitsky",
+    "Jump"
+  ],
+  "follow_ups": [
+    "For Jump, seek customer or company evidence separating losses caused by missing CRM/compliance requirements from losses caused by output quality, and check retention after those requirements are met.",
+    "Identify the freight-forwarder company and obtain the actual workflow, comparable retention cohorts, realized pricing, and delivery costs before using the anecdote as evidence that verticalization improves AI software economics."
+  ],
+  "relevance_score": 3,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Jump's early customer story points to finance-specific CRM integration and buyer compliance requirements as purchase gates for an AI notetaker; generic note quality alone did not solve the workflow.",
+      "confidence": "medium",
+      "evidence": "At 09:56\u201311:30, Snyder describes friends at Jump finding demand among financial advisers who wanted to replace manual meeting notes and CRM entry, while generic alternatives lacked the required CRM connections and clear compliance fit. At 11:42\u201312:24, he contrasts insurance prospects for whom doing nothing remained acceptable in his account. This is Snyder's account of customer selection, not a verified comparison of legal obligations or conversion rates. Jump's current [compliance documentation](https://jump.ai/compliance) and [settings documentation](https://help.jumpapp.com/en/articles/11526343-compliance-settings) confirm configurable retention, integration access, and attestation controls; they corroborate product capabilities, not the historical explanation for its growth.",
+      "kind": "inference",
+      "timestamp": "09:56; 10:14; 10:55; 11:42; 12:03"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "A paid service with transparent manual and AI delivery can test demand before full automation, but payment does not establish scalable software economics.",
+      "confidence": "medium",
+      "evidence": "At 58:52\u201359:54, Snyder argues that asking customers to help design a product can select helpful collaborators rather than urgent buyers, and proposes selling the result while explaining that some delivery will be manual and some automated. When Lenny raises the risk of becoming a services business at 01:00:00\u201301:00:30, Snyder accepts that risk. At 01:00:57\u201301:01:07, he frames the initial objective as testing willingness to transact. This is his recommended experiment, not a reported margin improvement or evidence that services will necessarily become software.",
+      "kind": "opinion",
+      "timestamp": "32:07; 58:52; 59:16; 01:00:00; 01:00:20; 01:00:57"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "For horizontal AI workflow products, retention by customer type can reveal a viable narrow workflow that aggregate churn obscures; delivery should then target the specific event that makes that customer stay.",
+      "confidence": "medium",
+      "evidence": "At 01:09:42\u201301:10:53, Snyder describes an unnamed horizontal AI-workflow startup whose continuing users were freight forwarders performing one particular workflow. He says it redirected the company toward that use and moved from a low-priced horizontal offering to a premium vertical product. He gives no company identity, workflow details, prices, cohort sizes, or measured post-pivot retention; his nearby 90%-plus churn remark is a general hypothetical, not a disclosed result for this firm. Separately, at 01:08:23\u201301:08:43, he says his own restaurant employee-retention startup redesigned onboarding around delivering an actionable warning of a possible employee departure within the first two weeks. That firsthand example concerns early customer value, not a quantified churn reduction or proof the prediction was accurate.",
+      "kind": "inference",
+      "timestamp": "01:08:23; 01:08:43; 01:09:42; 01:10:37; 01:10:47"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Rob Snyder's PMF playbook is mostly familiar, but three examples sharpen how to evaluate AI applications: Jump's finance-specific workflow requirements, paid service delivery as a test before automation, and an unnamed horizontal AI vendor narrowing to freight forwarders after examining retention. The evidence is practitioner experience and advice, not audited growth or unit economics.",
+  "why_it_matters": "AI application traction needs separate tests for workflow fit, willingness to pay, and repeatable delivery to customers who stay. A polished demo, a helpful design partner, or a signed services deal can pass one test while failing the others. These examples identify useful failure mechanisms without establishing a company's market size or software margins."
+}
