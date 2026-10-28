@@ -1,0 +1,23 @@
+{
+  "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a17e24-16fc-71e3-bdc8-f0c1aeee546c/01a17e24-18bb-7daa-afc4-3f3bfdc294d7.mp3",
+  "description_html": "<p>Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model\u2019s \u201cbrain\u201d from the agent\u2019s \u201chands,\u201d scaling APIs, and building reliable managed agents. A new introduction ...</p>",
+  "description_text": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model\u2019s \u201cbrain\u201d from the agent\u2019s \u201chands,\u201d scaling APIs, and building reliable managed agents. A new introduction ...",
+  "duration_seconds": 6400,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "71c8bb42f910dc3fbc42",
+  "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
+  "published": "2026-10-27T18:40:19+00:00",
+  "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a17e2f-ab7c-71cc-8281-518a0eb069f5.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://rss.beehiiv.com/podcasts/transcriptions/01a17e2f-ab7c-71cc-8281-518a0eb069f5.vtt"
+    }
+  ],
+  "web_links": []
+}

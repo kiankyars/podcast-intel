@@ -27,7 +27,7 @@
     },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.403352+00:00"
+      "updated_at": "2026-10-28T07:03:40.086296+00:00"
     },
     "05c0879840cb181ce270": {
       "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -218,7 +218,7 @@
     },
     "0d494e96bd9fd1d8ded8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.415437+00:00"
+      "updated_at": "2026-10-28T07:03:40.094906+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -383,7 +383,7 @@
     },
     "14569a81115ecd803781": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.408975+00:00"
+      "updated_at": "2026-10-28T07:03:40.092410+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -452,6 +452,23 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://colossus.com/episode/posting-priests-private-markets/",
       "updated_at": "2026-07-13T09:23:36.146759+00:00"
+    },
+    "198f10ad87360decb789": {
+      "analysis_path": "episodes/2026-10-27/cliff-sosin-owning-the-complements-to-intelligence-invest-like-the-best-ep-497-198f10ad87360decb789/analysis.json",
+      "error": "",
+      "feed_id": "invest-like-the-best",
+      "link": "https://colossus.com/episode/the-limits-of-intelligence/",
+      "published": "2026-10-27T08:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-27/cliff-sosin-owning-the-complements-to-intelligence-invest-like-the-best-ep-497-198f10ad87360decb789/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-10-27/cliff-sosin-owning-the-complements-to-intelligence-invest-like-the-best-ep-497-198f10ad87360decb789/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-27/cliff-sosin-owning-the-complements-to-intelligence-invest-like-the-best-ep-497-198f10ad87360decb789/summary.md",
+      "title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "transcript_path": "episodes/2026-10-27/cliff-sosin-owning-the-complements-to-intelligence-invest-like-the-best-ep-497-198f10ad87360decb789/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=EH6DsNT455M",
+      "updated_at": "2026-10-28T07:12:46.357080+00:00"
     },
     "19dd142ca585f51ce8cd": {
       "analysis_path": "episodes/2026-06-01/why-video-agent-models-are-next-ethan-he-xai-grok-imagine-19dd142ca585f51ce8cd/analysis.json",
@@ -768,7 +785,7 @@
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.406759+00:00"
+      "updated_at": "2026-10-28T07:03:40.090119+00:00"
     },
     "27bbb91c13fabb93dab9": {
       "status": "metadata_skipped",
@@ -894,11 +911,11 @@
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.409938+00:00"
+      "updated_at": "2026-10-28T07:03:40.093104+00:00"
     },
     "2cd282efff414185c755": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.410931+00:00"
+      "updated_at": "2026-10-28T07:03:40.094206+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -1202,6 +1219,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-17T15:02:00.027550+00:00"
     },
+    "3d3d32bb15c7e423ffef": {
+      "analysis_path": "episodes/2026-10-27/gavin-baker-on-anthropic-s-s-1-gpu-prices-and-spacex-3d3d32bb15c7e423ffef/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/9c66fec3",
+      "published": "2026-10-27T20:53:54+00:00",
+      "raw_transcript": "episodes/2026-10-27/gavin-baker-on-anthropic-s-s-1-gpu-prices-and-spacex-3d3d32bb15c7e423ffef/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-27/gavin-baker-on-anthropic-s-s-1-gpu-prices-and-spacex-3d3d32bb15c7e423ffef/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-27/gavin-baker-on-anthropic-s-s-1-gpu-prices-and-spacex-3d3d32bb15c7e423ffef/summary.md",
+      "title": "Gavin Baker on Anthropic's S-1, GPU Prices, and SpaceX",
+      "transcript_path": "episodes/2026-10-27/gavin-baker-on-anthropic-s-s-1-gpu-prices-and-spacex-3d3d32bb15c7e423ffef/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/9c66fec3/transcription.vtt",
+      "updated_at": "2026-10-28T07:12:46.360949+00:00"
+    },
     "3d3ef4be965350a8e922": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.121223+00:00"
@@ -1301,7 +1335,7 @@
     },
     "44cfdd21e26cf4ab151d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.419376+00:00"
+      "updated_at": "2026-10-28T07:03:40.097971+00:00"
     },
     "4551f4ac900ae65079c3": {
       "analysis_path": "episodes/2026-09-16/ep-031-emergency-episode-are-we-doomed-jordan-nanos-doug-o-laughlin-max-kan-joey-brookhart-4551f4ac900ae65079c3/analysis.json",
@@ -1424,6 +1458,10 @@
     "4dd695488cecd51af249": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-12T16:02:58.593872+00:00"
+    },
+    "4fa6ac6f4fe2cd734eaa": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-28T07:03:40.084486+00:00"
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
@@ -1698,7 +1736,7 @@
     },
     "5c24bd5b343b0119f6c5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.406029+00:00"
+      "updated_at": "2026-10-28T07:03:40.089267+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -1919,6 +1957,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=2NviLP2SwZI",
       "updated_at": "2026-10-09T06:11:00.254615+00:00"
     },
+    "67f3a0b7e71fd9178205": {
+      "analysis_path": "episodes/2026-10-27/ep-041-emergency-anthropic-s-s-1-is-here-tokenomics-markets-doug-o-laughlin-jeremie-eliaho-67f3a0b7e71fd9178205/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--041---EMERGENCY-Anthropics-S-1-Is-Here-Tokenomics-Markets--Doug-OLaughlin--Jeremie-Eliahou-Ontiveros--Joey-Brookhart--Jordan-Nanos-e3r5vmo",
+      "published": "2026-10-27T15:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-27/ep-041-emergency-anthropic-s-s-1-is-here-tokenomics-markets-doug-o-laughlin-jeremie-eliaho-67f3a0b7e71fd9178205/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-10-27/ep-041-emergency-anthropic-s-s-1-is-here-tokenomics-markets-doug-o-laughlin-jeremie-eliaho-67f3a0b7e71fd9178205/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-27/ep-041-emergency-anthropic-s-s-1-is-here-tokenomics-markets-doug-o-laughlin-jeremie-eliaho-67f3a0b7e71fd9178205/summary.md",
+      "title": "Ep. 041 - EMERGENCY: Anthropic\u2019s S-1 Is Here (Tokenomics/ Markets) | Doug O\u2019Laughlin, Jeremie Eliahou Ontiveros, Joey Brookhart, Jordan Nanos",
+      "transcript_path": "episodes/2026-10-27/ep-041-emergency-anthropic-s-s-1-is-here-tokenomics-markets-doug-o-laughlin-jeremie-eliaho-67f3a0b7e71fd9178205/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=BKvPmNSmatM",
+      "updated_at": "2026-10-28T07:12:46.364037+00:00"
+    },
     "69060df278188f065f65": {
       "status": "metadata_skipped",
       "updated_at": "2026-09-23T20:48:30.053990+00:00"
@@ -2029,6 +2084,10 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded/",
       "updated_at": "2026-08-28T16:08:25.002103+00:00"
     },
+    "6ccbf1fd0b2aa6f9b9d1": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-28T07:03:40.085516+00:00"
+    },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.105473+00:00"
@@ -2036,6 +2095,23 @@
     "6e1f11fafa9a6a07127a": {
       "status": "metadata_skipped",
       "updated_at": "2026-10-09T06:03:51.856953+00:00"
+    },
+    "71c8bb42f910dc3fbc42": {
+      "analysis_path": "episodes/2026-10-27/how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain-from-the-hands-71c8bb42f910dc3fbc42/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
+      "published": "2026-10-27T18:40:19+00:00",
+      "raw_transcript": "episodes/2026-10-27/how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain-from-the-hands-71c8bb42f910dc3fbc42/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-27/how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain-from-the-hands-71c8bb42f910dc3fbc42/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-27/how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain-from-the-hands-71c8bb42f910dc3fbc42/summary.md",
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "transcript_path": "episodes/2026-10-27/how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain-from-the-hands-71c8bb42f910dc3fbc42/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a17e2f-ab7c-71cc-8281-518a0eb069f5.vtt",
+      "updated_at": "2026-10-28T07:12:46.368066+00:00"
     },
     "71fc1a2dcbbb76cef610": {
       "status": "metadata_skipped",
@@ -2744,7 +2820,7 @@
     },
     "99556667c68cce18d27b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.408239+00:00"
+      "updated_at": "2026-10-28T07:03:40.091677+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -2854,7 +2930,7 @@
     },
     "a240c8d7b42e167d6d3d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.405260+00:00"
+      "updated_at": "2026-10-28T07:03:40.088298+00:00"
     },
     "a2c0cde3ebd3d530c6ff": {
       "analysis_path": "episodes/2026-06-04/reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs-a2c0cde3ebd3d530c6ff/analysis.json",
@@ -3158,7 +3234,7 @@
     },
     "afe6b7df59e302e1335b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.407479+00:00"
+      "updated_at": "2026-10-28T07:03:40.090907+00:00"
     },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
@@ -3509,7 +3585,7 @@
     },
     "c7511b690819590aa310": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.416763+00:00"
+      "updated_at": "2026-10-28T07:03:40.095607+00:00"
     },
     "c752e1f0326372f9c412": {
       "analysis_path": "episodes/2026-07-04/intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-device-native-foundati-c752e1f0326372f9c412/analysis.json",
@@ -3649,7 +3725,7 @@
     },
     "ca1b13be5d2fbd6df977": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.418052+00:00"
+      "updated_at": "2026-10-28T07:03:40.096932+00:00"
     },
     "cac20ce3a5e8c6e66154": {
       "analysis_path": "episodes/2026-09-24/who-feeds-the-gpus-inside-ai-s-hidden-30b-layer-renen-hallak-vast-data-cac20ce3a5e8c6e66154/analysis.json",
@@ -3809,7 +3885,7 @@
     },
     "d335e9914a9e3058f71a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-27T07:04:18.404465+00:00"
+      "updated_at": "2026-10-28T07:03:40.087568+00:00"
     },
     "d425cc0dcea12806250d": {
       "analysis_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/analysis.json",
