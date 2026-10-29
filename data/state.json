@@ -27,7 +27,7 @@
     },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.086296+00:00"
+      "updated_at": "2026-10-29T06:57:33.835358+00:00"
     },
     "05c0879840cb181ce270": {
       "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -218,7 +218,7 @@
     },
     "0d494e96bd9fd1d8ded8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.094906+00:00"
+      "updated_at": "2026-10-29T06:57:33.842489+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -383,7 +383,7 @@
     },
     "14569a81115ecd803781": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.092410+00:00"
+      "updated_at": "2026-10-29T06:57:33.840335+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -785,7 +785,7 @@
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.090119+00:00"
+      "updated_at": "2026-10-29T06:57:33.838212+00:00"
     },
     "27bbb91c13fabb93dab9": {
       "status": "metadata_skipped",
@@ -911,11 +911,11 @@
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.093104+00:00"
+      "updated_at": "2026-10-29T06:57:33.841054+00:00"
     },
     "2cd282efff414185c755": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.094206+00:00"
+      "updated_at": "2026-10-29T06:57:33.841777+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -1090,6 +1090,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://www.dwarkesh.com/p/john-beren-charlie",
       "updated_at": "2026-09-12T22:03:07.184917+00:00"
+    },
+    "392baf0dbe66eb862976": {
+      "analysis_path": "episodes/2026-10-28/freedom-of-action-america-s-asi-strategy-w-rand-s-joel-predd-ben-boudreaux-matt-chessen-392baf0dbe66eb862976/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/freedom-of-action-america-s-asi-strategy-w-rand-s-joel-predd-ben-boudreaux-matt-chessen/",
+      "published": "2026-10-28T18:57:47+00:00",
+      "raw_transcript": "episodes/2026-10-28/freedom-of-action-america-s-asi-strategy-w-rand-s-joel-predd-ben-boudreaux-matt-chessen-392baf0dbe66eb862976/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-10-28/freedom-of-action-america-s-asi-strategy-w-rand-s-joel-predd-ben-boudreaux-matt-chessen-392baf0dbe66eb862976/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-28/freedom-of-action-america-s-asi-strategy-w-rand-s-joel-predd-ben-boudreaux-matt-chessen-392baf0dbe66eb862976/summary.md",
+      "title": "Freedom of Action: America's ASI Strategy, w/ RAND's Joel Predd, Ben Boudreaux & Matt Chessen",
+      "transcript_path": "episodes/2026-10-28/freedom-of-action-america-s-asi-strategy-w-rand-s-joel-predd-ben-boudreaux-matt-chessen-392baf0dbe66eb862976/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/freedom-of-action-america-s-asi-strategy-w-rand-s-joel-predd-ben-boudreaux-matt-chessen/",
+      "updated_at": "2026-10-29T07:04:07.780275+00:00"
     },
     "392efcaf08295a0dda16": {
       "analysis_path": "episodes/2026-08-21/simulation-the-new-scaling-law-joon-sung-park-simile-ai-392efcaf08295a0dda16/analysis.json",
@@ -1312,6 +1329,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-27T16:01:38.183276+00:00"
     },
+    "43fa29d199e83132a93d": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-29T06:57:33.831379+00:00"
+    },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.126113+00:00"
@@ -1461,7 +1482,7 @@
     },
     "4fa6ac6f4fe2cd734eaa": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.084486+00:00"
+      "updated_at": "2026-10-29T06:57:33.833811+00:00"
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
@@ -1736,7 +1757,7 @@
     },
     "5c24bd5b343b0119f6c5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.089267+00:00"
+      "updated_at": "2026-10-29T06:57:33.837516+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -2086,7 +2107,7 @@
     },
     "6ccbf1fd0b2aa6f9b9d1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.085516+00:00"
+      "updated_at": "2026-10-29T06:57:33.834591+00:00"
     },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
@@ -2820,7 +2841,7 @@
     },
     "99556667c68cce18d27b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.091677+00:00"
+      "updated_at": "2026-10-29T06:57:33.839636+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -2930,7 +2951,7 @@
     },
     "a240c8d7b42e167d6d3d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.088298+00:00"
+      "updated_at": "2026-10-29T06:57:33.836794+00:00"
     },
     "a2c0cde3ebd3d530c6ff": {
       "analysis_path": "episodes/2026-06-04/reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs-a2c0cde3ebd3d530c6ff/analysis.json",
@@ -3234,7 +3255,7 @@
     },
     "afe6b7df59e302e1335b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.090907+00:00"
+      "updated_at": "2026-10-29T06:57:33.838912+00:00"
     },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
@@ -3585,7 +3606,7 @@
     },
     "c7511b690819590aa310": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.095607+00:00"
+      "updated_at": "2026-10-29T06:57:33.843197+00:00"
     },
     "c752e1f0326372f9c412": {
       "analysis_path": "episodes/2026-07-04/intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-device-native-foundati-c752e1f0326372f9c412/analysis.json",
@@ -3725,7 +3746,7 @@
     },
     "ca1b13be5d2fbd6df977": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.096932+00:00"
+      "updated_at": "2026-10-29T06:57:33.843896+00:00"
     },
     "cac20ce3a5e8c6e66154": {
       "analysis_path": "episodes/2026-09-24/who-feeds-the-gpus-inside-ai-s-hidden-30b-layer-renen-hallak-vast-data-cac20ce3a5e8c6e66154/analysis.json",
@@ -3781,6 +3802,23 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://colossus.com/episode/the-power-of-permanent-capital/",
       "updated_at": "2026-06-23T15:03:36.932415+00:00"
+    },
+    "ce79f997649ea597593a": {
+      "analysis_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://latent.space/p/supabase",
+      "published": "2026-10-26T17:53:59+00:00",
+      "raw_transcript": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/summary.md",
+      "title": "Why Agents Love Supabase",
+      "transcript_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a183f0-c56d-72a4-9e07-fb3d07bab761.vtt",
+      "updated_at": "2026-10-29T07:04:07.786169+00:00"
     },
     "ce7b4afcf1c24b102bd0": {
       "status": "metadata_skipped",
@@ -3885,7 +3923,7 @@
     },
     "d335e9914a9e3058f71a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-28T07:03:40.087568+00:00"
+      "updated_at": "2026-10-29T06:57:33.836075+00:00"
     },
     "d425cc0dcea12806250d": {
       "analysis_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/analysis.json",
@@ -4472,6 +4510,10 @@
     "f09e9963266b140c4b9b": {
       "status": "metadata_skipped",
       "updated_at": "2026-10-21T06:01:16.968069+00:00"
+    },
+    "f27051058ef42009a13c": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-29T06:57:33.832938+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
