@@ -27,7 +27,7 @@
     },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.835358+00:00"
+      "updated_at": "2026-10-30T13:28:43.194271+00:00"
     },
     "05c0879840cb181ce270": {
       "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -218,7 +218,7 @@
     },
     "0d494e96bd9fd1d8ded8": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.842489+00:00"
+      "updated_at": "2026-10-30T13:28:43.204186+00:00"
     },
     "0d5eddec25fdd344e54a": {
       "status": "metadata_skipped",
@@ -383,7 +383,7 @@
     },
     "14569a81115ecd803781": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.840335+00:00"
+      "updated_at": "2026-10-30T13:28:43.201098+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -732,6 +732,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-06-22T15:00:45.146989+00:00"
     },
+    "22dc6319531e38669f95": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-30T13:28:43.189790+00:00"
+    },
     "2352a884aaede56a4bc5": {
       "analysis_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/analysis.json",
       "error": "",
@@ -785,7 +789,24 @@
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.838212+00:00"
+      "updated_at": "2026-10-30T13:28:43.197739+00:00"
+    },
+    "25a14fcf07063a254bb3": {
+      "analysis_path": "episodes/2026-10-29/state-of-ai-2026-the-biggest-stories-of-the-year-and-agi-in-2027-nathan-benaich-25a14fcf07063a254bb3/analysis.json",
+      "error": "",
+      "feed_id": "mad-podcast",
+      "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/State-of-AI-2026-The-Biggest-Stories-of-the-Year-and-AGI-in-2027---Nathan-Benaich-e3rbhc9",
+      "published": "2026-10-29T14:11:54+00:00",
+      "raw_transcript": "episodes/2026-10-29/state-of-ai-2026-the-biggest-stories-of-the-year-and-agi-in-2027-nathan-benaich-25a14fcf07063a254bb3/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-29/state-of-ai-2026-the-biggest-stories-of-the-year-and-agi-in-2027-nathan-benaich-25a14fcf07063a254bb3/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-29/state-of-ai-2026-the-biggest-stories-of-the-year-and-agi-in-2027-nathan-benaich-25a14fcf07063a254bb3/summary.md",
+      "title": "State of AI 2026: The Biggest Stories of the Year (and AGI in 2027?) | Nathan Benaich",
+      "transcript_path": "episodes/2026-10-29/state-of-ai-2026-the-biggest-stories-of-the-year-and-agi-in-2027-nathan-benaich-25a14fcf07063a254bb3/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=N4GpNBxBm-Q",
+      "updated_at": "2026-10-30T13:46:45.453610+00:00"
     },
     "27bbb91c13fabb93dab9": {
       "status": "metadata_skipped",
@@ -911,11 +932,11 @@
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.841054+00:00"
+      "updated_at": "2026-10-30T13:28:43.202132+00:00"
     },
     "2cd282efff414185c755": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.841777+00:00"
+      "updated_at": "2026-10-30T13:28:43.203138+00:00"
     },
     "2e34a2048d878e763162": {
       "analysis_path": "episodes/2026-07-20/the-ai-cold-war-odyssey-rips-tyler-cowen-joins-danny-yeung-connor-love-kahlil-lalji-tarek--2e34a2048d878e763162/analysis.json",
@@ -1331,7 +1352,7 @@
     },
     "43fa29d199e83132a93d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.831379+00:00"
+      "updated_at": "2026-10-30T13:28:43.190897+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -1482,7 +1503,7 @@
     },
     "4fa6ac6f4fe2cd734eaa": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.833811+00:00"
+      "updated_at": "2026-10-30T13:28:43.192620+00:00"
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
@@ -1757,7 +1778,7 @@
     },
     "5c24bd5b343b0119f6c5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.837516+00:00"
+      "updated_at": "2026-10-30T13:28:43.196760+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -1880,6 +1901,23 @@
     "61f1dd347a133bc3c6a0": {
       "status": "metadata_skipped",
       "updated_at": "2026-09-17T18:47:05.006015+00:00"
+    },
+    "627a04aa0cef62855a94": {
+      "analysis_path": "episodes/2026-10-29/taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-founder-and-ceo-jake-stau-627a04aa0cef62855a94/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=EZcWEsMuLb4",
+      "published": "2026-10-29T10:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-29/taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-founder-and-ceo-jake-stau-627a04aa0cef62855a94/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-29/taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-founder-and-ceo-jake-stau-627a04aa0cef62855a94/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-29/taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-founder-and-ceo-jake-stau-627a04aa0cef62855a94/summary.md",
+      "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
+      "transcript_path": "episodes/2026-10-29/taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-founder-and-ceo-jake-stau-627a04aa0cef62855a94/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=EZcWEsMuLb4",
+      "updated_at": "2026-10-30T13:46:45.455712+00:00"
     },
     "62a383ca4443066219db": {
       "analysis_path": "episodes/2026-07-12/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal-62a383ca4443066219db/analysis.json",
@@ -2107,7 +2145,7 @@
     },
     "6ccbf1fd0b2aa6f9b9d1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.834591+00:00"
+      "updated_at": "2026-10-30T13:28:43.193496+00:00"
     },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
@@ -2841,7 +2879,7 @@
     },
     "99556667c68cce18d27b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.839636+00:00"
+      "updated_at": "2026-10-30T13:28:43.199883+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -2951,7 +2989,7 @@
     },
     "a240c8d7b42e167d6d3d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.836794+00:00"
+      "updated_at": "2026-10-30T13:28:43.195996+00:00"
     },
     "a2c0cde3ebd3d530c6ff": {
       "analysis_path": "episodes/2026-06-04/reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs-a2c0cde3ebd3d530c6ff/analysis.json",
@@ -3255,7 +3293,7 @@
     },
     "afe6b7df59e302e1335b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.838912+00:00"
+      "updated_at": "2026-10-30T13:28:43.198707+00:00"
     },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
@@ -3441,6 +3479,10 @@
     "bde3aa5a84c87f7cf4e1": {
       "status": "metadata_skipped",
       "updated_at": "2026-07-16T07:01:19.068445+00:00"
+    },
+    "c003c4781f387501e24c": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-10-30T13:28:43.188448+00:00"
     },
     "c0a727fa192a7f42a32f": {
       "analysis_path": "episodes/2026-06-21/ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logistics-more-c0a727fa192a7f42a32f/analysis.json",
@@ -3923,7 +3965,7 @@
     },
     "d335e9914a9e3058f71a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.836075+00:00"
+      "updated_at": "2026-10-30T13:28:43.195030+00:00"
     },
     "d425cc0dcea12806250d": {
       "analysis_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/analysis.json",
@@ -4057,6 +4099,23 @@
       "error": "No Priors / What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest: TranscriptUnavailable: no publisher transcript or YouTube captions found",
       "status": "transcript_error",
       "updated_at": "2026-08-24T16:01:46.284387+00:00"
+    },
+    "defd09c809d856758129": {
+      "analysis_path": "episodes/2026-10-29/what-i-learned-about-power-from-lbj-and-robert-moses-defd09c809d856758129/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/lessons-in-power",
+      "published": "2026-10-29T16:48:39+00:00",
+      "raw_transcript": "episodes/2026-10-29/what-i-learned-about-power-from-lbj-and-robert-moses-defd09c809d856758129/transcript.txt",
+      "relevance_score": 2,
+      "request_path": "episodes/2026-10-29/what-i-learned-about-power-from-lbj-and-robert-moses-defd09c809d856758129/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-29/what-i-learned-about-power-from-lbj-and-robert-moses-defd09c809d856758129/summary.md",
+      "title": "What I learned about power from LBJ and Robert Moses",
+      "transcript_path": "episodes/2026-10-29/what-i-learned-about-power-from-lbj-and-robert-moses-defd09c809d856758129/transcript.md",
+      "transcript_source": "publisher_video_essay_script",
+      "transcript_source_url": "https://www.dwarkesh.com/p/lessons-in-power",
+      "updated_at": "2026-10-30T13:46:45.457132+00:00"
     },
     "df0a3284607954090268": {
       "analysis_path": "episodes/2026-08-26/we-have-foundation-models-for-language-not-for-physics-anima-anandkumar-bren-professor-of--df0a3284607954090268/analysis.json",
@@ -4513,7 +4572,7 @@
     },
     "f27051058ef42009a13c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-29T06:57:33.832938+00:00"
+      "updated_at": "2026-10-30T13:28:43.191810+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
