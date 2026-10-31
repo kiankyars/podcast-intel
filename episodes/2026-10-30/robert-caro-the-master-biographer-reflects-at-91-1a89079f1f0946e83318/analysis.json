@@ -1,0 +1,17 @@
+{
+  "changed_views": [],
+  "entities": [
+    "Robert Caro",
+    "Dwarkesh Patel",
+    "Robert Moses",
+    "Lyndon Johnson",
+    "The Power Broker",
+    "The Years of Lyndon Johnson"
+  ],
+  "follow_ups": [],
+  "relevance_score": 2,
+  "signals": [],
+  "skip_reason": "Excluded after reviewing the complete substantive interview. Its historical and biographical focus does not meet the reader's threshold for a consequential new technical, company or investment signal. General comments on contemporary building constraints and digital archives do not establish such a development. AI-agent and ASIC claims appear in sponsor copy, not in the interview evidence.",
+  "summary": "Robert Caro discusses his interpretation of Robert Moses and Lyndon Johnson: how they accumulated leverage, overcame opposition and changed as they acquired power. He also explains his interviewing, archival research and writing methods, including defining a book's central point before drafting and the limits of faster document discovery. This is the Caro interview itself, distinct from Patel's preceding video essay. The full publisher transcript includes the opening, all eleven chapter sections and closing thanks; sponsor copy and trailing site material were excluded from the assessment.",
+  "why_it_matters": "Useful background on institutions, infrastructure politics and evidence collection. The discussion does not provide a concrete new AI, technology-company, semiconductor or compute-infrastructure finding. Applying Caro's historical interpretations to present-day firms or data-center projects would require additional evidence."
+}
