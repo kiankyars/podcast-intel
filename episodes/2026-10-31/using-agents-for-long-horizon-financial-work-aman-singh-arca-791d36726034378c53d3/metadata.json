@@ -1,0 +1,23 @@
+{
+  "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a18ea6-9508-712c-b5ff-54536059aced/01a18eb9-7b8e-7f04-b56a-8580cdb8c207.mp3",
+  "description_html": "<p>Arca head of AI Aman Singh joins Latent Space head of editorial Richard MacManus at AI Engineer New York, to discuss how Arca is building an AI-native wealth management firm. Singh explains Arca&#39;s architecture, which includes a custom harness and persi...</p>",
+  "description_text": "Arca head of AI Aman Singh joins Latent Space head of editorial Richard MacManus at AI Engineer New York, to discuss how Arca is building an AI-native wealth management firm. Singh explains Arca's architecture, which includes a custom harness and persi...",
+  "duration_seconds": 1565,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "791d36726034378c53d3",
+  "link": "https://latent.space/p/arca",
+  "published": "2026-10-31T16:00:00+00:00",
+  "title": "Using Agents for Long-Horizon Financial Work \u2014 Aman Singh, Arca",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a18ebb-53a8-7089-a56f-938e5771f6d5.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://rss.beehiiv.com/podcasts/transcriptions/01a18ebb-53a8-7089-a56f-938e5771f6d5.vtt"
+    }
+  ],
+  "web_links": []
+}

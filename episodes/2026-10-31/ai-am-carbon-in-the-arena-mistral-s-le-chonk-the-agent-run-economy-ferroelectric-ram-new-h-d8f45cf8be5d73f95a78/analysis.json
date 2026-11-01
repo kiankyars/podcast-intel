@@ -1,0 +1,66 @@
+{
+  "changed_views": [
+    "Update the October 24 Mistral preview: public Large 4 weights are now released; the specialized partner variant has a separate access policy.",
+    "Agent cost comparisons should include context replay after cache expiry. A small user message can accompany substantial input processing; this episode supplies an operator anecdote, not a measured savings estimate.",
+    "Kepler presents a potential manufacturing route through older-node capacity. Treat the technical rationale and production targets separately from demonstrated commercial performance."
+  ],
+  "entities": [
+    "The Cognitive Revolution",
+    "AI:AM",
+    "Nathan Labenz",
+    "Prakash Narayanan",
+    "Arena",
+    "Anastasios Angelopoulos",
+    "MAX",
+    "Kepler Computing",
+    "Debo Olaosebikan",
+    "Mistral AI",
+    "Mistral Large 4",
+    "Sagar Vaze",
+    "Hugging Face"
+  ],
+  "follow_ups": [
+    "For an actual agent workload, compare audited action and completion failures across models while controlling for task mix, conversation length, and judging error.",
+    "Inspect cache-hit rates, expired-cache input charges, completed-task quality, and latency before accepting a router savings claim.",
+    "Track Kepler sample availability and independently documented memory density, endurance, yield, power, and customer qualification against its production schedule.",
+    "Evaluate the released Mistral weights on relevant workloads and deployment costs; keep public-model results separate from any vetted-partner variant."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Arena\u2019s alignment index evaluates observable failures in agent sessions: unauthorized actions, false attribution of user intent, and false claims that work was completed.",
+      "confidence": "high",
+      "evidence": "Angelopoulos describes checking user guardrails and agent traces against reported actions, and argues for measurement during real work. Arena\u2019s [primary methodology article](https://arena.ai/blog/ai-alignment-index) documents rubric-based judging with human review and conversation-length adjustment. This supports a specific measurement approach, not a conclusion about a model\u2019s internal motives or its safety in every deployment. The article predates this compilation, and the interview\u2019s rankings should be read as a dated platform snapshot.",
+      "kind": "observation",
+      "timestamp": "04:22; 06:17; 08:09"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Arena reports expensive follow-up turns after long agent sessions outlive their cache, motivating routing and cache management alongside model selection.",
+      "confidence": "medium",
+      "evidence": "At 12:53, Angelopoulos says internal traces showed approximately $40 charges when users returned the next day to a long conversation and sent a brief acknowledgement after its cache had expired. He presents this as a reason for Arena\u2019s MAX router and more deliberate caching. This is an operator\u2019s anecdote; no bill, model configuration, context size, or controlled cost comparison is supplied. The mechanism is relevant to agent economics, but the quoted cost is not a general price and does not demonstrate MAX savings.",
+      "kind": "observation",
+      "timestamp": "12:53"
+    },
+    {
+      "category": "semiconductors_compute",
+      "claim": "Kepler proposes denser ferroelectric memory and closer memory-compute integration as a way to improve inference while using older-node fabrication capacity.",
+      "confidence": "medium",
+      "evidence": "Debo Olaosebikan, identified by the segment introduction despite erroneous speaker labels, describes replacing a six-transistor SRAM cell with a transistor-plus-ferroelectric-capacitor structure and pursuing vertical density. At 20:42 he argues that older-node fabs could manufacture useful memory products without depending on leading-edge lithography. Kepler\u2019s [primary description](https://keplercompute.com/act-one) supports the architecture direction. Its [published schedule](https://keplercompute.com/) targets sampling by year-end and production in 2027. Those are company plans, not proof of volume readiness, yield, endurance, delivered cost, or superiority over advanced-node alternatives.",
+      "kind": "observation",
+      "timestamp": "15:33; 20:42"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Mistral Large 4 has moved from the prior digest\u2019s preview to a public open-weight release, while a specialized cyber variant remains a separate vetted-partner offering.",
+      "confidence": "high",
+      "evidence": "The introduction describes the new weight release, and Sagar Vaze distinguishes the released model\u2019s safeguards from access for trusted partners. Mistral\u2019s [release announcement](https://mistral.ai/news/mistral-large-4-oss/) confirms public weights and a preview of the specialized variant with enterprise vetting and contractual restrictions. Hugging Face\u2019s [October 29 release article](https://huggingface.co/blog/mistral-large4) confirms FP8 and NVFP4 availability under the custom Mistral Ecosystem Open-Weight License. This changes availability relative to October 24; it does not establish unrestricted access to the specialized variant or independently validate the vendor\u2019s benchmark and safety claims.",
+      "kind": "observation",
+      "timestamp": "52:59; 1:03:42"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "This AI:AM compilation connects agent reliability and operating costs with changes in memory hardware and model availability. Anastasios Angelopoulos describes production-trace evaluation and expensive cache expiry; Debo Olaosebikan outlines Kepler\u2019s older-fab memory strategy; Sagar Vaze distinguishes Mistral\u2019s released public weights from its vetted-partner cyber offering. Source coverage combines the full publisher transcript with official video captions, including the omitted opening montage and closing credits. Timestamps below use publisher-transcript time, approximately 6:34 behind video time. The video runs 1:26:42 versus RSS 1:27:57; the remaining 75-second difference is unverified. Segment introductions correct erroneous automatic speaker labels. Host transitions use disclosed cloned narration.",
+  "why_it_matters": "The useful changes are concrete: evaluate agents through observable failures in actual work; account for expired context caches in operating costs; assess memory innovation against manufacturing evidence; and distinguish Mistral\u2019s released public weights from its separately vetted variant. The release updates the October 24 digest\u2019s preview status. None of the excerpts establishes a general alignment guarantee, measured router savings, or commercially qualified Kepler performance."
+}

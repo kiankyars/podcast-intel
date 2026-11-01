@@ -1,0 +1,30 @@
+# Using Agents for Long-Horizon Financial Work — Aman Singh, Arca
+
+- Podcast: Latent Space
+- Published: 2026-10-31
+- Source: https://latent.space/p/arca
+- Relevance: 4/5
+
+Aman Singh describes the internal agent platform at Arca, a wealth-management firm that keeps human advisors in charge of client relationships and consequential financial actions. Its useful engineering details are event-driven work backed by persistent client state, a constrained interface between sandbox code and production data, checks that redirect models toward current financial facts, and a staff-feedback loop for improving the harness. Arca buys frontier models but retains its own runtime and operational memory. These are first-party design descriptions; the interview supplies no controlled reliability, cost or investment-performance results.
+
+**Why it matters:** Arca illustrates how owning the operating business changes agent deployment: it can standardize procedures, require staff feedback and give domain experts direct control over agent knowledge. Its [company description](https://arcawealth.ai/) corroborates the combination of an advisory firm and event-driven agents. The technical value is in coordinating state, evidence and people across a multi-day service process. Singh explicitly says agents do not autonomously execute trades or move money; a ten-day workflow is not a ten-day uninterrupted autonomous run.
+
+## Signals
+
+- **Singh says Arca coordinates multi-day client work through event-driven agents, shared per-client memory and recurring reflection on outstanding tasks.** [00:08:16; 00:11:32; 00:12:53] _agents_developer_tools; observation; high confidence._ At 07:50–09:15 he distinguishes an existing email-thread agent from a new agent awakened by an unrelated phone call. Both consult persistent state covering the client's objective, completed steps, next actions, deadlines and responsible people; a reflection process updates that state. At 11:32–12:05 the same change log records human and agent actions and can notify agents, while 12:53–13:08 describes pulling in the next human actor when needed. This explains coordination across the ten-day example. The interview does not establish conflict resolution, crash recovery or measured completion reliability.
+- **Singh describes a constrained data-access boundary: agents offload computation to a sandbox, but backend requests pass through a strict representation with enforced checks.** [00:16:27; 00:16:50; 00:17:41] _agents_developer_tools; observation; high confidence._ At 16:27–17:14 he says the agent itself is outside the sandbox and that generated query code is translated into a required format, with the original code discarded before guarded access to the backend. At 17:26–18:12 generated client artifacts undergo deterministic checks, such as account-number detection, and model-based content review. Separately, 06:32–07:13 reserves liquidation, money movement and direct client communication for human involvement. No implementation or adversarial test is supplied, so the format conversion and review layers are reported controls, not a proven security or compliance guarantee.
+- **Singh says Arca uses small decision models to detect when financial reasoning needs fresh evidence and redirect the main model to a curated knowledge base or web search.** [00:19:16; 00:22:47] _agents_developer_tools; observation; high confidence._ At 18:51–19:41 he gives stale tax brackets as an example of a confidently wrong model answer. A separate check identifies recommendations or actions requiring financial rigor and prompts retrieval of current information. At 22:47–23:25 he describes domain experts maintaining the knowledge files directly in the product, with agent citations and trace review surfacing corrections. The mechanism addresses when to retrieve and who owns the reference material. He provides no detector accuracy, freshness standard or measured reduction in financial errors.
+- **Singh says operating the advisory firm lets Arca require staff explanations for corrections, pair them with agent traces and use nightly analysis to propose harness improvements.** [00:20:43; 00:21:18; 00:21:48] _applications_business_models; observation; high confidence._ At 20:33–21:44 he describes feedback as a product feature, stored alongside the trace that produced the work; a nightly meta-agent flags misleading tools, errors and missing knowledge. At 21:48–22:12 he says an engineer still reviews prompt changes because unconstrained agents overfit each fix and fail to generalize. This makes control of workflow and employee feedback part of the business model, beyond access to a model API. It is a human-reviewed improvement process; no held-out evaluation gains or production impact are quantified.
+
+## Changed Views Or Tensions
+
+- Long-horizon service work can be organized around short agent activations and durable shared state. The relevant evaluation is whether the client process completes correctly across intervening events and human handoffs.
+- Owning the service firm gives an agent developer control over operational procedures and mandatory feedback. Whether this produces a durable advantage depends on measured outcomes and operating costs.
+- Automatic analysis of production traces can help locate failures while still requiring human judgment to prevent prompt changes from overfitting individual cases.
+
+## Follow-Ups
+
+- Test the client-memory system under conflicting updates, duplicate events, missed deadlines and changes to client intent; measure end-to-end completion and required human effort.
+- Inspect the sandbox-to-backend representation and permission checks, including whether a new query can expand accessible data or bypass approval requirements.
+- Measure freshness-detector misses and false alarms, and define ownership and expiry rules for the expert-curated financial knowledge base.
+- Compare held-out task results before and after proposed harness changes; track review time, regression rate and the cost per completed client workflow.

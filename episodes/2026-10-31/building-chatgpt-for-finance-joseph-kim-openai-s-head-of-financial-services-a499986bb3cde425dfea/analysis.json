@@ -1,0 +1,60 @@
+{
+  "changed_views": [
+    "A financial AI product can differentiate through reliable licensed-data delivery while its model improvements remain available to other developers. Shared model access does not eliminate application-level engineering or data economics.",
+    "Checkable outputs and professional preferences need distinct evaluation signals. Fixing answer keys and measuring human-reviewed work quality should precede claims that benchmark saturation implies job automation."
+  ],
+  "entities": [
+    "Joseph Kim",
+    "OpenAI",
+    "ChatGPT for Financial Services",
+    "GPT-6 Astra",
+    "Codex",
+    "GDPval",
+    "Morgan Stanley",
+    "Evercore",
+    "Latent Space"
+  ],
+  "follow_ups": [
+    "Request the connector test protocol, error taxonomy, sample size and post-integration failure rates; compare total data costs with reliability and analyst time saved.",
+    "Watch for a published investment-banking evaluation with held-out tasks, documented answer-key review and validation against actual analyst work, rather than treating the promised benchmark as available.",
+    "Measure whether slide preference training transfers to firm-specific acceptance and lower review time; keep aesthetic improvement separate from factual correctness and investment performance."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Kim says error rates above 40% in some tested financial-data MCP connectors drove OpenAI to bundle and host data directly, despite customers potentially already paying for those datasets.",
+      "confidence": "medium",
+      "evidence": "At 05:28\u201306:38 he describes testing connectors from unnamed major providers, finding high error rates and choosing greater control of data delivery over a connector-only approach. The [September 10 product announcement](https://openai.com/index/introducing-chatgpt-financial-services/) confirms indexed, OpenAI-hosted datasets alongside existing-subscription integrations and improved MCP connections. Kim supplies no provider list, sample size, error definition or before/after result. The implication is that owning retrieval reliability can justify a data bundle; the reported number cannot be generalized to all MCPs or treated as a measured accuracy gain for the finished product.",
+      "kind": "observation",
+      "timestamp": "06:01"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Kim says financial-reasoning training enters OpenAI's shared base-model run, while most of the finance product is built with plugin primitives also available to outside developers.",
+      "confidence": "medium",
+      "evidence": "At 02:18\u201302:54 he says financial training improves the main model rather than a separate finance-only model. At 07:17\u201308:43 he estimates that a startup could reproduce 95% of the product work and describes using ChatGPT's plugin architecture. His distinction is between shared horizontal capabilities and the crucial domain layer: data, interfaces and integrations. The 95% and 80/20 figures are rough product judgments, not audited engineering shares or proof that a startup has identical data licenses, distribution or economics. His billion-dollar plugin prediction remains a forecast, not evidence of an existing business.",
+      "kind": "observation",
+      "timestamp": "02:18; 07:17; 08:37"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Kim says OpenAI uses human comparisons of slide pairs to improve presentation quality, because numerical or functional correctness does not capture professional taste.",
+      "confidence": "medium",
+      "evidence": "At 16:30\u201317:16 he describes collecting pairwise human preferences and training a reward model, saying people judged slide aesthetics faster and better than model graders in his team's experience. At 17:34\u201318:38 he contrasts checkable spreadsheet properties with whether a financial model behaves sensibly under changed inputs. This adds a concrete training mechanism to broad claims about AI judgment. No dataset size, grader-agreement rate, controlled comparison or downstream improvement is provided; presentation preferences do not establish ability to generate profitable investment ideas.",
+      "kind": "observation",
+      "timestamp": "16:30; 16:40; 18:14"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Kim says saturated benchmarks and faulty answer keys obscured financial-model progress, prompting his team to work on evaluations tied to specific professions rather than rely on GDPval.",
+      "confidence": "medium",
+      "evidence": "At 23:52\u201324:19 he says OpenAI no longer reports or tracks GDPval because the useful portions are saturated and remaining portions are flawed. At 24:43\u201325:21 he describes investigating flat financial-eval scores, finding incorrect answers and underspecified prompts, and building an investment-banking evaluation intended to predict junior-analyst task automation. This is an insider's account without released test cases, corrected scores or validation of the replacement. Benchmark defects can explain misleading scores, but do not independently prove higher real-world capability; a new eval must demonstrate correlation with reviewed work outcomes.",
+      "kind": "observation",
+      "timestamp": "23:52; 24:43; 25:05"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Joseph Kim explains how OpenAI built ChatGPT for Financial Services around reliable data access, shared model training and domain-specific product work. The most concrete disclosures are high error rates in some tested financial-data connectors, human preference training for presentation quality, and flaws Kim says his team found in financial evaluations. This is an October 31 interview about an existing product: OpenAI's [announcement is dated September 10](https://openai.com/index/introducing-chatgpt-financial-services/), and its current availability statement is for eligible financial institutions through sales. Kim's discussion of Pro access and more senior financial tasks in 2027 describes future ambitions. The complete official-channel captions cover the introduction and farewell of the 27:34 edition.",
+  "why_it_matters": "The interview locates useful differentiation in data reliability and domain-specific workflows even when the underlying intelligence is shared with developers. It also separates numerical correctness from professional judgment: human preference labels and valid, task-specific evaluations remain bottlenecks. Kim describes the current product as human-reviewed knowledge-work assistance; neither the interview nor the announcement establishes autonomous investment performance or measured reductions in consequential financial errors."
+}

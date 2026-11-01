@@ -27,7 +27,7 @@
     },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.016664+00:00"
+      "updated_at": "2026-11-01T07:00:55.649443+00:00"
     },
     "05c0879840cb181ce270": {
       "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -383,7 +383,7 @@
     },
     "14569a81115ecd803781": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.024534+00:00"
+      "updated_at": "2026-11-01T07:00:55.654673+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -751,7 +751,7 @@
     },
     "22dc6319531e38669f95": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.010679+00:00"
+      "updated_at": "2026-11-01T07:00:55.645736+00:00"
     },
     "2352a884aaede56a4bc5": {
       "analysis_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/analysis.json",
@@ -806,7 +806,7 @@
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.020713+00:00"
+      "updated_at": "2026-11-01T07:00:55.652336+00:00"
     },
     "25a14fcf07063a254bb3": {
       "analysis_path": "episodes/2026-10-29/state-of-ai-2026-the-biggest-stories-of-the-year-and-agi-in-2027-nathan-benaich-25a14fcf07063a254bb3/analysis.json",
@@ -886,7 +886,7 @@
     },
     "292074a9582d114b9eca": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.008294+00:00"
+      "updated_at": "2026-11-01T07:00:55.644189+00:00"
     },
     "29d8ade9363f50a60b25": {
       "analysis_path": "episodes/2026-07-14/john-kim-how-to-raise-a-few-billion-dollars-invest-like-the-best-ep-482-29d8ade9363f50a60b25/analysis.json",
@@ -953,7 +953,7 @@
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.025557+00:00"
+      "updated_at": "2026-11-01T07:00:55.655409+00:00"
     },
     "2cd282efff414185c755": {
       "status": "metadata_skipped",
@@ -1373,7 +1373,7 @@
     },
     "43fa29d199e83132a93d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.011747+00:00"
+      "updated_at": "2026-11-01T07:00:55.646473+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -1524,7 +1524,7 @@
     },
     "4fa6ac6f4fe2cd734eaa": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.013548+00:00"
+      "updated_at": "2026-11-01T07:00:55.647949+00:00"
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
@@ -1799,7 +1799,7 @@
     },
     "5c24bd5b343b0119f6c5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.019765+00:00"
+      "updated_at": "2026-11-01T07:00:55.651616+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -2166,7 +2166,7 @@
     },
     "6ccbf1fd0b2aa6f9b9d1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.014681+00:00"
+      "updated_at": "2026-11-01T07:00:55.648703+00:00"
     },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
@@ -2378,6 +2378,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-06-09T16:09:24.217094+00:00"
+    },
+    "791d36726034378c53d3": {
+      "analysis_path": "episodes/2026-10-31/using-agents-for-long-horizon-financial-work-aman-singh-arca-791d36726034378c53d3/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://latent.space/p/arca",
+      "published": "2026-10-31T16:00:00+00:00",
+      "raw_transcript": "episodes/2026-10-31/using-agents-for-long-horizon-financial-work-aman-singh-arca-791d36726034378c53d3/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-31/using-agents-for-long-horizon-financial-work-aman-singh-arca-791d36726034378c53d3/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-31/using-agents-for-long-horizon-financial-work-aman-singh-arca-791d36726034378c53d3/summary.md",
+      "title": "Using Agents for Long-Horizon Financial Work \u2014 Aman Singh, Arca",
+      "transcript_path": "episodes/2026-10-31/using-agents-for-long-horizon-financial-work-aman-singh-arca-791d36726034378c53d3/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a18ebb-53a8-7089-a56f-938e5771f6d5.vtt",
+      "updated_at": "2026-11-01T07:06:41.287501+00:00"
     },
     "796f0f2ba1aded54c3aa": {
       "analysis_path": "episodes/2026-10-13/david-v-lez-building-nubank-and-the-future-of-global-banking-invest-like-the-best-ep-495-796f0f2ba1aded54c3aa/analysis.json",
@@ -2900,7 +2917,7 @@
     },
     "99556667c68cce18d27b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.023437+00:00"
+      "updated_at": "2026-11-01T07:00:55.653868+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -3010,7 +3027,7 @@
     },
     "a240c8d7b42e167d6d3d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.018689+00:00"
+      "updated_at": "2026-11-01T07:00:55.650892+00:00"
     },
     "a2c0cde3ebd3d530c6ff": {
       "analysis_path": "episodes/2026-06-04/reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs-a2c0cde3ebd3d530c6ff/analysis.json",
@@ -3066,6 +3083,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/e6c9bcc4/transcription.vtt",
       "updated_at": "2026-09-23T20:57:04.519928+00:00"
+    },
+    "a499986bb3cde425dfea": {
+      "analysis_path": "episodes/2026-10-31/building-chatgpt-for-finance-joseph-kim-openai-s-head-of-financial-services-a499986bb3cde425dfea/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.youtube.com/watch?v=v-d1WTqIULs",
+      "published": "2026-10-31T03:41:20+00:00",
+      "raw_transcript": "episodes/2026-10-31/building-chatgpt-for-finance-joseph-kim-openai-s-head-of-financial-services-a499986bb3cde425dfea/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-31/building-chatgpt-for-finance-joseph-kim-openai-s-head-of-financial-services-a499986bb3cde425dfea/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-31/building-chatgpt-for-finance-joseph-kim-openai-s-head-of-financial-services-a499986bb3cde425dfea/summary.md",
+      "title": "\u26a1 Building ChatGPT for Finance \u2014 Joseph Kim, OpenAI's Head of Financial Services",
+      "transcript_path": "episodes/2026-10-31/building-chatgpt-for-finance-joseph-kim-openai-s-head-of-financial-services-a499986bb3cde425dfea/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=v-d1WTqIULs",
+      "updated_at": "2026-11-01T07:06:41.290025+00:00"
     },
     "a56f55ce2b72bbfb78f4": {
       "analysis_path": "episodes/2026-10-06/le-chonk-buffett-discovers-youtube-the-case-against-ai-job-doom-greg-fleming-tj-parker-joo-a56f55ce2b72bbfb78f4/analysis.json",
@@ -3314,7 +3348,7 @@
     },
     "afe6b7df59e302e1335b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.021945+00:00"
+      "updated_at": "2026-11-01T07:00:55.653080+00:00"
     },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
@@ -3503,7 +3537,7 @@
     },
     "c003c4781f387501e24c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.009855+00:00"
+      "updated_at": "2026-11-01T07:00:55.644972+00:00"
     },
     "c0a727fa192a7f42a32f": {
       "analysis_path": "episodes/2026-06-21/ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logistics-more-c0a727fa192a7f42a32f/analysis.json",
@@ -3868,7 +3902,7 @@
     },
     "cd4daba2256dbf9814a3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.006672+00:00"
+      "updated_at": "2026-11-01T07:00:55.643187+00:00"
     },
     "ce79f997649ea597593a": {
       "analysis_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis.json",
@@ -3990,7 +4024,7 @@
     },
     "d335e9914a9e3058f71a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.017645+00:00"
+      "updated_at": "2026-11-01T07:00:55.650164+00:00"
     },
     "d425cc0dcea12806250d": {
       "analysis_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/analysis.json",
@@ -4046,6 +4080,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/ca871caf/transcription.txt",
       "updated_at": "2026-08-17T16:33:32.700006+00:00"
+    },
+    "d8f45cf8be5d73f95a78": {
+      "analysis_path": "episodes/2026-10-31/ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-ferroelectric-ram-new-h-d8f45cf8be5d73f95a78/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-ferroelectric-ram-new-hacks/",
+      "published": "2026-10-31T21:45:59+00:00",
+      "raw_transcript": "episodes/2026-10-31/ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-ferroelectric-ram-new-h-d8f45cf8be5d73f95a78/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-10-31/ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-ferroelectric-ram-new-h-d8f45cf8be5d73f95a78/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-10-31/ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-ferroelectric-ram-new-h-d8f45cf8be5d73f95a78/summary.md",
+      "title": "AI:AM: Carbon in the Arena, Mistral's Le Chonk, the Agent-Run Economy, Ferroelectric RAM + New Hacks",
+      "transcript_path": "episodes/2026-10-31/ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-ferroelectric-ram-new-h-d8f45cf8be5d73f95a78/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-ferroelectric-ram-new-hacks/",
+      "updated_at": "2026-11-01T07:06:41.292567+00:00"
     },
     "d912f4bb68caed7d6f38": {
       "analysis_path": "episodes/2026-10-22/what-will-computer-chips-look-like-in-2045-d912f4bb68caed7d6f38/analysis.json",
@@ -4597,7 +4648,7 @@
     },
     "f27051058ef42009a13c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-10-31T06:59:47.012794+00:00"
+      "updated_at": "2026-11-01T07:00:55.647216+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
