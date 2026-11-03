@@ -1,0 +1,23 @@
+{
+  "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a19df0-34a3-7307-96fc-48928908772b/01a19df0-35e0-7c61-90cc-3a37c8983d85.mp3",
+  "description_html": "<p>Legora can\u2019t read a single trace of what its agent does for a lawyer. The data belongs to the law firm\u2019s clients. How do you build and test an agent when you can\u2019t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...</p>",
+  "description_text": "Legora can\u2019t read a single trace of what its agent does for a lawyer. The data belongs to the law firm\u2019s clients. How do you build and test an agent when you can\u2019t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
+  "duration_seconds": 4041,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "609464ed061aaef583bc",
+  "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora",
+  "published": "2026-11-02T20:50:24+00:00",
+  "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a19df6-a61b-7375-825b-0ce2635bee20.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://rss.beehiiv.com/podcasts/transcriptions/01a19df6-a61b-7375-825b-0ce2635bee20.vtt"
+    }
+  ],
+  "web_links": []
+}

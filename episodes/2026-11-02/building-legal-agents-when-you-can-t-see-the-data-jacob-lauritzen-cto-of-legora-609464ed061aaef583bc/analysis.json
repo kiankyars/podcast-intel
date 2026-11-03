@@ -1,0 +1,68 @@
+{
+  "changed_views": [
+    "The October 22 coverage established Legora's task-specific model evaluation and routing. This interview adds the constraint behind that work: customer deployment need not yield freely accessible traces, making representative evaluations and consented reproductions more valuable.",
+    "The argument for specialized open-weight models can be narrow retrieval economics rather than replacing a frontier agent, but Legora's proposed gains remain unmeasured here.",
+    "An AI application can still need substantial engineering and implementation staffing as its workflow coverage expands; reusable components address that pressure without demonstrating that it disappears."
+  ],
+  "entities": [
+    "Legora",
+    "Jacob Lauritzen",
+    "Microsoft Azure",
+    "Anthropic",
+    "OpenAI",
+    "Google Gemini",
+    "ElevenLabs"
+  ],
+  "follow_ups": [
+    "Look for evaluation-set coverage, model regression rates and evidence that coarse online judgments track expert review.",
+    "Check whether bounded retrieval post-training ships, what permitted data it uses, and its cost, latency and recall against the prior system. Legora's published security policy excludes training or fine-tuning on customer data.",
+    "Look for citation-checking rates and downstream error measurements, not merely the availability of source links.",
+    "Track customer deployment effort and the split between reusable product work and bespoke engineering as the team expands."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Legora relies on expert-built evaluations and coarse feedback because it generally cannot inspect customers' production traces.",
+      "confidence": "medium",
+      "evidence": "Lauritzen describes an evaluation team of roughly three engineers and three lawyers, supported by about 100 legal experts. They construct representative legal projects and track performance by task and practice area; model releases can improve some tasks while regressing others. Cheap online checks and coarse failure/task classifications help monitor changes, and engaged customers can supply anonymized reproductions. This is restricted routine access, not an absolute ban: [Legora's security policy](https://legora.com/security) permits engineer access for support with written customer approval.",
+      "kind": "observation",
+      "timestamp": "00:08:55; 00:09:28; 00:10:17; 00:10:45; 00:26:45; 00:27:02; 00:28:26; 01:00:24"
+    },
+    {
+      "category": "frontier_labs_models",
+      "claim": "Legora plans to post-train open-weight models for bounded retrieval tasks rather than replace the frontier model running its main agent.",
+      "confidence": "medium",
+      "evidence": "Lauritzen says Legora had not fine-tuned models up to this point, but improving open weights now justify work where task-specific models could reduce cost and latency. His example is legal research: many narrow retrieval queries executed in parallel. He distinguishes this from training a general-purpose main agent and says search and harness improvements still offer gains before training. This is a stated plan without a named deployed model, benchmark or measured savings; the interview does not establish training-data provenance.",
+      "kind": "forecast",
+      "timestamp": "00:53:09; 00:53:17; 00:53:33; 00:53:43; 00:54:35"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Legora previews the first ten rows of a bulk review and preserves citation chains from agent conclusions back to source documents.",
+      "confidence": "medium",
+      "evidence": "Tabular Review applies questions across documents, allowing users to inspect and revise the first ten rows before scaling the run. Results support comments, review markers and source citations. An agent's later report can cite a table cell or row, with further links to the underlying document passage. This makes inspection possible; it does not prove correctness or require universal human approval. Lauritzen acknowledges that users vary in how thoroughly they check citations.",
+      "kind": "observation",
+      "timestamp": "00:35:19; 00:36:03; 00:37:34; 00:37:45; 00:57:07; 00:57:30; 00:57:37; 00:57:57"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Approved vendors and data-processing agreements constrain Legora's model choices alongside capability, cost and latency.",
+      "confidence": "medium",
+      "evidence": "Lauritzen says existing Microsoft approvals initially made Azure the practical hosting choice; he reports all infrastructure remains on Azure, while customer cloud acceptance has broadened. Model routing also considers governance and regional availability. He says Legora keeps very few vendors in its data-processing agreement and excludes ElevenLabs for that reason. The implication is a procurement advantage for approved providers covering several modalities, rather than unrestricted selection of each task's best specialist.",
+      "kind": "observation",
+      "timestamp": "00:28:50; 00:29:08; 00:29:22; 00:30:11; 00:30:27; 00:31:23; 00:31:31"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Lauritzen abandoned a 20-engineer ceiling as Legora reached about 100 engineers, using reusable components to meet broader customer demand.",
+      "confidence": "medium",
+      "evidence": "He says competition and requested features made the small-team ambition impractical. Lists, file-based projects and configurable agents provide common building blocks for many workflows. Legal engineers configure the product as power users; forward-deployed engineers write code, build integrations and feed required changes into the core product. These engineers are allocated between customer work and core development. The structure aims to expand customization without independently building every requested feature; no delivery-cost or productivity comparison is provided.",
+      "kind": "observation",
+      "timestamp": "00:39:15; 00:40:14; 00:41:53; 00:43:23; 00:44:43; 00:46:31; 00:50:41; 00:50:58; 00:51:16"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Legora CTO Jacob Lauritzen describes building legal agents with restricted access to customer traces. The company combines lawyer-built evaluations, coarse production feedback, task-specific model selection and reviewable document workflows. Its next model investment is planned post-training for bounded retrieval tasks, while reusable product components and legal engineers support customer customization. He says the engineering team is now about 100, despite an earlier ambition to keep it at 20. The interview provides operating detail, but no controlled benchmark, unit economics or quantified customer productivity gain.",
+  "why_it_matters": "Legal agents face a different improvement loop from products that freely inspect usage traces. Legora's account puts access permissions, evaluation coverage, source provenance and customer-specific workflow integration alongside model capability as constraints on product quality and scale."
+}

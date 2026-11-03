@@ -27,7 +27,7 @@
     },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.317020+00:00"
+      "updated_at": "2026-11-03T07:03:11.683266+00:00"
     },
     "05c0879840cb181ce270": {
       "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -383,7 +383,7 @@
     },
     "14569a81115ecd803781": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.322791+00:00"
+      "updated_at": "2026-11-03T07:03:11.693481+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -751,7 +751,7 @@
     },
     "22dc6319531e38669f95": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.312866+00:00"
+      "updated_at": "2026-11-03T07:03:11.678487+00:00"
     },
     "2352a884aaede56a4bc5": {
       "analysis_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/analysis.json",
@@ -806,7 +806,7 @@
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.320622+00:00"
+      "updated_at": "2026-11-03T07:03:11.687547+00:00"
     },
     "25a14fcf07063a254bb3": {
       "analysis_path": "episodes/2026-10-29/state-of-ai-2026-the-biggest-stories-of-the-year-and-agi-in-2027-nathan-benaich-25a14fcf07063a254bb3/analysis.json",
@@ -886,7 +886,7 @@
     },
     "292074a9582d114b9eca": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.311363+00:00"
+      "updated_at": "2026-11-03T07:03:11.676873+00:00"
     },
     "29d8ade9363f50a60b25": {
       "analysis_path": "episodes/2026-07-14/john-kim-how-to-raise-a-few-billion-dollars-invest-like-the-best-ep-482-29d8ade9363f50a60b25/analysis.json",
@@ -951,6 +951,10 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-18T16:02:25.970388+00:00"
     },
+    "2c7cffb9e4632f9c1d61": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-03T07:03:11.673750+00:00"
+    },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
       "updated_at": "2026-11-02T07:08:42.323892+00:00"
@@ -1009,6 +1013,10 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/b2f8d76d",
       "updated_at": "2026-07-17T17:09:41.581927+00:00"
+    },
+    "2ff5d8b31b49a789ab04": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-03T07:03:11.675312+00:00"
     },
     "2ffae64fdc369d55a6f2": {
       "analysis_path": "episodes/2026-06-06/ai-in-the-am-week-1-highlights-june-2026-2ffae64fdc369d55a6f2/analysis.json",
@@ -1373,7 +1381,7 @@
     },
     "43fa29d199e83132a93d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.313629+00:00"
+      "updated_at": "2026-11-03T07:03:11.679558+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -1524,7 +1532,7 @@
     },
     "4fa6ac6f4fe2cd734eaa": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.315493+00:00"
+      "updated_at": "2026-11-03T07:03:11.681385+00:00"
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
@@ -1799,7 +1807,7 @@
     },
     "5c24bd5b343b0119f6c5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.319864+00:00"
+      "updated_at": "2026-11-03T07:03:11.685553+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -1880,6 +1888,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/9f7d8501/transcription.vtt",
       "updated_at": "2026-09-25T16:07:32.455332+00:00"
+    },
+    "609464ed061aaef583bc": {
+      "analysis_path": "episodes/2026-11-02/building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto-of-legora-609464ed061aaef583bc/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora",
+      "published": "2026-11-02T20:50:24+00:00",
+      "raw_transcript": "episodes/2026-11-02/building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto-of-legora-609464ed061aaef583bc/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-02/building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto-of-legora-609464ed061aaef583bc/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-02/building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto-of-legora-609464ed061aaef583bc/summary.md",
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "transcript_path": "episodes/2026-11-02/building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto-of-legora-609464ed061aaef583bc/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a19df6-a61b-7375-825b-0ce2635bee20.vtt",
+      "updated_at": "2026-11-03T07:08:27.265573+00:00"
     },
     "60a555042a12c43842b0": {
       "status": "metadata_skipped",
@@ -2166,7 +2191,7 @@
     },
     "6ccbf1fd0b2aa6f9b9d1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.316276+00:00"
+      "updated_at": "2026-11-03T07:03:11.682130+00:00"
     },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
@@ -2917,7 +2942,7 @@
     },
     "99556667c68cce18d27b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.322071+00:00"
+      "updated_at": "2026-11-03T07:03:11.692688+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -3044,7 +3069,7 @@
     },
     "a240c8d7b42e167d6d3d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.318475+00:00"
+      "updated_at": "2026-11-03T07:03:11.684808+00:00"
     },
     "a2c0cde3ebd3d530c6ff": {
       "analysis_path": "episodes/2026-06-04/reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs-a2c0cde3ebd3d530c6ff/analysis.json",
@@ -3365,7 +3390,7 @@
     },
     "afe6b7df59e302e1335b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.321351+00:00"
+      "updated_at": "2026-11-03T07:03:11.691924+00:00"
     },
     "b1b1213f580a1f67b7ce": {
       "analysis_path": "episodes/2026-09-16/third-party-evaluators-fed-hikes-rates-zuck-pushes-back-on-ai-slowdown-jeremy-allaire-toma-b1b1213f580a1f67b7ce/analysis.json",
@@ -3554,7 +3579,7 @@
     },
     "c003c4781f387501e24c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.312131+00:00"
+      "updated_at": "2026-11-03T07:03:11.677746+00:00"
     },
     "c0a727fa192a7f42a32f": {
       "analysis_path": "episodes/2026-06-21/ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logistics-more-c0a727fa192a7f42a32f/analysis.json",
@@ -3919,7 +3944,7 @@
     },
     "cd4daba2256dbf9814a3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.310373+00:00"
+      "updated_at": "2026-11-03T07:03:11.676114+00:00"
     },
     "ce79f997649ea597593a": {
       "analysis_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis.json",
@@ -4041,7 +4066,7 @@
     },
     "d335e9914a9e3058f71a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.317752+00:00"
+      "updated_at": "2026-11-03T07:03:11.684059+00:00"
     },
     "d425cc0dcea12806250d": {
       "analysis_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/analysis.json",
@@ -4665,7 +4690,7 @@
     },
     "f27051058ef42009a13c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-02T07:08:42.314382+00:00"
+      "updated_at": "2026-11-03T07:03:11.680405+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
