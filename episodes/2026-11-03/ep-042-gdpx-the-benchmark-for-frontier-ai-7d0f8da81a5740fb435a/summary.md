@@ -1,0 +1,30 @@
+# Ep. 042 - GDPx: The Benchmark for Frontier AI
+
+- Podcast: SemiAnalysis Weekly
+- Published: 2026-11-03
+- Source: https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--042---GDPx-The-Benchmark-for-Frontier-AI-e3rlc7h
+- Relevance: 4/5
+
+Max Kan and Andrew Megalaa explain GDPx, SemiAnalysis's new benchmark of demanding agent work. Its 206 tasks span 11 selected domains and 14 data partners. The useful findings concern what headline rankings measure, how missing context defeats finance agents, why partial progress differs from an acceptable deliverable, and the tradeoff between private evaluations and public auditability. The authors deliberately target domains they expect to absorb expensive frontier intelligence; the benchmark is not a representative sample of the economy, a measure of jobs automated or evidence of realized return on investment.
+
+**Why it matters:** GDPx adds evidence about complete agent workflows in complex environments, where finding the right information and satisfying professional requirements can remain difficult despite capable models. Its results are most useful when interpreted with domain weights, grading rules, harnesses and access restrictions, rather than as a universal ranking or an automation percentage.
+
+## Signals
+
+- **GDPx's headline ranking depends on domain selection and includes refusal behavior alongside task performance.** [20:44; 21:34; 21:54; 22:05; 23:28; 44:12] _frontier_labs_models; observation; high confidence._ The November 4 [leaderboard](https://gdpx.semianalysis.com/) reports Opus 5.5 at 12.0%, Gemini 4 Carbon at 10.9% and GPT-6 Astra at 9.6%. The authors explain that safety restrictions affect some results and that excluding three affected domains changes the comparison. The [methodology](https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities) uses equal domain weights, equal partner weights within domains, three-attempt averages, mixed binary/continuous grading and native harnesses where available, with an eight-hour default limit. These scores describe those evaluated systems and conditions; filtering domains changes the test rather than measuring hidden capability.
+- **The GDPx finance example exposes failures to retrieve decisive context from a real deal room, even when models can produce plausible financial work.** [26:19; 27:02; 28:18; 28:35; 29:18; 30:01; 30:27; 30:38] _agents_developer_tools; observation; medium confidence._ Kan describes tasks reconstructed from an actual private-equity transaction and its original analyst assignments. The [published example](https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities) separates roughly 4,000 anonymized files across several parties, with about 2,000 available in the illustrated task's environment. The team says models sometimes missed a single email changing the required reporting period and consequently used wrong numbers. The test therefore includes locating relevant context, not just generating a workbook from supplied facts. This is evidence from selected benchmark tasks, without a representative finance-worker baseline.
+- **GDPx's finance and legal results distinguish useful partial progress from meeting the benchmark's completion standard.** [31:40; 31:52; 32:23; 32:53; 33:44; 33:50; 34:00; 34:27] _agents_developer_tools; observation; medium confidence._ Kan explains that finance workbooks contain individually scored criteria but receive a binary final result because a materially incorrect deliverable is not acceptable. He reports nearly zero binary finance results with a Carbon exception, and zero legal results, while partial scores show that models completed some requirements. Most other domains use continuous grading where improvements have value. The interpretation depends on whether the objective is autonomous completion or assistance with human correction; low binary scores establish neither zero useful work nor measured human-plus-AI productivity.
+- **GDPx combines checks for unfair task requirements with limited public examples, trading full external auditability for resistance to benchmark overfitting.** [05:31; 05:58; 06:12; 08:45; 09:00; 47:49; 48:03; 48:39; 48:56; 49:30] _agents_developer_tools; observation; medium confidence._ The authors distinguish genuine difficulty from graders that reject valid alternative solutions, and describe automated checks followed by manual trajectory review and partner feedback. Their [methodology](https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities) says partners needed to clear initial quality checks without major defects. They publish rollouts for one task per partner while retaining most tasks privately to discourage direct optimization against the test. This explains the design choice but does not independently verify every hidden task, establish freedom from contamination or validate their broad criticism of competing benchmarks.
+
+## Changed Views Or Tensions
+
+- Low scores on selected frontier tasks can coexist with substantial partial assistance; neither the headline percentage nor a zero binary result directly estimates economic automation.
+- In realistic finance workflows, retrieving a small but decisive piece of context can be a separate bottleneck from financial reasoning or document production.
+- A credible model comparison needs the evaluation conditions and task distribution as well as the final ranking; changing domain filters answers a different question.
+
+## Follow-Ups
+
+- Track matched-version results, uncertainty and repeatability as models and harnesses change, rather than interpreting small headline gaps alone.
+- Look for human completion baselines and controlled human-plus-AI correction studies before translating finance or legal scores into staffing or productivity claims.
+- Check how future task refreshes, partner provenance and independent audits address contamination and the limited inspectability of private tasks.
+- Keep the authors' expected concentration of frontier-model revenue separate from demonstrated customer spending, adoption and return on investment.
