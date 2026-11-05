@@ -27,7 +27,7 @@
     },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.255421+00:00"
+      "updated_at": "2026-11-05T07:06:06.526647+00:00"
     },
     "05c0879840cb181ce270": {
       "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -387,7 +387,7 @@
     },
     "1503134eab30d33b4752": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.244896+00:00"
+      "updated_at": "2026-11-05T07:06:06.516347+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -755,7 +755,7 @@
     },
     "22dc6319531e38669f95": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.251601+00:00"
+      "updated_at": "2026-11-05T07:06:06.522425+00:00"
     },
     "2352a884aaede56a4bc5": {
       "analysis_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/analysis.json",
@@ -810,7 +810,7 @@
     },
     "24da53ecd5e5df01d400": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.242844+00:00"
+      "updated_at": "2026-11-05T07:06:06.515610+00:00"
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
@@ -894,7 +894,7 @@
     },
     "292074a9582d114b9eca": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.249385+00:00"
+      "updated_at": "2026-11-05T07:06:06.520920+00:00"
     },
     "29d8ade9363f50a60b25": {
       "analysis_path": "episodes/2026-07-14/john-kim-how-to-raise-a-few-billion-dollars-invest-like-the-best-ep-482-29d8ade9363f50a60b25/analysis.json",
@@ -961,7 +961,7 @@
     },
     "2c7cffb9e4632f9c1d61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.246212+00:00"
+      "updated_at": "2026-11-05T07:06:06.517080+00:00"
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
@@ -1024,7 +1024,7 @@
     },
     "2ff5d8b31b49a789ab04": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.247586+00:00"
+      "updated_at": "2026-11-05T07:06:06.519280+00:00"
     },
     "2ffae64fdc369d55a6f2": {
       "analysis_path": "episodes/2026-06-06/ai-in-the-am-week-1-highlights-june-2026-2ffae64fdc369d55a6f2/analysis.json",
@@ -1389,7 +1389,7 @@
     },
     "43fa29d199e83132a93d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.252388+00:00"
+      "updated_at": "2026-11-05T07:06:06.523168+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -1457,6 +1457,23 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://colossus.com/episode/from-transistor-to-token/",
       "updated_at": "2026-08-25T16:59:03.819153+00:00"
+    },
+    "479b98341b7cff6341a5": {
+      "analysis_path": "episodes/2026-11-04/ep-043-the-midterms-and-the-2028-datacenter-buildout-datacenters-jeremie-eliahou-ontiveros-479b98341b7cff6341a5/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--043---The-Midterms-and-the-2028-Datacenter-Buildout-Datacenters--Jeremie-Eliahou-Ontiveros--Jordan-Nanos--Maya-Barkin--Wayne-Ma-e3rp424",
+      "published": "2026-11-04T22:15:24+00:00",
+      "raw_transcript": "episodes/2026-11-04/ep-043-the-midterms-and-the-2028-datacenter-buildout-datacenters-jeremie-eliahou-ontiveros-479b98341b7cff6341a5/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-04/ep-043-the-midterms-and-the-2028-datacenter-buildout-datacenters-jeremie-eliahou-ontiveros-479b98341b7cff6341a5/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-04/ep-043-the-midterms-and-the-2028-datacenter-buildout-datacenters-jeremie-eliahou-ontiveros-479b98341b7cff6341a5/summary.md",
+      "title": "Ep. 043 - The Midterms and the 2028 Datacenter Buildout (Datacenters) | Jeremie Eliahou Ontiveros, Jordan Nanos, Maya Barkin, Wayne Ma",
+      "transcript_path": "episodes/2026-11-04/ep-043-the-midterms-and-the-2028-datacenter-buildout-datacenters-jeremie-eliahou-ontiveros-479b98341b7cff6341a5/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=J-d7gn-8t7s",
+      "updated_at": "2026-11-05T07:12:55.667860+00:00"
     },
     "48ed1d4f588af8bab2c4": {
       "analysis_path": "episodes/2026-10-14/lab-in-the-loop-at-compute-speed-ian-quigley-leash-bio-48ed1d4f588af8bab2c4/analysis.json",
@@ -1540,7 +1557,7 @@
     },
     "4fa6ac6f4fe2cd734eaa": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.253915+00:00"
+      "updated_at": "2026-11-05T07:06:06.524638+00:00"
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
@@ -1815,7 +1832,7 @@
     },
     "5c24bd5b343b0119f6c5": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.257597+00:00"
+      "updated_at": "2026-11-05T07:06:06.528829+00:00"
     },
     "5c44c568461d134c810f": {
       "status": "metadata_skipped",
@@ -2199,7 +2216,7 @@
     },
     "6ccbf1fd0b2aa6f9b9d1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.254670+00:00"
+      "updated_at": "2026-11-05T07:06:06.525920+00:00"
     },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
@@ -2725,6 +2742,23 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-14T16:01:07.886212+00:00"
     },
+    "86c2d25ed742da00b0ae": {
+      "analysis_path": "episodes/2026-11-04/behind-latent-space-a-rare-look-inside-the-pod-aiei-shanghai-86c2d25ed742da00b0ae/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.youtube.com/watch?v=QmDLDy3ZSNE",
+      "published": "2026-11-04T10:32:51+00:00",
+      "raw_transcript": "episodes/2026-11-04/behind-latent-space-a-rare-look-inside-the-pod-aiei-shanghai-86c2d25ed742da00b0ae/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-04/behind-latent-space-a-rare-look-inside-the-pod-aiei-shanghai-86c2d25ed742da00b0ae/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-04/behind-latent-space-a-rare-look-inside-the-pod-aiei-shanghai-86c2d25ed742da00b0ae/summary.md",
+      "title": "\u26a1 Behind Latent Space: A Rare Look Inside the Pod | AIEi Shanghai",
+      "transcript_path": "episodes/2026-11-04/behind-latent-space-a-rare-look-inside-the-pod-aiei-shanghai-86c2d25ed742da00b0ae/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=QmDLDy3ZSNE",
+      "updated_at": "2026-11-05T07:12:55.674597+00:00"
+    },
     "8889ec11851c90fa1eeb": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-17T16:15:37.554040+00:00"
@@ -3094,7 +3128,7 @@
     },
     "a240c8d7b42e167d6d3d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.256877+00:00"
+      "updated_at": "2026-11-05T07:06:06.528101+00:00"
     },
     "a2c0cde3ebd3d530c6ff": {
       "analysis_path": "episodes/2026-06-04/reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs-a2c0cde3ebd3d530c6ff/analysis.json",
@@ -3260,6 +3294,10 @@
     "a76ba54f9400b5fcb583": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T00:26:14.106451+00:00"
+    },
+    "a7fc9a966211f4bc3abe": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-05T07:06:06.514837+00:00"
     },
     "a8258499a51dd97972cd": {
       "analysis_path": "episodes/2026-06-04/openai-s-dan-roberts-why-ai-can-now-make-discoveries-a8258499a51dd97972cd/analysis.json",
@@ -3604,7 +3642,7 @@
     },
     "c003c4781f387501e24c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.250401+00:00"
+      "updated_at": "2026-11-05T07:06:06.521680+00:00"
     },
     "c0a727fa192a7f42a32f": {
       "analysis_path": "episodes/2026-06-21/ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logistics-more-c0a727fa192a7f42a32f/analysis.json",
@@ -3969,7 +4007,7 @@
     },
     "cd4daba2256dbf9814a3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.248393+00:00"
+      "updated_at": "2026-11-05T07:06:06.520109+00:00"
     },
     "ce79f997649ea597593a": {
       "analysis_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis.json",
@@ -4091,7 +4129,7 @@
     },
     "d335e9914a9e3058f71a": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.256144+00:00"
+      "updated_at": "2026-11-05T07:06:06.527370+00:00"
     },
     "d425cc0dcea12806250d": {
       "analysis_path": "episodes/2026-10-21/ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieberman-cj-hess-d425cc0dcea12806250d/analysis.json",
@@ -4624,6 +4662,23 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-muddling-through-well/",
       "updated_at": "2026-09-17T18:55:56.796319+00:00"
     },
+    "e9838cbef21d1385520c": {
+      "analysis_path": "episodes/2026-11-04/martin-casado-on-frontier-model-economics-ai-s-slowdown-and-the-cursor-deal-invest-like-th-e9838cbef21d1385520c/analysis.json",
+      "error": "",
+      "feed_id": "invest-like-the-best",
+      "link": "https://colossus.com/episode/the-productive-investor/",
+      "published": "2026-11-04T09:00:00+00:00",
+      "raw_transcript": "episodes/2026-11-04/martin-casado-on-frontier-model-economics-ai-s-slowdown-and-the-cursor-deal-invest-like-th-e9838cbef21d1385520c/transcript.txt",
+      "relevance_score": 5,
+      "request_path": "episodes/2026-11-04/martin-casado-on-frontier-model-economics-ai-s-slowdown-and-the-cursor-deal-invest-like-th-e9838cbef21d1385520c/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-04/martin-casado-on-frontier-model-economics-ai-s-slowdown-and-the-cursor-deal-invest-like-th-e9838cbef21d1385520c/summary.md",
+      "title": "Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
+      "transcript_path": "episodes/2026-11-04/martin-casado-on-frontier-model-economics-ai-s-slowdown-and-the-cursor-deal-invest-like-th-e9838cbef21d1385520c/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=XZxDawMm4lU",
+      "updated_at": "2026-11-05T07:12:55.678287+00:00"
+    },
     "eb0d59dac5a1ac1f776c": {
       "analysis_path": "episodes/2026-07-12/alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p-doom-is-down-to-5-eb0d59dac5a1ac1f776c/analysis.json",
       "error": "",
@@ -4715,7 +4770,7 @@
     },
     "f27051058ef42009a13c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-04T07:03:39.253173+00:00"
+      "updated_at": "2026-11-05T07:06:06.523903+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
@@ -4876,6 +4931,10 @@
     "fb2301951f30455eadda": {
       "status": "metadata_skipped",
       "updated_at": "2026-09-30T16:02:26.039572+00:00"
+    },
+    "fb5d1be46ffce3832659": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-05T07:06:06.513896+00:00"
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
