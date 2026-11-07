@@ -1,0 +1,23 @@
+{
+  "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1a3f4-4773-7a7d-acdc-731f8540ab5d/01a1b153-728b-7ba1-9c45-88599573e55f.mp3",
+  "description_html": "<p>Fabian Theis has been one of the key players in the various iterations of the Virtual Cell concept and initiatives. It is not hyperbole at all to say that his lab has been pushing the frontier of algorithms to understand multi-scale, multi-modal (\u201dmult...</p>",
+  "description_text": "Fabian Theis has been one of the key players in the various iterations of the Virtual Cell concept and initiatives. It is not hyperbole at all to say that his lab has been pushing the frontier of algorithms to understand multi-scale, multi-modal (\u201dmult...",
+  "duration_seconds": 3050,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "464f8c3053be9af124ef",
+  "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/controlling_biology_-_fabian_theis_helmholtz_munich_1",
+  "published": "2026-11-06T14:48:24+00:00",
+  "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1b156-6294-7f46-839f-a95ec4291ae4.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1b156-6294-7f46-839f-a95ec4291ae4.vtt"
+    }
+  ],
+  "web_links": []
+}

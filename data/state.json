@@ -27,7 +27,7 @@
     },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.526647+00:00"
+      "updated_at": "2026-11-07T07:07:30.851198+00:00"
     },
     "05c0879840cb181ce270": {
       "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -387,7 +387,7 @@
     },
     "1503134eab30d33b4752": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.516347+00:00"
+      "updated_at": "2026-11-07T07:07:30.842871+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -755,7 +755,7 @@
     },
     "22dc6319531e38669f95": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.522425+00:00"
+      "updated_at": "2026-11-07T07:07:30.847422+00:00"
     },
     "2352a884aaede56a4bc5": {
       "analysis_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/analysis.json",
@@ -810,7 +810,7 @@
     },
     "24da53ecd5e5df01d400": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.515610+00:00"
+      "updated_at": "2026-11-07T07:07:30.842112+00:00"
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
@@ -894,7 +894,7 @@
     },
     "292074a9582d114b9eca": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.520920+00:00"
+      "updated_at": "2026-11-07T07:07:30.845930+00:00"
     },
     "29d8ade9363f50a60b25": {
       "analysis_path": "episodes/2026-07-14/john-kim-how-to-raise-a-few-billion-dollars-invest-like-the-best-ep-482-29d8ade9363f50a60b25/analysis.json",
@@ -961,7 +961,7 @@
     },
     "2c7cffb9e4632f9c1d61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.517080+00:00"
+      "updated_at": "2026-11-07T07:07:30.843631+00:00"
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
@@ -1024,7 +1024,7 @@
     },
     "2ff5d8b31b49a789ab04": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.519280+00:00"
+      "updated_at": "2026-11-07T07:07:30.844436+00:00"
     },
     "2ffae64fdc369d55a6f2": {
       "analysis_path": "episodes/2026-06-06/ai-in-the-am-week-1-highlights-june-2026-2ffae64fdc369d55a6f2/analysis.json",
@@ -1077,6 +1077,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=5OwUwMSkO4Y",
       "updated_at": "2026-10-19T07:17:00.100040+00:00"
     },
+    "3375dd124f57fef8e3f1": {
+      "analysis_path": "episodes/2026-11-06/ramtin-naimi-the-state-of-venture-invest-like-the-best-ep-499-3375dd124f57fef8e3f1/analysis.json",
+      "error": "",
+      "feed_id": "invest-like-the-best",
+      "link": "https://colossus.com/episode/trillion-dollar-goalposts/",
+      "published": "2026-11-06T09:00:00+00:00",
+      "raw_transcript": "episodes/2026-11-06/ramtin-naimi-the-state-of-venture-invest-like-the-best-ep-499-3375dd124f57fef8e3f1/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-06/ramtin-naimi-the-state-of-venture-invest-like-the-best-ep-499-3375dd124f57fef8e3f1/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-06/ramtin-naimi-the-state-of-venture-invest-like-the-best-ep-499-3375dd124f57fef8e3f1/summary.md",
+      "title": "Ramtin Naimi - The State of Venture - [Invest Like the Best, EP.499]",
+      "transcript_path": "episodes/2026-11-06/ramtin-naimi-the-state-of-venture-invest-like-the-best-ep-499-3375dd124f57fef8e3f1/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=r95bEutZUN4",
+      "updated_at": "2026-11-07T07:13:38.349781+00:00"
+    },
     "3566303c0d6c3fadbbbd": {
       "analysis_path": "episodes/2026-09-12/ai-am-highlights-astra-as-agi-openai-s-pause-mythos-mozilla-human-agency-vs-technocapitali-3566303c0d6c3fadbbbd/analysis.json",
       "error": "",
@@ -1093,6 +1110,10 @@
       "transcript_source": "episode_page_transcript",
       "transcript_source_url": "https://www.cognitiverevolution.ai/ai-am-highlights-astra-as-agi-openai-s-pause-mythos-mozilla-human-agency-vs-technocapitalism/",
       "updated_at": "2026-09-12T22:03:07.182625+00:00"
+    },
+    "3586c3e86b644eb4ed01": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-07T07:07:30.837942+00:00"
     },
     "3593dedb1bf3257293e2": {
       "analysis_path": "episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/analysis.json",
@@ -1389,7 +1410,7 @@
     },
     "43fa29d199e83132a93d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.523168+00:00"
+      "updated_at": "2026-11-07T07:07:30.848166+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -1432,6 +1453,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=38vwjWpHFes",
       "updated_at": "2026-09-17T18:55:56.777054+00:00"
+    },
+    "464f8c3053be9af124ef": {
+      "analysis_path": "episodes/2026-11-06/controlling-biology-fabian-theis-helmholtz-munich-464f8c3053be9af124ef/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/controlling_biology_-_fabian_theis_helmholtz_munich_1",
+      "published": "2026-11-06T14:48:24+00:00",
+      "raw_transcript": "episodes/2026-11-06/controlling-biology-fabian-theis-helmholtz-munich-464f8c3053be9af124ef/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-06/controlling-biology-fabian-theis-helmholtz-munich-464f8c3053be9af124ef/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-06/controlling-biology-fabian-theis-helmholtz-munich-464f8c3053be9af124ef/summary.md",
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "transcript_path": "episodes/2026-11-06/controlling-biology-fabian-theis-helmholtz-munich-464f8c3053be9af124ef/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1b156-6294-7f46-839f-a95ec4291ae4.vtt",
+      "updated_at": "2026-11-07T07:13:38.353695+00:00"
     },
     "46ca1a1793e4725c8c27": {
       "status": "metadata_skipped",
@@ -1557,7 +1595,7 @@
     },
     "4fa6ac6f4fe2cd734eaa": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.524638+00:00"
+      "updated_at": "2026-11-07T07:07:30.849669+00:00"
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
@@ -1841,6 +1879,23 @@
     "5c9079babc96f680ea68": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-21T16:02:43.414292+00:00"
+    },
+    "5cc231f39bdbe9a9596a": {
+      "analysis_path": "episodes/2026-11-05/tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ownership-with-ceo-vla-5cc231f39bdbe9a9596a/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=yULk8eNa2mg",
+      "published": "2026-11-05T11:00:00+00:00",
+      "raw_transcript": "episodes/2026-11-05/tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ownership-with-ceo-vla-5cc231f39bdbe9a9596a/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-11-05/tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ownership-with-ceo-vla-5cc231f39bdbe9a9596a/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-05/tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ownership-with-ceo-vla-5cc231f39bdbe9a9596a/summary.md",
+      "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+      "transcript_path": "episodes/2026-11-05/tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ownership-with-ceo-vla-5cc231f39bdbe9a9596a/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=yULk8eNa2mg",
+      "updated_at": "2026-11-07T07:13:38.356524+00:00"
     },
     "5cfc3c40bbdee4ffbbb7": {
       "analysis_path": "episodes/2026-06-03/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectur-5cfc3c40bbdee4ffbbb7/analysis.json",
@@ -2216,7 +2271,7 @@
     },
     "6ccbf1fd0b2aa6f9b9d1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.525920+00:00"
+      "updated_at": "2026-11-07T07:07:30.850422+00:00"
     },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
@@ -2721,6 +2776,10 @@
       "transcript_source_url": "https://substackcdn.com/video_upload/post/216723291/c5daecec-8262-4632-b94a-ac5fcbb74077/1790117510/en.vtt",
       "updated_at": "2026-09-23T20:57:04.517301+00:00"
     },
+    "84c3ef48dcb71c58c35e": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-07T07:07:30.839018+00:00"
+    },
     "84e9b288a1a32728cee6": {
       "analysis_path": "episodes/2026-07-16/the-lab-of-the-future-should-feel-like-a-data-center-andy-beam-rafa-g-mez-bombarelli-lila--84e9b288a1a32728cee6/analysis.json",
       "error": "",
@@ -2762,6 +2821,23 @@
     "8889ec11851c90fa1eeb": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-17T16:15:37.554040+00:00"
+    },
+    "88ef90f7093ba1afdad9": {
+      "analysis_path": "episodes/2026-11-05/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-studies-agent-monitor-88ef90f7093ba1afdad9/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-studies-agent-monitoring/",
+      "published": "2026-11-05T21:29:03+00:00",
+      "raw_transcript": "episodes/2026-11-05/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-studies-agent-monitor-88ef90f7093ba1afdad9/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-05/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-studies-agent-monitor-88ef90f7093ba1afdad9/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-05/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-studies-agent-monitor-88ef90f7093ba1afdad9/summary.md",
+      "title": "KYC Becomes KYA: Sentinel Bio's Joshua Monrad on DNA Screening, Uplift Studies & Agent Monitoring",
+      "transcript_path": "episodes/2026-11-05/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-studies-agent-monitor-88ef90f7093ba1afdad9/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-studies-agent-monitoring/",
+      "updated_at": "2026-11-07T07:13:38.359201+00:00"
     },
     "890a00570b30251e6771": {
       "analysis_path": "episodes/2026-10-01/ai-am-was-trump-xi-anything-what-counts-as-utopia-aws-gpus-cost-3x-ai-diagnoses-rare-disea-890a00570b30251e6771/analysis.json",
@@ -3002,6 +3078,23 @@
     "99556667c68cce18d27b": {
       "status": "metadata_skipped",
       "updated_at": "2026-11-03T07:03:11.692688+00:00"
+    },
+    "9983fcefc2416aa50c31": {
+      "analysis_path": "episodes/2026-11-07/deep-dive-anthropic-s-1-myths-and-mythos-jamin-ball-altimeter-9983fcefc2416aa50c31/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://www.youtube.com/watch?v=P735f1xlpL0",
+      "published": "2026-11-07T02:49:28+00:00",
+      "raw_transcript": "episodes/2026-11-07/deep-dive-anthropic-s-1-myths-and-mythos-jamin-ball-altimeter-9983fcefc2416aa50c31/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-07/deep-dive-anthropic-s-1-myths-and-mythos-jamin-ball-altimeter-9983fcefc2416aa50c31/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-07/deep-dive-anthropic-s-1-myths-and-mythos-jamin-ball-altimeter-9983fcefc2416aa50c31/summary.md",
+      "title": "Deep Dive: Anthropic S-1 Myths and Mythos \u2014 Jamin Ball, Altimeter",
+      "transcript_path": "episodes/2026-11-07/deep-dive-anthropic-s-1-myths-and-mythos-jamin-ball-altimeter-9983fcefc2416aa50c31/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=P735f1xlpL0",
+      "updated_at": "2026-11-07T07:13:38.362796+00:00"
     },
     "9a0cf4921142d3474545": {
       "analysis_path": "episodes/2026-08-07/8-predictions-for-the-era-of-continual-learning-9a0cf4921142d3474545/analysis.json",
@@ -3297,7 +3390,7 @@
     },
     "a7fc9a966211f4bc3abe": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.514837+00:00"
+      "updated_at": "2026-11-07T07:07:30.841370+00:00"
     },
     "a8258499a51dd97972cd": {
       "analysis_path": "episodes/2026-06-04/openai-s-dan-roberts-why-ai-can-now-make-discoveries-a8258499a51dd97972cd/analysis.json",
@@ -3377,6 +3470,10 @@
     "acf76b632857e6bd388c": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-12T16:02:58.594282+00:00"
+    },
+    "acfee7759b7b3d87012e": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-07T07:07:30.839827+00:00"
     },
     "ae1be3689eb95a8c6676": {
       "error": "Invest Like the Best / Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -3642,7 +3739,7 @@
     },
     "c003c4781f387501e24c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.521680+00:00"
+      "updated_at": "2026-11-07T07:07:30.846672+00:00"
     },
     "c0a727fa192a7f42a32f": {
       "analysis_path": "episodes/2026-06-21/ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logistics-more-c0a727fa192a7f42a32f/analysis.json",
@@ -4007,7 +4104,7 @@
     },
     "cd4daba2256dbf9814a3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.520109+00:00"
+      "updated_at": "2026-11-07T07:07:30.845177+00:00"
     },
     "ce79f997649ea597593a": {
       "analysis_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis.json",
@@ -4770,7 +4867,7 @@
     },
     "f27051058ef42009a13c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.523903+00:00"
+      "updated_at": "2026-11-07T07:07:30.848920+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
@@ -4934,7 +5031,7 @@
     },
     "fb5d1be46ffce3832659": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-05T07:06:06.513896+00:00"
+      "updated_at": "2026-11-07T07:07:30.840601+00:00"
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
