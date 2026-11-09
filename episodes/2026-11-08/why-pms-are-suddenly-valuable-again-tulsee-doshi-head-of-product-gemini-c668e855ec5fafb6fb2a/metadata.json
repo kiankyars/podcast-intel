@@ -1,0 +1,80 @@
+{
+  "audio_url": "https://pscrb.fm/rss/p/api.substack.com/feed/podcast/219474705/120c52772b1e5a4f640d8a9add8ed0ea.mp3",
+  "description_html": "<p><strong>Tulsee Doshi</strong> is head of product for Google\u2019s frontier AI models, including Gemini and other multimodal models, such as Nano Banana, Genie, Veo, and Lyria.</p><p></p><p><strong>We discuss:</strong></p><p>1. Why model development is not just engineering, but also like Snape\u2019s potions class</p><p>2. Google\u2019s full-stack frontier AI strategy</p><p>3. What PMs do inside a frontier AI lab</p><p>4. Tulsee\u2019s 60-20-20 framework for balancing what works now and what\u2019s almost working</p><p>5. How to write your first eval</p><p>6. The rising value of great PMs</p><p>\u2014</p><p><strong>Brought to you by:</strong></p><p><a target=\"_blank\" href=\"https://workos.com/lenny\"><strong>WorkOS</strong></a>\u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more</p><p><a target=\"_blank\" href=\"https://getdx.com/?utm_source=lenny&#38;utm_medium=sponsorship&#38;utm_campaign=q42026\"><strong>DX</strong></a>\u2014Engineering intelligence for the AI era</p><p>\u2014</p><p><strong>Episode transcript:</strong> <a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier\">https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier</a></p><p>\u2014</p><p><strong>Archive of all Lenny's Podcast transcripts: </strong><a target=\"_blank\" href=\"https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&#38;st=ahz0fj11&#38;dl=0\">https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0</a></p><p>\u2014</p><p><strong>Highlights:</strong> <a target=\"_blank\" href=\"https://lennyspodcast.com/mostreplayedmoments\">https://lennyspodcast.com/mostreplayedmoments</a></p><p>\u2014</p><p><strong>Where to find Tulsee Doshi:</strong></p><p>\u2022 X: <a target=\"_blank\" href=\"https://x.com/tulseedoshi\">https://x.com/tulseedoshi</a></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"http://linkedin.com/in/tulsee-doshi\">linkedin.com/in/tulsee-doshi</a></p><p>\u2014</p><p><strong>Where to find Lenny:</strong></p><p>\u2022 Newsletter: <a target=\"_blank\" href=\"https://www.lennysnewsletter.com\">https://www.lennysnewsletter.com</a></p><p>\u2022 X: <a target=\"_blank\" href=\"https://twitter.com/lennysan\">https://twitter.com/lennysan</a></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"https://www.linkedin.com/in/lennyrachitsky/\">https://www.linkedin.com/in/lennyrachitsky/</a></p><p>\u2014</p><p><strong>In this episode, we cover:</strong></p><p>(00:00) Teaser</p><p>(01:08) What people misunderstand about how models are built</p><p>(06:28) Google\u2019s strategy in the AI race</p><p>(09:57) AI safety, monitoring, and strengthening cyberdefenses</p><p>(14:10) Balancing fast launches with great user experiences</p><p>(17:02) Why the model itself has a UX</p><p>(19:21) Why product managers are becoming more valuable</p><p>(21:24) The skills that matter for research PMs</p><p>(23:04) How to build your first eval</p><p>(24:37) Getting better at judging a model\u2019s vibes</p><p>(26:15) Improving skin tone representation with better evals</p><p>(28:25) Evaluating the full experience, not just the model</p><p>(30:38) From crowdsourced flash teams to agent swarms</p><p>(33:13) The 60-20-20 rule for building ahead of model capabilities</p><p>(35:46) Keeping your product adaptable as models improve</p><p>(36:42) What an AI harness actually is</p><p>(37:30) Upskilling PMs through shared skills and workshops</p><p>(41:18) Building the habit of asking, \u201cCan AI do this for me?\u201d</p><p>(42:38) Google\u2019s opportunity to build a personal AI assistant</p><p>(44:10) Burnout, meaningful work, and the pressure to do more</p><p>(47:44) Avoiding AI slop</p><p>(49:30) How AI is changing the PM role</p><p>(51:02) Lightning round and final thoughts</p><p>\u2014</p><p><strong>References: </strong><a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier\">https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier</a></p><p>\u2014</p><p>Production and marketing by <a target=\"_blank\" href=\"https://penname.co/\">https://penname.co/</a>. For inquiries about sponsoring the podcast, email <a target=\"_blank\" href=\"mailto:podcast@lennyrachitsky.com\">podcast@lennyrachitsky.com</a>.</p><p>\u2014</p><p><em>Lenny may be an investor in the companies discussed.</em></p> <br/><br/>To hear more, visit <a href=\"https://www.lennysnewsletter.com?utm_medium=podcast&#38;utm_campaign=show-notes-no-free-preview-language\">www.lennysnewsletter.com</a>",
+  "description_text": "Tulsee Doshi is head of product for Google\u2019s frontier AI models, including Gemini and other multimodal models, such as Nano Banana, Genie, Veo, and Lyria.\n\nWe discuss:\n\n1. Why model development is not just engineering, but also like Snape\u2019s potions class\n\n2. Google\u2019s full-stack frontier AI strategy\n\n3. What PMs do inside a frontier AI lab\n\n4. Tulsee\u2019s 60-20-20 framework for balancing what works now and what\u2019s almost working\n\n5. How to write your first eval\n\n6. The rising value of great PMs\n\n\u2014\n\nBrought to you by:\n\nWorkOS \u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more\n\nDX \u2014Engineering intelligence for the AI era\n\n\u2014\n\nEpisode transcript: https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier\n\n\u2014\n\nArchive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0\n\n\u2014\n\nHighlights: https://lennyspodcast.com/mostreplayedmoments\n\n\u2014\n\nWhere to find Tulsee Doshi:\n\n\u2022 X: https://x.com/tulseedoshi\n\n\u2022 LinkedIn: linkedin.com/in/tulsee-doshi\n\n\u2014\n\nWhere to find Lenny:\n\n\u2022 Newsletter: https://www.lennysnewsletter.com\n\n\u2022 X: https://twitter.com/lennysan\n\n\u2022 LinkedIn: https://www.linkedin.com/in/lennyrachitsky/\n\n\u2014\n\nIn this episode, we cover:\n\n(00:00) Teaser\n\n(01:08) What people misunderstand about how models are built\n\n(06:28) Google\u2019s strategy in the AI race\n\n(09:57) AI safety, monitoring, and strengthening cyberdefenses\n\n(14:10) Balancing fast launches with great user experiences\n\n(17:02) Why the model itself has a UX\n\n(19:21) Why product managers are becoming more valuable\n\n(21:24) The skills that matter for research PMs\n\n(23:04) How to build your first eval\n\n(24:37) Getting better at judging a model\u2019s vibes\n\n(26:15) Improving skin tone representation with better evals\n\n(28:25) Evaluating the full experience, not just the model\n\n(30:38) From crowdsourced flash teams to agent swarms\n\n(33:13) The 60-20-20 rule for building ahead of model capabilities\n\n(35:46) Keeping your product adaptable as models improve\n\n(36:42) What an AI harness actually is\n\n(37:30) Upskilling PMs through shared skills and workshops\n\n(41:18) Building the habit of asking, \u201cCan AI do this for me?\u201d\n\n(42:38) Google\u2019s opportunity to build a personal AI assistant\n\n(44:10) Burnout, meaningful work, and the pressure to do more\n\n(47:44) Avoiding AI slop\n\n(49:30) How AI is changing the PM role\n\n(51:02) Lightning round and final thoughts\n\n\u2014\n\nReferences: https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier\n\n\u2014\n\nProduction and marketing by https://penname.co/ . For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com .\n\n\u2014\n\nLenny may be an investor in the companies discussed.\n\nTo hear more, visit www.lennysnewsletter.com",
+  "duration_seconds": 3513,
+  "feed_id": "lennys-podcast",
+  "feed_name": "Lenny's Podcast",
+  "feed_priority": 5,
+  "id": "c668e855ec5fafb6fb2a",
+  "link": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+  "published": "2026-11-08T13:31:32+00:00",
+  "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://api.substack.com/feed/podcast/transcript/219474705/b37b3ddbae2c184aa7d9f5cc254c087c.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://api.substack.com/feed/podcast/transcript/219474705/b37b3ddbae2c184aa7d9f5cc254c087c.vtt"
+    }
+  ],
+  "web_links": [
+    {
+      "text": "WorkOS",
+      "url": "https://workos.com/lenny"
+    },
+    {
+      "text": "DX",
+      "url": "https://getdx.com/?utm_source=lenny&utm_medium=sponsorship&utm_campaign=q42026"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier"
+    },
+    {
+      "text": "https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0",
+      "url": "https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0"
+    },
+    {
+      "text": "https://lennyspodcast.com/mostreplayedmoments",
+      "url": "https://lennyspodcast.com/mostreplayedmoments"
+    },
+    {
+      "text": "https://x.com/tulseedoshi",
+      "url": "https://x.com/tulseedoshi"
+    },
+    {
+      "text": "linkedin.com/in/tulsee-doshi",
+      "url": "http://linkedin.com/in/tulsee-doshi"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com"
+    },
+    {
+      "text": "https://twitter.com/lennysan",
+      "url": "https://twitter.com/lennysan"
+    },
+    {
+      "text": "https://www.linkedin.com/in/lennyrachitsky/",
+      "url": "https://www.linkedin.com/in/lennyrachitsky/"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier"
+    },
+    {
+      "text": "https://penname.co/",
+      "url": "https://penname.co/"
+    },
+    {
+      "text": "podcast@lennyrachitsky.com",
+      "url": "mailto:podcast@lennyrachitsky.com"
+    },
+    {
+      "text": "www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com?utm_medium=podcast&utm_campaign=show-notes-no-free-preview-language"
+    }
+  ]
+}

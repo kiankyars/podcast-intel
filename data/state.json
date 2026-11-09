@@ -27,7 +27,7 @@
     },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.384011+00:00"
+      "updated_at": "2026-11-09T06:56:35.489420+00:00"
     },
     "05c0879840cb181ce270": {
       "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -387,7 +387,7 @@
     },
     "1503134eab30d33b4752": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.374935+00:00"
+      "updated_at": "2026-11-09T06:56:35.476147+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -755,7 +755,24 @@
     },
     "22dc6319531e38669f95": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.379649+00:00"
+      "updated_at": "2026-11-09T06:56:35.482690+00:00"
+    },
+    "22fd9d528d102c8d87b1": {
+      "analysis_path": "episodes/2026-11-08/one-million-ai-engineer-special-how-stanford-teaches-ai-native-engineering-mihail-eric-mon-22fd9d528d102c8d87b1/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco",
+      "published": "2026-11-08T21:23:29+00:00",
+      "raw_transcript": "episodes/2026-11-08/one-million-ai-engineer-special-how-stanford-teaches-ai-native-engineering-mihail-eric-mon-22fd9d528d102c8d87b1/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-08/one-million-ai-engineer-special-how-stanford-teaches-ai-native-engineering-mihail-eric-mon-22fd9d528d102c8d87b1/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-08/one-million-ai-engineer-special-how-stanford-teaches-ai-native-engineering-mihail-eric-mon-22fd9d528d102c8d87b1/summary.md",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering \u2014 Mihail Eric, Monaco",
+      "transcript_path": "episodes/2026-11-08/one-million-ai-engineer-special-how-stanford-teaches-ai-native-engineering-mihail-eric-mon-22fd9d528d102c8d87b1/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1bd04-a695-7d3a-8bc1-d8b04bebc9b6.vtt",
+      "updated_at": "2026-11-09T07:06:48.830625+00:00"
     },
     "2352a884aaede56a4bc5": {
       "analysis_path": "episodes/2026-09-01/write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-drives-agent-performanc-2352a884aaede56a4bc5/analysis.json",
@@ -810,7 +827,7 @@
     },
     "24da53ecd5e5df01d400": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.373318+00:00"
+      "updated_at": "2026-11-09T06:56:35.475333+00:00"
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
@@ -894,7 +911,7 @@
     },
     "292074a9582d114b9eca": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.378110+00:00"
+      "updated_at": "2026-11-09T06:56:35.479664+00:00"
     },
     "29d8ade9363f50a60b25": {
       "analysis_path": "episodes/2026-07-14/john-kim-how-to-raise-a-few-billion-dollars-invest-like-the-best-ep-482-29d8ade9363f50a60b25/analysis.json",
@@ -961,7 +978,7 @@
     },
     "2c7cffb9e4632f9c1d61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.375764+00:00"
+      "updated_at": "2026-11-09T06:56:35.476985+00:00"
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
@@ -1024,7 +1041,7 @@
     },
     "2ff5d8b31b49a789ab04": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.376574+00:00"
+      "updated_at": "2026-11-09T06:56:35.477772+00:00"
     },
     "2ffae64fdc369d55a6f2": {
       "analysis_path": "episodes/2026-06-06/ai-in-the-am-week-1-highlights-june-2026-2ffae64fdc369d55a6f2/analysis.json",
@@ -1113,7 +1130,7 @@
     },
     "3586c3e86b644eb4ed01": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.368212+00:00"
+      "updated_at": "2026-11-09T06:56:35.469878+00:00"
     },
     "3593dedb1bf3257293e2": {
       "analysis_path": "episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/analysis.json",
@@ -1410,7 +1427,7 @@
     },
     "43fa29d199e83132a93d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.380427+00:00"
+      "updated_at": "2026-11-09T06:56:35.483493+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -1595,7 +1612,7 @@
     },
     "4fa6ac6f4fe2cd734eaa": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.382426+00:00"
+      "updated_at": "2026-11-09T06:56:35.486083+00:00"
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
@@ -2271,7 +2288,7 @@
     },
     "6ccbf1fd0b2aa6f9b9d1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.383221+00:00"
+      "updated_at": "2026-11-09T06:56:35.488664+00:00"
     },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
@@ -2795,7 +2812,7 @@
     },
     "84c3ef48dcb71c58c35e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.369761+00:00"
+      "updated_at": "2026-11-09T06:56:35.471643+00:00"
     },
     "84e9b288a1a32728cee6": {
       "analysis_path": "episodes/2026-07-16/the-lab-of-the-future-should-feel-like-a-data-center-andy-beam-rafa-g-mez-bombarelli-lila--84e9b288a1a32728cee6/analysis.json",
@@ -3407,7 +3424,7 @@
     },
     "a7fc9a966211f4bc3abe": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.372556+00:00"
+      "updated_at": "2026-11-09T06:56:35.474498+00:00"
     },
     "a8258499a51dd97972cd": {
       "analysis_path": "episodes/2026-06-04/openai-s-dan-roberts-why-ai-can-now-make-discoveries-a8258499a51dd97972cd/analysis.json",
@@ -3490,7 +3507,7 @@
     },
     "acfee7759b7b3d87012e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.370627+00:00"
+      "updated_at": "2026-11-09T06:56:35.472478+00:00"
     },
     "ae1be3689eb95a8c6676": {
       "error": "Invest Like the Best / Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -3773,7 +3790,7 @@
     },
     "c003c4781f387501e24c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.378895+00:00"
+      "updated_at": "2026-11-09T06:56:35.480532+00:00"
     },
     "c0a727fa192a7f42a32f": {
       "analysis_path": "episodes/2026-06-21/ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logistics-more-c0a727fa192a7f42a32f/analysis.json",
@@ -3919,6 +3936,23 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=kZ1jDqFUS3s",
       "updated_at": "2026-08-11T00:32:30.115032+00:00"
+    },
+    "c668e855ec5fafb6fb2a": {
+      "analysis_path": "episodes/2026-11-08/why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini-c668e855ec5fafb6fb2a/analysis.json",
+      "error": "",
+      "feed_id": "lennys-podcast",
+      "link": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "published": "2026-11-08T13:31:32+00:00",
+      "raw_transcript": "episodes/2026-11-08/why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini-c668e855ec5fafb6fb2a/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-11-08/why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini-c668e855ec5fafb6fb2a/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-08/why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini-c668e855ec5fafb6fb2a/summary.md",
+      "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+      "transcript_path": "episodes/2026-11-08/why-pms-are-suddenly-valuable-again-tulsee-doshi-head-of-product-gemini-c668e855ec5fafb6fb2a/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://api.substack.com/feed/podcast/transcript/219474705/b37b3ddbae2c184aa7d9f5cc254c087c.vtt",
+      "updated_at": "2026-11-09T07:06:48.834090+00:00"
     },
     "c70b77534ce2d92c6b94": {
       "analysis_path": "episodes/2026-09-19/ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fable-a-new-llm-pain-axi-c70b77534ce2d92c6b94/analysis.json",
@@ -4138,7 +4172,7 @@
     },
     "cd4daba2256dbf9814a3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.377346+00:00"
+      "updated_at": "2026-11-09T06:56:35.478594+00:00"
     },
     "ce79f997649ea597593a": {
       "analysis_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis.json",
@@ -4901,7 +4935,7 @@
     },
     "f27051058ef42009a13c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.381611+00:00"
+      "updated_at": "2026-11-09T06:56:35.485321+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
@@ -5065,7 +5099,7 @@
     },
     "fb5d1be46ffce3832659": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-08T06:56:17.371454+00:00"
+      "updated_at": "2026-11-09T06:56:35.473646+00:00"
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
