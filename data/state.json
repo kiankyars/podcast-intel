@@ -387,7 +387,7 @@
     },
     "1503134eab30d33b4752": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.476147+00:00"
+      "updated_at": "2026-11-10T07:01:33.187414+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -494,6 +494,10 @@
     "19e048e134129463a340": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-23T15:01:31.127263+00:00"
+    },
+    "1a4af865dd007a4d522d": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-10T07:01:33.180071+00:00"
     },
     "1a89079f1f0946e83318": {
       "analysis_path": "episodes/2026-10-30/robert-caro-the-master-biographer-reflects-at-91-1a89079f1f0946e83318/analysis.json",
@@ -755,7 +759,7 @@
     },
     "22dc6319531e38669f95": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.482690+00:00"
+      "updated_at": "2026-11-10T07:01:33.192607+00:00"
     },
     "22fd9d528d102c8d87b1": {
       "analysis_path": "episodes/2026-11-08/one-million-ai-engineer-special-how-stanford-teaches-ai-native-engineering-mihail-eric-mon-22fd9d528d102c8d87b1/analysis.json",
@@ -827,7 +831,7 @@
     },
     "24da53ecd5e5df01d400": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.475333+00:00"
+      "updated_at": "2026-11-10T07:01:33.186415+00:00"
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
@@ -911,7 +915,7 @@
     },
     "292074a9582d114b9eca": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.479664+00:00"
+      "updated_at": "2026-11-10T07:01:33.191043+00:00"
     },
     "29d8ade9363f50a60b25": {
       "analysis_path": "episodes/2026-07-14/john-kim-how-to-raise-a-few-billion-dollars-invest-like-the-best-ep-482-29d8ade9363f50a60b25/analysis.json",
@@ -978,7 +982,7 @@
     },
     "2c7cffb9e4632f9c1d61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.476985+00:00"
+      "updated_at": "2026-11-10T07:01:33.188362+00:00"
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
@@ -1004,6 +1008,10 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/898ba371/transcription.txt",
       "updated_at": "2026-07-21T16:08:02.426744+00:00"
+    },
+    "2ea5d35c1798b0c4253b": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-10T07:01:33.181566+00:00"
     },
     "2f3cd7f7394be6eecd5f": {
       "analysis_path": "episodes/2026-06-17/radically-better-reasoning-elicit-s-andreas-stuhlm-ller-jungwon-byun-on-world-models-for-r-2f3cd7f7394be6eecd5f/analysis.json",
@@ -1041,7 +1049,7 @@
     },
     "2ff5d8b31b49a789ab04": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.477772+00:00"
+      "updated_at": "2026-11-10T07:01:33.189238+00:00"
     },
     "2ffae64fdc369d55a6f2": {
       "analysis_path": "episodes/2026-06-06/ai-in-the-am-week-1-highlights-june-2026-2ffae64fdc369d55a6f2/analysis.json",
@@ -1130,7 +1138,7 @@
     },
     "3586c3e86b644eb4ed01": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.469878+00:00"
+      "updated_at": "2026-11-10T07:01:33.182397+00:00"
     },
     "3593dedb1bf3257293e2": {
       "analysis_path": "episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/analysis.json",
@@ -1427,7 +1435,7 @@
     },
     "43fa29d199e83132a93d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.483493+00:00"
+      "updated_at": "2026-11-10T07:01:33.193387+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -1612,7 +1620,7 @@
     },
     "4fa6ac6f4fe2cd734eaa": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.486083+00:00"
+      "updated_at": "2026-11-10T07:01:33.195171+00:00"
     },
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
@@ -2201,6 +2209,23 @@
       "transcript_source_url": "https://www.latent.space/p/sfcompute2",
       "updated_at": "2026-10-21T06:07:29.004855+00:00"
     },
+    "697713ac1c1803b9d977": {
+      "analysis_path": "episodes/2026-11-09/what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord-team-697713ac1c1803b9d977/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/what_frontier_labs_buy_a_data_deep_dive_with_handshake_ai_garrett_lord_team",
+      "published": "2026-11-09T16:41:48+00:00",
+      "raw_transcript": "episodes/2026-11-09/what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord-team-697713ac1c1803b9d977/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-09/what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord-team-697713ac1c1803b9d977/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-09/what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord-team-697713ac1c1803b9d977/summary.md",
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI \u2014 Garrett Lord & Team",
+      "transcript_path": "episodes/2026-11-09/what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord-team-697713ac1c1803b9d977/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1c104-0c36-7bb0-9cd9-d552c4d789a7.vtt",
+      "updated_at": "2026-11-10T07:09:35.123438+00:00"
+    },
     "6a1dc2cc8ea8423a8728": {
       "analysis_path": "episodes/2026-07-08/ben-thompson-explains-the-xbox-disaster-6a1dc2cc8ea8423a8728/analysis.json",
       "error": "",
@@ -2288,7 +2313,7 @@
     },
     "6ccbf1fd0b2aa6f9b9d1": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.488664+00:00"
+      "updated_at": "2026-11-10T07:01:33.196334+00:00"
     },
     "6dc365b515272a7f0bbc": {
       "status": "metadata_skipped",
@@ -2812,7 +2837,7 @@
     },
     "84c3ef48dcb71c58c35e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.471643+00:00"
+      "updated_at": "2026-11-10T07:01:33.183204+00:00"
     },
     "84e9b288a1a32728cee6": {
       "analysis_path": "episodes/2026-07-16/the-lab-of-the-future-should-feel-like-a-data-center-andy-beam-rafa-g-mez-bombarelli-lila--84e9b288a1a32728cee6/analysis.json",
@@ -3424,7 +3449,7 @@
     },
     "a7fc9a966211f4bc3abe": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.474498+00:00"
+      "updated_at": "2026-11-10T07:01:33.185616+00:00"
     },
     "a8258499a51dd97972cd": {
       "analysis_path": "episodes/2026-06-04/openai-s-dan-roberts-why-ai-can-now-make-discoveries-a8258499a51dd97972cd/analysis.json",
@@ -3507,7 +3532,7 @@
     },
     "acfee7759b7b3d87012e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.472478+00:00"
+      "updated_at": "2026-11-10T07:01:33.184001+00:00"
     },
     "ae1be3689eb95a8c6676": {
       "error": "Invest Like the Best / Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -3790,7 +3815,7 @@
     },
     "c003c4781f387501e24c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.480532+00:00"
+      "updated_at": "2026-11-10T07:01:33.191830+00:00"
     },
     "c0a727fa192a7f42a32f": {
       "analysis_path": "episodes/2026-06-21/ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logistics-more-c0a727fa192a7f42a32f/analysis.json",
@@ -4172,7 +4197,7 @@
     },
     "cd4daba2256dbf9814a3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.478594+00:00"
+      "updated_at": "2026-11-10T07:01:33.190249+00:00"
     },
     "ce79f997649ea597593a": {
       "analysis_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis.json",
@@ -4935,7 +4960,7 @@
     },
     "f27051058ef42009a13c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.485321+00:00"
+      "updated_at": "2026-11-10T07:01:33.194413+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
@@ -5099,7 +5124,7 @@
     },
     "fb5d1be46ffce3832659": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-09T06:56:35.473646+00:00"
+      "updated_at": "2026-11-10T07:01:33.184806+00:00"
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
