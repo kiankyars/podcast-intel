@@ -387,7 +387,7 @@
     },
     "1503134eab30d33b4752": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.187414+00:00"
+      "updated_at": "2026-11-11T06:58:31.435356+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -497,7 +497,7 @@
     },
     "1a4af865dd007a4d522d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.180071+00:00"
+      "updated_at": "2026-11-11T06:58:31.427605+00:00"
     },
     "1a89079f1f0946e83318": {
       "analysis_path": "episodes/2026-10-30/robert-caro-the-master-biographer-reflects-at-91-1a89079f1f0946e83318/analysis.json",
@@ -759,7 +759,7 @@
     },
     "22dc6319531e38669f95": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.192607+00:00"
+      "updated_at": "2026-11-11T06:58:31.441268+00:00"
     },
     "22fd9d528d102c8d87b1": {
       "analysis_path": "episodes/2026-11-08/one-million-ai-engineer-special-how-stanford-teaches-ai-native-engineering-mihail-eric-mon-22fd9d528d102c8d87b1/analysis.json",
@@ -831,7 +831,7 @@
     },
     "24da53ecd5e5df01d400": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.186415+00:00"
+      "updated_at": "2026-11-11T06:58:31.434531+00:00"
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
@@ -915,7 +915,7 @@
     },
     "292074a9582d114b9eca": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.191043+00:00"
+      "updated_at": "2026-11-11T06:58:31.438701+00:00"
     },
     "29d8ade9363f50a60b25": {
       "analysis_path": "episodes/2026-07-14/john-kim-how-to-raise-a-few-billion-dollars-invest-like-the-best-ep-482-29d8ade9363f50a60b25/analysis.json",
@@ -982,7 +982,7 @@
     },
     "2c7cffb9e4632f9c1d61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.188362+00:00"
+      "updated_at": "2026-11-11T06:58:31.436202+00:00"
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
@@ -1011,7 +1011,7 @@
     },
     "2ea5d35c1798b0c4253b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.181566+00:00"
+      "updated_at": "2026-11-11T06:58:31.428450+00:00"
     },
     "2f3cd7f7394be6eecd5f": {
       "analysis_path": "episodes/2026-06-17/radically-better-reasoning-elicit-s-andreas-stuhlm-ller-jungwon-byun-on-world-models-for-r-2f3cd7f7394be6eecd5f/analysis.json",
@@ -1049,7 +1049,7 @@
     },
     "2ff5d8b31b49a789ab04": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.189238+00:00"
+      "updated_at": "2026-11-11T06:58:31.437065+00:00"
     },
     "2ffae64fdc369d55a6f2": {
       "analysis_path": "episodes/2026-06-06/ai-in-the-am-week-1-highlights-june-2026-2ffae64fdc369d55a6f2/analysis.json",
@@ -1138,7 +1138,7 @@
     },
     "3586c3e86b644eb4ed01": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.182397+00:00"
+      "updated_at": "2026-11-11T06:58:31.429253+00:00"
     },
     "3593dedb1bf3257293e2": {
       "analysis_path": "episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/analysis.json",
@@ -1433,9 +1433,26 @@
       "status": "metadata_skipped",
       "updated_at": "2026-08-27T16:01:38.183276+00:00"
     },
+    "43ea3822f02c79c173a3": {
+      "analysis_path": "episodes/2026-11-10/designing-for-agents-zeno-rocha-resend-43ea3822f02c79c173a3/analysis.json",
+      "error": "",
+      "feed_id": "latent-space",
+      "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/designing_for_agents_zeno_rocha_resend",
+      "published": "2026-11-10T20:06:15+00:00",
+      "raw_transcript": "episodes/2026-11-10/designing-for-agents-zeno-rocha-resend-43ea3822f02c79c173a3/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-10/designing-for-agents-zeno-rocha-resend-43ea3822f02c79c173a3/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-10/designing-for-agents-zeno-rocha-resend-43ea3822f02c79c173a3/summary.md",
+      "title": "Designing for Agents \u2014 Zeno Rocha, Resend",
+      "transcript_path": "episodes/2026-11-10/designing-for-agents-zeno-rocha-resend-43ea3822f02c79c173a3/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1c6ff-5771-7df7-ba35-b6306c6494aa.vtt",
+      "updated_at": "2026-11-11T07:10:20.626792+00:00"
+    },
     "43fa29d199e83132a93d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.193387+00:00"
+      "updated_at": "2026-11-11T06:58:31.442100+00:00"
     },
     "447ad779fddd37f1e9ae": {
       "status": "metadata_skipped",
@@ -2767,6 +2784,10 @@
       "transcript_source_url": "https://www.latent.space/p/dyna",
       "updated_at": "2026-10-14T06:03:18.144612+00:00"
     },
+    "821040ccd8cf95cf1ac9": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-11T06:58:31.426684+00:00"
+    },
     "837cff33e75593cdf629": {
       "analysis_path": "episodes/2026-07-02/how-nuclear-will-unlock-energy-abundance-with-valar-atomics-founder-isaiah-taylor-837cff33e75593cdf629/analysis.json",
       "error": "",
@@ -2837,7 +2858,7 @@
     },
     "84c3ef48dcb71c58c35e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.183204+00:00"
+      "updated_at": "2026-11-11T06:58:31.430094+00:00"
     },
     "84e9b288a1a32728cee6": {
       "analysis_path": "episodes/2026-07-16/the-lab-of-the-future-should-feel-like-a-data-center-andy-beam-rafa-g-mez-bombarelli-lila--84e9b288a1a32728cee6/analysis.json",
@@ -3449,7 +3470,7 @@
     },
     "a7fc9a966211f4bc3abe": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.185616+00:00"
+      "updated_at": "2026-11-11T06:58:31.433663+00:00"
     },
     "a8258499a51dd97972cd": {
       "analysis_path": "episodes/2026-06-04/openai-s-dan-roberts-why-ai-can-now-make-discoveries-a8258499a51dd97972cd/analysis.json",
@@ -3532,7 +3553,7 @@
     },
     "acfee7759b7b3d87012e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.184001+00:00"
+      "updated_at": "2026-11-11T06:58:31.430912+00:00"
     },
     "ae1be3689eb95a8c6676": {
       "error": "Invest Like the Best / Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -3758,6 +3779,10 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labor-of-ai-at-work/",
       "updated_at": "2026-06-10T22:59:15.766440+00:00"
     },
+    "bcb27e2103d33b04e6f7": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-11T06:58:31.422302+00:00"
+    },
     "bd4abdfdd12e2dd63579": {
       "analysis_path": "episodes/2026-06-15/ep-015-dg-matrix-explains-800v-dc-vs-legacy-ac-distribution-datacenter-energy-jordan-nanos-bd4abdfdd12e2dd63579/analysis.json",
       "error": "",
@@ -3815,7 +3840,7 @@
     },
     "c003c4781f387501e24c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.191830+00:00"
+      "updated_at": "2026-11-11T06:58:31.439553+00:00"
     },
     "c0a727fa192a7f42a32f": {
       "analysis_path": "episodes/2026-06-21/ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logistics-more-c0a727fa192a7f42a32f/analysis.json",
@@ -4197,7 +4222,7 @@
     },
     "cd4daba2256dbf9814a3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.190249+00:00"
+      "updated_at": "2026-11-11T06:58:31.437873+00:00"
     },
     "ce79f997649ea597593a": {
       "analysis_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis.json",
@@ -4358,6 +4383,23 @@
     "d496c678af05e528a106": {
       "status": "metadata_skipped",
       "updated_at": "2026-06-16T16:01:30.586389+00:00"
+    },
+    "d61e918cb65d3981a721": {
+      "analysis_path": "episodes/2026-11-10/the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemanticity-reverse-engineer-d61e918cb65d3981a721/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemanticity-reverse-engineering/",
+      "published": "2026-11-10T19:09:02+00:00",
+      "raw_transcript": "episodes/2026-11-10/the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemanticity-reverse-engineer-d61e918cb65d3981a721/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-10/the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemanticity-reverse-engineer-d61e918cb65d3981a721/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-10/the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemanticity-reverse-engineer-d61e918cb65d3981a721/summary.md",
+      "title": "The Neuron Basis: Goodfire's Curt Tigges on Agentic Interp, Monosemanticity & Reverse Engineering",
+      "transcript_path": "episodes/2026-11-10/the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemanticity-reverse-engineer-d61e918cb65d3981a721/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemanticity-reverse-engineering/",
+      "updated_at": "2026-11-11T07:10:20.629297+00:00"
     },
     "d7afb2157a56ba17b695": {
       "analysis_path": "episodes/2026-08-05/google-deepmind-reorgs-rainforest-discoveries-monkey-prices-surge-harley-finkelstein-john--d7afb2157a56ba17b695/analysis.json",
@@ -4960,7 +5002,7 @@
     },
     "f27051058ef42009a13c": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.194413+00:00"
+      "updated_at": "2026-11-11T06:58:31.442863+00:00"
     },
     "f293f09dc3502ac2d969": {
       "analysis_path": "episodes/2026-06-18/midjourney-medical-ai-talent-wars-2-0-jake-paul-joins-derek-thompson-rene-haas-robert-slau-f293f09dc3502ac2d969/analysis.json",
@@ -5124,7 +5166,7 @@
     },
     "fb5d1be46ffce3832659": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-10T07:01:33.184806+00:00"
+      "updated_at": "2026-11-11T06:58:31.431708+00:00"
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",

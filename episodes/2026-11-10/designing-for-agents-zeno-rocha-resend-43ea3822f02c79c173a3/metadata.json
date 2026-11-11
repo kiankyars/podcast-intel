@@ -1,0 +1,23 @@
+{
+  "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1c6f7-44d3-72a3-8e65-ffcfae742084/01a1c6f7-4605-726f-ac19-31f9b1763da0.mp3",
+  "description_html": "<p>swyx had already connected Cloudflare email. Then a coding agent opened a pull request that quietly chose Resend for him. Zeno Rocha, Resend\u2019s founder and CEO, explains what answer engine optimization (AEO) looks like from the receiving end of that rec...</p>",
+  "description_text": "swyx had already connected Cloudflare email. Then a coding agent opened a pull request that quietly chose Resend for him. Zeno Rocha, Resend\u2019s founder and CEO, explains what answer engine optimization (AEO) looks like from the receiving end of that rec...",
+  "duration_seconds": 5152,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "43ea3822f02c79c173a3",
+  "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/designing_for_agents_zeno_rocha_resend",
+  "published": "2026-11-10T20:06:15+00:00",
+  "title": "Designing for Agents \u2014 Zeno Rocha, Resend",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1c6ff-5771-7df7-ba35-b6306c6494aa.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1c6ff-5771-7df7-ba35-b6306c6494aa.vtt"
+    }
+  ],
+  "web_links": []
+}
