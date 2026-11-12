@@ -1,0 +1,62 @@
+{
+  "changed_views": [
+    "The October 3 digest already covered Fractile's shift from SRAM toward DRAM and a second-half-2027 ramp. This interview adds the explicit DRAM-on-logic stack, the $720 million financing and the need to arrange 2027-2028 production capacity now. It does not validate the earlier performance thesis.",
+    "Farber's component strategy separates exposure to aggregate defense production from betting on one platform. His dual-use exception adds a commercial-cost test to a thesis otherwise centered on specialized defense manufacturing."
+  ],
+  "entities": [
+    "Fractile",
+    "Walter Goodwin",
+    "DRAM",
+    "HBM",
+    "Lightspeed Venture Partners",
+    "Thrive Capital",
+    "Founders Fund",
+    "Redpoint",
+    "Ignium",
+    "Albion River",
+    "Darren Farber"
+  ],
+  "follow_ups": [
+    "Check Fractile's 2027 shipment target against silicon bring-up, qualification, named customer deliveries and contracted production capacity.",
+    "Reconcile the October 25-fold and November 20-fold bandwidth claims using named hardware baselines, memory capacity and power; require measured latency, throughput and total cost at matched model quality, context and concurrency.",
+    "For Ignium, separate manufacturing floor area from usable capacity and track utilization, organic output growth, margins and customer concentration as the platform expands."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Goodwin says Fractile's $720 million raise lets it secure future manufacturing capacity and expand its team while developing chips, software and racks in parallel.",
+      "confidence": "high",
+      "evidence": "At 01:46:41 he says capacity for the second half of 2027 and 2028 requires action now, including factory visits; he also describes hiring across the US, UK and Taiwan. [Fractile's announcement](https://www.linkedin.com/posts/we-are-delighted-to-share-that-fractile-has-ugcPost-7526285169943625747-n5p9/) confirms the $720 million Series C. [Goodwin's own post](https://www.linkedin.com/feed/update/urn:li:activity:7526304067573182464/) targets first chips and systems in 2027. These are financing and production plans, not evidence of booked capacity, customer shipments or achieved performance.",
+      "kind": "observation",
+      "timestamp": "01:45:48; 01:46:19; 01:46:41; 01:47:03"
+    },
+    {
+      "category": "semiconductors_compute",
+      "claim": "Goodwin now describes DRAM stacked directly above compute, projecting 20 times the HBM bandwidth of a GPU or XPU for Fractile's first-generation chip.",
+      "confidence": "medium",
+      "evidence": "He links bandwidth to moving model weights and KV state, then describes the stack and explicitly calls the 20-fold figure a projection. [Fractile's announcement](https://www.linkedin.com/posts/we-are-delighted-to-share-that-fractile-has-ugcPost-7526285169943625747-n5p9/) and [co-lead investor Lightspeed](https://lsvp.com/stories/accelerating-intelligence-our-investment-in-fractile/) corroborate the described DRAM-on-logic architecture. Neither supplies a measured silicon benchmark, named comparison chip or matched serving configuration. October's interview cited 25-fold bandwidth against an unnamed HBM-based chip; the two ratios do not establish a performance revision or an equivalent application speedup.",
+      "kind": "forecast",
+      "timestamp": "01:49:21; 01:50:00; 01:50:29; 01:50:47"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Farber says Ignium seeks scale in components used across competing defense platforms, reducing dependence on which end system wins procurement.",
+      "confidence": "high",
+      "evidence": "He describes buying established component manufacturers and supplying both incumbent and emerging platforms, with volume intended to lower customer costs while preserving margins. He reports 12 million square feet of manufacturing space; [Ignium's current company site](https://ignium.com/) lists more than 12 million square feet of production space. His staffing approach combines automation with apprenticeships and recruiting beyond existing technical workers. The footprint supports the industrial-scale strategy, but does not establish utilization, throughput or realized margin improvements; his intended robot purchases are prospective.",
+      "kind": "observation",
+      "timestamp": "01:23:29; 01:24:05; 01:24:20; 01:25:55; 01:26:21; 01:30:16; 01:31:05"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Farber says he prefers defense-specific businesses unless a dual-use supplier has a clear path to commercial world leadership.",
+      "confidence": "medium",
+      "evidence": "He argues that lower-cost commercial providers eventually threaten suppliers serving only defense customers in dual-use categories, using drones as the example. A trusted domestic supply chain therefore needs commercial competitiveness as well as government demand to survive future defense-budget contractions. This is his investment screen and forecast about competition, not evidence that every defense-only supplier will fail or that a particular drone company has achieved the necessary scale.",
+      "kind": "opinion",
+      "timestamp": "01:43:06; 01:43:11; 01:43:21; 01:43:34; 01:43:54; 01:44:12"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Walter Goodwin describes how Fractile's $720 million Series C will support production planning and team expansion, and discloses DRAM stacked directly over compute with a projected 20-fold bandwidth advantage over HBM-based accelerators. These extend October's architectural discussion but provide no measured system benchmark. Darren Farber explains Ignium's strategy of supplying components across competing defense platforms, backed by a large existing manufacturing footprint, and his requirement that a dual-use investment have a path to commercial leadership. Dan Goldenberg's proposed AI assistance for employment counselors is not yet evidence of deployed productivity gains.",
+  "why_it_matters": "Fractile now provides a more specific memory architecture and capital to pursue manufacturing capacity, making delivery, yield and matched-workload economics the next decisive evidence. Funding and projected bandwidth do not establish a competitive production system. Farber offers a concrete capital-allocation distinction: components shared by many platforms can diversify program risk, while dual-use suppliers still need commercial scale to withstand cheaper competitors and defense-budget cycles."
+}
