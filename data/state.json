@@ -387,7 +387,7 @@
     },
     "1503134eab30d33b4752": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.699980+00:00"
+      "updated_at": "2026-11-13T07:05:52.185587+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -497,7 +497,7 @@
     },
     "1a4af865dd007a4d522d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.693294+00:00"
+      "updated_at": "2026-11-13T07:05:52.179155+00:00"
     },
     "1a89079f1f0946e83318": {
       "analysis_path": "episodes/2026-10-30/robert-caro-the-master-biographer-reflects-at-91-1a89079f1f0946e83318/analysis.json",
@@ -732,6 +732,23 @@
       "transcript_source_url": "https://www.dwarkesh.com/p/grant-sanderson-2",
       "updated_at": "2026-07-11T07:40:56.294859+00:00"
     },
+    "1fa8fb6f608df61e7309": {
+      "analysis_path": "episodes/2026-11-12/jensen-huang-s-exit-could-change-the-ai-industry-forever-dylan-patel-1fa8fb6f608df61e7309/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/47eb0612",
+      "published": "2026-11-12T21:18:28+00:00",
+      "raw_transcript": "episodes/2026-11-12/jensen-huang-s-exit-could-change-the-ai-industry-forever-dylan-patel-1fa8fb6f608df61e7309/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-12/jensen-huang-s-exit-could-change-the-ai-industry-forever-dylan-patel-1fa8fb6f608df61e7309/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-12/jensen-huang-s-exit-could-change-the-ai-industry-forever-dylan-patel-1fa8fb6f608df61e7309/summary.md",
+      "title": "\"Jensen Huang's Exit Could Change the AI Industry Forever\" - Dylan Patel",
+      "transcript_path": "episodes/2026-11-12/jensen-huang-s-exit-could-change-the-ai-industry-forever-dylan-patel-1fa8fb6f608df61e7309/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/47eb0612/transcription.vtt",
+      "updated_at": "2026-11-13T07:13:43.324539+00:00"
+    },
     "1fff1a12a5aac7cb62f7": {
       "analysis_path": "episodes/2026-07-23/ep-021-the-ai-project-trinity-capital-offtake-data-center-datacenter-energy-dan-nishball-j-1fff1a12a5aac7cb62f7/analysis.json",
       "error": "",
@@ -831,7 +848,7 @@
     },
     "24da53ecd5e5df01d400": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.699221+00:00"
+      "updated_at": "2026-11-13T07:05:52.184780+00:00"
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
@@ -915,7 +932,7 @@
     },
     "292074a9582d114b9eca": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.703728+00:00"
+      "updated_at": "2026-11-13T07:05:52.192149+00:00"
     },
     "29d8ade9363f50a60b25": {
       "analysis_path": "episodes/2026-07-14/john-kim-how-to-raise-a-few-billion-dollars-invest-like-the-best-ep-482-29d8ade9363f50a60b25/analysis.json",
@@ -982,7 +999,7 @@
     },
     "2c7cffb9e4632f9c1d61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.701142+00:00"
+      "updated_at": "2026-11-13T07:05:52.189654+00:00"
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
@@ -1011,7 +1028,7 @@
     },
     "2ea5d35c1798b0c4253b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.694079+00:00"
+      "updated_at": "2026-11-13T07:05:52.179959+00:00"
     },
     "2f3cd7f7394be6eecd5f": {
       "analysis_path": "episodes/2026-06-17/radically-better-reasoning-elicit-s-andreas-stuhlm-ller-jungwon-byun-on-world-models-for-r-2f3cd7f7394be6eecd5f/analysis.json",
@@ -1049,7 +1066,7 @@
     },
     "2ff5d8b31b49a789ab04": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.701979+00:00"
+      "updated_at": "2026-11-13T07:05:52.190531+00:00"
     },
     "2ffae64fdc369d55a6f2": {
       "analysis_path": "episodes/2026-06-06/ai-in-the-am-week-1-highlights-june-2026-2ffae64fdc369d55a6f2/analysis.json",
@@ -1138,7 +1155,7 @@
     },
     "3586c3e86b644eb4ed01": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.694919+00:00"
+      "updated_at": "2026-11-13T07:05:52.180769+00:00"
     },
     "3593dedb1bf3257293e2": {
       "analysis_path": "episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/analysis.json",
@@ -2786,7 +2803,7 @@
     },
     "821040ccd8cf95cf1ac9": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.692300+00:00"
+      "updated_at": "2026-11-13T07:05:52.178367+00:00"
     },
     "837cff33e75593cdf629": {
       "analysis_path": "episodes/2026-07-02/how-nuclear-will-unlock-energy-abundance-with-valar-atomics-founder-isaiah-taylor-837cff33e75593cdf629/analysis.json",
@@ -2821,6 +2838,10 @@
       "transcript_source": "youtube_captions",
       "transcript_source_url": "https://www.youtube.com/watch?v=0NttU4CbyVs",
       "updated_at": "2026-06-18T15:04:58.892736+00:00"
+    },
+    "83d5073003c8da1a1c7d": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-13T07:05:52.173389+00:00"
     },
     "84731c50ab85039520c3": {
       "analysis_path": "episodes/2026-06-03/dara-khosrowshahi-uber-s-bet-on-avs-ai-and-building-a-super-app-invest-like-the-best-ep-47-84731c50ab85039520c3/analysis.json",
@@ -2858,7 +2879,7 @@
     },
     "84c3ef48dcb71c58c35e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.696015+00:00"
+      "updated_at": "2026-11-13T07:05:52.181563+00:00"
     },
     "84e9b288a1a32728cee6": {
       "analysis_path": "episodes/2026-07-16/the-lab-of-the-future-should-feel-like-a-data-center-andy-beam-rafa-g-mez-bombarelli-lila--84e9b288a1a32728cee6/analysis.json",
@@ -3426,6 +3447,23 @@
       "transcript_source_url": "https://share.transistor.fm/s/83f16592/transcription.vtt",
       "updated_at": "2026-10-09T06:11:00.257827+00:00"
     },
+    "a63c1dae3cd094105486": {
+      "analysis_path": "episodes/2026-11-12/powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-max-jaderberg-a63c1dae3cd094105486/analysis.json",
+      "error": "",
+      "feed_id": "no-priors",
+      "link": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+      "published": "2026-11-12T11:00:00+00:00",
+      "raw_transcript": "episodes/2026-11-12/powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-max-jaderberg-a63c1dae3cd094105486/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-11-12/powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-max-jaderberg-a63c1dae3cd094105486/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-12/powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-max-jaderberg-a63c1dae3cd094105486/summary.md",
+      "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+      "transcript_path": "episodes/2026-11-12/powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-max-jaderberg-a63c1dae3cd094105486/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+      "updated_at": "2026-11-13T07:13:43.329150+00:00"
+    },
     "a6927f687e144dc279b6": {
       "analysis_path": "episodes/2026-09-24/re-founding-incumbents-for-the-ai-era-with-sequence-holdings-co-founder-and-ceo-michael-le-a6927f687e144dc279b6/analysis.json",
       "error": "",
@@ -3470,7 +3508,7 @@
     },
     "a7fc9a966211f4bc3abe": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.698438+00:00"
+      "updated_at": "2026-11-13T07:05:52.183995+00:00"
     },
     "a8258499a51dd97972cd": {
       "analysis_path": "episodes/2026-06-04/openai-s-dan-roberts-why-ai-can-now-make-discoveries-a8258499a51dd97972cd/analysis.json",
@@ -3570,7 +3608,7 @@
     },
     "acfee7759b7b3d87012e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.696826+00:00"
+      "updated_at": "2026-11-13T07:05:52.182371+00:00"
     },
     "ae1be3689eb95a8c6676": {
       "error": "Invest Like the Best / Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -3727,7 +3765,7 @@
     },
     "b6548ec0288d08615aaf": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.690068+00:00"
+      "updated_at": "2026-11-13T07:05:52.176702+00:00"
     },
     "b67022364a85eb173705": {
       "status": "metadata_skipped",
@@ -3802,7 +3840,7 @@
     },
     "bcb27e2103d33b04e6f7": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.691171+00:00"
+      "updated_at": "2026-11-13T07:05:52.177554+00:00"
     },
     "bd4abdfdd12e2dd63579": {
       "analysis_path": "episodes/2026-06-15/ep-015-dg-matrix-explains-800v-dc-vs-legacy-ac-distribution-datacenter-energy-jordan-nanos-bd4abdfdd12e2dd63579/analysis.json",
@@ -4243,7 +4281,7 @@
     },
     "cd4daba2256dbf9814a3": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.702970+00:00"
+      "updated_at": "2026-11-13T07:05:52.191346+00:00"
     },
     "ce79f997649ea597593a": {
       "analysis_path": "episodes/2026-10-26/why-agents-love-supabase-ce79f997649ea597593a/analysis.json",
@@ -4966,6 +5004,10 @@
       "transcript_source_url": "https://www.cognitiverevolution.ai/ai-am-what-if-it-works-too-well-colluding-agents-200m-safety-orgs-virtual-cells-saturate-at-2/",
       "updated_at": "2026-09-27T16:06:04.142442+00:00"
     },
+    "ebefe43b25ebc78acc14": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-13T07:05:52.175037+00:00"
+    },
     "ec118b74c0bbd0b3d16f": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-11T16:03:05.724008+00:00"
@@ -5221,7 +5263,7 @@
     },
     "fb5d1be46ffce3832659": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-12T07:04:09.697597+00:00"
+      "updated_at": "2026-11-13T07:05:52.183172+00:00"
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",
