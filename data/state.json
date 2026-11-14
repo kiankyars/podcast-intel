@@ -25,9 +25,30 @@
       "transcript_source_url": "https://share.transistor.fm/s/07ad1b46/transcription.txt",
       "updated_at": "2026-06-16T16:05:15.800076+00:00"
     },
+    "031bb09a7fd5b11b14aa": {
+      "status": "metadata_skipped",
+      "updated_at": "2026-11-14T07:01:22.891983+00:00"
+    },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
       "updated_at": "2026-11-09T06:56:35.489420+00:00"
+    },
+    "04ffffbf04524782daec": {
+      "analysis_path": "episodes/2026-11-13/nvidia-won-t-be-the-same-without-jensen-huang-tae-kim-04ffffbf04524782daec/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/6f9b7193",
+      "published": "2026-11-13T20:38:43+00:00",
+      "raw_transcript": "episodes/2026-11-13/nvidia-won-t-be-the-same-without-jensen-huang-tae-kim-04ffffbf04524782daec/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-11-13/nvidia-won-t-be-the-same-without-jensen-huang-tae-kim-04ffffbf04524782daec/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-13/nvidia-won-t-be-the-same-without-jensen-huang-tae-kim-04ffffbf04524782daec/summary.md",
+      "title": "NVIDIA Won\u2019t Be the Same Without Jensen Huang \u2014 Tae Kim",
+      "transcript_path": "episodes/2026-11-13/nvidia-won-t-be-the-same-without-jensen-huang-tae-kim-04ffffbf04524782daec/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/6f9b7193/transcription.vtt",
+      "updated_at": "2026-11-14T07:09:48.855824+00:00"
     },
     "05c0879840cb181ce270": {
       "error": "SemiAnalysis Weekly / Ep. 032 - 300 Data Center Bans, 3 Projects Delayed: Moratoriums Explained (Datacenter, Energy) | Maya Barkin, Reyk Kn\u00fchtsen, Jordan Nanos: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -387,7 +408,7 @@
     },
     "1503134eab30d33b4752": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.185587+00:00"
+      "updated_at": "2026-11-14T07:01:22.910278+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -497,7 +518,7 @@
     },
     "1a4af865dd007a4d522d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.179155+00:00"
+      "updated_at": "2026-11-14T07:01:22.900145+00:00"
     },
     "1a89079f1f0946e83318": {
       "analysis_path": "episodes/2026-10-30/robert-caro-the-master-biographer-reflects-at-91-1a89079f1f0946e83318/analysis.json",
@@ -848,7 +869,7 @@
     },
     "24da53ecd5e5df01d400": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.184780+00:00"
+      "updated_at": "2026-11-14T07:01:22.908458+00:00"
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
@@ -999,7 +1020,7 @@
     },
     "2c7cffb9e4632f9c1d61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.189654+00:00"
+      "updated_at": "2026-11-14T07:01:22.911118+00:00"
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
@@ -1028,7 +1049,7 @@
     },
     "2ea5d35c1798b0c4253b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.179959+00:00"
+      "updated_at": "2026-11-14T07:01:22.901346+00:00"
     },
     "2f3cd7f7394be6eecd5f": {
       "analysis_path": "episodes/2026-06-17/radically-better-reasoning-elicit-s-andreas-stuhlm-ller-jungwon-byun-on-world-models-for-r-2f3cd7f7394be6eecd5f/analysis.json",
@@ -1066,7 +1087,7 @@
     },
     "2ff5d8b31b49a789ab04": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.190531+00:00"
+      "updated_at": "2026-11-14T07:01:22.912416+00:00"
     },
     "2ffae64fdc369d55a6f2": {
       "analysis_path": "episodes/2026-06-06/ai-in-the-am-week-1-highlights-june-2026-2ffae64fdc369d55a6f2/analysis.json",
@@ -1155,7 +1176,7 @@
     },
     "3586c3e86b644eb4ed01": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.180769+00:00"
+      "updated_at": "2026-11-14T07:01:22.902949+00:00"
     },
     "3593dedb1bf3257293e2": {
       "analysis_path": "episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/analysis.json",
@@ -1659,6 +1680,23 @@
     "4faf6592e9d9fb7ae874": {
       "status": "metadata_skipped",
       "updated_at": "2026-09-15T16:03:03.941882+00:00"
+    },
+    "5189bd1f1efa93503bcb": {
+      "analysis_path": "episodes/2026-11-12/ep-044-is-nvidia-over-emergency-pod-with-chinatalk-dylan-patel-jordan-nanos-jordan-schneid-5189bd1f1efa93503bcb/analysis.json",
+      "error": "",
+      "feed_id": "semianalysis-weekly",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--044---Is-NVIDIA-Over--Emergency-Pod-with-ChinaTalk--Dylan-Patel--Jordan-Nanos--Jordan-Schneider-ChinaTalk-e3sagjc",
+      "published": "2026-11-12T12:00:00+00:00",
+      "raw_transcript": "episodes/2026-11-12/ep-044-is-nvidia-over-emergency-pod-with-chinatalk-dylan-patel-jordan-nanos-jordan-schneid-5189bd1f1efa93503bcb/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-11-12/ep-044-is-nvidia-over-emergency-pod-with-chinatalk-dylan-patel-jordan-nanos-jordan-schneid-5189bd1f1efa93503bcb/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-12/ep-044-is-nvidia-over-emergency-pod-with-chinatalk-dylan-patel-jordan-nanos-jordan-schneid-5189bd1f1efa93503bcb/summary.md",
+      "title": "Ep. 044 - Is NVIDIA Over? Emergency Pod with ChinaTalk | Dylan Patel, Jordan Nanos, Jordan Schneider (ChinaTalk)",
+      "transcript_path": "episodes/2026-11-12/ep-044-is-nvidia-over-emergency-pod-with-chinatalk-dylan-patel-jordan-nanos-jordan-schneid-5189bd1f1efa93503bcb/transcript.md",
+      "transcript_source": "youtube_captions",
+      "transcript_source_url": "https://www.youtube.com/watch?v=2jqSNHWdHEY",
+      "updated_at": "2026-11-14T07:09:48.857840+00:00"
     },
     "51d1b9d57a343b0e621d": {
       "analysis_path": "episodes/2026-10-23/democratizing-security-for-the-agentic-web-with-cloudflare-cto-dane-knecht-51d1b9d57a343b0e621d/analysis.json",
@@ -2803,7 +2841,7 @@
     },
     "821040ccd8cf95cf1ac9": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.178367+00:00"
+      "updated_at": "2026-11-14T07:01:22.899047+00:00"
     },
     "837cff33e75593cdf629": {
       "analysis_path": "episodes/2026-07-02/how-nuclear-will-unlock-energy-abundance-with-valar-atomics-founder-isaiah-taylor-837cff33e75593cdf629/analysis.json",
@@ -2841,7 +2879,7 @@
     },
     "83d5073003c8da1a1c7d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.173389+00:00"
+      "updated_at": "2026-11-14T07:01:22.893757+00:00"
     },
     "84731c50ab85039520c3": {
       "analysis_path": "episodes/2026-06-03/dara-khosrowshahi-uber-s-bet-on-avs-ai-and-building-a-super-app-invest-like-the-best-ep-47-84731c50ab85039520c3/analysis.json",
@@ -2879,7 +2917,7 @@
     },
     "84c3ef48dcb71c58c35e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.181563+00:00"
+      "updated_at": "2026-11-14T07:01:22.903983+00:00"
     },
     "84e9b288a1a32728cee6": {
       "analysis_path": "episodes/2026-07-16/the-lab-of-the-future-should-feel-like-a-data-center-andy-beam-rafa-g-mez-bombarelli-lila--84e9b288a1a32728cee6/analysis.json",
@@ -3033,6 +3071,23 @@
       "transcript_source_url": "https://www.youtube.com/watch?v=hj_ffVldQZA&t=65s",
       "updated_at": "2026-08-31T16:08:37.839197+00:00"
     },
+    "8cc849d5dbdf056318ce": {
+      "analysis_path": "episodes/2026-11-13/tsmc-hacked-vibes-down-outlook-down-nvidia-v2-tae-kim-ben-smith-gunjan-banerji-abhishek-ma-8cc849d5dbdf056318ce/analysis.json",
+      "error": "",
+      "feed_id": "tbpn",
+      "link": "https://share.transistor.fm/s/16016545",
+      "published": "2026-11-13T21:03:05+00:00",
+      "raw_transcript": "episodes/2026-11-13/tsmc-hacked-vibes-down-outlook-down-nvidia-v2-tae-kim-ben-smith-gunjan-banerji-abhishek-ma-8cc849d5dbdf056318ce/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-11-13/tsmc-hacked-vibes-down-outlook-down-nvidia-v2-tae-kim-ben-smith-gunjan-banerji-abhishek-ma-8cc849d5dbdf056318ce/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-13/tsmc-hacked-vibes-down-outlook-down-nvidia-v2-tae-kim-ben-smith-gunjan-banerji-abhishek-ma-8cc849d5dbdf056318ce/summary.md",
+      "title": "TSMC Hacked, Vibes Down Outlook Down, NVIDIA v2 | Tae Kim, Ben Smith, Gunjan Banerji, Abhishek Malani",
+      "transcript_path": "episodes/2026-11-13/tsmc-hacked-vibes-down-outlook-down-nvidia-v2-tae-kim-ben-smith-gunjan-banerji-abhishek-ma-8cc849d5dbdf056318ce/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://share.transistor.fm/s/16016545/transcription.vtt",
+      "updated_at": "2026-11-14T07:09:48.860442+00:00"
+    },
     "8d9fef4d070751773d4a": {
       "analysis_path": "episodes/2026-06-18/the-professor-of-outputmaxxing-anjney-midha-amp-8d9fef4d070751773d4a/analysis.json",
       "error": "",
@@ -3120,6 +3175,23 @@
     "92905564fdc62775c79d": {
       "status": "metadata_skipped",
       "updated_at": "2026-09-25T16:01:44.575323+00:00"
+    },
+    "94debe162ab296463323": {
+      "analysis_path": "episodes/2026-11-13/the-avalanche-that-hit-math-is-coming-for-ai-development-94debe162ab296463323/analysis.json",
+      "error": "",
+      "feed_id": "dwarkesh",
+      "link": "https://www.dwarkesh.com/p/rsi",
+      "published": "2026-11-13T18:37:51+00:00",
+      "raw_transcript": "episodes/2026-11-13/the-avalanche-that-hit-math-is-coming-for-ai-development-94debe162ab296463323/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-13/the-avalanche-that-hit-math-is-coming-for-ai-development-94debe162ab296463323/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-13/the-avalanche-that-hit-math-is-coming-for-ai-development-94debe162ab296463323/summary.md",
+      "title": "The avalanche that hit math is coming for AI development",
+      "transcript_path": "episodes/2026-11-13/the-avalanche-that-hit-math-is-coming-for-ai-development-94debe162ab296463323/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://api.substack.com/feed/podcast/transcript/224624765/90d6f37b358995b9b71970edca868863.vtt",
+      "updated_at": "2026-11-14T07:09:48.862831+00:00"
     },
     "959ed15a1fb0e88d91d9": {
       "status": "metadata_skipped",
@@ -3508,7 +3580,7 @@
     },
     "a7fc9a966211f4bc3abe": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.183995+00:00"
+      "updated_at": "2026-11-14T07:01:22.907498+00:00"
     },
     "a8258499a51dd97972cd": {
       "analysis_path": "episodes/2026-06-04/openai-s-dan-roberts-why-ai-can-now-make-discoveries-a8258499a51dd97972cd/analysis.json",
@@ -3608,7 +3680,7 @@
     },
     "acfee7759b7b3d87012e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.182371+00:00"
+      "updated_at": "2026-11-14T07:01:22.905091+00:00"
     },
     "ae1be3689eb95a8c6676": {
       "error": "Invest Like the Best / Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -3765,7 +3837,7 @@
     },
     "b6548ec0288d08615aaf": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.176702+00:00"
+      "updated_at": "2026-11-14T07:01:22.896088+00:00"
     },
     "b67022364a85eb173705": {
       "status": "metadata_skipped",
@@ -3840,7 +3912,7 @@
     },
     "bcb27e2103d33b04e6f7": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.177554+00:00"
+      "updated_at": "2026-11-14T07:01:22.897222+00:00"
     },
     "bd4abdfdd12e2dd63579": {
       "analysis_path": "episodes/2026-06-15/ep-015-dg-matrix-explains-800v-dc-vs-legacy-ac-distribution-datacenter-energy-jordan-nanos-bd4abdfdd12e2dd63579/analysis.json",
@@ -5006,7 +5078,7 @@
     },
     "ebefe43b25ebc78acc14": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.175037+00:00"
+      "updated_at": "2026-11-14T07:01:22.895037+00:00"
     },
     "ec118b74c0bbd0b3d16f": {
       "status": "metadata_skipped",
@@ -5263,7 +5335,7 @@
     },
     "fb5d1be46ffce3832659": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-13T07:05:52.183172+00:00"
+      "updated_at": "2026-11-14T07:01:22.906120+00:00"
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",

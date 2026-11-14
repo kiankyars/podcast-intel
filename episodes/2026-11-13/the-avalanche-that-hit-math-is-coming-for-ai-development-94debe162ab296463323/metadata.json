@@ -1,0 +1,32 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/224624765/6681869400340558d9a7bc295e9a3127.mp3",
+  "description_html": "<p>If you asked me earlier this year how far away we are from superintelligence, I\u2019d probably have said at least the better part of a decade.</p><p>But over the last three months, from debating people on and off the podcast, I\u2019ve updated my views a ton.</p><p>Let me walk you through how my thinking has changed.</p><p>If you want to read the written version (with footnotes and links) you can check it out here: <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/rsi\">https://www.dwarkesh.com/p/rsi</a></p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.dwarkesh.com?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.dwarkesh.com</a>",
+  "description_text": "If you asked me earlier this year how far away we are from superintelligence, I\u2019d probably have said at least the better part of a decade.\n\nBut over the last three months, from debating people on and off the podcast, I\u2019ve updated my views a ton.\n\nLet me walk you through how my thinking has changed.\n\nIf you want to read the written version (with footnotes and links) you can check it out here: https://www.dwarkesh.com/p/rsi\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com",
+  "duration_seconds": 2666,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "94debe162ab296463323",
+  "link": "https://www.dwarkesh.com/p/rsi",
+  "published": "2026-11-13T18:37:51+00:00",
+  "title": "The avalanche that hit math is coming for AI development",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://api.substack.com/feed/podcast/transcript/224624765/90d6f37b358995b9b71970edca868863.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://api.substack.com/feed/podcast/transcript/224624765/90d6f37b358995b9b71970edca868863.vtt"
+    }
+  ],
+  "web_links": [
+    {
+      "text": "https://www.dwarkesh.com/p/rsi",
+      "url": "https://www.dwarkesh.com/p/rsi"
+    },
+    {
+      "text": "www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}
