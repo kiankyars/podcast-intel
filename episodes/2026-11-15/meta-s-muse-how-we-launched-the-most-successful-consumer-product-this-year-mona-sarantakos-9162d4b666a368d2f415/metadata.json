@@ -1,0 +1,140 @@
+{
+  "audio_url": "https://pscrb.fm/rss/p/api.substack.com/feed/podcast/224231309/2cdd86d5061669c9821d9a2157b09063.mp3",
+  "description_html": "<p>Muse is the #1 app in the App Store and arguably the fastest-growing AI consumer product of all time. <strong>Mona Sarantakos</strong> has led product on it since day one. She\u2019s VP of Product at Meta Superintelligence Labs and a 10-year Meta veteran with over 20 years of experience as a PM. This is her first podcast interview.</p><p></p><p><strong>We discuss:</strong></p><p>1. How a weekend with OpenClaw on a Raspberry Pi turned into Muse</p><p>2. Why Muse waited seven months to launch, despite getting started before most of its competitors</p><p>3. How Nat Friedman, Alex Wang, and Mark Zuckerberg each left their imprint on the product</p><p>4. How the team uses \u201cagent swarms\u201d to surface user insights at scale</p><p>5. The use case nobody on the team predicted</p><p>6. How Jolly, a placeholder avatar, became an icon</p><p>7. The two levers that actually move activation for an AI agent</p><p>8. The #1 thing Mona looks for in PMs today</p><p>\u2014</p><p><strong>Brought to you by:</strong></p><p><a target=\"_blank\" href=\"https://workos.com/lenny\"><strong>WorkOS</strong></a>\u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more</p><p><a target=\"_blank\" href=\"https://getdx.com/?utm_source=lenny&#38;utm_medium=sponsorship&#38;utm_campaign=q42026\"><strong>DX</strong></a>\u2014Engineering intelligence for the AI era</p><p>\u2014</p><p><strong>Episode transcript:</strong> <a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most\">https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most</a></p><p>\u2014</p><p><strong>Archive of all Lenny's Podcast transcripts:</strong> <a target=\"_blank\" href=\"https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&#38;st=ahz0fj11&#38;dl=0\">https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0</a></p><p>\u2014</p><p><strong>Highlights:</strong> <a target=\"_blank\" href=\"https://lennyspodcast.com/mostreplayedmoments\">https://lennyspodcast.com/mostreplayedmoments</a></p><p>\u2014</p><p><strong>Where to find Mona Sarantakos:</strong></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"https://www.linkedin.com/in/mona-sarantakos-a85873\">https://www.linkedin.com/in/mona-sarantakos-a85873</a></p><p>\u2022 Threads: <a target=\"_blank\" href=\"https://www.threads.com/@monachaudhuri\">https://www.threads.com/@monachaudhuri</a></p><p>\u2014</p><p><strong>Where to find Lenny:</strong></p><p>\u2022 Newsletter: <a target=\"_blank\" href=\"https://www.lennysnewsletter.com\">https://www.lennysnewsletter.com</a></p><p>\u2022 X: <a target=\"_blank\" href=\"https://twitter.com/lennysan\">https://twitter.com/lennysan</a></p><p>\u2022 LinkedIn: <a target=\"_blank\" href=\"https://www.linkedin.com/in/lennyrachitsky/\">https://www.linkedin.com/in/lennyrachitsky/</a></p><p>\u2014</p><p><strong>In this episode, we cover:</strong></p><p>(00:00) Teaser</p><p>(01:24) Introduction and Mona\u2019s background</p><p>(02:14) A weekend with an early agentic AI</p><p>(09:08) The seven-month launch timeline</p><p>(14:07) \"The claw is the law\"</p><p>(15:53) Nat, Alex Wang, Zuckerberg, and how leadership shaped Muse</p><p>(23:37) The Jolly origin story</p><p>(29:53) Priority use cases and the shopping surprise</p><p>(35:03) Agentic commerce and how shopping works</p><p>(38:03) Agent swarms and synthetic data</p><p>(42:48) Evals: structure, hierarchy, and who writes them</p><p>(46:37) Activation and word of mouth</p><p>(51:09) The design bets that defined Muse</p><p>(57:04) Prototyping culture and the two Muses that fought</p><p>(01:01:54) How the PM role has changed</p><p>(01:09:05) Muse's first prototype</p><p>(01:10:37) The board meeting prototype that almost didn\u2019t work</p><p>(01:12:00) Team size, closeness, and culture</p><p>(01:20:55) What comes next: ambient agents and financial betterment</p><p>\u2014</p><p><strong>Referenced:</strong></p><p>\u2022 Muse: <a target=\"_blank\" href=\"https://muse.ai\">https://muse.ai</a></p><p>\u2022 Introducing Muse Spark: MSL\u2019s First Model, Purpose-Built to Prioritize People: <a target=\"_blank\" href=\"https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs\">https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs</a></p><p>\u2022 Nat Friedman\u2019s website: <a target=\"_blank\" href=\"https://nat.org\">https://nat.org</a></p><p>\u2022 OpenClaw: <a target=\"_blank\" href=\"https://openclaw.ai\">https://openclaw.ai</a></p><p>\u2022 From skeptic to true believer: How OpenClaw changed my life | Claire Vo: <a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo\">https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo</a></p><p>\u2022 Personal Superintelligence: <a target=\"_blank\" href=\"https://www.meta.com/superintelligence\">https://www.meta.com/superintelligence</a></p><p>\u2022 The Future is for Everyone: <a target=\"_blank\" href=\"https://www.meta.com/thefutureisforeveryone\">https://www.meta.com/thefutureisforeveryone</a></p><p>\u2022 Grok Bot: <a target=\"_blank\" href=\"https://x.ai/bot\">https://x.ai/bot</a></p><p>\u2022 How we built Grok Bot in a month | Roman Ugarte (SpaceXAI): <a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month\">https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month</a></p><p>\u2022 Claude Duet: <a target=\"_blank\" href=\"https://claude.com/product/claude-duet\">https://claude.com/product/claude-duet</a></p><p>\u2022 Dots: <a target=\"_blank\" href=\"https://openai.com/index/introducing-dots\">https://openai.com/index/introducing-dots</a></p><p>\u2022 Alex Wang on X: <a target=\"_blank\" href=\"https://x.com/alexandr_wang\">https://x.com/alexandr_wang</a></p><p>\u2022 Alex Cornell\u2019s website: <a target=\"_blank\" href=\"https://www.alexcornell.com\">https://www.alexcornell.com</a></p><p>\u2022 How I AI: How Meta designed Muse with Alex Cornell: <a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with\">https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with</a></p><p>\u2022 Christine Awad on X: <a target=\"_blank\" href=\"https://x.com/christinesed\">https://x.com/christinesed</a></p><p>\u2022 Linear\u2019s secret to building beloved B2B products | Nan Yu: <a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/linears-secret-to-building-beloved-b2b-products-nan-yu\">https://www.lennysnewsletter.com/p/linears-secret-to-building-beloved-b2b-products-nan-yu</a></p><p>\u2014</p><p>Production and marketing by <a target=\"_blank\" href=\"https://penname.co/\">https://penname.co/</a>. For inquiries about sponsoring the podcast, email <a target=\"_blank\" href=\"mailto:podcast@lennyrachitsky.com\">podcast@lennyrachitsky.com</a>.</p><p>\u2014</p><p><em>Lenny may be an investor in the companies discussed.</em></p> <br/><br/>To hear more, visit <a href=\"https://www.lennysnewsletter.com?utm_medium=podcast&#38;utm_campaign=show-notes-no-free-preview-language\">www.lennysnewsletter.com</a>",
+  "description_text": "Muse is the #1 app in the App Store and arguably the fastest-growing AI consumer product of all time. Mona Sarantakos has led product on it since day one. She\u2019s VP of Product at Meta Superintelligence Labs and a 10-year Meta veteran with over 20 years of experience as a PM. This is her first podcast interview.\n\nWe discuss:\n\n1. How a weekend with OpenClaw on a Raspberry Pi turned into Muse\n\n2. Why Muse waited seven months to launch, despite getting started before most of its competitors\n\n3. How Nat Friedman, Alex Wang, and Mark Zuckerberg each left their imprint on the product\n\n4. How the team uses \u201cagent swarms\u201d to surface user insights at scale\n\n5. The use case nobody on the team predicted\n\n6. How Jolly, a placeholder avatar, became an icon\n\n7. The two levers that actually move activation for an AI agent\n\n8. The #1 thing Mona looks for in PMs today\n\n\u2014\n\nBrought to you by:\n\nWorkOS \u2014Make your app enterprise-ready, with SSO, SCIM, RBAC, and more\n\nDX \u2014Engineering intelligence for the AI era\n\n\u2014\n\nEpisode transcript: https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most\n\n\u2014\n\nArchive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0\n\n\u2014\n\nHighlights: https://lennyspodcast.com/mostreplayedmoments\n\n\u2014\n\nWhere to find Mona Sarantakos:\n\n\u2022 LinkedIn: https://www.linkedin.com/in/mona-sarantakos-a85873\n\n\u2022 Threads: https://www.threads.com/@monachaudhuri\n\n\u2014\n\nWhere to find Lenny:\n\n\u2022 Newsletter: https://www.lennysnewsletter.com\n\n\u2022 X: https://twitter.com/lennysan\n\n\u2022 LinkedIn: https://www.linkedin.com/in/lennyrachitsky/\n\n\u2014\n\nIn this episode, we cover:\n\n(00:00) Teaser\n\n(01:24) Introduction and Mona\u2019s background\n\n(02:14) A weekend with an early agentic AI\n\n(09:08) The seven-month launch timeline\n\n(14:07) \"The claw is the law\"\n\n(15:53) Nat, Alex Wang, Zuckerberg, and how leadership shaped Muse\n\n(23:37) The Jolly origin story\n\n(29:53) Priority use cases and the shopping surprise\n\n(35:03) Agentic commerce and how shopping works\n\n(38:03) Agent swarms and synthetic data\n\n(42:48) Evals: structure, hierarchy, and who writes them\n\n(46:37) Activation and word of mouth\n\n(51:09) The design bets that defined Muse\n\n(57:04) Prototyping culture and the two Muses that fought\n\n(01:01:54) How the PM role has changed\n\n(01:09:05) Muse's first prototype\n\n(01:10:37) The board meeting prototype that almost didn\u2019t work\n\n(01:12:00) Team size, closeness, and culture\n\n(01:20:55) What comes next: ambient agents and financial betterment\n\n\u2014\n\nReferenced:\n\n\u2022 Muse: https://muse.ai\n\n\u2022 Introducing Muse Spark: MSL\u2019s First Model, Purpose-Built to Prioritize People: https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs\n\n\u2022 Nat Friedman\u2019s website: https://nat.org\n\n\u2022 OpenClaw: https://openclaw.ai\n\n\u2022 From skeptic to true believer: How OpenClaw changed my life | Claire Vo: https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo\n\n\u2022 Personal Superintelligence: https://www.meta.com/superintelligence\n\n\u2022 The Future is for Everyone: https://www.meta.com/thefutureisforeveryone\n\n\u2022 Grok Bot: https://x.ai/bot\n\n\u2022 How we built Grok Bot in a month | Roman Ugarte (SpaceXAI): https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month\n\n\u2022 Claude Duet: https://claude.com/product/claude-duet\n\n\u2022 Dots: https://openai.com/index/introducing-dots\n\n\u2022 Alex Wang on X: https://x.com/alexandr_wang\n\n\u2022 Alex Cornell\u2019s website: https://www.alexcornell.com\n\n\u2022 How I AI: How Meta designed Muse with Alex Cornell: https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with\n\n\u2022 Christine Awad on X: https://x.com/christinesed\n\n\u2022 Linear\u2019s secret to building beloved B2B products | Nan Yu: https://www.lennysnewsletter.com/p/linears-secret-to-building-beloved-b2b-products-nan-yu\n\n\u2014\n\nProduction and marketing by https://penname.co/ . For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com .\n\n\u2014\n\nLenny may be an investor in the companies discussed.\n\nTo hear more, visit www.lennysnewsletter.com",
+  "duration_seconds": 5235,
+  "feed_id": "lennys-podcast",
+  "feed_name": "Lenny's Podcast",
+  "feed_priority": 5,
+  "id": "9162d4b666a368d2f415",
+  "link": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+  "published": "2026-11-15T13:31:28+00:00",
+  "title": "Meta\u2019s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://api.substack.com/feed/podcast/transcript/224231309/f6e4596b37a2c26be368407658ea668b.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://api.substack.com/feed/podcast/transcript/224231309/f6e4596b37a2c26be368407658ea668b.vtt"
+    }
+  ],
+  "web_links": [
+    {
+      "text": "WorkOS",
+      "url": "https://workos.com/lenny"
+    },
+    {
+      "text": "DX",
+      "url": "https://getdx.com/?utm_source=lenny&utm_medium=sponsorship&utm_campaign=q42026"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+      "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most"
+    },
+    {
+      "text": "https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0",
+      "url": "https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0"
+    },
+    {
+      "text": "https://lennyspodcast.com/mostreplayedmoments",
+      "url": "https://lennyspodcast.com/mostreplayedmoments"
+    },
+    {
+      "text": "https://www.linkedin.com/in/mona-sarantakos-a85873",
+      "url": "https://www.linkedin.com/in/mona-sarantakos-a85873"
+    },
+    {
+      "text": "https://www.threads.com/@monachaudhuri",
+      "url": "https://www.threads.com/@monachaudhuri"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com"
+    },
+    {
+      "text": "https://twitter.com/lennysan",
+      "url": "https://twitter.com/lennysan"
+    },
+    {
+      "text": "https://www.linkedin.com/in/lennyrachitsky/",
+      "url": "https://www.linkedin.com/in/lennyrachitsky/"
+    },
+    {
+      "text": "https://muse.ai",
+      "url": "https://muse.ai"
+    },
+    {
+      "text": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs",
+      "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs"
+    },
+    {
+      "text": "https://nat.org",
+      "url": "https://nat.org"
+    },
+    {
+      "text": "https://openclaw.ai",
+      "url": "https://openclaw.ai"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
+      "url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo"
+    },
+    {
+      "text": "https://www.meta.com/superintelligence",
+      "url": "https://www.meta.com/superintelligence"
+    },
+    {
+      "text": "https://www.meta.com/thefutureisforeveryone",
+      "url": "https://www.meta.com/thefutureisforeveryone"
+    },
+    {
+      "text": "https://x.ai/bot",
+      "url": "https://x.ai/bot"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+      "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month"
+    },
+    {
+      "text": "https://claude.com/product/claude-duet",
+      "url": "https://claude.com/product/claude-duet"
+    },
+    {
+      "text": "https://openai.com/index/introducing-dots",
+      "url": "https://openai.com/index/introducing-dots"
+    },
+    {
+      "text": "https://x.com/alexandr_wang",
+      "url": "https://x.com/alexandr_wang"
+    },
+    {
+      "text": "https://www.alexcornell.com",
+      "url": "https://www.alexcornell.com"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with"
+    },
+    {
+      "text": "https://x.com/christinesed",
+      "url": "https://x.com/christinesed"
+    },
+    {
+      "text": "https://www.lennysnewsletter.com/p/linears-secret-to-building-beloved-b2b-products-nan-yu",
+      "url": "https://www.lennysnewsletter.com/p/linears-secret-to-building-beloved-b2b-products-nan-yu"
+    },
+    {
+      "text": "https://penname.co/",
+      "url": "https://penname.co/"
+    },
+    {
+      "text": "podcast@lennyrachitsky.com",
+      "url": "mailto:podcast@lennyrachitsky.com"
+    },
+    {
+      "text": "www.lennysnewsletter.com",
+      "url": "https://www.lennysnewsletter.com?utm_medium=podcast&utm_campaign=show-notes-no-free-preview-language"
+    }
+  ]
+}

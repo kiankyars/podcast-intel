@@ -27,7 +27,7 @@
     },
     "031bb09a7fd5b11b14aa": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.891983+00:00"
+      "updated_at": "2026-11-16T14:51:46.495999+00:00"
     },
     "043d834554686b34d4e0": {
       "status": "metadata_skipped",
@@ -408,7 +408,7 @@
     },
     "1503134eab30d33b4752": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.910278+00:00"
+      "updated_at": "2026-11-16T14:51:46.509843+00:00"
     },
     "1686b56e55b9140344de": {
       "analysis_path": "episodes/2026-10-02/byocompute-pope-destroys-false-idol-ben-affleck-s-white-pill-joe-gebbia-molly-fowler-tom-d-1686b56e55b9140344de/analysis.json",
@@ -518,7 +518,7 @@
     },
     "1a4af865dd007a4d522d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.900145+00:00"
+      "updated_at": "2026-11-16T14:51:46.501775+00:00"
     },
     "1a89079f1f0946e83318": {
       "analysis_path": "episodes/2026-10-30/robert-caro-the-master-biographer-reflects-at-91-1a89079f1f0946e83318/analysis.json",
@@ -869,7 +869,7 @@
     },
     "24da53ecd5e5df01d400": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.908458+00:00"
+      "updated_at": "2026-11-16T14:51:46.508271+00:00"
     },
     "251c782d236be2666d84": {
       "status": "metadata_skipped",
@@ -1020,7 +1020,7 @@
     },
     "2c7cffb9e4632f9c1d61": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.911118+00:00"
+      "updated_at": "2026-11-16T14:51:46.510644+00:00"
     },
     "2c83bb6ae97e97320eb5": {
       "status": "metadata_skipped",
@@ -1049,7 +1049,7 @@
     },
     "2ea5d35c1798b0c4253b": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.901346+00:00"
+      "updated_at": "2026-11-16T14:51:46.502585+00:00"
     },
     "2f3cd7f7394be6eecd5f": {
       "analysis_path": "episodes/2026-06-17/radically-better-reasoning-elicit-s-andreas-stuhlm-ller-jungwon-byun-on-world-models-for-r-2f3cd7f7394be6eecd5f/analysis.json",
@@ -1087,7 +1087,7 @@
     },
     "2ff5d8b31b49a789ab04": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.912416+00:00"
+      "updated_at": "2026-11-16T14:51:46.511469+00:00"
     },
     "2ffae64fdc369d55a6f2": {
       "analysis_path": "episodes/2026-06-06/ai-in-the-am-week-1-highlights-june-2026-2ffae64fdc369d55a6f2/analysis.json",
@@ -1176,7 +1176,7 @@
     },
     "3586c3e86b644eb4ed01": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.902949+00:00"
+      "updated_at": "2026-11-16T14:51:46.503366+00:00"
     },
     "3593dedb1bf3257293e2": {
       "analysis_path": "episodes/2026-08-23/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-3593dedb1bf3257293e2/analysis.json",
@@ -1626,6 +1626,23 @@
       "transcript_source": "publisher_transcript",
       "transcript_source_url": "https://share.transistor.fm/s/b41e5338/transcription.vtt",
       "updated_at": "2026-10-03T16:25:34.930044+00:00"
+    },
+    "4a4e8290944724c88b7b": {
+      "analysis_path": "episodes/2026-11-14/ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai-summit-at-bletchley-4a4e8290944724c88b7b/analysis.json",
+      "error": "",
+      "feed_id": "cognitive-revolution",
+      "link": "https://www.cognitiverevolution.ai/ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai-summit-at-bletchley-park/",
+      "published": "2026-11-14T09:05:22+00:00",
+      "raw_transcript": "episodes/2026-11-14/ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai-summit-at-bletchley-4a4e8290944724c88b7b/transcript.txt",
+      "relevance_score": 3,
+      "request_path": "episodes/2026-11-14/ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai-summit-at-bletchley-4a4e8290944724c88b7b/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-14/ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai-summit-at-bletchley-4a4e8290944724c88b7b/summary.md",
+      "title": "AI, the Modern Enigma: Nathan's Keynote at IT Revolution's Enterprise AI Summit at Bletchley Park",
+      "transcript_path": "episodes/2026-11-14/ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai-summit-at-bletchley-4a4e8290944724c88b7b/transcript.md",
+      "transcript_source": "episode_page_transcript",
+      "transcript_source_url": "https://www.cognitiverevolution.ai/ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai-summit-at-bletchley-park/",
+      "updated_at": "2026-11-16T14:59:54.899696+00:00"
     },
     "4aad641f1dcb3066c5d8": {
       "analysis_path": "episodes/2026-06-04/alex-imas-and-phil-trammell-what-remains-scarce-after-agi-4aad641f1dcb3066c5d8/analysis.json",
@@ -2841,7 +2858,7 @@
     },
     "821040ccd8cf95cf1ac9": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.899047+00:00"
+      "updated_at": "2026-11-16T14:51:46.500907+00:00"
     },
     "837cff33e75593cdf629": {
       "analysis_path": "episodes/2026-07-02/how-nuclear-will-unlock-energy-abundance-with-valar-atomics-founder-isaiah-taylor-837cff33e75593cdf629/analysis.json",
@@ -2879,7 +2896,7 @@
     },
     "83d5073003c8da1a1c7d": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.893757+00:00"
+      "updated_at": "2026-11-16T14:51:46.497503+00:00"
     },
     "84731c50ab85039520c3": {
       "analysis_path": "episodes/2026-06-03/dara-khosrowshahi-uber-s-bet-on-avs-ai-and-building-a-super-app-invest-like-the-best-ep-47-84731c50ab85039520c3/analysis.json",
@@ -2917,7 +2934,7 @@
     },
     "84c3ef48dcb71c58c35e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.903983+00:00"
+      "updated_at": "2026-11-16T14:51:46.504314+00:00"
     },
     "84e9b288a1a32728cee6": {
       "analysis_path": "episodes/2026-07-16/the-lab-of-the-future-should-feel-like-a-data-center-andy-beam-rafa-g-mez-bombarelli-lila--84e9b288a1a32728cee6/analysis.json",
@@ -3129,6 +3146,23 @@
     "9149edaae23f4f1584ef": {
       "status": "metadata_skipped",
       "updated_at": "2026-08-27T16:01:38.182705+00:00"
+    },
+    "9162d4b666a368d2f415": {
+      "analysis_path": "episodes/2026-11-15/meta-s-muse-how-we-launched-the-most-successful-consumer-product-this-year-mona-sarantakos-9162d4b666a368d2f415/analysis.json",
+      "error": "",
+      "feed_id": "lennys-podcast",
+      "link": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+      "published": "2026-11-15T13:31:28+00:00",
+      "raw_transcript": "episodes/2026-11-15/meta-s-muse-how-we-launched-the-most-successful-consumer-product-this-year-mona-sarantakos-9162d4b666a368d2f415/transcript.txt",
+      "relevance_score": 4,
+      "request_path": "episodes/2026-11-15/meta-s-muse-how-we-launched-the-most-successful-consumer-product-this-year-mona-sarantakos-9162d4b666a368d2f415/analysis_request.md",
+      "status": "processed",
+      "summary_path": "episodes/2026-11-15/meta-s-muse-how-we-launched-the-most-successful-consumer-product-this-year-mona-sarantakos-9162d4b666a368d2f415/summary.md",
+      "title": "Meta\u2019s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+      "transcript_path": "episodes/2026-11-15/meta-s-muse-how-we-launched-the-most-successful-consumer-product-this-year-mona-sarantakos-9162d4b666a368d2f415/transcript.md",
+      "transcript_source": "publisher_transcript",
+      "transcript_source_url": "https://api.substack.com/feed/podcast/transcript/224231309/f6e4596b37a2c26be368407658ea668b.vtt",
+      "updated_at": "2026-11-16T14:59:54.904146+00:00"
     },
     "91720efd7d609c680ef9": {
       "analysis_path": "episodes/2026-06-09/siri-ai-fable-5-launch-rivian-ceo-joins-rj-scaringe-chris-miller-evan-beard-nick-fleisher--91720efd7d609c680ef9/analysis.json",
@@ -3580,7 +3614,7 @@
     },
     "a7fc9a966211f4bc3abe": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.907498+00:00"
+      "updated_at": "2026-11-16T14:51:46.507476+00:00"
     },
     "a8258499a51dd97972cd": {
       "analysis_path": "episodes/2026-06-04/openai-s-dan-roberts-why-ai-can-now-make-discoveries-a8258499a51dd97972cd/analysis.json",
@@ -3680,7 +3714,7 @@
     },
     "acfee7759b7b3d87012e": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.905091+00:00"
+      "updated_at": "2026-11-16T14:51:46.505139+00:00"
     },
     "ae1be3689eb95a8c6676": {
       "error": "Invest Like the Best / Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]: TranscriptUnavailable: no publisher transcript or YouTube captions found",
@@ -3837,7 +3871,7 @@
     },
     "b6548ec0288d08615aaf": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.896088+00:00"
+      "updated_at": "2026-11-16T14:51:46.499270+00:00"
     },
     "b67022364a85eb173705": {
       "status": "metadata_skipped",
@@ -3912,7 +3946,7 @@
     },
     "bcb27e2103d33b04e6f7": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.897222+00:00"
+      "updated_at": "2026-11-16T14:51:46.500097+00:00"
     },
     "bd4abdfdd12e2dd63579": {
       "analysis_path": "episodes/2026-06-15/ep-015-dg-matrix-explains-800v-dc-vs-legacy-ac-distribution-datacenter-energy-jordan-nanos-bd4abdfdd12e2dd63579/analysis.json",
@@ -5078,7 +5112,7 @@
     },
     "ebefe43b25ebc78acc14": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.895037+00:00"
+      "updated_at": "2026-11-16T14:51:46.498434+00:00"
     },
     "ec118b74c0bbd0b3d16f": {
       "status": "metadata_skipped",
@@ -5335,7 +5369,7 @@
     },
     "fb5d1be46ffce3832659": {
       "status": "metadata_skipped",
-      "updated_at": "2026-11-14T07:01:22.906120+00:00"
+      "updated_at": "2026-11-16T14:51:46.506650+00:00"
     },
     "fc8271b24ea34c6c6932": {
       "status": "metadata_skipped",

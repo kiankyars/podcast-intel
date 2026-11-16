@@ -1,0 +1,74 @@
+{
+  "changed_views": [
+    "Sarantakos says her early-2026 planning expected consumer agents much later, around late 2026 or 2027; direct experience with OpenClaw brought the product effort forward. That is a retrospective account of a changed internal forecast, not evidence that every consumer-agent task is now reliable.",
+    "She explicitly revises the expected use-case mix: shopping became a priority while home automation was less prominent as the audience broadened. Product evaluation should follow observed consumer tasks rather than the team's initial preferences.",
+    "The new first-party details concern data collection, evaluation governance and cohort-specific onboarding. Prior Muse launch/model and agent-access coverage is background rather than a fresh release announcement.",
+    "The admission that activation is the leading problem and still unresolved provides a useful qualification to Meta's launch claim of an immediately understandable product. Neither the interview title nor App Store positioning supplies a durable-retention or commercial-success measurement."
+  ],
+  "entities": [
+    "Mona Sarantakos",
+    "Meta",
+    "Meta Superintelligence Labs",
+    "Muse",
+    "Meta AI",
+    "Nat Friedman",
+    "Alexandr Wang",
+    "Mark Zuckerberg",
+    "OpenClaw",
+    "Sentinel",
+    "Lenny Rachitsky"
+  ],
+  "follow_ups": [
+    "Request cohort-level activation and retention, acquisition-source definitions and experiments separating onboarding changes from word of mouth or advertising.",
+    "Track the evaluation suite's mandatory thresholds, representativeness, human-review protocol and held-out performance; measure whether synthetic and production-derived examples improve real task completion without hiding regressions.",
+    "Quantify shopping's share of tasks, successful purchases, merchant availability, refunds and unit economics before inferring a new commerce distribution advantage.",
+    "Evaluate disclosure decisions in multi-party or agent-to-agent conversations separately from tool authorization, including which personal memories can cross a user boundary and how consent is checked.",
+    "Measure the supervision burden alongside task completion: Sarantakos explicitly says at 1:22:15\u20131:22:58 that agents still need too much babysitting, while device expansion and broader autonomy remain future directions without firm dates in this interview."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "agents_developer_tools",
+      "claim": "Sarantakos says Muse needed a new evaluation-data pipeline because Meta AI's mostly single-turn conversations did not represent long-running, multi-turn consumer tasks.",
+      "confidence": "medium",
+      "evidence": "At 39:26\u201340:33 she contrasts the previous assistant's short exchanges with tasks such as meal planning and explains that the team lacked representative data outside coding. She says agent swarms analyze feedback, conversations and metrics, can generate synthetic data, and return concrete task examples that feed datasets and evaluations. At 40:35\u201341:39 she describes using the process when models change or a suspected issue needs investigation, down to identifying a particular shopping site that blocks users. This is a reported development workflow, with no dataset sizes, sampling method, synthetic-data share, measured triage accuracy or causal quality uplift. The differentiator to test is the realism and coverage of interaction data, not merely the number of agents deployed.",
+      "kind": "observation",
+      "timestamp": "00:38:20; 00:39:26; 00:39:48; 00:39:55; 00:40:04; 00:40:35; 00:41:27"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Sarantakos reports more than 100 Muse evaluations, with mandatory priority checks and tradeable secondary checks, while requiring humans to write the system prompt and behavioral specification.",
+      "confidence": "medium",
+      "evidence": "At 43:07\u201344:46 she describes safety and prompt-injection tests, capability tests such as browser use and task completion, behavioral tests for clarification and intent understanding, and use-case-specific evaluations. Any change must pass the priority tier; some secondary regressions can be traded against other gains. At 44:48\u201345:46 she says PMs, engineers and researchers use agents to help construct evaluations, but people must review the data and prompt distribution; the system prompt and behavioral specification must be human-written. Earlier, at 11:22\u201312:35, she attributes much of the roughly seven-month build to reliability, safety and security work, with browser access adding new attack surfaces. The count is her estimate, not a disclosed test suite; no thresholds, pass rates or release-to-incident correlation are supplied.",
+      "kind": "observation",
+      "timestamp": "00:11:22; 00:12:08; 00:43:07; 00:43:23; 00:43:43; 00:44:18; 00:44:48; 00:45:03; 00:45:19; 00:45:35"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Shopping became one of Muse's top use cases unexpectedly, causing the team to redirect evaluation effort as usage broadened beyond early enthusiasts.",
+      "confidence": "medium",
+      "evidence": "At 31:01\u201331:41 Sarantakos describes an external research panel started around March, internal feedback, and recurring reviews with leadership. At 32:04\u201333:19 she says she had expected personal productivity, health and finance to dominate; home automation was also an early hypothesis, but shopping grew more prominent and required dedicated use-case evaluations. She attributes weaker home-automation demand partly to differences between OpenClaw enthusiasts and a broader audience. The actionable update is the change in product and evaluation priorities. Her own account of purchases spreading across multiple stores is illustrative, not an aggregate change in retailer share; she provides no use-case percentages, conversion, transaction volume or margin data.",
+      "kind": "observation",
+      "timestamp": "00:31:01; 00:31:10; 00:31:36; 00:32:04; 00:32:42; 00:32:54; 00:33:19; 00:34:24"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Sarantakos calls activation Muse's leading product problem and says later users need different onboarding from early adopters who already understood agents.",
+      "confidence": "medium",
+      "evidence": "At 47:21\u201348:44 she describes confusion about why an existing chatbot user needs another product, and argues that relatable demonstrations and word of mouth are especially effective. At 48:54\u201350:07 she explains starter packs that let a user initiate a concrete workflow without inventing a first prompt. At 50:14\u201350:57 she says the team now needs onboarding variants based on acquisition source and expected familiarity, and admits it has not solved the problem. This qualifies the [launch announcement's ease-of-use claim](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/): product access does not establish that people understand or repeatedly use its capabilities. The interview gives anecdotes and a cohort diagnosis, not activation rates or controlled estimates of the relative effectiveness of advertising, referrals and onboarding changes.",
+      "kind": "observation",
+      "timestamp": "00:47:21; 00:47:29; 00:48:14; 00:48:54; 00:49:14; 00:50:14; 00:50:42; 00:50:57"
+    },
+    {
+      "category": "policy_geopolitics_security",
+      "claim": "Sarantakos says an early experiment with two personal agents in a shared chat exposed a user's medical appointment, revealing a disclosure problem before the team considered that experience ready.",
+      "confidence": "medium",
+      "evidence": "At 58:50\u20131:00:21 she recalls putting employees' agents into a group chat before the team had adequately considered discretion: another participant learned about an appointment from an agent. At 1:01:04 she says they concluded there were more problems to solve before proceeding. This is a specific internal-prototype anecdote, not evidence of a current production incident rate or a verified vulnerability in the released system. At 19:19 she separately describes Sentinel as a backstop outside the main agent; the [launch security architecture](https://muse.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse) corroborates separate permission enforcement and scoped approvals, while acknowledging mistakes remain possible. The design implication is that authorizing a conversation and deciding which remembered facts may be disclosed are distinct requirements; the interview does not demonstrate that the latter is solved.",
+      "kind": "observation",
+      "timestamp": "00:19:19; 00:58:50; 00:59:05; 00:59:39; 00:59:46; 01:00:09; 01:00:19; 01:01:04"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Meta product leader Mona Sarantakos describes the operational work behind Muse: replacing single-turn assistant evaluation data with long-running consumer-task data, imposing a hierarchy of release tests, and adapting priorities and onboarding as usage broadened. Shopping became unexpectedly important, while early multi-agent experiments exposed disclosure problems. The useful evidence is her first-party account of decisions and failure modes; the interview supplies no audited adoption, retention, purchase-volume or reliability statistics. Its fastest-growing-product framing is not treated as a verified ranking.",
+  "why_it_matters": "A capable underlying model did not remove the need for representative interaction data, explicit human-authored behavior requirements, and controls around personal context. The account identifies concrete product bottlenecks that model benchmarks miss: which tasks people actually attempt, whether they understand how to begin, and what an agent may disclose while coordinating. These mechanisms are useful to evaluate, but their effect on Muse's commercial performance is not quantified."
+}
