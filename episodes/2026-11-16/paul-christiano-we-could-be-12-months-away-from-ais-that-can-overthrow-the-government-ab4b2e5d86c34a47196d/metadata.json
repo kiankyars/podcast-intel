@@ -1,0 +1,64 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/225196123/e31fdeb36d2d8a60f107c733c706a545.mp3",
+  "description_html": "<p><a target=\"_blank\" href=\"https://paulfchristiano.com/\">Paul Christiano</a> is head of the Alignment Research Center. Previously, he was head of AI safety at the US AI Safety Institute. Before that, he led alignment at OpenAI, where he invented RLHF. He\u2019s recently joined OpenAI\u2019s board (though here he is speaking as a private citizen).</p><p>Paul thinks that on the current trajectory (absent any slowing down), there is a 1 in 3 chance that we could have superintelligence powerful enough to overthrow the government within a year. (He articulates a concrete scenario).</p><p>He argues that the labs should pause further algorithmic progress until they can secure their weights and research secrets. Otherwise China could simply steal the superintelligence in the middle of the intelligence explosion, and the labs would no longer be able to slow down even if they saw their models going off the rails.</p><p>He also explains how AIs will be trained during the intelligence explosion, and why even a system trained entirely inside a data center could still have the capabilities profile such that humans would have very little chance of competing with it or controlling it.</p><p>And he discusses the plan for alignment - basically, making a superintelligence that actually does what we ask the way we mean it. Fixing reward hacks and building better graders will help up till the next few model generations, but he thinks that no single current approach has better than even odds of letting us control superintelligence. The hope is that the AIs figure out the solution to this problem during the intelligence explosion.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/SyHM5hNPAEo\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/paul-christiano-2\">transcript</a>.</p><p>Sponsors</p><p>* <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">Jane Street</a> has finally come around on formal methods. Ron Minsky, who co-heads Jane Street\u2019s technology group, told me that up until recently, formal methods just weren\u2019t worth the cost. But coding agents have made them easier to apply AND increased the importance of code verification. So now Jane Street is hiring Formal Methods Engineers in both their London and New York offices. If you\u2019re interested, or if you want to watch my full conversation with Ron, go to <a target=\"_blank\" href=\"https://janestreet.com/dwarkesh\">janestreet.com/dwarkesh</a></p><p>* <a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">Antithesis</a> is NOT another LLM-based code-review tool. It doesn\u2019t try to reason abstractly about how a PR might break your system. Instead, it just runs your code. You start by defining the rules that your system must never break. Then, whenever an agent proposes a change, Antithesis runs your code through thousands of adversarial worlds, testing whether or not it still adheres to your rules. If you want to try it, go to <a target=\"_blank\" href=\"https://antithesis.com/dwarkesh\">antithesis.com/dwarkesh</a> and use code DWARKESH for 50% off your first month.</p><p>* <a target=\"_blank\" href=\"https://workos.com/authkit\">WorkOS</a> lets you give agents their own sign-up flow. This matters because agents tend to pick tools they can use right away, rather than ones that require humans to register. Fortunately, providing this kind of dedicated path is easy: if you already use WorkOS for login, you just toggle on \u201cAgent Registration\u201d in the WorkOS dashboard. Once it\u2019s enabled, you can decide what agents are allowed to do on their own, and what needs to wait until the person they\u2019re working for gets involved, all with the permissions you\u2019ve already set up. Learn more at <a target=\"_blank\" href=\"https://workos.com/authkit\">workos.com/authkit</a></p><p>Timestamps</p><p>(00:00:00) \u2013 We could be 12 months away from AIs that can overthrow the government</p><p>(00:11:44) \u2013 Why an AI might want to takeover</p><p>(00:20:49) \u2013 How an AI takeover could happen</p><p>(00:35:35) \u2013 If labs keep racing without security, China will just steal the weights of superintelligence</p><p>(00:53:15) \u2013 The case for pausing now instead of later</p><p>(00:59:31) \u2013 Superintelligence will be good at learning from real-world experience</p><p>(01:11:32) \u2013 Crossing the sim-to-real gap</p><p>(01:22:23) \u2013 METR says AI progress doubled, so why is revenue growth slowing?</p><p>(01:27:57) \u2013 The best plan we have is to build the plane as we fly it</p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.dwarkesh.com?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.dwarkesh.com</a>",
+  "description_text": "Paul Christiano is head of the Alignment Research Center. Previously, he was head of AI safety at the US AI Safety Institute. Before that, he led alignment at OpenAI, where he invented RLHF. He\u2019s recently joined OpenAI\u2019s board (though here he is speaking as a private citizen).\n\nPaul thinks that on the current trajectory (absent any slowing down), there is a 1 in 3 chance that we could have superintelligence powerful enough to overthrow the government within a year. (He articulates a concrete scenario).\n\nHe argues that the labs should pause further algorithmic progress until they can secure their weights and research secrets. Otherwise China could simply steal the superintelligence in the middle of the intelligence explosion, and the labs would no longer be able to slow down even if they saw their models going off the rails.\n\nHe also explains how AIs will be trained during the intelligence explosion, and why even a system trained entirely inside a data center could still have the capabilities profile such that humans would have very little chance of competing with it or controlling it.\n\nAnd he discusses the plan for alignment - basically, making a superintelligence that actually does what we ask the way we mean it. Fixing reward hacks and building better graders will help up till the next few model generations, but he thinks that no single current approach has better than even odds of letting us control superintelligence. The hope is that the AIs figure out the solution to this problem during the intelligence explosion.\n\nWatch on YouTube ; read the transcript .\n\nSponsors\n\n* Jane Street has finally come around on formal methods. Ron Minsky, who co-heads Jane Street\u2019s technology group, told me that up until recently, formal methods just weren\u2019t worth the cost. But coding agents have made them easier to apply AND increased the importance of code verification. So now Jane Street is hiring Formal Methods Engineers in both their London and New York offices. If you\u2019re interested, or if you want to watch my full conversation with Ron, go to janestreet.com/dwarkesh\n\n* Antithesis is NOT another LLM-based code-review tool. It doesn\u2019t try to reason abstractly about how a PR might break your system. Instead, it just runs your code. You start by defining the rules that your system must never break. Then, whenever an agent proposes a change, Antithesis runs your code through thousands of adversarial worlds, testing whether or not it still adheres to your rules. If you want to try it, go to antithesis.com/dwarkesh and use code DWARKESH for 50% off your first month.\n\n* WorkOS lets you give agents their own sign-up flow. This matters because agents tend to pick tools they can use right away, rather than ones that require humans to register. Fortunately, providing this kind of dedicated path is easy: if you already use WorkOS for login, you just toggle on \u201cAgent Registration\u201d in the WorkOS dashboard. Once it\u2019s enabled, you can decide what agents are allowed to do on their own, and what needs to wait until the person they\u2019re working for gets involved, all with the permissions you\u2019ve already set up. Learn more at workos.com/authkit\n\nTimestamps\n\n(00:00:00) \u2013 We could be 12 months away from AIs that can overthrow the government\n\n(00:11:44) \u2013 Why an AI might want to takeover\n\n(00:20:49) \u2013 How an AI takeover could happen\n\n(00:35:35) \u2013 If labs keep racing without security, China will just steal the weights of superintelligence\n\n(00:53:15) \u2013 The case for pausing now instead of later\n\n(00:59:31) \u2013 Superintelligence will be good at learning from real-world experience\n\n(01:11:32) \u2013 Crossing the sim-to-real gap\n\n(01:22:23) \u2013 METR says AI progress doubled, so why is revenue growth slowing?\n\n(01:27:57) \u2013 The best plan we have is to build the plane as we fly it\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com",
+  "duration_seconds": 5925,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "ab4b2e5d86c34a47196d",
+  "link": "https://www.dwarkesh.com/p/paul-christiano-2",
+  "published": "2026-11-16T17:46:28+00:00",
+  "title": "Paul Christiano \u2013 We could be 12 months away from AIs that can overthrow the government",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://api.substack.com/feed/podcast/transcript/225196123/c97d5c5f729384b9cd3ccc616df9c4f8.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://api.substack.com/feed/podcast/transcript/225196123/c97d5c5f729384b9cd3ccc616df9c4f8.vtt"
+    }
+  ],
+  "web_links": [
+    {
+      "text": "Paul Christiano",
+      "url": "https://paulfchristiano.com/"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/SyHM5hNPAEo"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/paul-christiano-2"
+    },
+    {
+      "text": "Jane Street",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "janestreet.com/dwarkesh",
+      "url": "https://janestreet.com/dwarkesh"
+    },
+    {
+      "text": "Antithesis",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "antithesis.com/dwarkesh",
+      "url": "https://antithesis.com/dwarkesh"
+    },
+    {
+      "text": "WorkOS",
+      "url": "https://workos.com/authkit"
+    },
+    {
+      "text": "workos.com/authkit",
+      "url": "https://workos.com/authkit"
+    },
+    {
+      "text": "www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}

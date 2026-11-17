@@ -1,0 +1,40 @@
+{
+  "changed_views": [
+    "Treat automatic account creation as infrastructure availability, not as evidence of active family adoption or a ready audience for the proposed AI tutor."
+  ],
+  "entities": [
+    "Brad Gerstner",
+    "Geoffrey Canada",
+    "Invest America",
+    "Harlem Children's Zone",
+    "Trump Accounts",
+    "OpenAI",
+    "Anthropic"
+  ],
+  "follow_ups": [
+    "Watch for a concrete tutor launch, named model provider, age-specific accuracy testing and usage data; the episode establishes a plan only.",
+    "Track claimed, funded and actively saving accounts separately. Current IRS guidance also distinguishes automatic opening from the separate election for the $1,000 contribution and limits eligible births to 2025\u20132028: [IRS guidance](https://www.irs.gov/trumpaccounts)."
+  ],
+  "relevance_score": 3,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "Gerstner says work is underway on plans to embed an age-appropriate AI financial tutor in the child-account app.",
+      "confidence": "medium",
+      "evidence": "He names OpenAI and Anthropic as possible technologies and describes a child asking how a small monthly contribution would compound. He presents this as planning; he provides no selected provider, launch date, accuracy evaluation or usage data.",
+      "kind": "observation",
+      "timestamp": "51:01; 51:07; 51:11; 51:16; 51:20; 51:24"
+    },
+    {
+      "category": "applications_business_models",
+      "claim": "Canada identifies trust and claiming friction as a distribution bottleneck that automatic account creation does not solve.",
+      "confidence": "medium",
+      "evidence": "Drawing on Harlem Children's Zone's earlier wealth-building program, he says some recipients did not complete the steps needed to receive money because a free-money offer seemed suspect. He commits the organization to helping poor families claim their accounts and develop saving habits. The host asks for the share claimed, but the guests do not provide it.",
+      "kind": "observation",
+      "timestamp": "14:19; 15:34; 15:44; 16:04; 16:12; 16:47; 17:11"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Brad Gerstner and Geoffrey Canada argue that child investment accounts can broaden participation in economic growth. The useful new AI detail is Gerstner's plan for an age-appropriate financial tutor inside the account app. Canada's experience also identifies distrust and claiming friction as obstacles after accounts exist; the conversation supplies no measured claim rate or AI rollout results. Timestamps refer to the [official video](https://www.youtube.com/watch?v=u6pCmQd0Wrg).",
+  "why_it_matters": "An account app could give an AI education feature an existing distribution channel and concrete contribution scenarios to explain. That is a product opportunity, not evidence of a model-provider contract or successful deployment. Account creation alone also overstates engagement: claiming, funding and recurring saving require separate measurement."
+}

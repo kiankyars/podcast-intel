@@ -1,0 +1,23 @@
+{
+  "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1e632-c02d-7e1d-84cb-b3d9453f63eb/01a1e632-c136-7f19-ba30-c3bc167811bd.mp3",
+  "description_html": "<p>What can a model learn about the world by watching video and listening to it? Black Forest Labs trained FLUX 3 on images, video and audio together. Andreas Blattmann and Dustin Podell join swyx to explain why. A moving camera reveals the far side of an...</p>",
+  "description_text": "What can a model learn about the world by watching video and listening to it? Black Forest Labs trained FLUX 3 on images, video and audio together. Andreas Blattmann and Dustin Podell join swyx to explain why. A moving camera reveals the far side of an...",
+  "duration_seconds": 5903,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "42910614c5b92df65f17",
+  "link": "https://latent.space/p/bfl",
+  "published": "2026-11-16T21:27:06+00:00",
+  "title": "Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Black Forest Labs",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1e63a-78bd-7778-8571-0e1880c6e9a2.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1e63a-78bd-7778-8571-0e1880c6e9a2.vtt"
+    }
+  ],
+  "web_links": []
+}
