@@ -1,0 +1,23 @@
+{
+  "audio_url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1f60c-1b1f-791d-ab17-93dc95925d0f/01a1f60c-1d13-7e51-8f68-58af8c020059.mp3",
+  "description_html": "<p>Linear was founded to build a better issue tracker. Seven years and $134 million in funding later, its CEO Karri Saarinen published a post titled &quot;Issue tracking is dead.&quot; ( https://linear.app/next ) In this episode, we chat with Cristina Cordova ( htt...</p>",
+  "description_text": "Linear was founded to build a better issue tracker. Seven years and $134 million in funding later, its CEO Karri Saarinen published a post titled \"Issue tracking is dead.\" ( https://linear.app/next ) In this episode, we chat with Cristina Cordova ( htt...",
+  "duration_seconds": 5011,
+  "feed_id": "latent-space",
+  "feed_name": "Latent Space",
+  "feed_priority": 9,
+  "id": "2169f97d23727e7395e5",
+  "link": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo",
+  "published": "2026-11-19T23:38:57+00:00",
+  "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1f619-ddb7-7330-bb3c-52e8d460e8cc.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://rss.beehiiv.com/podcasts/transcriptions/01a1f619-ddb7-7330-bb3c-52e8d460e8cc.vtt"
+    }
+  ],
+  "web_links": []
+}

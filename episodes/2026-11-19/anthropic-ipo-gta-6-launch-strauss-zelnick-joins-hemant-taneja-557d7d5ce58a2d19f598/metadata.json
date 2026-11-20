@@ -1,0 +1,52 @@
+{
+  "audio_url": "https://media.transistor.fm/94091b47/13d1d712.mp3",
+  "description_html": "<p></p><ul><li>(05:00) - Strauss Zelnick discusses his career and leadership as CEO of Take-Two Interactive, the publisher behind Grand Theft Auto, NBA 2K, and other major franchises. He explains Take-Two\u2019s long-term strategy, Rockstar Games\u2019 creative process, the launch of GTA 6, and his views on acquisitions, artificial intelligence, emerging technologies, and the future of interactive entertainment.</li>\n<li>(58:21) - Anthropic IPO</li>\n<li>(01:01:19) - Hemant Taneja, CEO of General Catalyst, discusses Anthropic\u2019s rapid growth and IPO as evidence of AI\u2019s transformative potential and the expanding scale of venture-backed companies. He also explores new approaches to financing compute infrastructure, the changing venture-capital landscape, and AI\u2019s potential to reshape healthcare and biotechnology.</li>\n<li>(01:25:33) - \ud835\udd4f Timeline Reactions</li>\n</ul><p><br></p><p>TBPN is made possible by:</p><p>Ramp - https://ramp.com</p><p>Public - https://public.com</p><p>Cisco - https://www.cisco.com</p><p>Console - https://www.console.com</p><p>CrowdStrike - https://www.crowdstrike.com</p><p>Figma - https://www.figma.com</p><p>MongoDB - https://www.mongodb.com</p><p>NYSE - https://www.nyse.com</p><p>Railway - https://railway.com</p><p>Shopify - https://www.shopify.com</p><p>Codex - <a href=\"http://openAI.com/codex\">http://openAI.com/codex</a></p><p>Lambda - https://lambda.com</p><p><br></p><p>Follow TBPN:\u00a0</p><p>https://TBPN.com</p><p>https://x.com/tbpn</p><p>https://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231</p><p>https://podcasts.apple.com/us/podcast/tbpn/id1772360235</p><p><a href=\"https://www.youtube.com/@TBPNLive\">https://www.youtube.com/@TBPNLive</a></p>",
+  "description_text": "(05:00) - Strauss Zelnick discusses his career and leadership as CEO of Take-Two Interactive, the publisher behind Grand Theft Auto, NBA 2K, and other major franchises. He explains Take-Two\u2019s long-term strategy, Rockstar Games\u2019 creative process, the launch of GTA 6, and his views on acquisitions, artificial intelligence, emerging technologies, and the future of interactive entertainment.\n\n(58:21) - Anthropic IPO\n\n(01:01:19) - Hemant Taneja, CEO of General Catalyst, discusses Anthropic\u2019s rapid growth and IPO as evidence of AI\u2019s transformative potential and the expanding scale of venture-backed companies. He also explores new approaches to financing compute infrastructure, the changing venture-capital landscape, and AI\u2019s potential to reshape healthcare and biotechnology.\n\n(01:25:33) - \ud835\udd4f Timeline Reactions\n\nTBPN is made possible by:\n\nRamp - https://ramp.com\n\nPublic - https://public.com\n\nCisco - https://www.cisco.com\n\nConsole - https://www.console.com\n\nCrowdStrike - https://www.crowdstrike.com\n\nFigma - https://www.figma.com\n\nMongoDB - https://www.mongodb.com\n\nNYSE - https://www.nyse.com\n\nRailway - https://railway.com\n\nShopify - https://www.shopify.com\n\nCodex - http://openAI.com/codex\n\nLambda - https://lambda.com\n\nFollow TBPN:\n\nhttps://TBPN.com\n\nhttps://x.com/tbpn\n\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\n\nhttps://podcasts.apple.com/us/podcast/tbpn/id1772360235\n\nhttps://www.youtube.com/@TBPNLive",
+  "duration_seconds": 5847,
+  "feed_id": "tbpn",
+  "feed_name": "TBPN",
+  "feed_priority": 6,
+  "id": "557d7d5ce58a2d19f598",
+  "link": "https://share.transistor.fm/s/94091b47",
+  "published": "2026-11-19T20:59:30+00:00",
+  "title": "Anthropic IPO, GTA 6 Launch, Strauss Zelnick Joins | Hemant Taneja",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://share.transistor.fm/s/94091b47/transcription.vtt",
+  "transcript_urls": [
+    {
+      "rel": "captions",
+      "type": "text/vtt",
+      "url": "https://share.transistor.fm/s/94091b47/transcription.vtt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/x-subrip",
+      "url": "https://share.transistor.fm/s/94091b47/transcription.srt"
+    },
+    {
+      "rel": "captions",
+      "type": "application/json",
+      "url": "https://share.transistor.fm/s/94091b47/transcription.json"
+    },
+    {
+      "rel": "",
+      "type": "text/plain",
+      "url": "https://share.transistor.fm/s/94091b47/transcription.txt"
+    },
+    {
+      "rel": "",
+      "type": "text/html",
+      "url": "https://share.transistor.fm/s/94091b47/transcription"
+    }
+  ],
+  "web_links": [
+    {
+      "text": "http://openAI.com/codex",
+      "url": "http://openAI.com/codex"
+    },
+    {
+      "text": "https://www.youtube.com/@TBPNLive",
+      "url": "https://www.youtube.com/@TBPNLive"
+    }
+  ]
+}
