@@ -1,0 +1,47 @@
+{
+  "changed_views": [
+    "A general chat interface can serve as a discovery tool even when the final interaction is a visual selection or an automated step inside a workflow."
+  ],
+  "entities": [
+    "Sherif Mansour",
+    "Atlassian",
+    "Lenny Rachitsky",
+    "Rovo",
+    "Confluence",
+    "Jira"
+  ],
+  "follow_ups": [
+    "Compare decisions reached, rework and shipped outcomes across builder and specialist teams over the same period.",
+    "Clarify the unit behind the monthly agent figure and the share of recurring workflows that customers retain after the first month."
+  ],
+  "relevance_score": 4,
+  "signals": [
+    {
+      "category": "applications_business_models",
+      "claim": "An Atlassian product manager reported that their experimental AI builder team returned to specialist roles after about a month because choosing what to build had become the bottleneck.",
+      "confidence": "high",
+      "evidence": "Mansour says several squads tried combining product, design and implementation work. In his follow-ups with one participant, the initial impression of unusually fast progress gave way to a need for product direction. He scopes the lesson to established teams and leaves room for broader roles on early-stage projects. The account provides no controlled productivity or quality comparison.",
+      "kind": "observation",
+      "timestamp": "00:24:09; 00:24:18; 00:24:32; 00:24:53; 00:25:04; 00:25:27"
+    },
+    {
+      "category": "agents_developer_tools",
+      "claim": "Atlassian uses customer-built Rovo workflows to decide which tasks deserve native product features.",
+      "confidence": "high",
+      "evidence": "Mansour describes customers asking Rovo Chat to group Confluence whiteboard notes by theme. Selecting the notes on the board and grouping them directly made the task easier to express. In Jira, watching which agents customers place inside recurring workflows gives Atlassian candidates for native ticket triage. He puts activity at nearly ten million agents running in loops per month across Jira and Confluence, without defining whether the count deduplicates agents or customers.",
+      "kind": "observation",
+      "timestamp": "00:47:20; 00:48:20; 00:48:44; 00:49:02; 00:49:19; 00:49:29"
+    },
+    {
+      "category": "companies_capital_allocation",
+      "claim": "Mansour says Atlassian weighted product hiring toward juniors to bring new AI working habits into established teams.",
+      "confidence": "high",
+      "evidence": "During weeklong experiments across product, design and engineering, he saw younger staff demonstrate unfamiliar tools while experienced colleagues identified weak outputs and evaluation problems. He describes a deliberate hiring preference and complementary contributions observed during those sessions. He gives no hiring totals or measured productivity effect.",
+      "kind": "observation",
+      "timestamp": "00:33:11; 00:34:23; 00:34:53; 00:35:09; 00:35:21; 00:35:28"
+    }
+  ],
+  "skip_reason": "",
+  "summary": "Atlassian\u2019s Sherif Mansour describes what happened when a few squads put product managers and designers into a common AI builder role. One participant reported faster early output, then a return to specialist work as the team struggled to choose what to build. Mansour also explains how customers\u2019 experiments with Rovo have shaped dedicated features in Jira and Confluence.",
+  "why_it_matters": "Atlassian provides examples from both sides of enterprise AI adoption. Inside the company, faster implementation exposed the cost of agreeing on a direction. In the product, existing customer workflows gave the team evidence about which agent tasks merited a dedicated interface."
+}

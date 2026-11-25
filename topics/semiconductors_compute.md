@@ -472,3 +472,13 @@ GPUs, accelerators, memory, networking, foundries, semiconductor equipment, and 
 ## 2026-11-18 - [⚡️Anthropic: Know Before You IPO — Tanay Jaipuria, Wing VC](https://www.youtube.com/watch?v=wX8nDtGIfYA)
 
 - **Jaipuria expects interchangeable open-model token hosting to earn much lower lasting margins than a differentiated frontier model, pushing hosts toward customization and post-training.** [45:44; 46:02; 46:09; 46:24; 46:30; 46:40; 47:21; 47:29; 47:43; 47:55; 48:00; 48:05] He challenges extrapolating Anthropic's inference economics to providers serving models available to competitors. His mechanism is price undercutting on the same weights; he expects vanilla open-model hosting eventually to stay at or below roughly 40% margin and sees customization and post-training as ways to retain more value. That number is his long-run forecast, without a specified cost-accounting basis or provider-level financial evidence. The useful distinction is strategic: a host needs differentiation beyond access to shared weights to defend pricing. His examples of cheaper routing options do not establish equivalent latency, quality, service guarantees or sustainable provider profits, and the interview does not validate a one-year GPU payback.
+
+<!-- episode:147bda9fd2285efde0a2 -->
+## 2026-11-21 - [Spend the Lead on Safety: Biden AI Advisors Ben Buchanan & Tantum Collins on the Fate of the World](https://www.cognitiverevolution.ai/spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins-on-the-fate-of-the-world/)
+
+- **Buchanan estimates an allied advantage of roughly 100 to 1 in producing computing power and 15 to 1 in access to it.** [29:02; 34:31; 56:05] He identifies the US and its allies as one side of the comparison and China as the other. In his account of Biden-era strategy, restricting access to advanced compute could give domestic labs room to pace development while remaining ahead. The interview supplies neither the underlying chip inventory nor a conversion from these ratios to months of model-development lead.
+
+<!-- episode:6e651240993bb96d8d0f -->
+## 2026-11-24 - [Responding to objections to recursive self-improvement](https://www.dwarkesh.com/p/rsiobjections)
+
+- **Patel’s forecast for an automated lab still depends on how much more information it can extract per GPU experiment.** [00:57:27; 00:57:53; 00:58:03; 00:58:56; 01:00:16] He suggests three to six years of algorithmic progress per calendar year in his scenario. Faster researchers could scrutinize loss spikes and design better follow-up runs while experiments continue to take real time. The forecast depends on returns to that extra analysis. He also accepts that slowing compute growth could slow progress if research automation arrives late.

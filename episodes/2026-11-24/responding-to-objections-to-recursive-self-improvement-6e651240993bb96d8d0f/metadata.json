@@ -1,0 +1,36 @@
+{
+  "audio_url": "https://api.substack.com/feed/podcast/226413128/4ad273437a5ffb5c6234fc0a6a855326.mp3",
+  "description_html": "<p>I responded to the strongest objections that people had about the RSI essay.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/Em6tbhj9o6A\">YouTube</a>; read the <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/rsiobjections\">transcript</a>.</p><p>Timestamps</p><p>(00:00:00) \u2013 \u201cDo you have a real job?\u201d</p><p>(00:02:41) \u2013 Cindy Wu: Is AI research a verifiable domain?</p><p>(00:11:10) \u2013 corsaren: The overarching objection</p><p>(00:12:20) \u2013 corsaren: Are the essay\u2019s examples sloppy intuition pumps?</p><p>(00:13:51) \u2013 corsaren: Is online learning AI\u2019s Millennium Prize problem?</p><p>(00:17:39) \u2013 corsaren: Is human evolution evidence for transfer?</p><p>(00:22:20) \u2013 corsaren: Can scaling RL let AIs ramp quickly in new contexts?</p><p>(00:25:31) \u2013 Why take Paul Christiano\u2019s predictions seriously?</p><p>(00:26:26) \u2013 Intuitions for what superintelligence could be like</p><p>(00:29:26) \u2013 Paul\u2019s 2018 prediction and the Hugging Face incident</p><p>(00:32:44) \u2013 How would superhuman AIs actually take over?</p><p>(00:35:12) \u2013 What should we do about AI motivations?</p><p>(00:40:54) \u2013 S\u00e9b Krier: Won\u2019t many different models constrain each other?</p><p>(00:44:09) \u2013 Henry Zhang: Is METR\u2019s finding just one data point?</p><p>(00:49:13) \u2013 Agustin Lebron: Is it still recursive if humans are in the loop?</p><p>(00:53:07) \u2013 Peli: Does AI\u2019s success in math transfer to AI research?</p><p>(00:56:20) \u2013 Henry Dowling: Will AI research be bottlenecked on compute?</p><p>(01:00:21) \u2013 Takeaways, and the next couple of years</p><p>(01:03:30) \u2013 Would we even know?</p><p>(01:03:57) \u2013 Closing thoughts</p> <br/><br/>This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit <a href=\"https://www.dwarkesh.com?utm_medium=podcast&#38;utm_campaign=CTA_1\">www.dwarkesh.com</a>",
+  "description_text": "I responded to the strongest objections that people had about the RSI essay.\n\nWatch on YouTube ; read the transcript .\n\nTimestamps\n\n(00:00:00) \u2013 \u201cDo you have a real job?\u201d\n\n(00:02:41) \u2013 Cindy Wu: Is AI research a verifiable domain?\n\n(00:11:10) \u2013 corsaren: The overarching objection\n\n(00:12:20) \u2013 corsaren: Are the essay\u2019s examples sloppy intuition pumps?\n\n(00:13:51) \u2013 corsaren: Is online learning AI\u2019s Millennium Prize problem?\n\n(00:17:39) \u2013 corsaren: Is human evolution evidence for transfer?\n\n(00:22:20) \u2013 corsaren: Can scaling RL let AIs ramp quickly in new contexts?\n\n(00:25:31) \u2013 Why take Paul Christiano\u2019s predictions seriously?\n\n(00:26:26) \u2013 Intuitions for what superintelligence could be like\n\n(00:29:26) \u2013 Paul\u2019s 2018 prediction and the Hugging Face incident\n\n(00:32:44) \u2013 How would superhuman AIs actually take over?\n\n(00:35:12) \u2013 What should we do about AI motivations?\n\n(00:40:54) \u2013 S\u00e9b Krier: Won\u2019t many different models constrain each other?\n\n(00:44:09) \u2013 Henry Zhang: Is METR\u2019s finding just one data point?\n\n(00:49:13) \u2013 Agustin Lebron: Is it still recursive if humans are in the loop?\n\n(00:53:07) \u2013 Peli: Does AI\u2019s success in math transfer to AI research?\n\n(00:56:20) \u2013 Henry Dowling: Will AI research be bottlenecked on compute?\n\n(01:00:21) \u2013 Takeaways, and the next couple of years\n\n(01:03:30) \u2013 Would we even know?\n\n(01:03:57) \u2013 Closing thoughts\n\nThis is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit www.dwarkesh.com",
+  "duration_seconds": 3923,
+  "feed_id": "dwarkesh",
+  "feed_name": "Dwarkesh Podcast",
+  "feed_priority": 10,
+  "id": "6e651240993bb96d8d0f",
+  "link": "https://www.dwarkesh.com/p/rsiobjections",
+  "published": "2026-11-24T21:45:30+00:00",
+  "title": "Responding to objections to recursive self-improvement",
+  "transcript_source": "publisher_transcript",
+  "transcript_source_url": "https://api.substack.com/feed/podcast/transcript/226413128/9ba472c979284493dee7c251b015d99b.vtt",
+  "transcript_urls": [
+    {
+      "rel": "",
+      "type": "text/vtt",
+      "url": "https://api.substack.com/feed/podcast/transcript/226413128/9ba472c979284493dee7c251b015d99b.vtt"
+    }
+  ],
+  "web_links": [
+    {
+      "text": "YouTube",
+      "url": "https://youtu.be/Em6tbhj9o6A"
+    },
+    {
+      "text": "transcript",
+      "url": "https://www.dwarkesh.com/p/rsiobjections"
+    },
+    {
+      "text": "www.dwarkesh.com",
+      "url": "https://www.dwarkesh.com?utm_medium=podcast&utm_campaign=CTA_1"
+    }
+  ]
+}

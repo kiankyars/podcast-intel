@@ -1020,3 +1020,29 @@ Agents, coding systems, developer tools, evals, harnesses, and real-world deploy
 ## 2026-11-19 - [Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew](https://www.youtube.com/watch?v=_wLzJINt9iQ)
 
 - **Arda's manufacturing agents use a shared process model and frontier models as orchestrators of specialized engineering tools.** [27:46; 27:52; 28:23; 28:28; 28:32; 31:53; 32:05; 32:24; 32:33; 32:39] McGrew says the company first had to build the equivalent of an IDE and versionable data structure for manufacturing engineering, consolidating process knowledge scattered across documents. Existing frontier models can then coordinate CAD inspection, motion planning and specialized algorithms; he says Arda did not need to train its own frontier model for this initial work. [Arda's product description](https://arda.ai/) likewise describes importing CAD, PDFs and product-lifecycle data into a shared model, with engineers reviewing and refining build plans. This is an account of the system's design and current workflow, not evidence that an autonomous agent can validate and manufacture an arbitrary design.
+
+<!-- episode:05dbc66a2c817ae9bf27 -->
+## 2026-11-22 - [First principles: What it takes to be a great product manager in the AI era | Sherif Mansour](https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to)
+
+- **Atlassian uses customer-built Rovo workflows to decide which tasks deserve native product features.** [00:47:20; 00:48:20; 00:48:44; 00:49:02; 00:49:19; 00:49:29] Mansour describes customers asking Rovo Chat to group Confluence whiteboard notes by theme. Selecting the notes on the board and grouping them directly made the task easier to express. In Jira, watching which agents customers place inside recurring workflows gives Atlassian candidates for native ticket triage. He puts activity at nearly ten million agents running in loops per month across Jira and Confluence, without defining whether the count deduplicates agents or customers.
+
+<!-- episode:06f5401f2e4588631abc -->
+## 2026-11-24 - [Scott Wu on Cybersecurity, Compute, and the Future of Engineering - [Invest Like the Best, EP.502]](https://www.youtube.com/watch?v=efoZj_7oVJs)
+
+- **Wu estimates that about 90% of Cognition's internal Devin usage starts automatically, including jobs triggered by software events.** [40:38; 40:42; 40:50; 40:53; 40:59] He distinguishes scheduled jobs from API calls that start work when an incident appears. In the latter case, Devin can begin investigating before an engineer opens a session. This creates demand between human interactions. Wu describes the share as internal usage and leaves the unit unspecified, so the figure cannot be applied to billed tokens, autonomous completions or customer accounts.
+- **Cognition grades coding agents on whether a fix stays in scope and respects a repository's dependency rules, even when the test suite passes.** [48:58; 49:19; 49:36; 49:45; 51:40] Wu describes how extra features or a change that crosses an architectural boundary can make an otherwise functional patch unacceptable. He identifies two harder evaluation problems: making historical design decisions available to the agent and grading a debugging conversation in which the human and agent discover the specification together. He gives no measured gain from these evaluation choices.
+
+<!-- episode:162ecd1d8512899ed66f -->
+## 2026-11-24 - [The Boomer Put, Stripe @ $200B, Microsoft Code Red | John Tesh, Jason Buechel, Brian Halligan, Owen Rapaport & John Harris](https://share.transistor.fm/s/a149a9dd)
+
+- **Halligan estimates that roughly 20–25% of HubSpot functionality is accessible through Claude or ChatGPT and targets full coverage within a few months.** [01:03:07; 01:03:15; 01:03:23; 01:04:24; 01:05:42] He cites forms, landing pages, workflows and CRM context as examples of what agents can already use. He says customers using these integrations have better retention and satisfaction, without quantifying the difference or controlling for which customers opt in. His product bet is that customers will discover HubSpot one task at a time.
+
+<!-- episode:6e651240993bb96d8d0f -->
+## 2026-11-24 - [Responding to objections to recursive self-improvement](https://www.dwarkesh.com/p/rsiobjections)
+
+- **Patel’s worked example puts the payoff from research automation in the share of baseline work it covers.** [00:49:49; 00:50:49; 00:51:05; 00:51:10; 00:51:30] If assisted work runs 50 times faster, accelerating 90% of baseline work time yields about 8.5 times total speed. At 99% coverage the same calculation yields about 34 times. These are illustrations using Amdahl’s law. Actual gains depend on coordination, human review and which tasks sit on the critical path.
+
+<!-- episode:68b9e6bc62d34c055778 -->
+## 2026-11-23 - [Huang Returns, Ferrari 296 CS Stuns, GTA 6 Breaks Sales Records | Julia Black, Bill Gross, Jay Jandrain, Lincoln Murr, Thijs Simonian, Elliott Potter](https://share.transistor.fm/s/ca7b9f75)
+
+- **Worldcraft used about 250 agents to improve one shared generator against thousands of real locations.** [01:45:13; 01:45:38; 01:46:56; 01:47:23; 01:47:36; 01:48:53; 01:49:08] Simonian says the generator combines smaller models and rules. It uses OpenStreetMap building classifications to furnish interiors, so an office may get cubicles even when the real layout is unknown. Serving the world posed a separate problem. The server crashed almost immediately after launching with a 100-player cap. Simonian then worked with experienced Minecraft operators and estimates the rebuilt system can handle thousands of players. He gives no measured peak concurrency.
